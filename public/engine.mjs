@@ -2,7 +2,7 @@ export const TYPES = ['choice', 'fill', 'written'];
 export const TYPE_NAMES = {choice:'選擇題',fill:'填充題',written:'非選擇題'};
 export const LEVEL_NAMES = {easy:'簡單',medium:'中等',hard:'困難'};
 export function eligible(q, f) {
-  return q.reviewed && (!f.year || q.year===Number(f.year)) && (!f.semester || q.semester===Number(f.semester)) && (!f.grade || q.grade===Number(f.grade)) && (!f.exam || q.exam===Number(f.exam)) && (!f.school || q.school===f.school) && (!f.curriculumOnly || q.year>=108+q.grade-7);
+  return q.reviewed && q.typesetVerified===true && (!f.year || q.year===Number(f.year)) && (!f.semester || q.semester===Number(f.semester)) && (!f.grade || q.grade===Number(f.grade)) && (!f.exam || q.exam===Number(f.exam)) && (!f.school || q.school===f.school) && (!f.curriculumOnly || q.year>=108+q.grade-7);
 }
 export function shuffle(items, random=Math.random) {const a=[...items]; for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 export function allocateScores(items, target=100) {

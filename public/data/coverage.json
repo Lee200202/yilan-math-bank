@@ -115,7 +115,7 @@
         115
       ],
       "paperCount": 167,
-      "reviewedQuestionCount": 255,
+      "reviewedQuestionCount": 381,
       "note": "已下載公開原卷。並非所有年度／學期／年級／次別均齊全；部分原卷尚待拆題校對。",
       "checkedPages": [
         "https://www.chjh.ilc.edu.tw/",
@@ -177,7 +177,7 @@
         112
       ],
       "paperCount": 87,
-      "reviewedQuestionCount": 162,
+      "reviewedQuestionCount": 161,
       "note": "已下載公開原卷。並非所有年度／學期／年級／次別均齊全；部分原卷尚待拆題校對。",
       "checkedPages": [
         "https://www.ltjh.ilc.edu.tw/",
@@ -444,7 +444,7 @@
         110
       ],
       "paperCount": 15,
-      "reviewedQuestionCount": 73,
+      "reviewedQuestionCount": 87,
       "note": "已下載公開原卷。並非所有年度／學期／年級／次別均齊全；部分原卷尚待拆題校對。",
       "checkedPages": [
         "https://www.ryjh.ilc.edu.tw/"
@@ -540,10 +540,18 @@
   ],
   "filesDownloaded": 437,
   "paperFiles": 269,
-  "reviewedQuestions": 490,
-  "sourceReviewedQuestions": 619,
-  "pendingTranscriptions": 127,
+  "reviewedQuestions": 629,
+  "sourceReviewedQuestions": 633,
+  "pendingTranscriptions": 0,
   "excludedQuestionIssues": [
+    {
+      "id": "ld-110-1-1-9-fill-12",
+      "reason": "原稿同時使用大寫X/Y與小寫x/y，變數身分不一致；保留原文，待校方確認後再組卷。"
+    },
+    {
+      "id": "zh-113-1-1-9-fill-14",
+      "reason": "原卷題幹A4縮放B4倍率119%，題內箭頭卻印141%，兩者矛盾；保留原文與圖示資料，暫停參與組卷。"
+    },
     {
       "id": "zh-106-1-1-7-fill-3",
       "reason": "原稿以中午12時為基準卻把上午8時記為+8，題意矛盾；忠實轉寫但不供組卷。"
@@ -559,6 +567,7 @@
     "curated-luodong112.json",
     "curated-luodong9.json",
     "curated-neicheng.json",
+    "curated-neicheng109.json",
     "curated-zhonghua-completion.json",
     "curated-zhonghua-earlier.json",
     "curated-zhonghua-extra79.json",

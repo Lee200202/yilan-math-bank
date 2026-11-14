@@ -183,6 +183,8 @@ if 'nc-109-1-1-8-choice-1' in meta:
 # Selected questions are transcribed; any unresolved content would remain unverified.
 def save():
     ids=[q['id'] for q in out];assert len(ids)==len(set(ids))
+    for q in out:
+        if q['id']=='ld-110-1-1-9-fill-12':q['usable']=False;q['sourceIssue']='原稿大寫X/Y與小寫x/y身分不一致，待確認。'
     (R/'transcribed-other-schools.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
     print(len(out),'verified transcripts')
 if __name__=='__main__':save()

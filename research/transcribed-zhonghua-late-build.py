@@ -16,7 +16,7 @@ def T(s):return {'type':'text','text':s}
 def O(*items):return {'type':'options','items':list(items)}
 def TAB(rows,header=True):return {'type':'table','rows':rows,'header':header}
 def SVG(content,w=400,h=250):
- return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %s %s" role="img"><g font-family="serif" font-size="15" fill="#111" stroke-linecap="round" stroke-linejoin="round">%s</g></svg>'%(w,h,content)
+ return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 %s %s" role="img"><g font-family="serif" font-size="15" fill="#111" stroke-linecap="round" stroke-linejoin="round">%s</g></svg>'%(w+20,h+20,content)
 def S(svg):return {'type':'svg','svg':svg}
 def txt(x,y,s,size=15):return f'<text x="{x}" y="{y}" font-size="{size}">{escape(s)}</text>'
 def line(x1,y1,x2,y2,**kw):return f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="#111" stroke-width="1.3" '+ ' '.join(f'{k.replace("_","-")}="{v}"' for k,v in kw.items())+'/>'
@@ -78,6 +78,7 @@ function_graphs=SVG(txt(15,22,'(A)')+line(50,140,200,140)+line(50,140,50,40)+txt
 cube='<g stroke="#67563c" stroke-width="1.2"><path d="M0 12L15 0L41 0L26 12Z" fill="#ffe1ac"/><path d="M26 12L41 0L41 26L26 38Z" fill="#e8b773"/><path d="M0 12H26V38H0Z" fill="#f5cd91"/></g>'
 cubes=SVG('<defs><g id="cube">'+cube+'</g></defs>'+''.join(f'<use href="#cube" transform="translate({x} {y})"/>' for x,y in [(60,25),(45,63),(86,51),(30,101),(71,89),(112,77)])+line(110,35,210,35)+line(110,35,117,31)+line(110,35,117,39)+txt(217,40,'第 1 層')+line(149,64,210,64)+line(149,64,156,60)+line(149,64,156,68)+txt(217,69,'第 2 層')+line(164,96,210,96)+line(164,96,171,92)+line(164,96,171,100)+txt(217,101,'第 3 層')+txt(91,163,'⋮')+txt(108,166,'註：方塊皆不會懸空。',13),375,190)
 fingers=SVG('<path d="M115 223C105 204 90 195 74 175L42 139C34 127 40 116 51 123L87 155L75 77C72 59 86 52 93 70L109 131L107 48C107 31 123 28 126 47L134 128L145 54C148 38 163 40 162 58L158 137L182 87C190 72 202 79 196 97L176 163C169 191 173 212 166 233Z" fill="#f0c1b0" stroke="#9f6c60" stroke-width="1.3"/>'+txt(24,153,'1')+txt(73,61,'2')+txt(112,39,'3')+txt(152,56,'4')+txt(205,116,'5')+txt(183,47,'6')+txt(139,18,'7')+txt(66,25,'8')+txt(15,113,'9')+txt(50,3,'10')+'<path d="M29 135Q43 80 69 66M87 54L107 43M126 43L145 54M166 66L195 105M205 100L190 60M180 38L155 22M133 19L87 24M62 34Q28 61 22 94M20 83Q26 28 47 10M72 2L107 0" fill="none" stroke="#111" stroke-width="1.5"/><path d="M65 65L57 65L63 71M106 43L99 38L100 47M145 54L138 47L137 56M195 105L188 98L187 107M190 60L188 69L196 66M155 22L163 20L160 28M87 24L94 19L95 27M22 94L18 85L27 87M47 10L39 12L44 18" fill="#111"/>',260,255)
+fingers=fingers.replace('viewBox="0 0 260 255"','viewBox="0 0 260 275"').replace('<g font-family=','<g transform="translate(0 15)" font-family=')
 
 P='1aHR70a4p7lkT4zmr5NAomNH48kHY_kMX' # 111 下八年級一段
 R(P,'選擇1',r'已知有小數為 $0.0419419419\cdots$，小數點後的數字有規律，則小數點後第 $60$ 位數字是',O('$4$','$1$','$9$','無法確定'))
@@ -245,7 +246,7 @@ G(P,'fill-8',r'假設某個培養皿中有 $1$ 個細菌，每經過 $1$ 分鐘�
 G(P,'written-1',r'以下是小明、小玉一起到商店買了數杯飲料的過程對話：',r'小明：我們的飲料共計 $2000$ 元。',r'小玉：我先付 $1000$ 元，不夠的部分你幫我出，回家後再還你。','（返家後～）',r'小玉：小明我買的飲料比你多 $6$ 杯，還你 $120$ 元。','若每杯飲料價格相等，請計算出小明買了幾杯飲料？')
 G(P,'written-2',r'若 $A=101\times9996\times10005$，$B=10004\times9997\times101$，求 $A-B$ 之值為何？')
 G(P,'written-3',r'星八客隨行杯因 IG 熱潮造成搶購，某賣場推出：「單桶 $400$ 元，每買 $5$ 桶就加送 $1$ 桶。」小柔和同事一起團購，最後一共拿到 $50$ 桶，則總共應付多少元？')
-G(P,'written-4',r'數線上三點 $A$、$B$、$C$，其坐標分別為 $a$、$b$、$c$。已知 $A$ 在 $B$ 的右邊，$|a-b|=3$，$|b-c|=2$，$|a|=4$，$|b|=1$，求 $c=$ ＿＿。')
+G(P,'written-4',r'數線上三點 $A$、$B$、$C$，其坐標分別為 $a$、$b$、$c$。已知 $A$ 在 $B$ 的右邊，$|a-b|=3$，$|b-c|=2$，$|a|=4$，$|b|=1$，求 $C=$ ＿＿。')
 
 P='zh-115-1-1-9'
 G(P,'fill-1',r'將下列的比化為最簡整數比：$35:45:55=$ ＿＿。')
@@ -375,4 +376,48 @@ G(P,'fill-17',r'有 $A$、$B$、$C$ 三支長短不相同的釘子，$A$ 與 $B$
 G(P,'fill-18',r'如圖，正方形 $ABCD$ 的邊長為 $20$，四邊形 $EFCG$ 為長方形，且 $\overline{CF}=25$，則 $\overline{EF}=$ ＿＿。',S(rotated_rect))
 G(P,'fill-19',r'如圖，$\triangle ABC$ 中，若 $\overline{AE}:\overline{EF}=3:2$，$\overline{AD}:\overline{DC}=1:3$，$\overline{BD}=30$，則 $\overline{BE}=$ ＿＿。',S(tri_aef))
 G(P,'fill-20',r'中華國中操場跑道一圈長 $200$ 公尺，若大雄、小夫、胖虎三人各以等速跑一圈，所花的時間和為 $4$ 分。已知大雄、小夫每分鐘速率比為 $4:3$，而小夫、胖虎每分鐘速率比為 $5:4$，則小夫每分鐘跑＿＿公尺。')
+save()
+
+def curve_plot(f,xa,xb,ox,oy,sx,sy,dashed=False):
+ ps=[(ox+(xa+(xb-xa)*i/80)*sx,oy-f(xa+(xb-xa)*i/80)*sy) for i in range(81)]
+ return '<polyline points="'+' '.join(f'{x:.3f},{y:.3f}' for x,y in ps)+'" fill="none" stroke="#111" stroke-width="1.3"'+(' stroke-dasharray="4 4"' if dashed else '')+'/>'
+parabola_options=SVG(line(30,155,245,155)+line(140,270,140,30)+txt(247,160,'x')+txt(134,24,'y')+txt(121,177,'O')+curve_plot(lambda x:4*x*x,-1.5,1.5,140,155,38,12)+curve_plot(lambda x:6*x*x,-1.22,1.22,140,155,38,12,True)+curve_plot(lambda x:2.6*x*x,-1.86,1.86,140,155,38,12,True)+curve_plot(lambda x:-6*x*x,-1.22,1.22,140,155,38,12,True)+curve_plot(lambda x:-2.6*x*x,-1.86,1.86,140,155,38,12,True)+txt(151,41,'甲')+txt(209,50,'乙')+txt(164,273,'丙')+txt(213,273,'丁')+txt(195,18,'y＝4x²')+line(205,23,191,46),285,295)
+parabola_line=SVG(line(35,185,260,185)+line(140,218,140,25)+txt(262,190,'x')+txt(135,20,'y')+txt(122,205,'O')+curve_plot(lambda x:2*x*x,-2.35,2.35,140,185,32,13)+line(57,200.5,229,60.75)+txt(234,61,'L')+txt(210,87,'A')+txt(160,140,'B')+line(158,139,141,133)+txt(100,166,'C')+txt(46,41,'y＝ax²'),290,240)
+def boxplot(vals,y,scale=2.4,origin=38,labels=False):
+ mn,q1,med,q3,mx=vals;xx=lambda v:origin+v*scale
+ s=line(xx(mn),y,xx(mx),y)+line(xx(mn),y-10,xx(mn),y+10)+line(xx(mx),y-10,xx(mx),y+10)
+ s+='<rect x="'+str(xx(q1))+'" y="'+str(y-14)+'" width="'+str((q3-q1)*scale)+'" height="28" fill="white" stroke="#111"/>'+line(xx(med),y-14,xx(med),y+14)
+ if labels:s+=''.join(txt(xx(v)-8,y-23,str(v),13) for v in vals)
+ return s
+box_single=SVG(line(25,15,25,125)+line(25,125,300,125)+''.join(line(38+v*2.4,119,38+v*2.4,125)+txt(30+v*2.4,146,str(v),13) for v in [20,40,60,80,100])+boxplot([17,32,60,73,94],78,labels=True),330,165)
+# Unlabelled quartile positions follow the source drawing; no inferred values are printed.
+box_four=SVG(line(35,15,35,215)+line(35,215,300,215)+''.join(line(35+v*2.5,208,35+v*2.5,215)+txt(28+v*2.5,236,str(v),13) for v in [0,20,40,60,80,100])+''.join(txt(7,y+5,label)+boxplot(values,y,2.5,35) for label,y,values in [('甲',40,[13,34,50,65,78]),('乙',88,[7,40,50,60,90]),('丙',136,[13,53,70,90,96]),('丁',184,[10,20,40,50,98])])+txt(174,260,'成績（分）'),330,280)
+hist=SVG(line(45,15,45,205)+line(45,205,307,205)+''.join(line(45,205-n*20,300,205-n*20,stroke_dasharray='4 4')+txt(27,210-n*20,str(n),13) for n in range(2,10,2))+''.join('<rect x="'+str(60+i*32)+'" y="'+str(205-v*20)+'" width="32" height="'+str(v*20)+'" fill="#ddd" stroke="#111"/>' for i,v in enumerate([4,6,8,7,8,6,6]))+''.join(txt(50+i*32,229,str(30+i*5),13) for i in range(8))+txt(7,22,'人數')+txt(166,255,'體重（公斤）'),330,275)
+pool=SVG('<path d="M35 25Q130 335 225 25" fill="none" stroke="#111" stroke-width="1.5"/><path d="M82.5 141.25Q130 218.75 177.5 141.25Z" fill="#bbb" stroke="none"/>'+line(15,25,35,25)+line(225,25,245,25)+line(35,25,225,25,stroke_dasharray='4 4')+line(82.5,141.25,177.5,141.25,stroke_dasharray='4 4')+txt(21,48,'D')+txt(229,48,'E')+txt(119,19,'Q')+txt(118,134,'P')+txt(62,145,'A')+txt(182,145,'B')+txt(122,202,'C')+'<circle cx="130" cy="25" r="2.5"/><circle cx="130" cy="141.25" r="2.5"/>',265,220)
+P='zh-114-2-1-9'
+G(P,'choice-1','下列何者為二次函數？',O(r'$y=0$',r'$y=13-5x^2$',r'$y=22x-5$',r'$y=-2x^3+5x^2-3$'))
+G(P,'choice-2','下列哪一個二次函數的圖形開口最大？',O(r'$y=\dfrac25x^2$',r'$y=-5x^2$',r'$y=\dfrac{125}{49}x^2$',r'$y=-\dfrac{49}{125}x^2$'))
+G(P,'choice-3',r'如下圖，若 $y=4x^2$ 圖形為實線的部分，則 $y=5x^2$ 的圖形最接近哪一條虛線圖形？',S(parabola_options),O('甲','乙','丙','丁'))
+G(P,'choice-4',r'已知有一個二次函數的圖形通過原點，且頂點坐標為 $(2,4)$，則此二次函數為下列何者？',O(r'$y=-(x-2)^2-4$',r'$y=-(x-2)^2+4$',r'$y=2(x-2)^2+4$',r'$y=2(x+2)^2-4$'))
+G(P,'choice-5',r'下列哪一個函數，其圖形與 $x$ 軸沒有交點？',O(r'$y=2(x+81)^2+2026$',r'$y=2(x-81)^2$',r'$y=-2(x+81)^2+2026$',r'$y=-2(x-81)^2+2026$'))
+G(P,'choice-6',r'若 $a$、$b$、$c$ 皆為正數，方程式 $x=-4$ 分別與 $x$ 軸、$y=ax^2$、$y=bx^2$、$y=cx^2$ 交於 $H$、$A$、$B$、$C$ 四點，且 $\overline{BH}>\overline{AH}>\overline{CH}$，則 $a$、$b$、$c$ 的大小關係為何？',O(r'$b<c<a$',r'$a<c<b$',r'$c<a<b$',r'$b<a<c$'))
+G(P,'choice-7',r'二次函數 $y=2(x-h)^2+k$ 圖形的對稱軸方程式為 $x=2$，且當 $x_1=0$、$x_2=1$、$x_3=\sqrt{10}$ 時，所對應的函數值分別為 $y_1$、$y_2$、$y_3$，則 $y_1$、$y_2$、$y_3$ 的大小關係為何？',O(r'$y_3>y_2>y_1$',r'$y_1>y_3>y_2$',r'$y_1>y_2>y_3$',r'$y_2>y_3>y_1$'))
+G(P,'choice-8',r'已知 $A$、$B$ 兩個二次函數的圖形是以方程式 $y=2$ 為對稱軸的對稱圖形，若二次函數 $B$ 為 $y=-3(x-1)^2+3$，則二次函數 $A$ 為何？',O(r'$y=3(x-1)^2+1$',r'$y=-3(x+1)^2+1$',r'$y=3(x-1)^2-3$',r'$y=-3(x+1)^2-3$'))
+G(P,'fill-9',r'如下圖，直線 $L$ 與拋物線 $y=ax^2$ 相交於 $A(2,8)$ 與 $C$ 兩點，且與 $y$ 軸相交於 $B(0,4)$，則 $a=$ ＿＿。',S(parabola_line))
+G(P,'fill-10',r'設方程式 $y=7$ 與拋物線 $y=x^2$ 交於 $A_1$、$A_2$ 兩點，與拋物線 $y=2x^2$ 交於 $B_1$、$B_2$ 兩點，與拋物線 $y=3x^2$ 交於 $C_1$、$C_2$ 兩點，比較 $\overline{A_1A_2}$、$\overline{B_1B_2}$、$\overline{C_1C_2}$ 的大小關係。答：＿＿。')
+G(P,'fill-11',r'已知二次函數 $y=3(x-2)^2+4$ 的圖形上有一點 $P(3,a)$，若將此函數圖形平移後，與二次函數 $y=3(x-3)^2-2$ 的圖形完全疊合，則平移後的 $P$ 點坐標為＿＿。')
+G(P,'fill-12',r'有一個二次函數的圖形與 $x$ 軸交於 $(1,0)$、$(5,0)$ 兩點，且此二次函數的最大值為 $6$，則此二次函數的頂點坐標為＿＿。')
+G(P,'fill-13',r'下圖是某班學生第一次段考數學成績的盒狀圖，該班學生數學成績的全距是 $a$ 分，四分位距是 $b$ 分，則 $a+b=$ ＿＿。',S(box_single))
+G(P,'fill-14',r'九年級有 $72$ 位學生，每人踢 $10$ 球，進球數如下表：',TAB([['進球數（球）']+[f'${i}$' for i in range(11)],['次數（人）']+[f'${v}$' for v in [4,5,9,7,8,9,8,7,6,5,4]]]),r'則九年級學生進球數的四分位距是＿＿球。')
+G(P,'fill-15',r'九年級學生共有 $400$ 人參加英語測驗，已知所有學生成績的 $Q_1$ 是 $34$ 分，則至少有＿＿位學生的英語成績大於或等於 $34$ 分。')
+G(P,'fill-16',r'下圖為甲、乙、丙、丁四班的體育游泳成績盒狀圖，游泳成績不及格（未達 $60$ 分）比例最多的是＿＿班。',S(box_four))
+G(P,'fill-17',r'下圖是某班學生體重的次數分配直方圖，則 $Q_1$ 在＿＿公斤這一組。',S(hist))
+G(P,'fill-18',r'已知 $A$、$B$ 兩點皆在 $y=x^2$ 的圖形上，若 $A$、$B$ 兩點皆與 $x$ 軸的距離 $7$ 個單位，則 $\overline{AB}$ 的長度 $=$ ＿＿。')
+G(P,'fill-19',r'已知二次函數 $y=(a^2-3)x^2$ 的圖形是開口向下的拋物線，且通過點 $(3,-18)$，則 $a=$ ＿＿。')
+G(P,'fill-20',r'如下圖，有一蓄水池的截面形如拋物線，已知 $C$ 為最低點，且當水深為 $2$ 公尺時，水面寬為 $4$ 公尺，則當水深為 $8$ 公尺時，水面寬為＿＿公尺。',S(pool))
+G(P,'fill-21',r'小珍設計了一個噴水池，其噴泉水珠移動的軌跡為拋物線。已知經過 $x$ 秒後，其高度為 $y$ 公尺，且此拋物線軌跡的關係式為 $y=-(x-4)^2+3$，則當經過 $3$ 秒後，此時水珠的高度為＿＿公尺。')
+G(P,'fill-23',r'已知二次函數 $y=a(x-h)^2+k$ 圖形的對稱軸方程式為 $x-3=0$，且通過點 $(1,6)$、$(7,12)$，則 $k=$ ＿＿。')
+G(P,'fill-24',r'將 $98$ 個成績由小到大排列，其中第 $71$ 個到第 $80$ 個分數為 $61$、$62$、$63$、$64$、$65$、$66$、$67$、$68$、$69$、$70$ 分，則 $Q_3$ 為＿＿分。')
+G(P,'fill-25',r'有 $7$ 個正整數，其平均數為 $8$，中位數為 $9$，眾數為 $12$，且其中三數為 $2$、$6$、$10$，則此 $7$ 個數的四分位距為＿＿。')
+next(q for q in OUT if q['id']=='zh-113-1-1-9-fill-14').update(usable=False,sourceIssue='原卷題幹A4縮放B4倍率119%，題內箭頭卻印141%，兩者矛盾；保留原文與圖示資料，暫停參與組卷。')
 save()
