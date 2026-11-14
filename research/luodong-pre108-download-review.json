@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-11-14",
+  "source": "官方WordPress posts API的既存完整回應（research/luodong-api-audit.json），按原文標題及年級標頭擷取數學下載連結。",
+  "requestedYears": [
+    105,
+    106,
+    107
+  ],
+  "links": 51,
+  "downloaded": 51,
+  "byYear": {
+    "107": 17,
+    "106": 17,
+    "105": 17
+  },
+  "formats": {
+    ".pdf": 40,
+    ".doc": 8,
+    ".docx": 3
+  },
+  "uniqueDownloadedHashes": 49,
+  "duplicates": [
+    {
+      "id": "ld-106-1-1-9",
+      "duplicateOf": "ld-106-2-1-9",
+      "sourceUrl": "https://2blog.ilc.edu.tw/wp-content/uploads/sites/2448/16771/16771-4009097.pdf"
+    },
+    {
+      "id": "ld-105-2-1-8",
+      "duplicateOf": "ld-106-1-1-8",
+      "sourceUrl": "https://2blog.ilc.edu.tw/wp-content/uploads/sites/2448/16771/16771-3861428.doc"
+    }
+  ],
+  "limitations": "來源標頭按官網保留；除了另行視覺核對之題目，尚未逐份核對原卷卷首。"
+}

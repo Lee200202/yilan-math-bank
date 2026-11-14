@@ -1,0 +1,77 @@
+{
+  "reviewDate": "2026-11-14",
+  "questions": 105,
+  "byType": {
+    "choice": 25,
+    "fill": 78,
+    "written": 2
+  },
+  "byYearSemester": {
+    "110-1": 24,
+    "108-2": 13,
+    "109-2": 13,
+    "110-2": 9,
+    "111-2": 9,
+    "112-2": 11,
+    "113-2": 11,
+    "114-2": 15
+  },
+  "reviewMethod": "實際開啟110上完整2頁與7份下學期第一頁原卷PNG，接著逐題看105個精確裁框的14張contact sheets。發現112下填充5的分式分子頂端過緊，已擴大裁框並重新渲染第10張確認完整；114下填充9排除原頁首橫線後亦重新檢視。",
+  "reviewedSheets": [
+    "review-zhonghua-completion/crops-1.png",
+    "review-zhonghua-completion/crops-2.png",
+    "review-zhonghua-completion/crops-3.png",
+    "review-zhonghua-completion/crops-4.png",
+    "review-zhonghua-completion/crops-5.png",
+    "review-zhonghua-completion/crops-6.png",
+    "review-zhonghua-completion/crops-7.png",
+    "review-zhonghua-completion/crops-8.png",
+    "review-zhonghua-completion/crops-9.png",
+    "review-zhonghua-completion/crops-10.png",
+    "review-zhonghua-completion/crops-11.png",
+    "review-zhonghua-completion/crops-12.png",
+    "review-zhonghua-completion/crops-13.png",
+    "review-zhonghua-completion/crops-14.png"
+  ],
+  "scope": [
+    "110上八年級第一次段考完整24大題（單選5、基礎填充11、進階填充6、計算2）。",
+    "108下為第二次段考七年級原PDF，符合108課綱入學梯次。",
+    "109至114下皆第一次段考八年級，本批收第一頁可完整單框裁切的題組，未宣稱整卷已拆題完成。"
+  ],
+  "excluded": [
+    {
+      "year": 110,
+      "semester": 2,
+      "section": "填充",
+      "number": 2,
+      "reason": "此大題實際是4題是非判斷，保留是非身分，暫排除。"
+    },
+    {
+      "year": 111,
+      "semester": 2,
+      "section": "是非",
+      "number": "1–6",
+      "reason": "是非題暫不納入三題型schema。"
+    },
+    {
+      "year": 111,
+      "semester": 2,
+      "section": "選擇",
+      "number": 4,
+      "reason": "題幹與圖在左欄底、選項續右欄頂，單框會混入其他題，暫排除。"
+    },
+    {
+      "year": 113,
+      "semester": 2,
+      "section": "是非",
+      "number": "1–7（第4題含4子題）",
+      "reason": "是非題暫不納入三題型schema。"
+    }
+  ],
+  "notes": [
+    "難度為編輯判斷，非官方難度。",
+    "圖內原配分與原題訂正文字保留，新卷配分需另標示。",
+    "110上計算2裁框高431pt，列印需確保完整容納。",
+    "108上七年級單選6跨欄題繼續保持排除，未修改schema。"
+  ]
+}

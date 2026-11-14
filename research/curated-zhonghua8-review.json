@@ -1,0 +1,56 @@
+{
+  "reviewDate": "2026-11-14",
+  "questions": 32,
+  "byType": {
+    "fill": 27,
+    "written": 4,
+    "choice": 1
+  },
+  "byPaper": {
+    "1aDSOOkqBVHxfjza6Y2Di4qnEI_Kcr2gn": 21,
+    "1wUCFV5eX0oZw3IM_zpkfB2QdFavSGydG": 11
+  },
+  "reviewMethod": "逐頁開啟原卷PNG，再逐一檢視32個精確裁切框的四張contact sheets。所有公式、選項、必要圖形及子題完整，未混入鄰題。",
+  "sourcePagesReviewed": [
+    "115上八年級一段:p0,p1",
+    "114上八年級一段:p0,p1"
+  ],
+  "reviewedSheets": [
+    "review-zhonghua8/crops-1.png",
+    "review-zhonghua8/crops-2.png",
+    "review-zhonghua8/crops-3.png",
+    "review-zhonghua8/crops-4.png"
+  ],
+  "excluded": [
+    {
+      "paperId": "1wUCFV5eX0oZw3IM_zpkfB2QdFavSGydG",
+      "sourceSection": "是非題",
+      "numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reason": "目前組卷模型僅choice/fill/written，保留是非題身分，暫不冒充四選一。"
+    },
+    {
+      "paperId": "1wUCFV5eX0oZw3IM_zpkfB2QdFavSGydG",
+      "sourceSection": "選擇題",
+      "number": 2,
+      "reason": "題幹左欄底、圖與選項右欄頂；單一矩形將混入其他題，暫排除。"
+    }
+  ],
+  "notes": [
+    "115的基礎題與進階題皆按原卷填答格式收為fill，部分有ABCD也不改為choice。",
+    "115第三部分計算題第1題雖有ABCD標示，要求計算再排列，按原卷身分為written。",
+    "原始number含來源分區名稱（基礎1、進階1、計算1），避免同卷不同分區題號重複。",
+    "114填充第1題的6個子題完整保留為一大題，裁圖較長，列印需確保可容納。",
+    "114計算題保留題幹內原配分6/3分字樣；調整新卷配分時需說明來源分數與新配分差異。"
+  ]
+}
