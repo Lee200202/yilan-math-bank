@@ -16,6 +16,15 @@ SOURCE_NAMES = {
     'taipei-xingfu': ('臺北市立興福國民中學', 'https://www.hfjh.tp.edu.tw/office/div_200/section_210/%E6%AE%B5%E8%80%83%E9%A1%8C%E5%BA%AB/'),
     'new_taipei-xikun': ('新北市立溪崑國民中學', 'https://www.ckjhs.ntpc.edu.tw/p/403-1000-196.php'),
     'new_taipei-zhongzheng': ('新北市立中正國民中學', 'https://www.ccjhs.ntpc.edu.tw/p/403-1000-114.php'),
+    'taipei-chengzheng': ('臺北市立誠正國民中學', 'https://www.ccjh.tp.edu.tw/nss/p/546421'),
+    'new_taipei-sanhe': ('新北市立三和國民中學', 'https://www.shjh.ntpc.edu.tw/p/403-1000-76.php'),
+    'new_taipei-fuhe': ('新北市立福和國民中學', 'https://www.fhjh.ntpc.edu.tw/p/403-1000-78.php'),
+    'new_taipei-wufeng': ('新北市立五峰國民中學', 'https://www.wfjh.ntpc.edu.tw/p/403-1000-77.php'),
+    'new_taipei-lujiang': ('新北市立鷺江國民中學', 'https://www.ljjh.ntpc.edu.tw/p/403-1000-107.php'),
+    'new_taipei-xinzhuang': ('新北市立新莊國民中學', 'https://www.hcjh.ntpc.edu.tw/p/403-1000-173.php'),
+    'new_taipei-yonghe': ('新北市立永和國民中學', 'https://www.jhjhs.ntpc.edu.tw/p/412-1000-175.php'),
+    'taichung-dahua': ('臺中市立大華國民中學', 'https://dhjh.tc.edu.tw/p/403-1154-1470-1.php'),
+    'taichung-daye': ('臺中市立大業國民中學', 'https://sites.google.com/mail.dyjh.tc.edu.tw/test-memory-new'),
     'taoyuan-ziqiang': ('桃園市立自強國民中學', 'https://drive.google.com/drive/folders/1BQFNJxFEFHDd76cIHCe0FjmXRJ2Cg7oD'),
     'taichung-xiangshang': ('臺中市立向上國民中學', 'https://hsjh.tc.edu.tw/p/403-1103-1921-1.php'),
     'kaohsiung-meinong': ('高雄市立美濃國民中學', 'https://hakka.mtjh.kh.edu.tw/exam/exam-section.htm'),
@@ -44,8 +53,10 @@ def build(root, unit_ids):
                  'officialName': SOURCE_NAMES[key][0], 'entry': SOURCE_NAMES[key][1], 'crawledAt': src['crawledAt'],
                  'mathFiles': 0, 'questionFiles': 0, 'answerFiles': 0, 'unresolvedSlot': 0, 'downloadFailed': 0,
                  'years': set(), 'transcribedPapers': 0, 'questions': 0}
+        stats['archivesNotExtracted'] = 0
         for f in files:
             if f['kind'] == 'archive':
+                stats['archivesNotExtracted'] += bool(f.get('archiveStatus'))
                 continue
             stats['mathFiles'] += 1
             if f['kind'] != 'question':

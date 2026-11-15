@@ -41,6 +41,12 @@ button.step-zone.is-active-step:not(:disabled){animation:btn-breathe 2.2s ease-i
 .region-tag{display:inline-block;font-size:11px;font-weight:600;color:#fff;background:var(--r-yilan);border-radius:5px;padding:1px 6px;margin-right:7px;vertical-align:2px}
 .r-taipei{background:var(--r-taipei)}.r-new_taipei{background:var(--r-new_taipei)}.r-taoyuan{background:var(--r-taoyuan)}.r-taichung{background:var(--r-taichung)}.r-kaohsiung{background:var(--r-kaohsiung)}
 
+.ready-toggle{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:#234b40;font-weight:600;cursor:pointer}.ready-toggle input{width:16px;height:16px;accent-color:#234b40}
+
+.library-filters{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}.library-filters select{width:100%;min-width:0}
+@media(max-width:1100px){.library-filters{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:760px){.library-filters{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
 /* ---------- empty state: three guide cards ---------- */
 .empty-preview h2{margin-bottom:22px}
 .guide-cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,170px));gap:14px;text-align:left}
