@@ -8,10 +8,17 @@
 - 新全卷：中華114下八3（21題）、114上九1（25題），三和114下八2（25題）、八3（23/25題可用，12及16原稿多解停用）；向上114下七3從parked恢復24/25題，撲克牌人物花色題仍停用，不猜圖。
 - 修正圖形選項標籤重複、向上積木／剪紙選項漏圖、大灣八下第一次第12題SVG座標越界，並放大棋盤刻度、移開費用圖標題與G交點標字。
 - 修正小型PDF的楷體子集字形消失：fontkit短loca要求偶數glyph offset，字型產出加2-byte對齊。內城110上八抽班卷原本可擷取文字卻印不出部分字形，現逐頁確認正常。未改成圖片或輪廓化整頁文字。
-- `npm test` 65/65；`npm run build`；`qa-scoring.mjs` 13項；`qa-workbench.mjs` 18項；`qa-requested-papers.mjs` 26項通過。最後一項的跨校檢查改明確限定宜蘭，避免新增都會區後誤把全站學校數硬寫為3。
+- `npm test` 最終66/66（含下載網址中文編碼回歸）；`npm run build`；`qa-scoring.mjs` 13項；`qa-workbench.mjs` 18項；`qa-requested-papers.mjs` 26項通過。最後一項的跨校檢查改明確限定宜蘭，避免新增都會區後誤把全站學校數硬寫為3。
 - v14新增20卷與本次5卷共25卷、86頁，全數重新匯出並逐頁目視。每卷題數／題號相符、0點陣影像、單一楷體、嵌入glyph全可解碼、SVG不越viewBox、版面不越頁底；PDF還原ID／題序／配分一致，桌機與390px各區篩選無橫向溢出。必要圖表與獨立題共同條件保留，部分末頁仍有不可硬塞的留白，不為減頁縮小字級或刪條件。
 - 可重驗證據：`handoff/batches/20261115-v15/acceptance.json`、`pdf-acceptance.json`、兩份助手逐頁視覺紀錄。`python scripts/verify_release.py handoff/batches/20261115-v15/acceptance.json` 已通過來源、build、PDF及每頁hash一致性檢查。
 - 已建AI_HANDOFF、AGENTS、CLAUDE入口、共享認領／待辦與快照、官方原卷補下載驗SHA工具；停用舊廣泛git-add／自動push流程，避免未驗收同時到件檔順帶上架。中華1qzc卷首學期衝突保留pending及header圖片證據。
+
+### 正式站實測
+
+- `dc5b4e5` 部署成功：[GitHub Actions](https://github.com/Lee200202/yilan-math-bank/actions/runs/43694851806)。正式站實際載入v15、2,617可用題、1,528原卷；app、typesetter、資料（正規化換行後）及TTF字型位元組與本機驗收版本一致。
+- 透過正式站實際按鈕載入本次5份全卷、內城字形回歸卷、大灣圖形回歸卷共7份，逐份按「下載PDF」、再匯入，29頁輸出均無點陣圖，嵌入字形可解碼，題序／配分／ID完整還原。新增九年級4題重新組卷及換題只改單題，390px無橫向溢出，無瀏覽器錯誤。
+- 原生瀏覽器亦實際點入中華114上九1的歷屆卷卡與「查看全卷文字題」，25題完整載入。數據與操作證據：`handoff/batches/20261115-v15/live-acceptance.json`；截圖在本機 `qa/live-v15/desktop.png`、`mobile.png`。
+- 交接補下載工具實際重抓羅東112上八2官方PDF（1,327,109 bytes）、向上Drive壓縮包（3,695,614 bytes）與指定數學成員（711,046 bytes），皆與原SHA256相符。已修正中文檔名的URL編碼，不把權限／錯誤網頁當原卷。
 
 ## 歷史驗收紀錄
 

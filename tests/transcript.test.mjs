@@ -41,3 +41,20 @@ test('Kai PDF source uses even glyph offsets so small fontkit subsets do not los
  const long=font.readInt16BE(tables.head.offset+50)===1,step=long?4:2;
  for(let p=tables.loca.offset;p<tables.loca.offset+tables.loca.length;p+=step){const offset=long?font.readUInt32BE(p):font.readUInt16BE(p)*2;assert.equal(offset%2,0,'Odd glyph offsets corrupt short PDF loca subsets');}
 });
+
+test('official source downloader encodes Chinese paths and preserves existing percent escapes',()=>{
+ const code=String.raw`
+import sys
+from unittest.mock import patch, MagicMock
+sys.path.insert(0,'scripts')
+from fetch_paper import download
+response=MagicMock()
+response.__enter__.return_value.read.return_value=b'%PDF-test'
+with patch('urllib.request.urlopen',return_value=response) as opener:
+ assert download('https://example.test/數學%20試卷.pdf')==b'%PDF-test'
+ url=opener.call_args.args[0].full_url
+ assert url=='https://example.test/%E6%95%B8%E5%AD%B8%20%E8%A9%A6%E5%8D%B7.pdf',url
+print('ok')
+`;
+ assert.equal(execFileSync('python',['-c',code],{encoding:'utf8'}).trim(),'ok');
+});

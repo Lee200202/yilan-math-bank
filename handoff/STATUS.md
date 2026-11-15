@@ -1,9 +1,9 @@
 # 資料快照
 
-2026-11-15T08:29:35.115116+00:00
+2026-11-15T08:39:01.460893+00:00
 
 ```text
-版本 20261115-metro-v15 / 5c9499f2
+版本 20261115-metro-v15 / dc5b4e55
 原卷 1528；可用題 2617；狀態 {'partial': 38, 'pending': 1415, 'complete': 65, 'complete-with-source-issues': 10}
 kaohsiung: 尚待 33 卷，接續 metro-kaohsiung-e02156b47ddeeb35, metro-kaohsiung-4b70fe3ce1dec252, metro-kaohsiung-8e2d0ff29aa419d6
 new_taipei: 尚待 331 卷，接續 metro-new_taipei-e2c17f6cb4474c24, metro-new_taipei-bd58e37631b2b9dd, metro-new_taipei-7cd592b6bb5523d9

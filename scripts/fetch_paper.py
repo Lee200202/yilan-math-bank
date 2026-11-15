@@ -32,6 +32,8 @@ def download(url):
         url = 'https://drive.usercontent.google.com/download?' + urllib.parse.urlencode(params)
     else:
         url = urllib.parse.urlunsplit(parsed._replace(fragment=''))
+    # Official filenames often contain literal Chinese; preserve existing % escapes.
+    url = urllib.parse.quote(url, safe=":/?=&%,#()")
     request = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (public-exam-handoff/1.0)'})
     with urllib.request.urlopen(request, timeout=60) as response:
         return response.read()
