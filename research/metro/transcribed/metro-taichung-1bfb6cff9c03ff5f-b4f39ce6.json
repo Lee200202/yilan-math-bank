@@ -1,0 +1,706 @@
+{
+  "paperId": "metro-taichung-1bfb6cff9c03ff5f-b4f39ce6",
+  "sourceSha256": "b4f39ce61f01575795394f5d1ad55262b8be37e052b65b35b896aa118995ee22",
+  "printedHeader": "114學年度第二學期臺中市立向上國民中學第三次定期評量 一年級 數學科試題（段考範圍：4-1～6-1）",
+  "printedSlot": {
+    "year": 114,
+    "semester": 2,
+    "grade": 7,
+    "exam": 3
+  },
+  "printedCounts": "選擇10題、填充13格、非選擇2題；第3頁為空白作答卷，第4頁為答案。",
+  "visualReviewComplete": true,
+  "reviewNote": "四頁逐頁以影像核對，並以第4頁答案驗算。選擇6十字棋盤與選項棋子、選擇9兩班長條圖、填充10飛鏢圖、非選1次數折線圖、非選2方格圖形以向量重繪；選擇8、填充3、填充13表格照原表。選擇3（撲克牌照片）、選擇4（立體積木圖）、選擇10（摺紙剪紙彩圖）無法忠實重繪，標為不可用。；2026-11-15重新核對第1、2頁：選擇4積木外露面及四組上視方格、選擇10摺法／剪線及四組剪紙選項已重繪SVG並恢復可用。圖形選項用optionFigures僅印一組A–D。選擇3撲克牌人物花色仍排除，未以猜圖代替。",
+  "expectedTypes": {
+    "choice": 10,
+    "fill": 13,
+    "written": 2
+  },
+  "questions": [
+    {
+      "type": "choice",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-5-1",
+      "unitIds": [
+        "nanyi-7-2-5-1"
+      ],
+      "unitAssignmentBasis": "文字敘述轉為不等式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列各敘述轉化為不等式，何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$2x$ 超過 $7$：$2x>7$",
+            "$2x$ 不小於 $7$：$2x\\le7$",
+            "$2x$ 至少 $7$：$2x>7$",
+            "$2x$ 不超過 $7$：$2x<7$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "解一元一次不等式並判斷解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列何者不是不等式 $3(x+2)-5(x-1)>1$ 的解？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$0$",
+            "$-2$",
+            "$1$",
+            "$5$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "3",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-1-1",
+      "unitIds": [
+        "nanyi-7-2-1-1"
+      ],
+      "unitAssignmentBasis": "線對稱圖形的判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若不看撲克牌左上、右下的數字和圖案，下列哪一張牌中間的花色分佈不是線對稱圖形？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "紅心 9",
+            "人頭牌 K",
+            "黑桃 8",
+            "方塊 5"
+          ]
+        }
+      ],
+      "usable": false,
+      "sourceIssue": "選項為撲克牌照片（含人頭牌圖像），牌面花色排列無法以向量忠實重繪。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "4",
+      "page": 1,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-7-2-1-1",
+      "unitIds": [
+        "nanyi-7-2-1-1"
+      ],
+      "unitAssignmentBasis": "立體積木的三視圖。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "小智用 $10$ 塊相同的正方體積木堆成右圖的立體圖形。若拿掉其中一個積木後，其『前視圖』與『右視圖』均保持不變，但『上視圖』與原先不同，請問拿掉後的『上視圖』不可能為何？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 125,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 380\"><path d=\"M80 126V207H158V126Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M80 207L54 234H133L158 207Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M27 260V339H106V260Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M27 260L54 234H133L106 260Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M106 260L133 234V313L106 339Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M133 234V313H212V234Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M133 160V239H212V160Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M133 160L159 134H238L212 160Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M212 160L238 134V213L212 239Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M238 188L265 188V213H238Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M212 239L239 213H318L291 239Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M188 265V344H267V265Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M188 265L212 239H291L267 265Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M267 265L291 239V318L267 344Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M291 239L318 213V292L291 318Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M80 48V127H159V48Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M80 48L107 21H186L159 48Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M159 48L186 21V100L159 127Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"6\" y=\"365\" font-size=\"18\">前</text></svg>"
+        },
+        {
+          "type": "optionFigures",
+          "maxHeight": 90,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 90\"><text x=\"3\" y=\"76\" font-size=\"16\">(A)</text><rect x=\"30\" y=\"8\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"54\" y=\"8\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"78\" y=\"8\" width=\"24\" height=\"24\" fill=\"#fff\" stroke=\"#111\"/><rect x=\"30\" y=\"32\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"54\" y=\"32\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"78\" y=\"32\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"30\" y=\"56\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"54\" y=\"56\" width=\"24\" height=\"24\" fill=\"#fff\" stroke=\"#111\"/><rect x=\"78\" y=\"56\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><text x=\"133\" y=\"76\" font-size=\"16\">(B)</text><rect x=\"160\" y=\"8\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"184\" y=\"8\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"208\" y=\"8\" width=\"24\" height=\"24\" fill=\"#fff\" stroke=\"#111\"/><rect x=\"160\" y=\"32\" width=\"24\" height=\"24\" fill=\"#fff\" stroke=\"#111\"/><rect x=\"184\" y=\"32\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"208\" y=\"32\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"160\" y=\"56\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"184\" y=\"56\" width=\"24\" height=\"24\" fill=\"#fff\" stroke=\"#111\"/><rect x=\"208\" y=\"56\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><text x=\"263\" y=\"76\" font-size=\"16\">(C)</text><rect x=\"290\" y=\"8\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"314\" y=\"8\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"338\" y=\"8\" width=\"24\" height=\"24\" fill=\"#fff\" stroke=\"#111\"/><rect x=\"290\" y=\"32\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"314\" y=\"32\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"338\" y=\"32\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"290\" y=\"56\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"314\" y=\"56\" width=\"24\" height=\"24\" fill=\"#fff\" stroke=\"#111\"/><rect x=\"338\" y=\"56\" width=\"24\" height=\"24\" fill=\"#fff\" stroke=\"#111\"/><text x=\"393\" y=\"76\" font-size=\"16\">(D)</text><rect x=\"420\" y=\"8\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"444\" y=\"8\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"468\" y=\"8\" width=\"24\" height=\"24\" fill=\"#fff\" stroke=\"#111\"/><rect x=\"420\" y=\"32\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"444\" y=\"32\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"468\" y=\"32\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/><rect x=\"420\" y=\"56\" width=\"24\" height=\"24\" fill=\"#fff\" stroke=\"#111\"/><rect x=\"444\" y=\"56\" width=\"24\" height=\"24\" fill=\"#fff\" stroke=\"#111\"/><rect x=\"468\" y=\"56\" width=\"24\" height=\"24\" fill=\"#999\" stroke=\"#111\"/></svg>"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "5",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-5-1",
+      "unitIds": [
+        "nanyi-7-2-5-1"
+      ],
+      "unitAssignmentBasis": "不等式的性質。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列敘述何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "不等式 $x\\le-3$ 和 $-x\\le3$ 意義相同",
+            "不等式 $-x>-5$ 和 $x>5$ 意義相同",
+            "若 $a>b$，則 $a\\times c>b\\times c$",
+            "若 $a>b$，則 $a-c>b-c$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "6",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-1-1",
+      "unitIds": [
+        "nanyi-7-2-1-1"
+      ],
+      "unitAssignmentBasis": "線對稱圖形的判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "小凱在十字形棋盤上已放入 $4$ 顆棋子如右圖，若在甲處放入棋子後無法形成線對稱圖形，則放入的棋子與方向應為下列何者？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 90,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 100\"><rect x=\"40\" y=\"5\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"10\" y=\"35\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"40\" y=\"35\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"70\" y=\"35\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"40\" y=\"65\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"55,11 46,27.2 64,27.2\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.4\"/><polygon points=\"55,89 46,72.8 64,72.8\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.4\"/><polygon points=\"94,50 77.8,41 77.8,59\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.4\"/><rect x=\"47.0\" y=\"42.0\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.4\"/><text x=\"25\" y=\"55\" font-family=\"serif\" fill=\"#111\" font-size=\"13\" text-anchor=\"middle\">甲</text></svg>"
+        },
+        {
+          "type": "optionFigures",
+          "maxHeight": 40,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 42\"><text x=\"0\" y=\"28\" font-family=\"serif\" fill=\"#111\" font-size=\"14\">(A)</text><text x=\"75\" y=\"28\" font-family=\"serif\" fill=\"#111\" font-size=\"14\">(B)</text><text x=\"150\" y=\"28\" font-family=\"serif\" fill=\"#111\" font-size=\"14\">(C)</text><text x=\"225\" y=\"28\" font-family=\"serif\" fill=\"#111\" font-size=\"14\">(D)</text><polygon points=\"40,10 52,22 40,34 28,22\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.4\"/><rect x=\"107\" y=\"14\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.4\"/><polygon points=\"190,11 179,30.8 201,30.8\" fill=\"none\" stroke=\"#111\" stroke-width=\"3\"/><polygon points=\"254,22 273.8,11 273.8,33\" fill=\"none\" stroke=\"#111\" stroke-width=\"3\"/></svg>"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "7",
+      "page": 1,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "以不等式求當選保證票數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "小智預計參加 $2026$ 年台中市中西區議員選舉，該選區應選名額為 $3$ 人。已知該區選舉人數為 $6$ 萬人，預估投票率為 $70\\%$。在不考慮廢票的情況下，小智至少需獲得多少票才能篤定當選？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$10001$",
+            "$10501$",
+            "$14001$",
+            "$15001$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "8",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-6-1",
+      "unitIds": [
+        "nanyi-7-2-6-1"
+      ],
+      "unitAssignmentBasis": "次數分配折線圖的點坐標取組中點。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "右表為班上的身高次數分配表，小智要繪製班級身高次數分配折線圖。首先畫出「身高為橫軸」與「次數為縱軸」並標出單位，接著標出代表每一組的點坐標，再將點由左而右用線段連接。試判斷下列點坐標何者正確？"
+        },
+        {
+          "type": "table",
+          "header": true,
+          "rows": [
+            [
+              "身高（公分）",
+              "次數（人）"
+            ],
+            [
+              "150～155",
+              "4"
+            ],
+            [
+              "155～160",
+              "5"
+            ],
+            [
+              "160～165",
+              "7"
+            ],
+            [
+              "165～170",
+              "10"
+            ],
+            [
+              "170～175",
+              "4"
+            ],
+            [
+              "175～180",
+              "2"
+            ],
+            [
+              "合計",
+              "32"
+            ]
+          ]
+        },
+        {
+          "type": "options",
+          "items": [
+            "$(150,4)$",
+            "$(175,4)$",
+            "$(167.5,10)$",
+            "$(180,2)$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "9",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-6-2",
+      "unitIds": [
+        "nanyi-7-2-6-2",
+        "nanyi-7-2-6-1"
+      ],
+      "unitAssignmentBasis": "由長條圖比較眾數、中位數與平均數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下圖為甲乙兩班籃球對抗賽投籃進球數的長條圖，若依據圖表判斷兩班進球的眾數、中位數、平均數的大小關係何者正確？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 130,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 170\"><text x=\"2\" y=\"18\" font-family=\"serif\" fill=\"#111\" font-size=\"11\">次數（人）</text><text x=\"185\" y=\"18\" font-family=\"serif\" fill=\"#111\" font-size=\"11\" text-anchor=\"end\">甲班投籃進球數</text><text x=\"185\" y=\"34\" font-family=\"serif\" fill=\"#111\" font-size=\"11\" text-anchor=\"end\">（球）</text><path d=\"M22 152H190\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"14\" y=\"156\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">0</text><path d=\"M22 140H190\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"14\" y=\"144\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">1</text><path d=\"M22 128H190\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"14\" y=\"132\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">2</text><path d=\"M22 116H190\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"14\" y=\"120\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">3</text><path d=\"M22 104H190\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"14\" y=\"108\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">4</text><path d=\"M22 92H190\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"14\" y=\"96\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">5</text><path d=\"M22 80H190\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"14\" y=\"84\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">6</text><path d=\"M22 68H190\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"14\" y=\"72\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">7</text><path d=\"M22 56H190\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"14\" y=\"60\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">8</text><path d=\"M22 44H190\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"14\" y=\"48\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">9</text><rect x=\"27\" y=\"128\" width=\"14\" height=\"24\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"34\" y=\"140\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"34\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">4</text><rect x=\"51\" y=\"80\" width=\"14\" height=\"72\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"58\" y=\"92\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">6</text><text x=\"58\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">5</text><rect x=\"75\" y=\"104\" width=\"14\" height=\"48\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"82\" y=\"116\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"82\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">6</text><rect x=\"99\" y=\"56\" width=\"14\" height=\"96\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"106\" y=\"68\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">8</text><text x=\"106\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">7</text><rect x=\"123\" y=\"80\" width=\"14\" height=\"72\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"130\" y=\"92\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">6</text><text x=\"130\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">8</text><rect x=\"147\" y=\"104\" width=\"14\" height=\"48\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"154\" y=\"116\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"154\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">9</text><rect x=\"171\" y=\"128\" width=\"14\" height=\"24\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"178\" y=\"140\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"178\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">10</text><text x=\"207\" y=\"18\" font-family=\"serif\" fill=\"#111\" font-size=\"11\">次數（人）</text><text x=\"390\" y=\"18\" font-family=\"serif\" fill=\"#111\" font-size=\"11\" text-anchor=\"end\">乙班投籃進球數</text><text x=\"390\" y=\"34\" font-family=\"serif\" fill=\"#111\" font-size=\"11\" text-anchor=\"end\">（球）</text><path d=\"M227 152H395\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"219\" y=\"156\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">0</text><path d=\"M227 140H395\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"219\" y=\"144\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">1</text><path d=\"M227 128H395\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"219\" y=\"132\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">2</text><path d=\"M227 116H395\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"219\" y=\"120\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">3</text><path d=\"M227 104H395\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"219\" y=\"108\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">4</text><path d=\"M227 92H395\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"219\" y=\"96\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">5</text><path d=\"M227 80H395\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"219\" y=\"84\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">6</text><path d=\"M227 68H395\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"219\" y=\"72\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">7</text><path d=\"M227 56H395\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"219\" y=\"60\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">8</text><path d=\"M227 44H395\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"219\" y=\"48\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">9</text><rect x=\"232\" y=\"128\" width=\"14\" height=\"24\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"239\" y=\"140\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"239\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">4</text><rect x=\"256\" y=\"104\" width=\"14\" height=\"48\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"263\" y=\"116\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"263\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">5</text><rect x=\"280\" y=\"80\" width=\"14\" height=\"72\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"287\" y=\"92\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">6</text><text x=\"287\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">6</text><rect x=\"304\" y=\"56\" width=\"14\" height=\"96\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"311\" y=\"68\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">8</text><text x=\"311\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">7</text><rect x=\"328\" y=\"104\" width=\"14\" height=\"48\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"335\" y=\"116\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"335\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">8</text><rect x=\"352\" y=\"80\" width=\"14\" height=\"72\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"359\" y=\"92\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">6</text><text x=\"359\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">9</text><rect x=\"376\" y=\"128\" width=\"14\" height=\"24\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"383\" y=\"140\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"383\" y=\"165\" font-family=\"serif\" fill=\"#111\" font-size=\"9\" text-anchor=\"middle\">10</text></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "進球的眾數甲班＝乙班",
+            "進球的中位數甲班＞乙班",
+            "進球的平均數甲班＝乙班",
+            "甲班的中位數＝甲班的平均數"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "10",
+      "page": 1,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-7-2-1-1",
+      "unitIds": [
+        "nanyi-7-2-1-1"
+      ],
+      "unitAssignmentBasis": "摺紙剪紙與線對稱。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "把一張正方形的色紙依照下列步驟對折，用剪刀把最後的黑色虛線處剪掉。請問，把色紙攤開後，應該是呈現下列哪一種樣子呢？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 95,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 510 115\"><path d=\"M15 20H95V100H15Z\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M15 100L95 20\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><path d=\"M45 53Q75 35 65 70M65 70L63 58M65 70L74 63\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M153 100H233V20Z\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M193 60L233 100\" stroke=\"#111\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><path d=\"M197 85Q195 61 217 69M217 69L207 60M217 69L205 72\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M294 60L334 20V100Z\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M294 60H334\" stroke=\"#111\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><path d=\"M307 50Q298 66 317 74M317 74L307 76M317 74L313 64\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M396 39H436V79Z\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M409 52L417 52L425 68\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.8\" stroke-dasharray=\"2 2\"/><text x=\"444\" y=\"73\" font-size=\"17\">剪開</text><path d=\"M112 60H134M134 60L125 54M134 60L125 66\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M252 60H274M274 60L265 54M274 60L265 66\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M354 60H376M376 60L367 54M376 60L367 66\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/></svg>"
+        },
+        {
+          "type": "optionFigures",
+          "maxHeight": 90,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 90\"><text x=\"2\" y=\"80\" font-size=\"16\">(A)</text><path d=\"M30 8H57V16H71V8H98V34H90V48H98V76H71V68H57V76H30V49H38V35H30Z\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M54 32H74V52H54Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0\"/><text x=\"132\" y=\"80\" font-size=\"16\">(B)</text><rect x=\"160\" y=\"8\" width=\"68\" height=\"68\" fill=\"#bbb\"/><path d=\"M175 23h12v12h-12Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0\"/><path d=\"M204 23h12v12h-12Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0\"/><path d=\"M175 52h12v12h-12Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0\"/><path d=\"M204 52h12v12h-12Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0\"/><text x=\"262\" y=\"80\" font-size=\"16\">(C)</text><rect x=\"290\" y=\"8\" width=\"68\" height=\"68\" fill=\"#bbb\"/><path d=\"M311 21l8 8l-8 8l-8 -8Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0\"/><path d=\"M340 21l8 8l-8 8l-8 -8Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0\"/><path d=\"M311 50l8 8l-8 8l-8 -8Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0\"/><path d=\"M340 50l8 8l-8 8l-8 -8Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0\"/><text x=\"392\" y=\"80\" font-size=\"16\">(D)</text><path d=\"M420 8H445L454 17L463 8H488V33L479 42L488 51V76H463L454 67L445 76H420V51L429 42L420 33Z\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M454 26L470 42L454 58L438 42Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0\"/></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "行程問題列不等式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "小智利用假日去爬山，山路長 $x$ 公里，若上山時速 $4$ 公里，下山時速 $5$ 公里，原路來回一趟的時間至少 $3$ 小時。列出不等式為＿＿＿＿。（不用化簡）"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "解一元一次不等式（係數為負變號）。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "解不等式 $-2x+5<-1$，得＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "3",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-6-2",
+      "unitIds": [
+        "nanyi-7-2-6-2"
+      ],
+      "unitAssignmentBasis": "由列聯表計算合併及格率。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "右表為甲、乙、丙三班數學能力檢測成績的列聯表，請問：三班合起來的及格率為＿＿＿＿%。（四捨五入到整數）"
+        },
+        {
+          "type": "table",
+          "header": true,
+          "rows": [
+            [
+              "成績＼班級",
+              "甲班",
+              "乙班",
+              "丙班"
+            ],
+            [
+              "及格人數",
+              "15",
+              "28",
+              "21"
+            ],
+            [
+              "不及格人數",
+              "10",
+              "7",
+              "9"
+            ],
+            [
+              "及格率",
+              "60%",
+              "80%",
+              "70%"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "4",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2",
+        "nanyi-7-2-3-1"
+      ],
+      "unitAssignmentBasis": "由象限判斷係數正負再解含文字係數不等式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "坐標平面上，已知 $P(a,b)$ 在第四象限，則不等式 $ax-b\\ge bx-a$ 的解為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "5",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "分配問題列不等式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "老師買了一盒銀莎巧克力，要獎勵班上數學考滿分的同學，若發給每位 $3$ 顆會剩下 $10$ 顆；若發給每位 $5$ 顆則不夠，則滿分學生最少有＿＿＿＿人。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "6",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-6-2",
+      "unitIds": [
+        "nanyi-7-2-6-2"
+      ],
+      "unitAssignmentBasis": "資料誤植對平均數的影響。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在計算班上 $25$ 位同學的身高平均時，不小心將一位 $160$ 公分的同學記成 $170$ 公分，求算出的平均數會比正確平均數多出＿＿＿＿公分。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "7",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-6-1",
+      "unitIds": [
+        "nanyi-7-2-6-1"
+      ],
+      "unitAssignmentBasis": "圓形圖圓心角與百分比換算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "由某次數學小考、測驗全學年成績的百分比圓形圖：已知成績是 $60$ 分以上未達 $80$ 分的圓心角為 $216$ 度，成績不及格（未達 $60$ 分）的人數共有 $30$ 人，佔全學年的 $15\\%$。根據上述資訊，成績 $80$ 分以上（含）有＿＿＿＿人。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "8",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "年齡問題列不等式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "國一的小智今年 $13$ 歲，$x$ 年後老師的年齡小於小智年齡的 $3$ 倍，則老師今年最多＿＿＿＿歲。（年齡以整數歲計算，請用 $x$ 表示並將式子化簡）"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "9",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2",
+        "nanyi-7-2-5-1"
+      ],
+      "unitAssignmentBasis": "解不等式並在數線上圖示。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在數線上圖示不等式 $x+4\\ge7x-2$ 的解＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "10",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-1-1",
+      "unitIds": [
+        "nanyi-7-2-1-1"
+      ],
+      "unitAssignmentBasis": "線對稱圖形與面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "右圖中，$A$、$B$ 為直線 $L$ 上相異兩點，$C$ 為直線 $L$ 外的一點，且 $\\overline{AB}=12$，$C$ 到直線 $L$ 的距離為 $8$，以直線 $L$ 為對稱軸畫出對稱圖形，且 $D$ 為 $C$ 的對稱點，則飛鏢圖形 $ACBD$ 的面積為＿＿＿＿平方單位。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 80,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 285 112\"><path d=\"M10 100H262\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M40 100L215 18L170 100\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><path d=\"M215 18V100\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.0\" stroke-dasharray=\"4 3\"/><text x=\"34\" y=\"94\" font-family=\"serif\" fill=\"#111\" font-size=\"14\">A</text><text x=\"162\" y=\"94\" font-family=\"serif\" fill=\"#111\" font-size=\"14\">B</text><text x=\"210\" y=\"13\" font-family=\"serif\" fill=\"#111\" font-size=\"14\">C</text><text x=\"265\" y=\"106\" font-family=\"serif\" fill=\"#111\" font-size=\"14\">L</text></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "11",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "由加權公式求分數範圍。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "國中教育會考數學科加權分數（以 $115$ 年為例）計算方式如下："
+        },
+        {
+          "type": "text",
+          "text": "數學科加權分數＝（非選得分 ÷ $6$ 分（非選總分））$\\times15$ ＋（選擇題答對題數 ÷ $25$ 題（選擇題總題數））$\\times85$"
+        },
+        {
+          "type": "text",
+          "text": "小智的哥哥參加 $115$ 年的會考，考完試想預估數學分數，已知他的非選第二題空白未作答，非選第一題完整作答確定可得 $3$ 分。選擇題確定答對 $20$ 題、有 $2$ 題看錯題意答錯了，剩下的 $3$ 題完全不會直接用猜的。如果沒有其他失誤，請問小智哥哥的數學成績換成加權分數 $x$ 的範圍是＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "12",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "依情境列雙向不等式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "這週末，小智和哥哥一起去看『超級瑪利歐兄弟電影版 2』，兩兄弟帶了 $1000$ 元出門買每張 $x$ 元學生票 $2$ 張之後，剩下的錢至少可買一份 $250$ 元經典爆米花＋ $80$ 元中杯可樂 $2$ 杯，但不夠買 $479$ 元的「電影主題套餐」。請依題意列出不等式＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "13",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-5-1",
+      "unitIds": [
+        "nanyi-7-2-5-1"
+      ],
+      "unitAssignmentBasis": "讀表以不等式表示範圍。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "小智家今年報稅時，家庭綜合所得淨額為 $x$，所適用的稅率為 $30\\%$，請參考下表 $114$ 年所得申報稅率級距，請以不等式表示家庭綜合所得淨額 $x$ 的範圍＿＿＿＿。"
+        },
+        {
+          "type": "table",
+          "header": true,
+          "rows": [
+            [
+              "稅率",
+              "所得淨額",
+              "累進差額"
+            ],
+            [
+              "5%",
+              "0～590,000",
+              "－"
+            ],
+            [
+              "12%",
+              "590,001～1,330,000",
+              "41,300"
+            ],
+            [
+              "20%",
+              "1,330,001～2,660,000",
+              "147,700"
+            ],
+            [
+              "30%",
+              "2,660,001～4,980,000",
+              "413,700"
+            ],
+            [
+              "40%",
+              "4,980,001 以上",
+              "911,700"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "註：每年 $5$ 月是綜合所得稅申報的時間，計算方式如下：綜合所得稅＝（綜合所得總額－免稅額－扣除額）×稅率－累進差額"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "1",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-6-2",
+      "unitIds": [
+        "nanyi-7-2-6-2",
+        "nanyi-7-2-6-1"
+      ],
+      "unitAssignmentBasis": "由次數折線圖求眾數、中位數、平均數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下圖為班上學生數學小考的次數折線圖，請回答下列問題："
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 310 192\"><text x=\"10\" y=\"18\" font-family=\"serif\" fill=\"#111\" font-size=\"12\">次數（人）</text><text x=\"300\" y=\"18\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"end\">數學小考分數</text><text x=\"300\" y=\"34\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"end\">（分）</text><path d=\"M30 170H300\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"22\" y=\"174\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">0</text><path d=\"M30 146H300\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"22\" y=\"150\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">2</text><path d=\"M30 122H300\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"22\" y=\"126\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">4</text><path d=\"M30 98H300\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"22\" y=\"102\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">6</text><path d=\"M30 74H300\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"22\" y=\"78\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">8</text><path d=\"M30 50H300\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"22\" y=\"54\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">10</text><path d=\"M30 26H300\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.6\"/><text x=\"22\" y=\"30\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">12</text><polyline points=\"40,146 82,134 124,110 166,98 208,50 250,110 292,158\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.8\"/><text x=\"40\" y=\"139\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">2</text><text x=\"40\" y=\"186\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">40</text><text x=\"82\" y=\"127\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">3</text><text x=\"82\" y=\"186\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">50</text><text x=\"124\" y=\"103\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">5</text><text x=\"124\" y=\"186\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">60</text><text x=\"166\" y=\"91\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">6</text><text x=\"166\" y=\"186\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">70</text><text x=\"208\" y=\"43\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">10</text><text x=\"208\" y=\"186\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">80</text><text x=\"250\" y=\"103\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">5</text><text x=\"250\" y=\"186\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">90</text><text x=\"292\" y=\"151\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">1</text><text x=\"292\" y=\"186\" font-family=\"serif\" fill=\"#111\" font-size=\"10\" text-anchor=\"middle\">100</text></svg>"
+        },
+        {
+          "type": "text",
+          "text": "(1) 班上數學小考的眾數為？分"
+        },
+        {
+          "type": "text",
+          "text": "(2) 班上數學小考的中位數為？分"
+        },
+        {
+          "type": "text",
+          "text": "(3) 班上數學小考的平均數為？分（四捨五入到小數點第一位）"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "2",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-1-1",
+      "unitIds": [
+        "nanyi-7-2-1-1",
+        "nanyi-7-2-3-1"
+      ],
+      "unitAssignmentBasis": "以坐標軸為對稱軸畫對稱圖形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "請依下列步驟在下圖中畫出對稱圖形"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 150,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 215 208\"><path d=\"M25 38V198M25 198H185M41 38V198M25 182H185M57 38V198M25 166H185M73 38V198M25 150H185M89 38V198M25 134H185M105 38V198M25 118H185M121 38V198M25 102H185M137 38V198M25 86H185M153 38V198M25 70H185M169 38V198M25 54H185M185 38V198M25 38H185\" fill=\"none\" stroke=\"#bbb\" stroke-width=\"0.7\"/><path d=\"M25 118H193M105 198V30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><polygon points=\"199,118 192.0,121.2 192.0,114.8\" fill=\"#111\"/><polygon points=\"105,24 108.2,31.0 101.8,31.0\" fill=\"#111\"/><text x=\"202\" y=\"123\" font-family=\"serif\" fill=\"#111\" font-size=\"13\">X</text><text x=\"101\" y=\"20\" font-family=\"serif\" fill=\"#111\" font-size=\"13\">Y</text><polyline points=\"105,118 137,150 105,182 153,182 169,150 137,118\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.4\"/></svg>"
+        },
+        {
+          "type": "text",
+          "text": "(1) 先以 X 軸為對稱軸畫出對稱圖形 A"
+        },
+        {
+          "type": "text",
+          "text": "(2) 再將以 Y 軸為對稱軸畫出圖形 A 的新對稱圖形 B"
+        },
+        {
+          "type": "text",
+          "text": "(3) 依上述步驟，判斷圖形 A、B 分別像哪個阿拉伯數字，請求出圖形 A 的數字＋圖形 B 的數字＝？"
+        }
+      ]
+    }
+  ]
+}

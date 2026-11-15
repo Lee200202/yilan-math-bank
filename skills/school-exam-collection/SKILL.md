@@ -24,3 +24,5 @@ description: 蒐集學校官方公開段考考卷，建立各學年／學期／�
 - 全卷proof列原題→新ID對照、原始單位數、題型數、可用數、停用原因、全頁與全題排版視覺核對。數量、雜湊、實際題文均相符才標完成。
 
 宜蘭專案定位讀 [references/yilan-project.md](references/yilan-project.md)；都會區來源、爬蟲與轉寫注意事項讀 [references/metro-sources.md](references/metro-sources.md)。Drive操作可搭配 `$public-drive-inventory`；數學SVG／PDF品質可搭配現有教材或PDF技能。
+
+跨AI接手先讀專案AI_HANDOFF.md，核對Git狀態及逐卷認領。原卷檔被.gitignore排除時，依來源網址／壓縮包成員補下載並驗同SHA，不能因換電腦無檔而宣稱沒有來源。待辦必須包括所有未完成Word等格式，不能只清空預排PDF清單便結案。圖形選項不得僅留A–D標籤；宜蘭專案以optionFigures SVG保留全部選項圖及一次標籤。資料檢查通過後仍須真實PDF逐頁驗收。

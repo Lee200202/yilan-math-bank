@@ -1,0 +1,941 @@
+{
+  "checkedAt": "2026-11-15T16:17:57.663738+08:00",
+  "reviewer": "typeset_other_schools",
+  "scope": {
+    "basis": "沿用前次派工的確切10個ID/35頁。此25卷最終report順序已增插其他卷，因此不是目前report陣列的前10筆。",
+    "papers": 10,
+    "pages": 35,
+    "finalReportPath": "qa/metro/report.json",
+    "finalReportSha256": "a7dd2e6ef954f0f90a59a60ae071c33d13f1943d0810be75c188c193a0367c46",
+    "finalReportPaperCount": 25
+  },
+  "method": "此最終35頁全部再次以view_image逐頁目視（非沿用舊PASS）；檢查中文與符號均實際顯示、題文邊界、分式根號間距、選項、圖表標籤及頁面留白。",
+  "limits": "本次為輸出排版目視驗收，不代替逐題原卷內容校對，也未操作網站選題/換題/PDF還原流程。",
+  "papers": [
+    {
+      "originalReportOrder": 1,
+      "id": "metro-new_taipei-8430a4dea82cd760",
+      "school": "三和國中",
+      "pdfPath": "qa/metro/metro-new_taipei-8430a4dea82cd760.pdf",
+      "pdfSha256": "880d2e9b50b3bf5655d65ad8e1f854900bd1831ec7c1e5a433270af9869d8e85",
+      "pageCount": 4,
+      "status": "pass",
+      "pages": [
+        {
+          "page": 1,
+          "path": "qa/metro/metro-new_taipei-8430a4dea82cd760-p1.png",
+          "sha256": "6b9402d89cbe9e04484bc319b0c2cb22c1c7a52a385b7095aef27050d724a112",
+          "modifiedAt": "2026-11-15T16:13:31.641249+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "6b9402d89cbe9e04484bc319b0c2cb22c1c7a52a385b7095aef27050d724a112",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 2,
+          "path": "qa/metro/metro-new_taipei-8430a4dea82cd760-p2.png",
+          "sha256": "09a2b3a94a577fd072bd7ea1ef23e094858498383f53e84ec17d784d99beb8c3",
+          "modifiedAt": "2026-11-15T16:13:31.696123+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "09a2b3a94a577fd072bd7ea1ef23e094858498383f53e84ec17d784d99beb8c3",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 3,
+          "path": "qa/metro/metro-new_taipei-8430a4dea82cd760-p3.png",
+          "sha256": "b943d412c43e14e34fae7ed2e1ce575217c393f29176a841dac067bcf1c6c8ee",
+          "modifiedAt": "2026-11-15T16:13:31.749178+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "b943d412c43e14e34fae7ed2e1ce575217c393f29176a841dac067bcf1c6c8ee",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 4,
+          "path": "qa/metro/metro-new_taipei-8430a4dea82cd760-p4.png",
+          "sha256": "c0f2cc7f7d5b47b956e2b10d1597b8d702c9c7ff3e75c0721c8bbd28719d51bf",
+          "modifiedAt": "2026-11-15T16:13:31.793465+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "c0f2cc7f7d5b47b956e2b10d1597b8d702c9c7ff3e75c0721c8bbd28719d51bf",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        }
+      ],
+      "finalReportOrder": 1,
+      "sourceSha256": "1db36396ee3b778ad899035152546782373df5d95beba2022156121157cdbaa0",
+      "previousPdfSha256": "593a2522b75fc0d1169d30162ef06710a607b713e249785b19f81a5cdb5a5685"
+    },
+    {
+      "originalReportOrder": 2,
+      "id": "metro-taichung-65d1776ef8511b98-d3cad3c9",
+      "school": "向上國中",
+      "pdfPath": "qa/metro/metro-taichung-65d1776ef8511b98-d3cad3c9.pdf",
+      "pdfSha256": "10b578c8c7b9443724529f8772752fa6bf4548a8e8b897ff5d47e291f16e9a93",
+      "pageCount": 3,
+      "status": "pass",
+      "pages": [
+        {
+          "page": 1,
+          "path": "qa/metro/metro-taichung-65d1776ef8511b98-d3cad3c9-p1.png",
+          "sha256": "98f433bdc979d4f41db1115906f468667cc3e1ff8b3cd0d3f068bb56b0f7a59a",
+          "modifiedAt": "2026-11-15T16:13:34.235899+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "98f433bdc979d4f41db1115906f468667cc3e1ff8b3cd0d3f068bb56b0f7a59a",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 2,
+          "path": "qa/metro/metro-taichung-65d1776ef8511b98-d3cad3c9-p2.png",
+          "sha256": "375750a62a19f44aaee85e8301b7ac630a2d2ce90eca20c961c4c3d54499071e",
+          "modifiedAt": "2026-11-15T16:13:34.303424+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "375750a62a19f44aaee85e8301b7ac630a2d2ce90eca20c961c4c3d54499071e",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 3,
+          "path": "qa/metro/metro-taichung-65d1776ef8511b98-d3cad3c9-p3.png",
+          "sha256": "b28617d863e350cad99b325dc0f5587a732e9dd1b17fa70f84813b18715f768d",
+          "modifiedAt": "2026-11-15T16:13:34.360917+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "b28617d863e350cad99b325dc0f5587a732e9dd1b17fa70f84813b18715f768d",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        }
+      ],
+      "finalReportOrder": 2,
+      "sourceSha256": "d3cad3c9802181c0671dcf53aa767f571790d957dd43e421c9a16d1b1026db11",
+      "previousPdfSha256": "2443fd2f0857b136ec41646d0dfba850df58646aeb9d7b811bc5fed21ac5757a"
+    },
+    {
+      "originalReportOrder": 3,
+      "id": "metro-new_taipei-de1e5d01adf8931b",
+      "school": "三和國中",
+      "pdfPath": "qa/metro/metro-new_taipei-de1e5d01adf8931b.pdf",
+      "pdfSha256": "a6167981f3c0006b90b80636fda909f6029fa5e5fe1204fd848c94af2001e0b2",
+      "pageCount": 5,
+      "status": "pass",
+      "pages": [
+        {
+          "page": 1,
+          "path": "qa/metro/metro-new_taipei-de1e5d01adf8931b-p1.png",
+          "sha256": "ffc8f1feba757e928b23fdd18decf63e6bb7c6ba21b8ec65e0c9b4b8dd0fa597",
+          "modifiedAt": "2026-11-15T16:13:41.082590+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "ffc8f1feba757e928b23fdd18decf63e6bb7c6ba21b8ec65e0c9b4b8dd0fa597",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 2,
+          "path": "qa/metro/metro-new_taipei-de1e5d01adf8931b-p2.png",
+          "sha256": "4e92dded2ef6bc564c81c6d4cbbf6683c5c2b1f04526ef7692ee944a9bce3734",
+          "modifiedAt": "2026-11-15T16:13:41.155696+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "4e92dded2ef6bc564c81c6d4cbbf6683c5c2b1f04526ef7692ee944a9bce3734",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 3,
+          "path": "qa/metro/metro-new_taipei-de1e5d01adf8931b-p3.png",
+          "sha256": "a111e4e48a1d7bb8e8d03aed4bbab9d1bb523fc917c8c358fa990b13d5f10afe",
+          "modifiedAt": "2026-11-15T16:13:41.211703+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "a111e4e48a1d7bb8e8d03aed4bbab9d1bb523fc917c8c358fa990b13d5f10afe",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 4,
+          "path": "qa/metro/metro-new_taipei-de1e5d01adf8931b-p4.png",
+          "sha256": "98103c2471d2b97c56c3070b9c020a5f2b2d7ec5b7c58c6d9740224f5f7bc645",
+          "modifiedAt": "2026-11-15T16:13:41.264513+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "98103c2471d2b97c56c3070b9c020a5f2b2d7ec5b7c58c6d9740224f5f7bc645",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 5,
+          "path": "qa/metro/metro-new_taipei-de1e5d01adf8931b-p5.png",
+          "sha256": "61f18615a1c52876daee3522caa484a95bcc5a6719257a42792f8fb9b363145e",
+          "modifiedAt": "2026-11-15T16:13:41.336786+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "61f18615a1c52876daee3522caa484a95bcc5a6719257a42792f8fb9b363145e",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        }
+      ],
+      "finalReportOrder": 4,
+      "sourceSha256": "2ca3cc8c61b62e9d523903d5c6b052580a365ab7aa084234c52d306f2b97a60b",
+      "previousPdfSha256": "b95e24da9a606b423ec7eccca214e5554bc847a5e6ecda5bc3f3a3c575d5adfe"
+    },
+    {
+      "originalReportOrder": 4,
+      "id": "1iW-BNHwBgs9xMhvjL8RTI0vuhowO1Qo3",
+      "school": "中華國中",
+      "pdfPath": "qa/metro/1iW-BNHwBgs9xMhvjL8RTI0vuhowO1Qo3.pdf",
+      "pdfSha256": "561dbe5710e5130efd449ece76c554fdbc8fbaa141ab58fc6104c9087e8b8252",
+      "pageCount": 5,
+      "status": "pass-with-advisory",
+      "pages": [
+        {
+          "page": 1,
+          "path": "qa/metro/1iW-BNHwBgs9xMhvjL8RTI0vuhowO1Qo3-p1.png",
+          "sha256": "daa3454186f6ff5e0025967d91706e1f98c7c8c3b88eb9bf7224b215545fa72e",
+          "modifiedAt": "2026-11-15T16:13:46.886706+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "daa3454186f6ff5e0025967d91706e1f98c7c8c3b88eb9bf7224b215545fa72e",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 2,
+          "path": "qa/metro/1iW-BNHwBgs9xMhvjL8RTI0vuhowO1Qo3-p2.png",
+          "sha256": "3965a55d2438e714a4115f0cc1c9fceb90b6f7e8e2fd42cb3bc43d700eb2c21c",
+          "modifiedAt": "2026-11-15T16:13:46.923428+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "3965a55d2438e714a4115f0cc1c9fceb90b6f7e8e2fd42cb3bc43d700eb2c21c",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 3,
+          "path": "qa/metro/1iW-BNHwBgs9xMhvjL8RTI0vuhowO1Qo3-p3.png",
+          "sha256": "bcf8dbb05c6acc64522e3505abf982ce4f2257d7358bba4b999c35ed354f93a9",
+          "modifiedAt": "2026-11-15T16:13:46.954855+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "bcf8dbb05c6acc64522e3505abf982ce4f2257d7358bba4b999c35ed354f93a9",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 4,
+          "path": "qa/metro/1iW-BNHwBgs9xMhvjL8RTI0vuhowO1Qo3-p4.png",
+          "sha256": "9cee4f723dadf4c04224c21b26c14d1dfb18e248c6a6d04225cb8108d9c0c684",
+          "modifiedAt": "2026-11-15T16:13:46.986301+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "9cee4f723dadf4c04224c21b26c14d1dfb18e248c6a6d04225cb8108d9c0c684",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 5,
+          "path": "qa/metro/1iW-BNHwBgs9xMhvjL8RTI0vuhowO1Qo3-p5.png",
+          "sha256": "51ee60aea90f93ace0af898a15eab54e86599c7d4e0b98ff59c297885ae0fe8b",
+          "modifiedAt": "2026-11-15T16:13:47.031529+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass-with-advisory",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "advisory"
+          },
+          "findings": [
+            {
+              "paperId": "1iW-BNHwBgs9xMhvjL8RTI0vuhowO1Qo3",
+              "page": 5,
+              "severity": "minor",
+              "kind": "trailing-whitespace",
+              "description": "末頁只有第23題格線作圖與第24題飲料促銷題，內容約佔頁面上方30%，下方約70%留白。前頁多次重複頻數表以保留獨立題條件；可評估表格內距或圖形佔用高度後再重排，但勿刪必要條件或縮小題文字級。",
+              "blocking": false
+            }
+          ],
+          "previousSha256": "51ee60aea90f93ace0af898a15eab54e86599c7d4e0b98ff59c297885ae0fe8b",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        }
+      ],
+      "finalReportOrder": 6,
+      "sourceSha256": "b08fe4547a15cf3f66f0770186ee38efa46645575ddd1eca4b9d7fe5fbd2e648",
+      "previousPdfSha256": "d8375ca86d6c9f4d09c80739400bb5491e8c7816108d9ea3bedccce225f42d07"
+    },
+    {
+      "originalReportOrder": 5,
+      "id": "metro-taichung-1bfb6cff9c03ff5f-b4f39ce6",
+      "school": "向上國中",
+      "pdfPath": "qa/metro/metro-taichung-1bfb6cff9c03ff5f-b4f39ce6.pdf",
+      "pdfSha256": "30c3073cce9e7c5b42c21961cdf9562acc240a3023b240004cbb70fe1c5f360e",
+      "pageCount": 5,
+      "status": "pass-with-advisory",
+      "pages": [
+        {
+          "page": 1,
+          "path": "qa/metro/metro-taichung-1bfb6cff9c03ff5f-b4f39ce6-p1.png",
+          "sha256": "098a7c6110f3df2fc68c2d06bcd90d2a552a875ab15fc1b97f57b2704960ec75",
+          "modifiedAt": "2026-11-15T16:13:51.798131+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "098a7c6110f3df2fc68c2d06bcd90d2a552a875ab15fc1b97f57b2704960ec75",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 2,
+          "path": "qa/metro/metro-taichung-1bfb6cff9c03ff5f-b4f39ce6-p2.png",
+          "sha256": "41800072ff777bf9c67218b918a77116fcaa578bc864b956e3e7b2adedc2796a",
+          "modifiedAt": "2026-11-15T16:13:51.848107+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "41800072ff777bf9c67218b918a77116fcaa578bc864b956e3e7b2adedc2796a",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 3,
+          "path": "qa/metro/metro-taichung-1bfb6cff9c03ff5f-b4f39ce6-p3.png",
+          "sha256": "df62e6d96886ab28b8debc627f5d02ac851210a0eabe9af1860525f7f1682afd",
+          "modifiedAt": "2026-11-15T16:13:51.897330+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "df62e6d96886ab28b8debc627f5d02ac851210a0eabe9af1860525f7f1682afd",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 4,
+          "path": "qa/metro/metro-taichung-1bfb6cff9c03ff5f-b4f39ce6-p4.png",
+          "sha256": "18abf6665aa13efd38435bd6e0a8c00a00ff86e6bfe2adb8a28c8e1863cba23a",
+          "modifiedAt": "2026-11-15T16:13:51.931960+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "18abf6665aa13efd38435bd6e0a8c00a00ff86e6bfe2adb8a28c8e1863cba23a",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 5,
+          "path": "qa/metro/metro-taichung-1bfb6cff9c03ff5f-b4f39ce6-p5.png",
+          "sha256": "1b61b0b8720986ff684b5c31bbfa6af3671ec7270cd4af7dba7d6bcef886469c",
+          "modifiedAt": "2026-11-15T16:13:51.971841+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass-with-advisory",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "advisory"
+          },
+          "findings": [
+            {
+              "paperId": "metro-taichung-1bfb6cff9c03ff5f-b4f39ce6",
+              "page": 5,
+              "severity": "minor",
+              "kind": "trailing-whitespace",
+              "description": "末頁只有第24題座標對稱作圖，含必要格線圖與三個子題，內容約佔上方32%，其餘留白。可評估前頁緊湊排版後是否容納整題，不應拆散圖與子題。",
+              "blocking": false
+            }
+          ],
+          "previousSha256": "1b61b0b8720986ff684b5c31bbfa6af3671ec7270cd4af7dba7d6bcef886469c",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        }
+      ],
+      "finalReportOrder": 8,
+      "sourceSha256": "b4f39ce61f01575795394f5d1ad55262b8be37e052b65b35b896aa118995ee22",
+      "previousPdfSha256": "7eccb1ff32986af2dda3083013b8232b22dbbfa3e154275cd5d05adf2b8550ee"
+    },
+    {
+      "originalReportOrder": 6,
+      "id": "metro-new_taipei-8452795117a66224",
+      "school": "三和國中",
+      "pdfPath": "qa/metro/metro-new_taipei-8452795117a66224.pdf",
+      "pdfSha256": "885f424e76fa38dab6e22026e488c1332bcbfac789274efdf09e7f3b0fd2f5aa",
+      "pageCount": 3,
+      "status": "pass-with-advisory",
+      "pages": [
+        {
+          "page": 1,
+          "path": "qa/metro/metro-new_taipei-8452795117a66224-p1.png",
+          "sha256": "433aa82596b071fbe9d9ac99548160ffc8df4a1b387da98ecaff9b0957a8ba75",
+          "modifiedAt": "2026-11-15T16:13:54.532432+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "433aa82596b071fbe9d9ac99548160ffc8df4a1b387da98ecaff9b0957a8ba75",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 2,
+          "path": "qa/metro/metro-new_taipei-8452795117a66224-p2.png",
+          "sha256": "f3f2fffee2c221c79163432a36ba095c0f0ce7bb08a098695de33801bcc9a79f",
+          "modifiedAt": "2026-11-15T16:13:54.603426+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "f3f2fffee2c221c79163432a36ba095c0f0ce7bb08a098695de33801bcc9a79f",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 3,
+          "path": "qa/metro/metro-new_taipei-8452795117a66224-p3.png",
+          "sha256": "5a7777a611be7f32aacae56a94540aa3ce53125155e5fe996513f8d8509213db",
+          "modifiedAt": "2026-11-15T16:13:54.634182+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass-with-advisory",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "advisory"
+          },
+          "findings": [
+            {
+              "paperId": "metro-new_taipei-8452795117a66224",
+              "page": 3,
+              "severity": "minor",
+              "kind": "trailing-whitespace",
+              "description": "末頁僅第24題容器倒液體文字題，約上方15%有內容，其餘約85%留白；建議優先核對前頁底部是否可藉微調題距容納整題，不降低題文字級。",
+              "blocking": false
+            }
+          ],
+          "previousSha256": "5a7777a611be7f32aacae56a94540aa3ce53125155e5fe996513f8d8509213db",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        }
+      ],
+      "finalReportOrder": 9,
+      "sourceSha256": "57bf7b0bebb2776471e9df2db8041d98adcc3547aa5eea336ee57beef1a7af79",
+      "previousPdfSha256": "0f0e2c67a8075119a1c015ac07f0407941147e8a6c33025475275a5f4390923e"
+    },
+    {
+      "originalReportOrder": 7,
+      "id": "1HYH_dnOlRhUfiUxqLNF21w7g33HNcZZj",
+      "school": "中華國中",
+      "pdfPath": "qa/metro/1HYH_dnOlRhUfiUxqLNF21w7g33HNcZZj.pdf",
+      "pdfSha256": "e548b0d8e2aa50f848c71f88d63dcfbe99273b5efd28e379067ad6ba03155b00",
+      "pageCount": 3,
+      "status": "pass-with-advisory",
+      "pages": [
+        {
+          "page": 1,
+          "path": "qa/metro/1HYH_dnOlRhUfiUxqLNF21w7g33HNcZZj-p1.png",
+          "sha256": "6f2ae5a67e486bdeb7f954c16d6bb6ec14e3d2684f64b4d47d3727ea5694a328",
+          "modifiedAt": "2026-11-15T16:13:59.542521+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "6f2ae5a67e486bdeb7f954c16d6bb6ec14e3d2684f64b4d47d3727ea5694a328",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 2,
+          "path": "qa/metro/1HYH_dnOlRhUfiUxqLNF21w7g33HNcZZj-p2.png",
+          "sha256": "523322bd0fe605fc31e5d41d5e95b8c6b43ce43b2f0ec83ecaefbecd743dc2fb",
+          "modifiedAt": "2026-11-15T16:13:59.592193+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "523322bd0fe605fc31e5d41d5e95b8c6b43ce43b2f0ec83ecaefbecd743dc2fb",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 3,
+          "path": "qa/metro/1HYH_dnOlRhUfiUxqLNF21w7g33HNcZZj-p3.png",
+          "sha256": "6a0ccc318fbe3f4d9da2f4bceafbeced2d262ceb5bd96f37a65b782500ae98af",
+          "modifiedAt": "2026-11-15T16:13:59.638556+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass-with-advisory",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "advisory"
+          },
+          "findings": [
+            {
+              "paperId": "1HYH_dnOlRhUfiUxqLNF21w7g33HNcZZj",
+              "page": 3,
+              "severity": "minor",
+              "kind": "trailing-whitespace",
+              "description": "末頁只有非選擇題第25題與必要座標格線，內容約佔上方31%，下方約69%留白。前頁含兩個完整圖題；可評估圖形尺寸/題距後緊湊排版，保留作圖格線可讀性。",
+              "blocking": false
+            }
+          ],
+          "previousSha256": "6a0ccc318fbe3f4d9da2f4bceafbeced2d262ceb5bd96f37a65b782500ae98af",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        }
+      ],
+      "finalReportOrder": 11,
+      "sourceSha256": "6b38a64d3900ac4c2c306474f004adcd0496c741b20eaf604bf552264db2e5c9",
+      "previousPdfSha256": "2769e81074ac83ad253872a8ed7ce4922c86ecab8c1f4bffb99bf562e4159ad3"
+    },
+    {
+      "originalReportOrder": 8,
+      "id": "metro-taichung-32b92d5184705ff0-9ed84449",
+      "school": "向上國中",
+      "pdfPath": "qa/metro/metro-taichung-32b92d5184705ff0-9ed84449.pdf",
+      "pdfSha256": "fd8096f381ee29d385e21801d7176182b446c1f734e21a7efb58c6f4b0fd9b78",
+      "pageCount": 2,
+      "status": "pass",
+      "pages": [
+        {
+          "page": 1,
+          "path": "qa/metro/metro-taichung-32b92d5184705ff0-9ed84449-p1.png",
+          "sha256": "80963425b75b9a2c2220257549eb6f0814b8d92069d30fbf34d97785d2e21097",
+          "modifiedAt": "2026-11-15T16:14:01.892956+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "80963425b75b9a2c2220257549eb6f0814b8d92069d30fbf34d97785d2e21097",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 2,
+          "path": "qa/metro/metro-taichung-32b92d5184705ff0-9ed84449-p2.png",
+          "sha256": "eca219aa6bcd610219b1ddbe3882a424aea76c5d3b19d4893f9d8f3e3bab699f",
+          "modifiedAt": "2026-11-15T16:14:01.964992+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "eca219aa6bcd610219b1ddbe3882a424aea76c5d3b19d4893f9d8f3e3bab699f",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        }
+      ],
+      "finalReportOrder": 12,
+      "sourceSha256": "9ed84449b5abd4f5a4d082d99b92818016032e7c3b5242bc5769225706ca4cb2",
+      "previousPdfSha256": "82dd05f1fb138a24c55021a9bc8661c34068de2294ca1db7e1b14c0d4f9069d5"
+    },
+    {
+      "originalReportOrder": 9,
+      "id": "metro-new_taipei-719c14a64d88c998",
+      "school": "三和國中",
+      "pdfPath": "qa/metro/metro-new_taipei-719c14a64d88c998.pdf",
+      "pdfSha256": "b48c38572511464b0ccf87e8663a9d694dfcaf1471f9f363d32b23503c7c4348",
+      "pageCount": 3,
+      "status": "pass",
+      "pages": [
+        {
+          "page": 1,
+          "path": "qa/metro/metro-new_taipei-719c14a64d88c998-p1.png",
+          "sha256": "f3cf3607091b9addeefec21e701e45ddc88890d29c2707634fa1fd20baa650c4",
+          "modifiedAt": "2026-11-15T16:14:04.795726+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "f3cf3607091b9addeefec21e701e45ddc88890d29c2707634fa1fd20baa650c4",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 2,
+          "path": "qa/metro/metro-new_taipei-719c14a64d88c998-p2.png",
+          "sha256": "b4afcb15f35fab612426e09ad7bc979710e26d014ac860f4ed43ec46efd76e4e",
+          "modifiedAt": "2026-11-15T16:14:04.851536+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "b4afcb15f35fab612426e09ad7bc979710e26d014ac860f4ed43ec46efd76e4e",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 3,
+          "path": "qa/metro/metro-new_taipei-719c14a64d88c998-p3.png",
+          "sha256": "503da524d8a62ac2f260e653f49ab5ebc54a1c28c8f5bbce74824b9b5bf49c81",
+          "modifiedAt": "2026-11-15T16:14:04.884927+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "503da524d8a62ac2f260e653f49ab5ebc54a1c28c8f5bbce74824b9b5bf49c81",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        }
+      ],
+      "finalReportOrder": 13,
+      "sourceSha256": "7287278b8aadbfedf5b111155a9512394802bca5230382afd967f379ce1f63e1",
+      "previousPdfSha256": "785d40237020123ed31455b21d8afa075b2f7eec67b58247455bdcdca8e36cd9"
+    },
+    {
+      "originalReportOrder": 10,
+      "id": "metro-new_taipei-2d6984a9e8f3bf65",
+      "school": "三和國中",
+      "pdfPath": "qa/metro/metro-new_taipei-2d6984a9e8f3bf65.pdf",
+      "pdfSha256": "faf02fae96e18a1d7d4a30b97b10d03882eaa507e6a1d19f224aed0de5da1bf9",
+      "pageCount": 2,
+      "status": "pass",
+      "pages": [
+        {
+          "page": 1,
+          "path": "qa/metro/metro-new_taipei-2d6984a9e8f3bf65-p1.png",
+          "sha256": "075b3925c5537ecbbbee8178c50b235c274c63ad4d5874f5ac2420b5cbfa317f",
+          "modifiedAt": "2026-11-15T16:14:07.012167+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "075b3925c5537ecbbbee8178c50b235c274c63ad4d5874f5ac2420b5cbfa317f",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        },
+        {
+          "page": 2,
+          "path": "qa/metro/metro-new_taipei-2d6984a9e8f3bf65-p2.png",
+          "sha256": "78df0bbd024ef1f609008c4bfdbd22eb878b78747b44b666b001347a3a7aee46",
+          "modifiedAt": "2026-11-15T16:14:07.058416+08:00",
+          "viewedWith": "view_image",
+          "viewed": true,
+          "status": "pass",
+          "checks": {
+            "clipping": "pass",
+            "readableConsistentText": "pass",
+            "formulaOverlap": "pass",
+            "diagramLabelObstruction": "pass",
+            "compactness": "pass"
+          },
+          "findings": [],
+          "previousSha256": "78df0bbd024ef1f609008c4bfdbd22eb878b78747b44b666b001347a3a7aee46",
+          "reViewedFinalWith": "view_image",
+          "finalViewed": true
+        }
+      ],
+      "finalReportOrder": 14,
+      "sourceSha256": "bfaf19e8891d1e7c47592a84a0655f5fc2de64d8f12bc411f2a968f86230f3af",
+      "previousPdfSha256": "a3b08f70daa9289d94e2df72a873635fbae5abcb669c80922d2af439aea8f11f"
+    }
+  ],
+  "blockingDefects": [],
+  "advisories": [
+    {
+      "paperId": "1iW-BNHwBgs9xMhvjL8RTI0vuhowO1Qo3",
+      "page": 5,
+      "severity": "minor",
+      "kind": "trailing-whitespace",
+      "description": "末頁只有第23題格線作圖與第24題飲料促銷題，內容約佔頁面上方30%，下方約70%留白。前頁多次重複頻數表以保留獨立題條件；可評估表格內距或圖形佔用高度後再重排，但勿刪必要條件或縮小題文字級。",
+      "blocking": false
+    },
+    {
+      "paperId": "metro-taichung-1bfb6cff9c03ff5f-b4f39ce6",
+      "page": 5,
+      "severity": "minor",
+      "kind": "trailing-whitespace",
+      "description": "末頁只有第24題座標對稱作圖，含必要格線圖與三個子題，內容約佔上方32%，其餘留白。可評估前頁緊湊排版後是否容納整題，不應拆散圖與子題。",
+      "blocking": false
+    },
+    {
+      "paperId": "metro-new_taipei-8452795117a66224",
+      "page": 3,
+      "severity": "minor",
+      "kind": "trailing-whitespace",
+      "description": "末頁僅第24題容器倒液體文字題，約上方15%有內容，其餘約85%留白；建議優先核對前頁底部是否可藉微調題距容納整題，不降低題文字級。",
+      "blocking": false
+    },
+    {
+      "paperId": "1HYH_dnOlRhUfiUxqLNF21w7g33HNcZZj",
+      "page": 3,
+      "severity": "minor",
+      "kind": "trailing-whitespace",
+      "description": "末頁只有非選擇題第25題與必要座標格線，內容約佔上方31%，下方約69%留白。前頁含兩個完整圖題；可評估圖形尺寸/題距後緊湊排版，保留作圖格線可讀性。",
+      "blocking": false
+    }
+  ],
+  "summary": {
+    "viewedPages": 35,
+    "papers": 10,
+    "blockingDefects": 0,
+    "advisoryPages": 4,
+    "result": "pass-with-compactness-advisories",
+    "finalReViewedPages": 35,
+    "pngHashesChangedSincePrior": 0,
+    "newBlockingDefects": 0,
+    "finalStatus": "pass-with-compactness-advisories"
+  },
+  "reviewPass": "final-render-after-font-padding-fix",
+  "previousReviewPath": "qa/metro/visual-first10.json",
+  "previousReviewSha256": "32ea041c20849b60026dc452d888fa33f103c0d0710af835fd720a5970b80440"
+}

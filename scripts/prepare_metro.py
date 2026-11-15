@@ -9,7 +9,9 @@
 import hashlib
 import json
 import pathlib
+import re
 import shutil
+import xml.etree.ElementTree as ET
 
 REGION_LABELS = {'taipei': '臺北市', 'new_taipei': '新北市', 'taoyuan': '桃園市', 'taichung': '臺中市', 'kaohsiung': '高雄市'}
 SOURCE_NAMES = {
@@ -31,6 +33,26 @@ SOURCE_NAMES = {
     'kaohsiung-dawan': ('高雄市立大灣國民中學', 'https://www.dwm.kh.edu.tw/view/index.php?WebID=344&MainType=0&SubType=104&MainMenuId=64182&SubMenuId=64183'),
 }
 BAD_SVG = ['<image', '<script', '<foreignobject', 'data:image']
+
+
+def validate_choice_blocks(blocks):
+    """Reject label-only options; vector option panels carry labels exactly once."""
+    options = [b for b in blocks if b['type'] in ('options', 'optionFigures')]
+    if len(options) != 1:
+        raise ValueError('Choice question needs exactly one text or vector option block')
+    block = options[0]
+    if block['type'] == 'options':
+        items = block.get('items', [])
+        if not 2 <= len(items) <= 6 or any(not isinstance(x, str) or not x.strip() or
+                re.fullmatch(r'[（(]?[A-Fa-f][)）.]?', x.strip()) for x in items):
+            raise ValueError('Choice option has no content (label-only placeholder)')
+    else:
+        root = ET.fromstring(block['svg'])
+        labels = [el.text for el in root.iter() if el.tag.split('}')[-1] == 'text']
+        if any(labels.count(f'({letter})') != 1 for letter in 'ABCD'):
+            raise ValueError('Vector options require one label each: (A) to (D)')
+        if not any(el.tag.split('}')[-1] in ('path', 'line', 'polygon', 'polyline', 'rect', 'circle', 'ellipse') for el in root.iter()):
+            raise ValueError('Vector options have no drawn content')
 
 
 def content_sha(blocks, diagram=None):
@@ -61,12 +83,15 @@ def rows_from_transcript(t, paper, unit_ids, evidence):
         if any(s.count('$') % 2 for s in strings):
             raise ValueError(f'Unbalanced $ in {pid} {q["sourceNumber"]}')
         for b in q['blocks']:
-            if b['type'] not in ('text', 'options', 'table', 'svg'):
+            if b['type'] not in ('text', 'options', 'table', 'svg', 'optionFigures'):
                 raise ValueError(f'Unknown block in {pid}')
-            if b['type'] == 'svg' and any(s in b['svg'].lower() for s in BAD_SVG):
+            if b['type'] in ('svg', 'optionFigures') and any(s in b['svg'].lower() for s in BAD_SVG):
                 raise ValueError(f'Non-vector diagram in {pid}')
-        if q['type'] == 'choice' and not any(b['type'] == 'options' for b in q['blocks']):
-            raise ValueError(f'Choice question without options: {pid} {q["sourceNumber"]}')
+        if q['type'] == 'choice' and q.get('usable', True):
+            try:
+                validate_choice_blocks(q['blocks'])
+            except ValueError as e:
+                raise ValueError(f'{pid} choice {q["sourceNumber"]}: {e}') from e
         if q['primaryUnitId'] not in unit_ids or any(u not in unit_ids for u in q['unitIds']) or q['primaryUnitId'] not in q['unitIds']:
             raise ValueError(f'Unknown unit in {pid} {q["sourceNumber"]}')
         qid = f'{pid}-{q["type"]}-{q["sourceNumber"]}'

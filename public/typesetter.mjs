@@ -7,7 +7,7 @@ export function questionHTML(q){const blocks=presentationBlocks(q);return blocks
   if(b.type==='text')return String(b.text).split('\n').filter(x=>x.trim()).map(x=>`<p>${answerTextHTML(x)}</p>`).join('');
   if(b.type==='options')return `<div class="typed-options">${b.items.map((x,i)=>`<div><span class="option-letter">(${String.fromCharCode(65+i)})</span> ${esc(x)}</div>`).join('')}</div>`;
   if(b.type==='table')return `<table class="typed-table"><tbody>${b.rows.map((row,i)=>`<tr>${row.map(x=>`<${b.header&&i===0?'th':'td'}>${answerTextHTML(x)}</${b.header&&i===0?'th':'td'}>`).join('')}</tr>`).join('')}</tbody></table>`;
-  if(b.type==='svg')return `<div class="typed-diagram">${b.svg}</div>`;
+  if(b.type==='svg'||b.type==='optionFigures')return `<div class="typed-diagram${b.type==='optionFigures'?' figure-options':''}">${b.svg}</div>`;
   throw new Error('未知題目區塊：'+b.type);
 }).join('');}
 export async function typesetDOM(root){await document.fonts.load('15.33px "Lanjuan Kai"','數學練習');await MathJax.startup.promise;await MathJax.typesetPromise([root]);if(root.querySelector('[data-mjx-error],[data-mml-node="merror"]'))throw new Error('題目公式排版失敗，請通知維護者。');}
@@ -43,7 +43,7 @@ const richParts=text=>String(text).split(/(\$\$[\s\S]+?\$\$|\$[^$]+?\$)/g).filte
 export async function createTypesetPdf(record,bankMap){
   if(!record?.items?.length)throw new Error('請先生成試卷。');
   const P=PDFLib,{rgb}=P,pdf=await P.PDFDocument.create();pdf.registerFontkit(window.fontkit);
-  if(!fontDataPromise)fontDataPromise=fetch('./fonts/TW-Kai-subset.ttf').then(r=>{if(!r.ok)throw new Error('中文字型載入失敗。');return r.arrayBuffer();});const font=await pdf.embedFont(await fontDataPromise,{subset:true});
+  if(!fontDataPromise){const url=new URL('./fonts/TW-Kai-subset.ttf',import.meta.url);url.search=new URL(import.meta.url).search;fontDataPromise=fetch(url).then(r=>{if(!r.ok)throw new Error('中文字型載入失敗。');return r.arrayBuffer();});}const font=await pdf.embedFont(await fontDataPromise,{subset:true});
   const glyphs=new Set(font.getCharacterSet());const assertGlyphs=text=>{for(const c of text)if(!glyphs.has(c.codePointAt(0)))throw new Error(`字型缺少「${c}」；請通知維護者核對題目。`);};
   const SIZE=11.5,W=595.28,H=841.89,M=36,BOTTOM=32,WIDTH=W-M*2,INK=rgb(0,0,0);let page,y,pageIndex=0;const layout=[];
   function addPage(){page=pdf.addPage([W,H]);pageIndex++;y=H-M;}
@@ -82,7 +82,7 @@ export async function createTypesetPdf(record,bankMap){
   async function estimateQuestion(q,item,number){let height=4,first=true;const blocks=presentationBlocks(q);
     for(const block of blocks){if(block.type==='text'){height+=(await lines((first?`${number}.（${item.score}分）`:'')+block.text,first?WIDTH:WIDTH-14)).reduce((n,l)=>n+lineHeight(l),0);first=false;continue;}
       if(first){height+=(await lines(`${number}.（${item.score}分）`,WIDTH)).reduce((n,l)=>n+lineHeight(l),0);first=false;}
-      if(block.type==='svg'){const svg=parseSvg(block.svg),v=svgView(svg),chart=svg.querySelectorAll('text').length>15,w=Math.min(WIDTH-14,v[2]*(chart?1:.7)),max=Number.isFinite(block.maxHeight)?Math.max(60,Math.min(240,block.maxHeight)):chart?200:svg.querySelectorAll('text').length>9?140:110;height+=Math.min(w*v[3]/v[2],max)+3;}
+      if(block.type==='svg'||block.type==='optionFigures'){const svg=parseSvg(block.svg),v=svgView(svg),chart=svg.querySelectorAll('text').length>15,w=Math.min(WIDTH-14,v[2]*(chart?1:.7)),max=Number.isFinite(block.maxHeight)?Math.max(60,Math.min(240,block.maxHeight)):chart?200:svg.querySelectorAll('text').length>9?140:110;height+=Math.min(w*v[3]/v[2],max)+3;}
       else if(block.type==='table'){const cols=Math.max(...block.rows.map(r=>r.length)),cw=(WIDTH-14)/cols;for(const row of block.rows){const cells=await Promise.all(row.map(s=>lines(String(s),cw-10)));height+=Math.max(22,...cells.map(ls=>ls.reduce((n,l)=>n+lineHeight(l),0)+8));}height+=2;}
       else if(block.type==='options'){const width=WIDTH-14,contents=await Promise.all(block.items.map((s,i)=>tokens(`(${String.fromCharCode(65+i)}) ${s}`))),max=Math.max(...contents.map(ts=>ts.reduce((n,t)=>n+t.width,0))),cols=max<=width/4-9?4:max<=width/2-9?2:1,cw=(width-(cols-1)*12)/cols;for(let i=0;i<block.items.length;i+=cols){const row=await Promise.all(block.items.slice(i,i+cols).map((s,j)=>lines(`(${String.fromCharCode(65+i+j)}) ${s}`,cw)));height+=Math.max(...row.map(ls=>ls.reduce((n,l)=>n+lineHeight(l),0)));}}
     }return height;
@@ -91,7 +91,7 @@ export async function createTypesetPdf(record,bankMap){
   let section=0,index=0;
   for(const type of TYPES){const items=record.items.filter(item=>bankMap.get(item.id)?.type===type);if(!items.length)continue;const firstQ=bankMap.get(items[0].id),firstHeight=await estimateQuestion(firstQ,items[0],index+1);room(firstHeight<H-M-BOTTOM-24?firstHeight+24:60);section++;await paragraph(`${['一','二','三'][section-1]}、${TYPE_NAMES[type]}${type==='written'?'（未寫計算過程不給分）':''}`,M,WIDTH,12.5);y-=2;
     for(const item of items){const q=bankMap.get(item.id);if(!q?.typesetVerified||!q.blocks?.length)throw new Error('本題尚未完成文字核對，請重新選題。');index++;const height=await estimateQuestion(q,item,index);room(height<=H-M-BOTTOM?height:38);const blocks=presentationBlocks(q);let first=true;
-      for(const block of blocks){if(block.type==='text'){await paragraph((first?`${index}.（${item.score}分）`:'')+block.text,first?M:M+14,first?WIDTH:WIDTH-14);first=false;}else{if(first){await paragraph(`${index}.（${item.score}分）`);first=false;}if(block.type==='options')await options(block.items);else if(block.type==='table')await table(block);else if(block.type==='svg')await diagram(block.svg,block.maxHeight);else throw new Error('未知題目區塊。');}}
+      for(const block of blocks){if(block.type==='text'){await paragraph((first?`${index}.（${item.score}分）`:'')+block.text,first?M:M+14,first?WIDTH:WIDTH-14);first=false;}else{if(first){await paragraph(`${index}.（${item.score}分）`);first=false;}if(block.type==='options')await options(block.items);else if(block.type==='table')await table(block);else if(block.type==='svg'||block.type==='optionFigures')await diagram(block.svg,block.maxHeight);else throw new Error('未知題目區塊。');}}
       y-=4;
     }
     y-=3;

@@ -28,3 +28,7 @@ description: 建置或驗收數學題庫的選題、單元配比、難度、換�
 - 檔案大小不代表是否向量，中文字型可能較大。查原生文字、影像物件、視覺清晰度，不照搬「150KB以下」未實測保證。
 
 驗收讀 [references/acceptance.md](references/acceptance.md)。
+
+## 跨 AI 接手與批次發布
+
+同儲存庫的 Codex／Claude 協作、逐卷認領及驗收證據讀 [references/cross-ai-handoff.md](references/cross-ai-handoff.md)。原生文字能擷取不代表字形有畫出；PDF還要逐頁目視並解碼嵌入字型輪廓。fontkit對小型TTF子集使用短loca時，原字型glyph必須偶數位元組對齊，否則可能抽得到字卻印不出字。圖形選項含A–D時只印一次，不可用純A–D字串掩蓋缺圖；SVG繪製範圍與viewBox亦須核對，避免線條畫到其他題目。

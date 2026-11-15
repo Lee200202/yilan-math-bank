@@ -1,5 +1,14 @@
 # Whole-paper transcription guide (helpers)
 
+Read `AI_HANDOFF.md` and `handoff/CLAIMS.json` before claiming a paper. One coordinator
+owns rebuild and publication; assistants write only their claimed paper files.
+
+**Figure-only options:** use `{ "type": "optionFigures", "svg": "<svg ...>...</svg>", "maxHeight": 100 }`
+instead of a text-options block. The panel must faithfully contain all four option drawings
+and one label each `(A)`–`(D)`. Do not append an `options` block containing only those labels.
+That duplicates labels and can conceal entirely missing figures. The checker rejects
+label-only text options and undrawn panels. Machine validation is not visual verification.
+
 Goal: turn an original school math exam PDF into reviewed text questions that the site can
 compose into new tests. One finished JSON file per paper. Quality over speed: every question
 must read exactly like the original (numbers, signs, options, figures).

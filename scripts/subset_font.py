@@ -60,6 +60,11 @@ def main():
     sub = subset.Subsetter(opts)
     sub.populate(unicodes=[ord(c) for c in keep])
     sub.subset(font)
+    # fontkit chooses short loca offsets for small PDF subsets, dividing offsets
+    # by two. Odd glyph lengths in the larger web font would be truncated there,
+    # producing invisible native glyphs even though PDF text extraction succeeds.
+    # Keep every source glyph word-aligned so both short and long subsets are valid.
+    font['glyf'].padding = 2
     font.save(OUT)
     woff = TTFont(OUT)
     woff.flavor = 'woff2'

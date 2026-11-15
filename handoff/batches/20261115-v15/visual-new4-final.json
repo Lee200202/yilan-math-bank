@@ -1,0 +1,415 @@
+{
+  "schemaVersion": 2,
+  "reviewedAt": "2026-11-15T08:26:20.438Z",
+  "reviewer": "source_research",
+  "scope": "四份native PDF共19頁最終視覺QA；本輪重新實看中華1N7全5頁及三和496全5頁，共10頁；其餘9頁與前輪實看PNG雜湊完全相同，沿用證據。",
+  "reportSource": "handoff/batches/20261115-v15/pdf-acceptance.json",
+  "totalPapers": 4,
+  "totalPages": 19,
+  "allPagesActuallyViewed": true,
+  "hashAlgorithm": "SHA-256 of complete PNG/PDF bytes",
+  "conclusion": "四卷全部19頁通過；G標字位置修復已獨立實看確認。未發現確定越界、公式裁切、缺字、答線分裂或必要圖形條件被遮蔽。",
+  "blockingDefects": 0,
+  "needsFix": 0,
+  "papers": [
+    {
+      "paperId": "metro-new_taipei-496df91f55fcc6af",
+      "school": "三和國中",
+      "pdf": "qa/metro/metro-new_taipei-496df91f55fcc6af.pdf",
+      "pdfSha256": "8d92dd639d7a4213bf9a9e104d45998c87fe0bedb25e25203be1e969f8b4b587",
+      "sourceSha256": "a971f090a6b41fa04fbb09f8e74ea6fd343c1de98fdb83c20972b8f2817a9f21",
+      "reportedPages": 5,
+      "pages": [
+        {
+          "page": 1,
+          "image": "qa/metro/metro-new_taipei-496df91f55fcc6af-p1.png",
+          "sha256": "08ff6cc22bafa2d8ad5e75bce82e2db11a7a7500c6fa71b3eaf5d62963a16e08",
+          "modifiedAt": 1794730946.150877,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第1–6題，文字、選項、分數、角度與三幅幾何／作圖圖均完整；P/Q/R和中垂線條件與原卷相符。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "08ff6cc22bafa2d8ad5e75bce82e2db11a7a7500c6fa71b3eaf5d62963a16e08",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "本輪再次使用functions.view_image逐頁實看（整卷所有頁）"
+        },
+        {
+          "page": 2,
+          "image": "qa/metro/metro-new_taipei-496df91f55fcc6af-p2.png",
+          "sha256": "65b91a1efdada6f71f408c800f061c4f969726fdf12b0b36556cc4c2791dbd73",
+          "modifiedAt": 1794730946.2036026,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第7–10題，正方形全等、銳角三角形、六邊形與尺規痕跡均完整；標字無遮住必要條件。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "65b91a1efdada6f71f408c800f061c4f969726fdf12b0b36556cc4c2791dbd73",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "本輪再次使用functions.view_image逐頁實看（整卷所有頁）"
+        },
+        {
+          "page": 3,
+          "image": "qa/metro/metro-new_taipei-496df91f55fcc6af-p3.png",
+          "sha256": "bbe8be4f9f1b20b8f09e9393bc5406056dc619ad2cdc207f921676cd94b33b90",
+          "modifiedAt": 1794730946.2521248,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第11–18題，折疊55°、1/2角標、中點線段與兩個直角記號均清楚；答線整段無拆裂。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "bbe8be4f9f1b20b8f09e9393bc5406056dc619ad2cdc207f921676cd94b33b90",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "本輪再次使用functions.view_image逐頁實看（整卷所有頁）"
+        },
+        {
+          "page": 4,
+          "image": "qa/metro/metro-new_taipei-496df91f55fcc6af-p4.png",
+          "sha256": "7dc5a674bf2e3cf8a2788af0cc3291c8112e966bd7a049982222167f56018185",
+          "modifiedAt": 1794730946.3018909,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第19–22題，交叉圖全部角度、延長射線、外作兩正方形與正六邊形切線均完整。",
+            "最終版第21題外作正方形圖已帶足上方／右側標字空間，G與F均清楚，邊線及直角記號完整。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "783d1eb5bb4acfc953215467f720abadad51c5ad688be91fa0b14ac78fecae74",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "本輪再次使用functions.view_image逐頁實看（整卷所有頁）"
+        },
+        {
+          "page": 5,
+          "image": "qa/metro/metro-new_taipei-496df91f55fcc6af-p5.png",
+          "sha256": "fe9d6f124361cadbc94461abfab2a9294a0d18c646be690712a547e17ff453df",
+          "modifiedAt": 1794730946.3352735,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第23–25題，坐標軸／原點／兩個直角記號、長方形角平分線及135°作圖題均完整。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "fe9d6f124361cadbc94461abfab2a9294a0d18c646be690712a547e17ff453df",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "本輪再次使用functions.view_image逐頁實看（整卷所有頁）"
+        }
+      ],
+      "sourceComparison": "原卷7頁已於轉寫時逐頁反查；本輪逐頁將native PDF幾何條件與原圖比對。",
+      "visualReviewComplete": true,
+      "defects": [],
+      "result": "pass"
+    },
+    {
+      "paperId": "metro-new_taipei-15ccb3f889b576f9",
+      "school": "三和國中",
+      "pdf": "qa/metro/metro-new_taipei-15ccb3f889b576f9.pdf",
+      "pdfSha256": "ef151774c6e7009c29f2eeb58fe770aaf9d0471ffb8c876a1c98efd0408dd285",
+      "sourceSha256": "b3ae537518f2e6d95c633aa5f479d33d912051657986e4456cb6e12239a0eb13",
+      "reportedPages": 5,
+      "pages": [
+        {
+          "page": 1,
+          "image": "qa/metro/metro-new_taipei-15ccb3f889b576f9-p1.png",
+          "sha256": "459e0949a4980b7c9c9a47cc2a8176791d444353fd282bab55df82aa948fa7e6",
+          "modifiedAt": 1794730931.660058,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第1–7題，共用十組長度已在第2/3題各自完整呈現；不等式選項及截角圖可讀，無重疊裁切。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "459e0949a4980b7c9c9a47cc2a8176791d444353fd282bab55df82aa948fa7e6",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "沿用上一輪實際視覺核對；本輪PNG SHA-256與上一輪完全相同",
+          "reusedFrom": "qa/metro/visual-new4.json"
+        },
+        {
+          "page": 2,
+          "image": "qa/metro/metro-new_taipei-15ccb3f889b576f9-p2.png",
+          "sha256": "7a9b2e479d50abded8f22bff3a25249ae7cd0f5fac716cdac4bfb59a31b59244",
+          "modifiedAt": 1794730931.7559438,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第8–11題，摺疊虛線與撇號、六個截角及三組線名、梯形45°/60°均可辨識。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "7a9b2e479d50abded8f22bff3a25249ae7cd0f5fac716cdac4bfb59a31b59244",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "沿用上一輪實際視覺核對；本輪PNG SHA-256與上一輪完全相同",
+          "reusedFrom": "qa/metro/visual-new4.json"
+        },
+        {
+          "page": 3,
+          "image": "qa/metro/metro-new_taipei-15ccb3f889b576f9-p3.png",
+          "sha256": "a3851b6ceccaa97330c4ce980b98a7d6243981be3ce4ebda68eaedcc08f9be5e",
+          "modifiedAt": 1794730931.841284,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第12–15題（原13/14/15/17），折線六角、角平分線、正五邊形與四個角標均完整。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "a3851b6ceccaa97330c4ce980b98a7d6243981be3ce4ebda68eaedcc08f9be5e",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "沿用上一輪實際視覺核對；本輪PNG SHA-256與上一輪完全相同",
+          "reusedFrom": "qa/metro/visual-new4.json"
+        },
+        {
+          "page": 4,
+          "image": "qa/metro/metro-new_taipei-15ccb3f889b576f9-p4.png",
+          "sha256": "f89c0af7b95586271c06cd9ef2730657afc69d7d597525fe9bfb58e31f9cb031",
+          "modifiedAt": 1794730931.9577255,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第16–20題（原18–22），三種剪裁圖全部條件、120°/115°及正方形對角線均保留。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "f89c0af7b95586271c06cd9ef2730657afc69d7d597525fe9bfb58e31f9cb031",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "沿用上一輪實際視覺核對；本輪PNG SHA-256與上一輪完全相同",
+          "reusedFrom": "qa/metro/visual-new4.json"
+        },
+        {
+          "page": 5,
+          "image": "qa/metro/metro-new_taipei-15ccb3f889b576f9-p5.png",
+          "sha256": "35e2326e624d82888d08cfb7838694a4b7ad6389be3589819265c7c4e834650b",
+          "modifiedAt": 1794730932.0406928,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第21–23題（原23–25），三步作圖及其圖、EHFG四邊形、二次角度式均完整；第12/16來源問題題未混入。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "35e2326e624d82888d08cfb7838694a4b7ad6389be3589819265c7c4e834650b",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "沿用上一輪實際視覺核對；本輪PNG SHA-256與上一輪完全相同",
+          "reusedFrom": "qa/metro/visual-new4.json"
+        }
+      ],
+      "sourceComparison": "原卷7頁已於轉寫時逐頁反查；本輪逐頁將native PDF幾何條件與原圖比對。",
+      "visualReviewComplete": true,
+      "defects": [],
+      "result": "pass"
+    },
+    {
+      "paperId": "1N7akUT_Cyuz05u1dNYDUr7ZRdfciAV_3",
+      "school": "中華國中",
+      "pdf": "qa/metro/1N7akUT_Cyuz05u1dNYDUr7ZRdfciAV_3.pdf",
+      "pdfSha256": "e8fed4e147bcb7ccd15371b102e5ca2da6330a4c44f35e5d7a3b61b435f91da2",
+      "sourceSha256": "e10aaf43885b56926a97c26840266f852ed81f3bc0684453636ca1cb0dba7fd2",
+      "reportedPages": 5,
+      "pages": [
+        {
+          "page": 1,
+          "image": "qa/metro/1N7akUT_Cyuz05u1dNYDUr7ZRdfciAV_3-p1.png",
+          "sha256": "3e033f6c778e4ba469c7c364f4182df100f514c1cf1145f54777de94893f9c12",
+          "modifiedAt": 1794730922.6126232,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第1–10題，連比／相似題分式、選項及四個比較三角形邊長角度均清楚。",
+            "最終版再次實看，四個比較三角形的邊長、40°及字標均保留且可讀。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "f127e635af04649ab436be51777a134fc1b49d1797959c188a220d422ffa0bf7",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "本輪再次使用functions.view_image逐頁實看（整卷所有頁）"
+        },
+        {
+          "page": 2,
+          "image": "qa/metro/1N7akUT_Cyuz05u1dNYDUr7ZRdfciAV_3-p2.png",
+          "sha256": "dc378bf455d780d9c2e13530075f612f73c16927186a72288627d1e101a7f7d7",
+          "modifiedAt": 1794730922.679701,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第11–15題，相似中心圖與三個分線圖均可讀，答題底線未被拆裂；第15題1/2角標均可辨認。",
+            "最終版再次實看，相似圖D標字與第15題1/2角標均清楚，未遮必要交點。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "60da8387a70e896204d5ff557ad48825c0896737a9afb50c2278c8aad868240b",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "本輪再次使用functions.view_image逐頁實看（整卷所有頁）"
+        },
+        {
+          "page": 3,
+          "image": "qa/metro/1N7akUT_Cyuz05u1dNYDUr7ZRdfciAV_3-p3.png",
+          "sha256": "4225fbbdf52bb5ad60f017a9dad8a52b996de9f8cdade8b0e706196cda4a2e9f",
+          "modifiedAt": 1794730922.7535007,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "本輪重新逐頁實看：第17題G已位於AE/BD交點右下，與外邊AB分離；交叉線均連續可辨，原缺陷已修復。其餘第16–21題無新增遮字或裁切。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "ca36c356296ff589e64d16254a1a68401c27d27762e6595277854415641fa2b4",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "本輪再次使用functions.view_image逐頁實看（整卷所有頁）"
+        },
+        {
+          "page": 4,
+          "image": "qa/metro/1N7akUT_Cyuz05u1dNYDUr7ZRdfciAV_3-p4.png",
+          "sha256": "1ac0faa573e8bc6c1038ef56cd3dc6acf35f34068be2b153b531429045ab293b",
+          "modifiedAt": 1794730922.8180785,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第22–24題，E/F分點、平行線及三等分作圖用的三角形完整。",
+            "本輪仍重新看過整頁，無新增問題。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "1ac0faa573e8bc6c1038ef56cd3dc6acf35f34068be2b153b531429045ab293b",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "本輪再次使用functions.view_image逐頁實看（整卷所有頁）"
+        },
+        {
+          "page": 5,
+          "image": "qa/metro/1N7akUT_Cyuz05u1dNYDUr7ZRdfciAV_3-p5.png",
+          "sha256": "6baf05784dec6122314cc12a779d9c6a672afb6f872d341539b6de1e2efcaaa0",
+          "modifiedAt": 1794730922.8983326,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "完整查看第25題，兩表的列欄、容量／咖啡因單位、全部選項及兩個子題完整，無表格裁切。",
+            "本輪仍重新看過整頁，表格及子題完整。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "6baf05784dec6122314cc12a779d9c6a672afb6f872d341539b6de1e2efcaaa0",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "本輪再次使用functions.view_image逐頁實看（整卷所有頁）"
+        }
+      ],
+      "sourceComparison": "本輪為排版視覺QA；G疑義另讀原卷第2頁確認。",
+      "visualReviewComplete": true,
+      "defects": [],
+      "result": "pass"
+    },
+    {
+      "paperId": "1WHmRmhEpiignvLq7SJ6XAymkqX_puPvr",
+      "school": "中華國中",
+      "pdf": "qa/metro/1WHmRmhEpiignvLq7SJ6XAymkqX_puPvr.pdf",
+      "pdfSha256": "fe029cf7ab49101e13f8f8a08bb1d47b07c6e26db37371e66c25f5ae2ae6e69a",
+      "sourceSha256": "6f37fb21992e54a34476fcae0ef3f1f888ac9cd1dd33cb1866074d95e4fa41bc",
+      "reportedPages": 4,
+      "pages": [
+        {
+          "page": 1,
+          "image": "qa/metro/1WHmRmhEpiignvLq7SJ6XAymkqX_puPvr-p1.png",
+          "sha256": "c8b838be8700fdb830a1cbcfcd512113ee6675c4db099255935888924bcde808",
+          "modifiedAt": 1794730937.733367,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第1–10題，是非判斷空格、截線1–8角標、分數與多格填答均清楚。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "c8b838be8700fdb830a1cbcfcd512113ee6675c4db099255935888924bcde808",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "沿用上一輪實際視覺核對；本輪PNG SHA-256與上一輪完全相同",
+          "reusedFrom": "qa/metro/visual-new4.json"
+        },
+        {
+          "page": 2,
+          "image": "qa/metro/1WHmRmhEpiignvLq7SJ6XAymkqX_puPvr-p2.png",
+          "sha256": "ceae154c40a4b2755a3d88558574ae2236aedff7163129020a00a976ddb1c34c",
+          "modifiedAt": 1794730937.7837088,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第11–14題，兩平行線上全部頂點、BD對角線與菱形O點完整，填答線可讀。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "ceae154c40a4b2755a3d88558574ae2236aedff7163129020a00a976ddb1c34c",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "沿用上一輪實際視覺核對；本輪PNG SHA-256與上一輪完全相同",
+          "reusedFrom": "qa/metro/visual-new4.json"
+        },
+        {
+          "page": 3,
+          "image": "qa/metro/1WHmRmhEpiignvLq7SJ6XAymkqX_puPvr-p3.png",
+          "sha256": "93f42e6ca7cfa53c12ea96a55aef6f80e786a137280b686c67e1511328f93ea2",
+          "modifiedAt": 1794730937.8333411,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "逐題看第15–19題，四個65°/60°角、45°/60°/53°折線、四條垂線與直角、梯形均完整。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "93f42e6ca7cfa53c12ea96a55aef6f80e786a137280b686c67e1511328f93ea2",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "沿用上一輪實際視覺核對；本輪PNG SHA-256與上一輪完全相同",
+          "reusedFrom": "qa/metro/visual-new4.json"
+        },
+        {
+          "page": 4,
+          "image": "qa/metro/1WHmRmhEpiignvLq7SJ6XAymkqX_puPvr-p4.png",
+          "sha256": "902d197c433243786c1aa4f5dee9458bc6fb121cb0256c4ad5df61befdb8e552",
+          "modifiedAt": 1794730937.873943,
+          "reviewed": true,
+          "method": "functions.view_image，逐張原尺寸PNG實看",
+          "observations": [
+            "完整查看第20–21題，三個坐標、平行四邊形對角線及E點直角記號、兩個計算子題均完整。"
+          ],
+          "defects": [],
+          "result": "pass",
+          "previousSha256": "902d197c433243786c1aa4f5dee9458bc6fb121cb0256c4ad5df61befdb8e552",
+          "finalReviewedAt": "2026-11-15T08:26:20.438Z",
+          "reviewBasis": "沿用上一輪實際視覺核對；本輪PNG SHA-256與上一輪完全相同",
+          "reusedFrom": "qa/metro/visual-new4.json"
+        }
+      ],
+      "sourceComparison": "本輪為排版視覺QA；G疑義另讀原卷第2頁確認。",
+      "visualReviewComplete": true,
+      "defects": [],
+      "result": "pass"
+    }
+  ],
+  "previousReport": "qa/metro/visual-new4.json",
+  "acceptanceReportSha256": "7a702b6eef3641624d8afb99b4cac362a98105514b234db04a1c14dfe314cc73",
+  "fontSha256": "6f3470c411bda09494b67de3c8d7be10b77d388a4a84f3856d42daf2c8319eb2",
+  "typesetterSha256": "986b7ff0411da911197d9be041b8d87dfd4583cb3f5533b4458abe7842b77aa4",
+  "bankUnchangedDuringRun": true,
+  "currentRoundPagesActuallyViewed": 10,
+  "unchangedPagesReusedByExactSha256": 9,
+  "result": "pass",
+  "resolvedDefects": [
+    {
+      "id": "n7-fill7-g-label",
+      "severity": "medium",
+      "questionDisplayNumber": 17,
+      "questionId": "1N7akUT_Cyuz05u1dNYDUr7ZRdfciAV_3-fill-填充7",
+      "kind": "diagram-label-placement",
+      "description": "G文字目前位於SVG(118,141)，靠近外邊AB並以白底截掉AB一小段；與AE、BD交點(137.5,150)偏離，可能誤認G的位置。",
+      "sourceImage": "research/targets/render/yilan/1N7akUT_Cyuz05u1dNYDUr7ZRdfciAV_3-p2.png",
+      "suggestion": "在viewBox 0 0 310 235中將G文字改至(146,174)交點右下；必要時在(137.5,150)加約r=1.8黑點對應原圖點。避免將文字放在AB外邊。",
+      "status": "resolved",
+      "resolvedAt": "2026-11-15T08:26:20.438Z",
+      "resolution": "重匯出後已重新實看1N7全部5頁，G位於交點右下，未遮AB，交點及內部連線可辨。",
+      "evidenceImage": "qa/metro/1N7akUT_Cyuz05u1dNYDUr7ZRdfciAV_3-p3.png",
+      "evidenceSha256": "4225fbbdf52bb5ad60f017a9dad8a52b996de9f8cdade8b0e706196cda4a2e9f"
+    }
+  ]
+}
