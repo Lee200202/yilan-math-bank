@@ -1,0 +1,21 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url),{chromium}=require('C:/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1112-737-0_26.1112.737.0_x64__3k8sg7r9htsxt/dependencies/node/node_modules/playwright');
+const data=JSON.parse(await readFile('research/transcribed-requested-zh111-1-2-8.json','utf8'));
+const dir='research/requested-zh111-1-2-8-review';await mkdir(dir,{recursive:true});
+const browser=await chromium.launch({headless:true,channel:'chrome'}),page=await browser.newPage({viewport:{width:1400,height:1000},deviceScaleFactor:1});
+await page.goto('http://127.0.0.1:4173',{waitUntil:'networkidle'});await page.evaluate(()=>MathJax.startup.promise);
+const texts=data.flatMap(q=>q.blocks.flatMap(b=>b.type==='text'?[b.text]:b.type==='options'?b.items:[]));
+const formulas=[...new Set(texts.flatMap(t=>[...t.matchAll(/\$([^$]+)\$/g)].map(m=>m[1])))];
+const texErrors=await page.evaluate(async formulas=>{const errors=[];for(const tex of formulas){try{const s=await MathJax.tex2svgPromise(tex);if(s.querySelector('[data-mjx-error],mjx-merror'))errors.push({tex,error:s.textContent});}catch(e){errors.push({tex,error:String(e)});}}return errors;},formulas);
+const sheets=[],bounds=[],overflow=[];
+for(let start=0;start<data.length;start+=5){const chunk=data.slice(start,start+5);await page.evaluate(async chunk=>{
+ document.body.innerHTML='<style>@font-face{font-family:QANoto;src:url(/NotoSansTC.ttf)}body{background:white;color:#111;margin:0;padding:14px;max-width:none;font-family:QANoto,sans-serif;font-size:21px}.proof-grid{margin:0!important;padding:0!important;max-width:none!important;width:auto!important;display:grid;grid-template-columns:1fr 1fr;gap:15px;align-items:start}.proof-card{border:1px solid #aaa;padding:15px;min-width:0}.proof-id{font:12px monospace;margin-bottom:10px}.proof-text{margin-bottom:8px;line-height:1.55}.proof-svg svg{display:block;width:100%;height:270px}.proof-svg svg text{font-family:QANoto,sans-serif}.proof-options{display:grid;grid-template-columns:1fr 1fr;gap:5px}mjx-container{font-size:108%!important}mjx-assistive-mml{display:none!important}</style><main class="proof-grid"></main>';
+ const grid=document.querySelector('.proof-grid');
+ async function rich(parent,s){let pos=0;for(const m of s.matchAll(/\$([^$]+)\$/g)){parent.append(document.createTextNode(s.slice(pos,m.index)));parent.append(await MathJax.tex2svgPromise(m[1],{display:false}));pos=m.index+m[0].length;}parent.append(document.createTextNode(s.slice(pos)));}
+ for(const q of chunk){const card=document.createElement('section');card.className='proof-card';const id=document.createElement('div');id.className='proof-id';id.textContent=q.id;card.append(id);for(const b of q.blocks){const el=document.createElement('div');if(b.type==='text'){el.className='proof-text';await rich(el,b.text);}else if(b.type==='options'){el.className='proof-options';for(let i=0;i<b.items.length;i++){const opt=document.createElement('div');await rich(opt,`(${String.fromCharCode(65+i)}) ${b.items[i]}`);el.append(opt);}}else if(b.type==='svg'){el.className='proof-svg';el.innerHTML=b.svg;}card.append(el);}grid.append(card);}await document.fonts.ready;
+},chunk);
+ const check=await page.evaluate(()=>({svgs:[...document.querySelectorAll('.proof-svg svg')].map(e=>{const b=e.getBBox(),v=e.viewBox.baseVal;return {bbox:{x:b.x,y:b.y,width:b.width,height:b.height},viewBox:{x:v.x,y:v.y,width:v.width,height:v.height},overflow:b.x<v.x-.1||b.y<v.y-.1||b.x+b.width>v.x+v.width+.1||b.y+b.height>v.y+v.height+.1};}),cards:[...document.querySelectorAll('.proof-card')].filter(e=>e.scrollWidth>e.clientWidth+1).map(e=>e.querySelector('.proof-id').textContent)}));
+ check.svgs.filter(x=>x.overflow).forEach(x=>bounds.push(x));overflow.push(...check.cards);const file=`questions-${start+1}-${start+chunk.length}.png`;await page.screenshot({path:`${dir}/${file}`,fullPage:true});sheets.push(file);
+}
+const report={questions:data.length,uniqueFormulas:formulas.length,texErrors,svgBounds:bounds,cardOverflow:overflow,sheets};await writeFile('research/requested-zh111-1-2-8-render-check.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));await browser.close();if(texErrors.length||bounds.length||overflow.length)process.exitCode=1;

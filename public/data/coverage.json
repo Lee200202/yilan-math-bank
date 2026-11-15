@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-14",
+  "checkedAt": "2026-11-15",
   "scope": "宜蘭縣中華、羅東、內城國中，105至115學年，僅公開來源；另保留全縣入口盤點",
   "inventorySources": [
     "https://stats.moe.gov.tw/files/opendata/j1_new.json",
@@ -114,8 +114,8 @@
         114,
         115
       ],
-      "paperCount": 167,
-      "reviewedQuestionCount": 381,
+      "paperCount": 168,
+      "reviewedQuestionCount": 707,
       "note": "已下載公開原卷。並非所有年度／學期／年級／次別均齊全；部分原卷尚待拆題校對。",
       "checkedPages": [
         "https://www.chjh.ilc.edu.tw/",
@@ -177,7 +177,7 @@
         112
       ],
       "paperCount": 87,
-      "reviewedQuestionCount": 161,
+      "reviewedQuestionCount": 314,
       "note": "已下載公開原卷。並非所有年度／學期／年級／次別均齊全；部分原卷尚待拆題校對。",
       "checkedPages": [
         "https://www.ltjh.ilc.edu.tw/",
@@ -444,7 +444,7 @@
         110
       ],
       "paperCount": 15,
-      "reviewedQuestionCount": 87,
+      "reviewedQuestionCount": 122,
       "note": "已下載公開原卷。並非所有年度／學期／年級／次別均齊全；部分原卷尚待拆題校對。",
       "checkedPages": [
         "https://www.ryjh.ilc.edu.tw/"
@@ -539,11 +539,20 @@
     }
   ],
   "filesDownloaded": 437,
-  "paperFiles": 269,
-  "reviewedQuestions": 629,
-  "sourceReviewedQuestions": 633,
+  "paperFiles": 270,
+  "reviewedQuestions": 1143,
+  "legacyQuestionGroups": 37,
+  "sourceReviewedQuestions": 1062,
   "pendingTranscriptions": 0,
   "excludedQuestionIssues": [
+    {
+      "id": "zh-bulk-1gzl-H9fya361mVJw816gQO8w80e7g3Sq-written-1",
+      "reason": "原卷實際渲染及文字層均只有「則＝？」；等號前要求的線段／數量缺漏，不能推定體對角線，暫停組卷。"
+    },
+    {
+      "id": "ld-110-1-2-8-fill-14",
+      "reason": "原稿題幹印AB、AC作正方形，但原圖乙正方形在CD邊，文字與圖不一致；忠實保留，不自行更正。"
+    },
     {
       "id": "ld-110-1-1-9-fill-12",
       "reason": "原稿同時使用大寫X/Y與小寫x/y，變數身分不一致；保留原文，待校方確認後再組卷。"
@@ -562,12 +571,29 @@
     }
   ],
   "reviewFiles": [
+    "curated-bulk-16EeKUo1TFlipf950nPiry7mpCxdq6Cp-.json",
+    "curated-bulk-1ELUBIJ4tsY1rEvQuoRyeDKIWdl-FwORP.json",
+    "curated-bulk-1gzl-H9fya361mVJw816gQO8w80e7g3Sq.json",
+    "curated-bulk-1LvTTxqYjttEKwStLNgl83N1IGvY75Imd.json",
+    "curated-bulk-1n9YoleDH0qAnQI2e-kctebYBYMlXIUc6.json",
+    "curated-bulk-1OrqDrOOZikadJZffgkGupUsqpNDUZ64X.json",
+    "curated-bulk-1rJYbUevjpu3lIsrQ5XYu8NUfzeMClxy5.json",
+    "curated-bulk-1wkOiRZzblQh9zawh0rGg9lbtWdOQX-Kh.json",
+    "curated-bulk-1ZZUkKjnXYPQn5CwCnQPqN9ayYj__D6wS.json",
+    "curated-bulk-ld-105-1-2-8.json",
+    "curated-bulk-ld-106-1-2-8.json",
+    "curated-bulk-ld-107-1-2-8.json",
+    "curated-bulk-ld-108-1-2-8.json",
+    "curated-bulk-ld-110-1-2-8.json",
+    "curated-bulk-nc-109-1-2-8.json",
     "curated-luodong-pre108.json",
     "curated-luodong.json",
     "curated-luodong112.json",
     "curated-luodong9.json",
     "curated-neicheng.json",
     "curated-neicheng109.json",
+    "curated-requested-ld112-1-2-8.json",
+    "curated-requested-zh111-1-2-8.json",
     "curated-zhonghua-completion.json",
     "curated-zhonghua-earlier.json",
     "curated-zhonghua-extra79.json",
@@ -575,5 +601,28 @@
     "curated-zhonghua79.json",
     "curated-zhonghua8.json"
   ],
-  "limitation": "原卷下載、逐題辨識與文字重排分開計數；未完成文字核對的題目不參與組卷。"
+  "limitation": "原卷下載、逐題辨識與文字重排分開計數；未完成文字核對的題目不參與組卷。",
+  "paperWorkflow": {
+    "complete": 15,
+    "complete-with-source-issues": 2,
+    "partial": 38,
+    "pending": 215
+  },
+  "pendingWholePaperTranscriptions": 253,
+  "unitClassification": {
+    "publisher": "南一",
+    "catalogEdition": "112學年度教材簡介本（108課綱）",
+    "assigned": 1142,
+    "unknown": 1,
+    "basis": "依題幹、公式與必要圖逐題核對；每題以主要單元計配比，另保留跨單元標籤。"
+  },
+  "officialSourceAudit": {
+    "checkedAt": "2026-11-15",
+    "driveFoldersInspected": 269,
+    "categoryPagesInspected": 5,
+    "examPostsInspected": 31,
+    "mathFilesIncludingAnswers": 425,
+    "questionFilesArchived": 255,
+    "missingQuestionDownloads": []
+  }
 }

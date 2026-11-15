@@ -1,0 +1,55 @@
+{
+  "checkedDate": "2026-11-15",
+  "visualConfirmedOverrides": [
+    {
+      "id": "ld-106-2-1-9",
+      "year": 106,
+      "semester": 1,
+      "exam": 1,
+      "grade": 9,
+      "sourceFolderYear": 106,
+      "sourceFolderSemester": 2,
+      "contentDuplicateOf": "ld-106-1-1-9",
+      "metadataBasis": "已實際開啟原始掃描PDF首頁，卷首清楚為106學年度第一學期九年級數學科第一次段考。官網106下第一次文章誤連到同一原PDF；原始SHA與ld-106-1-1-9完全相同。按卷首核定上學期，保留來源文章下學期供追溯。",
+      "metadataEvidence": "research/ld-106-2-1-9-full-header-check.png",
+      "sourceSha256": "29721f5219722b7c9a09079a9676743428bebf57da6d04bc8474fcd5047a1080"
+    },
+    {
+      "id": "ld-106-1-1-8",
+      "year": 105,
+      "semester": 2,
+      "exam": 1,
+      "grade": 8,
+      "sourceFolderYear": 106,
+      "sourceFolderSemester": 1,
+      "contentDuplicateOf": "ld-105-2-1-8",
+      "metadataBasis": "已將原DOC以全新獨立Word唯讀禁宏轉PDF並實際看首頁；卷首清楚為105學年度第二學期八年級第一次段考。原始DOC與ld-105-2-1-8完全同SHA。官網106上第一次文章誤連舊卷，按原卷首核定105下，保留來源106上供追溯。",
+      "metadataEvidence": "research/full-official-conflict-ld-106-1-1-8.png",
+      "sourceSha256": "93bdfb31189c1b296d19b595cf3288511ab9309866fccfe82425f6c723727ff2"
+    },
+    {
+      "id": "1AhIbjzAwUEmFrWisDMwTc-OzZhFUpm91",
+      "year": 108,
+      "semester": 2,
+      "exam": 3,
+      "grade": 8,
+      "sourceFolderYear": 107,
+      "sourceFolderSemester": 2,
+      "metadataBasis": "已將原DOC以全新獨立Word唯讀禁宏轉PDF並實際看首頁；卷首紅字清楚為一○八學年度第二學期第三次段考、八年級。資料夾/檔名宣告107，按卷首核定108並保留來源年度107。與108下第三次正確資料夾的161r...原卷正文不同，不以相同卷首直接合併。",
+      "metadataEvidence": "research/full-official-conflict-1AhIbjzAwUEmFrWisDMwTc-OzZhFUpm91.png",
+      "sourceSha256": "8478bac2a289326a6c4892d2934a24248eaea5633e2e3d899a07bbe81340f2ca"
+    }
+  ],
+  "falsePositiveResolved": {
+    "id": "1UMI7X448uFG4u-xZh7bBZSj2jsO2Phsh",
+    "result": "No metadata correction. Actual displayed Word/PDF header is106學年度第二學期第三次段考、一年級(7). The initial text-stream order placed a question about小恩第二次段考 before the floating header and falsely suggested exam2. Source first page was opened visually; position-sorted extraction is now used.",
+    "metadataEvidence": "research/full-official-conflict-1UMI7X448uFG4u-xZh7bBZSj2jsO2Phsh.png"
+  },
+  "additionalSameHeaderDistinctPaper": {
+    "misfiledId": "1AhIbjzAwUEmFrWisDMwTc-OzZhFUpm91",
+    "actual108FolderId": "161rWGzcQYllb6Vl0DXXV1sjxuPMFzpDP",
+    "normalizedCjkSimilarity": 0.2474074074074074,
+    "result": "Both headers show108下三八年級, but first questions and most content differ. Do not merge solely on header. Only the two Luodong byte-identical files are canonical duplicates."
+  },
+  "scannedOriginalsNotReadByRegex": "All unresolved scanned/textless headers remain pending; this report does not infer their identity from a regex."
+}

@@ -1,0 +1,42 @@
+import importlib.util
+from pathlib import Path
+s=importlib.util.spec_from_file_location('bulkhelper',Path(__file__).with_name('bulk-priority-helper.py'));m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+Paper,svg,path,labels=m.Paper,m.svg,m.path,m.labels
+p=Paper('ld-106-1-2-8','宜蘭縣立羅東國中106學年度第一學期八年級數學科第二次段考試卷')
+f3=svg('<path d="M65 35V215H285Z" fill="#fff3f3" stroke="#111" stroke-width="1.5"/>'+path('M65 203H77V215')+labels([(21,135,'√5'),(178,120,'√13'),(165,243,'x')]),340,275)
+cube=svg(path('M110 40H270L215 95H55ZM55 95V255H215V95M270 40V200L215 255')+path('M110 40V200H270M110 200 55 255','stroke-dasharray="5 5"')+path('M110 40 215 95','style="stroke:#1294bf"')+path('M110 40 215 255','style="stroke:#1294bf" stroke-dasharray="5 5"')+labels([(100,30,'A'),(274,30,'B'),(223,99,'C'),(32,99,'D'),(212,280,'E')]),330,305)
+f8=svg('<path d="M150 40 150 160 240 160Z" fill="#fffbe8" stroke="#111" stroke-width="1.5"/><path d="M150 40 240 160H310Z" fill="#eaf6ff" stroke="#111" stroke-width="1.5"/>'+path('M150 40 60 160H150','stroke-dasharray="5 5"')+path('M129 105q19 18 38 0m-9 0 9 0-4 8')+labels([(139,30,'A'),(40,182,'B'),(314,182,'C'),(140,183,'D'),(232,183,'E')]),360,220)
+def grid():
+ s=''
+ for n in range(-6,7):
+  v=170+n*22;s+=path(f'M38 {v}H302M{v} 38V302','style="stroke:#13b7ee;stroke-width:.6"')
+ s+=path('M28 170H317m-8-4 8 4-8 4M170 315V22m-4 8 4-8 4 8')
+ s+=path('M82 302 302 137M112 92 258 286','style="stroke:#e129d9;stroke-width:1.2"')
+ s+='<circle cx="258" cy="170" r="3" fill="#e129d9"/><circle cx="170" cy="236" r="3" fill="#e129d9"/>'
+ return svg(s+labels([(153,190,'O'),(319,177,'x'),(164,17,'y'),(151,152,'1'),(201,163,'(4, 0)'),(73,250,'(0, −3)'),(68,285,'L'),(90,111,'M'),(216,228,'P')]),350,335)
+fw1=svg(path('M50 40V200H440V123.68L50 40 405.67 200 440 123.68M397 196l5-11 11 5')+path('M50 40H440V123.68','stroke-dasharray="5 5"')+path('M40 40q-18 80 0 160M50 211q195 32 390 0')+labels([(25,32,'A'),(25,225,'B'),(442,225,'C'),(442,32,'D'),(446,126,'E'),(397,228,'F'),(12,126,'5'),(238,248,'13')]),490,280)
+fw3=svg(path('M60 40V240H300ZM60 240 158.36 121.97M60 228H72V240M151.96 129.65l7.68 6.4 6.4-7.68')+labels([(37,30,'B'),(37,265,'C'),(306,265,'A'),(31,143,'a'),(175,269,'b'),(210,133,'c'),(100,182,'h')]),360,295)
+p.add('1(1)',0,[77,398,489,447],r'計算並將結果化為最簡根式：$\sqrt{90}\times\sqrt5=$＿＿＿＿。','easy')
+p.add('1(2)',0,[661,390,1024,450],r'計算並將結果化為最簡根式：$\sqrt{\frac2{15}}=$＿＿＿＿。','easy')
+p.add('1(3)',0,[77,472,635,516],r'計算並將結果化為最簡根式：$3\sqrt2-5\sqrt3-2\sqrt2+2\sqrt3=$＿＿＿＿。','easy')
+p.add('1(4)',0,[661,465,1042,524],r'計算並將結果化為最簡根式：$\frac{\sqrt2}{2-\sqrt2}=$＿＿＿＿。')
+p.add('1(5)',0,[77,551,664,600],r'計算並將結果化為最簡根式：$(\sqrt7+\sqrt5)^4(\sqrt7-\sqrt5)^2=$＿＿＿＿。')
+p.add(2,0,[58,633,1161,703],r'已知 $x^2-7x-8=(x+1)(x-8)$，則下列哪些是 $x^2-7x-8$ 的因式？＿＿＿＿。','easy',options=[r'$x+1$',r'$2x+2$',r'$x-1$',r'$2(x-8)$',r'$(x+1)(x-8)$'])
+p.add(3,0,[58,709,644,814],r'圖中 $x=$＿＿＿＿。','easy',diagram=f3)
+p.add(4,0,[58,810,996,976],r'如圖是邊長6公分的正方體，求 $\overline{AE}$ 的長＝＿＿＿＿。',diagram=cube)
+p.add('5(1)',0,[73,1013,379,1055],r'因式分解：$3ab-a=$＿＿＿＿。','easy')
+p.add('5(2)',0,[73,1060,639,1100],r'因式分解：$x(x+2)+(x+2)=$＿＿＿＿。','easy')
+p.add('5(3)',0,[73,1108,639,1149],r'因式分解：$(3x-1)^2-x(1-3x)=$＿＿＿＿。')
+p.add('5(4)',0,[73,1153,599,1193],r'因式分解：$x^2-(y+5)^2=$＿＿＿＿。','easy')
+p.add('5(5)',0,[73,1200,591,1240],r'因式分解：$2x^2-12x+18=$＿＿＿＿。','easy')
+p.add('5(6)',0,[73,1246,661,1287],r'因式分解：$(x+1)^2+10(x+1)+25=$＿＿＿＿。')
+p.add('5(7)',0,[73,1294,601,1334],r'因式分解：$x^2-4y^2-12y-9=$＿＿＿＿。')
+p.add('5(8)',0,[73,1340,719,1381],r'因式分解：$(a^2x+x)+(ax^2+a)=$＿＿＿＿。')
+p.add(6,0,[58,1426,927,1466],r'若 $6x^2-7x+m$ 是 $2x-3$ 的倍式，則因式分解 $6x^2-7x+m$ 為＿＿＿＿。')
+p.add(7,0,[58,1532,1050,1573],r'已知坐標平面上 $P(-1,-1)$、$Q(-4,3)$、$R(5,2)$ 三點，試求 $\overline{PR}-\overline{PQ}=$＿＿＿＿。','easy')
+p.add(8,1,[58,73,1115,231],r'如圖 $\triangle ABC$ 中，$\overline{AB}=30$、$\overline{AC}=40$，沿著 $\overline{AD}$ 將 $\triangle ABD$ 向右摺，使 $B$ 點落在 $E$ 點上，若 $\overline{AD}=24$，求 $\triangle ACE$ 的面積為＿＿＿＿。（平方單位）','hard',diagram=f8)
+p.add(9,1,[58,270,1155,610],r'如圖，在直角坐標平面上，已知直線 $L$ 交坐標軸於 $(4,0)$、$(0,-3)$，另，通過原點的直線 $M$ 垂直直線 $L$ 於 $P$ 點。求 $P$ 點的坐標為＿＿＿＿。','hard',diagram=grid())
+p.add(1,1,[67,614,1070,815],r'如圖，長方形 $ABCD$ 中，$\overline{AB}=5$、$\overline{BC}=13$ 公分，今將其摺疊，使其頂點 $D$ 點落在 $\overline{BC}$ 上之一點 $F$，求 $\overline{EF}$ 為何？（公分）','hard',kind='written',diagram=fw1)
+p.add(2,1,[58,1031,565,1085],r'計算 $\sqrt3-2\sqrt3\times\left(-\sqrt{\frac53}\right)\div\sqrt{10}$。',kind='written')
+p.add(3,1,[46,1295,1004,1510],r'如圖，直角 $\triangle ABC$ 的兩股長為 $a$、$b$，斜邊長為 $c$，斜邊上的高為 $h$，請說明「直角三角形斜邊上的高＝兩股乘積÷斜邊」成立的理由。','hard',kind='written',diagram=fw3)
+p.save(23,{'fill':20,'written':3})

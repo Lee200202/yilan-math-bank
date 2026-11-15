@@ -1,0 +1,811 @@
+{
+  "sourceFileSha256": "093320cda1df596c4083727b955f016eefa1357542fb294e55bd12227f33772d",
+  "candidateParentsReviewed": 58,
+  "splitParents": 37,
+  "standaloneChildren": 124,
+  "netIncreaseIfParentsExcludedFromNewGeneration": 87,
+  "selectionMethod": "逐一閱讀58個明列(1)/（1）或①的候選轉寫全文，手動列出37個安全parent的124個完整child；不是以正規表示式模糊切出題目文字。",
+  "boundary": "只拆各自有完整資料的純計算/多項式/方程/比較/不同數列題。共用圖、資料、應用情境或前題結果者均保留。共同的必要一般指示和非零條件已複製至獨立child。",
+  "allSelectedParentsTextOnly": true,
+  "childDifficultyBasis": "依子題運算步驟與推理需求作教學估計；不沿用整組統一難度或宣稱官方難度。",
+  "formulaValidation": {
+    "parents": 37,
+    "children": 124,
+    "formulas": 172,
+    "errors": []
+  },
+  "retainedParents": [
+    {
+      "parentId": "ld-108-1-2-7-written-1",
+      "reason": "同一塊布的應用題，(2)明確承接(1)的製作結果。"
+    },
+    {
+      "parentId": "ld-110-1-1-7-fill-14",
+      "reason": "①②③是同一算式逐步變形的判斷材料，不是三個獨立題。"
+    },
+    {
+      "parentId": "ld-110-1-1-7-written-3",
+      "reason": "共用A/B/C坐標、起點與甲乙速度的完整相遇題。"
+    },
+    {
+      "parentId": "nc-110-1-2-8-fill-19",
+      "reason": "兩個距離問題共用同一組A/B/C坐標資料，本輪保留完整題組。"
+    },
+    {
+      "parentId": "nc-110-1-1-8-fill-17",
+      "reason": "同一正方形周長資料下求邊長與面積，連續關係保留。"
+    },
+    {
+      "parentId": "1C8OHjkXiEXjJwe0tFeSHI_eIDbPVySAS-written-計算-1",
+      "reason": "共用鯨魚圖形、總面積與邊長條件，圖形不可拆離。"
+    },
+    {
+      "parentId": "1xR9omAq8I_gRVYF1GTOxxOyNqi-OqvB0-fill-基礎-2",
+      "reason": "同一常數數列的等差與等比性質比較，共用資料。"
+    },
+    {
+      "parentId": "1xR9omAq8I_gRVYF1GTOxxOyNqi-OqvB0-fill-基礎-3",
+      "reason": "同一4、a、16數列在不同條件下的比較，共用數列資料。"
+    },
+    {
+      "parentId": "1xR9omAq8I_gRVYF1GTOxxOyNqi-OqvB0-fill-基礎-5",
+      "reason": "同一等比數列的第5項與第m項條件，共用首項及公比。"
+    },
+    {
+      "parentId": "1xR9omAq8I_gRVYF1GTOxxOyNqi-OqvB0-fill-基礎-7",
+      "reason": "同一等差級數的項數與總和，保留同一資料題組。"
+    },
+    {
+      "parentId": "1LQ6OSvj0L02BRnjxRz3GYzsDyKQSnIf3-fill-填充-1",
+      "reason": "數列與圖形規律混合題，含圖子題的獨立重排仍需另核；本輪保守保留原組。"
+    },
+    {
+      "parentId": "1lfI6ABhLk5KLFkt2x2-ats3M93gZD-8s-fill-填充-1",
+      "reason": "同一等差數列的公差、第10項及項數，共用數列資料。"
+    },
+    {
+      "parentId": "1lfI6ABhLk5KLFkt2x2-ats3M93gZD-8s-fill-填充-5",
+      "reason": "同一等差數列的部分和、負項起點與最大和，具有連續分析關係。"
+    },
+    {
+      "parentId": "1lfI6ABhLk5KLFkt2x2-ats3M93gZD-8s-fill-填充-9",
+      "reason": "先求一次函數再求其函數值，屬同一函數條件下的連續題。"
+    },
+    {
+      "parentId": "1JjJd7L0_nBPPPFPg4IcbaFW3DhuyHAAa-fill-填充-7",
+      "reason": "先判斷x再求sqrt(x)的近似值，共用界限與x值。"
+    },
+    {
+      "parentId": "1j7D2rr1uOywcRO0fDNN3twKp5MDomb5--written-計算-1",
+      "reason": "(2)明確要求使用(1)的結果。"
+    },
+    {
+      "parentId": "zh-114-1-3-7-fill-5",
+      "reason": "同一商品成本/定價情境，先列方程再求成本。"
+    },
+    {
+      "parentId": "zh-113-1-1-9-fill-1",
+      "reason": "兩問共用同一組三角形圖形與相似性質資料。"
+    },
+    {
+      "parentId": "zh-105-1-1-7-fill-2",
+      "reason": "兩問共用同一數線圖，不拆離必要圖。"
+    },
+    {
+      "parentId": "1wUCFV5eX0oZw3IM_zpkfB2QdFavSGydG-fill-填充-3",
+      "reason": "(2)明確要求利用(1)的化簡結果。"
+    },
+    {
+      "parentId": "1wUCFV5eX0oZw3IM_zpkfB2QdFavSGydG-written-計算-2",
+      "reason": "同一540人正方形方陣情境，共用平方根與補人數的推理及圖。"
+    }
+  ],
+  "reviewedSourceText": [
+    {
+      "parentId": "ld-110-1-1-8-fill-1",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "求下列各數的值：(1) $299^2=$＿＿＿＿。(2) $\\frac{285^2-115^2}{285^2-230\\times285+115^2}=$＿＿＿＿。(3) $\\sqrt{4.41}=$＿＿＿＿。(4) $995^2-\\sqrt{(-25)^2}=$＿＿＿＿。"
+        }
+      ],
+      "children": 4
+    },
+    {
+      "parentId": "ld-110-1-1-8-fill-4",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式：(1) $(5+2x^2+3x)+(-2+x^2+x)=$＿＿＿＿。(2) $3x(5x-8)=$＿＿＿＿。(3) $(24x^2+4x)\\div(4x)=$＿＿＿＿。(4) $(2x+5)^2-(2x-5)^2-3x(x-7)=$＿＿＿＿。"
+        }
+      ],
+      "children": 4
+    },
+    {
+      "parentId": "ld-112-1-2-7-fill-10",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "在下列空格中填入適當的數：(1) $4^5\\times4^3\\div(4^2)^3=4^{\\square}$，$\\square=$＿＿＿＿。(2) $6^8\\div(2^2\\times3^2)=6^{\\square}$，$\\square=$＿＿＿＿。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "ld-112-1-2-7-fill-11",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式的值，並將結果化成最簡分數："
+        },
+        {
+          "type": "text",
+          "text": "(1) $-\\frac53-(-\\frac16)=$＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(2) $-\\frac47-(\\frac{13}{11}-1\\frac47)=$＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(3) $[(\\frac38)\\times(-\\frac{32}9)]^0=$＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(4) $(-\\frac7{13})\\times3\\frac57\\div(-2\\frac23)=$＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(5) $\\frac{11^2}{4^3}\\times[(\\frac{11}3)^2]^3\\times(\\frac6{11})^7=$＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(6) $-9\\frac14-\\frac23\\times[\\frac78-(\\frac12-\\frac34)]=$＿＿＿＿。"
+        }
+      ],
+      "children": 6
+    },
+    {
+      "parentId": "nc-110-1-1-8-fill-15",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "利用平方差公式 $(a+b)(a-b)=a^2-b^2$，計算下列各式之值。(1) $402\\times398$　(2) $56^2-44^2$。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "nc-110-1-1-8-fill-19",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "求下列各數的平方根。(1) 100　(2) 0.0196　(3) 1　(4) 6。"
+        }
+      ],
+      "children": 4
+    },
+    {
+      "parentId": "nc-110-1-1-8-fill-20",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各數的值。(1) $-\\sqrt{400}$　(2) $\\sqrt{3^2\\times5^2\\times7^2}$。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "1C8OHjkXiEXjJwe0tFeSHI_eIDbPVySAS-fill-基礎填充-1",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "填入適當的式子：\n(1) $6x\\cdot($＿＿＿＿$)=48x^2$。\n(2) $(3x^2-2x^3+5)-(7x^3-3x+6)=$＿＿＿＿。\n(3) $(2x^2+5)(x-7)=$＿＿＿＿。\n(4) $(x+10)^2-(x-10)^2=$＿＿＿＿。"
+        }
+      ],
+      "children": 4
+    },
+    {
+      "parentId": "12qTzBXv1TN3qhRIt0gGZSugu3m7UQzh1-fill-超基本填充-3",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "設 $x$、$y$ 皆不為 $0$：\n(1) 若 $7x=4y$，則 $x:y=$＿＿＿＿。\n(2) 若 $\\frac{x}7=\\frac{y}4$，則 $x:y=$＿＿＿＿。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "16M1pIRwvx2OortGNbafUIAN2NgpSx5f0-fill-填充-1",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "觀察下列各數列的規律，在空格中填入適當的數。"
+        },
+        {
+          "type": "text",
+          "text": "（1）$25,36,49,64,81,$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$2,3,5,8,13,21,34,55,$ ＿＿。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "16M1pIRwvx2OortGNbafUIAN2NgpSx5f0-fill-填充-2",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "求出下列各等差數列的公差。"
+        },
+        {
+          "type": "text",
+          "text": "（1）$2,4,6,8,10$，公差 $=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$4a+b,\\ a+3b,\\ -2a+5b,\\ -5a+7b$，公差 $=$ ＿＿。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "1apVXWg6tdPwOUMCRnKeC7ZG5pgs6X2kR-fill-填充-1",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "觀察下列各數列的規律，在空格中填入適當的數："
+        },
+        {
+          "type": "text",
+          "text": "（1）$1,4,7,$ ＿＿$,13,16$。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$1,4,16,$ ＿＿$,256,1024$。"
+        },
+        {
+          "type": "text",
+          "text": "（3）$1,1,2,3,5,$ ＿＿$,13,21,34$。"
+        }
+      ],
+      "children": 3
+    },
+    {
+      "parentId": "1fZgUOvgrGdIYaDepzfHHDlItMPfhbJSc-written-計算-1",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "(1) 將 $-3.5$、$0$、$-6$、$-(-\\frac17)$、$|-8|$ 這五個數由大至小排列。\n(2) $A=9.1\\times10^{-4}$、$B=5.6\\times10^{-3}$、$C=6.08\\times10^{-6}$、$D=3.2\\times10^{-4}$。請將 $A$、$B$、$C$、$D$ 依大小順序排列。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "1ZASDtBiRnEoXShkcBvn-r9gbCo6txlYo-fill-填充-2",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式的值：\n(1) $295^2-5^2=$＿＿＿＿。\n(2) $497^2+2\\times497\\times3+3^2=$＿＿＿＿。\n(3) $\\sqrt{121}+\\sqrt{(-6)^2}-(\\sqrt5)^2=$＿＿＿＿。"
+        }
+      ],
+      "children": 3
+    },
+    {
+      "parentId": "1ZASDtBiRnEoXShkcBvn-r9gbCo6txlYo-fill-填充-3",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式：\n(1) $(5x^2+2x+4)+(x-3)=$＿＿＿＿。\n(2) $(3x+8x^2+6)-(4x^2+6)=$＿＿＿＿。\n(3) $(x+4)(3x-2)=$＿＿＿＿。"
+        }
+      ],
+      "children": 3
+    },
+    {
+      "parentId": "1JjJd7L0_nBPPPFPg4IcbaFW3DhuyHAAa-fill-填充-1",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式：（展開合併後請依降冪排列書寫）"
+        },
+        {
+          "type": "text",
+          "text": "（1）$(3x^2+7)+(8x+x^2)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$(4x^2+9)-(3x^2+1-3x)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（3）$(x-2)(x+2)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（4）$(2x-3)^2=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（5）$(4x^2+7)(3-x)=$ ＿＿。"
+        }
+      ],
+      "children": 5
+    },
+    {
+      "parentId": "1JjJd7L0_nBPPPFPg4IcbaFW3DhuyHAAa-written-綜合-2",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "利用乘法公式計算下列各式的值："
+        },
+        {
+          "type": "text",
+          "text": "（1）$\\dfrac{7470^2+2\\times7470\\times1983+1983^2}{7470^2-1983^2}$"
+        },
+        {
+          "type": "text",
+          "text": "（2）$\\sqrt{\\dfrac14-678+678^2}$"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "1j7D2rr1uOywcRO0fDNN3twKp5MDomb5--fill-基礎填充-2",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式的值："
+        },
+        {
+          "type": "text",
+          "text": "（1）$\\sqrt{\\dfrac{16}{49}}=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$\\sqrt{1225}=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（3）$\\sqrt{2^2\\times3^2\\times7^2}=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（4）$-\\sqrt{3^6}=$ ＿＿。"
+        }
+      ],
+      "children": 4
+    },
+    {
+      "parentId": "1j7D2rr1uOywcRO0fDNN3twKp5MDomb5--fill-基礎填充-3",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "利用乘法公式計算下列各式的值："
+        },
+        {
+          "type": "text",
+          "text": "（1）$997^2+2\\times997\\times3+3^2=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$9.9^2=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（3）$67^2-33^2=$ ＿＿。"
+        }
+      ],
+      "children": 3
+    },
+    {
+      "parentId": "1j7D2rr1uOywcRO0fDNN3twKp5MDomb5--fill-基礎填充-4",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式："
+        },
+        {
+          "type": "text",
+          "text": "（1）$(4x+1)+(2x^2+6x-8)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$(7-x^2)-(2x-4x^3+6)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（3）$(2x-1)(-3x+5)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（4）$(-14x^2)\\div49x=$ ＿＿。"
+        }
+      ],
+      "children": 4
+    },
+    {
+      "parentId": "1j2SHwbR9iEF5tfo1g-PvmfyCLHYfrcJv-fill-基礎填充-1",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式："
+        },
+        {
+          "type": "text",
+          "text": "（1）$(\\sqrt{31})^2=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$\\sqrt{16}=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（3）$\\sqrt{5.76}=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（4）$\\sqrt{2\\dfrac14}=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（5）$\\sqrt{16}$ 的平方根 $=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（6）$\\sqrt{2^4\\times3^2\\times5^2}$ 的平方根 $=$ ＿＿。"
+        }
+      ],
+      "children": 6
+    },
+    {
+      "parentId": "1j2SHwbR9iEF5tfo1g-PvmfyCLHYfrcJv-fill-基礎填充-2",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "在空格中填入 $>$、$<$ 或 $=$："
+        },
+        {
+          "type": "text",
+          "text": "（1）$-\\sqrt5$ ＿＿ $-\\sqrt7$"
+        },
+        {
+          "type": "text",
+          "text": "（2）$(\\sqrt{\\dfrac53})^2$ ＿＿ $\\sqrt{2^2}$"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "1fZgUOvgrGdIYaDepzfHHDlItMPfhbJSc-fill-填充-4",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式的值：\n(1) $(-2019)-[(-709)+(-2020)]=$＿＿＿＿。\n(2) $2009\\times(-37)-9\\times(-37)=$＿＿＿＿。\n(3) $(-24)\\div[(-6)\\div3]=$＿＿＿＿。\n(4) $11\\times(-12)\\times13\\times(-14)\\times15\\times0\\times17\\times(-18)-19=$＿＿＿＿。\n(5) $(-13)+[(-2)-(-17)]-|-35|=$＿＿＿＿。\n(6) $5^2-[(-3)^2\\times(-2)^3-7^2]=$＿＿＿＿。\n(7) $-30^2+(-20)^3-(-10)^4=$＿＿＿＿。"
+        }
+      ],
+      "children": 7
+    },
+    {
+      "parentId": "1fZgUOvgrGdIYaDepzfHHDlItMPfhbJSc-fill-填充-5",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "將下列各數以科學記號表示：\n(1) $60300000=$＿＿＿＿。\n(2) $0.00042=$＿＿＿＿。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "zh-113-1-1-7-basic-2",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式："
+        },
+        {
+          "type": "text",
+          "text": "（1）$(-12)-(-8)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$5+(-10)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（3）$4\\times(-2024)\\times(-25)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（4）$39\\div(-3)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（5）$-2^4=$ ＿＿。"
+        }
+      ],
+      "children": 5
+    },
+    {
+      "parentId": "zh-114-1-3-7-basic-3",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "化簡下列各式："
+        },
+        {
+          "type": "text",
+          "text": "（1）$7x-(-x)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$(2x-3)+(5x+4)=$ ＿＿。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "zh-114-1-3-7-basic-4",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "解下列一元一次方程式："
+        },
+        {
+          "type": "text",
+          "text": "（1）$10x=5x$。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$x\\div(-3)=-6$。"
+        },
+        {
+          "type": "text",
+          "text": "（3）$x+4=9$。"
+        },
+        {
+          "type": "text",
+          "text": "（4）$3x-1=2x-5$。"
+        }
+      ],
+      "children": 4
+    },
+    {
+      "parentId": "zh-114-1-3-7-fill-1",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "化簡下列各式："
+        },
+        {
+          "type": "text",
+          "text": "（1）$2(3x-4)-3(x-5)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$\\dfrac{3x-5}{2}-\\dfrac{3x-2}{4}-1=$ ＿＿。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "zh-114-1-3-7-fill-2",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "解下列一元一次方程式："
+        },
+        {
+          "type": "text",
+          "text": "（1）$2(x-4)-(3x+4)=20+7x$。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$\\dfrac{x+4}{3}+0.4(2+x)=8$。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "zh-113-1-1-9-fill-3",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "連比例式的運算："
+        },
+        {
+          "type": "text",
+          "text": "（1）設 $3x=2y=5z$，求 $x:y:z=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）設 $x:y=3:4$，$y:z=6:5$，求 $4x:3y:2z=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（3）設 $3xy=4xz=6yz$，求 $x:y:z=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（4）已知 $x$、$y$、$z$ 皆不等於 $0$，若 $(x-1):(y+2):(z-3)=4:5:6$，且 $x+y+z=62$，求 $x+y-z=$ ＿＿。"
+        }
+      ],
+      "children": 4
+    },
+    {
+      "parentId": "zh-115-1-1-7-basic-4",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式："
+        },
+        {
+          "type": "text",
+          "text": "（1）$7-16=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$-31-19=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（3）$-42-(-11)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（4）$9+(-2)\\times[18-(-3)\\times2]\\div4=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（5）$0\\div(-123)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（6）$125\\times92\\times(-8)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（7）$(-126)\\div6\\div(-3)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（8）$(-1)^{10}\\times2+(-3)^3\\div9=$ ＿＿。"
+        }
+      ],
+      "children": 8
+    },
+    {
+      "parentId": "zh-115-1-1-7-fill-1",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "試比較下列各數大小（填 $<$、$=$ 或 $>$）："
+        },
+        {
+          "type": "text",
+          "text": "（1）$7.3\\times10^8$ ＿＿ $3.1\\times10^9$"
+        },
+        {
+          "type": "text",
+          "text": "（2）$2.7\\times10^{-5}$ ＿＿ $8\\times10^{-6}$"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "zh-115-1-1-7-fill-2",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式："
+        },
+        {
+          "type": "text",
+          "text": "（1）$3^3-(-5)^2-2^6\\div2^3=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$-29\\times75-29\\times25+|29\\times(-110)|=$ ＿＿。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "zh-115-1-1-7-fill-3",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "將下列各數以科學記號表示。"
+        },
+        {
+          "type": "text",
+          "text": "（1）$0.00000653=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$\\dfrac1{250000}=$ ＿＿。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "1aDSOOkqBVHxfjza6Y2Di4qnEI_Kcr2gn-fill-基礎-5",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式："
+        },
+        {
+          "type": "text",
+          "text": "（1）$(7x^2-4x)+(6-5x)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$-3x\\cdot(-2x+9)=$ ＿＿。"
+        }
+      ],
+      "children": 2
+    },
+    {
+      "parentId": "1aDSOOkqBVHxfjza6Y2Di4qnEI_Kcr2gn-fill-基礎-6",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各算式的值："
+        },
+        {
+          "type": "text",
+          "text": "（1）$86^2+2\\times14\\times86+14^2=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$54^2-46^2=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（3）$36\\dfrac45\\times10\\dfrac23=$ ＿＿。"
+        }
+      ],
+      "children": 3
+    },
+    {
+      "parentId": "1wUCFV5eX0oZw3IM_zpkfB2QdFavSGydG-fill-填充-1",
+      "originalBlocks": [
+        {
+          "type": "text",
+          "text": "計算下列各式。"
+        },
+        {
+          "type": "text",
+          "text": "（1）$(3x^2-4x+11)-(-4x^2+x-9)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（2）$(x-1)-[(8-2x^2+x)+(x^2-5+7x)]=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（3）$(2x-3)(2x+3)=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（4）求 $(4x^2-7x+3)\\div(3x-6)$ 的商式為＿＿，餘式為＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（5）$-\\sqrt{169}=$ ＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（6）$\\sqrt{2^4\\times3^2\\times11^2}=$ ＿＿。"
+        }
+      ],
+      "children": 6
+    }
+  ],
+  "requestedScopeBankCount": 629,
+  "bankCountAtPlanCreation": 629,
+  "bankCountAtFinalVerification": 803,
+  "concurrentBankUpdateNote": "只針對起始629題中的37個parent建立拆題清單。收尾驗證時主代理已將公開題庫更新為803題；未將新增題目宣稱為本輪逐題審閱範圍。"
+}
