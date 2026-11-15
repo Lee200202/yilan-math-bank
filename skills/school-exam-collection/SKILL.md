@@ -23,4 +23,4 @@ description: 蒐集學校官方公開段考考卷，建立各學年／學期／�
 - 難度依步驟、概念整合、推理負擔標簡單／中等／困難，註明編輯估計。單元依題目內容核對，不按段考次別猜。
 - 全卷proof列原題→新ID對照、原始單位數、題型數、可用數、停用原因、全頁與全題排版視覺核對。數量、雜湊、實際題文均相符才標完成。
 
-宜蘭專案定位讀 [references/yilan-project.md](references/yilan-project.md)。Drive操作可搭配 `$public-drive-inventory`；數學SVG／PDF品質可搭配現有教材或PDF技能。
+宜蘭專案定位讀 [references/yilan-project.md](references/yilan-project.md)；都會區來源、爬蟲與轉寫注意事項讀 [references/metro-sources.md](references/metro-sources.md)。Drive操作可搭配 `$public-drive-inventory`；數學SVG／PDF品質可搭配現有教材或PDF技能。

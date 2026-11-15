@@ -10,7 +10,7 @@ export function questionHTML(q){const blocks=presentationBlocks(q);return blocks
   if(b.type==='svg')return `<div class="typed-diagram">${b.svg}</div>`;
   throw new Error('未知題目區塊：'+b.type);
 }).join('');}
-export async function typesetDOM(root){await MathJax.startup.promise;await MathJax.typesetPromise([root]);if(root.querySelector('[data-mjx-error],[data-mml-node="merror"]'))throw new Error('題目公式排版失敗，請通知維護者。');}
+export async function typesetDOM(root){await document.fonts.load('15.33px "Lanjuan Kai"','數學練習');await MathJax.startup.promise;await MathJax.typesetPromise([root]);if(root.querySelector('[data-mjx-error],[data-mml-node="merror"]'))throw new Error('題目公式排版失敗，請通知維護者。');}
 
 const I=[1,0,0,1,0,0];
 function mul(a,b){return [a[0]*b[0]+a[2]*b[1],a[1]*b[0]+a[3]*b[1],a[0]*b[2]+a[2]*b[3],a[1]*b[2]+a[3]*b[3],a[0]*b[4]+a[2]*b[5]+a[4],a[1]*b[4]+a[3]*b[5]+a[5]];}
@@ -43,7 +43,7 @@ const richParts=text=>String(text).split(/(\$\$[\s\S]+?\$\$|\$[^$]+?\$)/g).filte
 export async function createTypesetPdf(record,bankMap){
   if(!record?.items?.length)throw new Error('請先生成試卷。');
   const P=PDFLib,{rgb}=P,pdf=await P.PDFDocument.create();pdf.registerFontkit(window.fontkit);
-  if(!fontDataPromise)fontDataPromise=fetch('./NotoSansTC.ttf').then(r=>{if(!r.ok)throw new Error('中文字型載入失敗。');return r.arrayBuffer();});const font=await pdf.embedFont(await fontDataPromise,{subset:false});
+  if(!fontDataPromise)fontDataPromise=fetch('./fonts/TW-Kai-subset.ttf').then(r=>{if(!r.ok)throw new Error('中文字型載入失敗。');return r.arrayBuffer();});const font=await pdf.embedFont(await fontDataPromise,{subset:true});
   const glyphs=new Set(font.getCharacterSet());const assertGlyphs=text=>{for(const c of text)if(!glyphs.has(c.codePointAt(0)))throw new Error(`字型缺少「${c}」；請通知維護者核對題目。`);};
   const SIZE=11.5,W=595.28,H=841.89,M=36,BOTTOM=32,WIDTH=W-M*2,INK=rgb(0,0,0);let page,y,pageIndex=0;const layout=[];
   function addPage(){page=pdf.addPage([W,H]);pageIndex++;y=H-M;}

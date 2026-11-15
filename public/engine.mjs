@@ -1,9 +1,11 @@
 export const TYPES = ['choice', 'fill', 'written'];
 export const TYPE_NAMES = {choice:'選擇題',fill:'填充題',written:'非選擇題'};
 export const LEVEL_NAMES = {easy:'簡單',medium:'中等',hard:'困難'};
+export const REGIONS = {yilan:'宜蘭縣',taipei:'臺北市',new_taipei:'新北市',taoyuan:'桃園市',taichung:'臺中市',kaohsiung:'高雄市'};
+export const regionOf = q => q.region || 'yilan';
 export function eligible(q, f) {
   const byUnit=f.scopeMode==='units';
-  return q.reviewed && q.typesetVerified===true && !q.selectionHidden && (!f.year || q.year===Number(f.year)) && (!f.semester || q.semester===Number(f.semester)) && (!f.grade || q.grade===Number(f.grade)) && (byUnit||!f.exam || q.exam===Number(f.exam)) && (!f.school || q.school===f.school) && (!f.difficulty || q.difficulty===f.difficulty) && (!f.curriculumOnly || q.year>=108+q.grade-7) && (!byUnit||Number(f.unitWeights?.[q.primaryUnitId])>0);
+  return q.reviewed && q.typesetVerified===true && !q.selectionHidden && (!f.year || q.year===Number(f.year)) && (!f.semester || q.semester===Number(f.semester)) && (!f.grade || q.grade===Number(f.grade)) && (byUnit||!f.exam || q.exam===Number(f.exam)) && (!f.region || regionOf(q)===f.region) && (!f.school || q.school===f.school) && (!f.difficulty || q.difficulty===f.difficulty) && (!f.curriculumOnly || q.year>=108+q.grade-7) && (!byUnit||Number(f.unitWeights?.[q.primaryUnitId])>0);
 }
 const contentKey=q=>q.sourceSha256?`${q.sourceSha256}:${q.type}:${q.sourceNumber||q.number}`:q.id;
 export function eligiblePool(bank,filters){const seen=new Set();return bank.filter(q=>{if(!eligible(q,filters))return false;const key=contentKey(q);if(seen.has(key))return false;seen.add(key);return true;});}
@@ -113,20 +115,29 @@ function unitSelection(pool,filters,counts,target,total,random){
 }
 export function allocateScores(items, target=100) {
   if (!items.length || !Number.isInteger(target) || target<items.length || target>1000) throw new Error('總分須為整數，且至少等於總題數、最多 1000 分。');
-  const weights=items.map(q=>q.type==='written'?2.5:1), sum=weights.reduce((a,b)=>a+b,0), remaining=target-items.length;
-  const exact=weights.map(w=>w/sum*remaining), scores=exact.map(x=>Math.floor(x)+1);
+  const choiceCount=items.filter(q=>q.type==='choice').length,otherCount=items.length-choiceCount;
+  if(!otherCount){if(target%choiceCount){const options=[Math.floor(target/choiceCount)*choiceCount,Math.ceil(target/choiceCount)*choiceCount].filter(n=>n>=items.length&&n<=1000);throw new Error(`選擇題須同分；${choiceCount} 題的總分須為 ${choiceCount} 的倍數，可改為 ${options.join(' 或 ')} 分，或加入其他題型。`);}return items.map(()=>target/choiceCount);}
+  const weight=q=>q.type==='written'?2.5:1,totalWeight=items.reduce((s,q)=>s+weight(q),0);
+  const idealChoice=1+(target-items.length)/totalWeight;
+  const choiceScore=choiceCount?Math.max(1,Math.min(Math.round(idealChoice),Math.floor((target-otherCount)/choiceCount))):0;
+  const otherTarget=target-choiceCount*choiceScore,otherWeight=items.filter(q=>q.type!=='choice').reduce((s,q)=>s+weight(q),0);
+  const scores=items.map(q=>q.type==='choice'?choiceScore:Math.floor(1+(otherTarget-otherCount)*weight(q)/otherWeight));
   let rest=target-scores.reduce((a,b)=>a+b,0);
-  const order=exact.map((v,i)=>({i,r:v-Math.floor(v)})).sort((a,b)=>b.r-a.r||a.i-b.i);
-  for(let i=0;i<rest;i++) scores[order[i].i]++;
+  const rank=q=>LEVELS.indexOf(q.difficulty)<0?1:LEVELS.indexOf(q.difficulty);
+  // Give at most one remainder point to each fill question: hard first, then
+  // medium, then easy. Later equal-level questions receive the extra point.
+  const order=items.map((q,i)=>({q,i})).filter(r=>r.q.type!=='choice').sort((a,b)=>(a.q.type==='written')-(b.q.type==='written')||rank(b.q)-rank(a.q)||b.i-a.i);
+  for(let i=0;i<rest;i++)scores[order[i].i]++;
   return scores;
 }
+export function orderPracticeQuestions(items){return [...items].sort((a,b)=>TYPES.indexOf(a.type)-TYPES.indexOf(b.type)||(a.type==='fill'?LEVELS.indexOf(a.difficulty)-LEVELS.indexOf(b.difficulty):0));}
 export function generate(bank, filters, counts, ratios, target=100, random=Math.random) {
   const total=TYPES.reduce((s,t)=>s+Number(counts[t]),0);
   if(!total || total>80 || TYPES.some(t=>!Number.isInteger(Number(counts[t])) || counts[t]<0)) throw new Error('請設定 1–80 題，題數須為非負整數。');
   if(!ratios||typeof ratios!=='object'||Array.isArray(ratios)||Object.keys(ratios).some(k=>!LEVELS.includes(k))||Object.values(ratios).some(n=>!Number.isFinite(Number(n))||n<0)||Object.values(ratios).reduce((a,b)=>a+Number(b),0)!==100) throw new Error('三種難度比例合計須為 100%。');
   const pool=eligiblePool(bank,filters), selected=[];
   const difficultyTarget=quotas(Object.fromEntries(LEVELS.map(level=>[level,Number(ratios[level])||0])),total).map(r=>r.count);
-  if(filters.scopeMode==='units'){const result=unitSelection(pool,filters,counts,difficultyTarget,total,random),scores=allocateScores(result.selected,target);return {items:result.selected.map((q,i)=>({id:q.id,score:scores[i]})),notices:result.notices};}
+  if(filters.scopeMode==='units'){const result=unitSelection(pool,filters,counts,difficultyTarget,total,random),ordered=orderPracticeQuestions(result.selected),scores=allocateScores(ordered,target);return {items:ordered.map((q,i)=>({id:q.id,score:scores[i]})),notices:result.notices};}
   for(const type of TYPES){
     const n=Number(counts[type]), available=pool.filter(q=>q.type===type);
     if(available.length<n) throw new Error(`${TYPE_NAMES[type]}只有 ${available.length} 題符合條件，請減少題數或放寬篩選。`);
@@ -135,8 +146,8 @@ export function generate(bank, filters, counts, ratios, target=100, random=Math.
   if(!plan)throw new Error('目前題型與難度資料無法完成組卷。');
   TYPES.forEach((type,t)=>selected.push(...shuffle(LEVELS.flatMap((level,l)=>shuffle(pool.filter(q=>q.type===type&&q.difficulty===level),random).slice(0,plan[t][l])),random)));
   const notices=difficultyNotices(selected,counts,difficultyTarget,total,false);
-  const scores=allocateScores(selected,target);
-  return {items:selected.map((q,i)=>({id:q.id,score:scores[i]})),notices};
+  const ordered=orderPracticeQuestions(selected),scores=allocateScores(ordered,target);
+  return {items:ordered.map((q,i)=>({id:q.id,score:scores[i]})),notices};
 }
 export function replaceQuestion(bank, session, index, filters, random=Math.random) {
   const old=bank.find(q=>q.id===session.items[index]?.id);if(!old)throw new Error('找不到要替換的題目。');
@@ -151,9 +162,10 @@ export function validateSession(data,bank) {
   if(!data || data.format!=='lanjuan-1' || !Array.isArray(data.items) || !data.items.length || data.items.length>80)throw new Error('這不是有效的蘭卷組卷紀錄。');
   const ids=new Map(bank.map(q=>[q.id,q])); const seen=new Set(),seenContent=new Set();
   for(const item of data.items){if(!ids.has(item.id))throw new Error(`題庫缺少題目 ${String(item.id).slice(0,100)}，無法完整還原。`);const key=contentKey(ids.get(item.id));if(seen.has(item.id)||seenContent.has(key)||!Number.isInteger(item.score)||item.score<1||item.score>1000)throw new Error('組卷紀錄包含重複題目或無效配分。');seen.add(item.id);seenContent.add(key);}
-  const filters=data.filters||{};for(const k of ['year','semester','grade','exam','school','difficulty'])if(filters[k] && !['string','number'].includes(typeof filters[k]))throw new Error('篩選資料格式錯誤。');
+  const filters=data.filters||{};for(const k of ['year','semester','grade','exam','school','difficulty','region'])if(filters[k] && !['string','number'].includes(typeof filters[k]))throw new Error('篩選資料格式錯誤。');
+  if(filters.region&&!Object.hasOwn(REGIONS,filters.region))throw new Error('縣市條件無效。');
   if(filters.difficulty&&!Object.hasOwn(LEVEL_NAMES,filters.difficulty))throw new Error('組卷難度條件無效。');
   const unitWeights=filters.unitWeights||{};if(filters.scopeMode==='units'&&(typeof unitWeights!=='object'||Array.isArray(unitWeights)||Object.keys(unitWeights).length>100||Object.values(unitWeights).some(v=>!Number.isFinite(Number(v))||Number(v)<0||Number(v)>100)||Math.abs(Object.values(unitWeights).reduce((s,v)=>s+Number(v),0)-100)>1e-6))throw new Error('單元配比資料無效。');
   const difficultyRatios=filters.difficultyRatios||{easy:40,medium:40,hard:20};if(typeof difficultyRatios!=='object'||Array.isArray(difficultyRatios)||Object.keys(difficultyRatios).length!==3||Object.keys(LEVEL_NAMES).some(k=>!Number.isFinite(Number(difficultyRatios[k]))||Number(difficultyRatios[k])<0)||Object.values(difficultyRatios).reduce((s,v)=>s+Number(v),0)!==100)throw new Error('難度比例資料無效。');
-  return {format:'lanjuan-1',title:String(data.title||'數學練習卷').slice(0,60),createdAt:String(data.createdAt||''),revision:Number.isInteger(data.revision)?data.revision:1,filters:{year:filters.year||'',semester:filters.semester||'',grade:filters.grade||'',exam:filters.exam||'',school:filters.school||'',difficulty:filters.difficulty||'',difficultyRatios:Object.fromEntries(Object.entries(difficultyRatios).map(([k,v])=>[k,Number(v)])),scopeMode:filters.scopeMode==='units'?'units':'exam',unitWeights:Object.fromEntries(Object.entries(unitWeights).map(([k,v])=>[k,Number(v)])),curriculumOnly:filters.curriculumOnly!==false},items:data.items.map(x=>({id:x.id,score:x.score}))};
+  return {format:'lanjuan-1',title:String(data.title||'數學練習卷').slice(0,60),createdAt:String(data.createdAt||''),revision:Number.isInteger(data.revision)?data.revision:1,filters:{year:filters.year||'',semester:filters.semester||'',grade:filters.grade||'',exam:filters.exam||'',region:filters.region||'',school:filters.school||'',difficulty:filters.difficulty||'',difficultyRatios:Object.fromEntries(Object.entries(difficultyRatios).map(([k,v])=>[k,Number(v)])),scopeMode:filters.scopeMode==='units'?'units':'exam',unitWeights:Object.fromEntries(Object.entries(unitWeights).map(([k,v])=>[k,Number(v)])),curriculumOnly:filters.curriculumOnly!==false},items:data.items.map(x=>({id:x.id,score:x.score}))};
 }

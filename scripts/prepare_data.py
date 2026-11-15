@@ -1,6 +1,9 @@
 """Reproducible source inventory and visually reviewed crop publication. Never infer reviews."""
 import hashlib,json,pathlib,shutil,collections
 import pymupdf as fitz
+import sys
+sys.path.insert(0,str(pathlib.Path(__file__).resolve().parent))
+import prepare_metro
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 def read(path):return json.loads((ROOT/path).read_text(encoding='utf-8'))
@@ -48,7 +51,7 @@ def main():
             if render_src.resolve()!=render_dest.resolve():shutil.copyfile(render_src,render_dest)
         warning=p.get('metadataWarning','')
         if p.get('metadataConflict'):warning='官方檔名／資料夾與卷首次別不一致，保留官方分類，待核對。'
-        paper={'id':p['id'],'school':p['school'],'year':p['year'],'semester':p['semester'],'grade':p['grade'],'exam':p['exam'],'title':p.get('name',p.get('title',src.name)),'file':f'./papers/{dest.name}','format':ext[1:],'sha256':sha,'bytes':src.stat().st_size,'sourceUrl':p.get('sourceUrl',p.get('url')),'sourcePage':p['sourcePage'],'curriculum108':p['year']>=108+p['grade']-7,'track':p.get('track','regular'),'questionCount':0,'warning':warning,'answerUrl':answers.get((p['school'],p['year'],p['semester'],p['grade'],p['exam'])),'metadataBasis':p.get('metadataBasis','official-linked-source')}
+        paper={'id':p['id'],'region':'yilan','school':p['school'],'year':p['year'],'semester':p['semester'],'grade':p['grade'],'exam':p['exam'],'title':p.get('name',p.get('title',src.name)),'file':f'./papers/{dest.name}','format':ext[1:],'sha256':sha,'bytes':src.stat().st_size,'sourceUrl':p.get('sourceUrl',p.get('url')),'sourcePage':p['sourcePage'],'curriculum108':p['year']>=108+p['grade']-7,'track':p.get('track','regular'),'questionCount':0,'warning':warning,'answerUrl':answers.get((p['school'],p['year'],p['semester'],p['grade'],p['exam'])),'metadataBasis':p.get('metadataBasis','official-linked-source')}
         if render_dest:
             paper['originalFile']=paper['file'];paper['file']=f'./papers/{render_dest.name}';paper['renderSha256']=p['renderSha256'];paper['renderedFrom']=ext[1:]
         if p.get('sourceFolderYear'):
@@ -91,7 +94,7 @@ def main():
             if t.get('diagramSvg') and any(s in t['diagramSvg'].lower() for s in ['<image','<script','<foreignobject','data:image']):raise ValueError(f'Non-vector diagram: {q["id"]}')
             src=fitz.open(out/p['file'].removeprefix('./'));page=src[q['page']];r=fitz.Rect(q['rect'])
             if r.width<5 or r.height<5 or not page.rect.contains(r):raise ValueError(f'Invalid crop: {q["id"]}')
-            row={**q,**{k:p[k] for k in ['school','year','semester','grade','exam','curriculum108']},'blocks':t['blocks'],'typesetVerified':True,'width':r.width,'height':r.height,'difficultyBasis':q.get('difficultyBasis','編輯教學估計，非官方答對率')}
+            row={**q,**{k:p[k] for k in ['region','school','year','semester','grade','exam','curriculum108']},'blocks':t['blocks'],'typesetVerified':True,'width':r.width,'height':r.height,'difficultyBasis':q.get('difficultyBasis','編輯教學估計，非官方答對率')}
             if t.get('diagramSvg'):row['diagramSvg']=t['diagramSvg']
             questions.append(row);p['questionCount']+=1;src.close()
     split_path=ROOT/'research/independent-question-splits.json'
@@ -156,6 +159,16 @@ def main():
                     if tag['primaryUnitId'] not in tag['unitIds']:raise ValueError(f'Primary unit absent from unit list: {q["id"]}')
                     q.update(primaryUnitId=tag['primaryUnitId'],unitIds=tag['unitIds'],unitAssignmentBasis=tag['assignmentBasis'])
                 else:q.update(primaryUnitId='unknown',unitIds=[])
+    yilan_paper_count=len(papers)
+    unit_ids_all={u['id'] for u in json.loads(units_path.read_text(encoding='utf-8'))}
+    metro_papers,metro_questions,metro_summary=prepare_metro.build(ROOT,unit_ids_all)
+    ids=set(all_ids)
+    for mp in metro_papers:
+        if mp['id'] in ids:raise ValueError(f'Duplicate paper id {mp["id"]}')
+    qids={q['id'] for q in questions}
+    for mq in metro_questions:
+        if mq['id'] in qids:raise ValueError(f'Duplicate question id {mq["id"]}')
+    papers+=metro_papers;questions+=metro_questions
     papers.sort(key=lambda p:(-p['year'],p['semester'],-p['exam'],p['school'],p['grade'],p['id']))
     inv=read('research/inventory_schools.json');schools=[]
     for s in inv['schools']:
@@ -169,9 +182,9 @@ def main():
         else:label='已查頁面未找到入口'
         schools.append({'id':s['id'],'name':name,'website':s.get('checkedUrl') or s['website'],'status':status,'statusLabel':label,'years':sorted(set(p['year'] for p in matches)),'paperCount':len(matches),'reviewedQuestionCount':sum(p['questionCount'] for p in matches),'note':note,'checkedPages':s.get('checkedPages',[]),'examEntrances':s.get('examEntrances',[])})
     active_count=sum(not q.get('selectionHidden') for q in questions)
-    workflow=[{k:p.get(k) for k in ['id','school','year','semester','grade','exam','title','sourceUrl','sourcePage','sha256','questionCount','sourceUnitCount','excludedUnitCount','transcriptionStatus','completionEvidence','warning']} for p in papers]
+    workflow=[{k:p.get(k) for k in ['id','region','school','year','semester','grade','exam','title','sourceUrl','sourcePage','sha256','questionCount','sourceUnitCount','excludedUnitCount','transcriptionStatus','completionEvidence','warning']} for p in papers]
     write('public/data/paper-workflow.json',workflow)
-    coverage={'checkedAt':'2026-11-15','scope':'宜蘭縣中華、羅東、內城國中，105至115學年，僅公開來源；另保留全縣入口盤點','inventorySources':inv['sources'],'schools':schools,'filesDownloaded':sum((ROOT/p.get('localPath','')).is_file() for p in raw),'paperFiles':len(papers),'reviewedQuestions':active_count,'legacyQuestionGroups':len(questions)-active_count,'sourceReviewedQuestions':source_reviewed,'pendingTranscriptions':pending,'excludedQuestionIssues':excluded,'reviewFiles':review_files,'limitation':'原卷下載、逐題辨識與文字重排分開計數；未完成文字核對的題目不參與組卷。'}
+    coverage={'checkedAt':'2026-11-15','scope':'宜蘭縣中華、羅東、內城國中，105至115學年，僅公開來源；另保留全縣入口盤點。都會區（臺北、新北、桃園、臺中、高雄）各以公開題庫入口全量列舉。','metro':metro_summary,'inventorySources':inv['sources'],'schools':schools,'filesDownloaded':sum((ROOT/p.get('localPath','')).is_file() for p in raw),'paperFiles':len(papers),'yilanPaperFiles':yilan_paper_count,'metroPaperFiles':len(metro_papers),'metroQuestions':len(metro_questions),'reviewedQuestions':active_count,'legacyQuestionGroups':len(questions)-active_count,'sourceReviewedQuestions':source_reviewed,'pendingTranscriptions':pending,'excludedQuestionIssues':excluded,'reviewFiles':review_files,'limitation':'原卷下載、逐題辨識與文字重排分開計數；未完成文字核對的題目不參與組卷。'}
     coverage['paperWorkflow']={status:sum(p['transcriptionStatus']==status for p in papers) for status in ['complete','complete-with-source-issues','partial','pending']}
     coverage['pendingWholePaperTranscriptions']=sum(p['transcriptionStatus'] in ['partial','pending'] for p in papers)
     coverage['unitClassification']={'publisher':'南一','catalogEdition':'112學年度教材簡介本（108課綱）','assigned':sum(q.get('primaryUnitId') not in [None,'unknown'] for q in questions if not q.get('selectionHidden')),'unknown':sum(q.get('primaryUnitId')=='unknown' for q in questions if not q.get('selectionHidden')),'basis':'依題幹、公式與必要圖逐題核對；每題以主要單元計配比，另保留跨單元標籤。'}
