@@ -66,6 +66,8 @@ def kind_of(name):
         return "answer_sheet"
     if "解答" in n or "答案" in n or "詳解" in n:
         return "answer"
+    if re.search(r"數a\.(pdf|docx?|odt)$", n, re.I):  # 福和: 112181數a.pdf = 解答卷 (checked on the printed header)
+        return "answer"
     return "question"
 
 
@@ -449,29 +451,47 @@ def zip_member_name(info):
 def expand_zips(rows):
     """Whole-school exam archives (all subjects in one zip): keep the zip as evidence and
     publish each math member as its own record, traceable to zip URL + member path."""
+    import tempfile
     import zipfile
+
+    def zip_members(path):
+        with zipfile.ZipFile(path) as z:
+            for info in z.infolist():
+                if not info.is_dir():
+                    yield zip_member_name(info), (lambda i=info: z.read(i))
+
+    def sevenz_members(path):
+        import py7zr  # installed with the user's approval for 7z archives
+        with tempfile.TemporaryDirectory() as tmp, py7zr.SevenZipFile(path) as z:
+            z.extractall(tmp)
+            for f in sorted(pathlib.Path(tmp).rglob("*")):
+                if f.is_file():
+                    yield str(f.relative_to(tmp)).replace("\\", "/"), (lambda f=f: f.read_bytes())
+
     out = []
     for row in rows:
-        if row["name"].lower().endswith((".7z", ".rar")):
+        lower = row["name"].lower()
+        if lower.endswith(".rar"):
             row["kind"] = "archive"
-            row["archiveStatus"] = "not-extracted: no 7z/rar extractor installed in this environment"
+            row["archiveStatus"] = "not-extracted: no rar extractor in this environment"
             out.append(row)
             continue
-        if not row["name"].lower().endswith(".zip"):
+        if not lower.endswith((".zip", ".7z")):
             out.append(row)
             continue
         row["kind"] = "archive"
+        row.pop("archiveStatus", None)
         out.append(row)
         if row.get("downloadStatus") != "downloaded":
             continue
-        with zipfile.ZipFile(ROOT / row["localPath"]) as z:
-            members = []
-            for info in z.infolist():
-                name = zip_member_name(info)
-                if info.is_dir() or not re.search(r"\.(pdf|docx?|odt)$", name, re.I) or not is_math(name.rsplit("/", 1)[-1]):
+        reader = sevenz_members if lower.endswith(".7z") else zip_members
+        members = []
+        for name, read in reader(ROOT / row["localPath"]):
+            if True:
+                if not re.search(r"\.(pdf|docx?|odt)$", name, re.I) or not is_math(name.rsplit("/", 1)[-1]):
                     continue
                 members.append(name)
-                b = z.read(info)
+                b = read()
                 fmt = sniff(b) or name.rsplit(".", 1)[-1].lower()
                 sha = hashlib.sha256(b).hexdigest()
                 mid = f"{row['id']}-{sha[:8]}"
@@ -479,10 +499,12 @@ def expand_zips(rows):
                 if not path.exists():
                     path.write_bytes(b)
                 rec = record(row["region"], row["school"], name.rsplit("/", 1)[-1], f"{row['sourceUrl']}#{name}", row["sourcePage"], f"{row['path']}/{row['name']}/{name}")
+                if rec["kind"] == "question" and re.search(r"(答案|解答)[^/]*/", name):
+                    rec["kind"] = "answer"
                 rec.update(id=mid, archiveId=row["id"], archiveMember=name, downloadStatus="extracted-from-archive",
                            format=fmt, bytes=len(b), sha256=sha, localPath=str(path.relative_to(ROOT)).replace("\\", "/"))
                 out.append(rec)
-            row["mathMembers"] = members
+        row["mathMembers"] = members
     return out
 
 
@@ -494,6 +516,8 @@ def reslot(inv):
             row.update(slot_from(f"{row.get('path','')} {row['name']}"))
             if row["kind"] != "archive":
                 row["kind"] = kind_of(row["name"])
+                if row["kind"] == "question" and re.search(r"(答案|解答)[^/]*/", row.get("archiveMember", "")):
+                    row["kind"] = "answer"
 
 
 def main():
