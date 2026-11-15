@@ -18,9 +18,17 @@ from playwright.sync_api import sync_playwright
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / 'qa/metro'
 OUT.mkdir(parents=True, exist_ok=True)
-BASE = sys.argv[1] if len(sys.argv) > 1 else 'http://127.0.0.1:4173'
+ARGS = [a for a in sys.argv[1:] if not a.startswith('--')]
+BASE = ARGS[0] if ARGS else 'http://127.0.0.1:4173'
+# Whole-paper transcriptions (metro and Yilan). --changed: only files not yet committed.
 papers = [p for p in json.loads((ROOT / 'public/data/papers.json').read_text(encoding='utf-8'))
-          if p.get('region', 'yilan') != 'yilan' and p['file']]
+          if str(p.get('completionEvidence') or '').startswith(('research/metro/transcribed/', 'research/yilan/transcribed/'))]
+if '--changed' in sys.argv:
+    import subprocess
+    status = subprocess.run(['git', 'status', '--porcelain', '--untracked-files=all', 'research/metro/transcribed', 'research/yilan/transcribed'],
+                            cwd=ROOT, capture_output=True, text=True, encoding='utf-8').stdout
+    changed = {pathlib.Path(line[3:].strip().strip('"')).stem for line in status.splitlines()}
+    papers = [p for p in papers if p['id'] in changed]
 report = {'base': BASE, 'papers': [], 'regions': [], 'errors': []}
 
 with sync_playwright() as pw:

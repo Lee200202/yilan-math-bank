@@ -38,6 +38,67 @@ def content_sha(blocks, diagram=None):
     return hashlib.sha256(content.encode('utf-8')).hexdigest()
 
 
+def rows_from_transcript(t, paper, unit_ids, evidence):
+    """Validate a whole-paper transcription and return its usable question rows.
+    Also stamps the paper with counts, status and the printed-header basis.
+    Shared by metro papers and Yilan whole-paper transcriptions."""
+    pid = paper['id']
+    printed = t['printedSlot']
+    if any(printed[k] != paper[k] for k in ['year', 'semester', 'grade', 'exam']):
+        raise ValueError(f'Printed header disagrees with slot: {pid} {printed}')
+    if t['sourceSha256'] != paper['sha256']:
+        raise ValueError(f'Transcription invalidated: {pid}')
+    paper['metadataBasis'] = f'卷首：{t["printedHeader"]}'
+    rows, seen = [], set()
+    for q in t['questions']:
+        if q['type'] not in ('choice', 'fill', 'written') or q['difficulty'] not in ('easy', 'medium', 'hard'):
+            raise ValueError(f'Bad question type/difficulty: {pid} {q.get("sourceNumber")}')
+        if not q.get('blocks'):
+            raise ValueError(f'Empty question: {pid} {q["sourceNumber"]}')
+        strings = [b.get('text', '') for b in q['blocks']] + [i for b in q['blocks'] for i in b.get('items', [])] + [c for b in q['blocks'] for r in b.get('rows', []) for c in r]
+        if any(ord(ch) < 32 and ch != '\n' for s in strings for ch in s):
+            raise ValueError(f'Control character (e.g. a TAB from a mangled \\t) in {pid} {q["sourceNumber"]}')
+        if any(s.count('$') % 2 for s in strings):
+            raise ValueError(f'Unbalanced $ in {pid} {q["sourceNumber"]}')
+        for b in q['blocks']:
+            if b['type'] not in ('text', 'options', 'table', 'svg'):
+                raise ValueError(f'Unknown block in {pid}')
+            if b['type'] == 'svg' and any(s in b['svg'].lower() for s in BAD_SVG):
+                raise ValueError(f'Non-vector diagram in {pid}')
+        if q['type'] == 'choice' and not any(b['type'] == 'options' for b in q['blocks']):
+            raise ValueError(f'Choice question without options: {pid} {q["sourceNumber"]}')
+        if q['primaryUnitId'] not in unit_ids or any(u not in unit_ids for u in q['unitIds']) or q['primaryUnitId'] not in q['unitIds']:
+            raise ValueError(f'Unknown unit in {pid} {q["sourceNumber"]}')
+        qid = f'{pid}-{q["type"]}-{q["sourceNumber"]}'
+        if qid in seen:
+            raise ValueError(f'Duplicate question number: {qid}')
+        seen.add(qid)
+        row = {
+            'id': qid, 'paperId': pid, 'page': q['page'] - 1, 'type': q['type'], 'number': q['sourceNumber'],
+            'sourceNumber': q['sourceNumber'], 'difficulty': q['difficulty'], 'reviewed': True,
+            'region': paper['region'], 'school': paper['school'], 'sourceSha256': paper['sha256'],
+            'difficultyBasis': q.get('difficultyBasis', '編輯依步驟數與概念整合估計，非官方答對率'),
+            'sourceScan': False, 'year': paper['year'], 'semester': paper['semester'], 'grade': paper['grade'],
+            'exam': paper['exam'], 'curriculum108': paper['curriculum108'], 'blocks': q['blocks'],
+            'typesetVerified': True, 'primaryUnitId': q['primaryUnitId'], 'unitIds': q['unitIds'],
+            'unitAssignmentBasis': q['unitAssignmentBasis'], 'contentSha256': content_sha(q['blocks']),
+        }
+        if q.get('usable', True) is not False:
+            rows.append(row)
+        elif not q.get('sourceIssue'):
+            raise ValueError(f'Unusable question needs sourceIssue: {qid}')
+    expected = t['expectedTypes']
+    actual = {k: sum(q['type'] == k for q in t['questions']) for k in ('choice', 'fill', 'written')}
+    if actual != {k: expected.get(k, 0) for k in actual}:
+        raise ValueError(f'Whole-paper type count mismatch: {pid} {actual} != {expected}')
+    paper['questionCount'] = len(rows)
+    paper['sourceUnitCount'] = len(t['questions'])
+    paper['excludedUnitCount'] = len(t['questions']) - len(rows)
+    paper['transcriptionStatus'] = ('complete' if not paper['excludedUnitCount'] else 'complete-with-source-issues') if t.get('visualReviewComplete') else 'partial'
+    paper['completionEvidence'] = evidence
+    return rows
+
+
 def build(root, unit_ids):
     root = pathlib.Path(root)
     inv = json.loads((root / 'research/metro/metro-inventory.json').read_text(encoding='utf-8'))
@@ -96,48 +157,8 @@ def build(root, unit_ids):
                 dest = root / 'public/papers' / f'{f["id"]}.pdf'
                 shutil.copyfile(local, dest)
                 paper['file'] = f'./papers/{dest.name}'
-                printed = t['printedSlot']
-                if any(printed[k] != paper[k] for k in ['year', 'semester', 'grade', 'exam']):
-                    raise ValueError(f'Printed header disagrees with slot: {f["id"]}')
-                paper['metadataBasis'] = f'卷首：{t["printedHeader"]}'
-                rows = []
-                for q in t['questions']:
-                    if q['type'] not in ('choice', 'fill', 'written') or q['difficulty'] not in ('easy', 'medium', 'hard'):
-                        raise ValueError(f'Bad metro question: {f["id"]} {q.get("sourceNumber")}')
-                    strings = [b.get('text', '') for b in q['blocks']] + [i for b in q['blocks'] for i in b.get('items', [])] + [c for b in q['blocks'] for r in b.get('rows', []) for c in r]
-                    if any(ord(ch) < 32 and ch != '\n' for s in strings for ch in s):
-                        raise ValueError(f'Control character (e.g. a TAB from a mangled \\t) in {f["id"]} {q["sourceNumber"]}')
-                    for b in q['blocks']:
-                        if b['type'] not in ('text', 'options', 'table', 'svg'):
-                            raise ValueError(f'Unknown block in {f["id"]}')
-                        if b['type'] == 'svg' and any(s in b['svg'].lower() for s in BAD_SVG):
-                            raise ValueError(f'Non-vector diagram in {f["id"]}')
-                    if q['primaryUnitId'] not in unit_ids or any(u not in unit_ids for u in q['unitIds']) or q['primaryUnitId'] not in q['unitIds']:
-                        raise ValueError(f'Unknown unit in {f["id"]} {q["sourceNumber"]}')
-                    qid = f'{f["id"]}-{q["type"]}-{q["sourceNumber"]}'
-                    usable = q.get('usable', True) is not False
-                    row = {
-                        'id': qid, 'paperId': f['id'], 'page': q['page'] - 1, 'type': q['type'], 'number': q['sourceNumber'],
-                        'sourceNumber': q['sourceNumber'], 'difficulty': q['difficulty'], 'reviewed': True,
-                        'region': region, 'school': school, 'sourceSha256': f['sha256'],
-                        'difficultyBasis': q.get('difficultyBasis', '編輯依步驟數與概念整合估計，非官方答對率'),
-                        'sourceScan': False, 'year': paper['year'], 'semester': paper['semester'], 'grade': paper['grade'],
-                        'exam': paper['exam'], 'curriculum108': paper['curriculum108'], 'blocks': q['blocks'],
-                        'typesetVerified': True, 'primaryUnitId': q['primaryUnitId'], 'unitIds': q['unitIds'],
-                        'unitAssignmentBasis': q['unitAssignmentBasis'], 'contentSha256': content_sha(q['blocks']),
-                    }
-                    if usable:
-                        rows.append(row)
-                expected = t['expectedTypes']
-                actual = {k: sum(q['type'] == k for q in t['questions']) for k in expected}
-                if actual != expected:
-                    raise ValueError(f'Whole-paper type count mismatch: {f["id"]} {actual} != {expected}')
+                rows = rows_from_transcript(t, paper, unit_ids, f'research/metro/transcribed/{f["id"]}.json')
                 questions += rows
-                paper['questionCount'] = len(rows)
-                paper['sourceUnitCount'] = len(t['questions'])
-                paper['excludedUnitCount'] = len(t['questions']) - len(rows)
-                paper['transcriptionStatus'] = ('complete' if not paper['excludedUnitCount'] else 'complete-with-source-issues') if t.get('visualReviewComplete') else 'partial'
-                paper['completionEvidence'] = f'research/metro/transcribed/{f["id"]}.json'
                 stats['transcribedPapers'] += 1
                 stats['questions'] += len(rows)
             papers.append(paper)

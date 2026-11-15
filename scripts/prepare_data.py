@@ -161,6 +161,18 @@ def main():
                 else:q.update(primaryUnitId='unknown',unitIds=[])
     yilan_paper_count=len(papers)
     unit_ids_all={u['id'] for u in json.loads(units_path.read_text(encoding='utf-8'))}
+    # Whole-paper transcriptions for Yilan papers (same per-paper format as metro).
+    # They supersede any earlier partial question crops of the same paper.
+    for f in sorted((ROOT/'research/yilan/transcribed').glob('*.json')):
+        t=json.loads(f.read_text(encoding='utf-8'));pid=t['paperId']
+        if f.stem!=pid:raise ValueError(f'Transcription file name must equal paperId: {f.name}')
+        p=all_ids.get(pid)
+        if not p:raise ValueError(f'Transcription without a Yilan paper: {pid}')
+        if p['transcriptionStatus'] in ('complete','complete-with-source-issues'):raise ValueError(f'Paper already complete: {pid}')
+        if not p['file'].endswith('.pdf'):raise ValueError(f'Yilan whole-paper transcription needs a PDF: {pid}')
+        questions=[q for q in questions if q['paperId']!=pid]
+        p['region']='yilan'
+        questions+=prepare_metro.rows_from_transcript(t,p,unit_ids_all,f'research/yilan/transcribed/{pid}.json')
     metro_papers,metro_questions,metro_summary=prepare_metro.build(ROOT,unit_ids_all)
     ids=set(all_ids)
     for mp in metro_papers:
