@@ -1,0 +1,793 @@
+{
+ "paperId": "1iW-BNHwBgs9xMhvjL8RTI0vuhowO1Qo3",
+ "sourceSha256": "b08fe4547a15cf3f66f0770186ee38efa46645575ddd1eca4b9d7fe5fbd2e648",
+ "printedHeader": "宜蘭縣中華國民中學一一四學年度第二學期第三次段考數學科試卷 七年級",
+ "printedSlot": {
+  "year": 114,
+  "semester": 2,
+  "grade": 7,
+  "exam": 3
+ },
+ "printedCounts": "單選題10題、填充題7大題（第1題5小題、第6題3小題）、計算題3題。",
+ "visualReviewComplete": true,
+ "reviewNote": "兩頁逐題以影像核對；數線圖、摺紙步驟與選項、圓形圖、線對稱方格圖（A(5,1)…F(10,6)，L 為 45° 斜線）已重繪，電梯漫畫與飲料店傳單改為文字。選擇8、9的積木立體圖無法忠實重繪，標為 usable:false。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 13,
+  "written": 3
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-5-1",
+   "unitIds": [
+    "nanyi-7-2-5-1"
+   ],
+   "unitAssignmentBasis": "代入檢驗不等式的解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一個是不等式 $5x-2<16$ 的解？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3$",
+      "$4$",
+      "$5$",
+      "$6$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-5-1",
+   "unitIds": [
+    "nanyi-7-2-5-1"
+   ],
+   "unitAssignmentBasis": "讀數線上的不等式圖示。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖是哪個不等式的圖示？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 60,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 58\"><path d=\"M8 36H236M228 31L238 36L228 41\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M22.0 30V42M48.0 30V42M74.0 30V42M100.0 30V42M126.0 30V42M152.0 30V42M178.0 30V42M204.0 30V42\" stroke=\"#111\" stroke-width=\"1.1\"/><path d=\"M48.0 36V14H178.0V36\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"48.0\" cy=\"36\" r=\"4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"178.0\" cy=\"36\" r=\"4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.3\"/><g font-family=\"serif\" font-size=\"14\" fill=\"#111\"><text x=\"14.8\" y=\"55\">−2</text><text x=\"40.8\" y=\"55\">−1</text><text x=\"70.4\" y=\"55\">0</text><text x=\"96.4\" y=\"55\">1</text><text x=\"122.4\" y=\"55\">2</text><text x=\"148.4\" y=\"55\">3</text><text x=\"174.4\" y=\"55\">4</text><text x=\"200.4\" y=\"55\">5</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-1\\le x\\le4$",
+      "$-1<x\\le4$",
+      "$-1\\le x<4$",
+      "$-1<x<4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "由兩個條件列不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖為琪琪和哈利依序進入電梯時，電梯因超重而警示音響起的過程，且過程中沒有其他人進入。已知當電梯承載的重量超過 $500$ 公斤時警示音會響起，且琪琪、哈利的重量分別為 $55$ 公斤、$75$ 公斤。若琪琪進入電梯前，電梯內已承載的重量為 $x$ 公斤，則所有滿足題意的 $x$ 可用下列哪一個不等式表示？"
+    },
+    {
+     "type": "text",
+     "text": "（原圖三格漫畫：琪琪進入電梯時警示音未響；哈利接著進入後警示音響起。）"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$370<x\\le445$",
+      "$370<x\\le500$",
+      "$425<x\\le445$",
+      "$425<x\\le500$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "不等式兩邊乘除負數須變號。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在解不等式的過程中，下列步驟何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x-8<12\\Rightarrow x<20$",
+      "$3+x<12\\Rightarrow x<9$",
+      "$-2x\\ge10\\Rightarrow x\\ge-5$",
+      "$\\dfrac{1}{2}x\\ge10\\Rightarrow x\\ge20$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-1",
+   "unitIds": [
+    "nanyi-7-2-5-1"
+   ],
+   "unitAssignmentBasis": "不等式的意義、解與圖示。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "不等式 $x>5$ 和 $5<x$ 意義相同。",
+      "不等式 $-x\\le3$ 和 $x\\le-3$ 意義相同。",
+      "$2$ 是不等式 $3x+4<8$ 的解。",
+      "下圖所表示的不等式是 $x<-1$。"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "選項 (D) 的圖："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 60,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 154 58\"><path d=\"M26 36H150M142 31L152 36L142 41\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M40.0 30V42M70.0 30V42M100.0 30V42\" stroke=\"#111\" stroke-width=\"1.1\"/><path d=\"M40.0 36V14H136.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"40.0\" cy=\"36\" r=\"4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.3\"/><g font-family=\"serif\" font-size=\"14\" fill=\"#111\"><text x=\"32.8\" y=\"55\">−1</text><text x=\"66.4\" y=\"55\">0</text><text x=\"96.4\" y=\"55\">1</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "射線、垂線、平分線與線對稱。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\overrightarrow{AB}$ 與 $\\overrightarrow{BA}$ 代表相同的射線。",
+      "過直線 $L$ 外一點 $P$ 到直線 $L$ 的垂線只有一條。",
+      "將 $\\overline{AB}$ 平分的直線只有一條。",
+      "多邊形都是線對稱圖形。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-6-2",
+   "unitIds": [
+    "nanyi-7-2-6-2"
+   ],
+   "unitAssignmentBasis": "由平均數、中位數、眾數反推資料。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "爸爸將公司採購部門員工的年齡做成次數分配表如下，其中 $a<b<c<30$。若此部門員工年齡平均數是 $30$ 歲，中位數是 $28$ 歲，眾數是 $26$ 歲，下列何者正確？"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "年齡（歲）",
+       "$a$",
+       "$b$",
+       "$c$",
+       "$30$",
+       "$31$",
+       "$49$"
+      ],
+      [
+       "次數（人）",
+       "$1$",
+       "$3$",
+       "$1$",
+       "$1$",
+       "$2$",
+       "$1$"
+      ]
+     ]
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a=23$，$c=26$",
+      "$a=26$，$c=28$",
+      "$a=23$，$c=28$",
+      "$a=23$，$c=29$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "立體積木的左視圖。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，皮皮用正方體積木堆成一個手機架，下列何者是它的左視圖？"
+    },
+    {
+     "type": "text",
+     "text": "（選項圖：灰色格為原卷斜線格）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 70,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 70\"><rect x=\"62\" y=\"6\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"62\" y=\"24\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"26\" y=\"42\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"44\" y=\"42\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"62\" y=\"42\" width=\"18\" height=\"18\" fill=\"#bbb\"/><path d=\"M26 6V60M44 6V60M62 6V60M80 6V60M26 6H80M26 24H80M26 42H80M26 60H80\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"4\" y=\"20\" font-family=\"serif\" font-size=\"15\" fill=\"#111\">甲</text><rect x=\"108\" y=\"6\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"126\" y=\"6\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"144\" y=\"6\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"108\" y=\"24\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"126\" y=\"24\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"144\" y=\"24\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"126\" y=\"42\" width=\"18\" height=\"18\" fill=\"#bbb\"/><path d=\"M108 6V60M126 6V60M144 6V60M162 6V60M108 6H162M108 24H162M108 42H162M108 60H162\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"86\" y=\"20\" font-family=\"serif\" font-size=\"15\" fill=\"#111\">乙</text><rect x=\"208\" y=\"6\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"190\" y=\"24\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"208\" y=\"24\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"226\" y=\"24\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"190\" y=\"42\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"208\" y=\"42\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"226\" y=\"42\" width=\"18\" height=\"18\" fill=\"#bbb\"/><path d=\"M190 6V60M208 6V60M226 6V60M244 6V60M190 6H244M190 24H244M190 42H244M190 60H244\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"168\" y=\"20\" font-family=\"serif\" font-size=\"15\" fill=\"#111\">丙</text><rect x=\"272\" y=\"6\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"272\" y=\"24\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"272\" y=\"42\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"290\" y=\"42\" width=\"18\" height=\"18\" fill=\"#bbb\"/><rect x=\"308\" y=\"42\" width=\"18\" height=\"18\" fill=\"#bbb\"/><path d=\"M272 6V60M290 6V60M308 6V60M326 6V60M272 6H326M272 24H326M272 42H326M272 60H326\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"250\" y=\"20\" font-family=\"serif\" font-size=\"15\" fill=\"#111\">丁</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+     ]
+    }
+   ],
+   "usable": false,
+   "sourceIssue": "題目的正方體積木立體圖（含前方方向）無法以向量忠實重繪，缺圖無法作答。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "三視圖與線對稱。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "卡卡用積木堆出一個造型如圖所示，請問哪個視圖恰為線對稱圖形？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "上視圖",
+      "左視圖",
+      "右視圖",
+      "前視圖"
+     ]
+    }
+   ],
+   "usable": false,
+   "sourceIssue": "積木立體圖（含前面方向）無法以向量忠實重繪，缺圖無法作答。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "摺紙剪裁展開的線對稱圖形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "參考 (1)～(5) 摺紙及剪裁步驟：(1) 長方形沿虛線對摺；(2) 再沿對角虛線對摺；(3) 得到直角三角形；(4) 沿虛線剪開；(5) 留下右側的部分。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 205\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><rect x=\"30\" y=\"8\" width=\"150\" height=\"72\"/><rect x=\"225\" y=\"8\" width=\"72\" height=\"72\"/><path d=\"M10 185L80 120V185Z\"/><path d=\"M120 185L190 120V185Z\"/><path d=\"M250 155L280 125V185H250Z\"/></g><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\" stroke-dasharray=\"4 3\"><path d=\"M105 8V80\"/><path d=\"M225 80L297 8\"/><path d=\"M45 153V185\"/><path d=\"M155 153V185\"/></g><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"><path d=\"M122 46Q105 34 88 46M88 46L95 41M88 46L95 49\"/><path d=\"M250 34Q270 38 274 60M274 60L270 53M274 60L278 53\"/><circle cx=\"152\" cy=\"196\" r=\"3\"/><circle cx=\"158\" cy=\"196\" r=\"3\"/><path d=\"M152 193L157 186M158 193L153 186\"/></g><g font-family=\"serif\" font-size=\"14\" fill=\"#111\"><text x=\"6\" y=\"22\">(1)</text><text x=\"200\" y=\"22\">(2)</text><text x=\"2\" y=\"125\">(3)</text><text x=\"98\" y=\"125\">(4)</text><text x=\"222\" y=\"125\">(5)</text></g></svg>"
+    },
+    {
+     "type": "text",
+     "text": "判斷展開後會形成哪個圖形？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 175\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M20 50L48 22H102L130 50V78H102L75 50L48 78H20Z\"/><path d=\"M190 18H300V44H272V72H218V44H190Z\"/><path d=\"M20 108H130V146H102V134H48V146H20Z\"/><path d=\"M190 128L215 104H275L300 128L275 152H215Z\"/></g><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\" stroke-dasharray=\"4 3\"><path d=\"M75 22V50\"/><path d=\"M245 18V72\"/><path d=\"M75 108V134\"/><path d=\"M245 104V152\"/></g><g font-family=\"serif\" font-size=\"15\" fill=\"#111\"><text x=\"2\" y=\"16\">甲</text><text x=\"172\" y=\"16\">乙</text><text x=\"2\" y=\"104\">丙</text><text x=\"172\" y=\"104\">丁</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1(1)",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "移項解不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解不等式：$x+2\\ge6$，答：＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1(2)",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "乘以負數變號。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解不等式：$-\\dfrac{x}{4}<5$，答：＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1(3)",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "移項後係數為負。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解不等式：$7x-5\\le8x+1$，答：＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1(4)",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "含分數係數的不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解不等式：$-\\dfrac{9}{10}x+11\\ge1+\\dfrac{1}{5}x$，答：＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1(5)",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "去括號解不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解不等式：$4(x-5)-2(7x+1)>0$，答：＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "依題意列不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "媽媽從銀行領了 $20000$ 元，小丘原有 $1200$ 元。若媽媽給小丘 $x$ 元的壓歲錢後，媽媽剩下的錢不少於小丘所有錢的 $5$ 倍，可列出不等式＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "解不等式求最大整數解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "不等式 $2(x-4)-6<x-11$ 的解中，$x$ 的最大整數值是＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "由解的圖示反推係數正負與值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "不等式 $ax+4\\le-2$ 的解圖示如下，求 $a=$＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 60,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 268 58\"><path d=\"M8 36H264M256 31L266 36L256 41\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M52.0 30V42M82.0 30V42M112.0 30V42M142.0 30V42\" stroke=\"#111\" stroke-width=\"1.1\"/><path d=\"M142.0 36V14H250.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"142.0\" cy=\"36\" r=\"4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.3\"/><g font-family=\"serif\" font-size=\"14\" fill=\"#111\"><text x=\"48.4\" y=\"55\">0</text><text x=\"78.4\" y=\"55\">1</text><text x=\"108.4\" y=\"55\">2</text><text x=\"138.4\" y=\"55\">3</text><text x=\"128.0\" y=\"30\" font-style=\"italic\">A</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-6-1",
+   "unitIds": [
+    "nanyi-7-2-6-1"
+   ],
+   "unitAssignmentBasis": "圓形圖百分率求人數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "大華國中七年級共有 $280$ 人，下圖是該校某日訂購午餐人數的圓形圖，則訂購牛肉飯的有＿＿＿＿人。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 -24 180 200\"><path d=\"M90 90L90.0 10.0A80 80 0 0 1 166.1 114.7Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M90 90L166.1 114.7A80 80 0 0 1 43.0 154.7Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M90 90L43.0 154.7A80 80 0 0 1 10.0 90.0Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M90 90L10.0 90.0A80 80 0 0 1 65.3 13.9Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M90 90L65.3 13.9A80 80 0 0 1 90.0 10.0Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><g font-family=\"serif\" font-size=\"13\" fill=\"#111\"><text x=\"109.5\" y=\"58.6\">排骨飯</text><text x=\"119.5\" y=\"75.6\">30%</text><text x=\"84.5\" y=\"135.6\">牛肉飯</text><text x=\"94.5\" y=\"152.6\">30%</text><text x=\"24.4\" y=\"110.7\">咖哩飯</text><text x=\"34.4\" y=\"127.7\">15%</text><text x=\"28.5\" y=\"58.6\">雞腿飯</text><text x=\"38.5\" y=\"75.6\">20%</text><text x=\"39.7\" y=\"-3.2\">其他 5%</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6(1)",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-6-2",
+   "unitIds": [
+    "nanyi-7-2-6-2"
+   ],
+   "unitAssignmentBasis": "分組資料以組中點求平均數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下表是阿雅班上同學數學成績的次數分配表，回答下列問題："
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "成績（分）",
+       "次數（人）"
+      ],
+      [
+       "$40\\sim50$",
+       "$5$"
+      ],
+      [
+       "$50\\sim60$",
+       "$8$"
+      ],
+      [
+       "$60\\sim70$",
+       "$11$"
+      ],
+      [
+       "$70\\sim80$",
+       "$10$"
+      ],
+      [
+       "$80\\sim90$",
+       "$7$"
+      ],
+      [
+       "$90\\sim100$",
+       "$9$"
+      ],
+      [
+       "合計",
+       "$50$"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "該班同學數學成績的平均數是＿＿＿＿分。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6(2)",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-6-2",
+   "unitIds": [
+    "nanyi-7-2-6-2"
+   ],
+   "unitAssignmentBasis": "分組資料的中位數所在組。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下表是阿雅班上同學數學成績的次數分配表，回答下列問題："
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "成績（分）",
+       "次數（人）"
+      ],
+      [
+       "$40\\sim50$",
+       "$5$"
+      ],
+      [
+       "$50\\sim60$",
+       "$8$"
+      ],
+      [
+       "$60\\sim70$",
+       "$11$"
+      ],
+      [
+       "$70\\sim80$",
+       "$10$"
+      ],
+      [
+       "$80\\sim90$",
+       "$7$"
+      ],
+      [
+       "$90\\sim100$",
+       "$9$"
+      ],
+      [
+       "合計",
+       "$50$"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "此次數學成績的中位數在哪一組？＿＿＿＿分"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6(3)",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-6-2",
+   "unitIds": [
+    "nanyi-7-2-6-2"
+   ],
+   "unitAssignmentBasis": "分組資料的眾數組。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下表是阿雅班上同學數學成績的次數分配表，回答下列問題："
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "成績（分）",
+       "次數（人）"
+      ],
+      [
+       "$40\\sim50$",
+       "$5$"
+      ],
+      [
+       "$50\\sim60$",
+       "$8$"
+      ],
+      [
+       "$60\\sim70$",
+       "$11$"
+      ],
+      [
+       "$70\\sim80$",
+       "$10$"
+      ],
+      [
+       "$80\\sim90$",
+       "$7$"
+      ],
+      [
+       "$90\\sim100$",
+       "$9$"
+      ],
+      [
+       "合計",
+       "$50$"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "此次數學成績的眾數在哪一組？＿＿＿＿分"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "常見圖形的對稱軸數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "平行四邊形有 $a$ 條對稱軸，等腰梯形有 $b$ 條對稱軸，正八邊形有 $c$ 條對稱軸，等腰直角三角形有 $d$ 條對稱軸。求 $a+b+c+d=$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "依票價列不等式求最多人數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "阿立博士和幾位朋友帶科南、小艾去太平山坐蹦蹦車，已知科南、小艾都要買票且未滿 $13$ 歲，其他人都購買全票。阿立博士負責結帳，拿 $1400$ 元出來還有找零，請問此行至多有幾人？"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "票種",
+       "票價",
+       "適用對象"
+      ],
+      [
+       "全票",
+       "$180$ 元",
+       "$13$ 歲以上（含）～未滿 $65$ 歲者。"
+      ],
+      [
+       "優待票",
+       "$120$ 元",
+       "① $3$ 歲以上（含）～未滿 $13$ 歲者。② $65$ 歲以上者（含）。"
+      ],
+      [
+       "免票",
+       "$0$ 元",
+       "① 未滿 $3$ 歲者，需由購票大人陪同。② 身心障礙易辨識或持有身障手冊者，及其必要陪伴者一人。"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "畫線對稱圖形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖是一個線對稱圖形的一半，$L$ 是其對稱軸，請畫出對稱圖形："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 310 178\"><path d=\"M10 10V154M28 10V154M46 10V154M64 10V154M82 10V154M100 10V154M118 10V154M136 10V154M154 10V154M172 10V154M190 10V154M208 10V154M226 10V154M244 10V154M262 10V154M280 10V154M298 10V154M10 10H298M10 28H298M10 46H298M10 64H298M10 82H298M10 100H298M10 118H298M10 136H298M10 154H298\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.5\"/><path d=\"M80 8L230 158\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M100 28L100 46L136 100L82 118L154 136L190 118\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/><g font-family=\"serif\" font-size=\"14\" fill=\"#111\" font-style=\"italic\"><text x=\"106\" y=\"24\">A</text><text x=\"86\" y=\"52\">B</text><text x=\"122\" y=\"98\">C</text><text x=\"66\" y=\"124\">D</text><text x=\"148\" y=\"152\">E</text><text x=\"186\" y=\"134\">F</text><text x=\"232\" y=\"174\">L</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "列不等式並計數組合。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖是可達飲料店的促銷宣傳單，老師想買抹茶凍鮮奶茶和招牌 Q 彈鮮奶茶共 $8$ 杯請同學，並且希望符合免費外送條件。若兩種飲品至少各一杯，則老師共有幾種購買組合？"
+    },
+    {
+     "type": "text",
+     "text": "可達飲料店：●招牌 Q 彈鮮奶茶 $55$ 元　●抹茶凍鮮奶茶 $60$ 元　滿 $10$ 杯送一杯（以價低者贈送）　滿 $450$ 元免費外送"
+    }
+   ]
+  }
+ ]
+}

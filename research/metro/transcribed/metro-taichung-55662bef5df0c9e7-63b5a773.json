@@ -1,0 +1,641 @@
+{
+ "paperId": "metro-taichung-55662bef5df0c9e7-63b5a773",
+ "sourceSha256": "63b5a773a3d0c691cb37a746a0294b1bfea4398f16cf476c261890e725741752",
+ "printedHeader": "114學年度第二學期臺中市立向上國民中學第一次定期評量 一年級 數學科試題（段考範圍：第二冊1-1~2-1）",
+ "printedSlot": {
+  "year": 114,
+  "semester": 2,
+  "grade": 7,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、填充13格、計算2題；第3頁為答案，第4頁為空白答案卷，第5頁空白。",
+ "visualReviewComplete": true,
+ "reviewNote": "五頁逐頁以影像核對，並以第3頁答案驗算。選擇3四個方格坐標圖以原圖像素量測格線（10條格線、軸位置各異）後向量重繪；填充1五子棋盤、填充2坐標點、填充12行走路線以向量重繪。選擇5球星照片與計算1投手照片為裝飾，省略；聯立方程式改以兩行或「，」並列呈現。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 13,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "二元一次方程式的定義。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者是二元一次方程式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2x-y+1$",
+      "$3(x-y)-2$",
+      "$4x-5y=6$",
+      "$5x-y^2=1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "代入檢驗二元一次方程式的解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一個選項是 $2x-3y+13=0$ 的解？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x=3$，$y=-2$",
+      "$x=-2$，$y=3$",
+      "$x=-3$，$y=-2$",
+      "$x=-2$，$y=1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-3-1",
+   "unitIds": [
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "坐標軸位置與可標示的點範圍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若想在下圖的方格紙上沿著格線畫出坐標平面的 $x$ 軸、$y$ 軸並標記原點，且以小方格邊長作為單位長，則下列哪一種畫法可在方格紙的範圍內標出 $(4,-5)$、$(4,4)$、$(-5,-5)$ 三點？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 80,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><path d=\"M9 5V95M5 9H95M18 5V95M5 18H95M27 5V95M5 27H95M36 5V95M5 36H95M45 5V95M5 45H95M54 5V95M5 54H95M63 5V95M5 63H95M72 5V95M5 72H95M81 5V95M5 81H95M90 5V95M5 90H95\" fill=\"none\" stroke=\"#999\" stroke-width=\"0.6\"/><rect x=\"5\" y=\"5\" width=\"89\" height=\"89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/></svg>"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 180,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 250\"><path d=\"M40 18V107M36 22H125M49 18V107M36 31H125M58 18V107M36 40H125M67 18V107M36 49H125M76 18V107M36 58H125M85 18V107M36 67H125M94 18V107M36 76H125M103 18V107M36 85H125M112 18V107M36 94H125M121 18V107M36 103H125\" fill=\"none\" stroke=\"#999\" stroke-width=\"0.6\"/><rect x=\"36\" y=\"18\" width=\"89\" height=\"89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M85 107V10M36 67H133\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"85,9 87.7,15.0 82.3,15.0\" fill=\"#111\"/><polygon points=\"134,67 128.0,69.7 128.0,64.3\" fill=\"#111\"/><text x=\"88\" y=\"12\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" font-style=\"italic\">y</text><text x=\"136\" y=\"79\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" font-style=\"italic\">x</text><text x=\"74\" y=\"78\" font-family=\"serif\" fill=\"#111\" font-size=\"11\" font-style=\"italic\">O</text><text x=\"6\" y=\"68\" font-family=\"serif\" fill=\"#111\" font-size=\"13\">(A)</text><path d=\"M190 18V107M186 22H275M199 18V107M186 31H275M208 18V107M186 40H275M217 18V107M186 49H275M226 18V107M186 58H275M235 18V107M186 67H275M244 18V107M186 76H275M253 18V107M186 85H275M262 18V107M186 94H275M271 18V107M186 103H275\" fill=\"none\" stroke=\"#999\" stroke-width=\"0.6\"/><rect x=\"186\" y=\"18\" width=\"89\" height=\"89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M226 107V10M186 67H283\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"226,9 228.7,15.0 223.3,15.0\" fill=\"#111\"/><polygon points=\"284,67 278.0,69.7 278.0,64.3\" fill=\"#111\"/><text x=\"229\" y=\"12\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" font-style=\"italic\">y</text><text x=\"286\" y=\"79\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" font-style=\"italic\">x</text><text x=\"215\" y=\"78\" font-family=\"serif\" fill=\"#111\" font-size=\"11\" font-style=\"italic\">O</text><text x=\"156\" y=\"68\" font-family=\"serif\" fill=\"#111\" font-size=\"13\">(B)</text><path d=\"M40 141V230M36 145H125M49 141V230M36 154H125M58 141V230M36 163H125M67 141V230M36 172H125M76 141V230M36 181H125M85 141V230M36 190H125M94 141V230M36 199H125M103 141V230M36 208H125M112 141V230M36 217H125M121 141V230M36 226H125\" fill=\"none\" stroke=\"#999\" stroke-width=\"0.6\"/><rect x=\"36\" y=\"141\" width=\"89\" height=\"89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M85 230V133M36 181H133\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"85,132 87.7,138.0 82.3,138.0\" fill=\"#111\"/><polygon points=\"134,181 128.0,183.7 128.0,178.3\" fill=\"#111\"/><text x=\"88\" y=\"135\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" font-style=\"italic\">y</text><text x=\"136\" y=\"193\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" font-style=\"italic\">x</text><text x=\"74\" y=\"192\" font-family=\"serif\" fill=\"#111\" font-size=\"11\" font-style=\"italic\">O</text><text x=\"6\" y=\"191\" font-family=\"serif\" fill=\"#111\" font-size=\"13\">(C)</text><path d=\"M190 141V230M186 145H275M199 141V230M186 154H275M208 141V230M186 163H275M217 141V230M186 172H275M226 141V230M186 181H275M235 141V230M186 190H275M244 141V230M186 199H275M253 141V230M186 208H275M262 141V230M186 217H275M271 141V230M186 226H275\" fill=\"none\" stroke=\"#999\" stroke-width=\"0.6\"/><rect x=\"186\" y=\"141\" width=\"89\" height=\"89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M226 230V133M186 181H283\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"226,132 228.7,138.0 223.3,138.0\" fill=\"#111\"/><polygon points=\"284,181 278.0,183.7 278.0,178.3\" fill=\"#111\"/><text x=\"229\" y=\"135\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" font-style=\"italic\">y</text><text x=\"286\" y=\"193\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" font-style=\"italic\">x</text><text x=\"215\" y=\"192\" font-family=\"serif\" fill=\"#111\" font-size=\"11\" font-style=\"italic\">O</text><text x=\"156\" y=\"191\" font-family=\"serif\" fill=\"#111\" font-size=\"13\">(D)</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "(A)",
+      "(B)",
+      "(C)",
+      "(D)"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-1",
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "依情境列二元一次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "向上國中一年級校外教學分配遊覽車，若每輛車坐 $40$ 人則會空出 $3$ 輛車。已知學生 $y$ 人，遊覽車 $x$ 輛，則下列各式何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x=40y-3$",
+      "$x=40(y-3)$",
+      "$y=40x-3$",
+      "$y=40(x-3)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "依情境列二元一次聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "美國職籃 NBA，邁阿密熱火隊球星 Bam Adebayo，在 $2026$ 年 $3$ 月 $10$ 日的比賽中，得到 $83$ 分，為 NBA 史上第 $2$ 高得分。已知 Adebayo 投進兩分球和三分球共 $20$ 顆球，以及罰球得 $36$ 分。假設投進 $x$ 顆兩分球和 $y$ 顆三分球，依題意可列出下列哪一個二元一次方程式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x+y=20$，$3x+2y=83+36$",
+      "$x+y=20$，$2x+3y=83+36$",
+      "$x+y=20$，$3x+2y+36=83$",
+      "$x+y=20$，$2x+3y+36=83$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "代入消去法的移項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用「代入消去法」解二元一次聯立方程式"
+    },
+    {
+     "type": "text",
+     "text": "$3x-y=2$……(1)"
+    },
+    {
+     "type": "text",
+     "text": "$2x+9y=1$……(2)"
+    },
+    {
+     "type": "text",
+     "text": "可由 (1) 式中得 $y=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3x-2$",
+      "$3x+2$",
+      "$-3x+2$",
+      "$-3x-2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "加減消去法的係數處理。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解聯立方程式"
+    },
+    {
+     "type": "text",
+     "text": "$2x+3y=7$……(1)"
+    },
+    {
+     "type": "text",
+     "text": "$5x-2y=3$……(2)"
+    },
+    {
+     "type": "text",
+     "text": "時，下列哪一種方法可以消去 $x$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(1)\\times5+(2)\\times2$",
+      "$(1)\\times5-(2)\\times2$",
+      "$(1)\\times2+(2)\\times3$",
+      "$(1)\\times2-(2)\\times3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "檢查加減消去法步驟。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "花花解一個二元一次聯立方程式"
+    },
+    {
+     "type": "text",
+     "text": "$3x+4y=10$……(1)"
+    },
+    {
+     "type": "text",
+     "text": "$-x+2y=0$……(2)"
+    },
+    {
+     "type": "text",
+     "text": "的步驟如下："
+    },
+    {
+     "type": "text",
+     "text": "步驟一：由 $(2)\\times2$ 得 $-2x+4y=0$……(3)"
+    },
+    {
+     "type": "text",
+     "text": "步驟二：由 $(1)-(3)$ 得 $x=10$……(4)"
+    },
+    {
+     "type": "text",
+     "text": "步驟三：(4) 代入 (1) 得 $30+4y=10$……(5)"
+    },
+    {
+     "type": "text",
+     "text": "步驟四：由 (5) 化簡得 $y=-5$"
+    },
+    {
+     "type": "text",
+     "text": "請問他的解題過程從第幾個步驟開始有錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "步驟一",
+      "步驟二",
+      "步驟三",
+      "步驟四"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "分組問題列聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "假設男生有 $x$ 人，女生有 $y$ 人。若男生每組 $3$ 人，女生每組 $4$ 人，總共分 $12$ 組；若男生每組 $7$ 人，女生每組 $5$ 人，總共分 $7$ 組。依題意可列得二元一次聯立方程式為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3x+4y=12$，$7x+5y=7$",
+      "$3x-4y=12$，$7x-5y=7$",
+      "$\\dfrac{x}{3}-\\dfrac{y}{4}=12$，$\\dfrac{x}{7}-\\dfrac{y}{5}=7$",
+      "$\\dfrac{x}{3}+\\dfrac{y}{4}=12$，$\\dfrac{x}{7}+\\dfrac{y}{5}=7$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1",
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "二元一次方程式的正整數解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "花花買了每瓶 $15$ 元的果汁 $x$ 瓶和每瓶 $35$ 元的牛奶 $y$ 瓶，共花 $225$ 元。若兩種都有買，則共有幾種買法？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$",
+      "$3$",
+      "$6$",
+      "$7$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-3-1",
+   "unitIds": [
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "讀取格點坐標。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知橫軸為 $x$ 軸，縱軸為 $y$ 軸，接下來輪到黑子，只要下在＿＿＿＿，即可達成五子連線，贏得五子棋的比賽。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 175\"><path d=\"M30 10V150M50 10V150M70 10V150M90 10V150M110 10V150M130 10V150M150 10V150M170 10V150M30 150H170M30 130H170M30 110H170M30 90H170M30 70H170M30 50H170M30 30H170M30 10H170\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.0\"/><rect x=\"30\" y=\"10\" width=\"140\" height=\"140\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"22\" y=\"135\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"end\">−1</text><text x=\"22\" y=\"115\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"end\">0</text><text x=\"22\" y=\"95\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"end\">1</text><text x=\"22\" y=\"75\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"end\">2</text><text x=\"22\" y=\"55\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"end\">3</text><text x=\"22\" y=\"35\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"end\">4</text><text x=\"22\" y=\"15\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"end\">5</text><text x=\"50\" y=\"166\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"middle\">−2</text><text x=\"70\" y=\"166\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"middle\">−1</text><text x=\"90\" y=\"166\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"middle\">0</text><text x=\"110\" y=\"166\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"middle\">1</text><text x=\"130\" y=\"166\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"middle\">2</text><text x=\"150\" y=\"166\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"middle\">3</text><text x=\"170\" y=\"166\" font-family=\"serif\" fill=\"#111\" font-size=\"12\" text-anchor=\"middle\">4</text><circle cx=\"150\" cy=\"30\" r=\"8\" fill=\"#222\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"70\" r=\"8\" fill=\"#222\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"90\" cy=\"90\" r=\"8\" fill=\"#222\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"130\" cy=\"90\" r=\"8\" fill=\"#222\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"70\" cy=\"110\" r=\"8\" fill=\"#222\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"70\" cy=\"50\" r=\"8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.2\"/><circle cx=\"90\" cy=\"50\" r=\"8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.2\"/><circle cx=\"90\" cy=\"70\" r=\"8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.2\"/><circle cx=\"70\" cy=\"90\" r=\"8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.2\"/><circle cx=\"110\" cy=\"90\" r=\"8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.2\"/></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-3-1",
+   "unitIds": [
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "讀取坐標平面上的點坐標。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在直角坐標平面上，有三個點，$A(a,b)$、$B(c,d)$、$C(e,f)$，則 $a+b+c+d+e+f=$＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 230 222\"><path d=\"M16 38V206M30 38V206M44 38V206M58 38V206M72 38V206M86 38V206M100 38V206M114 38V206M128 38V206M142 38V206M156 38V206M170 38V206M184 38V206M16 206H184M16 192H184M16 178H184M16 164H184M16 150H184M16 136H184M16 122H184M16 108H184M16 94H184M16 80H184M16 66H184M16 52H184M16 38H184\" fill=\"none\" stroke=\"#999\" stroke-width=\"0.6\"/><path d=\"M100 206V24M16 122H200\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"100,22 103.2,29.0 96.8,29.0\" fill=\"#111\"/><polygon points=\"202,122 195.0,125.2 195.0,118.8\" fill=\"#111\"/><path d=\"M100 108H105M114 122V117\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"105\" y=\"24\" font-family=\"serif\" fill=\"#111\" font-size=\"15\" font-style=\"italic\">y</text><text x=\"204\" y=\"127\" font-family=\"serif\" fill=\"#111\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"87\" y=\"138\" font-family=\"serif\" fill=\"#111\" font-size=\"13\" font-style=\"italic\">O</text><text x=\"90\" y=\"113\" font-family=\"serif\" fill=\"#111\" font-size=\"12\">1</text><text x=\"111\" y=\"138\" font-family=\"serif\" fill=\"#111\" font-size=\"12\">1</text><circle cx=\"30\" cy=\"94\" r=\"2.8\" fill=\"#111\"/><text x=\"25\" y=\"88\" font-family=\"serif\" fill=\"#111\" font-size=\"14\">A</text><circle cx=\"58\" cy=\"122\" r=\"2.8\" fill=\"#111\"/><text x=\"53\" y=\"138\" font-family=\"serif\" fill=\"#111\" font-size=\"14\">B</text><circle cx=\"170\" cy=\"164\" r=\"2.8\" fill=\"#111\"/><text x=\"165\" y=\"158\" font-family=\"serif\" fill=\"#111\" font-size=\"14\">C</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-3-1",
+   "unitIds": [
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "點到兩軸距離與象限。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "直角坐標平面上有一點 $A$，若 $A$ 點到 $x$ 軸的距離是 $4$，到 $y$ 軸的距離是 $5$，已知 $A$ 在第四象限，則 $A$ 點坐標為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-1-3-1",
+   "unitIds": [
+    "nanyi-7-1-3-1",
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "合併同類項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "化簡 $2x-4+5y-3x+2y+6=$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-1-3-1",
+   "unitIds": [
+    "nanyi-7-1-3-1",
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "分配律與合併同類項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "化簡 $3(2x-y)-2(x-3y+4)=$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "代入消去法解聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解 $x=2y$，$x+y=6$，答：＿＿＿＿（$x$、$y$ 全對才給分）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-3-1",
+   "unitIds": [
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "平移原點後的新坐標。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "坐標平面上兩點 $A(4,5)$、$B(2,8)$，若以 $A$ 點為新原點，單位長不變，則 $B$ 點的新坐標為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "含小數與分數係數的聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解 $x+0.7y=2$，$\\dfrac{2x}{3}+y=4$，答：＿＿＿＿（$x$、$y$ 全對才給分）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "先整理再解聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解"
+    },
+    {
+     "type": "text",
+     "text": "$3x+y=2x+2y-1$"
+    },
+    {
+     "type": "text",
+     "text": "$-x+2y-7=-2x-y$"
+    },
+    {
+     "type": "text",
+     "text": "答：＿＿＿＿（$x$、$y$ 全對才給分）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "周長與長寬關係列聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一長方形周長 $78$ 公分，且長比寬的 $3$ 倍少 $1$ 公分，則此長方形面積為＿＿＿＿平方公分。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "聯立方程式應用並檢驗解的合理性。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "好酒一瓶，可以醉倒 $3$ 位客人；薄酒 $4$ 瓶，可以醉倒 $1$ 位客人。如果有 $22$ 位客人醉倒了，他們總共喝了 $20$ 瓶酒，則好酒有＿＿＿＿瓶。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-3-1",
+   "unitIds": [
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "坐標平面上週期性移動。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在坐標平面上，花花從 $A(-10,-10)$ 出發，第一天向上走 $6$ 個單位，第二天向右走 $5$ 個單位，第三天向下走 $4$ 個單位，第四天向左走 $3$ 個單位，之後的每四天都依照這個方式前進。請問會在第＿＿＿＿天首次到達第一象限。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 215 218\"><path d=\"M17 48H179.5M160 191V28.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"185.5,48 178.5,51.1 178.5,44.9\" fill=\"#111\"/><polygon points=\"160,22.5 163.2,29.5 156.8,29.5\" fill=\"#111\"/><path d=\"M147 45V51M157 61H163M134 45V51M157 74H163M121 45V51M157 87H163M108 45V51M157 100H163M95 45V51M157 113H163M82 45V51M157 126H163M69 45V51M157 139H163M56 45V51M157 152H163M43 45V51M157 165H163M30 45V51M157 178H163\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.0\"/><text x=\"190\" y=\"53\" font-family=\"serif\" fill=\"#111\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"164\" y=\"20\" font-family=\"serif\" fill=\"#111\" font-size=\"15\" font-style=\"italic\">y</text><text x=\"164\" y=\"63\" font-family=\"serif\" fill=\"#111\" font-size=\"13\" font-style=\"italic\">O</text><text x=\"147\" y=\"42\" font-family=\"serif\" fill=\"#111\" font-size=\"11\" text-anchor=\"middle\">−1</text><text x=\"155\" y=\"65\" font-family=\"serif\" fill=\"#111\" font-size=\"11\" text-anchor=\"end\">−1</text><path d=\"M30 178L30 100\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"30,100 33.1,107.0 26.9,107.0\" fill=\"#111\"/><path d=\"M30 100L95 100\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"95,100 88.0,103.2 88.0,96.8\" fill=\"#111\"/><path d=\"M95 100L95 152\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"95,152 91.8,145.0 98.2,145.0\" fill=\"#111\"/><path d=\"M95 152L56 152\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"56,152 63.0,148.8 63.0,155.2\" fill=\"#111\"/><circle cx=\"30\" cy=\"178\" r=\"2.6\" fill=\"#111\"/><circle cx=\"30\" cy=\"100\" r=\"2.6\" fill=\"#111\"/><circle cx=\"95\" cy=\"100\" r=\"2.6\" fill=\"#111\"/><circle cx=\"95\" cy=\"152\" r=\"2.6\" fill=\"#111\"/><circle cx=\"56\" cy=\"152\" r=\"2.6\" fill=\"#111\"/><text x=\"0\" y=\"196\" font-family=\"serif\" fill=\"#111\" font-size=\"14\">A(−10 , −10)</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "13",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "百分率漲跌的聯立方程式應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "花花將一筆閒置資金，分散風險投資於 A 基金與 B 基金。原本市場行情很好，A 基金上漲 $20\\%$，B 基金上漲 $10\\%$，此時兩項投資的總價值為 $45000$ 元。後來爆發戰爭，全球股市下跌，使得 A 基金相較於原本的投資金額下跌 $10\\%$，B 基金相較於原本的投資金額下跌 $20\\%$，此時兩項投資的總價值變為 $33000$ 元。請問花花原本投資兩個基金的總金額為＿＿＿＿元。"
+    },
+    {
+     "type": "text",
+     "text": "（「股票」是自行操作買賣單一公司。「基金」是委託專家投資很多檔股票。）"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "和差問題列聯立方程式並比較比值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一般認為，投手理想的「好壞球比」（好球數 $\\div$ 壞球數）約為 $2$。因為若「好壞球比」遠高於 $2$，表示好球數過多，打者較容易擊中球；若「好壞球比」遠低於 $2$，表示壞球數過多，打者較容易獲得保送上壘。因此，「好壞球比」越接近 $2$，通常代表投手的控球越理想。"
+    },
+    {
+     "type": "text",
+     "text": "2026 世界棒球經典賽（World Baseball Classic），台灣投手徐若熙對澳洲隊先發投了 $4$ 局，沒有失分，全場共投出 $53$ 顆球。已知他投出的好球數比壞球數多 $23$ 顆。請判斷他的「好壞球比」是大於 $2$、等於 $2$，或小於 $2$？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "紅包鈔票張數的聯立方程式應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "花花過年預計發 $14$ 包紅包，如果是包給小孩，每包 $1$ 張 $1000$ 元和 $2$ 張 $100$ 元，共 $1200$ 元；如果是包給長者，每包 $6$ 張 $1000$ 元，共 $6000$ 元。已知需要相同張數的 $100$ 元和 $1000$ 元鈔票，則花花總共包多少元？"
+    }
+   ]
+  }
+ ]
+}
