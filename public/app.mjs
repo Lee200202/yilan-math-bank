@@ -1,9 +1,9 @@
-import {examTitle,questionHTML,typesetDOM,createTypesetPdf} from './typesetter.mjs?v=20261115-metro-v11';
-import {REGIONS,regionOf,TYPES,TYPE_NAMES,LEVEL_NAMES,eligible,eligiblePool,availableCounts,suggestedCounts,generate,replaceQuestion,allocateScores,orderPracticeQuestions,validateSession} from './engine.mjs?v=20261115-metro-v11';
-import {setupUnits} from './units-ui.mjs?v=20261115-metro-v11';
+import {examTitle,questionHTML,typesetDOM,createTypesetPdf} from './typesetter.mjs?v=20261115-metro-v12';
+import {REGIONS,regionOf,TYPES,TYPE_NAMES,LEVEL_NAMES,eligible,eligiblePool,availableCounts,suggestedCounts,generate,replaceQuestion,allocateScores,orderPracticeQuestions,validateSession} from './engine.mjs?v=20261115-metro-v12';
+import {setupUnits} from './units-ui.mjs?v=20261115-metro-v12';
 const $=s=>document.querySelector(s), esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let bank=[],papers=[],coverage={},unitCatalog=[],unitsUI=null,session=null,more=24,toastTimer; const paperMap=new Map(),bankMap=new Map();
-const DATA_VERSION='20261115-metro-v11';
+const DATA_VERSION='20261115-metro-v12';
 const fetchJson=async path=>{const url=new URL(path,document.baseURI);url.searchParams.set('v',DATA_VERSION);const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error(`無法載入資料（${r.status}），請重新整理。`);return r.json();};
 function toast(message){$('#toast').textContent=message;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,6500);}
 function notice(message,error=false){$('#notice').textContent=message;$('#notice').hidden=!message;$('#notice').classList.toggle('error',error);}
@@ -71,7 +71,8 @@ function previewWholePaper(paper){
  unitsUI?.apply({scopeMode:'exam'});try{const rows=orderPracticeQuestions(bank.filter(q=>q.paperId===paper.id&&!q.selectionHidden));if(!rows.length||rows.length>80)throw new Error('此卷目前不適合一次載入，請依題型選題。');
  $('#region').value=regionOf(paper);fillSchools($('#school'),regionOf(paper));for(const key of ['year','semester','grade','exam','school'])$('#'+key).value=paper[key];$('#difficulty').value='';syncDifficultyUI();$('#curriculumOnly').checked=paper.curriculum108;
  for(const type of TYPES)$(`#${type}-count`).value=rows.filter(q=>q.type===type).length;
- const scores=allocateScores(rows,Number($('#target-score').value));session={format:'lanjuan-1',title:examTitle(filters()),createdAt:new Date().toISOString(),revision:1,filters:filters(),items:rows.map((q,i)=>({id:q.id,score:scores[i]}))};
+ let target=Number($('#target-score').value);if(rows.every(q=>q.type==='choice')&&target%rows.length){target=Math.max(rows.length,Math.round(target/rows.length)*rows.length);$('#target-score').value=target;}
+ const scores=allocateScores(rows,target);session={format:'lanjuan-1',title:examTitle(filters()),createdAt:new Date().toISOString(),revision:1,filters:filters(),items:rows.map((q,i)=>({id:q.id,score:scores[i]}))};
  showView('compose');renderSession();persist();updateConfig();notice(paper.excludedUnitCount?`原卷 ${paper.sourceUnitCount} 個作答單位已核對；${paper.excludedUnitCount} 題因原稿疑義暫停使用，已載入其餘 ${rows.length} 題。`:`已載入本卷全部 ${rows.length} 題，可逐題換題、調分，或重新依難度抽題。`);$('#compose-view').scrollIntoView({behavior:'smooth',block:'start'});
  }catch(err){toast(err.message);}
 }

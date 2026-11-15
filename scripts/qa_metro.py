@@ -31,7 +31,11 @@ with sync_playwright() as pw:
         page.goto(f"{BASE}/?paper={p['id']}", wait_until='networkidle')
         page.wait_for_function('() => window.lanjuan')
         page.locator(f'[data-preview-paper="{p["id"]}"]').click()
-        page.wait_for_timeout(1500)
+        try:
+            page.wait_for_function('n => lanjuan.getSession().items.length === n', arg=p['questionCount'], timeout=8000)
+        except Exception:
+            pass
+        page.wait_for_timeout(500)
         items = page.evaluate('() => lanjuan.getSession().items.length')
         b64 = page.evaluate("""async () => { const b = await lanjuan.createPdf(); let s=''; for (let i=0;i<b.length;i+=32768) s+=String.fromCharCode(...b.subarray(i,i+32768)); return btoa(s); }""")
         pdf_path = OUT / f"{p['id']}.pdf"
