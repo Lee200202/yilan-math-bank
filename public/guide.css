@@ -47,6 +47,20 @@ button.step-zone.is-active-step:not(:disabled){animation:btn-breathe 2.2s ease-i
 @media(max-width:1100px){.library-filters{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:760px){.library-filters{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
+/* ---------- coverage cards ---------- */
+#coverage-table,.metro-coverage{width:100%}
+.grid-title{display:flex;align-items:center;gap:8px;font-size:17px;margin:22px 0 6px}
+.grid-note{font-size:13px;color:#55705c;margin:0 0 12px}
+.region-group{margin:14px 0 6px}.region-group>.region-tag{margin-bottom:8px}
+.school-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;width:100%}
+.school-card{display:flex;flex-direction:column;align-items:flex-start;gap:6px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px}
+.school-pill{display:inline-block;max-width:calc(6em + 28px);padding:8px 14px;border-radius:999px;border:1px solid #9fbb9a;background:#eef4ec;color:#234b40;font-size:15px;font-weight:600;line-height:1.35;text-align:left;word-break:break-all;cursor:pointer;transition:background .2s,transform .2s var(--ease-out)}
+.school-pill:hover{background:#234b40;color:#fff;transform:translateY(-2px)}
+.status-chip{font-size:12px;border-radius:6px;padding:2px 7px;background:#f1f1ec;color:#5b655d}
+.status-chip.ok{background:#dcecd8;color:#1f5a32}.status-chip.lock{background:#f6e7d3;color:#7a4d12}
+.school-card small{font-size:12px;color:#55705c;line-height:1.5}.school-card small a{text-decoration:underline}
+@media(max-width:760px){.school-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
 /* ---------- empty state: three guide cards ---------- */
 .empty-preview h2{margin-bottom:22px}
 .guide-cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,170px));gap:14px;text-align:left}
