@@ -1,0 +1,240 @@
+[
+  {
+    "paperId": "metro-new_taipei-9f2559a02c8e9c6e",
+    "school": "新北市立中正國民中學",
+    "slot": "114-2-G9-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 2,
+    "questionsChecked": 23,
+    "findings": [
+      {
+        "question": "choice-2",
+        "category": "layout",
+        "severity": "minor",
+        "original": "point values 10/18/28/37 printed beside the cumulative polyline",
+        "transcribed": "labels sat on the polyline so the line was broken in typeset",
+        "action": "moved the 10, 18, 28, 37 labels below-right of their points"
+      },
+      {
+        "question": "fill-2",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖六 also shows dashed face diagonal EG",
+        "transcribed": "EG missing",
+        "action": "added dashed EG"
+      },
+      {
+        "question": "fill-3",
+        "category": "layout",
+        "severity": "minor",
+        "original": "圖七 sector vertex labelled O below",
+        "transcribed": "O label collided with the (圖七) caption and was clipped in typeset",
+        "action": "enlarged viewBox, moved caption down"
+      },
+      {
+        "question": "fill-9",
+        "category": "text",
+        "severity": "minor",
+        "original": "…則奶茶在杯子的高度為＿＿ (no unit)",
+        "transcribed": "…高度為 ＿＿＿＿ 公分。",
+        "action": "removed the added unit"
+      },
+      {
+        "question": "written-1, written-2",
+        "category": "missing",
+        "severity": "minor",
+        "original": "計算題 printed only on the answer sheet, not in this PDF",
+        "transcribed": "usable:false placeholders",
+        "action": "kept as usable:false (correct)"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-6634e66e4ed9aabe",
+    "school": "新北市立永和國民中學",
+    "slot": "114-2-G7-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 5,
+    "questionsChecked": 31,
+    "findings": [
+      {
+        "question": "written-2",
+        "category": "figure",
+        "severity": "major",
+        "original": "question sheet gives a blank coordinate plane (X/Y axes, 6 unit ticks each way, origin 0) for the student to draw L1 and L2",
+        "transcribed": "figure copied from the answer key page: both lines drawn in colour, A(5,4), B(0,-1), C(3,0) labelled and triangle ABC shaded (gives away the answers to (1) and (2); rendered as a black blob in typeset)",
+        "action": "replaced with a blank axes-and-ticks plane matching the question sheet"
+      },
+      {
+        "question": "written-1, written-2",
+        "category": "text",
+        "severity": "minor",
+        "original": "score notes （4 分）（2 分）（5 分）",
+        "transcribed": "score notes kept in the sub-question text",
+        "action": "removed score notes (guide: leave out score notes)"
+      },
+      {
+        "question": "choice-24, choice-25",
+        "category": "text",
+        "severity": "minor",
+        "original": "題組 header 請閱讀文章後回答第24題～25題 and numbered items 24./25.",
+        "transcribed": "kept 第 24 題～25 題 and the 24./25. prefixes inside each standalone stem",
+        "action": "changed to 請閱讀下列文章後回答問題： and dropped the number prefixes"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-taichung-2a6f4107bf420737-dd698c91",
+    "school": "臺中市立向上國民中學",
+    "slot": "114-2-G8-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 4,
+    "questionsChecked": 23,
+    "findings": [
+      {
+        "question": "written-1",
+        "category": "figure",
+        "severity": "major",
+        "original": "EFGH is a full square (E at the centre of ABCD, EH through J on CD, EF through I on BC, G outside below-right); EICJ not shaded",
+        "transcribed": "vertex G missing (drawn as triangle E-H-F with a stray H-F edge) and EICJ shaded",
+        "action": "redrew the figure from the original proportions: square EFGH with G, no shading"
+      },
+      {
+        "question": "written-1",
+        "category": "text",
+        "severity": "minor",
+        "original": "teacher paragraph (老師看了看考卷後說…現在請你依照老師的提示，在空格中填入正確的答案。) and answer-sheet line ＿＿ = ＿＿（正方形對角線長度的一半）",
+        "transcribed": "teacher paragraph missing; line pre-filled as EC = ＿＿",
+        "action": "added the paragraph; made both sides blanks as printed"
+      },
+      {
+        "question": "written-2",
+        "category": "text",
+        "severity": "minor",
+        "original": "…標示出你所在的位置(作圖痕跡需保留，請稍微描述作圖方法)",
+        "transcribed": "parenthetical instruction missing from the stem",
+        "action": "added it"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-taichung-95e31b65b363fa06-ddcf5fc4",
+    "school": "臺中市大業國中",
+    "slot": "115-1-G7-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 3,
+    "questionsChecked": 24,
+    "findings": [
+      {
+        "question": "fill-6",
+        "category": "extra",
+        "severity": "minor",
+        "original": "fill item 6 is one printed question with two blanks (1)(2) sharing the stem A×123=4567",
+        "transcribed": "split into two questions fill-6(1) and fill-6(2) (expectedTypes fill 10)",
+        "action": "merged into one fill-6 with (1)(2) blanks per the guide; expectedTypes fill now 9 (printed 10 blanks unchanged). Coordinator: question count for this paper drops 24 -> 23"
+      },
+      {
+        "question": "written-1..written-4",
+        "category": "text",
+        "severity": "minor",
+        "original": "score notes (每個2分，共10分) etc.",
+        "transcribed": "score notes kept in stems",
+        "action": "removed score notes"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-taipei-509300ecf27c3ab8-ab2bebfa",
+    "school": "台北市立誠正國中",
+    "slot": "114-2-G7-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 2,
+    "questionsChecked": 24,
+    "findings": [
+      {
+        "question": "fill-6",
+        "category": "layout",
+        "severity": "minor",
+        "original": "圖(四) label 合唱團 20% inside its sector",
+        "transcribed": "label overlapped the 合唱團/運動社 boundary radius in typeset (sector angles themselves verified: 36/24/20/12/8%)",
+        "action": "moved the label into the middle of its sector"
+      },
+      {
+        "question": "choice-12, choice-13",
+        "category": "layout",
+        "severity": "minor",
+        "original": "圖(三) axis title 次數(人) above the 35 tick",
+        "transcribed": "axis title collided with the 35 tick label in typeset (bar heights 9/25/17/28/15/6 verified)",
+        "action": "moved the axis title right of the axis"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-4063b9afdc8dfcc7",
+    "school": "新北市立三和國中",
+    "slot": "114-2-G9-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 4,
+    "questionsChecked": 25,
+    "findings": [
+      {
+        "question": "choice-4",
+        "category": "layout",
+        "severity": "minor",
+        "original": "O label just right of the y-axis below the x-axis",
+        "transcribed": "O label at x=86 sat on the parabola (curve crosses the x-axis near x=-0.73), unreadable in typeset",
+        "action": "moved O to the right of the y-axis and nudged the tick label 1"
+      },
+      {
+        "question": "choice-10",
+        "category": "layout",
+        "severity": "minor",
+        "original": "vertical axis title 次數(人) left of the tick numbers",
+        "transcribed": "axis title at x=16-18 overlapped the 10-16 tick labels in typeset",
+        "action": "moved the axis title further left"
+      },
+      {
+        "question": "choice-1, choice-4, choice-8",
+        "category": "layout",
+        "severity": "minor",
+        "original": "coordinate axes drawn with arrowheads",
+        "transcribed": "arrowheads used SVG <marker>, which the site renderer drops (typeset axes had no arrows)",
+        "action": "replaced markers with explicit polygon arrowheads"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-taoyuan-73d7c0ecb504ddb0",
+    "school": "桃園市立自強國中",
+    "slot": "114-2-G8-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 3,
+    "questionsChecked": 22,
+    "findings": [
+      {
+        "question": "fill-9",
+        "category": "figure",
+        "severity": "minor",
+        "original": "fee graph: flat base fee to 300 s (just below 36), straight line through the dashed corners (500, 36) and (1200, 50); y-axis title 費用(元) left of the 50/36 ticks",
+        "transcribed": "rising line missed both dashed corners (50 drawn at the wrong height); axis arrows via <marker> (dropped in typeset); y-axis title overlapped the 50/36 tick labels",
+        "action": "redrew the graph: linear y scale (base 32 implied), straight line through (500,36) and (1200,50), polygon arrowheads, axis title moved left"
+      },
+      {
+        "question": "choice-2",
+        "category": "layout",
+        "severity": "minor",
+        "original": "arrows between the 1st/2nd/3rd straw figures",
+        "transcribed": "arrowheads via <marker>, shown as bare dashes in typeset",
+        "action": "replaced with explicit polygon arrowheads"
+      },
+      {
+        "question": "written-1, written-2",
+        "category": "text",
+        "severity": "minor",
+        "original": "score notes (5 分)",
+        "transcribed": "score notes kept",
+        "action": "removed score notes"
+      }
+    ]
+  }
+]

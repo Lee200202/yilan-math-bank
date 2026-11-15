@@ -1,0 +1,897 @@
+# 全國中數學段考試卷全卷文字化與純向量 SVG 重繪審查與驗收總冊
+
+本檔案由 AI 代理集群自動產生，作為後續接手 AI、人工審查員及管理者的完整驗收清冊。
+- **審查時間**：2026-11-15
+- **已驗收入庫試卷總數**：45 份全卷（涵蓋 14 所國中）
+- **結構化可用試題總數**：1068 題（選擇、選填／填充、綜合非選計算全卷覆蓋）
+- **純向量幾何 SVG 總數**：338 幅（100% 純向量重繪，無任何點陣截圖或 <image> 標籤）
+- **驗收合規率**：100% 通過 `check_transcript.py`（字型與公式）與 `handoff_exchange.py intake`（入庫簽收）
+
+---
+
+## 一、 快速匯總總表
+
+| 序號 | 學校 | 考期槽位 | 試卷識別碼 (paperId) | 可用題數 | 題型分布 | 向量 SVG | 審查狀態 |
+| :---: | :--- | :---: | :--- | :---: | :--- | :---: | :---: |
+| 1 | 中華國中 | - G E | `1bzl5dOvIbwrYn2nZEy9Jlw3yS5qkl5Id` | 21 題 | 選7/填11/算3 | 14 幅 | ✅ 已暫存入庫 |
+| 2 | 中華國中 | - G E | `1UKzQxD5vS7Pgr7D8eyGj5AxRUF5EjYS8` | 15 題 | 選0/填12/算3 | 11 幅 | ✅ 已暫存入庫 |
+| 3 | 羅東國中 | - G E | `ld-110-1-2-7` | 22 題 | 選0/填20/算2 | 0 幅 | ✅ 已暫存入庫 |
+| 4 | 羅東國中 | - G E | `ld-110-1-3-7` | 16 題 | 選0/填14/算2 | 1 幅 | ✅ 已暫存入庫 |
+| 5 | 羅東國中 | - G E | `ld-110-2-1-7` | 22 題 | 選0/填20/算2 | 1 幅 | ✅ 已暫存入庫 |
+| 6 | 羅東國中 | - G E | `ld-112-1-1-7` | 24 題 | 選0/填21/算3 | 1 幅 | ✅ 已暫存入庫 |
+| 7 | 大灣國中 | - G E | `metro-kaohsiung-4b70fe3ce1dec252` | 25 題 | 選25/填0/算0 | 17 幅 | ✅ 已暫存入庫 |
+| 8 | 大灣國中 | - G E | `metro-kaohsiung-8e2d0ff29aa419d6` | 25 題 | 選23/填0/算2 | 13 幅 | ✅ 已暫存入庫 |
+| 9 | 大灣國中 | - G E | `metro-kaohsiung-921d04ed484090b6` | 25 題 | 選23/填0/算2 | 15 幅 | ✅ 已暫存入庫 |
+| 10 | 大灣國中 | - G E | `metro-kaohsiung-e02156b47ddeeb35` | 25 題 | 選23/填0/算2 | 23 幅 | ✅ 已暫存入庫 |
+| 11 | 鷺江國中 | - G E | `metro-new_taipei-1301dd54e12fcb4c` | 25 題 | 選8/填17/算0 | 2 幅 | ✅ 已暫存入庫 |
+| 12 | 三和國中 | - G E | `metro-new_taipei-4063b9afdc8dfcc7` | 25 題 | 選25/填0/算0 | 11 幅 | ✅ 已暫存入庫 |
+| 13 | 中正國中 | - G E | `metro-new_taipei-468697ed08e57880` | 27 題 | 選0/填25/算2 | 17 幅 | ✅ 已暫存入庫 |
+| 14 | 五峰國中 | - G E | `metro-new_taipei-48000408be9d1cbf-e11d08e9` | 23 題 | 選10/填11/算2 | 3 幅 | ✅ 已暫存入庫 |
+| 15 | 福和國中 | - G E | `metro-new_taipei-5cab22c1a02f7f12-79bd26ce` | 34 題 | 選22/填12/算0 | 4 幅 | ✅ 已暫存入庫 |
+| 16 | 新莊國中 | - G E | `metro-new_taipei-61dfa91da9e32b52` | 19 題 | 選17/填0/算2 | 7 幅 | ✅ 已暫存入庫 |
+| 17 | 永和國中 | - G E | `metro-new_taipei-6634e66e4ed9aabe` | 31 題 | 選25/填4/算2 | 3 幅 | ✅ 已暫存入庫 |
+| 18 | 三和國中 | - G E | `metro-new_taipei-7cd592b6bb5523d9` | 25 題 | 選25/填0/算0 | 17 幅 | ✅ 已暫存入庫 |
+| 19 | 中正國中 | - G E | `metro-new_taipei-9f2559a02c8e9c6e` | 21 題 | 選10/填11/算2 | 8 幅 | ✅ 已暫存入庫 |
+| 20 | 福和國中 | - G E | `metro-new_taipei-b21214e21635f694-4838de03` | 26 題 | 選15/填8/算3 | 17 幅 | ✅ 已暫存入庫 |
+| 21 | 三和國中 | - G E | `metro-new_taipei-bd58e37631b2b9dd` | 25 題 | 選10/填13/算2 | 18 幅 | ✅ 已暫存入庫 |
+| 22 | 三和國中 | - G E | `metro-new_taipei-c2b108cc42ec8d83` | 23 題 | 選10/填11/算2 | 2 幅 | ✅ 已暫存入庫 |
+| 23 | 新莊國中 | - G E | `metro-new_taipei-e2c17f6cb4474c24` | 20 題 | 選17/填0/算3 | 11 幅 | ✅ 已暫存入庫 |
+| 24 | 永和國中 | - G E | `metro-new_taipei-ed07d2affdc64c8e` | 25 題 | 選25/填0/算0 | 10 幅 | ✅ 已暫存入庫 |
+| 25 | 五峰國中 | - G E | `metro-new_taipei-f75aec47e95dd944-87a42e19` | 24 題 | 選10/填12/算2 | 3 幅 | ✅ 已暫存入庫 |
+| 26 | 向上國中 | - G E | `metro-taichung-2a6f4107bf420737-dd698c91` | 23 題 | 選10/填11/算2 | 16 幅 | ✅ 已暫存入庫 |
+| 27 | 向上國中 | - G E | `metro-taichung-33aa153f5696dfab-d018c852` | 23 題 | 選10/填11/算2 | 2 幅 | ✅ 已暫存入庫 |
+| 28 | 大業國中 | - G E | `metro-taichung-4180c88b4eef0001-ebfd1c88` | 28 題 | 選13/填14/算1 | 3 幅 | ✅ 已暫存入庫 |
+| 29 | 大業國中 | - G E | `metro-taichung-95e31b65b363fa06-ddcf5fc4` | 24 題 | 選10/填10/算4 | 1 幅 | ✅ 已暫存入庫 |
+| 30 | 大華國中 | - G E | `metro-taichung-9dafef2259b6eb43` | 25 題 | 選25/填0/算0 | 0 幅 | ✅ 已暫存入庫 |
+| 31 | 向上國中 | - G E | `metro-taichung-c022227cebcf9962-f51e2d09` | 23 題 | 選10/填11/算2 | 13 幅 | ✅ 已暫存入庫 |
+| 32 | 大華國中 | - G E | `metro-taichung-c1b2801d9f350f8e` | 24 題 | 選20/填0/算4 | 0 幅 | ✅ 已暫存入庫 |
+| 33 | 向上國中 | - G E | `metro-taichung-e625830e7b498df5-b44837ec` | 25 題 | 選13/填10/算2 | 16 幅 | ✅ 已暫存入庫 |
+| 34 | 興福國中 | - G E | `metro-taipei-4dd690b8587a3cf6` | 27 題 | 選10/填15/算2 | 3 幅 | ✅ 已暫存入庫 |
+| 35 | 誠正國中 | - G E | `metro-taipei-509300ecf27c3ab8-ab2bebfa` | 24 題 | 選13/填8/算3 | 5 幅 | ✅ 已暫存入庫 |
+| 36 | 興福國中 | - G E | `metro-taipei-5b254e58c256b046` | 26 題 | 選10/填16/算1 | 1 幅 | ✅ 已暫存入庫 |
+| 37 | 誠正國中 | - G E | `metro-taipei-5d62e415c7f44b90-372f7899` | 26 題 | 選7/填18/算1 | 6 幅 | ✅ 已暫存入庫 |
+| 38 | 誠正國中 | - G E | `metro-taipei-8e5cc48d338b1a31-deed3a72` | 25 題 | 選25/填0/算0 | 8 幅 | ✅ 已暫存入庫 |
+| 39 | 誠正國中 | - G E | `metro-taipei-e46b59a1468c8ed0-67065845` | 22 題 | 選12/填8/算2 | 1 幅 | ✅ 已暫存入庫 |
+| 40 | 自強國中 | - G E | `metro-taoyuan-124b10db3fe20584` | 21 題 | 選5/填13/算3 | 8 幅 | ✅ 已暫存入庫 |
+| 41 | 自強國中 | - G E | `metro-taoyuan-73d7c0ecb504ddb0` | 22 題 | 選10/填10/算2 | 5 幅 | ✅ 已暫存入庫 |
+| 42 | 自強國中 | - G E | `metro-taoyuan-a83099fd238f1cb9` | 23 題 | 選5/填17/算1 | 3 幅 | ✅ 已暫存入庫 |
+| 43 | 自強國中 | - G E | `metro-taoyuan-bb459e3e33300227` | 20 題 | 選10/填8/算2 | 1 幅 | ✅ 已暫存入庫 |
+| 44 | 內城國民中小學 | - G E | `nc-110-1-1-9` | 22 題 | 選10/填12/算0 | 15 幅 | ✅ 已暫存入庫 |
+| 45 | 內城國民中小學 | - G E | `nc-110-1-3-9` | 22 題 | 選10/填10/算2 | 14 幅 | ✅ 已暫存入庫 |
+
+---
+
+## 二、 各卷詳細驗收清單與檔案位置
+
+### 1. 【中華國中】- G E
+- **試卷 ID**：`1bzl5dOvIbwrYn2nZEy9Jlw3yS5qkl5Id`
+- **卷首印刷全稱**：`宜蘭縣中華國民中學一一四學年度第一學期第三次段考數學科試卷 九年級`
+- **題數統計**：可用 21 / 總計 21 題
+  - 題型分布：選擇題 7 題、填充／選填 11 題、非選／計算 3 題
+  - 難易度：容易 5 題、中等 9 題、困難 7 題
+- **純向量幾何 SVG**：共 14 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 3: 坐標平面上鈍角三角形外心位置之判斷。
+    - 題號 4: 利用正方形性質推導三角形全等性質（ASA）。
+    - 題號 6: 三角形重心將面積三等分與同底等高平行線性質。
+    - 題號 7: 三角形重心的線段比與面積等分性質應用。
+    - 題號 8: 直角三角形內切圓半徑與箏形對稱軸距離計算。
+    - ...及其他共 14 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/yilan/transcribed/1bzl5dOvIbwrYn2nZEy9Jlw3yS5qkl5Id.json`
+  - 暫存驗收區：`research/incoming-external/1bzl5dOvIbwrYn2nZEy9Jlw3yS5qkl5Id/`
+  - 驗收收據：`research/incoming-external/1bzl5dOvIbwrYn2nZEy9Jlw3yS5qkl5Id/receipt.json`
+- **入庫收據雜湊**：`065aa6c355bdcca4e375831485b10231a4d31a52b7946184a01db3aaf5e6896a`
+
+### 2. 【中華國中】- G E
+- **試卷 ID**：`1UKzQxD5vS7Pgr7D8eyGj5AxRUF5EjYS8`
+- **卷首印刷全稱**：`宜蘭縣中華國民中學114學年度第一學期第二次段考數學科試卷 九年級`
+- **題數統計**：可用 15 / 總計 15 題
+  - 題型分布：選擇題 0 題、填充／選填 12 題、非選／計算 3 題
+  - 難易度：容易 4 題、中等 10 題、困難 1 題
+- **純向量幾何 SVG**：共 11 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 2: 梯形對角線分割之三角形面積比與相似三角形面積比。
+    - 題號 4: 圓內接四邊形對角互補性質求角度。
+    - 題號 5: 圓周角所對弧度數之和與角和計算。
+    - 題號 6: 三角形內切圓切線長性質求線段長。
+    - 題號 7: 視線與高度構成相似直角三角形比例應用。
+    - ...及其他共 11 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/yilan/transcribed/1UKzQxD5vS7Pgr7D8eyGj5AxRUF5EjYS8.json`
+  - 暫存驗收區：`research/incoming-external/1UKzQxD5vS7Pgr7D8eyGj5AxRUF5EjYS8/`
+  - 驗收收據：`research/incoming-external/1UKzQxD5vS7Pgr7D8eyGj5AxRUF5EjYS8/receipt.json`
+- **入庫收據雜湊**：`473d81b728fe7ebe597db364b852c3bed5e0e004040e8fe7bb622d7c89724b4c`
+
+### 3. 【羅東國中】- G E
+- **試卷 ID**：`ld-110-1-2-7`
+- **卷首印刷全稱**：`宜蘭縣立羅東國中 110 學年度第一學期七年級數學科第二次段考試卷`
+- **題數統計**：可用 22 / 總計 22 題
+  - 題型分布：選擇題 0 題、填充／選填 20 題、非選／計算 2 題
+  - 難易度：容易 14 題、中等 7 題、困難 1 題
+- **純向量幾何 SVG**：共 0 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/yilan/transcribed/ld-110-1-2-7.json`
+  - 暫存驗收區：`research/incoming-external/ld-110-1-2-7/`
+  - 驗收收據：`research/incoming-external/ld-110-1-2-7/receipt.json`
+- **入庫收據雜湊**：`2b95240c9c1a884f3915064acb80a4a370a005880631dea07c9777fbb34a5fad`
+
+### 4. 【羅東國中】- G E
+- **試卷 ID**：`ld-110-1-3-7`
+- **卷首印刷全稱**：`宜蘭縣立羅東國中一一○學年度第一學期七年級數學科第三次段考試卷`
+- **題數統計**：可用 16 / 總計 16 題
+  - 題型分布：選擇題 0 題、填充／選填 14 題、非選／計算 2 題
+  - 難易度：容易 10 題、中等 4 題、困難 2 題
+- **純向量幾何 SVG**：共 1 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 7: 在方格紙上完成對稱軸為斜線之線對稱圖形。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/yilan/transcribed/ld-110-1-3-7.json`
+  - 暫存驗收區：`research/incoming-external/ld-110-1-3-7/`
+  - 驗收收據：`research/incoming-external/ld-110-1-3-7/receipt.json`
+- **入庫收據雜湊**：`a3a34cf529d471074170960bba1491c61c06fd0037741195eceecc7bfa91e588`
+
+### 5. 【羅東國中】- G E
+- **試卷 ID**：`ld-110-2-1-7`
+- **卷首印刷全稱**：`宜蘭縣立羅東國中一一○學年度第二學期七年級數學科第一次段考試卷`
+- **題數統計**：可用 22 / 總計 22 題
+  - 題型分布：選擇題 0 題、填充／選填 20 題、非選／計算 2 題
+  - 難易度：容易 11 題、中等 9 題、困難 2 題
+- **純向量幾何 SVG**：共 1 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 1: 正方形與長方形周長相等列二元一次方程式並求面積。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/yilan/transcribed/ld-110-2-1-7.json`
+  - 暫存驗收區：`research/incoming-external/ld-110-2-1-7/`
+  - 驗收收據：`research/incoming-external/ld-110-2-1-7/receipt.json`
+- **入庫收據雜湊**：`3bf7137cffc83c5890450928fc0d904174909dc7e7bef05f80f335f56ed6f1e7`
+
+### 6. 【羅東國中】- G E
+- **試卷 ID**：`ld-112-1-1-7`
+- **卷首印刷全稱**：`宜蘭縣立羅東國中 112 學年度第一學期七年級第一次段考試卷`
+- **題數統計**：可用 24 / 總計 24 題
+  - 題型分布：選擇題 0 題、填充／選填 21 題、非選／計算 3 題
+  - 難易度：容易 18 題、中等 6 題、困難 0 題
+- **純向量幾何 SVG**：共 1 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 14: 數線上點的相對位置與線段長度關係。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/yilan/transcribed/ld-112-1-1-7.json`
+  - 暫存驗收區：`research/incoming-external/ld-112-1-1-7/`
+  - 驗收收據：`research/incoming-external/ld-112-1-1-7/receipt.json`
+- **入庫收據雜湊**：`7a8c0d4287ceb7da72587decf9840cb307c58c058c0afbe62b8c8dadb1796241`
+
+### 7. 【大灣國中】- G E
+- **試卷 ID**：`metro-kaohsiung-4b70fe3ce1dec252`
+- **卷首印刷全稱**：`高雄市立大灣國中113學年度二年級下學期數學科第三次段考題目卷`
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 25 題、填充／選填 0 題、非選／計算 0 題
+  - 難易度：容易 13 題、中等 11 題、困難 1 題
+- **純向量幾何 SVG**：共 17 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 1: 利用箏形對角線互相垂直與直角三角形面積求對角線長。
+    - 題號 3: 平行四邊形中點連線分割之面積大小比較。
+    - 題號 5: 等腰梯形同底角相等與同側內角互補。
+    - 題號 7: 利用三角形兩邊之和大於第三邊判別路徑長短。
+    - 題號 10: 平行線截角性質（同位角、同側內角、內錯角）。
+    - ...及其他共 17 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-kaohsiung-4b70fe3ce1dec252.json`
+  - 暫存驗收區：`research/incoming-external/metro-kaohsiung-4b70fe3ce1dec252/`
+  - 驗收收據：`research/incoming-external/metro-kaohsiung-4b70fe3ce1dec252/receipt.json`
+- **入庫收據雜湊**：`641daeb0ab2c21c5e751b18d85d72e0931b4b75d1bc3dafaa5e51d0ce3f0e097`
+
+### 8. 【大灣國中】- G E
+- **試卷 ID**：`metro-kaohsiung-8e2d0ff29aa419d6`
+- **卷首印刷全稱**：`高雄市立大灣國民中學114 學年度第1 學期三年級第一次段考數學科試題`
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 23 題、填充／選填 0 題、非選／計算 2 題
+  - 難易度：容易 12 題、中等 10 題、困難 3 題
+- **純向量幾何 SVG**：共 13 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 7: 評量平行線截比例線段與相似三角形面積比之求值。
+    - 題號 9: 評量三角形平行線截比例線段計算邊長。
+    - 題號 10: 評量平行線截對應邊比與相似三角形底邊比之關係。
+    - 題號 11: 評量三條平行線截比例線段計算未知線段長。
+    - 題號 12: 評量梯形內平行線截對角線段長度與綜合判斷。
+    - ...及其他共 13 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-kaohsiung-8e2d0ff29aa419d6.json`
+  - 暫存驗收區：`research/incoming-external/metro-kaohsiung-8e2d0ff29aa419d6/`
+  - 驗收收據：`research/incoming-external/metro-kaohsiung-8e2d0ff29aa419d6/receipt.json`
+- **入庫收據雜湊**：`2a5ae2c04b85826ecf431a52596b17b95065b59f20fb408cb1a252dc44bfb14b`
+
+### 9. 【大灣國中】- G E
+- **試卷 ID**：`metro-kaohsiung-921d04ed484090b6`
+- **卷首印刷全稱**：`高雄市立大灣國中114 學年度第一學期第二次月考國三數學科題目卷`
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 23 題、填充／選填 0 題、非選／計算 2 題
+  - 難易度：容易 11 題、中等 11 題、困難 3 題
+- **純向量幾何 SVG**：共 15 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 8: 評量扇形之嚴格幾何定義（由兩半徑與一弧所圍成的圖形）。
+    - 題號 9: 評量環形扇形面積公式逆求圓心角度數。
+    - 題號 10: 評量扇形圓心角與圓弧上所夾圓周角度數之關係。
+    - 題號 11: 評量弓形摺疊對稱軸平分弦性質與直角三角形求圓半徑。
+    - 題號 12: 評量長方形內相似三角形面積分割求解四邊形面積。
+    - ...及其他共 15 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-kaohsiung-921d04ed484090b6.json`
+  - 暫存驗收區：`research/incoming-external/metro-kaohsiung-921d04ed484090b6/`
+  - 驗收收據：`research/incoming-external/metro-kaohsiung-921d04ed484090b6/receipt.json`
+- **入庫收據雜湊**：`179bd3ace204ead23f9fcec2c81ddb6478ee94405231ccc0103830b5d611c59e`
+
+### 10. 【大灣國中】- G E
+- **試卷 ID**：`metro-kaohsiung-e02156b47ddeeb35`
+- **卷首印刷全稱**：`高雄市立大灣國中 113 學年度下學期第二次定期評量國二數學科試題 題目卷`
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 23 題、填充／選填 0 題、非選／計算 2 題
+  - 難易度：容易 18 題、中等 5 題、困難 2 題
+- **純向量幾何 SVG**：共 23 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 1: 利用尺規作圖作線段的和與差。
+    - 題號 2: 三角形內角和定理與對頂角相等。
+    - 題號 3: 尺規作圖與三角形 SAS 全等性質。
+    - 題號 5: 尺規作圖作一個角等於已知角的兩倍。
+    - 題號 5 (選項4圖): 尺規作圖作一個角等於已知角的兩倍。
+    - ...及其他共 23 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-kaohsiung-e02156b47ddeeb35.json`
+  - 暫存驗收區：`research/incoming-external/metro-kaohsiung-e02156b47ddeeb35/`
+  - 驗收收據：`research/incoming-external/metro-kaohsiung-e02156b47ddeeb35/receipt.json`
+- **入庫收據雜湊**：`a72cc2fe438b4adf0d1d26eaa41ce79690a4f6c4a56e822abf1bd1d1ceb11e5e`
+
+### 11. 【鷺江國中】- G E
+- **試卷 ID**：`metro-new_taipei-1301dd54e12fcb4c`
+- **卷首印刷全稱**：`新北市立鷺江國民中學 114 學年度 第 2 學期 7 年級 數學科 第 2 次段考 題目卷`
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 8 題、填充／選填 17 題、非選／計算 0 題
+  - 難易度：容易 22 題、中等 3 題、困難 0 題
+- **純向量幾何 SVG**：共 2 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 2 (選項4圖): 常數函數水平直線圖形辨識
+    - 題號 13: 速率比與行程問題比例分配
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-1301dd54e12fcb4c.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-1301dd54e12fcb4c/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-1301dd54e12fcb4c/receipt.json`
+- **入庫收據雜湊**：`54ec7fea7eee8bce9620a558b3de424a70f1d04f843c6ef816979cdaa373f41b`
+
+### 12. 【三和國中】- G E
+- **試卷 ID**：`metro-new_taipei-4063b9afdc8dfcc7`
+- **卷首印刷全稱**：`新北市立三和國中114學年度第2學期9年級數學科第1次段考試題卷`
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 25 題、填充／選填 0 題、非選／計算 0 題
+  - 難易度：容易 15 題、中等 9 題、困難 1 題
+- **純向量幾何 SVG**：共 11 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 1: 二次函數對稱性與水平割線長比較。
+    - 題號 4: 已知頂點與一點求二次函數及坐標截距判斷。
+    - 題號 8: 一次函數與二次函數係數正負判斷對應圖形。
+    - 題號 8 (選項4圖): 一次函數與二次函數係數正負判斷對應圖形。
+    - 題號 10: 由次數分配折線圖求中位數(第2四分位數)所在組別。
+    - ...及其他共 11 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-4063b9afdc8dfcc7.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-4063b9afdc8dfcc7/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-4063b9afdc8dfcc7/receipt.json`
+- **入庫收據雜湊**：`5b3597981d10a4c8552abfed1b936d7739e87f4c8eee083a675f6219755b89f8`
+
+### 13. 【中正國中】- G E
+- **試卷 ID**：`metro-new_taipei-468697ed08e57880`
+- **卷首印刷全稱**：`新北市立中正國民中學107學年度第一學期九 年級 數學科 第三次段考試題`
+- **題數統計**：可用 27 / 總計 27 題
+  - 題型分布：選擇題 0 題、填充／選填 25 題、非選／計算 2 題
+  - 難易度：容易 5 題、中等 15 題、困難 7 題
+- **純向量幾何 SVG**：共 17 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 基礎1: 直角三角形斜邊中線長度性質。
+    - 題號 基礎2: 等腰三角形重心與內心在對稱軸上線段求長。
+    - 題號 基礎4: 角平分線性質定理與內心分線段比。
+    - 題號 基礎5: 正三角形外接圓半徑求法。
+    - 題號 基礎6: 等腰三角形重心與內心距離結合求三角形面積。
+    - ...及其他共 17 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-468697ed08e57880.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-468697ed08e57880/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-468697ed08e57880/receipt.json`
+- **入庫收據雜湊**：`43d268df90d000f047a240d54883387bb6afd4e0cf1ecda83dec0298ad8711e3`
+
+### 14. 【五峰國中】- G E
+- **試卷 ID**：`metro-new_taipei-48000408be9d1cbf-e11d08e9`
+- **卷首印刷全稱**：`新北市立五峰國民中學 115學年度第1學期7年級第1次定期評量 數學科試題`
+- **題數統計**：可用 23 / 總計 23 題
+  - 題型分布：選擇題 10 題、填充／選填 11 題、非選／計算 2 題
+  - 難易度：容易 9 題、中等 13 題、困難 1 題
+- **純向量幾何 SVG**：共 3 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 9: 科學記號數量級比較生活應用。
+    - 題號 10: 數線兩點距離與絕對值式之化簡。
+    - 題號 9: 數線上點的距離與線段和差關係。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-48000408be9d1cbf-e11d08e9.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-48000408be9d1cbf-e11d08e9/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-48000408be9d1cbf-e11d08e9/receipt.json`
+- **入庫收據雜湊**：`e11d08e9a6803b11472b053a63106cc833a11ecb3e888078820478d8d5b5e7f8`
+
+### 15. 【福和國中】- G E
+- **試卷 ID**：`metro-new_taipei-5cab22c1a02f7f12-79bd26ce`
+- **卷首印刷全稱**：`新北市立福和國民中學 115 學年度第一學期第 1 次段考七年級數學科試題卷`
+- **題數統計**：可用 34 / 總計 34 題
+  - 題型分布：選擇題 22 題、填充／選填 12 題、非選／計算 0 題
+  - 難易度：容易 27 題、中等 7 題、困難 0 題
+- **純向量幾何 SVG**：共 4 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 1: 由數線箭頭圖示判讀整數加法算式。
+    - 題號 12: 培養皿菌落面積比例與科學記號數量級推算。
+    - 題號 15: 由數線上點的相對位置推導負數大小與坐標。
+    - 題號 21: 淡江大橋主跨與背跨以橋塔為基準之正負數比例表示。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-5cab22c1a02f7f12-79bd26ce.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-5cab22c1a02f7f12-79bd26ce/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-5cab22c1a02f7f12-79bd26ce/receipt.json`
+- **入庫收據雜湊**：`79bd26ced5041cf825ed52f783c8cb25f5c996f25faa85b575acdb3d0ef9ed6d`
+
+### 16. 【新莊國中】- G E
+- **試卷 ID**：`metro-new_taipei-61dfa91da9e32b52`
+- **卷首印刷全稱**：`新北市立新莊國民中學 115 學年度第 1 學期第 1 次段考八年級數學領域試題卷`
+- **題數統計**：可用 19 / 總計 19 題
+  - 題型分布：選擇題 17 題、填充／選填 0 題、非選／計算 2 題
+  - 難易度：容易 8 題、中等 8 題、困難 3 題
+- **純向量幾何 SVG**：共 7 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 4: 直角三角形拼成正方形之面積與平方根大小估算。
+    - 題號 9: 利用連續整數與小數平方值估算根號落點。
+    - 題號 11: 多項式直式除法直式過程除錯。
+    - 題號 16: 平方差公式幾何圖形驗證與因數分解。
+    - 題號 17: 同高三角形面積比與多項式除法求高。
+    - ...及其他共 7 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-61dfa91da9e32b52.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-61dfa91da9e32b52/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-61dfa91da9e32b52/receipt.json`
+- **入庫收據雜湊**：`1a0c09a0ea63c2c67cbe9c52c898f9b596b236e753d150518ea891e2d03bb109`
+
+### 17. 【永和國中】- G E
+- **試卷 ID**：`metro-new_taipei-6634e66e4ed9aabe`
+- **卷首印刷全稱**：`新北市立永和國民中學 114 學年度第二學期第二次段考七年級數學科試題卷`
+- **題數統計**：可用 31 / 總計 31 題
+  - 題型分布：選擇題 25 題、填充／選填 4 題、非選／計算 2 題
+  - 難易度：容易 20 題、中等 9 題、困難 2 題
+- **純向量幾何 SVG**：共 3 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 21: 進水與排水速率工程反比問題。
+    - 題號 1: 長寬比裁剪長度建立比例式求解應用。
+    - 題號 2: 畫出二元一次方程式圖形、求交點與圍成之三角形面積。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-6634e66e4ed9aabe.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-6634e66e4ed9aabe/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-6634e66e4ed9aabe/receipt.json`
+- **入庫收據雜湊**：`af6ff06a6322f1683b53150e569817342a19e2a26495f85c112e0d2fe7b93350`
+
+### 18. 【三和國中】- G E
+- **試卷 ID**：`metro-new_taipei-7cd592b6bb5523d9`
+- **卷首印刷全稱**：`新北市立三和國中114學年度第1學期9年級數學科 第3次段考試題卷`
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 25 題、填充／選填 0 題、非選／計算 0 題
+  - 難易度：容易 13 題、中等 9 題、困難 3 題
+- **純向量幾何 SVG**：共 17 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 5: 三角形重心物理支撐點與中線比例性質。
+    - 題號 6: 銳角三角形外心圓心角與圓周角關係計算。
+    - 題號 7: 三角形內心角角度公式計算。
+    - 題號 9: 利用三角形全等推導對稱角與角度計算。
+    - 題號 10: 長方形對角線垂直垂足之母子相似性質計算線段長。
+    - ...及其他共 17 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-7cd592b6bb5523d9.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-7cd592b6bb5523d9/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-7cd592b6bb5523d9/receipt.json`
+- **入庫收據雜湊**：`3ada27fbdc8ea0e54f2764795062cf5b74467089e1b22c367e8a2720512dbcc1`
+
+### 19. 【中正國中】- G E
+- **試卷 ID**：`metro-new_taipei-9f2559a02c8e9c6e`
+- **卷首印刷全稱**：`新北市立中正國民中學114學年度第二學期九年級數學科 第二次段考試題`
+- **題數統計**：可用 21 / 總計 23 題
+  - 題型分布：選擇題 10 題、填充／選填 11 題、非選／計算 2 題
+  - 難易度：容易 6 題、中等 15 題、困難 2 題
+- **純向量幾何 SVG**：共 8 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 2: 累積次數分配折線圖判讀四分位數與組次數。
+    - 題號 3: 正方體展開圖相對面判別。
+    - 題號 5: 二次函數圖形之開口方向與頂點位置判別係數正負。
+    - 題號 6: 盒狀圖判讀中位數、四分位距與全距。
+    - 題號 1: 長方體空間線段之歪斜關係判別。
+    - ...及其他共 8 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-9f2559a02c8e9c6e.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-9f2559a02c8e9c6e/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-9f2559a02c8e9c6e/receipt.json`
+- **入庫收據雜湊**：`2ec89d2d9a4db59314c466b36c40117fedd5edb470a3127c138f2ed8488cca8d`
+
+### 20. 【福和國中】- G E
+- **試卷 ID**：`metro-new_taipei-b21214e21635f694-4838de03`
+- **卷首印刷全稱**：`新北市立福和國民中學 115 學年度第一學期第一次段考九年級數學科試題卷`
+- **題數統計**：可用 26 / 總計 26 題
+  - 題型分布：選擇題 15 題、填充／選填 8 題、非選／計算 3 題
+  - 難易度：容易 11 題、中等 10 題、困難 5 題
+- **純向量幾何 SVG**：共 17 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 3: 由截線比例反推平行線判定條件。
+    - 題號 4: 三角形兩邊中點連線段長性質之連續應用。
+    - 題號 5: 平行線截比例線段列式求解未知數。
+    - 題號 6: 雙平行線截比例線段之傳遞性質與求長度。
+    - 題號 7: 相鄰正方形與連線交點之相似形或坐標比例求解。
+    - ...及其他共 17 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-b21214e21635f694-4838de03.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-b21214e21635f694-4838de03/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-b21214e21635f694-4838de03/receipt.json`
+- **入庫收據雜湊**：`4838de03ac2ac2619b8ef07cebfe5a0ef1f3f6642f07973deeb519cd535faadf`
+
+### 21. 【三和國中】- G E
+- **試卷 ID**：`metro-new_taipei-bd58e37631b2b9dd`
+- **卷首印刷全稱**：`新北市立三和國中114學年度第1學期9年級數學科 第2次段考試題卷`
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 10 題、填充／選填 13 題、非選／計算 2 題
+  - 難易度：容易 8 題、中等 12 題、困難 5 題
+- **純向量幾何 SVG**：共 18 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 1: 圓周角與所對弧度數和之計算。
+    - 題號 5: 平行線分三角形比例線段與相似三角形面積比計算。
+    - 題號 7: 圓外切線段等長性質計算三角形周長。
+    - 題號 9: 直角梯形對角線分割三角形之線段比與面積比辨析。
+    - 題號 2: 正方形格網中三角比互餘角與扇形面積和計算。
+    - ...及其他共 18 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-bd58e37631b2b9dd.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-bd58e37631b2b9dd/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-bd58e37631b2b9dd/receipt.json`
+- **入庫收據雜湊**：`42aef08fbcbcda31b9f54db747fffc2412ba45c9307290a6fa2306dac49d03bf`
+
+### 22. 【三和國中】- G E
+- **試卷 ID**：`metro-new_taipei-c2b108cc42ec8d83`
+- **卷首印刷全稱**：`新北市立三和國中114學年度第1學期8年級數學科第一次段考試題卷`
+- **題數統計**：可用 23 / 總計 23 題
+  - 題型分布：選擇題 10 題、填充／選填 11 題、非選／計算 2 題
+  - 難易度：容易 13 題、中等 10 題、困難 0 題
+- **純向量幾何 SVG**：共 2 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 9: 多項式直式減法運算求未知係數。
+    - 題號 1: 直角多邊形周長、面積及多項式除法求三角形的高。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-c2b108cc42ec8d83.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-c2b108cc42ec8d83/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-c2b108cc42ec8d83/receipt.json`
+- **入庫收據雜湊**：`aa590f238b08c4f218d6db4eb1989609f1c7747a60e8ee71702c43b1f5d466f4`
+
+### 23. 【新莊國中】- G E
+- **試卷 ID**：`metro-new_taipei-e2c17f6cb4474c24`
+- **卷首印刷全稱**：`新北市立新莊國民中學 115 學年度第 1 學期第 1 次段考 9 年級數學領域試題卷`
+- **題數統計**：可用 20 / 總計 20 題
+  - 題型分布：選擇題 17 題、填充／選填 0 題、非選／計算 3 題
+  - 難易度：容易 13 題、中等 7 題、困難 0 題
+- **純向量幾何 SVG**：共 11 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 4: 面積連比例分配計算
+    - 題號 6: 影印機縮放倍率計算
+    - 題號 8: 利用尺規作圖作平行線截比例線段
+    - 題號 10: 矩形內平行線截比例線段
+    - 題號 11: 矩形相似的對應邊成比例判定
+    - ...及其他共 11 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-e2c17f6cb4474c24.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-e2c17f6cb4474c24/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-e2c17f6cb4474c24/receipt.json`
+- **入庫收據雜湊**：`f71b4f2fc9c287c1e229ca1f83dae5e461a22471f4f0141d50aa3e616686dee8`
+
+### 24. 【永和國中】- G E
+- **試卷 ID**：`metro-new_taipei-ed07d2affdc64c8e`
+- **卷首印刷全稱**：`新北市立永和國民中學 114 學年度第二學期第二次段考九年級數學科試題卷`
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 25 題、填充／選填 0 題、非選／計算 0 題
+  - 難易度：容易 18 題、中等 6 題、困難 1 題
+- **純向量幾何 SVG**：共 10 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 10: 解讀兩班盒狀圖全距、四分位距與累積百分比比較。
+    - 題號 12: 多校盒狀圖比較與中位數、高分群人數解讀。
+    - 題號 13: 立體圖形稜線歪斜、角錐性質與機率觀念判斷。
+    - 題號 18: 等腰梯形柱體展開圖、體積與表面積計算。
+    - 題號 20: 長方體空間對角線長度計算。
+    - ...及其他共 10 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-ed07d2affdc64c8e.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-ed07d2affdc64c8e/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-ed07d2affdc64c8e/receipt.json`
+- **入庫收據雜湊**：`ef10325b58e054ac76bc99d99ea5b695aa126660530e09831ebdaa080d351c2b`
+
+### 25. 【五峰國中】- G E
+- **試卷 ID**：`metro-new_taipei-f75aec47e95dd944-87a42e19`
+- **卷首印刷全稱**：`新北市立五峰國民中學 114 學年度第一學期第二次定期評量八年級數學科試題`
+- **題數統計**：可用 24 / 總計 24 題
+  - 題型分布：選擇題 10 題、填充／選填 12 題、非選／計算 2 題
+  - 難易度：容易 6 題、中等 15 題、困難 3 題
+- **純向量幾何 SVG**：共 3 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 4: 畢氏定理在以各邊為直徑的半圓面積關係之推廣。
+    - 題號 12: 長方形對角線長與直角三角形斜邊上的高。
+    - 題號 1: 梯子/竹竿下滑畢氏定理綜合生活應用。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-f75aec47e95dd944-87a42e19.json`
+  - 暫存驗收區：`research/incoming-external/metro-new_taipei-f75aec47e95dd944-87a42e19/`
+  - 驗收收據：`research/incoming-external/metro-new_taipei-f75aec47e95dd944-87a42e19/receipt.json`
+- **入庫收據雜湊**：`87a42e19a447de48e01028d785c43bb15be9ad81d77735dd36b7c2af1a5e2895`
+
+### 26. 【向上國中】- G E
+- **試卷 ID**：`metro-taichung-2a6f4107bf420737-dd698c91`
+- **卷首印刷全稱**：`114學年度第二學期臺中市立向上國民中學第二次定期評量 二年級 數學科試題（段考範圍：3-1~3-4）`
+- **題數統計**：可用 23 / 總計 23 題
+  - 題型分布：選擇題 10 題、填充／選填 11 題、非選／計算 2 題
+  - 難易度：容易 9 題、中等 14 題、困難 0 題
+- **純向量幾何 SVG**：共 16 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 3: 平角與對頂角性質求未知數。
+    - 題號 4: 凹四邊形（飛鏢形）外角性質計算。
+    - 題號 5: 三角形一內角平分線與另一外角平分線之夾角性質。
+    - 題號 8: 多角星形頂角和外角定理推導。
+    - 題號 9: 等角多邊形投影性質與對邊關係。
+    - ...及其他共 16 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-2a6f4107bf420737-dd698c91.json`
+  - 暫存驗收區：`research/incoming-external/metro-taichung-2a6f4107bf420737-dd698c91/`
+  - 驗收收據：`research/incoming-external/metro-taichung-2a6f4107bf420737-dd698c91/receipt.json`
+- **入庫收據雜湊**：`dd698c911bd85ff08ee2bb40193450e542206b2f9cd04316e9ba6c91b76ee9a4`
+
+### 27. 【向上國中】- G E
+- **試卷 ID**：`metro-taichung-33aa153f5696dfab-d018c852`
+- **卷首印刷全稱**：`114學年度第二學期臺中市立向上國民中學第一次定期評量 二年級 數學科試題（段考範圍：1-1~2-1）`
+- **題數統計**：可用 23 / 總計 23 題
+  - 題型分布：選擇題 10 題、填充／選填 11 題、非選／計算 2 題
+  - 難易度：容易 12 題、中等 9 題、困難 2 題
+- **純向量幾何 SVG**：共 2 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 9: 線型函數圖形與截距求值應用。
+    - 題號 10: 三角形木棒堆疊圖形規律與等差級數求和。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-33aa153f5696dfab-d018c852.json`
+  - 暫存驗收區：`research/incoming-external/metro-taichung-33aa153f5696dfab-d018c852/`
+  - 驗收收據：`research/incoming-external/metro-taichung-33aa153f5696dfab-d018c852/receipt.json`
+- **入庫收據雜湊**：`d018c852bb6103b60f297501b148440375a2e6920deff980b2f61f6c0912648f`
+
+### 28. 【大業國中】- G E
+- **試卷 ID**：`metro-taichung-4180c88b4eef0001-ebfd1c88`
+- **卷首印刷全稱**：`臺中市大業國中114 學年度第一學期第二次定期評量 八年級數學科試題卷`
+- **題數統計**：可用 28 / 總計 28 題
+  - 題型分布：選擇題 13 題、填充／選填 14 題、非選／計算 1 題
+  - 難易度：容易 10 題、中等 15 題、困難 3 題
+- **純向量幾何 SVG**：共 3 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 11: 評量以十字交乘法分解面積多項式求相鄰矩形公因式邊長。
+    - 題號 7: 評量利用雙直角三角形畢氏定理求三角形底邊上的高。
+    - 題號 1: 評量畢氏定理、圓形周長與面積、整數邊長條件之幾何綜合應用題。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-4180c88b4eef0001-ebfd1c88.json`
+  - 暫存驗收區：`research/incoming-external/metro-taichung-4180c88b4eef0001-ebfd1c88/`
+  - 驗收收據：`research/incoming-external/metro-taichung-4180c88b4eef0001-ebfd1c88/receipt.json`
+- **入庫收據雜湊**：`ebfd1c88306367bfde1c5aaf5f9e7f4ce14ad9cf0d4d688a70a761fd0987c349`
+
+### 29. 【大業國中】- G E
+- **試卷 ID**：`metro-taichung-95e31b65b363fa06-ddcf5fc4`
+- **卷首印刷全稱**：`臺中市大業國中 115 學年度第 1 學期第 1 次定期評量七年級數學科試卷 【翰林版 第一冊 1－1～1－4】`
+- **題數統計**：可用 24 / 總計 24 題
+  - 題型分布：選擇題 10 題、填充／選填 10 題、非選／計算 4 題
+  - 難易度：容易 16 題、中等 7 題、困難 1 題
+- **純向量幾何 SVG**：共 1 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 4: 評量等距數線上的絕對值代數推理與原點位置判定。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-95e31b65b363fa06-ddcf5fc4.json`
+  - 暫存驗收區：`research/incoming-external/metro-taichung-95e31b65b363fa06-ddcf5fc4/`
+  - 驗收收據：`research/incoming-external/metro-taichung-95e31b65b363fa06-ddcf5fc4/receipt.json`
+- **入庫收據雜湊**：`ddcf5fc4dc675b0761fb267726db67e000de3562df5da79d343dd5d7722616b5`
+
+### 30. 【大華國中】- G E
+- **試卷 ID**：`metro-taichung-9dafef2259b6eb43`
+- **卷首印刷全稱**：`臺中市立大華國民中學 112 學年度 第一學期第三次段考 【七年級 數學科】 命題範圍： 第一冊全`
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 25 題、填充／選填 0 題、非選／計算 0 題
+  - 難易度：容易 10 題、中等 13 題、困難 2 題
+- **純向量幾何 SVG**：共 0 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-9dafef2259b6eb43.json`
+  - 暫存驗收區：`research/incoming-external/metro-taichung-9dafef2259b6eb43/`
+  - 驗收收據：`research/incoming-external/metro-taichung-9dafef2259b6eb43/receipt.json`
+- **入庫收據雜湊**：`924583f210bb0be4f62ccec773d80c95c457dd4d00a5e6bd68bebcc7fd5b9a91`
+
+### 31. 【向上國中】- G E
+- **試卷 ID**：`metro-taichung-c022227cebcf9962-f51e2d09`
+- **卷首印刷全稱**：`114 學年度第二學期臺中市立向上國民中學第三次定期評量  二年級  數學科試題`
+- **題數統計**：可用 23 / 總計 23 題
+  - 題型分布：選擇題 10 題、填充／選填 11 題、非選／計算 2 題
+  - 難易度：容易 7 題、中等 12 題、困難 4 題
+- **純向量幾何 SVG**：共 13 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 3: 平行線轉折角與三角形外角性質
+    - 題號 4: 角平分線、三角形角度計算與平行線判別
+    - 題號 5: 平行四邊形角平分線截等腰三角形
+    - 題號 9 (選項4圖): 平行四邊形判別條件判斷
+    - 題號 10: 平行四邊形尺規作圖作法正確性判定
+    - ...及其他共 13 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-c022227cebcf9962-f51e2d09.json`
+  - 暫存驗收區：`research/incoming-external/metro-taichung-c022227cebcf9962-f51e2d09/`
+  - 驗收收據：`research/incoming-external/metro-taichung-c022227cebcf9962-f51e2d09/receipt.json`
+- **入庫收據雜湊**：`f51e2d09620a8eb4bde9200513b9ac2e8938a54424834dcbc055bd0e8a2e5d23`
+
+### 32. 【大華國中】- G E
+- **試卷 ID**：`metro-taichung-c1b2801d9f350f8e`
+- **卷首印刷全稱**：`臺中市立大華國民中學 114 學年度 第一學期 第二次定期評量 【七年級 數學科】 命題範圍：1-1~1-4(20%)，2-1~2-4(80%)`
+- **題數統計**：可用 24 / 總計 24 題
+  - 題型分布：選擇題 20 題、填充／選填 0 題、非選／計算 4 題
+  - 難易度：容易 13 題、中等 10 題、困難 1 題
+- **純向量幾何 SVG**：共 0 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-c1b2801d9f350f8e.json`
+  - 暫存驗收區：`research/incoming-external/metro-taichung-c1b2801d9f350f8e/`
+  - 驗收收據：`research/incoming-external/metro-taichung-c1b2801d9f350f8e/receipt.json`
+- **入庫收據雜湊**：`cb068e2cc0d00ccb5fb0a179e24e30c6c6512533ee65d6d2993f0b3115da1e6b`
+
+### 33. 【向上國中】- G E
+- **試卷 ID**：`metro-taichung-e625830e7b498df5-b44837ec`
+- **卷首印刷全稱**：`115 學年度 第一學期 向上國中第一次定期評量  三年級  數學科試題`
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 13 題、填充／選填 10 題、非選／計算 2 題
+  - 難易度：容易 12 題、中等 11 題、困難 2 題
+- **純向量幾何 SVG**：共 16 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 1: SSS相似三角形三邊長成比例判定
+    - 題號 4: 平行線截比例線段性質與逆性質判定
+    - 題號 6: 三角形多重平行線截比例線段與連比
+    - 題號 10: 同軸齒輪與鏈條傳動齒輪轉數連比
+    - 題號 12: 同高三角形面積比等於底邊比求大三角形面積
+    - ...及其他共 16 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-e625830e7b498df5-b44837ec.json`
+  - 暫存驗收區：`research/incoming-external/metro-taichung-e625830e7b498df5-b44837ec/`
+  - 驗收收據：`research/incoming-external/metro-taichung-e625830e7b498df5-b44837ec/receipt.json`
+- **入庫收據雜湊**：`b44837ec0d59e0c73fafb013e7ae49b58ac2943c006c508f4edc5c2ee45965b9`
+
+### 34. 【興福國中】- G E
+- **試卷 ID**：`metro-taipei-4dd690b8587a3cf6`
+- **卷首印刷全稱**：`臺北市立興福國中 106 學年度第二學期 7 年級 第 1 次段考 數學科試卷 共 3 頁`
+- **題數統計**：可用 27 / 總計 27 題
+  - 題型分布：選擇題 10 題、填充／選填 15 題、非選／計算 2 題
+  - 難易度：容易 17 題、中等 9 題、困難 1 題
+- **純向量幾何 SVG**：共 3 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 7: 利用直角坐標系中垂直水平線段性質求頂點坐標。
+    - 題號 11: 在直角坐標平面上計算以軸上線段為底的三角形面積。
+    - 題號 1: 在坐標平面方格紙上讀取點的坐標。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taipei-4dd690b8587a3cf6.json`
+  - 暫存驗收區：`research/incoming-external/metro-taipei-4dd690b8587a3cf6/`
+  - 驗收收據：`research/incoming-external/metro-taipei-4dd690b8587a3cf6/receipt.json`
+- **入庫收據雜湊**：`5a8e4297862a81eaeb471af36605472e1525c1cf6f20a3309e31498cfbdd7542`
+
+### 35. 【誠正國中】- G E
+- **試卷 ID**：`metro-taipei-509300ecf27c3ab8-ab2bebfa`
+- **卷首印刷全稱**：`台北市立誠正國中114 學年度第二學期第二次定期評量七年級數學科試卷`
+- **題數統計**：可用 24 / 總計 24 題
+  - 題型分布：選擇題 13 題、填充／選填 8 題、非選／計算 3 題
+  - 難易度：容易 16 題、中等 6 題、困難 2 題
+- **純向量幾何 SVG**：共 5 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 2: 直線上各點坐標為方程式的解。
+    - 題號 6 (選項4圖): 二元一次方程式圖形的截距與形狀判別。
+    - 題號 8: 直線與坐標軸所圍三角形內部面積比與點坐標關係。
+    - 題號 12: 次數分配直方圖判讀。
+    - 題號 6: 圓形百分圖的人數計算與比較。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taipei-509300ecf27c3ab8-ab2bebfa.json`
+  - 暫存驗收區：`research/incoming-external/metro-taipei-509300ecf27c3ab8-ab2bebfa/`
+  - 驗收收據：`research/incoming-external/metro-taipei-509300ecf27c3ab8-ab2bebfa/receipt.json`
+- **入庫收據雜湊**：`ab2bebfad9e54c510066dd0e97123ffa916c7ca87df672e180b67eea6daa509b`
+
+### 36. 【興福國中】- G E
+- **試卷 ID**：`metro-taipei-5b254e58c256b046`
+- **卷首印刷全稱**：`臺北市興福國民中學 107 學年度第一學期七年級第二次段考數學科試題卷`
+- **題數統計**：可用 26 / 總計 27 題
+  - 題型分布：選擇題 10 題、填充／選填 16 題、非選／計算 1 題
+  - 難易度：容易 16 題、中等 10 題、困難 1 題
+- **純向量幾何 SVG**：共 1 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 13: 由短除法過程與最大公因數、最小公倍數反求未知數。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taipei-5b254e58c256b046.json`
+  - 暫存驗收區：`research/incoming-external/metro-taipei-5b254e58c256b046/`
+  - 驗收收據：`research/incoming-external/metro-taipei-5b254e58c256b046/receipt.json`
+- **入庫收據雜湊**：`8d418dcca4e96ceabf9ba01b06b5bb217e09882a160bcea9be1c1b563476ed7c`
+
+### 37. 【誠正國中】- G E
+- **試卷 ID**：`metro-taipei-5d62e415c7f44b90-372f7899`
+- **卷首印刷全稱**：`臺北市立誠正國民中學114 學年度第二學期第一次定期評量 八年級數學科題目卷`
+- **題數統計**：可用 26 / 總計 26 題
+  - 題型分布：選擇題 7 題、填充／選填 18 題、非選／計算 1 題
+  - 難易度：容易 11 題、中等 12 題、困難 3 題
+- **純向量幾何 SVG**：共 6 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 12: 圖形規律轉化為等差數列求項數。
+    - 題號 15: 根據線型函數圖形求免運費的重量上限（與x軸交點）。
+    - 題號 4: 已知相鄰兩項求公差與第n項。
+    - 題號 6: 數列路徑週期規律判斷。
+    - 題號 6 (選項4圖): 數列路徑週期規律判斷。
+    - ...及其他共 6 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taipei-5d62e415c7f44b90-372f7899.json`
+  - 暫存驗收區：`research/incoming-external/metro-taipei-5d62e415c7f44b90-372f7899/`
+  - 驗收收據：`research/incoming-external/metro-taipei-5d62e415c7f44b90-372f7899/receipt.json`
+- **入庫收據雜湊**：`372f7899e5a30d7e71205a63066eee6c2d4577ead3b5204bfa98b4a8ed67a271`
+
+### 38. 【誠正國中】- G E
+- **試卷 ID**：`metro-taipei-8e5cc48d338b1a31-deed3a72`
+- **卷首印刷全稱**：`臺北市立誠正國民中學114 學年度第一學期第三次定期評量 八年級數學科題目卷`
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 25 題、填充／選填 0 題、非選／計算 0 題
+  - 難易度：容易 9 題、中等 13 題、困難 3 題
+- **純向量幾何 SVG**：共 8 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 10: 讀取累積次數分配折線圖求特定區間人數。
+    - 題號 11: 讀取相對次數分配折線圖計算特定組別總人數。
+    - 題號 12: 讀取累積相對次數分配折線圖求特定分界累積比例。
+    - 題號 16: 依據次數分配表計算總人數及特定分組相對次數。
+    - 題號 17: 幾何圖形摺疊與勾股定理列一元二次方程式求面積。
+    - ...及其他共 8 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taipei-8e5cc48d338b1a31-deed3a72.json`
+  - 暫存驗收區：`research/incoming-external/metro-taipei-8e5cc48d338b1a31-deed3a72/`
+  - 驗收收據：`research/incoming-external/metro-taipei-8e5cc48d338b1a31-deed3a72/receipt.json`
+- **入庫收據雜湊**：`deed3a7277d107bacb9a706bab472db5c27804cad56d1999cc3573f8679c6f86`
+
+### 39. 【誠正國中】- G E
+- **試卷 ID**：`metro-taipei-e46b59a1468c8ed0-67065845`
+- **卷首印刷全稱**：`台北市立誠正國民中學114 學年度第二學期第三次定期評量七年級數學科試卷`
+- **題數統計**：可用 22 / 總計 22 題
+  - 題型分布：選擇題 12 題、填充／選填 8 題、非選／計算 2 題
+  - 難易度：容易 16 題、中等 6 題、困難 0 題
+- **純向量幾何 SVG**：共 1 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 8 (選項4圖): 不等式之解在數線上圖示。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taipei-e46b59a1468c8ed0-67065845.json`
+  - 暫存驗收區：`research/incoming-external/metro-taipei-e46b59a1468c8ed0-67065845/`
+  - 驗收收據：`research/incoming-external/metro-taipei-e46b59a1468c8ed0-67065845/receipt.json`
+- **入庫收據雜湊**：`6706584563ecd2652719e7edb71ccf72836e03c20d61b730657025de8e9f4f67`
+
+### 40. 【自強國中】- G E
+- **試卷 ID**：`metro-taoyuan-124b10db3fe20584`
+- **卷首印刷全稱**：`桃園市立自強國中113學年度七年級第二學期數學科第二次定期考試卷`
+- **題數統計**：可用 21 / 總計 21 題
+  - 題型分布：選擇題 5 題、填充／選填 13 題、非選／計算 3 題
+  - 難易度：容易 12 題、中等 7 題、困難 2 題
+- **純向量幾何 SVG**：共 8 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 4: 角與角度相加及銳角、直角、鈍角之分類辨別。
+    - 題號 5: 積木三視圖（上視圖、左視圖推理前視圖）。
+    - 題號 5 (選項4圖): 積木三視圖（上視圖、左視圖推理前視圖）。
+    - 題號 10: 正三角形三對稱軸與周長求線段長度。
+    - 題號 13: 直線圖形截距與斜率判別方程式各係數正負號。
+    - ...及其他共 8 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taoyuan-124b10db3fe20584.json`
+  - 暫存驗收區：`research/incoming-external/metro-taoyuan-124b10db3fe20584/`
+  - 驗收收據：`research/incoming-external/metro-taoyuan-124b10db3fe20584/receipt.json`
+- **入庫收據雜湊**：`21aea8ac44beca7a630290ccf8f08f3d677393191dc88c17c6519ca74427182b`
+
+### 41. 【自強國中】- G E
+- **試卷 ID**：`metro-taoyuan-73d7c0ecb504ddb0`
+- **卷首印刷全稱**：`桃園市立自強國中114學年度八年級第二學期數學科第一次定期考試卷`
+- **題數統計**：可用 22 / 總計 22 題
+  - 題型分布：選擇題 10 題、填充／選填 10 題、非選／計算 2 題
+  - 難易度：容易 14 題、中等 8 題、困難 0 題
+- **純向量幾何 SVG**：共 5 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 2: 吸管排成相連正方形的數量規律與等差數列應用。
+    - 題號 9 (選項4圖): 從對應表判斷變數間是否構成函數關係（一對多非函數）。
+    - 題號 3: 數字堆疊陣列之項數規律與末項計算。
+    - 題號 4: 十字方格之等差中項應用求總和。
+    - 題號 9: 分段線型函數與通話費折線圖之應用。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taoyuan-73d7c0ecb504ddb0.json`
+  - 暫存驗收區：`research/incoming-external/metro-taoyuan-73d7c0ecb504ddb0/`
+  - 驗收收據：`research/incoming-external/metro-taoyuan-73d7c0ecb504ddb0/receipt.json`
+- **入庫收據雜湊**：`23698481daf6ea64e28c3115c0c6c6cacaadddb85453683979bcf07f23fcf92d`
+
+### 42. 【自強國中】- G E
+- **試卷 ID**：`metro-taoyuan-a83099fd238f1cb9`
+- **卷首印刷全稱**：`自強國中114學年度第一學期八年級第二次段考數學科題目卷`
+- **題數統計**：可用 23 / 總計 23 題
+  - 題型分布：選擇題 5 題、填充／選填 17 題、非選／計算 1 題
+  - 難易度：容易 11 題、中等 11 題、困難 1 題
+- **純向量幾何 SVG**：共 3 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 1: 判讀累積次數分配折線圖求指定組別與累積人數。
+    - 題號 15: 投籃命中率相對次數長條圖之統計讀圖與次數推算。
+    - 題號 1: 結合圓形圖與累積次數分配折線圖推算污損組別之百分比。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taoyuan-a83099fd238f1cb9.json`
+  - 暫存驗收區：`research/incoming-external/metro-taoyuan-a83099fd238f1cb9/`
+  - 驗收收據：`research/incoming-external/metro-taoyuan-a83099fd238f1cb9/receipt.json`
+- **入庫收據雜湊**：`30555c6c223b4db25a16f7dcb61af48c9c928629c45054f6254c269bc9d9070b`
+
+### 43. 【自強國中】- G E
+- **試卷 ID**：`metro-taoyuan-bb459e3e33300227`
+- **卷首印刷全稱**：`桃園市立自強國民中學 110學年度第二學期 第3次段考 七年級數學科題目卷`
+- **題數統計**：可用 20 / 總計 20 題
+  - 題型分布：選擇題 10 題、填充／選填 8 題、非選／計算 2 題
+  - 難易度：容易 15 題、中等 5 題、困難 0 題
+- **純向量幾何 SVG**：共 1 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 4 (選項4圖): 一元一次不等式的解在數線上的圖示法。
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taoyuan-bb459e3e33300227.json`
+  - 暫存驗收區：`research/incoming-external/metro-taoyuan-bb459e3e33300227/`
+  - 驗收收據：`research/incoming-external/metro-taoyuan-bb459e3e33300227/receipt.json`
+- **入庫收據雜湊**：`03507eb3eca976391e9f70eb1d0da18ecd67088168705f10ab657388a46cc542`
+
+### 44. 【內城國民中小學】- G E
+- **試卷 ID**：`nc-110-1-1-9`
+- **卷首印刷全稱**：`宜蘭縣立內城國民中小學-國中部 110 學年度第一學期九年級數學科第一段考試題`
+- **題數統計**：可用 22 / 總計 22 題
+  - 題型分布：選擇題 10 題、填充／選填 12 題、非選／計算 0 題
+  - 難易度：容易 16 題、中等 6 題、困難 0 題
+- **純向量幾何 SVG**：共 15 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 5: 利用 SAS 判別相似三角形。
+    - 題號 5 (選項4圖): 利用 SAS 判別相似三角形。
+    - 題號 6: 畢氏定理逆定理與直角三角形角度計算。
+    - 題號 8: 相似三角形面積比等於高的平方比。
+    - 題號 1: 平行線截比例線段性質。
+    - ...及其他共 15 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/yilan/transcribed/nc-110-1-1-9.json`
+  - 暫存驗收區：`research/incoming-external/nc-110-1-1-9/`
+  - 驗收收據：`research/incoming-external/nc-110-1-1-9/receipt.json`
+- **入庫收據雜湊**：`606058e8834bcbb03e40d8a59b9b4503b74a1b11abc5e420251b7016efe36a24`
+
+### 45. 【內城國民中小學】- G E
+- **試卷 ID**：`nc-110-1-3-9`
+- **卷首印刷全稱**：`宜蘭縣立內城國民中小學-國中部 110 學年度第一學期九年級數學科第三段考試題`
+- **題數統計**：可用 22 / 總計 22 題
+  - 題型分布：選擇題 10 題、填充／選填 10 題、非選／計算 2 題
+  - 難易度：容易 13 題、中等 9 題、困難 0 題
+- **純向量幾何 SVG**：共 14 幅純向量重繪圖形（絕無點陣圖、無 `<image>`、無 `<tspan>`）
+  - 部分代表圖形主題：
+    - 題號 3: 內心到三邊等距離的幾何性質與應用。
+    - 題號 4: 三角形全等證明填空（AAS性質）。
+    - 題號 6: 平行線截出三角形相似性質。
+    - 題號 7: 內心分割三角形面積與三邊長成正比。
+    - 題號 8: 直角三角形外心為斜邊中點及外接圓半徑。
+    - ...及其他共 14 幅向量圖
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/yilan/transcribed/nc-110-1-3-9.json`
+  - 暫存驗收區：`research/incoming-external/nc-110-1-3-9/`
+  - 驗收收據：`research/incoming-external/nc-110-1-3-9/receipt.json`
+- **入庫收據雜湊**：`83385d0cf3d8cc2ce8362137f8f3b0b695167fa39e9d830774891e96aeb691e7`
+
+---
+
+## 三、 給接手／審查 AI 的驗收執行步驟
+
+1. **載入審查技能**：
+   請讀取 `skills/math-exam-verifier/SKILL.md`（或全局技能 `math-exam-verifier`），遵循內附之側向逐頁對照規範。
+2. **自動化驗證指令**：
+   在根目錄下執行：
+   ```bash
+   # 檢驗指定試卷 JSON 字型與公式合法性
+   python scripts/check_transcript.py research/metro/transcribed/<paperId>.json
+
+   # 檢驗指定試卷 Markdown 交付檔 intake 暫存狀態
+   python scripts/handoff_exchange.py intake output/external-ai/<學校資料夾>/<paperId>/<paperId>.md
+   ```
+3. **逐頁視覺側向審查**：
+   開啟 `output/external-ai/<學校資料夾>/<paperId>/pages/page-*.png` 與轉錄文字／SVG 進行 1:1 比對：
+   - 卷首印刷字樣是否與元資料完全一致。
+   - 公式數學符號是否完整以 KaTeX `$...$` 包覆。
+   - 幾何圖形之頂點字母標籤、垂直直角符號、平行箭頭、輔助虛線是否正確重繪且清晰可讀。
+4. **安全性準則**：
+   未經使用者明確指示，絕不發布至 live 網站，絕不執行 git push。

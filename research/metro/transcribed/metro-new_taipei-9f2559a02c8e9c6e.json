@@ -1,0 +1,604 @@
+{
+ "paperId": "metro-new_taipei-9f2559a02c8e9c6e",
+ "sourceSha256": "2ec89d2d9a4db59314c466b36c40117fedd5edb470a3127c138f2ed8488cca8d",
+ "printedHeader": "新北市立中正國民中學114學年度第二學期九年級數學科 第二次段考試題",
+ "printedSlot": {
+  "year": 114,
+  "semester": 2,
+  "grade": 9,
+  "exam": 2
+ },
+ "printedCounts": "選擇10題、填充11題（共18格）、計算2題（試題僅在答案卷上）",
+ "visualReviewComplete": true,
+ "reviewNote": "全卷兩頁逐題核對，含選擇10題、填充11題、計算2題（共23題）。重繪選擇2（圖一：累積次數折線圖）、選擇3（圖二：正方體展開圖）、選擇5（圖三：拋物線坐標圖）、選擇6（圖四：盒狀圖）、填充1（圖五：長方體）、填充2（圖六：長方體箱子空間對角線）、填充3（圖七：圓錐展開圖）、填充4（圖八：三角柱）等8張純向量SVG。計算兩題僅印於答案卷，依規範保留題號並標記停用。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 11,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2",
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "中位數條件下之古典機率計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有分別編號為 $1$、$2$、$3$、$4$、$5$、$6$、$7$ 的七張卡片，小華先取出 $4$ 號那張卡片，然後由剩下的六張卡片中任取兩張，則前後所取三張卡片號碼之中位數等於 $4$ 的機率為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{1}{5}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{2}{5}$",
+      "$\\dfrac{3}{5}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "累積次數分配折線圖判讀四分位數與組次數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下(圖一)為九年一班數學競試成績的累積次數分配折線圖，下列敘述何者正確？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 368.2 228.1\"><!-- Axes --><line x1=\"50\" y1=\"180\" x2=\"310\" y2=\"180\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"310,177 318,180 310,183\" fill=\"#111\"/><text x=\"310\" y=\"198\" font-family=\"serif\" font-size=\"12\" fill=\"#111\">分數(分)</text><line x1=\"50\" y1=\"180\" x2=\"50\" y2=\"25\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"47,25 50,17 53,25\" fill=\"#111\"/><text x=\"25\" y=\"20\" font-family=\"serif\" font-size=\"12\" fill=\"#111\">人數(人)</text><!-- Y-ticks --><g font-family=\"serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">  <line x1=\"46\" y1=\"180\" x2=\"50\" y2=\"180\" stroke=\"#111\"/>  <text x=\"44\" y=\"184\">0</text>  <line x1=\"46\" y1=\"145\" x2=\"50\" y2=\"145\" stroke=\"#111\"/>  <text x=\"44\" y=\"149\">10</text>  <line x1=\"46\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"#111\"/>  <text x=\"44\" y=\"114\">20</text>  <line x1=\"46\" y1=\"75\" x2=\"50\" y2=\"75\" stroke=\"#111\"/>  <text x=\"44\" y=\"79\">30</text>  <line x1=\"46\" y1=\"40\" x2=\"50\" y2=\"40\" stroke=\"#111\"/>  <text x=\"44\" y=\"44\">40</text></g><!-- Horizontal gridlines --><g stroke=\"#ccc\" stroke-dasharray=\"2 2\" stroke-width=\"0.8\">  <line x1=\"50\" y1=\"145\" x2=\"295\" y2=\"145\"/>  <line x1=\"50\" y1=\"110\" x2=\"295\" y2=\"110\"/>  <line x1=\"50\" y1=\"75\" x2=\"295\" y2=\"75\"/>  <line x1=\"50\" y1=\"40\" x2=\"295\" y2=\"40\"/></g><!-- X-ticks: 30 to 100, step 35px --><!-- 30:50, 40:85, 50:120, 60:155, 70:190, 80:225, 90:260, 100:295 --><g font-family=\"serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">  <line x1=\"50\" y1=\"180\" x2=\"50\" y2=\"184\" stroke=\"#111\"/>  <text x=\"50\" y=\"196\">30</text>  <line x1=\"85\" y1=\"180\" x2=\"85\" y2=\"184\" stroke=\"#111\"/>  <text x=\"85\" y=\"196\">40</text>  <line x1=\"120\" y1=\"180\" x2=\"120\" y2=\"184\" stroke=\"#111\"/>  <text x=\"120\" y=\"196\">50</text>  <line x1=\"155\" y1=\"180\" x2=\"155\" y2=\"184\" stroke=\"#111\"/>  <text x=\"155\" y=\"196\">60</text>  <line x1=\"190\" y1=\"180\" x2=\"190\" y2=\"184\" stroke=\"#111\"/>  <text x=\"190\" y=\"196\">70</text>  <line x1=\"225\" y1=\"180\" x2=\"225\" y2=\"184\" stroke=\"#111\"/>  <text x=\"225\" y=\"196\">80</text>  <line x1=\"260\" y1=\"180\" x2=\"260\" y2=\"184\" stroke=\"#111\"/>  <text x=\"260\" y=\"196\">90</text>  <line x1=\"295\" y1=\"180\" x2=\"295\" y2=\"184\" stroke=\"#111\"/>  <text x=\"295\" y=\"196\">100</text></g><!-- Polyline: (30,0)=>(50,180), (40,2)=>(85,173), (50,5)=>(120,162.5), (60,10)=>(155,145), (70,18)=>(190,117), (80,28)=>(225,82), (90,37)=>(260,50.5), (100,40)=>(295,40) --><polyline points=\"50,180 85,173 120,162.5 155,145 190,117 225,82 260,50.5 295,40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/><!-- Points & labels --><g fill=\"#111\">  <circle cx=\"50\" cy=\"180\" r=\"2.5\"/><text x=\"50\" y=\"174\" font-family=\"serif\" font-size=\"10\">0</text>  <circle cx=\"85\" cy=\"173\" r=\"2.5\"/><text x=\"85\" y=\"167\" font-family=\"serif\" font-size=\"10\">2</text>  <circle cx=\"120\" cy=\"162.5\" r=\"2.5\"/><text x=\"120\" y=\"156\" font-family=\"serif\" font-size=\"10\">5</text>  <circle cx=\"155\" cy=\"145\" r=\"2.5\"/><text x=\"161\" y=\"151\" font-family=\"serif\" font-size=\"10\">10</text>  <circle cx=\"190\" cy=\"117\" r=\"2.5\"/><text x=\"196\" y=\"123\" font-family=\"serif\" font-size=\"10\">18</text>  <circle cx=\"225\" cy=\"82\" r=\"2.5\"/><text x=\"231\" y=\"89\" font-family=\"serif\" font-size=\"10\">28</text>  <circle cx=\"260\" cy=\"50.5\" r=\"2.5\"/><text x=\"265\" y=\"61\" font-family=\"serif\" font-size=\"10\">37</text>  <circle cx=\"295\" cy=\"40\" r=\"2.5\"/><text x=\"295\" y=\"34\" font-family=\"serif\" font-size=\"10\">40</text></g><text x=\"172\" y=\"215\" font-family=\"serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">(圖一)</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "該班成績的 $Q_1$ 會落在 $50\\sim 60$ 分這一組",
+      "該班成績的 $Q_2$ 會落在 $70\\sim 80$ 分這一組",
+      "該班成績的 $Q_3$ 會落在 $90\\sim 100$ 分這一組",
+      "成績在 $60\\sim 70$ 分這一組有 $10$ 位"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "正方體展開圖相對面判別。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下(圖二)為一正方體的展開圖，試問乙的對面為哪一面？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\"><!-- Hexomino net: side 32 --><!-- Row 0: x=2(y=15): 戊 --><!-- Row 1: x=1(丙), x=2(丁), x=3(己) at y=47 --><!-- Row 2: x=0(甲), x=1(乙) at y=79 --><g stroke=\"#111\" stroke-width=\"1.3\" fill=\"#fbe5d6\">  <rect x=\"94\" y=\"20\" width=\"32\" height=\"32\"/>  <rect x=\"62\" y=\"52\" width=\"32\" height=\"32\"/>  <rect x=\"94\" y=\"52\" width=\"32\" height=\"32\"/>  <rect x=\"126\" y=\"52\" width=\"32\" height=\"32\"/>  <rect x=\"30\" y=\"84\" width=\"32\" height=\"32\"/>  <rect x=\"62\" y=\"84\" width=\"32\" height=\"32\"/></g><g font-family=\"serif\" font-size=\"14\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#111\">  <text x=\"110\" y=\"36\">戊</text>  <text x=\"78\" y=\"68\">丙</text>  <text x=\"110\" y=\"68\">丁</text>  <text x=\"142\" y=\"68\">己</text>  <text x=\"46\" y=\"100\">甲</text>  <text x=\"78\" y=\"100\">乙</text></g><text x=\"95\" y=\"142\" font-family=\"serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">(圖二)</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "丙",
+      "丁",
+      "戊",
+      "己"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "角柱頂點、面、邊性質判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若有一個正五角柱，下列敘述何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "頂點有 $15$ 個",
+      "面有 $7$ 個",
+      "邊有 $15$ 個",
+      "五邊形上下兩面會互相平行"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "二次函數圖形之開口方向與頂點位置判別係數正負。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下(圖三)，此為二次函數 $y = ax^2 + b$ 的圖形，則下列敘述何者錯誤？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 160\"><!-- Axes --><line x1=\"20\" y1=\"100\" x2=\"160\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"160,97 167,100 160,103\" fill=\"#111\"/><text x=\"162\" y=\"114\" font-family=\"serif\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">x</text><line x1=\"90\" y1=\"140\" x2=\"90\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"87,20 90,13 93,20\" fill=\"#111\"/><text x=\"76\" y=\"24\" font-family=\"serif\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">y</text><text x=\"76\" y=\"114\" font-family=\"serif\" font-size=\"12\" font-style=\"italic\" fill=\"#111\">O</text><!-- Parabola: vertex (90, 115), passes (50, 35) and (130, 35) --><path d=\"M 50 35 Q 90 155 130 35\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/><text x=\"90\" y=\"152\" font-family=\"serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">(圖三)</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a \\times b < 0$",
+      "$a$ 必為正數",
+      "$a \\times b > 0$",
+      "$b$ 必為正數"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "盒狀圖判讀中位數、四分位距與全距。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下(圖四)，此為九年 23 班某次段考的分數數學科成績的盒狀圖，下列敘述何者錯誤？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 160\"><!-- Number line: 10 to 100, x=30 to 282, 28px per 10 units --><line x1=\"20\" y1=\"110\" x2=\"295\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"295,107 303,110 295,113\" fill=\"#111\"/><g font-family=\"serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">  <!-- 10:30, 20:58, 30:86, 40:114, 50:142, 60:170, 70:198, 80:226, 90:254, 100:282 -->  <line x1=\"30\" y1=\"110\" x2=\"30\" y2=\"115\" stroke=\"#111\"/>  <text x=\"30\" y=\"126\">10</text>  <line x1=\"58\" y1=\"110\" x2=\"58\" y2=\"115\" stroke=\"#111\"/>  <text x=\"58\" y=\"126\">20</text>  <line x1=\"86\" y1=\"110\" x2=\"86\" y2=\"115\" stroke=\"#111\"/>  <text x=\"86\" y=\"126\">30</text>  <line x1=\"114\" y1=\"110\" x2=\"114\" y2=\"115\" stroke=\"#111\"/>  <text x=\"114\" y=\"126\">40</text>  <line x1=\"142\" y1=\"110\" x2=\"142\" y2=\"115\" stroke=\"#111\"/>  <text x=\"142\" y=\"126\">50</text>  <line x1=\"170\" y1=\"110\" x2=\"170\" y2=\"115\" stroke=\"#111\"/>  <text x=\"170\" y=\"126\">60</text>  <line x1=\"198\" y1=\"110\" x2=\"198\" y2=\"115\" stroke=\"#111\"/>  <text x=\"198\" y=\"126\">70</text>  <line x1=\"226\" y1=\"110\" x2=\"226\" y2=\"115\" stroke=\"#111\"/>  <text x=\"226\" y=\"126\">80</text>  <line x1=\"254\" y1=\"110\" x2=\"254\" y2=\"115\" stroke=\"#111\"/>  <text x=\"254\" y=\"126\">90</text>  <line x1=\"282\" y1=\"110\" x2=\"282\" y2=\"115\" stroke=\"#111\"/>  <text x=\"282\" y=\"126\">100</text></g><text x=\"270\" y=\"142\" font-family=\"serif\" font-size=\"11\" fill=\"#111\">成績(分)</text><!-- Box plot: Min 48 (136.4), Q1 62 (175.6), Q2 76 (214.8), Q3 85 (240), Max 100 (282) --><!-- Box y from 50 to 80, center 65 --><line x1=\"136.4\" y1=\"65\" x2=\"175.6\" y2=\"65\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"136.4\" y1=\"56\" x2=\"136.4\" y2=\"74\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"175.6\" y=\"50\" width=\"64.4\" height=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"214.8\" y1=\"50\" x2=\"214.8\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"240\" y1=\"65\" x2=\"282\" y2=\"65\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"282\" y1=\"56\" x2=\"282\" y2=\"74\" stroke=\"#111\" stroke-width=\"1.4\"/><!-- Value labels above --><g font-family=\"serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">  <text x=\"136.4\" y=\"44\">48</text>  <text x=\"175.6\" y=\"44\">62</text>  <text x=\"214.8\" y=\"44\">76</text>  <text x=\"240\" y=\"44\">85</text>  <text x=\"282\" y=\"44\">100</text></g><text x=\"160\" y=\"155\" font-family=\"serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">(圖四)</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "該班數學科中位數為 $76$ 分",
+      "該班數學科全距為 $23$ 分",
+      "該班數學科最低分為 $48$ 分",
+      "該班數學科四分位距為 $23$ 分"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "二次函數鉛直平移運算求常數項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將 $y = -3x^2 - k$ 的圖形，向上平移 $3$ 個單位，得新的二次函數為 $y = -3x^2 + 1$，則 $k =$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$0$",
+      "$1$",
+      "$2$",
+      "$3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "撲克牌抽樣事件機率判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一副撲克牌共 $52$ 張（不含鬼牌），分別為黑桃、紅心、方塊、梅花四種花色，每種花色有 $13$ 張，分別標示 $\\text{A}, 2, 3, 4, 5, 6, 7, 8, 9, 10, \\text{J}, \\text{Q}, \\text{K}$。從這副牌中任意抽出一張，假設每張牌被抽中的機率都一樣，下列敘述何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "此牌為紅色的機率為 $\\dfrac{1}{2}$",
+      "此牌為梅花的機率為 $\\dfrac{1}{4}$",
+      "此牌為英文字母的機率為 $\\dfrac{4}{13}$",
+      "此牌為黑色 $7$ 的機率為 $\\dfrac{1}{52}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2",
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "機率定義與四分位數概念辨析。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "對於不可能發生的事件，我們說它發生的機率是 $0$",
+      "根據四分位數的定義，則 $Q_2 - Q_1 = Q_3 - Q_1$",
+      "同時投擲 $30$ 枚相同的十元硬幣，必出現 $15$ 枚正面、$15$ 枚反面",
+      "如果一實驗可能發生的結果有 $n$ 種，則每一種結果發生的機率都是 $\\dfrac{1}{n}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "兩次擲骰複合事件機率比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "投擲一顆材質均勻的骰子兩次，下列三個事件所發生的機率大小關係為何？"
+    },
+    {
+     "type": "text",
+     "text": "甲事件：第一次出現 $1$ 點或 $2$ 點，第二次出現 $2$ 點或 $3$ 點"
+    },
+    {
+     "type": "text",
+     "text": "乙事件：第一次出現點數為合數，第二次出現點數為質數"
+    },
+    {
+     "type": "text",
+     "text": "丙事件：第一次出現點數為奇數，第二次出現點數為偶數"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲事件發生的機率較大",
+      "乙事件發生的機率較大",
+      "丙事件發生的機率較大",
+      "三個事件發生的機率相同"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "長方體空間線段之歪斜關係判別。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下(圖五)為一長方體，試判斷哪些線段和 $\\overline{AB}$ 歪斜？＿＿＿＿。（全對才給分）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\"><!-- Front face: E(40,110), H(140,110), D(140,70), A(40,70) --><!-- Back face: F(65,85), G(165,85), C(165,45), B(65,45) --><polygon points=\"40,70 140,70 140,110 40,110\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"70\" x2=\"65\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"140\" y1=\"70\" x2=\"165\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"140\" y1=\"110\" x2=\"165\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"65\" y1=\"45\" x2=\"165\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"165\" y1=\"45\" x2=\"165\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.4\"/><!-- Hidden edges dashed --><line x1=\"40\" y1=\"110\" x2=\"65\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\"/><line x1=\"65\" y1=\"85\" x2=\"165\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\"/><line x1=\"65\" y1=\"85\" x2=\"65\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\"/><!-- Labels --><g font-family=\"serif\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">  <text x=\"26\" y=\"70\">A</text>  <text x=\"60\" y=\"38\">B</text>  <text x=\"168\" y=\"42\">C</text>  <text x=\"144\" y=\"70\">D</text>  <text x=\"26\" y=\"118\">E</text>  <text x=\"50\" y=\"92\">F</text>  <text x=\"168\" y=\"92\">G</text>  <text x=\"135\" y=\"122\">H</text></g><text x=\"100\" y=\"148\" font-family=\"serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">(圖五)</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "長方體之空間對角線長度求法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下(圖六)，有一長方體箱子，其中 $\\overline{AB} = \\overline{AE} = 4$ 公分，$\\overline{BC} = 7$ 公分，厚度不計，若有一隻蜜蜂想從 $A$ 點飛到 $G$ 點，則牠至少要飛行 ＿＿＿＿ 公分。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\"><!-- Box: Top face A(60,40), D(150,40), C(130,65), B(40,65) --><!-- Bottom face E(60,95), H(150,95), G(130,120), F(40,120) --><polygon points=\"40,65 130,65 130,120 40,120\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"65\" x2=\"150\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"130\" y1=\"120\" x2=\"150\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"65\" x2=\"60\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"60\" y1=\"40\" x2=\"150\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.4\"/><!-- Hidden edges dashed --><line x1=\"40\" y1=\"120\" x2=\"60\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\"/><line x1=\"60\" y1=\"95\" x2=\"150\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\"/><line x1=\"60\" y1=\"95\" x2=\"130\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\"/><!-- Space diagonal A to G (solid) --><line x1=\"60\" y1=\"40\" x2=\"130\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.8\"/><!-- Labels --><g font-family=\"serif\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">  <text x=\"56\" y=\"34\">A</text>  <text x=\"152\" y=\"38\">D</text>  <text x=\"26\" y=\"70\">B</text>  <text x=\"118\" y=\"60\">C</text>  <text x=\"50\" y=\"98\">E</text>  <text x=\"154\" y=\"98\">H</text>  <text x=\"26\" y=\"128\">F</text>  <text x=\"134\" y=\"128\">G</text></g><text x=\"95\" y=\"148\" font-family=\"serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">(圖六)</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "圓錐展開圖之扇形半徑與圓錐表面積計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下(圖七)為一圓錐展開圖，已知 $\\angle AOB = 150^\\circ$，底面圓半徑 $= 10$，則圓錐的表面積為 ＿＿＿＿ 平方單位。（答案以 $\\pi$ 表示）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 182\"><!-- Circle on top (base): cx=100, cy=40, r=24 --><circle cx=\"100\" cy=\"40\" r=\"24\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><!-- Sector: vertex O at (100, 140), radius R=76 --><!-- Central angle 150 deg: from 105 deg to 255 deg (symmetric around 180, i.e. pointing upwards) --><!-- Angles from vertical (up): -75 deg to +75 deg --><!-- A: 100 - 76*sin(75) = 100 - 73.4 = 26.6, y = 140 - 76*cos(75) = 140 - 19.67 = 120.33 --><!-- B: 100 + 73.4 = 173.4, y = 120.33 --><!-- Arc passes top at (100, 64), which is tangent to base circle at y=64! Perfect! --><path d=\"M 26.6 120.3 L 100 140 L 173.4 120.3 A 76 76 0 0 0 26.6 120.3\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><!-- Labels --><g font-family=\"serif\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">  <text x=\"14\" y=\"125\">A</text>  <text x=\"178\" y=\"125\">B</text>  <text x=\"95\" y=\"158\">O</text></g><text x=\"100\" y=\"178\" font-family=\"serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">(圖七)</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "三角柱之體積與表面積計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如上(圖八)為一三角柱，已知 $\\overline{AB} = \\overline{AC} = 13$，$\\overline{BC} = 10$，$\\overline{CD} = 20$，試回答下列問題："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 170\"><!-- Top triangle: A(80,30), B(35,60), C(125,60) --><polygon points=\"80,30 35,60 125,60\" fill=\"#e8f0fe\" stroke=\"#111\" stroke-width=\"1.5\"/><!-- Vertical edges: length 65 --><!-- B(35,60) to (35,125), C(125,60) to D(125,125), A(80,30) to (80,95) (hidden) --><line x1=\"35\" y1=\"60\" x2=\"35\" y2=\"125\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"125\" y1=\"60\" x2=\"125\" y2=\"125\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"35\" y1=\"125\" x2=\"125\" y2=\"125\" stroke=\"#111\" stroke-width=\"1.5\"/><!-- Hidden edges dashed --><line x1=\"80\" y1=\"30\" x2=\"80\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\"/><line x1=\"35\" y1=\"125\" x2=\"80\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\"/><line x1=\"125\" y1=\"125\" x2=\"80\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\"/><!-- Labels --><g font-family=\"serif\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">  <text x=\"76\" y=\"24\">A</text>  <text x=\"18\" y=\"64\">B</text>  <text x=\"130\" y=\"64\">C</text>  <text x=\"130\" y=\"130\">D</text></g><text x=\"80\" y=\"155\" font-family=\"serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">(圖八)</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) 體積 ＿＿＿＿ 立方單位。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 表面積 ＿＿＿＿ 平方單位。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "乘法計數原理路線走法求值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "曉雯想要從甲地到丙地，已知甲地到丙地一定要經過乙地。且甲地到乙地有 $3$ 條路線，乙地到丙地有 $4$ 條路線，則曉雯有 ＿＿＿＿ 條路線的走法。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "兩粒骰子組成二位數為質數之機率。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "同時投擲兩粒公正的骰子（一紅、一藍），並且以紅色骰子的點數為十位數，藍色骰子的點數為個位數，則擲出的二位數為質數的機率 ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "角錐頂點數、面數與邊數之關係計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若有一個十二角錐，這個角錐的頂點個數為 $a$ 個，面的個數為 $b$ 個，邊的個數為 $c$ 個，則 $a + b - c =$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "二次函數頂點與對稱點坐標結合三角形面積求未知數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "二次函數 $y = ax^2 + c$ 的圖形通過 $B(b, -6)$、$C(-b, -6)$ 兩點，且最高點坐標為 $A(0, -2)$，若 $\\triangle ABC$ 的面積為 $12$，則 $a + b - c =$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "圓柱體容器等體積液體高度代換求值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一密封的圓柱體容器，底面半徑為 $3$ 公分，內裝奶茶高度為 $8$ 公分，容器厚度不計。若將奶茶倒置另一圓柱體的杯子，杯子的底面半徑為 $5$ 公分，容器厚度不計且過程中沒有溢出，則奶茶在杯子的高度為 ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "原始數據之全距與四分位距計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "九年 25 班某次數學小考成績由小到大排列如下表，試回答下列問題："
+    },
+    {
+     "type": "text",
+     "text": "$4, 8, 11, 20, 24, 33, 38, 45, 48, 50, 51, 52, 63, 69, 69, 72, 82, 88, 90, 97$"
+    },
+    {
+     "type": "text",
+     "text": "(1) 全距 ＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(2) 四分位距 ＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "多個二次函數標準式之開口方向與頂點坐標特徵歸類。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知六個二次函數如下表所示："
+    },
+    {
+     "type": "table",
+     "header": false,
+     "rows": [
+      [
+       "(A) $y = 7(x - 2)^2 + 1$",
+       "(B) $y = 6x^2 + 5$",
+       "(C) $y = -2(x + 3)^2$"
+      ],
+      [
+       "(D) $y = 4(x - 1)^2 + 5$",
+       "(E) $y = -5 + x^2$",
+       "(F) $y = -3 - 4x^2$"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "開口向上的有 $a$ 個、開口向下有 $b$ 個、頂點在 $x$ 軸上有 $c$ 個、頂點在 $y$ 軸上有 $d$ 個，試回答下列問題："
+    },
+    {
+     "type": "text",
+     "text": "(1) $a =$ ＿＿＿＿  (2) $b =$ ＿＿＿＿  (3) $c =$ ＿＿＿＿  (4) $d =$ ＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "九下計算題綜合應用。",
+   "usable": false,
+   "sourceIssue": "試題僅印於手寫答案卷上，原卷PDF未收錄答案卷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "三、計算題第 1 題（試題在答案卷上，原卷PDF未收錄答案卷）。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "九下計算題立體或幾何應用。",
+   "usable": false,
+   "sourceIssue": "試題僅印於手寫答案卷上，原卷PDF未收錄答案卷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "三、計算題第 2 題（試題在答案卷上，原卷PDF未收錄答案卷）。"
+    }
+   ]
+  }
+ ]
+}

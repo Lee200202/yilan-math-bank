@@ -10,6 +10,8 @@
 
 ## 接續工作
 
+0. 使用者會再分派其他AI接力，先讀START_HERE_FOR_ANY_AI.md。首批六卷已預留，原卷／18頁PNG／提示詞／MD範本在handoff/workpacks三包ZIP，見EXTERNAL_BATCHES.md及CLAIMS。收到MD後先intake待審，不要重複轉寫這六卷，也不把準備媒體包當成已轉寫。
+
 1. 執行 `python scripts/handoff.py`，依最新pending-papers與五組targets取下一卷；跳過已有outFile、已認領、source-issues衝突卷。全部Word等未排隊卷仍需處理。
 2. 宜蘭接中華九上二／三等可得原卷，跨區優先缺少的八下三／九年級與學期考次，不再只增七年級。依原卷內容而非排程猜單元／難度。
 3. 把所有原卷逐題轉寫，保持文字符號／SVG條件完整；逐卷檢查、實際PDF每頁驗收後分批發布並驗正式站。

@@ -12,6 +12,7 @@ import pathlib
 import re
 import shutil
 import xml.etree.ElementTree as ET
+from release_policy import approved
 
 REGION_LABELS = {'taipei': '臺北市', 'new_taipei': '新北市', 'taoyuan': '桃園市', 'taichung': '臺中市', 'kaohsiung': '高雄市'}
 SOURCE_NAMES = {
@@ -127,8 +128,18 @@ def rows_from_transcript(t, paper, unit_ids, evidence):
 def build(root, unit_ids):
     root = pathlib.Path(root)
     inv = json.loads((root / 'research/metro/metro-inventory.json').read_text(encoding='utf-8'))
+    # Slot corrections decided by the owner from printed-header evidence (handoff/source-issues).
+    ovr_path = root / 'research/metro/slot-overrides.json'
+    overrides = json.loads(ovr_path.read_text(encoding='utf-8')) if ovr_path.exists() else {}
+    for s in inv['sources'].values():
+        for f in s['files']:
+            o = overrides.get(f['id'])
+            if o:
+                if o['sourceSha256'] != f.get('sha256'):
+                    raise ValueError(f'Slot override evidence invalidated: {f["id"]}')
+                f.update({k: o[k] for k in ('year', 'semester', 'grade', 'exam') if k in o})
     tdir = root / 'research/metro/transcribed'
-    transcripts = {f.stem: json.loads(f.read_text(encoding='utf-8')) for f in sorted(tdir.glob('*.json'))}
+    transcripts = {f.stem: json.loads(f.read_text(encoding='utf-8')) for f in sorted(tdir.glob('*.json')) if approved(root, f)}
     papers, questions, summary = [], [], []
     for key, src in inv['sources'].items():
         files = src['files']

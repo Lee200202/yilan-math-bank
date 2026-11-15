@@ -1,0 +1,605 @@
+{
+  "deliveryStatus": "complete",
+  "paperId": "metro-taipei-509300ecf27c3ab8-ab2bebfa",
+  "sourceSha256": "ab2bebfad9e54c510066dd0e97123ffa916c7ca87df672e180b67eea6daa509b",
+  "printedHeader": "台北市立誠正國中114 學年度第二學期第二次定期評量七年級數學科試卷",
+  "printedSlot": {
+    "year": 114,
+    "semester": 2,
+    "grade": 7,
+    "exam": 2
+  },
+  "printedCounts": "選擇13題、填充8題、計算3題（第1、2題各2小題，第3題1小題）。",
+  "visualReviewComplete": true,
+  "reviewNote": "兩頁逐頁以影像核對。第1頁選擇1~10題，第2頁選擇11~13題、填充1~8題與計算3題。坐標平面直線、截距、象限、直方圖、圓形分配圖及選項圖形全數以向量SVG忠實重繪；選擇6選項使用optionFigures。全卷24題文字、公式、表格、圖形完整可用。",
+  "expectedTypes": {
+    "choice": 13,
+    "fill": 8,
+    "written": 3
+  },
+  "questions": [
+    {
+      "type": "choice",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-3-2",
+      "unitIds": [
+        "nanyi-7-2-3-2"
+      ],
+      "unitAssignmentBasis": "坐標軸的方程式表示法。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在直角坐標平面上，下列哪一個方程式代表 $x$ 軸？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$x=0$",
+            "$y=0$",
+            "$x=y$",
+            "$y=-x$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-3-2",
+      "unitIds": [
+        "nanyi-7-2-3-2"
+      ],
+      "unitAssignmentBasis": "直線上各點坐標為方程式的解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖(一)，$L$ 為方程式 $13x-15y+14=0$ 的圖形，則下列何者是此方程式的解？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 160\"><path d=\"M15,95 H155 M150,91 L156,95 L150,99\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><path d=\"M95,145 V20 M91,25 L95,19 L99,25\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"25\" y1=\"135\" x2=\"145\" y2=\"25\" stroke=\"#d32f2f\" stroke-width=\"2\"/><g fill=\"#111\"><circle cx=\"55\" cy=\"50\" r=\"3.5\"/><circle cx=\"75\" cy=\"85\" r=\"3.5\"/><circle cx=\"95\" cy=\"95\" r=\"3.5\"/><circle cx=\"125\" cy=\"120\" r=\"3.5\"/></g><g font-family=\"serif\" font-size=\"14\" fill=\"#111\"><text x=\"160\" y=\"99\" fill=\"#d32f2f\" font-style=\"italic\">x</text><text x=\"92\" y=\"16\" fill=\"#d32f2f\" font-style=\"italic\">y</text><g font-style=\"italic\"><text x=\"42\" y=\"48\">P</text><text x=\"60\" y=\"82\">Q</text><text x=\"82\" y=\"112\">R</text><text x=\"110\" y=\"125\">S</text></g><text x=\"75\" y=\"155\">圖(一)</text></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$P$ 點",
+            "$Q$ 點",
+            "$R$ 點",
+            "$S$ 點"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "3",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-3-1",
+      "unitIds": [
+        "nanyi-7-2-3-1"
+      ],
+      "unitAssignmentBasis": "象限與點到坐標軸距離求點坐標。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "直角坐標平面上，有一點 $K$ 在第二象限，且 $K$ 點距離 $x$ 軸 $5$ 個單位長，距離 $y$ 軸 $4$ 個單位長，則 $K$ 點的座標為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$K(5,-4)$",
+            "$K(-5,4)$",
+            "$K(4,-5)$",
+            "$K(-4,5)$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "4",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-3-2",
+      "unitIds": [
+        "nanyi-7-2-3-2"
+      ],
+      "unitAssignmentBasis": "二元一次方程式圖形的截距與通過象限判別。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "關於二元一次方程式 $2x-5y=10$ 的圖形，下列敘述何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "圖形與 $x$ 軸交於 $(0,-2)$",
+            "圖形與 $y$ 軸交於 $(5,0)$",
+            "圖形不通過第二象限",
+            "圖形通過原點"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "5",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-3-1",
+      "unitIds": [
+        "nanyi-7-2-3-1"
+      ],
+      "unitAssignmentBasis": "參數式點坐標消去參數與象限判別。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在直角坐標平面上，已知 $m$ 為任意數，則有一點 $P$ 的座標為 $(3-m, 10-m)$，則 $P$ 點絕對不可能落在第幾象限？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "第一象限",
+            "第二象限",
+            "第三象限",
+            "第四象限"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "6",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-3-2",
+      "unitIds": [
+        "nanyi-7-2-3-2"
+      ],
+      "unitAssignmentBasis": "二元一次方程式圖形的截距與形狀判別。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列何者為二元一次方程式 $3x+y=6$ 的圖形？"
+        },
+        {
+          "type": "optionFigures",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 140\"><g transform=\"translate(0, 0)\"><text x=\"12\" y=\"25\" font-family=\"serif\" font-size=\"15\" fill=\"#111\">(A)</text><path d=\"M20,85 H115 M110,81 L116,85 L110,89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M65,130 V25 M61,30 L65,24 L69,30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"58\" y1=\"28\" x2=\"95\" y2=\"110\" stroke=\"#d32f2f\" stroke-width=\"1.8\"/><g font-family=\"serif\" font-size=\"13\" fill=\"#111\"><text x=\"118\" y=\"89\" fill=\"#d32f2f\" font-style=\"italic\">x</text><text x=\"62\" y=\"20\" fill=\"#d32f2f\" font-style=\"italic\">y</text><text x=\"56\" y=\"97\" font-style=\"italic\">O</text></g></g><g transform=\"translate(135, 0)\"><text x=\"12\" y=\"25\" font-family=\"serif\" font-size=\"15\" fill=\"#111\">(B)</text><path d=\"M20,85 H115 M110,81 L116,85 L110,89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M65,130 V25 M61,30 L65,24 L69,30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"38\" y1=\"105\" x2=\"75\" y2=\"25\" stroke=\"#d32f2f\" stroke-width=\"1.8\"/><g font-family=\"serif\" font-size=\"13\" fill=\"#111\"><text x=\"118\" y=\"89\" fill=\"#d32f2f\" font-style=\"italic\">x</text><text x=\"62\" y=\"20\" fill=\"#d32f2f\" font-style=\"italic\">y</text><text x=\"56\" y=\"97\" font-style=\"italic\">O</text></g></g><g transform=\"translate(270, 0)\"><text x=\"12\" y=\"25\" font-family=\"serif\" font-size=\"15\" fill=\"#111\">(C)</text><path d=\"M20,85 H115 M110,81 L116,85 L110,89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M65,130 V25 M61,30 L65,24 L69,30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"38\" y1=\"70\" x2=\"75\" y2=\"130\" stroke=\"#d32f2f\" stroke-width=\"1.8\"/><g font-family=\"serif\" font-size=\"13\" fill=\"#111\"><text x=\"118\" y=\"89\" fill=\"#d32f2f\" font-style=\"italic\">x</text><text x=\"62\" y=\"20\" fill=\"#d32f2f\" font-style=\"italic\">y</text><text x=\"68\" y=\"97\" font-style=\"italic\">O</text></g></g><g transform=\"translate(405, 0)\"><text x=\"12\" y=\"25\" font-family=\"serif\" font-size=\"15\" fill=\"#111\">(D)</text><path d=\"M20,85 H115 M110,81 L116,85 L110,89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M65,130 V25 M61,30 L65,24 L69,30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"58\" y1=\"130\" x2=\"95\" y2=\"70\" stroke=\"#d32f2f\" stroke-width=\"1.8\"/><g font-family=\"serif\" font-size=\"13\" fill=\"#111\"><text x=\"118\" y=\"89\" fill=\"#d32f2f\" font-style=\"italic\">x</text><text x=\"62\" y=\"20\" fill=\"#d32f2f\" font-style=\"italic\">y</text><text x=\"56\" y=\"97\" font-style=\"italic\">O</text></g></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "7",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-3-2",
+      "unitIds": [
+        "nanyi-7-2-3-2"
+      ],
+      "unitAssignmentBasis": "平行於坐標軸的直線方程式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在直角坐標平面上，有一條直線 $L$ 通過 $Q(-28,17)$，且直線 $L$ 平行於 $x$ 軸，請問下列哪一個方程式可表示直線 $L$ 的圖形？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$x=17$",
+            "$x=-28$",
+            "$y=17$",
+            "$y=-28$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "8",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-3-2",
+      "unitIds": [
+        "nanyi-7-2-3-2"
+      ],
+      "unitAssignmentBasis": "直線與坐標軸所圍三角形內部面積比與點坐標關係。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖(二)，在坐標平面上，$O$ 為原點，若直線 $L:3x-4y=-24$ 與 $x$ 軸、$y$ 軸分別相交於 $A$、$B$ 兩點，且點 $P(a,b)$ 位在第二象限的 $\\overline{AB}$ 上。若 $\\triangle AOP$ 的面積是 $\\triangle BOP$ 面積的 $3$ 倍，則 $a$、$b$ 的關係式為何？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 160\"><path d=\"M15,95 H155 M150,91 L156,95 L150,99\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><path d=\"M95,145 V20 M91,25 L95,19 L99,25\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"18\" y1=\"108\" x2=\"125\" y2=\"22\" stroke=\"#d32f2f\" stroke-width=\"2\"/><g fill=\"#111\"><circle cx=\"35\" cy=\"95\" r=\"3.5\"/><circle cx=\"95\" cy=\"45\" r=\"3.5\"/></g><g font-family=\"serif\" font-size=\"14\" fill=\"#111\"><text x=\"160\" y=\"99\" fill=\"#d32f2f\" font-style=\"italic\">x</text><text x=\"92\" y=\"16\" fill=\"#d32f2f\" font-style=\"italic\">y</text><text x=\"83\" y=\"108\" font-style=\"italic\">O</text><g font-style=\"italic\"><text x=\"28\" y=\"85\">A</text><text x=\"80\" y=\"42\">B</text></g><text x=\"75\" y=\"155\">圖(二)</text></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$4a-9b=0$",
+            "$4a+9b=0$",
+            "$9a-4b=0$",
+            "$9a+4b=0$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "9",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-6-2",
+      "unitIds": [
+        "nanyi-7-2-6-2"
+      ],
+      "unitAssignmentBasis": "統計量（中位數、眾數、平均數）概念辨析。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列選項中的敘述，何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "中位數的值不一定出現在此組資料中",
+            "一組資料有 $9$ 筆數值，則中位數一定是第 $5$ 筆數值",
+            "一組資料中，數值最大的資料項即為該組資料的眾數",
+            "有 $7$ 筆資料，其數值分別為 $2$、$2$、$4$、$5$、$6$、$8$、$10$，則平均數為 $5$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "10",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-6-1",
+      "unitIds": [
+        "nanyi-7-2-6-1"
+      ],
+      "unitAssignmentBasis": "次數分配折線圖組中點與組距判別。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "某校七年級共有 $300$ 為學生，經測量體重後，以 $10$ 公斤為組距，繪製成體重次數分配折線圖。若已知橫軸為體重(公斤)，縱軸為人數(人)，且折線圖中有一點的座標為 $(55,60)$，則下列敘述何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "體重剛好為 $55$ 公斤的學生共有 $60$ 人",
+            "體重在 $52.5\\sim 57.5$ 公斤之間的學生共有 $60$ 人",
+            "體重剛好為 $60$ 公斤的學生共有 $55$ 人",
+            "體重在 $50\\sim 60$ 公斤之間的學生共有 $60$ 人"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "11",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-6-2",
+      "unitIds": [
+        "nanyi-7-2-6-2"
+      ],
+      "unitAssignmentBasis": "統計量受極端值影響之特性。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在分析一組統計資料時，下列哪一種統計量，最容易受到資料中極端值的影響，因此產生偏差？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "平均數",
+            "中位數",
+            "眾數",
+            "以上皆是"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "12",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-6-1",
+      "unitIds": [
+        "nanyi-7-2-6-1"
+      ],
+      "unitAssignmentBasis": "次數分配直方圖判讀。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "圖(三)是「2026 南港桂花林小徑跑：百人公益馬拉松」參賽選手的年齡次數分配直方圖，本次活動限額 $100$ 人。關於此馬拉松參賽選手年齡的分布情形，下列敘述何者正確？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 120,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\"><line x1=\"40\" y1=\"140\" x2=\"225\" y2=\"140\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"40\" y1=\"140\" x2=\"40\" y2=\"25\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M37,29 L40,24 L43,29\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M40,21 H215 M40,38 H215 M40,55 H215 M40,72 H215 M40,89 H215 M40,106 H215 M40,123 H215\" stroke=\"#e0e0e0\" stroke-width=\"0.8\" fill=\"none\"/><g fill=\"#ff1744\" stroke=\"#111\" stroke-width=\"0.8\"><rect x=\"50\" y=\"109.4\" width=\"25\" height=\"30.6\"/><rect x=\"75\" y=\"55\" width=\"25\" height=\"85\"/><rect x=\"100\" y=\"82.2\" width=\"25\" height=\"57.8\"/><rect x=\"125\" y=\"44.8\" width=\"25\" height=\"95.2\"/><rect x=\"150\" y=\"89\" width=\"25\" height=\"51\"/><rect x=\"175\" y=\"119.6\" width=\"25\" height=\"20.4\"/></g><g font-family=\"serif\" font-size=\"11\" fill=\"#111\" text-anchor=\"middle\"><text x=\"62.5\" y=\"104\" font-weight=\"bold\">9</text><text x=\"87.5\" y=\"50\" font-weight=\"bold\">25</text><text x=\"112.5\" y=\"77\" font-weight=\"bold\">17</text><text x=\"137.5\" y=\"40\" font-weight=\"bold\">28</text><text x=\"162.5\" y=\"84\" font-weight=\"bold\">15</text><text x=\"187.5\" y=\"114\" font-weight=\"bold\">6</text></g><g font-family=\"serif\" font-size=\"10\" fill=\"#111\"><text x=\"35\" y=\"143\" text-anchor=\"end\">0</text><text x=\"35\" y=\"126\" text-anchor=\"end\">5</text><text x=\"35\" y=\"109\" text-anchor=\"end\">10</text><text x=\"35\" y=\"92\" text-anchor=\"end\">15</text><text x=\"35\" y=\"75\" text-anchor=\"end\">20</text><text x=\"35\" y=\"58\" text-anchor=\"end\">25</text><text x=\"35\" y=\"41\" text-anchor=\"end\">30</text><text x=\"35\" y=\"24\" text-anchor=\"end\">35</text><text x=\"50\" y=\"152\" text-anchor=\"middle\">10</text><text x=\"75\" y=\"152\" text-anchor=\"middle\">20</text><text x=\"100\" y=\"152\" text-anchor=\"middle\">30</text><text x=\"125\" y=\"152\" text-anchor=\"middle\">40</text><text x=\"150\" y=\"152\" text-anchor=\"middle\">50</text><text x=\"175\" y=\"152\" text-anchor=\"middle\">60</text><text x=\"200\" y=\"152\" text-anchor=\"middle\">70</text><text x=\"46\" y=\"13\">次數(人)</text><text x=\"202\" y=\"162\">年齡(歲)</text><text x=\"125\" y=\"174\" text-anchor=\"middle\" font-size=\"12\">圖(三)</text></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "組距為 $5$ 歲",
+            "有人 $65$ 歲",
+            "$40$ 歲以上，未滿 $60$ 歲的有 $43$ 人",
+            "不滿 $30$ 歲的有 $25$ 人"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "13",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-6-2",
+      "unitIds": [
+        "nanyi-7-2-6-2"
+      ],
+      "unitAssignmentBasis": "分組次數分配資料之中位數與眾數所在組別判定。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "圖(三)是「2026 南港桂花林小徑跑：百人公益馬拉松」參賽選手的年齡次數分配直方圖，本次活動限額 $100$ 人。由此圖可知，其中位數與眾數各在哪一組？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "眾數在 $30\\sim 40$ 歲，中位數在 $40\\sim 50$ 歲",
+            "眾數在 $40\\sim 50$ 歲，中位數在 $30\\sim 40$ 歲",
+            "眾數與中位數皆落在 $30\\sim 40$ 歲這一組",
+            "眾數與中位數皆落在 $40\\sim 50$ 歲這一組"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "1",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-3-1",
+      "unitIds": [
+        "nanyi-7-2-3-1"
+      ],
+      "unitAssignmentBasis": "平面坐標平移求原點坐標。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在直角坐標平面上，有一點 $P$ 先沿著水平方向向左移動 $9$ 單位，再沿著垂直方向向上移動 $15$ 單位，最後到達終點 $Q(13,-11)$，則該起始點 $P$ 的座標為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "2",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-3-1",
+      "unitIds": [
+        "nanyi-7-2-3-1"
+      ],
+      "unitAssignmentBasis": "y 軸上點的坐標特性與點到 x 軸距離。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在直角坐標平面上，已知有一點 $R(4k+12, 2k-6)$。若 $R$ 點在 $y$ 軸上，則 $R$ 點到 $x$ 軸的距離為＿＿＿＿單位長。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "3",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-3-2",
+      "unitIds": [
+        "nanyi-7-2-3-2"
+      ],
+      "unitAssignmentBasis": "直線通過原點之常數項為零。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在直角坐標平面上，若二元一次方程式 $(k+2)x+(3k-12)y=-4k+18$ 的圖形通過原點，則 $k=$＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "4",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-3-1",
+      "unitIds": [
+        "nanyi-7-2-3-1"
+      ],
+      "unitAssignmentBasis": "正負號判斷點所在象限。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如果 $a>0$，$b<0$，則 $(b-a, -b^2)$ 在哪一象限或是哪一條座標軸上？答：＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "5",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-3-2",
+      "unitIds": [
+        "nanyi-7-2-3-2"
+      ],
+      "unitAssignmentBasis": "待定係數法求通過兩點的直線方程式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在直角坐標平面上，有一條直線 $L$ 的方程式為 $ax+by=1$，且此直線 $L$ 同時通過 $P(1,1)$ 與 $Q(3,5)$ 兩點，則此直線 $L$ 的方程式為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "6",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-6-1",
+      "unitIds": [
+        "nanyi-7-2-6-1"
+      ],
+      "unitAssignmentBasis": "圓形百分圖的人數計算與比較。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "圖(四)為七年級某班學生參加社團活動的人數分配圓形圖。已知該班參加「魔術社」的人數為 $6$ 人，則參加「康輔社」的人數比「運動社」的人數多出＿＿＿＿人。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 120,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 190\"><circle cx=\"100\" cy=\"90\" r=\"60\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"100\" y1=\"90\" x2=\"100\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"100\" y1=\"90\" x2=\"146.2\" y2=\"128.2\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"100\" y1=\"90\" x2=\"64.7\" y2=\"138.5\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"100\" y1=\"90\" x2=\"42.9\" y2=\"71.5\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"100\" y1=\"90\" x2=\"71.1\" y2=\"37.4\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M55,50 Q70,55 78,58 M74,53 L78,58 L72,59\" fill=\"none\" stroke=\"#d32f2f\" stroke-width=\"1.2\"/><path d=\"M82,25 Q88,38 92,48 M87,44 L92,48 L93,42\" fill=\"none\" stroke=\"#d32f2f\" stroke-width=\"1.2\"/><g font-family=\"serif\" font-size=\"11\" fill=\"#111\" text-anchor=\"middle\"><text x=\"128\" y=\"85\">康輔社</text><text x=\"128\" y=\"98\">36%</text><text x=\"105\" y=\"128\">運動社</text><text x=\"105\" y=\"141\">24%</text><text x=\"60\" y=\"100\">合唱團</text><text x=\"60\" y=\"113\">20%</text><text x=\"35\" y=\"45\">美術社</text><text x=\"35\" y=\"58\">12%</text><text x=\"82\" y=\"15\">魔術社</text><text x=\"82\" y=\"27\">8%</text><text x=\"100\" y=\"178\" font-size=\"12\">圖(四)</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "7",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-6-2",
+      "unitIds": [
+        "nanyi-7-2-6-2"
+      ],
+      "unitAssignmentBasis": "加入新資料後的中位數變化計算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "有一組身高資料由小到大排列如下：$142$、$145$、$147$、……、$153$、$158$、$161$、$162$、……、$173$、$175$、$176$ (單位：公分)。已知這組資料的中位數為 $158$ 公分，若在此組資料中額外加入一筆數值為 $153$ 公分的資料，則加入後，這組新資料的中位數變為＿＿＿＿公分。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "8",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-7-2-2-3",
+      "unitIds": [
+        "nanyi-7-2-2-3"
+      ],
+      "unitAssignmentBasis": "平均數異動與二元一次聯立方程式應用。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "雷霆高中籃球隊正在為全隊成員編製「訓練資源編號」，該編號是由原始隊員人數 $x$ 與原始平均體重 $y$ 相加而成。根據經理的異動紀錄顯示：隊伍若是加入一位體重 $81$ 公斤的新成員，使全體平均體重增加 $3$ 公斤；若是一位體重 $43$ 公斤的成員因傷退出訓練，使剩下隊員的平均體重比原始平均增加 $1$ 公斤。請根據上述異動資訊，計算出這組「訓練資源編號」$(x+y)$ 之值應為＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "$\\star$參考公式$\\star$ 乘法公式：$(A+B)\\times(C+D)=A\\times C+A\\times D+B\\times C+B\\times D$，例如：$(a+2)\\times(b+3)=a\\times b+a\\times 3+2\\times b+2\\times 3$"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "1",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-6-2",
+      "unitIds": [
+        "nanyi-7-2-6-2"
+      ],
+      "unitAssignmentBasis": "分組資料求眾數組與組中點加權平均數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "圖(五)為某國中七年級全體學生參加一分鐘仰臥起坐測驗的成績次數分配表。已知該年級共有 $100$ 名學生，請根據表中的資訊，求："
+        },
+        {
+          "type": "table",
+          "header": true,
+          "rows": [
+            [
+              "成績次數(下)",
+              "$10\\sim 20$",
+              "$20\\sim 30$",
+              "$30\\sim 40$",
+              "$40\\sim 50$",
+              "$50\\sim 60$"
+            ],
+            [
+              "人數(人)",
+              "$12$",
+              "$21$",
+              "$30$",
+              "$25$",
+              "$12$"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "(1) 該年級學生仰臥起坐的眾數在哪一組？"
+        },
+        {
+          "type": "text",
+          "text": "(2) 該年級學生仰臥起坐的平均次數為多少下？"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "2",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-3-2",
+      "unitIds": [
+        "nanyi-7-2-3-2"
+      ],
+      "unitAssignmentBasis": "兩直線交點與截距所圍三角形面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在坐標平面上，已知有兩個二元一次方程式 $L_1: 3x+y=6$ 與 $L_2: x-2y=9$，則："
+        },
+        {
+          "type": "text",
+          "text": "(1) 若 $L_1$ 與 $L_2$ 的圖形交於一點 $P$，則 $P$ 點的坐標為何？"
+        },
+        {
+          "type": "text",
+          "text": "(2) 若 $L_1$ 與 $L_2$ 的圖形分別與 $y$ 軸交於 $A$、$B$ 兩點，則 $\\triangle PAB$ 的面積為何？"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "3",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-7-2-6-2",
+      "unitIds": [
+        "nanyi-7-2-6-2"
+      ],
+      "unitAssignmentBasis": "中位數與平均數結合之分類討論問題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "有一組由小到大排列的資料共有 $6$ 個數，分別為：$3$、$4$、$12$、$15$、$19$、$28$。若加入一個正整數 $x$ 後，使得這 $7$ 個數的「平均數」與「中位數」相等，請找出所有可能的 $x$ 值。（請寫出完整的分類討論與計算過程，否則不予計分）"
+        }
+      ]
+    }
+  ]
+}

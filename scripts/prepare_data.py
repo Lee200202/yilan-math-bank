@@ -164,6 +164,7 @@ def main():
     # Whole-paper transcriptions for Yilan papers (same per-paper format as metro).
     # They supersede any earlier partial question crops of the same paper.
     for f in sorted((ROOT/'research/yilan/transcribed').glob('*.json')):
+        if not prepare_metro.approved(ROOT,f):continue
         t=json.loads(f.read_text(encoding='utf-8'));pid=t['paperId']
         if f.stem!=pid:raise ValueError(f'Transcription file name must equal paperId: {f.name}')
         p=all_ids.get(pid)

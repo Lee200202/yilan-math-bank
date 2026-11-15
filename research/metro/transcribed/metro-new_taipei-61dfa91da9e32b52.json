@@ -1,0 +1,725 @@
+{
+  "paperId": "metro-new_taipei-61dfa91da9e32b52",
+  "sourceSha256": "1a0c09a0ea63c2c67cbe9c52c898f9b596b236e753d150518ea891e2d03bb109",
+  "printedHeader": "新北市立新莊國民中學 115 學年度第 1 學期第 1 次段考八年級數學領域試題卷",
+  "printedSlot": {
+    "year": 115,
+    "semester": 1,
+    "grade": 8,
+    "exam": 1
+  },
+  "printedCounts": "選擇題17題、非選題2大題（共5小題），全卷共19題。",
+  "visualReviewComplete": true,
+  "reviewNote": "實看全部4頁原卷，全卷共19題（選擇17題、非選2大題）；忠實重繪全部幾何圖形、直角三角形拼圖、數線便條紙、直式除法、平方差長方形拼圖、中心對稱多項式圖形與水岸公園平面規劃圖等共7幅純向量SVG；核對無誤。 複核：逐題對照原卷4頁；重繪選擇4、17與非選1圖，修正選擇9數線點位、16圖、12表頭與表名、非選1「中心對稱」錯字。",
+  "expectedTypes": {
+    "choice": 17,
+    "fill": 0,
+    "written": 2
+  },
+  "questions": [
+    {
+      "type": "choice",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式的定義辨別與九宮格字母排列。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "由數與文字符號 $x$ 進行加法與乘法運算所構成的代數式稱為 $x$ 的多項式，請問九宮格內符合 $x$ 多項式的方格可以連成哪個英文字母？"
+        },
+        {
+          "type": "table",
+          "header": false,
+          "rows": [
+            [
+              "$|x^2|-1$",
+              "$\\dfrac{3}{4}x^3-\\sqrt{3}$",
+              "$x^3-x^2+\\dfrac{1}{x}$"
+            ],
+            [
+              "$\\dfrac{12}{x}$",
+              "$0$",
+              "$|2x+1|$"
+            ],
+            [
+              "$\\dfrac{15}{x-2}$",
+              "$\\dfrac{x}{12}-12$",
+              "$x^2+\\left|-\\dfrac{15}{2}\\right|$"
+            ]
+          ]
+        },
+        {
+          "type": "options",
+          "items": [
+            "I",
+            "T",
+            "L",
+            "X"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-3",
+      "unitIds": [
+        "nanyi-8-1-1-3"
+      ],
+      "unitAssignmentBasis": "單項式除多項式之整除性判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列多項式的除法運算中，哪個選項無法整除？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$21x^3 \\div 3x$",
+            "$(21x^2+12) \\div 3x$",
+            "$(21x^2+12x) \\div 3x$",
+            "$(21x^3+12x^2) \\div 3x$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "3",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-3",
+      "unitIds": [
+        "nanyi-8-1-1-3"
+      ],
+      "unitAssignmentBasis": "除法原理之被除式、商式與除式次數關係。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $A$ 為多項式，若 $2(x^3+8x+7) \\div 3A = -8x+7$，則 $A$ 為幾次多項式？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "一次",
+            "二次",
+            "三次",
+            "四次"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "4",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1",
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "直角三角形拼成正方形之面積與平方根大小估算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "將 $4$ 個相同的直角三角形 $A$ 與 $1$ 個小正方形 $B$ 不重疊的拼成四邊形，如圖甲，若每個小方格邊長皆為 $1$ 公分，且四邊形圖甲邊長為 $a$ 公分，則關於圖甲的敘述下列哪個選項正確？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 150,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 190 170\" stroke=\"#111\" fill=\"none\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"5\" x2=\"20\" y2=\"165\" stroke=\"#999\" stroke-width=\"0.7\"/><line x1=\"50\" y1=\"5\" x2=\"50\" y2=\"165\" stroke=\"#999\" stroke-width=\"0.7\"/><line x1=\"80\" y1=\"5\" x2=\"80\" y2=\"165\" stroke=\"#999\" stroke-width=\"0.7\"/><line x1=\"110\" y1=\"5\" x2=\"110\" y2=\"165\" stroke=\"#999\" stroke-width=\"0.7\"/><line x1=\"140\" y1=\"5\" x2=\"140\" y2=\"165\" stroke=\"#999\" stroke-width=\"0.7\"/><line x1=\"170\" y1=\"5\" x2=\"170\" y2=\"165\" stroke=\"#999\" stroke-width=\"0.7\"/><line x1=\"15\" y1=\"10\" x2=\"175\" y2=\"10\" stroke=\"#999\" stroke-width=\"0.7\"/><line x1=\"15\" y1=\"40\" x2=\"175\" y2=\"40\" stroke=\"#999\" stroke-width=\"0.7\"/><line x1=\"15\" y1=\"70\" x2=\"175\" y2=\"70\" stroke=\"#999\" stroke-width=\"0.7\"/><line x1=\"15\" y1=\"100\" x2=\"175\" y2=\"100\" stroke=\"#999\" stroke-width=\"0.7\"/><line x1=\"15\" y1=\"130\" x2=\"175\" y2=\"130\" stroke=\"#999\" stroke-width=\"0.7\"/><line x1=\"15\" y1=\"160\" x2=\"175\" y2=\"160\" stroke=\"#999\" stroke-width=\"0.7\"/><rect x=\"20\" y=\"10\" width=\"150\" height=\"30\" stroke-width=\"2\"/><line x1=\"80\" y1=\"10\" x2=\"80\" y2=\"40\" stroke-width=\"2\"/><line x1=\"140\" y1=\"10\" x2=\"140\" y2=\"40\" stroke-width=\"2\"/><line x1=\"20\" y1=\"10\" x2=\"80\" y2=\"40\" stroke-width=\"2\"/><line x1=\"80\" y1=\"10\" x2=\"140\" y2=\"40\" stroke-width=\"2\"/><polygon points=\"89,44 101,44 101,55 107,55 95,67 83,55 89,55\" fill=\"#fff\"/><polygon points=\"80,70 140,100 110,160 50,130\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"80\" y2=\"130\"/><line x1=\"80\" y1=\"100\" x2=\"140\" y2=\"100\"/><line x1=\"110\" y1=\"100\" x2=\"110\" y2=\"160\"/><line x1=\"50\" y1=\"130\" x2=\"110\" y2=\"130\"/><text x=\"32\" y=\"35\" font-size=\"12\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">A</text><text x=\"62\" y=\"24\" font-size=\"12\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">A</text><text x=\"92\" y=\"35\" font-size=\"12\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">A</text><text x=\"122\" y=\"24\" font-size=\"12\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">A</text><text x=\"151\" y=\"30\" font-size=\"12\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">B</text><text x=\"96\" y=\"91\" font-size=\"12\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">A</text><text x=\"116\" y=\"124\" font-size=\"12\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">A</text><text x=\"86\" y=\"146\" font-size=\"12\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">A</text><text x=\"64\" y=\"113\" font-size=\"12\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">A</text><text x=\"91\" y=\"120\" font-size=\"12\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">B</text><text x=\"150\" y=\"162\" font-size=\"12\" fill=\"#111\" stroke=\"none\">圖甲</text></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "圖甲四個內角不一定為 $90^\\circ$",
+            "圖甲面積等於 $6$ 平方公分",
+            "$a$ 值 $>2.5$ 公分",
+            "$\\sqrt{4} < a < \\sqrt{9}$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "5",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "根號定義與平方根基本性質判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列有關平方根的敘述，何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$\\sqrt{0.9} = 0.3$",
+            "$\\sqrt{50}$ 與 $\\sqrt{-50}$ 互為相反數",
+            "$\\sqrt{16}$ 的平方根為 $\\pm 2$",
+            "$\\sqrt{\\dfrac{40}{9}} > \\sqrt{\\dfrac{40}{7}}$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "6",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "差的平方公式代換展開計算近似整數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "利用差的平方公式可得 $(19.7)^2 = (20+a)^2 = 20^2 - 2 \\times 20 \\times b + c^2 = d$，則下列選項何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$a > 0$",
+            "$b > 0$",
+            "$c^2 = 0.9$",
+            "最接近 $(19.7)^2$ 的整數為 $398$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "7",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "負數與括號平方乘法公式展開辨析。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "根據乘法公式判斷下列哪個選項的等式成立？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$(-8+\\dfrac{3}{4})^2 = (-8)^2 + (\\dfrac{3}{4})^2$",
+            "$(-8+\\dfrac{3}{4})^2 = (-8^2) - 2 \\times 8 \\times \\dfrac{3}{4} + (\\dfrac{3}{4})^2$",
+            "$(-8-\\dfrac{3}{4})^2 = (-8^2) - (\\dfrac{3}{4})^2$",
+            "$(-8-\\dfrac{3}{4})^2 = (-8)^2 + 2 \\times 8 \\times \\dfrac{3}{4} + (\\dfrac{3}{4})^2$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "8",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-3",
+      "unitIds": [
+        "nanyi-8-1-1-3"
+      ],
+      "unitAssignmentBasis": "多項式展開比較係數求未知係數和。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $(x^2+b)(ax-4) = 3x^3 - 4x^2 - 21x + 28$，求 $a+b$ 的值為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$3$",
+            "$-4$",
+            "$-21$",
+            "$25$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "9",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "利用連續整數與小數平方值估算根號落點。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "大丙的數學作業中有一道題目如下表，用計算機算了一些數值寫在便條紙上，終於想到最佳位置，同學們也看出來了嗎？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 145\"><rect x=\"10\" y=\"10\" width=\"230\" height=\"70\" fill=\"none\" stroke=\"#888\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"15\" y=\"32\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"11\">數線上有 A、B、C、D 四點，請判斷哪個點</text><text x=\"15\" y=\"50\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"11\">所表示的數最接近 √1900 ？</text><line x1=\"80\" y1=\"70\" x2=\"215\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"215,67 221,70 215,73\" fill=\"#111\"/><line x1=\"90\" y1=\"66\" x2=\"90\" y2=\"74\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"110\" y1=\"66\" x2=\"110\" y2=\"74\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"130\" y1=\"66\" x2=\"130\" y2=\"74\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"150\" y1=\"66\" x2=\"150\" y2=\"74\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"170\" y1=\"66\" x2=\"170\" y2=\"74\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"190\" y1=\"66\" x2=\"190\" y2=\"74\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"86\" y=\"62\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">40</text><text x=\"106\" y=\"62\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">41</text><text x=\"126\" y=\"62\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">42</text><text x=\"146\" y=\"62\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">43</text><text x=\"166\" y=\"62\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">44</text><text x=\"186\" y=\"62\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">45</text><circle cx=\"120\" cy=\"70\" r=\"2.5\" fill=\"#d00\"/><circle cx=\"161\" cy=\"70\" r=\"2.5\" fill=\"#d00\"/><circle cx=\"176.6\" cy=\"70\" r=\"2.5\" fill=\"#d00\"/><circle cx=\"198\" cy=\"70\" r=\"2.5\" fill=\"#d00\"/><text x=\"117\" y=\"84\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"11\">A</text><text x=\"157\" y=\"84\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"11\">B</text><text x=\"173\" y=\"84\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"11\">C</text><text x=\"195\" y=\"84\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"11\">D</text><g transform=\"translate(255,10)\"><rect x=\"0\" y=\"0\" width=\"115\" height=\"130\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"0\" y1=\"16\" x2=\"115\" y2=\"16\" stroke=\"#888\" stroke-width=\"0.8\"/><line x1=\"0\" y1=\"32\" x2=\"115\" y2=\"32\" stroke=\"#888\" stroke-width=\"0.8\"/><line x1=\"0\" y1=\"48\" x2=\"115\" y2=\"48\" stroke=\"#888\" stroke-width=\"0.8\"/><line x1=\"0\" y1=\"64\" x2=\"115\" y2=\"64\" stroke=\"#888\" stroke-width=\"0.8\"/><line x1=\"0\" y1=\"80\" x2=\"115\" y2=\"80\" stroke=\"#888\" stroke-width=\"0.8\"/><line x1=\"0\" y1=\"96\" x2=\"115\" y2=\"96\" stroke=\"#888\" stroke-width=\"0.8\"/><line x1=\"0\" y1=\"112\" x2=\"115\" y2=\"112\" stroke=\"#888\" stroke-width=\"0.8\"/><text x=\"8\" y=\"13\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">41²=1681</text><text x=\"8\" y=\"29\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">41.5²=1722.25</text><text x=\"8\" y=\"45\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">42²=1764</text><text x=\"8\" y=\"61\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">43²=1849</text><text x=\"8\" y=\"77\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">43.5²=1892.25</text><text x=\"8\" y=\"93\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">44²=1936</text><text x=\"8\" y=\"109\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">44.5²=1980.25</text><text x=\"8\" y=\"125\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">45²=2025</text></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$A$ 點",
+            "$B$ 點",
+            "$C$ 點",
+            "$D$ 點"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "10",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1",
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "和平方、差平方與平方差展開同類項合併。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "計算 $(3x+5)^2+(3x-5)^2+(2x+1)(2x-1)$，得到二次項的係數為 $a$，一次項的係數為 $b$，則 $a+b$ 的值為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$5$",
+            "$12$",
+            "$15$",
+            "$22$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "11",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-3",
+      "unitIds": [
+        "nanyi-8-1-1-3"
+      ],
+      "unitAssignmentBasis": "多項式直式除法直式過程除錯。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "這學期學到多項式的直式除法運算，每個步驟都要仔細才能得到正確答案喔！右邊的除法運算中依序得到 $A$、$B$、$C$、$D$ 得到數值，如選項所示，請問哪個英文字母的數值開始出錯呢？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 145\"><line x1=\"85\" y1=\"35\" x2=\"185\" y2=\"35\" stroke=\"#d00\" stroke-width=\"1.3\"/><path d=\"M85,35 A12,12 0 0,0 72,55\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"85\" y1=\"75\" x2=\"185\" y2=\"75\" stroke=\"#d00\" stroke-width=\"1.3\"/><line x1=\"85\" y1=\"115\" x2=\"185\" y2=\"115\" stroke=\"#d00\" stroke-width=\"1.3\"/><text x=\"105\" y=\"28\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"14\">Ax + C</text><text x=\"10\" y=\"52\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"14\">5x − 10</text><text x=\"88\" y=\"52\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"14\">6x² + 3x + 5</text><text x=\"88\" y=\"70\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"14\">6x² − 12x</text><text x=\"135\" y=\"92\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"14\">Bx + 5</text><text x=\"120\" y=\"110\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"14\">− 9x + 18</text><text x=\"155\" y=\"132\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"14\">D</text></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$A = \\dfrac{6}{5}$",
+            "$B = -9$",
+            "$C = -\\dfrac{9}{5}$",
+            "$D = 23$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "12",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "身體質量指數 BMI 公式計算與對照表估算身高區間。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "新學期測量了身高、體重，學校護理師請同學計算自己的 BMI 值，剛滿 14 歲的男孩小丁體重 60 公斤，利用 BMI 公式計算後，參考表 1 發現自己的 BMI 值在正常範圍內。根據表 2 計算的結果，判斷小丁的身高不可能是哪個身高？"
+        },
+        {
+          "type": "text",
+          "text": "身體質量指數 $\\text{BMI} = \\dfrac{\\text{體重}(W)}{(\\text{身高}H)^2}$，$W$ 的單位為公斤，$H$ 的單位為公尺。"
+        },
+        {
+          "type": "text",
+          "text": "表 1　衛生福利部國民健康署　青少年身體質量指數（BMI）建議值"
+        },
+        {
+          "type": "table",
+          "header": true,
+          "rows": [
+            [
+              "年齡",
+              "男：正常範圍",
+              "男：過重 ≥",
+              "男：肥胖 ≥",
+              "女：正常範圍",
+              "女：過重 ≥",
+              "女：肥胖 ≥"
+            ],
+            [
+              "13",
+              "15.7~21.9",
+              "21.9",
+              "24.5",
+              "15.7~21.9",
+              "21.9",
+              "24.3"
+            ],
+            [
+              "14",
+              "16.3~22.5",
+              "22.5",
+              "25",
+              "16.3~22.5",
+              "22.5",
+              "24.9"
+            ],
+            [
+              "15",
+              "16.9~22.9",
+              "22.9",
+              "25.4",
+              "16.7~22.7",
+              "22.7",
+              "25.2"
+            ],
+            [
+              "16",
+              "17.4~23.3",
+              "23.3",
+              "25.6",
+              "17.1~22.7",
+              "22.7",
+              "25.3"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "表 2"
+        },
+        {
+          "type": "table",
+          "header": true,
+          "rows": [
+            [
+              "$H$",
+              "$H^2$",
+              "$\\dfrac{W}{H^2}$ 代入 $W=60$"
+            ],
+            [
+              "1.63",
+              "2.67",
+              "22.5"
+            ],
+            [
+              "1.70",
+              "2.88",
+              "20.8"
+            ],
+            [
+              "1.80",
+              "3.23",
+              "18.6"
+            ],
+            [
+              "1.92",
+              "3.68",
+              "16.3"
+            ]
+          ]
+        },
+        {
+          "type": "options",
+          "items": [
+            "161 公分",
+            "168 公分",
+            "184 公分",
+            "190 公分"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "13",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "平方差公式與完全平方公式數值比大小。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "設 $a = 36^2-76^2$、$b = 38^2-78^2$、$c = (42-82)^2$，試比較 $a$、$b$、$c$ 的大小關係為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$c > a = b$",
+            "$a = b > c$",
+            "$c > a > b$",
+            "$c > b > a$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "14",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "完全平方數與質數代數分析。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $a$、$b$ 均為質數，若 $b = a-6$，且 $ab+9 = P^2$，則 $P$ 的值不可能為下列何者？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$8$",
+            "$10$",
+            "$12$",
+            "$14$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "15",
+      "page": 3,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-1-1-3",
+      "unitIds": [
+        "nanyi-8-1-1-3"
+      ],
+      "unitAssignmentBasis": "多項式減法與除法之餘式次數原理分析。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "小丙、小丁設計了 A、B 兩個多項式的運算題，如下，並提出自己的想法。"
+        },
+        {
+          "type": "text",
+          "text": "A : $(ax^2+bx+c)-x^d$"
+        },
+        {
+          "type": "text",
+          "text": "B : $(ax^2+bx+c) \\div x^d$"
+        },
+        {
+          "type": "text",
+          "text": "其中 $a$、$b$、$c$、$d$ 均為正整數"
+        },
+        {
+          "type": "text",
+          "text": "小丙判斷：A 的答案不可能是常數多項式，B 不可能整除。"
+        },
+        {
+          "type": "text",
+          "text": "小丁判斷：若 A 是一次多項式，則 B 的餘式是一次式。"
+        },
+        {
+          "type": "text",
+          "text": "請問小丙、小丁判斷的結果是正確還是錯誤呢？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "兩人均正確。",
+            "兩人均錯誤。",
+            "小丙正確，小丁錯誤。",
+            "小丙錯誤，小丁正確。"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "16",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "平方差公式幾何圖形驗證與因數分解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若將邊長為 $a$ 單位的正方形海報紙，切下角落破損的一塊邊長為 $b$ 單位的小正方形後，剩下的海報紙可以切割成長方形甲和乙，併成邊長為 $(a+b)$、$(a-b)$ 的大長方形，如圖所示，試著利用此發現找出下列哪個選項中的數值均為 $222^2-9^2$ 的因數？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 120,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 120\"><polygon points=\"25,25 70,25 70,52 52,52 52,70 25,70\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"70,52 70,70 52,70\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><text x=\"44\" y=\"18\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-style=\"italic\" font-size=\"12\">a</text><text x=\"14\" y=\"52\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-style=\"italic\" font-size=\"12\">a</text><text x=\"58\" y=\"78\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-style=\"italic\" font-size=\"12\">b</text><text x=\"73\" y=\"62\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-style=\"italic\" font-size=\"12\">b</text><rect x=\"120\" y=\"20\" width=\"40\" height=\"35\" fill=\"#f8f8f8\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"120\" y=\"55\" width=\"25\" height=\"15\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"160\" y=\"20\" width=\"15\" height=\"35\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><line x1=\"167\" y1=\"75\" x2=\"167\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"167,60 164,65 170,65\" fill=\"#111\"/><text x=\"136\" y=\"14\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-style=\"italic\" font-size=\"12\">a</text><text x=\"108\" y=\"45\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-style=\"italic\" font-size=\"12\">a</text><text x=\"135\" y=\"38\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"12\">甲</text><text x=\"128\" y=\"67\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"12\">乙</text><text x=\"110\" y=\"67\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-style=\"italic\" font-size=\"12\">b</text><text x=\"164\" y=\"45\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-style=\"italic\" font-size=\"12\">b</text><text x=\"150\" y=\"90\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"11\">移至上方</text><text x=\"200\" y=\"52\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"16\">⇒</text><text x=\"220\" y=\"52\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"12\">a−b</text><rect x=\"250\" y=\"26\" width=\"40\" height=\"38\" fill=\"#f8f8f8\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"290\" y=\"26\" width=\"18\" height=\"38\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"265\" y=\"48\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"12\">甲</text><text x=\"294\" y=\"48\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"12\">乙</text><text x=\"270\" y=\"18\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"12\">a+b</text></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "21、71",
+            "17、231",
+            "13、213",
+            "37、111"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "17",
+      "page": 3,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-1-1-3",
+      "unitIds": [
+        "nanyi-8-1-1-3"
+      ],
+      "unitAssignmentBasis": "同高三角形面積比與多項式除法求高。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，已知 $\\triangle BCD$ 面積為 $6x^2-5x-6$，且 $\\triangle ACD$、$\\triangle BCD$ 的面積比為 $2 : 1$，若 $\\overline{AD} = 3x+2$，求 $\\overline{AB}$ 所對應的高為何？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 130,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 145\" stroke=\"#111\" fill=\"none\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"85,15 85,120 140,120\"/><line x1=\"85\" y1=\"120\" x2=\"128.16\" y2=\"97.39\"/><polyline points=\"125.38,92.07 120.06,94.86 122.84,100.17\" stroke-width=\"1\"/><text x=\"76\" y=\"14\" font-size=\"14\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">A</text><text x=\"72\" y=\"128\" font-size=\"14\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">C</text><text x=\"144\" y=\"125\" font-size=\"14\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">B</text><text x=\"133\" y=\"96\" font-size=\"14\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">D</text></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$4x+6$",
+            "$4x-6$",
+            "$8x+12$",
+            "$8x-12$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "1",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "中心對稱多項式邊長求周長與面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在數學中「旋轉對稱」是幾何圖形的一種性質。把一個圖形圍繞某一個點旋轉一定的度數，旋轉後的圖形與旋轉前重合，該圖形就具備旋轉對稱性。如果旋轉 $180^\\circ$ 後重合，則特別稱為中心對稱。下圖是以 $O$ 點為旋轉中心的中心對稱圖，且圖形中的轉角均為直角。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 155\" stroke=\"#111\" fill=\"none\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"20,30 76,30 76,86 220,86 220,142 20,142\"/><polygon points=\"220,30 420,30 420,142 366,142 366,86 220,86\"/><circle cx=\"220\" cy=\"86\" r=\"3\" fill=\"#111\" stroke=\"none\"/><line x1=\"214\" y1=\"36\" x2=\"226\" y2=\"24\" stroke-width=\"1\"/><line x1=\"414\" y1=\"24\" x2=\"426\" y2=\"36\" stroke-width=\"1\"/><line x1=\"414\" y1=\"148\" x2=\"426\" y2=\"136\" stroke-width=\"1\"/><line x1=\"70\" y1=\"92\" x2=\"82\" y2=\"80\" stroke-width=\"1\"/><line x1=\"214\" y1=\"80\" x2=\"226\" y2=\"92\" stroke-width=\"1\"/><line x1=\"360\" y1=\"92\" x2=\"372\" y2=\"80\" stroke-width=\"1\"/><line x1=\"360\" y1=\"136\" x2=\"372\" y2=\"148\" stroke-width=\"1\"/><text x=\"320\" y=\"20\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\" stroke=\"none\">3x+5</text><text x=\"428\" y=\"92\" font-size=\"15\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">3x−2</text><text x=\"148\" y=\"76\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\" stroke=\"none\">2x−1</text><text x=\"358\" y=\"122\" font-size=\"15\" font-style=\"italic\" text-anchor=\"end\" fill=\"#111\" stroke=\"none\">−x+1</text><text x=\"226\" y=\"106\" font-size=\"15\" font-style=\"italic\" fill=\"#111\" stroke=\"none\">O</text></svg>"
+        },
+        {
+          "type": "text",
+          "text": "(1) 以 $x$ 的多項式計算此圖形的周長。（3.5 分）"
+        },
+        {
+          "type": "text",
+          "text": "(2) 以 $x$ 的多項式計算此圖形的面積。（3.5 分）"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "2",
+      "page": 4,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "大型園區攤位租金與走道面積平方差實際應用計算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "今年元宵節 S 市政府安排在大都會水岸公園舉辦為期十天的賞燈活動，現場除了布置賞燈步道，還規劃了舞台區、美食區、座椅區，如圖示，A、B、C、D 四區均為邊長為 $96$ 公尺的正方形。其中，A 區為舞台區，此區為讓表演者能在演出時充分發揮，會在周圍設置安全隔柵，B 區和 C 區則規劃美食攤位出租，供市民盡興地吃喝賞玩。"
+        },
+        {
+          "type": "text",
+          "text": "攤位出租說明如下："
+        },
+        {
+          "type": "text",
+          "text": "• 每個出租攤位均為邊長 $2.4$ 公尺的正方形區域。"
+        },
+        {
+          "type": "text",
+          "text": "• B 區規劃為長、寬各 $20$ 個攤位，C 區規劃為長、寬各 $15$ 個攤位，如圖示，剩下長度則均分為道路的寬度。"
+        },
+        {
+          "type": "text",
+          "text": "• 出攤販賣時間為 17:30~21:30，不含整理時間。"
+        },
+        {
+          "type": "text",
+          "text": "• 一個 B 區攤位每晚 50000 元，一個 C 區攤位每晚 100000 元，承租以天計算，不能臨時退租。"
+        },
+        {
+          "type": "text",
+          "text": "大丙、小丁決定出攤賣新莊老街潤餅捲，一份潤餅捲可獲利 30 元，兩人為了到底要租 B 區還是 C 區的攤位正在傷腦筋。"
+        },
+        {
+          "type": "text",
+          "text": "大丙說：「以我的經驗人流就是錢流，每小時每平方公尺至少會有 1 組客人買一份潤餅捲，C 區走道空間較大，人流多賺的也多。」"
+        },
+        {
+          "type": "text",
+          "text": "小丁說：「丙哥，依照你的經驗計算，在 C 區的利潤也不可能賺超過 B、C 兩區的租金差值喔！」"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 145,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 170\"><rect x=\"30\" y=\"20\" width=\"130\" height=\"130\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"95\" y1=\"20\" x2=\"95\" y2=\"150\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"85\" x2=\"160\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"55\" y=\"16\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"11\">96</text><text x=\"120\" y=\"16\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"11\">96</text><text x=\"168\" y=\"55\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"11\">96</text><text x=\"168\" y=\"120\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"11\">96</text><circle cx=\"58.6\" cy=\"48.6\" r=\"28.6\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"50\" y=\"45\" width=\"26\" height=\"16\" fill=\"#f0f0f0\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"52\" y=\"57\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"9\">主舞台</text><text x=\"82\" y=\"80\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">A區</text><text x=\"145\" y=\"80\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">B區</text><text x=\"82\" y=\"145\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">C區</text><text x=\"145\" y=\"145\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">D區</text><g transform=\"translate(100,25)\"><rect x=\"0\" y=\"0\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"9\" y=\"0\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"18\" y=\"0\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"0\" y=\"9\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"9\" y=\"9\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"18\" y=\"9\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><text x=\"28\" y=\"8\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">......</text></g><g transform=\"translate(35,90)\"><rect x=\"0\" y=\"0\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"9\" y=\"0\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"18\" y=\"0\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"0\" y=\"9\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"9\" y=\"9\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"18\" y=\"9\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><text x=\"28\" y=\"8\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"10\">......</text></g><rect x=\"115\" y=\"110\" width=\"24\" height=\"16\" fill=\"#f0f0f0\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"117\" y=\"122\" font-family=\"DFKai-SB, BiauKai, sans-serif\" font-size=\"9\">座椅區</text></svg>"
+        },
+        {
+          "type": "text",
+          "text": "(1) 請問 B 區的走道空間有多少平方公尺？（3 分）"
+        },
+        {
+          "type": "text",
+          "text": "(2) 請問 C 區的走道空間有多少平方公尺？（3 分）"
+        },
+        {
+          "type": "text",
+          "text": "(3) 試說明大丙、小丁哪個個人的說法正確？（2 分）"
+        }
+      ]
+    }
+  ]
+}

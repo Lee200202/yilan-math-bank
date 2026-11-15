@@ -1,0 +1,1224 @@
+[
+  {
+    "paperId": "metro-kaohsiung-4b70fe3ce1dec252",
+    "school": "高雄市立大灣國中",
+    "slot": "113-2-G8-E3",
+    "verdict": "fixed",
+    "originalPagesViewed": 4,
+    "questionsChecked": 25,
+    "findings": [
+      {
+        "question": "choice-14",
+        "category": "text",
+        "severity": "major",
+        "original": "▱ABCD（平行四邊形符號）",
+        "transcribed": "$\\square ABCD$（讀作一般四邊形，失去平行四邊形條件）",
+        "action": "改為「平行四邊形 $ABCD$」"
+      },
+      {
+        "question": "choice-19",
+        "category": "text",
+        "severity": "major",
+        "original": "▱ABCD 面積為24",
+        "transcribed": "$\\square ABCD$",
+        "action": "改為「平行四邊形 $ABCD$」（求 △CDO 需平行四邊形條件）"
+      },
+      {
+        "question": "choice-21",
+        "category": "text",
+        "severity": "major",
+        "original": "▱ABCD 中…▱ABCD 之周長",
+        "transcribed": "$\\square ABCD$（兩處）",
+        "action": "兩處改為「平行四邊形 $ABCD$」"
+      },
+      {
+        "question": "choice-1",
+        "category": "text",
+        "severity": "minor",
+        "original": "線段記號 AB＝AD，BC＝CD（上有橫線）",
+        "transcribed": "$AB=AD$，$BC=CD$ 無線段記號",
+        "action": "補 \\overline"
+      },
+      {
+        "question": "choice-14",
+        "category": "figure",
+        "severity": "minor",
+        "original": "110° 與 8公分 標示不壓線",
+        "transcribed": "110°、8公分 文字壓在 AB 與 AD 上，排版圖中 AE 段與 AB 段被文字遮斷；角弧起點不在 AB 上",
+        "action": "移開標籤、角弧改由 AB 方向畫到 AD，viewBox 左移"
+      },
+      {
+        "question": "choice-20",
+        "category": "figure",
+        "severity": "minor",
+        "original": "10、12 標在邊旁",
+        "transcribed": "10、12 文字壓到 AB、CD 邊（排版圖邊被遮斷）",
+        "action": "移開標籤"
+      },
+      {
+        "question": "choice-21",
+        "category": "figure",
+        "severity": "minor",
+        "original": "O 標在交點旁",
+        "transcribed": "O 壓在對角線上",
+        "action": "移到兩對角線上方空隙"
+      },
+      {
+        "question": "choice-22",
+        "category": "figure",
+        "severity": "minor",
+        "original": "B、C 標在頂點外側",
+        "transcribed": "B 壓在 FA 線、C 壓在 C 頂點上",
+        "action": "移開標籤"
+      },
+      {
+        "question": "choice-12",
+        "category": "figure",
+        "severity": "minor",
+        "original": "第一圖 E、F 只是邊上的點記號，沒有 EF 線段",
+        "transcribed": "第一圖畫了整條 EF 線",
+        "action": "改為 E、F 處的小刻記"
+      },
+      {
+        "question": "choice-1/21/24",
+        "category": "unit",
+        "severity": "minor",
+        "original": "需用畢氏定理",
+        "transcribed": "只標 nanyi-8-2-4-3",
+        "action": "unitIds 加 nanyi-8-1-2-3"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-7cd592b6bb5523d9",
+    "school": "新北市立三和國中",
+    "slot": "114-1-G9-E3",
+    "verdict": "fixed",
+    "originalPagesViewed": 4,
+    "questionsChecked": 25,
+    "findings": [
+      {
+        "question": "choice-14",
+        "category": "figure",
+        "severity": "major",
+        "original": "Y 為 AE 與 BN 交點、Z 為 BN 與 CM 交點、X 為 AE 與 CM 交點",
+        "transcribed": "Y 只在 AE 上、Z 只在 CM 上，兩點都不在 BN 上（偏離約 20 單位），學生無法判讀哪一點是哪兩線的交點",
+        "action": "以解析幾何重算三交點並移動 X、Y、Z 點與標籤"
+      },
+      {
+        "question": "choice-24",
+        "category": "figure",
+        "severity": "major",
+        "original": "圖中只有切線段 AE、AF 與圓 G，∠B=40°、∠C=45°（角度只標在圖上）",
+        "transcribed": "多畫了一條不存在的中線 AD 穿過 G；三角形畫成等腰，∠1、∠2 標籤擠在線上",
+        "action": "依 ∠B=40°、∠C=45° 重畫：G 為重心、半徑 GD、真正切點 E、F，加上 ∠1、∠2 角弧（量得 14.5°+20.5°=35°，與題意一致）"
+      },
+      {
+        "question": "choice-23",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖中畫有線段 AQ、AP",
+        "transcribed": "只有 P、Q 兩點，沒有 AQ、AP；Q 標籤壓在點上",
+        "action": "補畫 AQ、AP，移開 Q 標籤"
+      },
+      {
+        "question": "choice-10",
+        "category": "figure",
+        "severity": "minor",
+        "original": "CE ⊥ BD，E 為垂足",
+        "transcribed": "E 不是垂足（CE 與 BD 夾角約 80°），直角記號位置錯",
+        "action": "改用真正垂足並重畫直角記號"
+      },
+      {
+        "question": "choice-5",
+        "category": "figure",
+        "severity": "minor",
+        "original": "24公分 標在中線旁，圖二 手指在下",
+        "transcribed": "24公分 壓在中線上，「圖二」壓在手指上",
+        "action": "移開標籤"
+      },
+      {
+        "question": "choice-15",
+        "category": "figure",
+        "severity": "minor",
+        "original": "A、B、C 標在交點旁",
+        "transcribed": "A、B、C 文字壓在 L₃、L₁ 線上",
+        "action": "移開標籤"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-48000408be9d1cbf-e11d08e9",
+    "school": "新北市立五峰國民中學",
+    "slot": "115-1-G7-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 2,
+    "questionsChecked": 23,
+    "findings": [
+      {
+        "question": "choice-9",
+        "category": "figure",
+        "severity": "major",
+        "original": "俯視圖中圓面積 丙 > 丁 > 乙 > 甲（丁區介於乙、丙之間，答案 1.7×10⁷）",
+        "transcribed": "乙 r=14 大於 丁 r=12，圖會導出 丁 介於甲、乙之間（答案變成 1.7×10⁶）；乙 標籤擠在小圓內",
+        "action": "依原卷比例改半徑 丙21、丁12、乙8、甲2.5，標籤移到各圓上方"
+      },
+      {
+        "question": "written-1",
+        "category": "text",
+        "severity": "minor",
+        "original": "配分（8 分）",
+        "transcribed": "題幹保留「（$8$ 分）」",
+        "action": "刪除配分註記"
+      },
+      {
+        "question": "written-2",
+        "category": "text",
+        "severity": "minor",
+        "original": "配分（4 分）、（各 2 分）",
+        "transcribed": "小題保留配分註記",
+        "action": "刪除配分註記（保留「請列出完整算式」等作答要求）"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-kaohsiung-8e2d0ff29aa419d6",
+    "school": "高雄市立大灣國中",
+    "slot": "114-1-G9-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 2,
+    "questionsChecked": 25,
+    "findings": [
+      {
+        "question": "choice-8",
+        "category": "text",
+        "severity": "major",
+        "original": "承上題（依第7題圖一與條件）求平行四邊形BCDE面積",
+        "transcribed": "只有「承上題，BCDE 平行四邊形面積為何？」，無條件、無圖，單獨出題時無法作答",
+        "action": "重複第7題題幹條件與圖一，改為獨立題"
+      },
+      {
+        "question": "choice-21",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖十：E 在 CD 延長線上",
+        "transcribed": "SVG 中 E(250,10) 不在 CD 延長線上",
+        "action": "E 移到 CD 延長線 (224,10)，BE 與 F、G、E 標籤隨之調整"
+      },
+      {
+        "question": "choice-23",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖十三：DGHI 為長方形，H 在 EF 延長線上",
+        "transcribed": "DGHI 四角不為直角（H(180,140)、I(210,70)）",
+        "action": "改 H(163,140)、I(193,70) 使 DG⊥GH，陰影三角形同步"
+      },
+      {
+        "question": "choice-11",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖四：A、B、C 標在 L1 左側",
+        "transcribed": "A、B、C 標在 L1 右側，貼近交點",
+        "action": "標籤移到 L1 左側"
+      },
+      {
+        "question": "choice-12",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖五：B、E 在梯形兩腰上",
+        "transcribed": "BE 線段兩端略超出兩腰",
+        "action": "端點改到兩腰上 (75,90)-(202,90)"
+      },
+      {
+        "question": "choice-17",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖八：A 標在交點上方",
+        "transcribed": "A 標籤壓在 BF 線上",
+        "action": "A 標籤移到交點正上方"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-bd58e37631b2b9dd",
+    "school": "新北市立三和國中",
+    "slot": "114-1-G9-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 4,
+    "questionsChecked": 25,
+    "findings": [
+      {
+        "question": "choice-1, fill-3, fill-8, fill-10",
+        "category": "layout",
+        "severity": "major",
+        "original": "弧 DE、弧 AB、弧 CD、弧 BC、弧 AC 記號",
+        "transcribed": "\\wideparen{..}，網站 MathJax 不支援，排版頁顯示紅字 \\wideparen",
+        "action": "全部改為 \\overset{\\frown}{..}"
+      },
+      {
+        "question": "fill-3",
+        "category": "text",
+        "severity": "major",
+        "original": "AB、CD 是圓 O 的兩弦",
+        "transcribed": "$\\overline{AB}$、$C$、$D$ 為圓 $O$ 的兩弦",
+        "action": "改為 $\\overline{AB}$、$\\overline{CD}$ 是圓 $O$ 的兩弦"
+      },
+      {
+        "question": "fill-10",
+        "category": "text",
+        "severity": "minor",
+        "original": "弧AB 是半圓",
+        "transcribed": "$\\overline{AB}$ 是半圓",
+        "action": "改為弧記號"
+      },
+      {
+        "question": "choice-1",
+        "category": "figure",
+        "severity": "major",
+        "original": "圓內弦 AB、BC、CE、AD（AD 與 CE 相交）",
+        "transcribed": "畫成五邊形 ABCDE",
+        "action": "依原圖重繪四條弦"
+      },
+      {
+        "question": "choice-7",
+        "category": "figure",
+        "severity": "major",
+        "original": "AD、AE、BC 皆與圓 O 相切（切點 D、E、F）",
+        "transcribed": "三條線都沒有與圓相切，圓懸空",
+        "action": "以真實切線幾何重繪"
+      },
+      {
+        "question": "fill-2",
+        "category": "figure",
+        "severity": "major",
+        "original": "三正方形；兩條線（第一格對角線、整個長方形對角線）；三扇形：左下角 45°、左下角 atan(1/3)、右上角 90°-atan(1/3)",
+        "transcribed": "多一條線且三個扇形位置與圓心皆錯",
+        "action": "依原圖重繪"
+      },
+      {
+        "question": "fill-5",
+        "category": "figure",
+        "severity": "major",
+        "original": "DE∥AC、EF∥AB、FG∥BC，灰色四邊形 DEFG",
+        "transcribed": "F 在三角形外、平行關係錯誤",
+        "action": "按 BE:EC=2:3 計算各點重繪"
+      },
+      {
+        "question": "fill-6",
+        "category": "figure",
+        "severity": "minor",
+        "original": "弦 AB 斜放，OM⊥AB，CD 較短較遠",
+        "transcribed": "B 點不在圓上，比例不符",
+        "action": "依 r=13、OM=5、弦心距 9 的比例重繪"
+      },
+      {
+        "question": "fill-8",
+        "category": "figure",
+        "severity": "major",
+        "original": "線段 BA、AC、BD、BC、CD（無 AD），部分著色",
+        "transcribed": "正方形加兩對角線（多了 AD），角度關係不符",
+        "action": "依弧度 92/92/84/92 重繪並按原圖著色"
+      },
+      {
+        "question": "fill-9",
+        "category": "figure",
+        "severity": "minor",
+        "original": "AB 約為 BC 兩倍",
+        "transcribed": "比例偏差（AB:BC=105:80）",
+        "action": "依 BC:AB:DC=8:15:6 重繪"
+      },
+      {
+        "question": "fill-10",
+        "category": "figure",
+        "severity": "major",
+        "original": "C 在半圓弧上，線段 AC、CB、OD 且 AC∥OD",
+        "transcribed": "C 不在弧上、缺 CB、AC 不平行 OD",
+        "action": "依弧 AC=54° 重繪"
+      },
+      {
+        "question": "fill-11",
+        "category": "figure",
+        "severity": "major",
+        "original": "弦 AB，線段 AD、BC、OC、OD（星形）",
+        "transcribed": "圖形錯亂（多餘弦、點位錯誤）",
+        "action": "依 AD⊥OC、∠ABC=25° 重繪"
+      },
+      {
+        "question": "fill-12",
+        "category": "figure",
+        "severity": "major",
+        "original": "半圓直徑在 BC 上、一端為 B，與 AC 相切；灰色＝三角形扣半圓",
+        "transcribed": "比例錯誤、灰色區域只畫一小塊",
+        "action": "依 AB=6、BC=8、半徑 3 重繪"
+      },
+      {
+        "question": "fill-13",
+        "category": "figure",
+        "severity": "major",
+        "original": "割線 E-C-A 水平、OE⊥割線、AB 切圓於 B、連 OA",
+        "transcribed": "B 位置與切線錯誤，圖形無法對應題意",
+        "action": "依 OA=6、AB=4、OE=2 重繪"
+      },
+      {
+        "question": "fill-4",
+        "category": "figure",
+        "severity": "minor",
+        "original": "繩子通過 C、E、A",
+        "transcribed": "繩子沒有通過 C、E",
+        "action": "繩子改由 C 經 E 到 A"
+      },
+      {
+        "question": "choice-5",
+        "category": "figure",
+        "severity": "minor",
+        "original": "F 為 AB 中點，AD 很短",
+        "transcribed": "D、F 三等分 AB",
+        "action": "D 在 1/6、F 在 1/2 處重繪"
+      },
+      {
+        "question": "written-1",
+        "category": "figure",
+        "severity": "major",
+        "original": "以 BC 為直徑的圓在正方形內與 AE 相切於 F",
+        "transcribed": "半圓畫在正方形外下方，與 AE 不相切",
+        "action": "依原圖畫整圓（上半在正方形內），F、E 依切線計算"
+      },
+      {
+        "question": "fill-7",
+        "category": "figure",
+        "severity": "minor",
+        "original": "10m 標在竿左",
+        "transcribed": "10m 壓在竿上",
+        "action": "標籤左移"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-f75aec47e95dd944-87a42e19",
+    "school": "新北市立五峰國中",
+    "slot": "114-1-G8-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 2,
+    "questionsChecked": 24,
+    "findings": [
+      {
+        "question": "choice-9",
+        "category": "text",
+        "severity": "minor",
+        "original": "則 a+m=？",
+        "transcribed": "則 $a + m =$ ＿＿＿＿？（選擇題多了填答線）",
+        "action": "移除填答線"
+      },
+      {
+        "question": "choice-4",
+        "category": "figure",
+        "severity": "minor",
+        "original": "三個半圓塗灰，圖緊貼三角形",
+        "transcribed": "viewBox 200x200 上方大片空白，未塗灰",
+        "action": "收緊 viewBox、依原圖塗灰"
+      },
+      {
+        "question": "fill-12",
+        "category": "figure",
+        "severity": "minor",
+        "original": "長方形 AB:AD=12:5，四角與 E 皆有直角記號",
+        "transcribed": "長寬比 2:1，只有 D、E 有直角記號",
+        "action": "依 12:5 重繪並補齊直角記號"
+      },
+      {
+        "question": "written-1",
+        "category": "figure",
+        "severity": "minor",
+        "original": "竹竿長 2.5、頂端 1.5 公尺→0.7 公尺",
+        "transcribed": "竿頂高度、下移後位置比例略偏",
+        "action": "以 50px/公尺 按比例修正"
+      },
+      {
+        "question": "fill-12",
+        "category": "difficulty",
+        "severity": "minor",
+        "original": "畢氏定理求 AB 後以面積求高（2 步）",
+        "transcribed": "hard",
+        "action": "改 medium"
+      },
+      {
+        "question": "written-1",
+        "category": "difficulty",
+        "severity": "minor",
+        "original": "兩次畢氏定理相減",
+        "transcribed": "hard",
+        "action": "改 medium"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-5cab22c1a02f7f12-79bd26ce",
+    "school": "新北市立福和國中",
+    "slot": "115-1-G7-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 3,
+    "questionsChecked": 34,
+    "findings": [
+      {
+        "question": "choice-1",
+        "category": "figure",
+        "severity": "major",
+        "original": "數線上三支箭頭 0→3、3→−1、−1→−3",
+        "transcribed": "箭頭用 SVG marker 畫，PDF 排版不顯示，只剩三條線段，無法判斷方向（排版頁已證實）",
+        "action": "改以實心三角形畫箭頭重繪"
+      },
+      {
+        "question": "choice-15",
+        "category": "figure",
+        "severity": "minor",
+        "original": "數線右端有箭頭；B、O、Q 只標字無圓點",
+        "transcribed": "箭頭為 marker（PDF 不顯示），多加圓點",
+        "action": "以多邊形箭頭重繪、去掉圓點"
+      },
+      {
+        "question": "choice-12",
+        "category": "figure",
+        "severity": "minor",
+        "original": "甲極小、乙小、丁中、丙大的圓形區域",
+        "transcribed": "甲半徑過大（與乙比例不符）",
+        "action": "依原圖比例重繪各圓與培養皿"
+      },
+      {
+        "question": "choice-19, choice-20, choice-21, choice-22",
+        "category": "text",
+        "severity": "minor",
+        "original": "題組小題題號屬於版面",
+        "transcribed": "題幹開頭多了「19. 」「20. 」「21. 」「22. 」",
+        "action": "移除題號"
+      },
+      {
+        "question": "fill-12",
+        "category": "difficulty",
+        "severity": "minor",
+        "original": "成本、收入、損益多步計算",
+        "transcribed": "easy",
+        "action": "改 medium"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-kaohsiung-921d04ed484090b6",
+    "school": "大灣國中",
+    "slot": "114-1-G9-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 4,
+    "questionsChecked": 25,
+    "findings": [
+      {
+        "question": "choice-1",
+        "category": "text",
+        "severity": "major",
+        "original": "直角△ABC(∠C=90°)對邊/鄰邊辨認，附圖",
+        "transcribed": "相似測影長題（原卷無此題）",
+        "action": "依原卷重打題幹、選項並繪圖"
+      },
+      {
+        "question": "choice-2",
+        "category": "text",
+        "severity": "major",
+        "original": "30°-60°-90°三角形與哪組邊長相似",
+        "transcribed": "弦心距求弦長題（原卷無此題）",
+        "action": "依原卷重打"
+      },
+      {
+        "question": "choice-3",
+        "category": "text",
+        "severity": "major",
+        "original": "(1+sin45°)(1−cos45°)=？",
+        "transcribed": "sin A 定義題（原卷無此題）",
+        "action": "依原卷重打"
+      },
+      {
+        "question": "choice-4",
+        "category": "text",
+        "severity": "major",
+        "original": "等腰直角滑梯腰長86求斜邊，附圖",
+        "transcribed": "點與圓位置題（原卷無此題）",
+        "action": "依原卷重打並繪圖"
+      },
+      {
+        "question": "choice-5",
+        "category": "text",
+        "severity": "major",
+        "original": "如圖120°外角求tanC",
+        "transcribed": "直徑所對圓周角題（原卷無此題）",
+        "action": "依原卷重打並繪圖"
+      },
+      {
+        "question": "choice-6",
+        "category": "text",
+        "severity": "major",
+        "original": "扇形AOB，OA=24，弧AB長4π求∠AOB，選項10°15°20°30°",
+        "transcribed": "圓內角題（原卷無此題）",
+        "action": "依原卷重打並繪圖"
+      },
+      {
+        "question": "choice-8",
+        "category": "figure",
+        "severity": "major",
+        "original": "乙：不過圓心之弦與直徑所圍區域；丙：弦從B出發與直徑所圍區域",
+        "transcribed": "乙畫成過頂點扇形、丙畫成內接三角形",
+        "action": "重繪三圖"
+      },
+      {
+        "question": "choice-9",
+        "category": "figure",
+        "severity": "minor",
+        "original": "環形扇形，內半徑30、外半徑90，OC、OD 連到 O",
+        "transcribed": "內外半徑比與 O 位置不一致",
+        "action": "依比例重繪"
+      },
+      {
+        "question": "choice-10",
+        "category": "figure",
+        "severity": "minor",
+        "original": "A為圓心，AB=AC，弧BC上D",
+        "transcribed": "AB≠AC，弧圓心不在A；\\wideparen 在網站無法排版（紅字）",
+        "action": "重繪；弧記號改 \\overset{\\frown}{BC}"
+      },
+      {
+        "question": "choice-12",
+        "category": "figure",
+        "severity": "major",
+        "original": "對角線AC與BE交於F，斜線區EDCF",
+        "transcribed": "畫成BD與EC，F位置錯",
+        "action": "重繪"
+      },
+      {
+        "question": "choice-16",
+        "category": "option",
+        "severity": "major",
+        "original": "(A)5/13 (B)12/13 (C)13/12 (D)12/5",
+        "transcribed": "13/5、13/12、12/13、5/12",
+        "action": "依原卷順序更正"
+      },
+      {
+        "question": "choice-17",
+        "category": "figure",
+        "severity": "minor",
+        "original": "A在切線上，Q為OA與圓交點，只連OA",
+        "transcribed": "多畫OP與直角記號，Q不在圓上",
+        "action": "重繪"
+      },
+      {
+        "question": "choice-18",
+        "category": "figure",
+        "severity": "major",
+        "original": "圓心O在河面CD上方（距離4），拱為優弧",
+        "transcribed": "O畫在CD上（半圓），與題意矛盾",
+        "action": "重繪"
+      },
+      {
+        "question": "choice-19",
+        "category": "figure",
+        "severity": "minor",
+        "original": "距離2、3與高1.6、2成比例",
+        "transcribed": "電線桿位置與高度不成比例",
+        "action": "依比例重繪"
+      },
+      {
+        "question": "choice-20",
+        "category": "figure",
+        "severity": "major",
+        "original": "四邊形A-D-C-B，DE、EC 連線",
+        "transcribed": "多一個未標示頂點的大三角形",
+        "action": "重繪"
+      },
+      {
+        "question": "choice-21",
+        "category": "figure",
+        "severity": "minor",
+        "original": "梯形四邊皆與圓相切",
+        "transcribed": "兩腰未與圓相切",
+        "action": "重繪"
+      },
+      {
+        "question": "choice-22",
+        "category": "figure",
+        "severity": "minor",
+        "original": "PB 水平切於B，A在PO上",
+        "transcribed": "PB非切線方向",
+        "action": "重繪"
+      },
+      {
+        "question": "written-1",
+        "category": "figure",
+        "severity": "minor",
+        "original": "只畫OP、B點",
+        "transcribed": "多畫OB與直角記號",
+        "action": "移除"
+      },
+      {
+        "question": "written-2",
+        "category": "figure",
+        "severity": "minor",
+        "original": "邊長標示6√3",
+        "transcribed": "SVG文字內寫 $6\\sqrt{3}$（LaTeX不會轉換）",
+        "action": "改為 6√3；難度改 medium"
+      },
+      {
+        "question": "choice-8/9",
+        "category": "unit",
+        "severity": "minor",
+        "original": "扇形定義/面積",
+        "transcribed": "nanyi-9-1-2-2",
+        "action": "改 nanyi-9-1-2-1"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-c2b108cc42ec8d83",
+    "school": "三和國中",
+    "slot": "114-1-G8-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 3,
+    "questionsChecked": 23,
+    "findings": [
+      {
+        "question": "choice-1",
+        "category": "option",
+        "severity": "minor",
+        "original": "(D) 7　個（「個」為選項列尾的單位）",
+        "transcribed": "選項 D 為「$7$ 個」，與其他選項不一致",
+        "action": "改為 $7$"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-61dfa91da9e32b52",
+    "school": "新莊國中",
+    "slot": "115-1-G8-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 4,
+    "questionsChecked": 19,
+    "findings": [
+      {
+        "question": "choice-4",
+        "category": "figure",
+        "severity": "major",
+        "original": "1×5 長條（兩個 2×1 長方形各沿對角線分成兩個 A，加 B）→ 方格上斜放邊長 √5 的正方形（四個 A 圍 B）",
+        "transcribed": "長條與斜正方形畫亂，三角形不成形",
+        "action": "依方格座標重繪"
+      },
+      {
+        "question": "choice-9",
+        "category": "figure",
+        "severity": "minor",
+        "original": "數線點 A≈41.5、B≈43.5、C≈44.3、D≈45.4",
+        "transcribed": "A≈41.8、D 落在 45 刻度上",
+        "action": "修正點位"
+      },
+      {
+        "question": "choice-12",
+        "category": "layout",
+        "severity": "minor",
+        "original": "表 1（衛福部青少年 BMI 建議值，含「BMI 值≥」）、表 2 標題",
+        "transcribed": "缺表名；表頭失去「≥」意義",
+        "action": "補表名、表頭改為「男：過重 ≥」等"
+      },
+      {
+        "question": "choice-13",
+        "category": "difficulty",
+        "severity": "minor",
+        "original": "平方差兩次再比較",
+        "transcribed": "easy",
+        "action": "改 medium"
+      },
+      {
+        "question": "choice-16",
+        "category": "figure",
+        "severity": "minor",
+        "original": "第一圖為切去右下角 b×b 的 L 形（切去部分虛線）",
+        "transcribed": "完整正方形加虛線小正方形",
+        "action": "改為 L 形加虛線"
+      },
+      {
+        "question": "choice-17",
+        "category": "figure",
+        "severity": "major",
+        "original": "D 在 AB 上，CD⊥AB（D 處直角記號）",
+        "transcribed": "CD 未到 AB，無直角記號",
+        "action": "重繪"
+      },
+      {
+        "question": "written-1",
+        "category": "figure",
+        "severity": "major",
+        "original": "以 O 為中心的中心對稱圖：左下 L 形與右上倒 L 形相接於 O，標 3x+5、3x−2、2x−1、−x+1",
+        "transcribed": "形狀完全不同、標示位置錯",
+        "action": "依原圖重繪"
+      },
+      {
+        "question": "written-1",
+        "category": "text",
+        "severity": "minor",
+        "original": "中心對稱圖",
+        "transcribed": "心對稱圖",
+        "action": "補「中」字"
+      },
+      {
+        "question": "written-2",
+        "category": "figure",
+        "severity": "minor",
+        "original": "A 區有主舞台圓形",
+        "transcribed": "缺圓",
+        "action": "補圓"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-b21214e21635f694-4838de03",
+    "school": "福和國中",
+    "slot": "115-1-G9-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 4,
+    "questionsChecked": 26,
+    "findings": [
+      {
+        "question": "fill-5",
+        "category": "figure",
+        "severity": "major",
+        "original": "E 在 CD 延長線上，BE 過 F（AD 上）與 G（AC 上）",
+        "transcribed": "E 不在 CD 延長線上，BE 與 AD 交點不在 F",
+        "action": "依 BG:GF=10:4、DE=12 等比例重繪"
+      },
+      {
+        "question": "fill-8",
+        "category": "figure",
+        "severity": "major",
+        "original": "AC 交 BE 於 M、FM 交 AD 於 N、EN 交 CF 於 P",
+        "transcribed": "畫成 FB、E/D 出發的錯線，M、N、P 位置錯",
+        "action": "依交點重算重繪"
+      },
+      {
+        "question": "written-1",
+        "category": "figure",
+        "severity": "minor",
+        "original": "按比例：AB=15、BC=20、DE=12、DF=16、AD=3；H、G 為交點",
+        "transcribed": "高度壓縮、H/G 標示不在交點",
+        "action": "依比例重繪"
+      },
+      {
+        "question": "choice-12",
+        "category": "figure",
+        "severity": "minor",
+        "original": "GD 實線，FD、BE 黑色虛線",
+        "transcribed": "三色線（藍/紅/綠）",
+        "action": "改為黑線"
+      },
+      {
+        "question": "choice-13",
+        "category": "option",
+        "severity": "minor",
+        "original": "(D) 216　箱（單位在列尾）",
+        "transcribed": "選項 D「$216$ 箱」",
+        "action": "去單位"
+      },
+      {
+        "question": "choice-15",
+        "category": "option",
+        "severity": "minor",
+        "original": "(D) 2.4　公尺（單位在列尾）",
+        "transcribed": "選項 D「$2.4$ 公尺」",
+        "action": "去單位"
+      },
+      {
+        "question": "choice-14/15",
+        "category": "text",
+        "severity": "minor",
+        "original": "題號在題幹外",
+        "transcribed": "題幹開頭含「14. 」「15. 」",
+        "action": "刪除"
+      },
+      {
+        "question": "fill-7/written-3",
+        "category": "unit",
+        "severity": "minor",
+        "original": "範圍 1-1~1-3 的相似形題",
+        "transcribed": "primary nanyi-9-1-1-4",
+        "action": "改 nanyi-9-1-1-3"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-kaohsiung-e02156b47ddeeb35",
+    "school": "高雄市立大灣國中",
+    "slot": "113-2-G8-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 4,
+    "questionsChecked": 25,
+    "findings": [
+      {
+        "question": "choice-2",
+        "category": "figure",
+        "severity": "minor",
+        "original": "segment AB on top with 56° at A and 39° at B, 63° at D",
+        "transcribed": "angle labels sat on segment AB and line BC so the printed figure lost most of AB and part of BC (typesetter text knockout)",
+        "action": "redrew the figure with roomier geometry; labels placed inside the angles clear of all lines"
+      },
+      {
+        "question": "choice-3",
+        "category": "figure",
+        "severity": "minor",
+        "original": "A above and slightly left of C, B far left (obtuse-looking at C side)",
+        "transcribed": "near-isosceles triangle with A centred",
+        "action": "redrew with original proportions"
+      },
+      {
+        "question": "choice-8",
+        "category": "figure",
+        "severity": "minor",
+        "original": "√3公分 label outside side AB",
+        "transcribed": "√3公分 label knocked out part of side AB in print",
+        "action": "redrew to true 30-60-90 proportions with all labels clear of the sides"
+      },
+      {
+        "question": "choice-9",
+        "category": "figure",
+        "severity": "minor",
+        "original": "option triangles with side/angle labels outside or inside the edges",
+        "transcribed": "labels in (A),(C),(D) covered edges, (C) right edge almost invisible in print",
+        "action": "redrew stem and all four option triangles with the original label placement"
+      },
+      {
+        "question": "choice-12",
+        "category": "figure",
+        "severity": "minor",
+        "original": "one line falls to the right, angles 1 and 3 vertical (both obtuse), 2 acute",
+        "transcribed": "line slopes mirrored, label 2 sat on a line",
+        "action": "redrew with original line directions and clear labels"
+      },
+      {
+        "question": "choice-13",
+        "category": "figure",
+        "severity": "minor",
+        "original": "100° inside angle D",
+        "transcribed": "100° and D labels erased the top of side DC and end of AD",
+        "action": "redrew with labels inside the angles"
+      },
+      {
+        "question": "choice-16",
+        "category": "figure",
+        "severity": "major",
+        "original": "A lies to the right of C, so ∠ACE (2x°=60°) is acute exterior angle",
+        "transcribed": "A drawn left of C making ∠ACE obtuse, contradicting the data",
+        "action": "redrew with ∠ABC=30°, ∠ACE=60°, ∠A=30° and tick marks at D, E"
+      },
+      {
+        "question": "choice-17",
+        "category": "figure",
+        "severity": "major",
+        "original": "Q is the endpoint of QB ⊥ AB; AS=RB=7, QB=24",
+        "transcribed": "vertex Q drawn off segment QB and RB longer than AS",
+        "action": "redrew to scale (AS=RB=7, AR=QB=24, side 25) with right-angle marks"
+      },
+      {
+        "question": "choice-18",
+        "category": "figure",
+        "severity": "minor",
+        "original": "∠A obtuse (115°), D on AC near C",
+        "transcribed": "∠A drawn as about 90°",
+        "action": "redrew to scale with ∠A=115°, ∠C=45° and true bisector BD"
+      },
+      {
+        "question": "choice-19",
+        "category": "figure",
+        "severity": "minor",
+        "original": "angle numbers inside the five angles, 4 and 5 marked with arcs",
+        "transcribed": "labels 1,2,3 printed on top of the vertices hiding them",
+        "action": "redrew with labels inside each angle and arcs/leaders for 4 and 5"
+      },
+      {
+        "question": "choice-20",
+        "category": "figure",
+        "severity": "minor",
+        "original": "AB=4 horizontal, AC=3 vertical, C above A",
+        "transcribed": "B and C positions swapped and legs drawn equal",
+        "action": "redrew to scale with original orientation"
+      },
+      {
+        "question": "choice-21",
+        "category": "figure",
+        "severity": "major",
+        "original": "only segments DE and AF inside the triangle; BE:EF:FC = 7:4:5",
+        "transcribed": "extra segment DF drawn, lengths not in proportion",
+        "action": "removed DF, redrew to proportion with length labels clear of lines"
+      },
+      {
+        "question": "choice-22",
+        "category": "figure",
+        "severity": "major",
+        "original": "arc centred at B with radius BC passes through C, D and E; ∠A=30°",
+        "transcribed": "arc not centred at B (E not at distance BC) and apex angle about 48°",
+        "action": "redrew with true 30° apex and arc of radius BC centred at B through D, E"
+      },
+      {
+        "question": "choice-23",
+        "category": "figure",
+        "severity": "minor",
+        "original": "dotted original outline in 圖(二) and 圖(三), no fold line in 圖(一)",
+        "transcribed": "dashed BE in 圖(一), no dotted outlines",
+        "action": "matched the dotted outlines"
+      },
+      {
+        "question": "written-2",
+        "category": "figure",
+        "severity": "minor",
+        "original": "angle numbers 1,3 beside rays OB, OC",
+        "transcribed": "labels 1 and 3 covered rays OB and OC",
+        "action": "moved labels into the angles"
+      },
+      {
+        "question": "written-1",
+        "category": "unit",
+        "severity": "minor",
+        "original": "equilateral triangle area from perimeter",
+        "transcribed": "primary unit nanyi-8-2-3-4",
+        "action": "primary unit nanyi-8-1-2-3 (畢氏定理) with 8-2-3-4 secondary"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-9f2559a02c8e9c6e",
+    "school": "新北市立中正國民中學",
+    "slot": "114-2-G9-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 2,
+    "questionsChecked": 23,
+    "findings": [
+      {
+        "question": "choice-2",
+        "category": "layout",
+        "severity": "minor",
+        "original": "point values 10/18/28/37 printed beside the cumulative polyline",
+        "transcribed": "labels sat on the polyline so the line was broken in typeset",
+        "action": "moved the 10, 18, 28, 37 labels below-right of their points"
+      },
+      {
+        "question": "fill-2",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖六 also shows dashed face diagonal EG",
+        "transcribed": "EG missing",
+        "action": "added dashed EG"
+      },
+      {
+        "question": "fill-3",
+        "category": "layout",
+        "severity": "minor",
+        "original": "圖七 sector vertex labelled O below",
+        "transcribed": "O label collided with the (圖七) caption and was clipped in typeset",
+        "action": "enlarged viewBox, moved caption down"
+      },
+      {
+        "question": "fill-9",
+        "category": "text",
+        "severity": "minor",
+        "original": "…則奶茶在杯子的高度為＿＿ (no unit)",
+        "transcribed": "…高度為 ＿＿＿＿ 公分。",
+        "action": "removed the added unit"
+      },
+      {
+        "question": "written-1, written-2",
+        "category": "missing",
+        "severity": "minor",
+        "original": "計算題 printed only on the answer sheet, not in this PDF",
+        "transcribed": "usable:false placeholders",
+        "action": "kept as usable:false (correct)"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-6634e66e4ed9aabe",
+    "school": "新北市立永和國民中學",
+    "slot": "114-2-G7-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 5,
+    "questionsChecked": 31,
+    "findings": [
+      {
+        "question": "written-2",
+        "category": "figure",
+        "severity": "major",
+        "original": "question sheet gives a blank coordinate plane (X/Y axes, 6 unit ticks each way, origin 0) for the student to draw L1 and L2",
+        "transcribed": "figure copied from the answer key page: both lines drawn in colour, A(5,4), B(0,-1), C(3,0) labelled and triangle ABC shaded (gives away the answers to (1) and (2); rendered as a black blob in typeset)",
+        "action": "replaced with a blank axes-and-ticks plane matching the question sheet"
+      },
+      {
+        "question": "written-1, written-2",
+        "category": "text",
+        "severity": "minor",
+        "original": "score notes （4 分）（2 分）（5 分）",
+        "transcribed": "score notes kept in the sub-question text",
+        "action": "removed score notes (guide: leave out score notes)"
+      },
+      {
+        "question": "choice-24, choice-25",
+        "category": "text",
+        "severity": "minor",
+        "original": "題組 header 請閱讀文章後回答第24題～25題 and numbered items 24./25.",
+        "transcribed": "kept 第 24 題～25 題 and the 24./25. prefixes inside each standalone stem",
+        "action": "changed to 請閱讀下列文章後回答問題： and dropped the number prefixes"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-taichung-2a6f4107bf420737-dd698c91",
+    "school": "臺中市立向上國民中學",
+    "slot": "114-2-G8-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 4,
+    "questionsChecked": 23,
+    "findings": [
+      {
+        "question": "written-1",
+        "category": "figure",
+        "severity": "major",
+        "original": "EFGH is a full square (E at the centre of ABCD, EH through J on CD, EF through I on BC, G outside below-right); EICJ not shaded",
+        "transcribed": "vertex G missing (drawn as triangle E-H-F with a stray H-F edge) and EICJ shaded",
+        "action": "redrew the figure from the original proportions: square EFGH with G, no shading"
+      },
+      {
+        "question": "written-1",
+        "category": "text",
+        "severity": "minor",
+        "original": "teacher paragraph (老師看了看考卷後說…現在請你依照老師的提示，在空格中填入正確的答案。) and answer-sheet line ＿＿ = ＿＿（正方形對角線長度的一半）",
+        "transcribed": "teacher paragraph missing; line pre-filled as EC = ＿＿",
+        "action": "added the paragraph; made both sides blanks as printed"
+      },
+      {
+        "question": "written-2",
+        "category": "text",
+        "severity": "minor",
+        "original": "…標示出你所在的位置(作圖痕跡需保留，請稍微描述作圖方法)",
+        "transcribed": "parenthetical instruction missing from the stem",
+        "action": "added it"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-taichung-95e31b65b363fa06-ddcf5fc4",
+    "school": "臺中市大業國中",
+    "slot": "115-1-G7-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 3,
+    "questionsChecked": 24,
+    "findings": [
+      {
+        "question": "fill-6",
+        "category": "extra",
+        "severity": "minor",
+        "original": "fill item 6 is one printed question with two blanks (1)(2) sharing the stem A×123=4567",
+        "transcribed": "split into two questions fill-6(1) and fill-6(2) (expectedTypes fill 10)",
+        "action": "merged into one fill-6 with (1)(2) blanks per the guide; expectedTypes fill now 9 (printed 10 blanks unchanged). Coordinator: question count for this paper drops 24 -> 23"
+      },
+      {
+        "question": "written-1..written-4",
+        "category": "text",
+        "severity": "minor",
+        "original": "score notes (每個2分，共10分) etc.",
+        "transcribed": "score notes kept in stems",
+        "action": "removed score notes"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-taipei-509300ecf27c3ab8-ab2bebfa",
+    "school": "台北市立誠正國中",
+    "slot": "114-2-G7-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 2,
+    "questionsChecked": 24,
+    "findings": [
+      {
+        "question": "fill-6",
+        "category": "layout",
+        "severity": "minor",
+        "original": "圖(四) label 合唱團 20% inside its sector",
+        "transcribed": "label overlapped the 合唱團/運動社 boundary radius in typeset (sector angles themselves verified: 36/24/20/12/8%)",
+        "action": "moved the label into the middle of its sector"
+      },
+      {
+        "question": "choice-12, choice-13",
+        "category": "layout",
+        "severity": "minor",
+        "original": "圖(三) axis title 次數(人) above the 35 tick",
+        "transcribed": "axis title collided with the 35 tick label in typeset (bar heights 9/25/17/28/15/6 verified)",
+        "action": "moved the axis title right of the axis"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-4063b9afdc8dfcc7",
+    "school": "新北市立三和國中",
+    "slot": "114-2-G9-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 4,
+    "questionsChecked": 25,
+    "findings": [
+      {
+        "question": "choice-4",
+        "category": "layout",
+        "severity": "minor",
+        "original": "O label just right of the y-axis below the x-axis",
+        "transcribed": "O label at x=86 sat on the parabola (curve crosses the x-axis near x=-0.73), unreadable in typeset",
+        "action": "moved O to the right of the y-axis and nudged the tick label 1"
+      },
+      {
+        "question": "choice-10",
+        "category": "layout",
+        "severity": "minor",
+        "original": "vertical axis title 次數(人) left of the tick numbers",
+        "transcribed": "axis title at x=16-18 overlapped the 10-16 tick labels in typeset",
+        "action": "moved the axis title further left"
+      },
+      {
+        "question": "choice-1, choice-4, choice-8",
+        "category": "layout",
+        "severity": "minor",
+        "original": "coordinate axes drawn with arrowheads",
+        "transcribed": "arrowheads used SVG <marker>, which the site renderer drops (typeset axes had no arrows)",
+        "action": "replaced markers with explicit polygon arrowheads"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-taoyuan-73d7c0ecb504ddb0",
+    "school": "桃園市立自強國中",
+    "slot": "114-2-G8-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 3,
+    "questionsChecked": 22,
+    "findings": [
+      {
+        "question": "fill-9",
+        "category": "figure",
+        "severity": "minor",
+        "original": "fee graph: flat base fee to 300 s (just below 36), straight line through the dashed corners (500, 36) and (1200, 50); y-axis title 費用(元) left of the 50/36 ticks",
+        "transcribed": "rising line missed both dashed corners (50 drawn at the wrong height); axis arrows via <marker> (dropped in typeset); y-axis title overlapped the 50/36 tick labels",
+        "action": "redrew the graph: linear y scale (base 32 implied), straight line through (500,36) and (1200,50), polygon arrowheads, axis title moved left"
+      },
+      {
+        "question": "choice-2",
+        "category": "layout",
+        "severity": "minor",
+        "original": "arrows between the 1st/2nd/3rd straw figures",
+        "transcribed": "arrowheads via <marker>, shown as bare dashes in typeset",
+        "action": "replaced with explicit polygon arrowheads"
+      },
+      {
+        "question": "written-1, written-2",
+        "category": "text",
+        "severity": "minor",
+        "original": "score notes (5 分)",
+        "transcribed": "score notes kept",
+        "action": "removed score notes"
+      }
+    ]
+  }
+]

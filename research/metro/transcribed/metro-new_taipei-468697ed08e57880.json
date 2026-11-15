@@ -1,0 +1,623 @@
+{
+  "paperId": "metro-new_taipei-468697ed08e57880",
+  "sourceSha256": "43d268df90d000f047a240d54883387bb6afd4e0cf1ecda83dec0298ad8711e3",
+  "printedHeader": "新北市立中正國民中學107學年度第一學期九 年級 數學科 第三次段考試題",
+  "printedSlot": {
+    "year": 107,
+    "semester": 1,
+    "grade": 9,
+    "exam": 3
+  },
+  "printedCounts": "是非5題、基礎15題、進階5題、證明2題，共27題",
+  "visualReviewComplete": true,
+  "reviewNote": "來源複核：逐頁實看原卷3頁、逐題比對全部27題及必要圖。修正內心/重心位置、外心坐標圖比例、正八邊形頂點、數幅垂足與中線交點/直角記號；基礎8重帶共同坐標和題圖，兩題主要單元改比例線段，去除原配分。\n基礎10角平分線條件導出BC=60>AB+AC，基礎15面積與三邊不一致，兩題保留原文停用，25/27可用；全卷無漏題。",
+  "expectedTypes": {
+    "choice": 0,
+    "fill": 25,
+    "written": 2
+  },
+  "questions": [
+    {
+      "type": "fill",
+      "sourceNumber": "是非1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-1-3-1",
+      "unitIds": [
+        "nanyi-9-1-3-1"
+      ],
+      "unitAssignmentBasis": "整數倍數與餘數性質判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "判斷對錯（填○或✕）：若 $a$ 是正整數，且 $a$ 除以 $4$ 餘 $2$，則 $a$ 必為偶數。＿＿＿＿"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "是非2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-1-3-1",
+      "unitIds": [
+        "nanyi-9-1-3-1"
+      ],
+      "unitAssignmentBasis": "奇數偶數加乘性質判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "判斷對錯（填○或✕）：任意兩個奇數相加的和是偶數，任意兩個奇數的乘積是偶數。＿＿＿＿"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "是非3",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-3-1",
+      "unitIds": [
+        "nanyi-9-1-3-1"
+      ],
+      "unitAssignmentBasis": "畢氏定理整數邊長因數分解推理。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "判斷對錯（填○或✕）：直角三角形三邊長為 $3$、$b$、$c$（$b$、$c$ 為正整數），其中 $c$ 為斜邊長，則 $(c + b)$ 是 $9$ 的因數。＿＿＿＿"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "是非4",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "長方形之外心與內心存在性觀念辨析。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "判斷對錯（填○或✕）：任一長方形都有外心和內心。＿＿＿＿"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "是非5",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "等腰三角形與正三角形三心共點辨別。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "判斷對錯（填○或✕）：等腰三角形的外心、內心、重心為同一點。＿＿＿＿"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎1",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "直角三角形斜邊中線長度性質。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$\\triangle ABC$ 中，$D$ 點為 $\\overline{BC}$ 的中點，$\\overline{BH} \\perp \\overline{AC}$，且 $\\overline{BC} = 7$，則 $\\overline{DH} =$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 245 200\"><polygon points=\"160,25 30,153 200,153\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M160,25L115,153\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M30,153L184.875,104.601\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M115,153L184.875,104.601\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M182.489,96.966L174.853,99.352L177.24,106.988\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><g fill=\"#111\" font-size=\"16\" font-style=\"italic\"><text x=\"153\" y=\"18\">A</text><text x=\"12\" y=\"170\">B</text><text x=\"205\" y=\"170\">C</text><text x=\"108\" y=\"178\">D</text><text x=\"191.87544483985766\" y=\"104.60142348754448\">H</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "等腰三角形重心與內心在對稱軸上線段求長。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$I$ 點是等腰 $\\triangle ABC$ 的內心，$G$ 點是重心，$\\overline{AB} = \\overline{AC} = 10$，$\\overline{AG} = 4$，求 $\\overline{GD} =$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 160\"><polygon points=\"150,25 30,115 270,115\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M150,25L150,115\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"150\" cy=\"75\" r=\"2\" fill=\"#111\"/><circle cx=\"150\" cy=\"85\" r=\"2\" fill=\"#111\"/><g fill=\"#111\" font-size=\"16\" font-style=\"italic\"><text x=\"145\" y=\"18\">A</text><text x=\"12\" y=\"135\">B</text><text x=\"275\" y=\"135\">C</text><text x=\"145\" y=\"141\">D</text><text x=\"159\" y=\"76\">I</text><text x=\"130\" y=\"102\">G</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎3",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "直角坐標系三角形內心與子三角形面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "直線 $4x + 3y = 12$ 與 $x$ 軸交於 $A$ 點，與 $y$ 軸交於 $B$ 點。若 $O$ 為原點，$I$ 點為 $\\triangle AOB$ 的內心，則 $\\triangle AIB$ 的面積 $=$ ＿＿＿＿ 平方單位。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎4",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2",
+        "nanyi-9-1-3-1"
+      ],
+      "unitAssignmentBasis": "角平分線性質定理與內心分線段比。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖 $\\triangle ABC$ 中，$\\overline{AB} = 6$，$\\overline{AC} = 8$，$\\overline{BC} = 12$，$\\overline{AD}$ 平分 $\\angle BAC$，$\\overline{BI}$ 平分 $\\angle ABC$，兩線交於 $I$ 點，則 $\\overline{AI} : \\overline{ID} =$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 190\"><polygon points=\"116.667,78.889 20,150 260,150\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M116.667,78.889L122.857,150\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M20,150L164.444,102.593\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"120\" cy=\"117.949\" r=\"2\" fill=\"#111\"/><g fill=\"#111\" font-size=\"16\" font-style=\"italic\"><text x=\"110\" y=\"69\">A</text><text x=\"4\" y=\"170\">B</text><text x=\"267\" y=\"170\">C</text><text x=\"118\" y=\"175\">D</text><text x=\"126\" y=\"114\">I</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎5",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "正三角形外接圓半徑求法。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，圓 $O$ 是正 $\\triangle ABC$ 的外接圓，且 $\\overline{AB} = 6$，求圓 $O$ 的半徑為 ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 160\"><circle cx=\"80\" cy=\"80\" r=\"50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"80,30 36.7,105 123.3,105\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><circle cx=\"80\" cy=\"80\" r=\"2.5\" fill=\"#111\"/><g font-family=\"serif\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">  <text x=\"76\" y=\"24\">A</text>  <text x=\"22\" y=\"112\">B</text>  <text x=\"128\" y=\"112\">C</text>  <text x=\"76\" y=\"96\">O</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎6",
+      "page": 1,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "等腰三角形重心與內心距離結合求三角形面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$\\triangle ABC$ 為等腰三角形，邊長分別為 $25$、$25$、$14$。若 $I$ 點為 $\\triangle ABC$ 的內心，$G$ 點為 $\\triangle ABC$ 的重心，則 $\\triangle BIG$ 的面積 $=$ ＿＿＿＿ 平方單位。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 170\"><polygon points=\"80,25 45,135 115,135\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><polygon points=\"45,135 80,98 80,108\" fill=\"#ddd\" stroke=\"none\"/><line x1=\"80\" y1=\"25\" x2=\"80\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"45\" y1=\"135\" x2=\"80\" y2=\"98\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"45\" y1=\"135\" x2=\"80\" y2=\"108\" stroke=\"#111\" stroke-width=\"1.2\"/><circle cx=\"80\" cy=\"98\" r=\"2\" fill=\"#111\"/><circle cx=\"80\" cy=\"108\" r=\"2\" fill=\"#111\"/><g font-family=\"serif\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">  <text x=\"76\" y=\"20\">A</text>  <text x=\"32\" y=\"142\">B</text>  <text x=\"120\" y=\"142\">C</text>  <text x=\"76\" y=\"150\">D</text>  <text x=\"84\" y=\"99\">G</text>  <text x=\"84\" y=\"112\">I</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎7",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "直角坐標平面三角形外心坐標求法。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "以儒在直角坐標平面上做一 $\\triangle OAB$，如圖，其中 $O$ 點坐標為 $(0, 0)$、$A$ 點坐標為 $(12, 5)$、$B$ 點坐標為 $(24, 0)$。若 $D$ 點為 $\\triangle OAB$ 的外心，則 $D$ 坐標為何？＿＿＿＿"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 150\"><line x1=\"25\" y1=\"110\" x2=\"185\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"185,107 193,110 185,113\" fill=\"#111\"/><text x=\"185\" y=\"124\" font-family=\"serif\" font-size=\"12\" font-style=\"italic\" fill=\"#111\">x</text><line x1=\"35\" y1=\"130\" x2=\"35\" y2=\"25\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"32,25 35,17 38,25\" fill=\"#111\"/><text x=\"24\" y=\"25\" font-family=\"serif\" font-size=\"12\" font-style=\"italic\" fill=\"#111\">y</text><!-- Triangle OAB: O(35,110), A(95,75), B(155,110) --><polygon points=\"35,110 95,85 155,110\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><g font-family=\"serif\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">  <text x=\"20\" y=\"122\">O</text>  <text x=\"92\" y=\"78\">A</text>  <text x=\"150\" y=\"124\">B</text></g></svg>"
+        },
+        {
+          "type": "text",
+          "text": "(A) $(12, \\dfrac{119}{10})$  (B) $(12, -\\dfrac{119}{10})$  (C) $(12, \\dfrac{49}{24})$  (D) $(12, -\\dfrac{49}{24})$"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎8",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "直角坐標平面三角形內心坐標求法。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在直角坐標平面上，$O(0,0)$、$A(12,5)$、$B(24,0)$。若 $E$ 點為 $\\triangle OAB$ 的內心，則 $E$ 坐標為何？＿＿＿＿"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 150\"><line x1=\"25\" y1=\"110\" x2=\"185\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"185,107 193,110 185,113\" fill=\"#111\"/><text x=\"185\" y=\"124\" font-family=\"serif\" font-size=\"12\" font-style=\"italic\" fill=\"#111\">x</text><line x1=\"35\" y1=\"130\" x2=\"35\" y2=\"25\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"32,25 35,17 38,25\" fill=\"#111\"/><text x=\"24\" y=\"25\" font-family=\"serif\" font-size=\"12\" font-style=\"italic\" fill=\"#111\">y</text><!-- Triangle OAB: O(35,110), A(95,75), B(155,110) --><polygon points=\"35,110 95,85 155,110\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><g font-family=\"serif\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">  <text x=\"20\" y=\"122\">O</text>  <text x=\"92\" y=\"78\">A</text>  <text x=\"150\" y=\"124\">B</text></g></svg>"
+        },
+        {
+          "type": "text",
+          "text": "(A) $(12, \\dfrac{12}{5})$  (B) $(12, -\\dfrac{12}{5})$  (C) $(12, \\dfrac{5}{2})$  (D) $(12, -\\dfrac{5}{2})$"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎9",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-1-2",
+      "unitIds": [
+        "nanyi-9-1-1-2"
+      ],
+      "unitAssignmentBasis": "梯形兩對角線中點連線長公式應用。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖梯形 $ABCD$ 中，$\\overline{AD} \\parallel \\overline{BC}$，$\\overline{AD} < \\overline{BC}$，且 $E$、$F$ 分別為兩對角線 $\\overline{DB}$、$\\overline{AC}$ 的中點。若 $\\overline{EF} = 6$，$\\overline{BC} = 24$，則 $\\overline{AD} =$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 140\"><polygon points=\"50,45 120,45 150,115 30,115\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"45\" x2=\"150\" y2=\"115\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"120\" y1=\"45\" x2=\"30\" y2=\"115\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"75\" y1=\"80\" x2=\"100\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"75\" cy=\"80\" r=\"2\" fill=\"#111\"/><circle cx=\"100\" cy=\"80\" r=\"2\" fill=\"#111\"/><g font-family=\"serif\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">  <text x=\"44\" y=\"38\">A</text>  <text x=\"120\" y=\"38\">D</text>  <text x=\"18\" y=\"122\">B</text>  <text x=\"154\" y=\"122\">C</text>  <text x=\"64\" y=\"78\">E</text>  <text x=\"104\" y=\"78\">F</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎10",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-1-2",
+      "unitIds": [
+        "nanyi-9-1-1-2"
+      ],
+      "unitAssignmentBasis": "內角平分線性質比求未知數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖 $\\triangle ABC$ 中，已知 $\\overline{AD}$ 平分 $\\angle BAC$，且 $\\overline{AB} = 10$，$\\overline{AC} = 6$，$\\overline{BD} = 3x + \\dfrac{3}{2}$，$\\overline{BC} = 5x$，則 $x =$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 195\"><path d=\"M180,30L30,150L210,150Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M180,30L142.5,150\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><g fill=\"#111\" font-size=\"16\" font-style=\"italic\"><text x=\"175\" y=\"23\">A</text><text x=\"12\" y=\"170\">B</text><text x=\"216\" y=\"170\">C</text><text x=\"138\" y=\"176\">D</text></g></svg>"
+        }
+      ],
+      "usable": false,
+      "sourceIssue": "按原文AB=10、AC=6，角平分線定理給BD/BC=5/8；(3x+3/2)/(5x)=5/8導出x=12、BC=60，但10+6<60，不存在符合全部條件的三角形。保留原文停用，不猜改長度或符號。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎11",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "正多邊形外心與內心共點性質。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖為一正八邊形，$K$ 為其外心。若 $\\overline{AE} = \\overline{EK} = \\overline{KG} = \\overline{GB}$，$\\overline{CF} = \\overline{FK} = \\overline{KH} = \\overline{HD}$，則此正八邊形的內心為 ＿＿＿＿ 點。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 215 215\"><path d=\"M105,35L154.497,55.503L175,105L154.497,154.497L105,175L55.503,154.497L35,105L55.503,55.503Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M105,35L105,175\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M35,105L175,105\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"105\" cy=\"105\" r=\"2\" fill=\"#111\"/><circle cx=\"105\" cy=\"70\" r=\"2\" fill=\"#111\"/><circle cx=\"70\" cy=\"105\" r=\"2\" fill=\"#111\"/><circle cx=\"105\" cy=\"140\" r=\"2\" fill=\"#111\"/><circle cx=\"140\" cy=\"105\" r=\"2\" fill=\"#111\"/><g fill=\"#111\" font-size=\"16\" font-style=\"italic\"><text x=\"100\" y=\"25\">A</text><text x=\"100\" y=\"201\">B</text><text x=\"14\" y=\"111\">C</text><text x=\"183\" y=\"111\">D</text><text x=\"86\" y=\"67\">E</text><text x=\"60\" y=\"128\">F</text><text x=\"86\" y=\"154\">G</text><text x=\"136\" y=\"94\">H</text><text x=\"112\" y=\"124\">K</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎12",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "三角形重心六等分面積性質。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$G$ 點是 $\\triangle ABC$ 的重心，若四邊形 $GMCN$ 的面積為 $16$，則 $\\triangle AGN$ 的面積為 ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 150\"><polygon points=\"70,30 25,115 145,115\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"30\" x2=\"85\" y2=\"115\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"25\" y1=\"115\" x2=\"107.5\" y2=\"72.5\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"80\" cy=\"86.7\" r=\"2.5\" fill=\"#111\"/><g font-family=\"serif\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">  <text x=\"66\" y=\"24\">A</text>  <text x=\"14\" y=\"122\">B</text>  <text x=\"150\" y=\"122\">C</text>  <text x=\"81\" y=\"130\">M</text>  <text x=\"112\" y=\"72\">N</text>  <text x=\"68\" y=\"85\">G</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎13",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "菱形對角線與三角形重心性質求菱形面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖菱形 $ABCD$ 中，兩對角線交於 $O$ 點，$E$ 點是 $\\overline{BC}$ 的中點，$\\overline{AE}$ 與 $\\overline{BD}$ 交於 $F$ 點。若 $\\overline{EF} = 2$，$\\overline{BF} = 4$，菱形 $ABCD$ 的面積為 ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 165\"><polygon points=\"120,20 30,72 120,124 210,72\" fill=\"#fffbe0\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M120,20L120,124\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M30,72L210,72\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M120,20L75,98\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"75\" cy=\"98\" r=\"2\" fill=\"#111\"/><circle cx=\"90\" cy=\"72\" r=\"2\" fill=\"#111\"/><circle cx=\"120\" cy=\"72\" r=\"2\" fill=\"#111\"/><g fill=\"#111\" font-size=\"16\" font-style=\"italic\"><text x=\"114\" y=\"14\">A</text><text x=\"10\" y=\"77\">B</text><text x=\"115\" y=\"146\">C</text><text x=\"216\" y=\"77\">D</text><text x=\"58\" y=\"118\">E</text><text x=\"83\" y=\"63\">F</text><text x=\"127\" y=\"88\">O</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎14",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "三心到三頂點等距離觀念生活情境判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "學翰、紹齊與英志，因為即將段考，所以三人相約在週末一起唸書準備考試，為了公平起見，唸書地點必須要與三人家裡距離相同，以下是 3 位同學選擇地點的說法："
+        },
+        {
+          "type": "text",
+          "text": "先將三人的家連線形成一 $\\triangle ABC$"
+        },
+        {
+          "type": "text",
+          "text": "學翰：$\\triangle ABC$ 的三中垂線交點麥當勞是最佳地點！"
+        },
+        {
+          "type": "text",
+          "text": "紹齊：$\\triangle ABC$ 的三中線交點圖書館才對啦～"
+        },
+        {
+          "type": "text",
+          "text": "英志：$\\triangle ABC$ 的三內角平分線交點的星巴克才好！"
+        },
+        {
+          "type": "text",
+          "text": "誰的說法正確？＿＿＿＿"
+        },
+        {
+          "type": "text",
+          "text": "(A) 學翰  (B) 紹齊  (C) 英志"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "基礎15",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "三角形面積與內切圓半徑公式求內心到邊長垂線段長。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$I$ 點為 $\\triangle ABC$ 的內心，$\\overline{ID} \\perp \\overline{AB}$，$\\overline{IE} \\perp \\overline{BC}$，$\\overline{IF} \\perp \\overline{AC}$，若 $\\triangle ABC$ 的面積為 $10\\sqrt{2}$，$\\overline{AB} = 4$，$\\overline{BC} = 7$，$\\overline{AC} = 9$，則 $\\overline{ID} =$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 225\"><path d=\"M24.286,26.67L70,180L350,180Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M110,126.334L58.571,141.667\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M110,126.334L110,180\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M110,126.334L132.857,77.78\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M56.286,134L63.952,131.715L66.238,139.381\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M102,180L102,172L110,172\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M125.619,74.372L122.211,81.611L129.45,85.018\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"110\" cy=\"126.334\" r=\"2\" fill=\"#111\"/><g fill=\"#111\" font-size=\"16\" font-style=\"italic\"><text x=\"12\" y=\"20\">A</text><text x=\"53\" y=\"200\">B</text><text x=\"357\" y=\"200\">C</text><text x=\"118\" y=\"125\">I</text><text x=\"38.57135159653696\" y=\"141.6670022377611\">D</text><text x=\"105\" y=\"207\">E</text><text x=\"137.85690947857512\" y=\"69.77980047019753\">F</text></g></svg>"
+        }
+      ],
+      "usable": false,
+      "sourceIssue": "原卷同時給三邊4、7、9及面積10√2；由海龍公式半周長10，面積應為√(10×6×3×1)=6√5，與10√2不符，無三角形能同時符合全部條件。保留原文停用待來源澄清。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "進階1",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "外心與頂點連角與對應內角關係（鈍角/銳角三角形判別）。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "$\\triangle ABC$ 中，$O$ 點為外心，若 $\\angle BOC = 108^\\circ$，則 $\\angle BAC$ 的度數為 ＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "進階2",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "中垂線性質與畢氏定理求直角三角形面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$\\triangle ABC$ 中，$\\angle B = 90^\\circ$，$\\overline{AC}$ 之中垂線與 $\\overline{BC}$、$\\overline{AC}$ 分別交於 $E$、$D$ 兩點且 $\\overline{AB} = 4$，$\\overline{CE} = 5$，則 $\\triangle ABC$ 面積為 ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 195\"><path d=\"M320,150L260,30L20,150Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M170,45L170,175\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M264.919,39.839L255.081,44.758L250.161,34.919\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M181,150L181,139L170,139\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><g fill=\"#111\" font-size=\"16\" font-style=\"italic\"><text x=\"328\" y=\"160\">A</text><text x=\"255\" y=\"22\">B</text><text x=\"2\" y=\"160\">C</text><text x=\"170\" y=\"194\">D</text><text x=\"149\" y=\"75\">E</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "進階3",
+      "page": 3,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "平行線截線定理與重心比例性質求面積比。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$G$ 是 $\\triangle ABC$ 的重心，直線 $L$ 過 $A$ 點與 $\\overline{BC}$ 平行，若直線 $CG$ 分別與 $\\overline{AB}$、$L$ 交於 $D$、$E$ 兩點，直線 $BG$ 與 $\\overline{AC}$ 交於 $F$ 點，則 $\\triangle AED$ 的面積：四邊形 $ADGF$ 的面積 $=$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 385 205\"><path d=\"M205,45L155,165L335,165Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M10,45L370,45\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M335,165L25,45\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M155,165L270,105\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"231.667\" cy=\"125\" r=\"2\" fill=\"#111\"/><g fill=\"#111\" font-size=\"16\" font-style=\"italic\"><text x=\"200\" y=\"35\">A</text><text x=\"138\" y=\"183\">B</text><text x=\"341\" y=\"183\">C</text><text x=\"162\" y=\"110\">D</text><text x=\"20\" y=\"35\">E</text><text x=\"277\" y=\"105\">F</text><text x=\"234\" y=\"145\">G</text><text x=\"374\" y=\"46\">L</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "進階4",
+      "page": 3,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "三中線長（重心到三頂點距離）求三角形面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$\\triangle ABC$ 中，$G$ 為其重心，$\\overline{AG} = 8$，$\\overline{BG} = 6$，$\\overline{CG} = 10$，求 $\\triangle ABC$ 的面積 $=$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 150\"><polygon points=\"75,30 30,115 145,115\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"75\" y1=\"30\" x2=\"87.5\" y2=\"115\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"83.3\" cy=\"86.7\" r=\"2.5\" fill=\"#111\"/><g font-family=\"serif\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">  <text x=\"71\" y=\"24\">A</text>  <text x=\"18\" y=\"122\">B</text>  <text x=\"150\" y=\"122\">C</text>  <text x=\"83\" y=\"130\">D</text>  <text x=\"88\" y=\"86\">G</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "進階5",
+      "page": 3,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-3-2",
+      "unitIds": [
+        "nanyi-9-1-3-2"
+      ],
+      "unitAssignmentBasis": "兩中線互相垂直之邊長關係定理。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，在 $\\triangle ABC$ 中，若 $\\overline{BM} = \\overline{CM}$，$\\overline{AN} = \\overline{CN}$，$\\overline{AM} \\perp \\overline{BN}$，$\\overline{AC} = 6$，$\\overline{BC} = 7$，則 $\\overline{AB} =$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 350 220\"><path d=\"M115.714,39.101L30,180L310,180Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M115.714,39.101L170,180\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M30,180L212.857,109.551\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M148.31,123.703L157.641,120.108L161.236,129.439\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><g fill=\"#111\" font-size=\"16\" font-style=\"italic\"><text x=\"110\" y=\"29\">A</text><text x=\"12\" y=\"199\">B</text><text x=\"316\" y=\"199\">C</text><text x=\"164\" y=\"204\">M</text><text x=\"218\" y=\"109\">N</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "1",
+      "page": 3,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-3-1",
+      "unitIds": [
+        "nanyi-9-1-3-1"
+      ],
+      "unitAssignmentBasis": "正三角形全等證明與中點連線正三角形證明。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $\\triangle ABC$、$\\triangle DCE$ 皆為正三角形，且 $\\overline{BC} = 6$，$\\overline{CE} = 4$，$B$、$C$、$E$ 三點共線，$M$、$N$ 分別為 $\\overline{BD}$、$\\overline{AE}$ 之中點："
+        },
+        {
+          "type": "svg",
+          "maxHeight": 130,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\"><!-- Line BCE --><line x1=\"20\" y1=\"125\" x2=\"175\" y2=\"125\" stroke=\"#111\" stroke-width=\"1.4\"/><!-- Triangle ABC: B(30,125), C(100,125), A(65,64.3) --><polygon points=\"65,64.3 30,125 100,125\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><!-- Triangle DCE: C(100,125), E(150,125), D(125,81.7) --><polygon points=\"125,81.7 100,125 150,125\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><!-- Segment BD --><line x1=\"30\" y1=\"125\" x2=\"125\" y2=\"81.7\" stroke=\"#111\" stroke-width=\"1.2\"/><!-- Segment AE --><line x1=\"65\" y1=\"64.3\" x2=\"150\" y2=\"125\" stroke=\"#111\" stroke-width=\"1.2\"/><!-- Midpoints M(77.5, 103.35) and N(107.5, 94.65) --><circle cx=\"77.5\" cy=\"103.35\" r=\"2\" fill=\"#111\"/><circle cx=\"107.5\" cy=\"94.65\" r=\"2\" fill=\"#111\"/><!-- Triangle MNC --><polygon points=\"77.5,103.35 107.5,94.65 100,125\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><g font-family=\"serif\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">  <text x=\"61\" y=\"56\">A</text>  <text x=\"18\" y=\"132\">B</text>  <text x=\"96\" y=\"138\">C</text>  <text x=\"124\" y=\"74\">D</text>  <text x=\"154\" y=\"132\">E</text>  <text x=\"70\" y=\"100\">M</text>  <text x=\"110\" y=\"92\">N</text></g></svg>"
+        },
+        {
+          "type": "text",
+          "text": "證明："
+        },
+        {
+          "type": "text",
+          "text": "(1) $\\triangle BCD \\cong \\triangle ACE$"
+        },
+        {
+          "type": "text",
+          "text": "(2) $\\triangle MNC$ 為正三角形"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "2",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-3-1",
+      "unitIds": [
+        "nanyi-9-1-3-1"
+      ],
+      "unitAssignmentBasis": "代數整除性基本定義推理證明。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "設 $A$、$B$ 為整數且 $D$ 為正整數，$D$ 整除 $A$ 且 $D$ 整除 $B$："
+        },
+        {
+          "type": "text",
+          "text": "證明 $D$ 整除 $A + B$。"
+        }
+      ]
+    }
+  ]
+}

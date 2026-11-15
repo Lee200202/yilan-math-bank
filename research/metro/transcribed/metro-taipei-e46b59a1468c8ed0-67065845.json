@@ -1,0 +1,532 @@
+{
+  "deliveryStatus": "complete",
+  "paperId": "metro-taipei-e46b59a1468c8ed0-67065845",
+  "sourceSha256": "6706584563ecd2652719e7edb71ccf72836e03c20d61b730657025de8e9f4f67",
+  "printedHeader": "台北市立誠正國民中學114 學年度第二學期第三次定期評量七年級數學科試卷",
+  "printedSlot": {
+    "year": 114,
+    "semester": 2,
+    "grade": 7,
+    "exam": 3
+  },
+  "printedCounts": "選擇12題、填充8題（9格）、非選2題（各3小題）。",
+  "visualReviewComplete": true,
+  "reviewNote": "兩頁逐頁以影像核對。第1頁選擇1~12題，第2頁填充1~8題（第7題2小題）與非選2題（各3小題）。選擇8不等式數線圖示以向量SVG之optionFigures忠實重繪。全卷22題文字、公式、比例式與不等式完整可用。",
+  "expectedTypes": {
+    "choice": 12,
+    "fill": 8,
+    "written": 2
+  },
+  "questions": [
+    {
+      "type": "choice",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-4-1",
+      "unitIds": [
+        "nanyi-7-2-4-1"
+      ],
+      "unitAssignmentBasis": "比例式之性質與常見迷思概念。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $a:b=7:3$，則下列敘述何者錯誤？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$3:b=7:a$",
+            "$a-b=4$",
+            "$7b=3a$",
+            "$\\dfrac{7}{a}=\\dfrac{3}{b}$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "2",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-4-1",
+      "unitIds": [
+        "nanyi-7-2-4-1"
+      ],
+      "unitAssignmentBasis": "比例式求值與比值計算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $x:y=(-3):2$，且 $x-3y=27$，則 $(x+1):(3-y)$ 的比值為下列何者？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$-\\dfrac{10}{9}$",
+            "$-\\dfrac{10}{21}$",
+            "$\\dfrac{10}{21}$",
+            "$\\dfrac{10}{9}$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "3",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-5-1",
+      "unitIds": [
+        "nanyi-7-2-5-1"
+      ],
+      "unitAssignmentBasis": "檢驗數值是否為不等式的解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "$x=-3$ 是下列哪一個不等式的其中一個解？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$2x+6<0$",
+            "$x-3\\le 0$",
+            "$5-x<0$",
+            "$x+4>1$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "4",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-4-2",
+      "unitIds": [
+        "nanyi-7-2-4-2"
+      ],
+      "unitAssignmentBasis": "正比與反比的定義判別。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列敘述何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "若 $y=\\dfrac{5}{x}$，$x\\ne 0$，則 $y$ 與 $x$ 成反比",
+            "若 $y=-3x$，則 $y$ 與 $x$ 成反比",
+            "若 $xy=8$，則 $y$ 與 $x$ 成正比",
+            "若 $\\dfrac{y}{x}=5$，$x\\ne 0$，則 $y$ 與 $x$ 成反比"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "5",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-4-2",
+      "unitIds": [
+        "nanyi-7-2-4-2"
+      ],
+      "unitAssignmentBasis": "正比關係式與函數值求值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $x$ 與 $y$ 成正比，當 $x=3$ 時，$y=-27$，則下列敘述何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$x$ 與 $y$ 的關係式為 $y=9x$",
+            "當 $x=9$ 時，$y=-1$",
+            "當 $x=-6$ 時，$y=-54$",
+            "當 $y=9$ 時，$x=-1$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "6",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-4-2",
+      "unitIds": [
+        "nanyi-7-2-4-2"
+      ],
+      "unitAssignmentBasis": "反比應用問題（工程與工期）。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "學校有一大工程，如每天有 $12$ 人工作，則 $20$ 天可以完工，若想提前 $5$ 天完工，需要增加幾位人力？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$36$ 位",
+            "$16$ 位",
+            "$4$ 位",
+            "$5$ 位"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "7",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-5-1",
+      "unitIds": [
+        "nanyi-7-2-5-1"
+      ],
+      "unitAssignmentBasis": "不等式文字語言與符號轉換。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列敘述何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$a$ 至多 $20$ 表示 $a\\le 20$",
+            "$2b+1$ 不大於 $3$ 表示 $2b+1<3$",
+            "$c$ 小於 $5$ 表示 $c<3$",
+            "$d$ 比 $6$ 大表示 $d\\ge 6$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "8",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-5-1",
+      "unitIds": [
+        "nanyi-7-2-5-1"
+      ],
+      "unitAssignmentBasis": "不等式之解在數線上圖示。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列何者為解不等式 $-3x<6$ 的圖示？"
+        },
+        {
+          "type": "optionFigures",
+          "maxHeight": 80,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 90\"><g transform=\"translate(0, 0)\"><text x=\"12\" y=\"25\" font-family=\"serif\" font-size=\"15\" fill=\"#111\">(A)</text><line x1=\"30\" y1=\"55\" x2=\"115\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M110,51 L116,55 L110,59\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"85\" y1=\"50\" x2=\"85\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M50,55 V35 H105\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"55\" r=\"3.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><g font-family=\"serif\" font-size=\"12\" fill=\"#111\"><text x=\"44\" y=\"73\">−2</text><text x=\"82\" y=\"73\">0</text></g></g><g transform=\"translate(135, 0)\"><text x=\"12\" y=\"25\" font-family=\"serif\" font-size=\"15\" fill=\"#111\">(B)</text><line x1=\"30\" y1=\"55\" x2=\"115\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M110,51 L116,55 L110,59\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"90\" y1=\"50\" x2=\"90\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M60,55 V35 H40\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"55\" r=\"3.5\" fill=\"#111\"/><g font-family=\"serif\" font-size=\"12\" fill=\"#111\"><text x=\"54\" y=\"73\">−2</text><text x=\"87\" y=\"73\">0</text></g></g><g transform=\"translate(270, 0)\"><text x=\"12\" y=\"25\" font-family=\"serif\" font-size=\"15\" fill=\"#111\">(C)</text><line x1=\"30\" y1=\"55\" x2=\"115\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M110,51 L116,55 L110,59\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"55\" y1=\"50\" x2=\"55\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M85,55 V35 H40\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"85\" cy=\"55\" r=\"3.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><g font-family=\"serif\" font-size=\"12\" fill=\"#111\"><text x=\"52\" y=\"73\">0</text><text x=\"82\" y=\"73\">2</text></g></g><g transform=\"translate(405, 0)\"><text x=\"12\" y=\"25\" font-family=\"serif\" font-size=\"15\" fill=\"#111\">(D)</text><line x1=\"30\" y1=\"55\" x2=\"115\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M110,51 L116,55 L110,59\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"90\" y1=\"50\" x2=\"90\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M60,55 V35 H40\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"55\" r=\"3.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><g font-family=\"serif\" font-size=\"12\" fill=\"#111\"><text x=\"54\" y=\"73\">−2</text><text x=\"87\" y=\"73\">0</text></g></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "9",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-5-1",
+      "unitIds": [
+        "nanyi-7-2-5-1"
+      ],
+      "unitAssignmentBasis": "日常生活情境列一元一次不等式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "阿翔想買 $6$ 個戰鬥陀螺，若每個的價格是 $x$ 元，準備了 $1000$ 元還有找錢，則依題意可列出下列哪個不等式？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$6x\\ge 1000$",
+            "$6x>1000$",
+            "$6x\\le 1000$",
+            "$6x<1000$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "10",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-4-1",
+      "unitIds": [
+        "nanyi-7-2-4-1"
+      ],
+      "unitAssignmentBasis": "比例分配與分數交換比計算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知大瑜、小妤兩人身上的錢比為 $4:3$，兩人分別將自己錢的 $\\dfrac{1}{4}$ 給對方，請問交換後兩人身上的錢比為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$4:3$",
+            "$3:4$",
+            "$15:13$",
+            "$9:5$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "11",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "一元一次不等式的移項求解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "不等式 $x+8>2x-4$ 的解為下列何者？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$x>-12$",
+            "$x<4$",
+            "$x<12$",
+            "$x>12$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "12",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "不等式應用問題（天數與月曆計算）。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "小誠在暑假中打算看完一本 $550$ 頁的書籍，前兩天已經各看 $30$ 頁，從 $7$ 月 $3$ 日開始每天看 $15$ 頁，最快到哪一天可以看完整本書？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$8$ 月 $4$ 日",
+            "$8$ 月 $5$ 日",
+            "$8$ 月 $6$ 日",
+            "$8$ 月 $7$ 日"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "1",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-4-1",
+      "unitIds": [
+        "nanyi-7-2-4-1"
+      ],
+      "unitAssignmentBasis": "比例式求代數式的值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $a:b=3:7$，且 $5a+2b=58$，則 $a+b=$＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "2",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-4-1",
+      "unitIds": [
+        "nanyi-7-2-4-1"
+      ],
+      "unitAssignmentBasis": "比例式的代數假設與前後比較。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "甲、乙兩人原本身上的錢比為 $3:5$，已知甲花了 $200$ 元之後兩人身上的錢比為 $1:3$，請問若甲沒花錢換乙花了 $200$ 元之後兩人身上的錢的比應該為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "3",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-4-2",
+      "unitIds": [
+        "nanyi-7-2-4-2"
+      ],
+      "unitAssignmentBasis": "反比關係式求值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $x$ 與 $y$ 成反比，當 $x=-3$ 時，$y=15$，若 $x=20$ 時，則 $y=$＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "4",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-4-2",
+      "unitIds": [
+        "nanyi-7-2-4-2"
+      ],
+      "unitAssignmentBasis": "彈簧伸長量正比應用。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知彈簧秤在彈性限度內的伸長量與所掛物重成正比。若彈簧原長為 $15$ 公分，彈性限度為 $40$ 公克，秤 $10$ 公克重的物體時，彈簧全長為 $20$ 公分，則此彈簧秤秤 $20$ 公克重的物體時，彈簧全長為＿＿＿＿公分。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "5",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-5-1",
+      "unitIds": [
+        "nanyi-7-2-5-1"
+      ],
+      "unitAssignmentBasis": "年齡問題依題意列一元一次不等式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知兩年前爺爺 $x$ 歲，光希 $13$ 歲。如果三年後光希年齡的 $6$ 倍不小於爺爺的年齡，請列出不等式＿＿＿＿。（不必化簡）"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "6",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-5-1",
+      "unitIds": [
+        "nanyi-7-2-5-1"
+      ],
+      "unitAssignmentBasis": "購物金額列一元一次不等式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "洛湯基要買 $15$ 杯飲料，已知大杯一杯 $30$ 元，中杯一杯 $20$ 元，最後買了 $x$ 杯大杯且金額不超過 $350$ 元，則依此情況可列出不等式＿＿＿＿。（不必化簡）"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "7",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "括號與分數型一元一次不等式求解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "解下列各不等式："
+        },
+        {
+          "type": "text",
+          "text": "(1) $x-3<2(x+2)$，得解為＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(2) $-x-15\\ge \\dfrac{3}{2}(x+5)$，得解為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "8",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "幾何面積不等式與最大整數解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "有一個梯形，其上底為 $6$，下底為 $x$，高為 $3$，已知其面積不大於 $15$ 平方單位，若 $x$ 為正整數，則 $x$ 的最大整數值為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "1",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-7-2-4-1",
+      "unitIds": [
+        "nanyi-7-2-4-1"
+      ],
+      "unitAssignmentBasis": "比例尺與速率比之相向運動應用問題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "佐佐和佑佑兩位好朋友相約假日的時候要一起去騎腳踏車，他們在出發前先量了一下地圖上的腳踏車道，總長為 $12$ 公分，若此地圖的比例尺為 $1:50000$，請回答下列問題："
+        },
+        {
+          "type": "text",
+          "text": "(1) 請問實際上的腳踏車道總長為多少公里？"
+        },
+        {
+          "type": "text",
+          "text": "(2) 已知佐佐和佑佑騎腳踏車的速率比為 $3:2$，一路上都保持相同速率，若佐佐先到達終點時，佑佑距離終點還有多少公里？"
+        },
+        {
+          "type": "text",
+          "text": "(3) 若佐佐到達終點後馬上折返回頭找佑佑，保持一樣的速度，請問當兩人相遇時佐佐共騎了多少公里？"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "2",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-7-2-5-2",
+      "unitIds": [
+        "nanyi-7-2-5-2"
+      ],
+      "unitAssignmentBasis": "商業成本利潤之一元一次不等式應用。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "果果想請設計公司設計一款畢業花束並量產，已知設計費為 $2000$ 元且每束花的成本為 $180$ 元。若果果想將花束以每束 $250$ 元的價格販售，請回答下列問題："
+        },
+        {
+          "type": "text",
+          "text": "(1) 果果一開始賣出 $20$ 束，請問扣除成本後是否有賺錢呢？"
+        },
+        {
+          "type": "text",
+          "text": "(2) 接著果果總共賣出 $x$ 束，並且賺錢了，請依題意列出不等式。"
+        },
+        {
+          "type": "text",
+          "text": "(3) 若果果想全數售出後的利潤超過成本的 $3$ 成，請問他至少要準備幾束？"
+        }
+      ]
+    }
+  ]
+}

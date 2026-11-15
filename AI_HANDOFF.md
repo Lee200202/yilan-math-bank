@@ -1,7 +1,11 @@
+> 最新規則：先讀 [REVIEW_POLICY.md](handoff/REVIEW_POLICY.md)。完整AI文字直接沿用，圖形優先；不再等待全文或每頁PDF重審。
+
 # Codex／Claude 共用交接入口
 
 共用資料夾是本 Git 儲存庫，遠端為 <https://github.com/Lee200202/yilan-math-bank>。
 這是可同步的檔案橋梁，並非兩個 AI 的即時通訊連線。雲端與本機必須先 fetch，再讀最新交接檔，不能只依先前聊天或本檔中的歷史數字接手。
+
+同機實際路徑：`C:\Users\user\桌面\國中家教\yilan-math-bank`。可直接複製給其他AI的接手提示詞：[handoff/START_HERE_FOR_ANY_AI.md](handoff/START_HERE_FOR_ANY_AI.md)。外部聊天室的媒體工作包與MD回傳方式：[handoff/OTHER_CHAT_README.md](handoff/OTHER_CHAT_README.md)；全部待辦學校：[handoff/assignments/INDEX.md](handoff/assignments/INDEX.md)。
 
 ## 接手順序
 
@@ -28,6 +32,8 @@ Git 不包含忽略的 `research/metro/raw`、`research/fonts`。不可因本機
 字型完整原檔為官方 <https://data.cns11643.gov.tw/opendata/Fonts_Kai.zip> 中的 TW-Kai.ttf，放在 `research/fonts/TW-Kai.ttf`；授權與來源見 `public/fonts/`，不要複製 Windows 的標楷體字型。Python 需 `pymupdf fonttools brotli playwright`；本機瀏覽器測試使用 Chrome。
 
 `handoff/pending-papers.json` 才是所有尚未全卷完成的清單；舊 targets 僅預排了一部分可直接處理的 PDF，不涵蓋所有 Word／其他格式。`state.json` 另列未排進 targets 的 ID 及各格式數量，後續仍須把這些原卷加入，不可把五份清單跑完當作全站完成。
+
+`queues.remaining`是未認領且無來源衝突的PDF候選數；已預留給其他聊天室的六卷另見reservedOrClaimed與CLAIMS。這些卷仍算未完成，不能因預留而扣掉全站待辦。
 
 ## 原有需求（持續保留）
 

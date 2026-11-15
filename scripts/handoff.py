@@ -29,18 +29,22 @@ def snapshot():
     queues = {}
     queued_ids = set()
     blocked_ids = {p.stem for p in (ROOT / 'handoff/source-issues').glob('*.json')}
+    claims = json.loads((ROOT / 'handoff/CLAIMS.json').read_text(encoding='utf-8'))['claims']
+    reserved = {c['paperId'] for c in claims if c.get('status') in ('claimed','transcribing','repairing-figures','assigned-external','reserved-for-external-dispatch','staged-for-coordinator-review')}
     for path in sorted((ROOT / 'research/targets').glob('*.json')):
         targets = json.loads(path.read_text(encoding='utf-8'))
         if not isinstance(targets, list):
             continue
-        waiting = [t for t in targets if not (ROOT / t['outFile']).exists() and t['paperId'] not in blocked_ids]
-        queued_ids.update(t['paperId'] for t in waiting)
+        incomplete = [t for t in targets if not (ROOT / t['outFile']).exists()]
+        queued_ids.update(t['paperId'] for t in incomplete)
+        waiting = [t for t in incomplete if t['paperId'] not in blocked_ids | reserved]
         queues[path.stem] = {'remaining': len(waiting), 'next': waiting[:3]}
     return {'generatedAt': datetime.datetime.now(datetime.timezone.utc).isoformat(),
             'head': git('rev-parse', 'HEAD'), 'dataVersion': version.group(1) if version else None,
             'paperCount': len(papers), 'questionRecords': len(questions), 'usableQuestions': len(usable),
             'statuses': dict(collections.Counter(p['transcriptionStatus'] for p in papers)),
             'regions': regions, 'queues': queues, 'blockedSources': sorted(blocked_ids),
+            'reservedOrClaimed': sorted(reserved),
             'remainingByFormat': dict(collections.Counter(p.get('format', 'unknown') for p in papers if not p['transcriptionStatus'].startswith('complete'))),
             'notInPreparedQueues': [p['id'] for p in papers if not p['transcriptionStatus'].startswith('complete') and p['id'] not in queued_ids and p['id'] not in blocked_ids],
             'parked': [p.name for p in (ROOT / 'research/targets/parked').glob('*.json')],
@@ -55,7 +59,7 @@ def main():
     data = snapshot()
     summary = f"版本 {data['dataVersion']} / {data['head'][:8]}\n原卷 {data['paperCount']}；可用題 {data['usableQuestions']}；狀態 {data['statuses']}\n"
     for name, queue in data['queues'].items():
-        summary += f"{name}: 尚待 {queue['remaining']} 卷，接續 " + ', '.join(t['paperId'] for t in queue['next']) + '\n'
+        summary += f"{name}: 未認領PDF候選 {queue['remaining']} 卷，接續 " + ', '.join(t['paperId'] for t in queue['next']) + '\n'
     print(summary)
     if args.write:
         folder = ROOT / 'handoff'

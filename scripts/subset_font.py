@@ -45,6 +45,18 @@ def big5_level1():
 
 def main():
     need = bank_chars()
+    # Most later batches reuse the same Chinese glyphs. Avoid rebuilding a large
+    # font when the existing, word-aligned subset already covers the entire bank.
+    stamp_path = ROOT / 'public/fonts/subset-coverage.json'
+    if OUT.exists() and OUT.with_suffix('.woff2').exists() and stamp_path.exists():
+        cached = TTFont(OUT)
+        if all(ord(c) in cached.getBestCmap() for c in need) and all(n % 2 == 0 for n in cached['loca'].locations):
+            import hashlib
+            stamp = json.loads(stamp_path.read_text(encoding='utf-8'))
+            stamp.update(questionsSha256=hashlib.sha256((ROOT/'public/data/questions.json').read_bytes().replace(b'\r\n',b'\n')).hexdigest(),bankChars=len(need),ttfBytes=OUT.stat().st_size)
+            stamp_path.write_text(json.dumps(stamp,ensure_ascii=False,indent=1),encoding='utf-8')
+            print(json.dumps({'fontReused':True,**stamp}))
+            return
     ui = set('　 八七九年級上下學期第一二三次段考練習選擇題填充非未寫計算過程不給分答＿（）、，。：；？！「」『』…—－＋×÷＝＜＞±√°％')
     keep = need | ui | big5_level1() | {chr(c) for c in range(0x20, 0x7F)} | set('²³¹⁰′″←→↑↓∠△□◇○◎☆★■▇█▓▲▼√∞≠≦≧≒≈∴∵∥⊥')
     font = TTFont(SRC)

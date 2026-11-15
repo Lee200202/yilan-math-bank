@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "all 1453 targets, all 19 schools",
+    "Chinese school + grade/semester filters",
+    "original PDF bytes match pinned SHA256",
+    "actual original-page PNG endpoint",
+    "all 60 Nanyi units",
+    "invalid MD rejected without publication",
+    "foreign Origin rejected"
+  ],
+  "passed": 7,
+  "published": false,
+  "serverStoppedAfterTest": true,
+  "note": "Successful valid-MD staging is separately tested with a real whole-paper transcript in an isolated temporary inbox by tests/exchange.test.mjs."
+}

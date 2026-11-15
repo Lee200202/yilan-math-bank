@@ -1,0 +1,186 @@
+[
+  {
+    "paperId": "metro-taichung-c022227cebcf9962-f51e2d09",
+    "verdict": "fixed",
+    "originalPagesViewed": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "questionsChecked": 23,
+    "findings": [
+      "fill1(B)、fill3(E)缺獨立共用條件，已複製必要題幹；fill1(A)/(B)中點與BFDE重繪；choice5角平分線端點校正；written2六箏形改為中心60°、外角90°並保留邊長2；補數學選項$標記並移除原配分。"
+    ],
+    "transcriptSha256": "8b52e3b2ed8abd53e8ab381a5a3229a2152ddfc5fd83b9313ac5215d16b363ed",
+    "sourceSha256": "f51e2d09620a8eb4bde9200513b9ac2e8938a54424834dcbc055bd0e8a2e5d23",
+    "sourcePath": "public/papers/metro-taichung-c022227cebcf9962-f51e2d09.pdf",
+    "transcriptPath": "research/metro/transcribed/metro-taichung-c022227cebcf9962-f51e2d09.json",
+    "checks": "check_transcript.py OK",
+    "releaseBlocked": false
+  },
+  {
+    "paperId": "metro-taoyuan-a83099fd238f1cb9",
+    "verdict": "fixed",
+    "originalPagesViewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "questionsChecked": 23,
+    "findings": [
+      "卷首、重複首頁及答案卷均為第二次；舊資料誤登3、曾為過檢查填3，printedSlot已還原2並新增source-issues存證，待協調metadata重建。",
+      "全部23題核對；原PDF p1/p2重複、p4/p6空白，非選題在p5答案卷；累積人數圖改同一線性刻度，保留原污損，不揭示隱藏標值。",
+      "協調者已目視存證並確認同SHA僅一來源，套slot-overrides exam2重建papers；本卷重新checker OK。"
+    ],
+    "transcriptSha256": "f993b48021c597cdfccf07340fe8c883f4de2c70984d2510b5db1b756d95d8ef",
+    "sourceSha256": "30555c6c223b4db25a16f7dcb61af48c9c928629c45054f6254c269bc9d9070b",
+    "sourcePath": "public/papers/metro-taoyuan-a83099fd238f1cb9.pdf",
+    "transcriptPath": "research/metro/transcribed/metro-taoyuan-a83099fd238f1cb9.json",
+    "checks": "check_transcript.py OK after coordinator corrected slot-overrides to exam2; conflict evidence retained",
+    "releaseBlocked": false
+  },
+  {
+    "paperId": "metro-new_taipei-e2c17f6cb4474c24",
+    "verdict": "fixed",
+    "originalPagesViewed": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "questionsChecked": 20,
+    "findings": [
+      "choice17原僅題問，已複製16/17共用條件與完整圖；choice8等分尺規圖PC/QB真平行且AP:AQ=2:7；choice12圖線直角及等面積條件校正；choice16/17圖AC=AF比例校正；移除配分、數學選項標記統一，難度按多步推理修訂。"
+    ],
+    "transcriptSha256": "9a3ee44bd94b0913484d5fe0cbe714b0838598a4e1879354fed7e3560bb2fbca",
+    "sourceSha256": "f71b4f2fc9c287c1e229ca1f83dae5e461a22471f4f0141d50aa3e616686dee8",
+    "sourcePath": "public/papers/metro-new_taipei-e2c17f6cb4474c24.pdf",
+    "transcriptPath": "research/metro/transcribed/metro-new_taipei-e2c17f6cb4474c24.json",
+    "checks": "check_transcript.py OK",
+    "releaseBlocked": false
+  },
+  {
+    "paperId": "metro-taichung-4180c88b4eef0001-54c01c80",
+    "verdict": "fixed",
+    "originalPagesViewed": [
+      1,
+      2,
+      3
+    ],
+    "questionsChecked": 32,
+    "findings": [
+      "32題完整對照原3頁；科學記號是非2/填1誤分指數律，已改nanyi-7-1-1-4。原卷choice4連乘排版多乘號的既有轉寫處理保留並在reviewNote明載，無改動實際數字。"
+    ],
+    "transcriptSha256": "3a6d6fdf54d4ca74d99c923a2eedfb0535b940453c766acc391e56200cbdf2c1",
+    "sourceSha256": "54c01c80e1ce37e0c605d658c6e83da07815c5d6bd92466f42f6dc9fad1a676f",
+    "sourcePath": "research/metro/raw/metro-taichung-4180c88b4eef0001-54c01c80.pdf",
+    "transcriptPath": "research/metro/transcribed/metro-taichung-4180c88b4eef0001-54c01c80.json",
+    "checks": "check_transcript.py OK",
+    "releaseBlocked": false
+  },
+  {
+    "paperId": "metro-taichung-e625830e7b498df5-b44837ec",
+    "verdict": "fixed",
+    "originalPagesViewed": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "questionsChecked": 25,
+    "findings": [
+      "25題完整對照原5頁，choice12 D點原浮離AB已還原AD:DB=1:3；fill2補DC虛線並讓EF平行DC；fill5方形頂點落AC；fill6原為三個錯比例長方形，還原真正正方形、F/H/J共線；written1/2垂直構圖與已知長度一致；數學選項與難度修訂。"
+    ],
+    "transcriptSha256": "e2c704a219195d5b2bd0ad1a35571ba4267eb43fd3355bea43c89233371da857",
+    "sourceSha256": "b44837ec0d59e0c73fafb013e7ae49b58ac2943c006c508f4edc5c2ee45965b9",
+    "sourcePath": "public/papers/metro-taichung-e625830e7b498df5-b44837ec.pdf",
+    "transcriptPath": "research/metro/transcribed/metro-taichung-e625830e7b498df5-b44837ec.json",
+    "checks": "check_transcript.py OK",
+    "releaseBlocked": false
+  },
+  {
+    "paperId": "metro-taipei-94f246461699ab6b",
+    "verdict": "fixed",
+    "originalPagesViewed": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "questionsChecked": 29,
+    "findings": [
+      "29題完整對照原4頁，原卷函數主題依108課綱映射八下單元合理；三天平積木/方向、數線端點、表格與費率核對相符。恢復綜合1(3)散布圖原有兩條鉛直線與20公斤水平線。"
+    ],
+    "transcriptSha256": "546d017ba9dd43f58201e0f99a027c197f2c2f857ca0456d8fadfaa48025da99",
+    "sourceSha256": "b703ae631bc63d1852810cff0b59bad6243a9f0a9e958896ba75b250c098ced8",
+    "sourcePath": "research/metro/raw/metro-taipei-94f246461699ab6b.pdf",
+    "transcriptPath": "research/metro/transcribed/metro-taipei-94f246461699ab6b.json",
+    "checks": "check_transcript.py OK",
+    "releaseBlocked": false
+  },
+  {
+    "paperId": "metro-taoyuan-124b10db3fe20584",
+    "verdict": "fixed",
+    "reviewScope": "figures-only per user update",
+    "originalPagesViewed": [
+      1,
+      2,
+      3
+    ],
+    "questionsChecked": 21,
+    "findings": [
+      "原8積木只畫3個，按原卷補為3/2/1階梯加兩個底積木；所有投影格與四選項逐格比對。",
+      "對稱軸原不過邊中點，已修；fill7原卷第一象限誤轉第二，直接影響作答，已還原。"
+    ],
+    "transcriptSha256": "b2273a15b2c4145d7c0b85b1281299e65d14882acad8680a247d06536b66fcdc",
+    "sourceSha256": "21aea8ac44beca7a630290ccf8f08f3d677393191dc88c17c6519ca74427182b",
+    "sourcePath": "public/papers/metro-taoyuan-124b10db3fe20584.pdf",
+    "transcriptPath": "research/metro/transcribed/metro-taoyuan-124b10db3fe20584.json",
+    "checks": "check_transcript.py OK",
+    "releaseBlocked": false
+  },
+  {
+    "paperId": "1UKzQxD5vS7Pgr7D8eyGj5AxRUF5EjYS8",
+    "verdict": "fixed",
+    "reviewScope": "figures-only per user update",
+    "originalPagesViewed": [
+      1,
+      2
+    ],
+    "questionsChecked": 15,
+    "findings": [
+      "修復圓上頂點浮離、三邊相切圓穿出三角形、視線未經牆頂及AD/BC未平行；圖形按照原有數據精確構造。",
+      "fill12原弧比AB:AD誤為線段比，已還原wideparen並補共同圓圖及必要條件。"
+    ],
+    "transcriptSha256": "eb1cafe3c141a06e33e99fbfd9fe277acd5f44f6ce21125e9dda4465dabd63c8",
+    "sourceSha256": "473d81b728fe7ebe597db364b852c3bed5e0e004040e8fe7bb622d7c89724b4c",
+    "sourcePath": "public/papers/1UKzQxD5vS7Pgr7D8eyGj5AxRUF5EjYS8.pdf",
+    "transcriptPath": "research/yilan/transcribed/1UKzQxD5vS7Pgr7D8eyGj5AxRUF5EjYS8.json",
+    "checks": "check_transcript.py OK",
+    "releaseBlocked": false
+  },
+  {
+    "paperId": "ld-110-1-2-7",
+    "verdict": "pass",
+    "reviewScope": "figures-only per user update",
+    "originalPagesViewed": [
+      1,
+      2
+    ],
+    "questionsChecked": 22,
+    "findings": [
+      "兩原頁已實看，22題均無必要SVG/表格/投影圖；本次依新要求只做圖形/圖形缺漏篩查，未重新逐字複核純文字題。"
+    ],
+    "transcriptSha256": "73e74d45171d8c40345d8a52ec206071f30436d5afbfc45e3d96c1769fd84bfa",
+    "sourceSha256": "2b95240c9c1a884f3915064acb80a4a370a005880631dea07c9777fbb34a5fad",
+    "sourcePath": "public/papers/ld-110-1-2-7.pdf",
+    "transcriptPath": "research/yilan/transcribed/ld-110-1-2-7.json",
+    "checks": "check_transcript.py OK",
+    "releaseBlocked": false
+  }
+]

@@ -7,3 +7,5 @@
 原卷與字型可能被.gitignore排除，須附官方下載與同SHA復原方法。PDF示例、targets清單與幾份成功卷都不能當作全量。遇來源卷首衝突記證據，停用衝突目標並接續其他卷，不從章節猜學期。
 
 機器驗收題數、題號、無raster、單字型、公式錯誤、SVG邊界、嵌入字型輪廓可解碼、PDF還原ID/順序/分數；人或AI逐頁實看所有輸出頁才能補足圖形條件、遮字、缺字與不必要留白。記錄所看頁面雜湊，修改相關資料後重驗，不准只抽兩頁而稱整批通過。
+
+分派外部聊天室時，附每卷原檔、所有頁PNG、SHA manifest、單元表、AI提示詞與MD範本，讓對方直接用已備媒體。回傳MD須有全卷可讀題文與唯一JSON區塊、SVG內嵌，不把普通圖片當正式題目。先驗證並存incoming待審，再由協調者原卷／圖形／PDF驗收；草稿與部分交付不能標完成。雲端聊天室不能直接讀本機路徑或localhost API，應提供GitHub共用檔或ZIP／MD附件。蘭卷現有入口：handoff/START_HERE_FOR_ANY_AI.md、OTHER_CHAT_README.md；工具scripts/handoff_exchange.py的inventory／pack／intake／serve，不自動發布。

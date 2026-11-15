@@ -1,0 +1,184 @@
+[
+ {
+  "paperId": "metro-kaohsiung-4b70fe3ce1dec252",
+  "school": "高雄市立大灣國中",
+  "slot": "113-2-G8-E3",
+  "verdict": "fixed",
+  "originalPagesViewed": 4,
+  "questionsChecked": 25,
+  "findings": [
+   {
+    "question": "choice-14",
+    "category": "text",
+    "severity": "major",
+    "original": "▱ABCD（平行四邊形符號）",
+    "transcribed": "$\\square ABCD$（讀作一般四邊形，失去平行四邊形條件）",
+    "action": "改為「平行四邊形 $ABCD$」"
+   },
+   {
+    "question": "choice-19",
+    "category": "text",
+    "severity": "major",
+    "original": "▱ABCD 面積為24",
+    "transcribed": "$\\square ABCD$",
+    "action": "改為「平行四邊形 $ABCD$」（求 △CDO 需平行四邊形條件）"
+   },
+   {
+    "question": "choice-21",
+    "category": "text",
+    "severity": "major",
+    "original": "▱ABCD 中…▱ABCD 之周長",
+    "transcribed": "$\\square ABCD$（兩處）",
+    "action": "兩處改為「平行四邊形 $ABCD$」"
+   },
+   {
+    "question": "choice-1",
+    "category": "text",
+    "severity": "minor",
+    "original": "線段記號 AB＝AD，BC＝CD（上有橫線）",
+    "transcribed": "$AB=AD$，$BC=CD$ 無線段記號",
+    "action": "補 \\overline"
+   },
+   {
+    "question": "choice-14",
+    "category": "figure",
+    "severity": "minor",
+    "original": "110° 與 8公分 標示不壓線",
+    "transcribed": "110°、8公分 文字壓在 AB 與 AD 上，排版圖中 AE 段與 AB 段被文字遮斷；角弧起點不在 AB 上",
+    "action": "移開標籤、角弧改由 AB 方向畫到 AD，viewBox 左移"
+   },
+   {
+    "question": "choice-20",
+    "category": "figure",
+    "severity": "minor",
+    "original": "10、12 標在邊旁",
+    "transcribed": "10、12 文字壓到 AB、CD 邊（排版圖邊被遮斷）",
+    "action": "移開標籤"
+   },
+   {
+    "question": "choice-21",
+    "category": "figure",
+    "severity": "minor",
+    "original": "O 標在交點旁",
+    "transcribed": "O 壓在對角線上",
+    "action": "移到兩對角線上方空隙"
+   },
+   {
+    "question": "choice-22",
+    "category": "figure",
+    "severity": "minor",
+    "original": "B、C 標在頂點外側",
+    "transcribed": "B 壓在 FA 線、C 壓在 C 頂點上",
+    "action": "移開標籤"
+   },
+   {
+    "question": "choice-12",
+    "category": "figure",
+    "severity": "minor",
+    "original": "第一圖 E、F 只是邊上的點記號，沒有 EF 線段",
+    "transcribed": "第一圖畫了整條 EF 線",
+    "action": "改為 E、F 處的小刻記"
+   },
+   {
+    "question": "choice-1/21/24",
+    "category": "unit",
+    "severity": "minor",
+    "original": "需用畢氏定理",
+    "transcribed": "只標 nanyi-8-2-4-3",
+    "action": "unitIds 加 nanyi-8-1-2-3"
+   }
+  ]
+ },
+ {
+  "paperId": "metro-new_taipei-7cd592b6bb5523d9",
+  "school": "新北市立三和國中",
+  "slot": "114-1-G9-E3",
+  "verdict": "fixed",
+  "originalPagesViewed": 4,
+  "questionsChecked": 25,
+  "findings": [
+   {
+    "question": "choice-14",
+    "category": "figure",
+    "severity": "major",
+    "original": "Y 為 AE 與 BN 交點、Z 為 BN 與 CM 交點、X 為 AE 與 CM 交點",
+    "transcribed": "Y 只在 AE 上、Z 只在 CM 上，兩點都不在 BN 上（偏離約 20 單位），學生無法判讀哪一點是哪兩線的交點",
+    "action": "以解析幾何重算三交點並移動 X、Y、Z 點與標籤"
+   },
+   {
+    "question": "choice-24",
+    "category": "figure",
+    "severity": "major",
+    "original": "圖中只有切線段 AE、AF 與圓 G，∠B=40°、∠C=45°（角度只標在圖上）",
+    "transcribed": "多畫了一條不存在的中線 AD 穿過 G；三角形畫成等腰，∠1、∠2 標籤擠在線上",
+    "action": "依 ∠B=40°、∠C=45° 重畫：G 為重心、半徑 GD、真正切點 E、F，加上 ∠1、∠2 角弧（量得 14.5°+20.5°=35°，與題意一致）"
+   },
+   {
+    "question": "choice-23",
+    "category": "figure",
+    "severity": "minor",
+    "original": "圖中畫有線段 AQ、AP",
+    "transcribed": "只有 P、Q 兩點，沒有 AQ、AP；Q 標籤壓在點上",
+    "action": "補畫 AQ、AP，移開 Q 標籤"
+   },
+   {
+    "question": "choice-10",
+    "category": "figure",
+    "severity": "minor",
+    "original": "CE ⊥ BD，E 為垂足",
+    "transcribed": "E 不是垂足（CE 與 BD 夾角約 80°），直角記號位置錯",
+    "action": "改用真正垂足並重畫直角記號"
+   },
+   {
+    "question": "choice-5",
+    "category": "figure",
+    "severity": "minor",
+    "original": "24公分 標在中線旁，圖二 手指在下",
+    "transcribed": "24公分 壓在中線上，「圖二」壓在手指上",
+    "action": "移開標籤"
+   },
+   {
+    "question": "choice-15",
+    "category": "figure",
+    "severity": "minor",
+    "original": "A、B、C 標在交點旁",
+    "transcribed": "A、B、C 文字壓在 L₃、L₁ 線上",
+    "action": "移開標籤"
+   }
+  ]
+ },
+ {
+  "paperId": "metro-new_taipei-48000408be9d1cbf-e11d08e9",
+  "school": "新北市立五峰國民中學",
+  "slot": "115-1-G7-E1",
+  "verdict": "fixed",
+  "originalPagesViewed": 2,
+  "questionsChecked": 23,
+  "findings": [
+   {
+    "question": "choice-9",
+    "category": "figure",
+    "severity": "major",
+    "original": "俯視圖中圓面積 丙 > 丁 > 乙 > 甲（丁區介於乙、丙之間，答案 1.7×10⁷）",
+    "transcribed": "乙 r=14 大於 丁 r=12，圖會導出 丁 介於甲、乙之間（答案變成 1.7×10⁶）；乙 標籤擠在小圓內",
+    "action": "依原卷比例改半徑 丙21、丁12、乙8、甲2.5，標籤移到各圓上方"
+   },
+   {
+    "question": "written-1",
+    "category": "text",
+    "severity": "minor",
+    "original": "配分（8 分）",
+    "transcribed": "題幹保留「（$8$ 分）」",
+    "action": "刪除配分註記"
+   },
+   {
+    "question": "written-2",
+    "category": "text",
+    "severity": "minor",
+    "original": "配分（4 分）、（各 2 分）",
+    "transcribed": "小題保留配分註記",
+    "action": "刪除配分註記（保留「請列出完整算式」等作答要求）"
+   }
+  ]
+ }
+]

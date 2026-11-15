@@ -1,0 +1,205 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "蘭卷 AI交接待審 API",
+    "version": "1.0.0",
+    "description": "Localhost only. Import stages data for coordinator review; no publication endpoint."
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:8787"
+    }
+  ],
+  "paths": {
+    "/api/targets": {
+      "get": {
+        "summary": "所有未全卷完成原卷",
+        "parameters": [
+          {
+            "name": "school",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "region",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "year",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "semester",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "grade",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "exam",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "format",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "count與targets陣列"
+          }
+        }
+      }
+    },
+    "/api/papers/{paperId}": {
+      "get": {
+        "summary": "原卷metadata與來源SHA",
+        "parameters": [
+          {
+            "name": "paperId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "原卷metadata與來源SHA"
+          },
+          "400": {
+            "description": "未知paperId或原檔疑義"
+          }
+        }
+      }
+    },
+    "/api/papers/{paperId}/source": {
+      "get": {
+        "summary": "SHA已核對的原始檔",
+        "parameters": [
+          {
+            "name": "paperId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "SHA已核對的原始檔"
+          },
+          "400": {
+            "description": "未知paperId或原檔疑義"
+          }
+        }
+      }
+    },
+    "/api/papers/{paperId}/pages/{page}.png": {
+      "get": {
+        "summary": "PDF逐頁PNG",
+        "parameters": [
+          {
+            "name": "paperId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "page",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "image/png"
+          },
+          "409": {
+            "description": "原檔非PDF，須另轉檔核對"
+          }
+        }
+      }
+    },
+    "/api/units": {
+      "get": {
+        "summary": "南一全部單元",
+        "responses": {
+          "200": {
+            "description": "單元陣列"
+          }
+        }
+      }
+    },
+    "/api/import": {
+      "post": {
+        "summary": "回傳MD進待審區，不發布",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "markdown"
+                ],
+                "properties": {
+                  "filename": {
+                    "type": "string"
+                  },
+                  "markdown": {
+                    "type": "string",
+                    "maxLength": 10000000
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "staged-for-coordinator-review，published=false"
+          },
+          "400": {
+            "description": "資料／來源／草稿／重複交付不符合"
+          },
+          "403": {
+            "description": "只接受本機Host及Origin"
+          },
+          "415": {
+            "description": "需application/json"
+          }
+        }
+      }
+    }
+  }
+}

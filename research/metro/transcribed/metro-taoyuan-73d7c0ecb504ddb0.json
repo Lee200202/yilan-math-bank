@@ -1,0 +1,515 @@
+{
+  "paperId": "metro-taoyuan-73d7c0ecb504ddb0",
+  "sourceSha256": "23698481daf6ea64e28c3115c0c6c6cacaadddb85453683979bcf07f23fcf92d",
+  "printedHeader": "桃園市立自強國中114學年度八年級第二學期數學科第一次定期考試卷",
+  "printedSlot": {
+    "year": 114,
+    "semester": 2,
+    "grade": 8,
+    "exam": 1
+  },
+  "printedCounts": "一、選擇題10題(每題4分，共40分)；二、填充題10題(每格4分，共40分)；三、非選題2題(每題10分共20分) 合計100分",
+  "visualReviewComplete": true,
+  "reviewNote": "桃園市立自強國中114學年度第二學期八年級第1次段考。全卷共22題（選擇10題、填充10格、非選擇2題各2小題），純向量繪製吸管拼圖、數字金字塔堆疊、十字等差方格、通話費分段線型圖。",
+  "expectedTypes": {
+    "choice": 10,
+    "fill": 10,
+    "written": 2
+  },
+  "questions": [
+    {
+      "type": "choice",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "觀察數列的重複循環規律求未知項。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知一數列 $4, 5, 6, 1, 4, 5, 6, \\square, 4, 5, 6, 1$，依某種規律排列而成，求 $\\square$ 的值為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$4$",
+            "$3$",
+            "$2$",
+            "$1$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "吸管排成相連正方形的數量規律與等差數列應用。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，用等長的吸管依次向右排出相連的正方形，如果要排出第 $11$ 個圖形，總共需要幾根吸管？"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 90\" width=\"540\" height=\"90\"><g transform=\"translate(20, 10)\"><rect x=\"0\" y=\"0\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#333333\" stroke-width=\"2.5\" rx=\"1\"/><text x=\"20\" y=\"60\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#333333\">第 1 個</text></g><line x1=\"75\" y1=\"30\" x2=\"91\" y2=\"30\" stroke=\"#333333\" stroke-width=\"2\"/><polygon points=\"90,26 98,30 90,34\" fill=\"#333333\"/><g transform=\"translate(110, 10)\"><rect x=\"0\" y=\"0\" width=\"80\" height=\"40\" fill=\"none\" stroke=\"#333333\" stroke-width=\"2.5\" rx=\"1\"/><line x1=\"40\" y1=\"0\" x2=\"40\" y2=\"40\" stroke=\"#333333\" stroke-width=\"2.5\"/><text x=\"40\" y=\"60\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#333333\">第 2 個</text></g><line x1=\"205\" y1=\"30\" x2=\"221\" y2=\"30\" stroke=\"#333333\" stroke-width=\"2\"/><polygon points=\"220,26 228,30 220,34\" fill=\"#333333\"/><g transform=\"translate(240, 10)\"><rect x=\"0\" y=\"0\" width=\"120\" height=\"40\" fill=\"none\" stroke=\"#333333\" stroke-width=\"2.5\" rx=\"1\"/><line x1=\"40\" y1=\"0\" x2=\"40\" y2=\"40\" stroke=\"#333333\" stroke-width=\"2.5\"/><line x1=\"80\" y1=\"0\" x2=\"80\" y2=\"40\" stroke=\"#333333\" stroke-width=\"2.5\"/><text x=\"60\" y=\"60\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#333333\">第 3 個</text></g><line x1=\"375\" y1=\"30\" x2=\"391\" y2=\"30\" stroke=\"#333333\" stroke-width=\"2\"/><polygon points=\"390,26 398,30 390,34\" fill=\"#333333\"/><text x=\"415\" y=\"35\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"20\" fill=\"#333333\">……</text></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$32$",
+            "$33$",
+            "$34$",
+            "$35$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "3",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "等差數列各項同乘以一數後的公差變化。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若一等差數列的公差為 $d$，則將各項值都乘以 $2$ 之後，新數列的變化為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "變成等比數列",
+            "依然為等差數列，公差為 $\\dfrac{d}{2}$",
+            "依然為等差數列，公差為 $d$",
+            "依然為等差數列，公差為 $2d$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "4",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-2",
+      "unitIds": [
+        "nanyi-8-2-1-2",
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "判斷各級數是否為等差級數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "以下何者為等差級數？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$1+5+25+125+625$",
+            "$(-\\dfrac{1}{2})+(-\\dfrac{1}{3})+(-\\dfrac{1}{6})+0+\\dfrac{1}{6}+\\dfrac{1}{3}+\\dfrac{1}{2}$",
+            "$1+5+6+11+17$",
+            "$1+2+3+2+1$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "5",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-2",
+      "unitIds": [
+        "nanyi-8-2-1-2"
+      ],
+      "unitAssignmentBasis": "等差級數前 $n$ 項和公式列式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "計算 $1+3+5+7+\\dots+19$ 的和，則下列哪一個列式是正確的？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$\\dfrac{10}{2}[2+(10-1)\\times 2]$",
+            "$\\dfrac{9}{2}(1+19)$",
+            "$\\dfrac{19}{2}(1+19)$",
+            "$\\dfrac{19}{2}[1+(10-1)\\times 2]$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "6",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-2",
+      "unitIds": [
+        "nanyi-8-2-1-2"
+      ],
+      "unitAssignmentBasis": "利用首項與公差表示等差級數前 $n$ 項和。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若一等差級數的前 $4$ 項分別為 $a$、$a+d$、$a+2d$、$a+3d$，則此等差級數的前 $40$ 項之和為多少？(以 $a$、$d$ 表示)"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$40a+780d$",
+            "$20a+200d$",
+            "$40a+400d$",
+            "$20a+390d$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "7",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "等比數列公比與項的求值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $-3, 6, a, b$ 成等比數列，則 $a+b=$？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$12$",
+            "$-12$",
+            "$36$",
+            "$-36$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "8",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "等比數列各項同乘以一數後的公比變化。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若一等比數列的公比為 $r$，則將各項的值都乘上 $3$ 之後，新數列的變化為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "依然為等比數列，公比為 $r+3$",
+            "依然為等比數列，公比為 $3r$",
+            "依然為等比數列，公比為 $r$",
+            "不是等比數列"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "9",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "從對應表判斷變數間是否構成函數關係（一對多非函數）。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列關於 $x$、$y$ 之間的對應關係，哪一組的 $y$ 不是 $x$ 的函數？"
+        },
+        {
+          "type": "optionFigures",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 150\" width=\"480\" height=\"150\"><g transform=\"translate(20, 15)\"><text x=\"0\" y=\"32\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"15\" fill=\"#000000\">(A)</text><g transform=\"translate(30, 0)\"><rect x=\"0\" y=\"0\" width=\"160\" height=\"50\" fill=\"none\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"0\" y1=\"25\" x2=\"160\" y2=\"25\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"0\" x2=\"40\" y2=\"50\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"0\" x2=\"80\" y2=\"50\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"0\" x2=\"120\" y2=\"50\" stroke=\"#333333\" stroke-width=\"1.5\"/><text x=\"20\" y=\"18\" font-family=\"sans-serif\" font-style=\"italic\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">x</text><text x=\"60\" y=\"18\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">1</text><text x=\"100\" y=\"18\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">2</text><text x=\"140\" y=\"18\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">3</text><text x=\"20\" y=\"43\" font-family=\"sans-serif\" font-style=\"italic\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">y</text><text x=\"60\" y=\"43\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">3</text><text x=\"100\" y=\"43\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">2</text><text x=\"140\" y=\"43\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">1</text></g></g><g transform=\"translate(250, 15)\"><text x=\"0\" y=\"32\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"15\" fill=\"#000000\">(B)</text><g transform=\"translate(30, 0)\"><rect x=\"0\" y=\"0\" width=\"160\" height=\"50\" fill=\"none\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"0\" y1=\"25\" x2=\"160\" y2=\"25\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"0\" x2=\"40\" y2=\"50\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"0\" x2=\"80\" y2=\"50\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"0\" x2=\"120\" y2=\"50\" stroke=\"#333333\" stroke-width=\"1.5\"/><text x=\"20\" y=\"18\" font-family=\"sans-serif\" font-style=\"italic\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">x</text><text x=\"60\" y=\"18\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">3</text><text x=\"100\" y=\"18\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">3</text><text x=\"140\" y=\"18\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">3</text><text x=\"20\" y=\"43\" font-family=\"sans-serif\" font-style=\"italic\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">y</text><text x=\"60\" y=\"43\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">4</text><text x=\"100\" y=\"43\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">5</text><text x=\"140\" y=\"43\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">6</text></g></g><g transform=\"translate(20, 85)\"><text x=\"0\" y=\"32\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"15\" fill=\"#000000\">(C)</text><g transform=\"translate(30, 0)\"><rect x=\"0\" y=\"0\" width=\"160\" height=\"50\" fill=\"none\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"0\" y1=\"25\" x2=\"160\" y2=\"25\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"0\" x2=\"40\" y2=\"50\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"0\" x2=\"80\" y2=\"50\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"0\" x2=\"120\" y2=\"50\" stroke=\"#333333\" stroke-width=\"1.5\"/><text x=\"20\" y=\"18\" font-family=\"sans-serif\" font-style=\"italic\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">x</text><text x=\"60\" y=\"18\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">1</text><text x=\"100\" y=\"18\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">2</text><text x=\"140\" y=\"18\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">3</text><text x=\"20\" y=\"43\" font-family=\"sans-serif\" font-style=\"italic\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">y</text><text x=\"60\" y=\"43\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">1</text><text x=\"100\" y=\"43\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">1</text><text x=\"140\" y=\"43\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">1</text></g></g><g transform=\"translate(250, 85)\"><text x=\"0\" y=\"32\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"15\" fill=\"#000000\">(D)</text><g transform=\"translate(30, 0)\"><rect x=\"0\" y=\"0\" width=\"160\" height=\"50\" fill=\"none\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"0\" y1=\"25\" x2=\"160\" y2=\"25\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"0\" x2=\"40\" y2=\"50\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"0\" x2=\"80\" y2=\"50\" stroke=\"#333333\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"0\" x2=\"120\" y2=\"50\" stroke=\"#333333\" stroke-width=\"1.5\"/><text x=\"20\" y=\"18\" font-family=\"sans-serif\" font-style=\"italic\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">x</text><text x=\"60\" y=\"18\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">4</text><text x=\"100\" y=\"18\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">5</text><text x=\"140\" y=\"18\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">6</text><text x=\"20\" y=\"43\" font-family=\"sans-serif\" font-style=\"italic\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">y</text><text x=\"60\" y=\"43\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">1</text><text x=\"100\" y=\"43\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">2</text><text x=\"140\" y=\"43\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">3</text></g></g></svg>",
+          "maxHeight": 140
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "10",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "依據漏水量與時間的關係列出函數式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "某自來水管因地震破裂，導致每分鐘漏出自來水 $20$ 公升，如果 $x$ 分鐘後共漏出 $y$ 公升的自來水，則 $x$ 與 $y$ 的關係式為下列何者？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$y=\\dfrac{20}{x}$",
+            "$y=20+x$",
+            "$y=20x$",
+            "$y=\\dfrac{x}{20}$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "1",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "由等差數列的兩項求首項與公差之和。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "有一等差數列的第 $3$ 項為 $42$，第 $6$ 項為 $33$，則首項與公差之和為多少？ ＿＿＿＿"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "2",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "由等差數列的連續項差推算任意兩項差。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "等差數列 $a_1, a_2, a_3, \\dots, a_n$ 中，若 $a_5-a_4=8$，則 $a_{400}-a_{20}=?$ ＿＿＿＿"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "3",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "數字堆疊陣列之項數規律與末項計算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "觀察以下數字堆疊，請問第 $11$ 列最右邊的數字為何？ ＿＿＿＿"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 160\" width=\"380\" height=\"160\"><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#000000\" text-anchor=\"middle\"><text x=\"170\" y=\"24\">1</text><text x=\"290\" y=\"24\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\">第一列</text><text x=\"140\" y=\"52\">2</text><text x=\"170\" y=\"52\">3</text><text x=\"200\" y=\"52\">4</text><text x=\"290\" y=\"52\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\">第二列</text><text x=\"110\" y=\"80\">9</text><text x=\"140\" y=\"80\">8</text><text x=\"170\" y=\"80\">7</text><text x=\"200\" y=\"80\">6</text><text x=\"230\" y=\"80\">5</text><text x=\"290\" y=\"80\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\">第三列</text><text x=\"80\" y=\"108\">10</text><text x=\"110\" y=\"108\">11</text><text x=\"140\" y=\"108\">12</text><text x=\"170\" y=\"108\">13</text><text x=\"200\" y=\"108\">14</text><text x=\"230\" y=\"108\">15</text><text x=\"260\" y=\"108\">16</text><text x=\"315\" y=\"108\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\">第四列</text><circle cx=\"170\" cy=\"125\" r=\"1.5\" fill=\"#000000\"/><circle cx=\"170\" cy=\"133\" r=\"1.5\" fill=\"#000000\"/><circle cx=\"170\" cy=\"141\" r=\"1.5\" fill=\"#000000\"/><circle cx=\"170\" cy=\"149\" r=\"1.5\" fill=\"#000000\"/></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "4",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "十字方格之等差中項應用求總和。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，橫列有 $7$ 個方格，直列有 $5$ 個方格，若在每個方格內均填入一個數字，使直列方格內的數字由上而下成等差數列，橫列方格內的數字由左而右成等差數列，已知共同方格內的數字為 $25$，則空白方格內所有數字的和為多少？ ＿＿＿＿"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 200\" width=\"280\" height=\"200\"><g fill=\"none\" stroke=\"#222222\" stroke-width=\"1.8\"><rect x=\"20\" y=\"80\" width=\"34\" height=\"34\"/><rect x=\"54\" y=\"80\" width=\"34\" height=\"34\"/><rect x=\"88\" y=\"80\" width=\"34\" height=\"34\"/><rect x=\"122\" y=\"80\" width=\"34\" height=\"34\"/><rect x=\"156\" y=\"80\" width=\"34\" height=\"34\"/><rect x=\"190\" y=\"80\" width=\"34\" height=\"34\"/><rect x=\"224\" y=\"80\" width=\"34\" height=\"34\"/><rect x=\"122\" y=\"12\" width=\"34\" height=\"34\"/><rect x=\"122\" y=\"46\" width=\"34\" height=\"34\"/><rect x=\"122\" y=\"114\" width=\"34\" height=\"34\"/><rect x=\"122\" y=\"148\" width=\"34\" height=\"34\"/></g><text x=\"139\" y=\"103\" font-family=\"sans-serif\" font-size=\"18\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000000\">25</text></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "5",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "求等比數列各未知項及其總和。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "有一等比數列是 $2, x, y, z, 162, -486$，則此數列中的 $x+y+z=$ ＿＿＿＿"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "6",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "等比數列在生物細菌繁殖週期的應用。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "根據醫學研究，細菌繁殖速度之快是非常驚人的。已知在最佳條件下(合適的溫度、濕度)，大腸桿菌的繁殖週期為每 $30$ 分鐘進行一次無性生殖細胞分裂。例如：一個受到汙染的食物上面目前有 $1$ 個大腸桿菌，則經過 $30$ 分鐘後，將滋生為 $2$ 個，再經過 $30$ 分鐘後，將滋生為 $4$ 個，……，以此類推。某天，林博士透過顯微鏡觀察，發現某食物上共有 $5$ 個大腸桿菌，則在最佳環境下 $5$ 小時後，此食物上面將有幾個大腸桿菌？ ＿＿＿＿"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "7",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "由兩項與公比正負求等比數列之指定項。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知一個等比數列的公比為負數，第 $2$ 項為 $9$，第 $4$ 項為 $4$，則第 $9$ 項= ＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "8",
+      "page": 3,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "求兩函數在相同函數值下的自變數值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知函數 $y=3x-4$ 與函數 $y=x+4$，在 $x=a$ 時兩個函數值相同，則 $a=$ ＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "9",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "分段線型函數與通話費折線圖之應用。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下圖是某電信公司的通話費計算方式：$300$ 秒以內只繳基本費，超過 $300$ 秒之後的費用，與通話時間成線型函數關係。則通話時間 $1000$ 秒需要費用多少元？ ＿＿＿＿ 元"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 205\"><line x1=\"50\" y1=\"160\" x2=\"290\" y2=\"160\" stroke=\"#111\" stroke-width=\"1.6\"/><polygon points=\"290,156 299,160 290,164\" fill=\"#111\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"22\" stroke=\"#111\" stroke-width=\"1.6\"/><polygon points=\"56,22 60,13 64,22\" fill=\"#111\"/><text x=\"14\" y=\"48\" font-size=\"14\" fill=\"#111\">費</text><text x=\"14\" y=\"64\" font-size=\"14\" fill=\"#111\">用</text><text x=\"14\" y=\"80\" font-size=\"14\" fill=\"#111\">(</text><text x=\"14\" y=\"96\" font-size=\"14\" fill=\"#111\">元</text><text x=\"14\" y=\"112\" font-size=\"14\" fill=\"#111\">)</text><text x=\"47\" y=\"174\" font-size=\"13\" fill=\"#111\">0</text><text x=\"88\" y=\"176\" font-size=\"13\" fill=\"#111\">300</text><text x=\"118\" y=\"176\" font-size=\"13\" fill=\"#111\">500</text><text x=\"219\" y=\"176\" font-size=\"13\" fill=\"#111\">1200</text><text x=\"38\" y=\"81.0\" font-size=\"13\" fill=\"#111\">36</text><text x=\"38\" y=\"48.3\" font-size=\"13\" fill=\"#111\">50</text><g stroke=\"#444\" stroke-width=\"1.1\" stroke-dasharray=\"3 3\"><line x1=\"100\" y1=\"160\" x2=\"100\" y2=\"85.3\"/><line x1=\"130\" y1=\"160\" x2=\"130\" y2=\"76.0\"/><line x1=\"60\" y1=\"76.0\" x2=\"130\" y2=\"76.0\"/><line x1=\"235\" y1=\"160\" x2=\"235\" y2=\"43.3\"/><line x1=\"60\" y1=\"43.3\" x2=\"235\" y2=\"43.3\"/></g><polyline points=\"60,85.3 100,85.3 262,34.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.8\"/><text x=\"130\" y=\"197\" font-size=\"14\" fill=\"#111\">通話時間(秒)</text></svg>",
+          "maxHeight": 140
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "10",
+      "page": 3,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "一次函數圖形通過已知點求未知坐標。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "設 $y$ 為一次函數，而且通過 $(1, 4)$、$(3, m)$、$(2, 3)$，則 $m=$ ＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "1",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "依海拔高度與氣溫變化列出一次函數關係式並求值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知由地面算起，每升高 $100$ 公尺氣溫就下降 $0.6^\\circ\\text{C}$，假設地面上的溫度是 $30^\\circ\\text{C}$，而離地面 $x$ 公尺處的溫度是 $y^\\circ\\text{C}$，則："
+        },
+        {
+          "type": "text",
+          "text": "(1) $x$ 與 $y$ 的關係式為 ＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(2) 離地面 $4000$ 公尺處的溫度為 ＿＿＿＿$^\\circ\\text{C}$。"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "2",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "利用等比中項性質列式求解未知數與公比。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知某一個等比數列的前三項分別是 $n-5$、$n-1$、$n+7$，則："
+        },
+        {
+          "type": "text",
+          "text": "(1) 公比為何？"
+        },
+        {
+          "type": "text",
+          "text": "(2) $n$ 的值為何？"
+        }
+      ]
+    }
+  ]
+}

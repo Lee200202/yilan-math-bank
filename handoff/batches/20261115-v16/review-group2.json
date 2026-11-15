@@ -1,0 +1,322 @@
+[
+  {
+    "paperId": "metro-kaohsiung-8e2d0ff29aa419d6",
+    "school": "高雄市立大灣國中",
+    "slot": "114-1-G9-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 2,
+    "questionsChecked": 25,
+    "findings": [
+      {
+        "question": "choice-8",
+        "category": "text",
+        "severity": "major",
+        "original": "承上題（依第7題圖一與條件）求平行四邊形BCDE面積",
+        "transcribed": "只有「承上題，BCDE 平行四邊形面積為何？」，無條件、無圖，單獨出題時無法作答",
+        "action": "重複第7題題幹條件與圖一，改為獨立題"
+      },
+      {
+        "question": "choice-21",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖十：E 在 CD 延長線上",
+        "transcribed": "SVG 中 E(250,10) 不在 CD 延長線上",
+        "action": "E 移到 CD 延長線 (224,10)，BE 與 F、G、E 標籤隨之調整"
+      },
+      {
+        "question": "choice-23",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖十三：DGHI 為長方形，H 在 EF 延長線上",
+        "transcribed": "DGHI 四角不為直角（H(180,140)、I(210,70)）",
+        "action": "改 H(163,140)、I(193,70) 使 DG⊥GH，陰影三角形同步"
+      },
+      {
+        "question": "choice-11",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖四：A、B、C 標在 L1 左側",
+        "transcribed": "A、B、C 標在 L1 右側，貼近交點",
+        "action": "標籤移到 L1 左側"
+      },
+      {
+        "question": "choice-12",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖五：B、E 在梯形兩腰上",
+        "transcribed": "BE 線段兩端略超出兩腰",
+        "action": "端點改到兩腰上 (75,90)-(202,90)"
+      },
+      {
+        "question": "choice-17",
+        "category": "figure",
+        "severity": "minor",
+        "original": "圖八：A 標在交點上方",
+        "transcribed": "A 標籤壓在 BF 線上",
+        "action": "A 標籤移到交點正上方"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-bd58e37631b2b9dd",
+    "school": "新北市立三和國中",
+    "slot": "114-1-G9-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 4,
+    "questionsChecked": 25,
+    "findings": [
+      {
+        "question": "choice-1, fill-3, fill-8, fill-10",
+        "category": "layout",
+        "severity": "major",
+        "original": "弧 DE、弧 AB、弧 CD、弧 BC、弧 AC 記號",
+        "transcribed": "\\wideparen{..}，網站 MathJax 不支援，排版頁顯示紅字 \\wideparen",
+        "action": "全部改為 \\overset{\\frown}{..}"
+      },
+      {
+        "question": "fill-3",
+        "category": "text",
+        "severity": "major",
+        "original": "AB、CD 是圓 O 的兩弦",
+        "transcribed": "$\\overline{AB}$、$C$、$D$ 為圓 $O$ 的兩弦",
+        "action": "改為 $\\overline{AB}$、$\\overline{CD}$ 是圓 $O$ 的兩弦"
+      },
+      {
+        "question": "fill-10",
+        "category": "text",
+        "severity": "minor",
+        "original": "弧AB 是半圓",
+        "transcribed": "$\\overline{AB}$ 是半圓",
+        "action": "改為弧記號"
+      },
+      {
+        "question": "choice-1",
+        "category": "figure",
+        "severity": "major",
+        "original": "圓內弦 AB、BC、CE、AD（AD 與 CE 相交）",
+        "transcribed": "畫成五邊形 ABCDE",
+        "action": "依原圖重繪四條弦"
+      },
+      {
+        "question": "choice-7",
+        "category": "figure",
+        "severity": "major",
+        "original": "AD、AE、BC 皆與圓 O 相切（切點 D、E、F）",
+        "transcribed": "三條線都沒有與圓相切，圓懸空",
+        "action": "以真實切線幾何重繪"
+      },
+      {
+        "question": "fill-2",
+        "category": "figure",
+        "severity": "major",
+        "original": "三正方形；兩條線（第一格對角線、整個長方形對角線）；三扇形：左下角 45°、左下角 atan(1/3)、右上角 90°-atan(1/3)",
+        "transcribed": "多一條線且三個扇形位置與圓心皆錯",
+        "action": "依原圖重繪"
+      },
+      {
+        "question": "fill-5",
+        "category": "figure",
+        "severity": "major",
+        "original": "DE∥AC、EF∥AB、FG∥BC，灰色四邊形 DEFG",
+        "transcribed": "F 在三角形外、平行關係錯誤",
+        "action": "按 BE:EC=2:3 計算各點重繪"
+      },
+      {
+        "question": "fill-6",
+        "category": "figure",
+        "severity": "minor",
+        "original": "弦 AB 斜放，OM⊥AB，CD 較短較遠",
+        "transcribed": "B 點不在圓上，比例不符",
+        "action": "依 r=13、OM=5、弦心距 9 的比例重繪"
+      },
+      {
+        "question": "fill-8",
+        "category": "figure",
+        "severity": "major",
+        "original": "線段 BA、AC、BD、BC、CD（無 AD），部分著色",
+        "transcribed": "正方形加兩對角線（多了 AD），角度關係不符",
+        "action": "依弧度 92/92/84/92 重繪並按原圖著色"
+      },
+      {
+        "question": "fill-9",
+        "category": "figure",
+        "severity": "minor",
+        "original": "AB 約為 BC 兩倍",
+        "transcribed": "比例偏差（AB:BC=105:80）",
+        "action": "依 BC:AB:DC=8:15:6 重繪"
+      },
+      {
+        "question": "fill-10",
+        "category": "figure",
+        "severity": "major",
+        "original": "C 在半圓弧上，線段 AC、CB、OD 且 AC∥OD",
+        "transcribed": "C 不在弧上、缺 CB、AC 不平行 OD",
+        "action": "依弧 AC=54° 重繪"
+      },
+      {
+        "question": "fill-11",
+        "category": "figure",
+        "severity": "major",
+        "original": "弦 AB，線段 AD、BC、OC、OD（星形）",
+        "transcribed": "圖形錯亂（多餘弦、點位錯誤）",
+        "action": "依 AD⊥OC、∠ABC=25° 重繪"
+      },
+      {
+        "question": "fill-12",
+        "category": "figure",
+        "severity": "major",
+        "original": "半圓直徑在 BC 上、一端為 B，與 AC 相切；灰色＝三角形扣半圓",
+        "transcribed": "比例錯誤、灰色區域只畫一小塊",
+        "action": "依 AB=6、BC=8、半徑 3 重繪"
+      },
+      {
+        "question": "fill-13",
+        "category": "figure",
+        "severity": "major",
+        "original": "割線 E-C-A 水平、OE⊥割線、AB 切圓於 B、連 OA",
+        "transcribed": "B 位置與切線錯誤，圖形無法對應題意",
+        "action": "依 OA=6、AB=4、OE=2 重繪"
+      },
+      {
+        "question": "fill-4",
+        "category": "figure",
+        "severity": "minor",
+        "original": "繩子通過 C、E、A",
+        "transcribed": "繩子沒有通過 C、E",
+        "action": "繩子改由 C 經 E 到 A"
+      },
+      {
+        "question": "choice-5",
+        "category": "figure",
+        "severity": "minor",
+        "original": "F 為 AB 中點，AD 很短",
+        "transcribed": "D、F 三等分 AB",
+        "action": "D 在 1/6、F 在 1/2 處重繪"
+      },
+      {
+        "question": "written-1",
+        "category": "figure",
+        "severity": "major",
+        "original": "以 BC 為直徑的圓在正方形內與 AE 相切於 F",
+        "transcribed": "半圓畫在正方形外下方，與 AE 不相切",
+        "action": "依原圖畫整圓（上半在正方形內），F、E 依切線計算"
+      },
+      {
+        "question": "fill-7",
+        "category": "figure",
+        "severity": "minor",
+        "original": "10m 標在竿左",
+        "transcribed": "10m 壓在竿上",
+        "action": "標籤左移"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-f75aec47e95dd944-87a42e19",
+    "school": "新北市立五峰國中",
+    "slot": "114-1-G8-E2",
+    "verdict": "fixed",
+    "originalPagesViewed": 2,
+    "questionsChecked": 24,
+    "findings": [
+      {
+        "question": "choice-9",
+        "category": "text",
+        "severity": "minor",
+        "original": "則 a+m=？",
+        "transcribed": "則 $a + m =$ ＿＿＿＿？（選擇題多了填答線）",
+        "action": "移除填答線"
+      },
+      {
+        "question": "choice-4",
+        "category": "figure",
+        "severity": "minor",
+        "original": "三個半圓塗灰，圖緊貼三角形",
+        "transcribed": "viewBox 200x200 上方大片空白，未塗灰",
+        "action": "收緊 viewBox、依原圖塗灰"
+      },
+      {
+        "question": "fill-12",
+        "category": "figure",
+        "severity": "minor",
+        "original": "長方形 AB:AD=12:5，四角與 E 皆有直角記號",
+        "transcribed": "長寬比 2:1，只有 D、E 有直角記號",
+        "action": "依 12:5 重繪並補齊直角記號"
+      },
+      {
+        "question": "written-1",
+        "category": "figure",
+        "severity": "minor",
+        "original": "竹竿長 2.5、頂端 1.5 公尺→0.7 公尺",
+        "transcribed": "竿頂高度、下移後位置比例略偏",
+        "action": "以 50px/公尺 按比例修正"
+      },
+      {
+        "question": "fill-12",
+        "category": "difficulty",
+        "severity": "minor",
+        "original": "畢氏定理求 AB 後以面積求高（2 步）",
+        "transcribed": "hard",
+        "action": "改 medium"
+      },
+      {
+        "question": "written-1",
+        "category": "difficulty",
+        "severity": "minor",
+        "original": "兩次畢氏定理相減",
+        "transcribed": "hard",
+        "action": "改 medium"
+      }
+    ]
+  },
+  {
+    "paperId": "metro-new_taipei-5cab22c1a02f7f12-79bd26ce",
+    "school": "新北市立福和國中",
+    "slot": "115-1-G7-E1",
+    "verdict": "fixed",
+    "originalPagesViewed": 3,
+    "questionsChecked": 34,
+    "findings": [
+      {
+        "question": "choice-1",
+        "category": "figure",
+        "severity": "major",
+        "original": "數線上三支箭頭 0→3、3→−1、−1→−3",
+        "transcribed": "箭頭用 SVG marker 畫，PDF 排版不顯示，只剩三條線段，無法判斷方向（排版頁已證實）",
+        "action": "改以實心三角形畫箭頭重繪"
+      },
+      {
+        "question": "choice-15",
+        "category": "figure",
+        "severity": "minor",
+        "original": "數線右端有箭頭；B、O、Q 只標字無圓點",
+        "transcribed": "箭頭為 marker（PDF 不顯示），多加圓點",
+        "action": "以多邊形箭頭重繪、去掉圓點"
+      },
+      {
+        "question": "choice-12",
+        "category": "figure",
+        "severity": "minor",
+        "original": "甲極小、乙小、丁中、丙大的圓形區域",
+        "transcribed": "甲半徑過大（與乙比例不符）",
+        "action": "依原圖比例重繪各圓與培養皿"
+      },
+      {
+        "question": "choice-19, choice-20, choice-21, choice-22",
+        "category": "text",
+        "severity": "minor",
+        "original": "題組小題題號屬於版面",
+        "transcribed": "題幹開頭多了「19. 」「20. 」「21. 」「22. 」",
+        "action": "移除題號"
+      },
+      {
+        "question": "fill-12",
+        "category": "difficulty",
+        "severity": "minor",
+        "original": "成本、收入、損益多步計算",
+        "transcribed": "easy",
+        "action": "改 medium"
+      }
+    ]
+  }
+]
