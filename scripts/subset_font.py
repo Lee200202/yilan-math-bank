@@ -69,7 +69,7 @@ def main():
     if lost:
         raise SystemExit(f'Subset lost bank characters: {lost}')
     import hashlib
-    stamp = {'questionsSha256': hashlib.sha256((ROOT / 'public/data/questions.json').read_bytes()).hexdigest(),
+    stamp = {'questionsSha256': hashlib.sha256((ROOT / 'public/data/questions.json').read_bytes().replace(b'\r\n', b'\n')).hexdigest(),
              'bankChars': len(need), 'glyphsKept': len(keep), 'ttfBytes': OUT.stat().st_size,
              'source': 'CNS 全字庫正楷體 TW-Kai.ttf（政府資料開放授權條款第1版），子集化保留題庫用字＋Big5常用字'}
     (ROOT / 'public/fonts/subset-coverage.json').write_text(json.dumps(stamp, ensure_ascii=False, indent=1), encoding='utf-8')
