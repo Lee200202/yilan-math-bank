@@ -48,7 +48,7 @@ assert {r['school'] for r in rows}=={p['school'] for p in papers.values() if not
 assert len({r['school'] for r in rows})>=19
 assert all(r['sha256'] and r['originalUrl'] for r in rows)
 assert {'pdf','doc','docx','odt'} <= {r['format'] for r in rows}
-assert next(r for r in rows if r['id']=='1qzcZTjs0xnMt-2zNOXc3M2-iiOYf3zS2')['blocked']
+assert all(r['blocked'] for r in rows if (h.ROOT/'handoff/source-issues'/f"{r['id']}.json").exists())
 print('ok')
 `;
  assert.equal(execFileSync('python',['-c',code],{encoding:'utf8'}).trim(),'ok');
