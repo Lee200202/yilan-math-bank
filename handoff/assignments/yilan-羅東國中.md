@@ -1,6 +1,6 @@
 # 宜蘭縣 羅東國中 待完成清單
 
-未轉寫 64 份，部分轉寫 8 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
+未轉寫 62 份，部分轉寫 8 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
 
 | 範圍 | 狀態 | 格式 | paperId | 原檔／官方包 | SHA256 |
 | --- | --- | --- | --- | --- | --- |
@@ -34,7 +34,6 @@
 | 107下・7年級・第1次 | 未轉寫 | pdf | `ld-107-2-1-7` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-107-2-1-7.pdf>)  | `987646967918b590119775d65cd3409756a0d4baec3ba973f43e8a3232e88a55` |
 | 107下・7年級・第2次 | 未轉寫 | pdf | `ld-107-2-2-7` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-107-2-2-7.pdf>)  | `4a0d0b932b7ca10de0136e95cc5720009ad8cf11901d271bef24407e376cba16` |
 | 107下・7年級・第3次 | 未轉寫 | pdf | `ld-107-2-3-7` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-107-2-3-7.pdf>)  | `d3b04f99fa263a0065ac4bd59acfbcdb9ad1f6f74a10522237afda8e0d9623b9` |
-| 107上・8年級・第1次 | 未轉寫 | pdf | `ld-107-1-1-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-107-1-1-8.pdf>)  | `d92016246a70b73f1b5cbf042bf167c496f4d555dd54b39a11c95ff4f283835e` |
 | 107上・8年級・第3次 | 未轉寫 | docx | `ld-107-1-3-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-107-1-3-8.docx>)  | `a26d22d09d5bdad5768738c1a1da354c3c160db38ade01b38e4814bc8c788972` |
 | 107下・8年級・第1次 | 未轉寫 | pdf | `ld-107-2-1-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-107-2-1-8.pdf>)  | `5537b59d91b0a6ad2e74e764d80c03bf0af5e1102c861bb9591bea48e4887351` |
 | 107下・8年級・第2次 | 未轉寫 | pdf | `ld-107-2-2-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-107-2-2-8.pdf>)  | `9f17690a8335839d60c48b5a74142791dfffeb180f41decfba69efcecaf4e0f7` |
@@ -50,7 +49,6 @@
 | 106下・7年級・第1次 | 未轉寫 | docx | `ld-106-2-1-7` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-106-2-1-7.docx>)  | `8ac4b1b3819cb8d544331c881f987da7e5dfa0e5e759dd760379c94f49110d1f` |
 | 106下・7年級・第2次 | 未轉寫 | pdf | `ld-106-2-2-7` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-106-2-2-7.pdf>)  | `cb5969be769c94eb275e2c17edb23a627f086e3132a8d66aed4a0521e9e29252` |
 | 106下・7年級・第3次 | 未轉寫 | pdf | `ld-106-2-3-7` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-106-2-3-7.pdf>)  | `66b00037ef379269225d11270945e979168d54973820a890034adb3359c8b72c` |
-| 106上・8年級・第3次 | 未轉寫 | pdf | `ld-106-1-3-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-106-1-3-8.pdf>)  | `0d7953ae36f025569709dd38c7ca88d892a694c53a39597183381169b3eb4373` |
 | 106下・8年級・第1次 | 未轉寫 | pdf | `ld-106-2-1-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-106-2-1-8.pdf>)  | `d5cbe4d1e4c36740310160fa6e2ea76872b69d629aa2974c2bc644e8153f6f0f` |
 | 106下・8年級・第2次 | 未轉寫 | pdf | `ld-106-2-2-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-106-2-2-8.pdf>)  | `d09ad26d24cad5f127cfc994042425b8857988bb08810283cc222aacd117eda4` |
 | 106下・8年級・第3次 | 未轉寫 | pdf | `ld-106-2-3-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-106-2-3-8.pdf>)  | `6e4e5733d69fcde18e2c7224f478e25b1a7d3369fc93b47f8a72b0ce33eb1afa` |

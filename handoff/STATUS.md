@@ -1,10 +1,10 @@
 # 資料快照
 
-2026-11-16T03:40:20.069391+00:00
+2026-11-16T03:42:35.396919+00:00
 
 ```text
-版本 20261116-metro-v25 / c5ec4df7
-原卷 1528；可用題 6946；狀態 {'complete': 233, 'complete-with-source-issues': 31, 'pending': 1243, 'partial': 21}
+版本 20261116-metro-v26 / 8e972193
+原卷 1528；可用題 7021；狀態 {'complete': 237, 'complete-with-source-issues': 32, 'pending': 1239, 'partial': 20}
 kaohsiung: 未認領PDF候選 9 卷，接續 metro-kaohsiung-1e550e4db3803d78, metro-kaohsiung-afca0cfa38edd928, metro-kaohsiung-1282ef567a1e083c
 new_taipei: 未認領PDF候選 287 卷，接續 metro-new_taipei-e30f51dc497bbd00, metro-new_taipei-d2ee158944361fce, metro-new_taipei-979b1b18b0a6eecb
 office-only: 未認領PDF候選 0 卷，接續
@@ -40,7 +40,7 @@ w4-4: 未認領PDF候選 1 卷，接續 metro-new_taipei-cd69f923866e75b5
 w4-5: 未認領PDF候選 0 卷，接續
 w4-6-skipped: 未認領PDF候選 0 卷，接續
 w4-6: 未認領PDF候選 0 卷，接續
-yilan: 未認領PDF候選 168 卷，接續 ld-108-2-2-7, ld-108-2-3-7, 1ECywCmYbPW3SnTv4DifCP-TaxuELkl5v
+yilan: 未認領PDF候選 162 卷，接續 ld-108-2-2-7, ld-108-2-3-7, 1ECywCmYbPW3SnTv4DifCP-TaxuELkl5v
 ```
 
 此快照只代表本機資料；不代表 PDF 目視通過或正式站已更新，另讀 VERIFICATION.md。
