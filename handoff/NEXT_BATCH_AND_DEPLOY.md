@@ -2,6 +2,22 @@
 
 ## 最新接手（2026-11-16，Antigravity）
 
+### v39 更新（以此為準）
+
+- v39 本機建置完成：1,528 份原卷、7,570 可組卷題（淨增 91 題），77 項測試全數通過！
+- 本批核准發行 4 份宜蘭八下段考卷（均通過 check_transcript.py、TW-Kai 字型與純向量 SVG 檢驗）：
+  1. 1lMQKaC9CGQ72A9a8hmyLyyA0QV3DLoJd: 中華國中 110-2 八下二 (22 題, 13 幅純向量幾何 SVG)
+  2. 1_5NBTs24m-lEc-mjMydB69xajgJx_iAo: 中華國中 110-2 八下三 (24 題, 14 幅純向量幾何 SVG)
+  3. 1X5ujVtKXsC-qdZpqIMamxPHGOHAaYec4: 中華國中 109-2 八下二 (23 題, 13 幅純向量幾何 SVG)
+  4. 1woh3HGsaYRFjQkqAoDgXlXRA5OQV0AWj: 中華國中 108-2 八下二 (22 題, 13 幅純向量幾何 SVG)
+- 累計宜蘭八下已完成 27 份原卷，剩餘 10 份 PDF 候選卷依同規則持續推進。
+- 下一批（Batch 4 / v40）宜蘭八下待轉寫清單（前 5 卷）：
+  1. 1b94poZdz6s5sgBAkXf--VMoKS2fpoyce: 中華國中 107-2 E2 (107下2段8數.pdf)
+  2. 1ODYj-V7KzqhYr8EM7s2gkTI2Rb8qKDg3: 中華國中 107-2 E3 (0627共同命題數學.pdf)
+  3. 1Oyz6Mhe7vxl1LjqAFdEtFWXeWuNk0Trn: 中華國中 106-2 E1 (二年級數學01.pdf)
+  4. 192AO5odd7tQJrJpT4HAJVRWx5UQCA-vC: 中華國中 106-2 E2 (8年級數學02.pdf)
+  5. 1nj1GNW5mcPe7cPhk8aaArk1cLOqmrjHO: 中華國中 106-2 E3 (8年級數學03.pdf)
+
 ### v38 更新（以此為準）
 
 - v38 本機建置完成：1,528 份原卷、7,479 可組卷題（淨增 99 題），77 項測試全數通過！
