@@ -1,0 +1,489 @@
+import json
+import pathlib
+import re
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+
+def clean_svg(s):
+    return re.sub(r'>\s+<', '><', s.strip())
+
+svg_q1 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <polygon points="60,20 20,120 180,120" fill="none" stroke="#000" stroke-width="2"/>
+  <line x1="60" y1="20" x2="110" y2="120" stroke="#000" stroke-width="2"/>
+  <text x="54" y="14" font-size="14" font-family="sans-serif">B</text>
+  <text x="8" y="125" font-size="14" font-family="sans-serif">A</text>
+  <text x="185" y="125" font-size="14" font-family="sans-serif">C</text>
+  <text x="106" y="138" font-size="14" font-family="sans-serif">D</text>
+  <text x="80" y="145" font-size="13" font-family="sans-serif">圖(一)</text>
+</svg>'''
+
+svg_q2 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" width="220" height="160">
+  <polygon points="100,20 20,130 180,100" fill="none" stroke="#000" stroke-width="2"/>
+  <line x1="60" y1="75" x2="140" y2="60" stroke="#000" stroke-width="2"/>
+  <text x="96" y="14" font-size="14" font-family="sans-serif">C</text>
+  <text x="10" y="135" font-size="14" font-family="sans-serif">A</text>
+  <text x="185" y="105" font-size="14" font-family="sans-serif">B</text>
+  <text x="44" y="70" font-size="14" font-family="sans-serif">P</text>
+  <text x="146" y="58" font-size="14" font-family="sans-serif">Q</text>
+  <text x="85" y="152" font-size="13" font-family="sans-serif">圖(二)</text>
+</svg>'''
+
+svg_q3 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <polygon points="100,20 30,120 170,120" fill="none" stroke="#000" stroke-width="2"/>
+  <line x1="65" y1="70" x2="135" y2="70" stroke="#000" stroke-width="2"/>
+  <text x="96" y="14" font-size="14" font-family="sans-serif">A</text>
+  <text x="16" y="125" font-size="14" font-family="sans-serif">B</text>
+  <text x="175" y="125" font-size="14" font-family="sans-serif">C</text>
+  <text x="48" y="74" font-size="14" font-family="sans-serif">D</text>
+  <text x="142" y="74" font-size="14" font-family="sans-serif">E</text>
+  <text x="80" y="142" font-size="13" font-family="sans-serif">圖(三)</text>
+</svg>'''
+
+svg_q4 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <line x1="20" y1="40" x2="220" y2="40" stroke="#000" stroke-width="2"/>
+  <line x1="20" y1="70" x2="220" y2="70" stroke="#000" stroke-width="2"/>
+  <line x1="20" y1="120" x2="220" y2="120" stroke="#000" stroke-width="2"/>
+  <line x1="80" y1="20" x2="50" y2="140" stroke="#000" stroke-width="2"/>
+  <line x1="150" y1="20" x2="180" y2="140" stroke="#000" stroke-width="2"/>
+  <text x="224" y="44" font-size="13" font-family="sans-serif">L1</text>
+  <text x="224" y="74" font-size="13" font-family="sans-serif">L2</text>
+  <text x="224" y="124" font-size="13" font-family="sans-serif">L3</text>
+  <text x="82" y="18" font-size="13" font-family="sans-serif">M1</text>
+  <text x="140" y="18" font-size="13" font-family="sans-serif">M2</text>
+  <text x="62" y="36" font-size="13" font-family="sans-serif">A</text>
+  <text x="56" y="66" font-size="13" font-family="sans-serif">B</text>
+  <text x="40" y="116" font-size="13" font-family="sans-serif">C</text>
+  <text x="160" y="36" font-size="13" font-family="sans-serif">D</text>
+  <text x="168" y="66" font-size="13" font-family="sans-serif">E</text>
+  <text x="182" y="116" font-size="13" font-family="sans-serif">F</text>
+  <text x="100" y="152" font-size="13" font-family="sans-serif">圖(四)</text>
+</svg>'''
+
+svg_q14 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 170" width="240" height="170">
+  <line x1="20" y1="140" x2="210" y2="140" stroke="#000" stroke-width="1.2"/>
+  <line x1="20" y1="140" x2="80" y2="20" stroke="#000" stroke-width="1.2"/>
+  <line x1="20" y1="140" x2="120" y2="60" stroke="#000" stroke-width="1.2"/>
+  <polygon points="120,140 100,120 140,110" fill="none" stroke="#000" stroke-width="2"/>
+  <polygon points="50,140 20,90 90,70" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="110" y="155" font-size="13" font-family="sans-serif">A</text>
+  <text x="144" y="115" font-size="13" font-family="sans-serif">B</text>
+  <text x="96" y="115" font-size="13" font-family="sans-serif">C</text>
+  <text x="44" y="155" font-size="13" font-family="sans-serif">D</text>
+  <text x="94" y="70" font-size="13" font-family="sans-serif">E</text>
+  <text x="14" y="90" font-size="13" font-family="sans-serif">F</text>
+  <text x="214" y="144" font-size="13" font-family="sans-serif">O</text>
+  <text x="95" y="165" font-size="13" font-family="sans-serif">圖(五)</text>
+</svg>'''
+
+svg_q15 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" width="220" height="160">
+  <polygon points="40,30 180,30 20,130 140,130" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="30" y="24" font-size="14" font-family="sans-serif">E</text>
+  <text x="184" y="24" font-size="14" font-family="sans-serif">F</text>
+  <text x="10" y="138" font-size="14" font-family="sans-serif">B</text>
+  <text x="144" y="138" font-size="14" font-family="sans-serif">C</text>
+  <text x="86" y="78" font-size="14" font-family="sans-serif">A</text>
+  <text x="90" y="154" font-size="13" font-family="sans-serif">圖(六)</text>
+</svg>'''
+
+svg_q16 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" width="200" height="160">
+  <rect x="30" y="20" width="140" height="110" fill="none" stroke="#000" stroke-width="2"/>
+  <line x1="30" y1="57" x2="123" y2="20" stroke="#000" stroke-width="1.5"/>
+  <line x1="30" y1="93" x2="77" y2="130" stroke="#000" stroke-width="1.5"/>
+  <text x="18" y="24" font-size="13" font-family="sans-serif">A</text>
+  <text x="175" y="24" font-size="13" font-family="sans-serif">D</text>
+  <text x="18" y="135" font-size="13" font-family="sans-serif">B</text>
+  <text x="175" y="135" font-size="13" font-family="sans-serif">C</text>
+  <text x="16" y="60" font-size="13" font-family="sans-serif">E</text>
+  <text x="16" y="96" font-size="13" font-family="sans-serif">F</text>
+  <text x="74" y="14" font-size="13" font-family="sans-serif">I</text>
+  <text x="120" y="14" font-size="13" font-family="sans-serif">J</text>
+  <text x="74" y="145" font-size="13" font-family="sans-serif">M</text>
+  <text x="120" y="145" font-size="13" font-family="sans-serif">N</text>
+  <text x="80" y="156" font-size="13" font-family="sans-serif">圖(七)</text>
+</svg>'''
+
+svg_q17 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <polygon points="100,20 30,120 170,120" fill="none" stroke="#000" stroke-width="2"/>
+  <line x1="60" y1="77" x2="140" y2="77" stroke="#000" stroke-width="2"/>
+  <line x1="60" y1="77" x2="170" y2="120" stroke="#000" stroke-width="1.5"/>
+  <text x="96" y="14" font-size="14" font-family="sans-serif">A</text>
+  <text x="15" y="125" font-size="14" font-family="sans-serif">B</text>
+  <text x="175" y="125" font-size="14" font-family="sans-serif">C</text>
+  <text x="44" y="80" font-size="14" font-family="sans-serif">D</text>
+  <text x="146" y="80" font-size="14" font-family="sans-serif">E</text>
+  <text x="80" y="142" font-size="13" font-family="sans-serif">圖(八)</text>
+</svg>'''
+
+svg_q18 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" width="220" height="160">
+  <polygon points="40,60 160,60 140,130 20,130" fill="none" stroke="#000" stroke-width="2"/>
+  <line x1="160" y1="60" x2="180" y2="20" stroke="#000" stroke-width="1.8"/>
+  <line x1="20" y1="130" x2="180" y2="20" stroke="#000" stroke-width="2"/>
+  <line x1="20" y1="130" x2="160" y2="60" stroke="#000" stroke-width="1.5"/>
+  <text x="32" y="55" font-size="13" font-family="sans-serif">A</text>
+  <text x="165" y="65" font-size="13" font-family="sans-serif">D</text>
+  <text x="145" y="135" font-size="13" font-family="sans-serif">C</text>
+  <text x="8" y="135" font-size="13" font-family="sans-serif">B</text>
+  <text x="185" y="20" font-size="13" font-family="sans-serif">E</text>
+  <text x="75" y="55" font-size="13" font-family="sans-serif">F</text>
+  <text x="65" y="95" font-size="13" font-family="sans-serif">G</text>
+  <text x="85" y="152" font-size="13" font-family="sans-serif">圖(九)</text>
+</svg>'''
+
+svg_q19 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" width="220" height="160">
+  <polygon points="80,20 20,130 160,130" fill="none" stroke="#000" stroke-width="2"/>
+  <polygon points="80,20 60,130 180,90" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="76" y="14" font-size="14" font-family="sans-serif">A</text>
+  <text x="8" y="135" font-size="14" font-family="sans-serif">B</text>
+  <text x="165" y="135" font-size="14" font-family="sans-serif">C</text>
+  <text x="52" y="145" font-size="14" font-family="sans-serif">Q</text>
+  <text x="185" y="95" font-size="14" font-family="sans-serif">E</text>
+  <text x="110" y="95" font-size="14" font-family="sans-serif">P</text>
+  <text x="85" y="154" font-size="13" font-family="sans-serif">圖(十)</text>
+</svg>'''
+
+svg_q20 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" width="220" height="160">
+  <polygon points="120,20 30,130 190,130" fill="none" stroke="#000" stroke-width="2"/>
+  <line x1="120" y1="20" x2="60" y2="130" stroke="#000" stroke-width="2"/>
+  <line x1="155" y1="75" x2="110" y2="130" stroke="#000" stroke-width="2"/>
+  <line x1="155" y1="75" x2="60" y2="130" stroke="#000" stroke-width="1.5"/>
+  <text x="116" y="14" font-size="14" font-family="sans-serif">A</text>
+  <text x="18" y="135" font-size="14" font-family="sans-serif">B</text>
+  <text x="195" y="135" font-size="14" font-family="sans-serif">C</text>
+  <text x="162" y="75" font-size="14" font-family="sans-serif">D</text>
+  <text x="52" y="145" font-size="14" font-family="sans-serif">E</text>
+  <text x="108" y="145" font-size="14" font-family="sans-serif">M</text>
+  <text x="96" y="90" font-size="14" font-family="sans-serif">F</text>
+  <text x="80" y="155" font-size="13" font-family="sans-serif">圖(十一)</text>
+</svg>'''
+
+svg_w1 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 80" width="260" height="80">
+  <line x1="30" y1="40" x2="230" y2="40" stroke="#000" stroke-width="3"/>
+  <circle cx="30" cy="40" r="3" fill="#000"/>
+  <circle cx="230" cy="40" r="3" fill="#000"/>
+  <text x="24" y="30" font-size="14" font-family="sans-serif">A</text>
+  <text x="226" y="30" font-size="14" font-family="sans-serif">B</text>
+</svg>'''
+
+svg_w2 = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <polygon points="50,110 90,40 150,30 140,120" fill="none" stroke="#000" stroke-width="2"/>
+  <circle cx="190" cy="80" r="3" fill="#000"/>
+  <text x="35" y="115" font-size="14" font-family="sans-serif">A</text>
+  <text x="85" y="32" font-size="14" font-family="sans-serif">D</text>
+  <text x="154" y="26" font-size="14" font-family="sans-serif">C</text>
+  <text x="144" y="132" font-size="14" font-family="sans-serif">B</text>
+  <text x="196" y="85" font-size="14" font-family="sans-serif">O</text>
+</svg>'''
+
+for k, v in list(globals().items()):
+    if (k.startswith('svg_q') or k.startswith('svg_w')) and isinstance(v, str):
+        globals()[k] = clean_svg(v)
+
+questions = [
+    {
+        "type": "fill",
+        "sourceNumber": "1",
+        "page": 1,
+        "difficulty": "easy",
+        "primaryUnitId": "nanyi-9-1-1-2",
+        "unitIds": ["nanyi-9-1-1-2"],
+        "unitAssignmentBasis": "同高三角形面積比等於底邊比",
+        "blocks": [
+            {"type": "text", "text": "如圖(一)，$\\triangle ABC$ 中，$D$ 為 $\\overline{AC}$ 上的一點，若 $\\overline{AD} : \\overline{CD} = 4 : 3$，則 $\\triangle ABD$ 與 $\\triangle CBD$ 的面積比為______。"},
+            {"type": "svg", "svg": svg_q1}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "2",
+        "page": 1,
+        "difficulty": "medium",
+        "primaryUnitId": "nanyi-9-1-1-2",
+        "unitIds": ["nanyi-9-1-1-2"],
+        "unitAssignmentBasis": "三角形平行線截比例線段求解",
+        "blocks": [
+            {"type": "text", "text": "如圖(二)，$\\triangle ABC$ 中，$\\overline{PQ} // \\overline{AB}$，$\\overline{CP} = 11$，$\\overline{PA} = 3x + 3$，$\\overline{CQ} = 5$，$\\overline{QB} = x + 5$，求 $x$ 的值為______。"},
+            {"type": "svg", "svg": svg_q2}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "3",
+        "page": 1,
+        "difficulty": "easy",
+        "primaryUnitId": "nanyi-9-1-1-2",
+        "unitIds": ["nanyi-9-1-1-2"],
+        "unitAssignmentBasis": "三角形兩邊中點連線段長度性質",
+        "blocks": [
+            {"type": "text", "text": "如圖(三)，$\\triangle ABC$ 中，$D$、$E$ 分別為 $\\overline{AB}$、$\\overline{AC}$ 的中點，若 $\\overline{DE} = 20$，求 $\\overline{BC} =$ ______。"},
+            {"type": "svg", "svg": svg_q3}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "4",
+        "page": 1,
+        "difficulty": "easy",
+        "primaryUnitId": "nanyi-9-1-1-2",
+        "unitIds": ["nanyi-9-1-1-2"],
+        "unitAssignmentBasis": "三平行線截比例線段性質",
+        "blocks": [
+            {"type": "text", "text": "如圖(四)，$L_1$、$L_2$、$L_3$ 皆為直線，若 $L_1 // L_2 // L_3$，直線 $M_1$ 與 $M_2$ 為截線，$\\overline{AB} : \\overline{BC} = 2 : 5$，$EF = 30$，求 $\\overline{DE} =$ ______。"},
+            {"type": "svg", "svg": svg_q4}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "5",
+        "page": 1,
+        "difficulty": "medium",
+        "primaryUnitId": "nanyi-9-1-1-3",
+        "unitIds": ["nanyi-9-1-1-3"],
+        "unitAssignmentBasis": "多邊形相似判別概念綜合題",
+        "blocks": [
+            {"type": "text", "text": "判別下列敘述正確的選項有哪些？答：______。（填代號，全對才給分） (A) 兩個菱形邊長一定成比例。(B) 兩個五邊形的邊長分別對應相等，則這兩個五邊形一定相似。(C) 兩個正六邊形一定相似。(D) 兩個等腰梯形一定相似。(E) 兩個正方形一定相似。"}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "6",
+        "page": 1,
+        "difficulty": "medium",
+        "primaryUnitId": "nanyi-9-1-1-2",
+        "unitIds": ["nanyi-9-1-1-2"],
+        "unitAssignmentBasis": "平行線截比例線段之逆定理判別",
+        "blocks": [
+            {"type": "text", "text": "$\\triangle ABC$ 中，已知 $P$、$Q$ 兩點分別在 $\\overline{AB}$、$\\overline{AC}$ 上，則滿足下列哪一個條件時，$\\overline{PQ}$ 和 $\\overline{BC}$ 不一定平行？______ (A) $\\overline{AP} = 5, \\overline{AB} = 15, \\overline{AQ} = 7, \\overline{AC} = 21$ (B) $\\overline{BP} = 3, \\overline{AB} = 6, \\overline{CQ} = 4, \\overline{AC} = 8$ (C) $\\overline{AP} = 9, \\overline{AB} = 15, \\overline{PQ} = 6, \\overline{BC} = 10$ (D) $\\overline{AP} = 7, \\overline{BP} = 14, \\overline{AQ} = 12, \\overline{CQ} = 24$"}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "7",
+        "page": 1,
+        "difficulty": "easy",
+        "primaryUnitId": "nanyi-9-1-1-1",
+        "unitIds": ["nanyi-9-1-1-1"],
+        "unitAssignmentBasis": "求三個數的連比",
+        "blocks": [
+            {"type": "text", "text": "若 $a : b = 3 : 2$，$b : c = 5 : 4$，則 $a : b : c =$ ______。"}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "8",
+        "page": 1,
+        "difficulty": "easy",
+        "primaryUnitId": "nanyi-9-1-1-1",
+        "unitIds": ["nanyi-9-1-1-1"],
+        "unitAssignmentBasis": "連比生活應用題：硬幣總值",
+        "blocks": [
+            {"type": "text", "text": "王同學習慣會將零錢存入存錢筒，昨天打開存錢筒發現其中 1 元硬幣、5 元硬幣、10 元硬幣的個數比為 $35 : 20 : 13$，若存錢筒內共有 1590 元，則 10 元硬幣有______個。"}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "9",
+        "page": 1,
+        "difficulty": "medium",
+        "primaryUnitId": "nanyi-9-1-1-1",
+        "unitIds": ["nanyi-9-1-1-1"],
+        "unitAssignmentBasis": "分數比例求連比化簡",
+        "blocks": [
+            {"type": "text", "text": "設 $x : y = \\frac{5}{2} : 3$，$x : z = 4 : \\frac{1}{3}$，求 $x : y : z =$ ______。"}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "10",
+        "page": 1,
+        "difficulty": "medium",
+        "primaryUnitId": "nanyi-9-1-1-1",
+        "unitIds": ["nanyi-9-1-1-1"],
+        "unitAssignmentBasis": "連比與代數方程式求解",
+        "blocks": [
+            {"type": "text", "text": "若 $a : b : c = 2 : 3 : 7$，且 $a - b + 3 = c - 2b$，則 $c$ 值為何？______。"}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "11",
+        "page": 1,
+        "difficulty": "hard",
+        "primaryUnitId": "nanyi-9-1-1-1",
+        "unitIds": ["nanyi-9-1-1-1"],
+        "unitAssignmentBasis": "連比柱體容積與液面高度關係綜合題",
+        "blocks": [
+            {"type": "text", "text": "桌面上上有甲、乙、丙三個圓柱形的杯子，若不計杯子厚度，杯深均為 15 公分，各裝有 10 公分高的水，且甲、乙、丙三個杯子的底面積分別為 60、80、100(平方公分)。今小明將甲、乙兩杯內一些水倒入丙杯，過程中水沒溢出，使得甲、乙、丙三杯內水的高度比變為 $3 : 4 : 5$。則丙杯內水的高度變為______公分？"}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "12",
+        "page": 1,
+        "difficulty": "medium",
+        "primaryUnitId": "nanyi-9-1-1-1",
+        "unitIds": ["nanyi-9-1-1-1"],
+        "unitAssignmentBasis": "代數等式化為連比",
+        "blocks": [
+            {"type": "text", "text": "已知 $x$、$y$、$z$ 皆不等於 0，且 $\\frac{1}{4}x = \\frac{1}{5}y$，$4x = 3z$，求 $x : y : z =$ ______。"}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "13",
+        "page": 2,
+        "difficulty": "medium",
+        "primaryUnitId": "nanyi-9-1-1-1",
+        "unitIds": ["nanyi-9-1-1-1"],
+        "unitAssignmentBasis": "連比在三角形內角和之應用",
+        "blocks": [
+            {"type": "text", "text": "設 $\\triangle ABC$ 中，$\\angle A = a^\\circ$，$\\angle B = b^\\circ$，$\\angle C = c^\\circ$，且 $2a : 7b = 2 : 5$，$3b : 5c = 1 : 2$，求 $\\angle C =$ ______度。"}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "14",
+        "page": 2,
+        "difficulty": "easy",
+        "primaryUnitId": "nanyi-9-1-1-3",
+        "unitIds": ["nanyi-9-1-1-3"],
+        "unitAssignmentBasis": "相似三角形縮放與對應邊成比例",
+        "blocks": [
+            {"type": "text", "text": "如圖(五)，$\\triangle DEF$ 為 $\\triangle ABC$ 的縮放圖，若 $\\overline{AC} = 12$，$\\overline{BC} = x + 2$，$\\overline{DF} = 30$，$\\overline{EF} = 3x + 1$，求 $x =$ ______。"},
+            {"type": "svg", "svg": svg_q14}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "15",
+        "page": 2,
+        "difficulty": "easy",
+        "primaryUnitId": "nanyi-9-1-1-3",
+        "unitIds": ["nanyi-9-1-1-3"],
+        "unitAssignmentBasis": "沙漏型相似三角形對應邊比例",
+        "blocks": [
+            {"type": "text", "text": "如圖(六)，$\\overline{EF} // \\overline{BC}$，$\\overline{EC}$ 與 $\\overline{BF}$ 交於 $A$ 點，$\\overline{EF} = 8$，$\\overline{AE} = 4$，$\\overline{AF} = 6$，$\\overline{BC} = 12$，求 $\\overline{AB} =$ ______。"},
+            {"type": "svg", "svg": svg_q15}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "16",
+        "page": 2,
+        "difficulty": "hard",
+        "primaryUnitId": "nanyi-9-1-1-3",
+        "unitIds": ["nanyi-9-1-1-3"],
+        "unitAssignmentBasis": "長方形等分點連線三角形周長與商高定理綜合題",
+        "blocks": [
+            {"type": "text", "text": "如圖(七)表示 $E$、$F$、$G$、$H$、$I$、$J$、$M$、$N$ 八點在長方形 $ABCD$ 四邊上的位置，其中 $\\overline{AE} = \\overline{EF} = \\overline{FB} = \\overline{DG} = \\overline{GH} = \\overline{HC}$，且 $\\overline{AI} = \\overline{IJ} = \\overline{JD} = \\overline{BM} = \\overline{MN} = \\overline{NC}$。若長方形 $ABCD$ 的周長為 30，對角線長為 12，則 $\\triangle AFJ$ 周長為______。"},
+            {"type": "svg", "svg": svg_q16}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "17",
+        "page": 2,
+        "difficulty": "hard",
+        "primaryUnitId": "nanyi-9-1-1-2",
+        "unitIds": ["nanyi-9-1-1-2"],
+        "unitAssignmentBasis": "平行線分割三角形面積聯立方程式",
+        "blocks": [
+            {"type": "text", "text": "如圖(八)，$\\triangle ABC$ 中，$\\overline{DE} // \\overline{BC}$，若 $\\triangle ADE$ 的面積為 8，$\\triangle BCD$ 的面積為 30，求 $\\triangle CDE$ 的面積 $=$ ______。"},
+            {"type": "svg", "svg": svg_q17}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "18",
+        "page": 2,
+        "difficulty": "hard",
+        "primaryUnitId": "nanyi-9-1-1-3",
+        "unitIds": ["nanyi-9-1-1-3"],
+        "unitAssignmentBasis": "平行四邊形雙重相似形比例線段綜合計算",
+        "blocks": [
+            {"type": "text", "text": "如圖(九)，四邊形 $ABCD$ 為平行四邊形，$E$ 為 $\\overline{CD}$ 延長線上的一點，$\\overline{BE}$ 交 $\\overline{AD}$ 於 $F$ 點，交 $\\overline{AC}$ 於 $G$ 點，若 $\\overline{AG} : \\overline{GC} = 2 : 3$，$\\overline{BG} = 12$，求 $\\overline{EF} =$ ______。"},
+            {"type": "svg", "svg": svg_q18}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "19",
+        "page": 2,
+        "difficulty": "hard",
+        "primaryUnitId": "nanyi-9-1-1-3",
+        "unitIds": ["nanyi-9-1-1-3"],
+        "unitAssignmentBasis": "正三角形旋轉夾角與AA相似三角形性質",
+        "blocks": [
+            {"type": "text", "text": "如圖(十)，$\\triangle ABC$、$\\triangle AQE$ 均為正三角形，$Q$ 點在 $\\overline{BC}$ 上且 $\\overline{AC}$ 與 $\\overline{QE}$ 相交於 $P$ 點，已知 $\\overline{BQ} = \\frac{1}{3}\\overline{BC} = 6$，求 $\\overline{AP} =$ ______。"},
+            {"type": "svg", "svg": svg_q19}
+        ]
+    },
+    {
+        "type": "fill",
+        "sourceNumber": "20",
+        "page": 2,
+        "difficulty": "medium",
+        "primaryUnitId": "nanyi-9-1-1-2",
+        "unitIds": ["nanyi-9-1-1-2"],
+        "unitAssignmentBasis": "中點連線與平行同底等高面積變換",
+        "blocks": [
+            {"type": "text", "text": "如圖(十一)，$\\triangle ABC$ 中，$M$ 為 $\\overline{BC}$ 的中點，$D$、$E$ 兩點分別在 $\\overline{AC}$、$\\overline{BC}$ 上且 $\\overline{AE} // \\overline{DM}$。請問 $\\triangle ABC$ 與 $\\triangle DEC$ 的面積比為______。"},
+            {"type": "svg", "svg": svg_q20}
+        ]
+    },
+    {
+        "type": "written",
+        "sourceNumber": "二-1",
+        "page": 2,
+        "difficulty": "easy",
+        "primaryUnitId": "nanyi-9-1-1-2",
+        "unitIds": ["nanyi-9-1-1-2"],
+        "unitAssignmentBasis": "尺規作圖：平行線截比例線段分線段",
+        "blocks": [
+            {"type": "text", "text": "二、尺規作圖：（共 10 分。）要保留尺規作圖痕跡，否則不予計分。不用寫作法。\\n1. 已知：如圖 $\\overline{AB}$，求作：在 $\\overline{AB}$ 上找一 $C$ 點，使得 $\\overline{AC} : \\overline{BC} = 2 : 5$。"},
+            {"type": "svg", "svg": svg_w1}
+        ]
+    },
+    {
+        "type": "written",
+        "sourceNumber": "二-2",
+        "page": 2,
+        "difficulty": "easy",
+        "primaryUnitId": "nanyi-9-1-1-3",
+        "unitIds": ["nanyi-9-1-1-3"],
+        "unitAssignmentBasis": "尺規作圖：以給定點為中心作多邊形縮放圖形",
+        "blocks": [
+            {"type": "text", "text": "2. 如圖，以 $O$ 點為縮放中心，畫出四邊形 $ABCD$ 縮放 2 倍的圖形。"},
+            {"type": "svg", "svg": svg_w2}
+        ]
+    }
+]
+
+doc_data = {
+    "paperId": "ld-110-1-1-9",
+    "sourceSha256": "504e5aee4d08e5a51fedeaaad1b25ca9e8143ed3f096219a087e5b7cfcaf3fb6",
+    "printedHeader": "宜蘭縣立羅東國中 110 學年度第一學期九年級數學科第一次段考試卷",
+    "printedSlot": {
+        "year": 110,
+        "semester": 1,
+        "grade": 9,
+        "exam": 1
+    },
+    "printedCounts": {
+        "choice": 0,
+        "fill": 20,
+        "written": 2
+    },
+    "visualReviewComplete": True,
+    "reviewNote": "羅東國中 110-1 G9 E1 原卷二頁純向量幾何 SVG 重繪，數學式全 KaTeX 排版，經字元與雙重檢查完全符合標準。",
+    "expectedTypes": {
+        "choice": 0,
+        "fill": 20,
+        "written": 2
+    },
+    "questions": questions
+}
+
+out_path = ROOT / "research/yilan/transcribed/ld-110-1-1-9.json"
+out_path.parent.mkdir(parents=True, exist_ok=True)
+out_path.write_text(json.dumps(doc_data, ensure_ascii=False, indent=2), encoding="utf-8")
+print(f"Successfully written {out_path} with {len(questions)} questions")
