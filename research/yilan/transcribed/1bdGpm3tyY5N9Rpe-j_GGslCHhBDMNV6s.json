@@ -1,0 +1,512 @@
+{
+  "paperId": "1bdGpm3tyY5N9Rpe-j_GGslCHhBDMNV6s",
+  "sourceSha256": "d6ace6f6f54fe992fb8a6d5d023dc550e766d6df410dc0609169b7dbb761c9ad",
+  "printedHeader": "宜蘭縣中華國民中學一一三學年度第一學期第一次段考數學科試卷 九年級",
+  "printedSlot": {
+    "year": 113,
+    "semester": 1,
+    "grade": 9,
+    "exam": 1
+  },
+  "printedCounts": "作圖題1題、填充題20題，合計21題。",
+  "visualReviewComplete": true,
+  "reviewNote": "全卷21題（作圖1題、填充20題）皆以原卷逐題人工核對，包含16幅精細純向量幾何SVG圖形，無遺漏字元。",
+  "expectedTypes": {
+    "choice": 0,
+    "fill": 20,
+    "written": 1
+  },
+  "questions": [
+    {
+      "type": "written",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-1-2",
+      "unitIds": [
+        "nanyi-9-1-1-2"
+      ],
+      "unitAssignmentBasis": "利用平行線截線段成比例性質進行尺規作圖，將線段依給定比分段。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如下圖，已知 $\\triangle ABC$，利用尺規作圖在 $\\overline{AB}$ 上找到一點 $D$，使得 $\\triangle ADC : \\triangle BDC = 3 : 2$。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 130\" width=\"240\" height=\"130\"> <polygon points=\"35,100 205,100 150,25\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/> <text x=\"22\" y=\"105\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">A</text> <text x=\"218\" y=\"105\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">B</text> <text x=\"150\" y=\"16\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">C</text> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-1-3",
+      "unitIds": [
+        "nanyi-9-1-1-3"
+      ],
+      "unitAssignmentBasis": "觀察三角形邊角條件，利用 AA 或 SAS 相似性質判斷相似三角形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "判斷下列哪些三角形是相似的，並寫出依據的相似性質。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 200\" width=\"480\" height=\"200\"> <!-- (A) --> <g> <text x=\"35\" y=\"22\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\">(A)</text> <polygon points=\"70,25 35,85 95,65\" fill=\"#fef7e0\" stroke=\"#111\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/> <!-- angle 55 at top (70, 25) --> <path d=\"M 62,39 A 16 16 0 0 0 76,36\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/> <text x=\"69\" y=\"44\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\" text-anchor=\"middle\">55°</text> <!-- angle 40 at bottom-left (35, 85) --> <path d=\"M 46,67 A 20 20 0 0 1 54,79\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/> <text x=\"56\" y=\"73\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\">40°</text> </g> <!-- (B) --> <g> <text x=\"185\" y=\"22\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\">(B)</text> <polygon points=\"210,30 185,85 240,80\" fill=\"#fdebf0\" stroke=\"#111\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/> <!-- angle 70 at top (210, 30) --> <path d=\"M 203,45 A 16 16 0 0 0 219,44\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/> <text x=\"211\" y=\"55\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\" text-anchor=\"middle\">70°</text> <text x=\"186\" y=\"55\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\" text-anchor=\"end\">3</text> <text x=\"233\" y=\"52\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\">3</text> </g> <!-- (C) --> <g> <text x=\"330\" y=\"22\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\">(C)</text> <polygon points=\"330,22 345,95 400,50\" fill=\"#fdeee5\" stroke=\"#111\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/> <!-- angle 55 at right vertex (400, 50) --> <path d=\"M 382,42 A 20 20 0 0 1 386,61\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/> <text x=\"378\" y=\"55\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\" text-anchor=\"end\">55°</text> <text x=\"330\" y=\"65\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\" text-anchor=\"end\">4</text> <text x=\"375\" y=\"85\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\">4</text> </g> <!-- (D) --> <g> <text x=\"35\" y=\"125\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\">(D)</text> <polygon points=\"30,135 70,185 160,145\" fill=\"#eef7ed\" stroke=\"#111\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/> <text x=\"95\" y=\"138\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\" text-anchor=\"middle\">8</text> <text x=\"40\" y=\"168\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\" text-anchor=\"end\">4</text> <text x=\"120\" y=\"174\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\">6</text> </g> <!-- (E) --> <g> <text x=\"185\" y=\"125\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\">(E)</text> <polygon points=\"225,115 210,180 255,188\" fill=\"#eef5fb\" stroke=\"#111\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/> <!-- angle 40 at top (225, 115) --> <path d=\"M 221,132 A 18 18 0 0 0 231,133\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/> <text x=\"226\" y=\"145\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\" text-anchor=\"middle\">40°</text> <!-- angle 85 at bottom-left (210, 180) --> <path d=\"M 216,155 A 25 25 0 0 1 226,174\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/> <text x=\"228\" y=\"170\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\">85°</text> </g> <!-- (F) --> <g> <text x=\"330\" y=\"125\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\">(F)</text> <polygon points=\"330,170 355,130 385,140\" fill=\"#f3edf7\" stroke=\"#111\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/> <text x=\"370\" y=\"128\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\" text-anchor=\"middle\">2</text> <text x=\"336\" y=\"145\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\" text-anchor=\"end\">3</text> <text x=\"368\" y=\"165\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\">4</text> </g> </svg>"
+        },
+        {
+          "type": "text",
+          "text": "(1) A 與＿＿＿＿相似，根據＿＿＿＿相似性質。"
+        },
+        {
+          "type": "text",
+          "text": "(2) B 與＿＿＿＿相似，根據＿＿＿＿相似性質。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-1-1-2",
+      "unitIds": [
+        "nanyi-9-1-1-2"
+      ],
+      "unitAssignmentBasis": "梯形兩平行底邊同高，三角形面積比等於底邊長之比。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如下圖，在梯形 $ABCD$ 中，$\\overline{AD} // \\overline{BC}$，且 $\\overline{AD}=5$，$\\overline{BC}=9$，則 $\\triangle ACD$ 面積：$\\triangle ABC$ 面積 $=$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 110\" width=\"200\" height=\"110\"> <polygon points=\"45,25 115,25 130,90 15,90\" fill=\"#ececec\" stroke=\"#111\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/> <line x1=\"45\" y1=\"25\" x2=\"130\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.2\"/> <text x=\"40\" y=\"20\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">A</text> <text x=\"122\" y=\"20\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">D</text> <text x=\"8\" y=\"95\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">B</text> <text x=\"138\" y=\"95\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">C</text> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "3",
+      "page": 1,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-1-1",
+      "unitIds": [
+        "nanyi-9-1-1-1"
+      ],
+      "unitAssignmentBasis": "連比例式的基本運算、比值轉換與解未知數求值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "連比例式的運算"
+        },
+        {
+          "type": "text",
+          "text": "(1) 設 $3x=2y=5z$，求 $x : y : z =$ ＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(2) 設 $x : y = 3 : 4$，$y : z = 6 : 5$，求 $4x : 3y : 2z =$ ＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(3) 設 $3xy=4xz=6yz$，求 $x : y : z =$ ＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(4) 已知 $x$、$y$、$z$ 皆不等於 0，若 $(x-1) : (y+2) : (z-3) = 4 : 5 : 6$，且 $x+y+z=62$，求 $x+y-z=$ ＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "4",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-1-1-3",
+      "unitIds": [
+        "nanyi-9-1-1-3"
+      ],
+      "unitAssignmentBasis": "相似多邊形對應角相等及四邊形內角和為 $360^\\circ$。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如下圖，四邊形 $ABCD \\sim$ 四邊形 $EFGH$，且 $A$、$B$、$C$、$D$ 四點的對應點分別為 $E$、$F$、$G$、$H$，若 $\\angle A=90^\\circ$、$\\angle B=75^\\circ$、$\\angle C=55^\\circ$，則 $\\angle H=$ ＿＿＿＿$^{\\circ}$。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 110\" width=\"280\" height=\"110\"> <g> <polygon points=\"35,22 95,45 125,90 20,90\" fill=\"#ececec\" stroke=\"#111\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/> <text x=\"35\" y=\"16\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">A</text> <text x=\"102\" y=\"42\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">D</text> <text x=\"133\" y=\"95\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">C</text> <text x=\"10\" y=\"95\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">B</text> </g> <g transform=\"translate(15, 0)\"> <polygon points=\"185,42 227,58 248,90 175,90\" fill=\"#ececec\" stroke=\"#111\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/> <text x=\"185\" y=\"36\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">E</text> <text x=\"233\" y=\"54\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">H</text> <text x=\"256\" y=\"95\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">G</text> <text x=\"165\" y=\"95\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">F</text> </g> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "5",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-1-3",
+      "unitIds": [
+        "nanyi-9-1-1-3"
+      ],
+      "unitAssignmentBasis": "利用 AA 相似性質判定三角形相似，並利用對應邊成比例求線段長。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$\\triangle ABC$ 中，$\\angle ABC = \\angle AED$，$\\overline{AE}=5$，$\\overline{DE}=6$，$\\overline{BC}=18$，則 $\\overline{AB}=$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 135\" width=\"250\" height=\"135\"> <polygon points=\"160,25 25,95 215,95\" fill=\"#ececec\" stroke=\"#111\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/> <line x1=\"120\" y1=\"47\" x2=\"195\" y2=\"73\" stroke=\"#111\" stroke-width=\"1.3\"/> <text x=\"160\" y=\"18\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">A</text> <text x=\"12\" y=\"102\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">B</text> <text x=\"223\" y=\"102\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">C</text> <text x=\"110\" y=\"45\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">D</text> <text x=\"205\" y=\"75\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">E</text> <!-- dimensions --> <!-- AE = 5 arc/bracket --> <path d=\"M 164,23 Q 183,43 198,71\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/> <text x=\"186\" y=\"44\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\">5</text> <!-- DE = 6 arc/bracket --> <path d=\"M 122,50 Q 158,68 193,76\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/> <text x=\"160\" y=\"70\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\" text-anchor=\"middle\">6</text> <!-- BC = 18 arc/bracket --> <path d=\"M 28,103 Q 120,118 212,103\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/> <text x=\"120\" y=\"125\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" text-anchor=\"middle\">18</text> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "6",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-1-2",
+      "unitIds": [
+        "nanyi-9-1-1-2"
+      ],
+      "unitAssignmentBasis": "平行線截比例線段性質與三角形相似對應邊成比例。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如右圖，$D$、$F$ 兩點在 $\\overline{AB}$ 上，$E$、$G$ 兩點在 $\\overline{AC}$ 上，且 $\\overline{DE} // \\overline{FG} // \\overline{BC}$。若 $\\overline{AD} : \\overline{DF} : \\overline{FB} = 2 : 3 : 4$，$\\overline{BC}=36\\text{ cm}$、$\\overline{AC}=45\\text{ cm}$，則 $\\overline{DE} + \\overline{EG} =$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 180\" width=\"200\" height=\"180\"> <polygon points=\"80,20 60,160 150,160\" fill=\"#ececec\" stroke=\"#111\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/> <line x1=\"75\" y1=\"55\" x2=\"98\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\"/> <line x1=\"68\" y1=\"102\" x2=\"120\" y2=\"102\" stroke=\"#111\" stroke-width=\"1.3\"/> <text x=\"80\" y=\"15\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">A</text> <text x=\"65\" y=\"57\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\">D</text> <text x=\"105\" y=\"57\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">E</text> <text x=\"58\" y=\"104\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\">F</text> <text x=\"128\" y=\"104\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">G</text> <text x=\"50\" y=\"165\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">B</text> <text x=\"158\" y=\"165\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">C</text> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "7",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-1-2",
+      "unitIds": [
+        "nanyi-9-1-1-2"
+      ],
+      "unitAssignmentBasis": "平行線截比例線段性質求未知數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如下圖，$\\overleftrightarrow{AD} // \\overleftrightarrow{BE} // \\overleftrightarrow{CF}$，直線 $M_1$ 與 $M_2$ 為截線。若 $\\overline{AB} = x-2$、$\\overline{BC} = 2x+3$、$\\overline{DE} = 10$、$\\overline{EF} = 25$，則 $x =$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 145\" width=\"240\" height=\"145\"> <!-- three parallel lines --> <line x1=\"20\" y1=\"35\" x2=\"220\" y2=\"35\" stroke=\"#999\" stroke-width=\"1\"/> <line x1=\"20\" y1=\"65\" x2=\"220\" y2=\"65\" stroke=\"#999\" stroke-width=\"1\"/> <line x1=\"20\" y1=\"95\" x2=\"220\" y2=\"95\" stroke=\"#999\" stroke-width=\"1\"/> <!-- transversal M1 --> <line x1=\"66\" y1=\"15\" x2=\"51\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.2\"/> <text x=\"48\" y=\"135\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" text-anchor=\"middle\">M₁</text> <!-- transversal M2 --> <line x1=\"92\" y1=\"15\" x2=\"183\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.2\"/> <text x=\"188\" y=\"135\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" text-anchor=\"middle\">M₂</text> <!-- labels on points --> <text x=\"52\" y=\"30\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">A</text> <text x=\"110\" y=\"30\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">D</text> <text x=\"48\" y=\"62\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">B</text> <text x=\"140\" y=\"72\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">E</text> <text x=\"43\" y=\"102\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">C</text> <text x=\"168\" y=\"102\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">F</text> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "8",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-1-3",
+      "unitIds": [
+        "nanyi-9-1-1-3"
+      ],
+      "unitAssignmentBasis": "判斷常見幾何圖形是否必為相似形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列各組圖形中，哪些組圖形不一定相似？"
+        },
+        {
+          "type": "text",
+          "text": "(A) 任意兩個長方形　(B) 任意兩個等腰直角三角形"
+        },
+        {
+          "type": "text",
+          "text": "(C) 任意兩個正方形　(D) 任意兩個等腰梯形"
+        },
+        {
+          "type": "text",
+          "text": "(E) 任意兩個菱形　(F) 任意兩個對應角相等的五邊形"
+        },
+        {
+          "type": "text",
+          "text": "答：＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "9",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-1-3",
+      "unitIds": [
+        "nanyi-9-1-1-3"
+      ],
+      "unitAssignmentBasis": "相似多邊形對應邊成比例求長度。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如下圖，長方形 $ABCD \\sim$ 長方形 $EFGH$，且 $A$、$B$、$C$、$D$ 四點的對應點依序為 $E$、$F$、$G$、$H$，$\\overline{EF}=4$ 公分，$\\overline{EH}=6$ 公分。若 $\\overline{AD}$ 比 $\\overline{EH}$ 多 3 公分，則 $\\overline{AB}$ 比 $\\overline{EF}$ 多＿＿＿＿公分。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 230 120\" width=\"230\" height=\"120\"> <!-- outer frame ABCD --> <rect x=\"25\" y=\"20\" width=\"180\" height=\"80\" fill=\"#dedede\" stroke=\"#111\" stroke-width=\"1.5\"/> <!-- inner photo EFGH --> <rect x=\"45\" y=\"30\" width=\"140\" height=\"60\" fill=\"#fdfdfd\" stroke=\"#111\" stroke-width=\"1.2\"/> <!-- decorative landscape lines in photo --> <circle cx=\"100\" cy=\"45\" r=\"8\" fill=\"#ffd166\" stroke=\"#111\" stroke-width=\"0.8\"/> <path d=\"M 45,78 Q 75,68 110,75 Q 145,82 185,73 L 185,90 L 45,90 Z\" fill=\"#b7e4c7\" stroke=\"#111\" stroke-width=\"0.8\"/> <path d=\"M 160,90 Q 168,75 162,60 Q 165,58 170,62 Q 175,55 180,62\" fill=\"none\" stroke=\"#2d6a4f\" stroke-width=\"1.2\"/> <!-- vertex labels --> <text x=\"18\" y=\"18\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">A</text> <text x=\"212\" y=\"18\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">D</text> <text x=\"18\" y=\"108\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">B</text> <text x=\"212\" y=\"108\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">C</text> <text x=\"40\" y=\"42\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">E</text> <text x=\"190\" y=\"42\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">H</text> <text x=\"40\" y=\"86\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">F</text> <text x=\"190\" y=\"86\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">G</text> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "10",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-1-2",
+      "unitIds": [
+        "nanyi-9-1-1-2"
+      ],
+      "unitAssignmentBasis": "利用平行線截比例線段與相似三角形性質求線段長。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如右圖，$\\triangle ABC$ 中，$\\overline{DE} // \\overline{BC}$，$\\overline{FE} // \\overline{DC}$，且 $\\overline{AF}=8$，$\\overline{FD}=10$，若 $\\overline{DE}=16$，則 $\\overline{BC}=$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"200\" height=\"160\"> <polygon points=\"90,20 35,140 170,140\" fill=\"#ececec\" stroke=\"#111\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/> <line x1=\"74\" y1=\"55\" x2=\"123\" y2=\"75\" stroke=\"#111\" stroke-width=\"1.3\"/> <line x1=\"60\" y1=\"85\" x2=\"123\" y2=\"75\" stroke=\"#111\" stroke-width=\"1.3\"/> <line x1=\"60\" y1=\"85\" x2=\"170\" y2=\"140\" stroke=\"#111\" stroke-width=\"1.3\"/> <text x=\"90\" y=\"15\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">A</text> <text x=\"62\" y=\"55\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\">F</text> <text x=\"48\" y=\"85\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\">D</text> <text x=\"133\" y=\"75\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">E</text> <text x=\"25\" y=\"145\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">B</text> <text x=\"178\" y=\"145\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">C</text> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "11",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-1-2",
+      "unitIds": [
+        "nanyi-9-1-1-2"
+      ],
+      "unitAssignmentBasis": "梯形兩底平行線截比例線段求上底長。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如下圖，$\\overline{AD} // \\overline{EF} // \\overline{BC}$，若 $\\overline{AE}=\\dfrac{1}{4}\\overline{BE}$、$\\overline{EF}=10$、$\\overline{BC}=22$，則 $\\overline{AD}=$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 130\" width=\"170\" height=\"130\"> <polygon points=\"45,20 75,20 145,110 15,110\" fill=\"#ececec\" stroke=\"#111\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/> <line x1=\"39\" y1=\"40\" x2=\"89\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.3\"/> <text x=\"42\" y=\"14\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">A</text> <text x=\"78\" y=\"14\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">D</text> <text x=\"28\" y=\"43\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\">E</text> <text x=\"98\" y=\"43\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">F</text> <text x=\"8\" y=\"115\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">B</text> <text x=\"152\" y=\"115\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">C</text> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "12",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-1-1-1",
+      "unitIds": [
+        "nanyi-9-1-1-1"
+      ],
+      "unitAssignmentBasis": "連比的應用問題：設參數求解總票數與個別票數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "三六九遊樂園的門票票種分成全票、團體票、優待票三種，票價如下表。若某天門票收入共 382000 元，且全票、團體票、優待票的賣出票數比為 $7 : 16 : 5$，則全票共賣出＿＿＿＿張。"
+        },
+        {
+          "type": "table",
+          "header": true,
+          "rows": [
+            [
+              "票種",
+              "票價(元)"
+            ],
+            [
+              "全票",
+              "100"
+            ],
+            [
+              "團體票",
+              "60"
+            ],
+            [
+              "優待票",
+              "50"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "13",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-1-1",
+      "unitIds": [
+        "nanyi-9-1-1-1"
+      ],
+      "unitAssignmentBasis": "連比的應用問題：伸縮傘柄線段比與平移距離計算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如右圖，某摺疊傘傘柄伸長（$\\overline{AD}$）可達 48 公分，此時傘柄重疊的長度為 $\\overline{BC}$，且 $\\overline{AB} : \\overline{BC} = 11 : 3$，$\\overline{BC} : \\overline{CD} = 1 : 6$。若將摺疊傘傘柄縮至最短，使 $B$ 點落在 $A$ 點上，$D$ 點落在 $D'$ 點上，則此時摺疊傘傘柄的長度 $\\overline{AD'}$ 為＿＿＿＿公分。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 310 135\" width=\"310\" height=\"135\"> <!-- dimension bar 48 公分 --> <line x1=\"30\" y1=\"18\" x2=\"275\" y2=\"18\" stroke=\"#111\" stroke-width=\"1\"/> <line x1=\"30\" y1=\"12\" x2=\"30\" y2=\"24\" stroke=\"#111\" stroke-width=\"1.2\"/> <line x1=\"275\" y1=\"12\" x2=\"275\" y2=\"24\" stroke=\"#111\" stroke-width=\"1.2\"/> <polygon points=\"30,18 36,15 36,21\" fill=\"#111\"/> <polygon points=\"275,18 269,15 269,21\" fill=\"#111\"/> <text x=\"152\" y=\"16\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" text-anchor=\"middle\">48 公分</text> <!-- Extended umbrella handle (top) --> <g transform=\"translate(0, 25)\"> <!-- grip body (A to C: x=30 to 120) --> <rect x=\"30\" y=\"5\" width=\"90\" height=\"20\" rx=\"4\" fill=\"#fafafa\" stroke=\"#111\" stroke-width=\"1.2\"/> <rect x=\"95\" y=\"5\" width=\"25\" height=\"20\" fill=\"#e0e0e0\" stroke=\"#111\" stroke-width=\"1\"/> <!-- grip ridges --> <line x1=\"100\" y1=\"5\" x2=\"100\" y2=\"25\" stroke=\"#777\" stroke-width=\"0.8\"/> <line x1=\"105\" y1=\"5\" x2=\"105\" y2=\"25\" stroke=\"#777\" stroke-width=\"0.8\"/> <line x1=\"110\" y1=\"5\" x2=\"110\" y2=\"25\" stroke=\"#777\" stroke-width=\"0.8\"/> <line x1=\"115\" y1=\"5\" x2=\"115\" y2=\"25\" stroke=\"#777\" stroke-width=\"0.8\"/> <!-- rod (C to D: x=120 to 240) --> <rect x=\"120\" y=\"13\" width=\"120\" height=\"4\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"1\"/> <!-- end cap (x=240 to 275) --> <rect x=\"240\" y=\"6\" width=\"35\" height=\"18\" rx=\"3\" fill=\"#999\" stroke=\"#111\" stroke-width=\"1.2\"/> </g> <!-- Alignment dotted lines --> <line x1=\"30\" y1=\"55\" x2=\"30\" y2=\"90\" stroke=\"#777\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/> <line x1=\"105\" y1=\"55\" x2=\"105\" y2=\"75\" stroke=\"#777\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/> <line x1=\"120\" y1=\"55\" x2=\"120\" y2=\"90\" stroke=\"#777\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/> <line x1=\"195\" y1=\"75\" x2=\"195\" y2=\"90\" stroke=\"#777\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/> <line x1=\"275\" y1=\"55\" x2=\"275\" y2=\"75\" stroke=\"#777\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/> <!-- Middle labels --> <text x=\"27\" y=\"72\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">A</text> <text x=\"100\" y=\"72\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">B</text> <text x=\"116\" y=\"72\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">C</text> <text x=\"187\" y=\"72\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">D'</text> <text x=\"272\" y=\"72\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">D</text> <!-- Retracted umbrella handle (bottom) --> <g transform=\"translate(0, 80)\"> <!-- grip body (x=30 to 120) --> <rect x=\"30\" y=\"5\" width=\"90\" height=\"20\" rx=\"4\" fill=\"#fafafa\" stroke=\"#111\" stroke-width=\"1.2\"/> <rect x=\"95\" y=\"5\" width=\"25\" height=\"20\" fill=\"#e0e0e0\" stroke=\"#111\" stroke-width=\"1\"/> <line x1=\"100\" y1=\"5\" x2=\"100\" y2=\"25\" stroke=\"#777\" stroke-width=\"0.8\"/> <line x1=\"105\" y1=\"5\" x2=\"105\" y2=\"25\" stroke=\"#777\" stroke-width=\"0.8\"/> <line x1=\"110\" y1=\"5\" x2=\"110\" y2=\"25\" stroke=\"#777\" stroke-width=\"0.8\"/> <line x1=\"115\" y1=\"5\" x2=\"115\" y2=\"25\" stroke=\"#777\" stroke-width=\"0.8\"/> <!-- rod fully retracted into grip --> <rect x=\"120\" y=\"13\" width=\"40\" height=\"4\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"1\"/> <!-- end cap at D' (x=160 to 195) --> <rect x=\"160\" y=\"6\" width=\"35\" height=\"18\" rx=\"3\" fill=\"#999\" stroke=\"#111\" stroke-width=\"1.2\"/> </g> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "14",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-1-3",
+      "unitIds": [
+        "nanyi-9-1-1-3"
+      ],
+      "unitAssignmentBasis": "圖形縮放倍率的逆向計算與四捨五入求整數值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "小妍將 A4 的甲圖縮放成 B4 的乙圖，已知影印機 A4 縮放成 B4 的縮放倍率為 $119\\%$。若小妍想利用手動調整倍率的方式，將乙圖以 $x\\%$ 的倍率縮放為丙圖，則當 $x$ 設定為＿＿＿＿時，丙圖與甲圖的大小最接近。（四捨五入至整數位）"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 160\" width=\"210\" height=\"160\"> <!-- 乙 (B4) --> <rect x=\"75\" y=\"8\" width=\"55\" height=\"55\" fill=\"#e9edc9\" stroke=\"#111\" stroke-width=\"1.2\"/> <text x=\"80\" y=\"22\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\">乙</text> <circle cx=\"102\" cy=\"35\" r=\"14\" fill=\"#d3d3d3\" stroke=\"#111\" stroke-width=\"1\"/> <circle cx=\"92\" cy=\"24\" r=\"5\" fill=\"#d3d3d3\" stroke=\"#111\" stroke-width=\"0.8\"/> <circle cx=\"112\" cy=\"24\" r=\"5\" fill=\"#d3d3d3\" stroke=\"#111\" stroke-width=\"0.8\"/> <!-- arrow A4 -> B4 --> <line x1=\"52\" y1=\"88\" x2=\"72\" y2=\"68\" stroke=\"#6b4c35\" stroke-width=\"2\"/> <polygon points=\"76,64 66,68 70,74\" fill=\"#6b4c35\"/> <text x=\"36\" y=\"80\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\">119%</text> <text x=\"75\" y=\"78\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\">B4</text> <!-- arrow B4 -> x% -> 丙 --> <line x1=\"130\" y1=\"68\" x2=\"148\" y2=\"88\" stroke=\"#6b4c35\" stroke-width=\"2\"/> <polygon points=\"152,92 148,82 142,87\" fill=\"#6b4c35\"/> <text x=\"146\" y=\"80\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">x%</text> <!-- 甲 (A4) --> <rect x=\"15\" y=\"98\" width=\"46\" height=\"46\" fill=\"#e9edc9\" stroke=\"#111\" stroke-width=\"1.2\"/> <text x=\"20\" y=\"110\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\">甲</text> <text x=\"30\" y=\"94\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\">A4</text> <circle cx=\"38\" cy=\"121\" r=\"11\" fill=\"#d3d3d3\" stroke=\"#111\" stroke-width=\"0.8\"/> <circle cx=\"30\" cy=\"112\" r=\"4\" fill=\"#d3d3d3\" stroke=\"#111\" stroke-width=\"0.8\"/> <circle cx=\"46\" cy=\"112\" r=\"4\" fill=\"#d3d3d3\" stroke=\"#111\" stroke-width=\"0.8\"/> <!-- approximately equal sign --> <text x=\"76\" y=\"126\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\">≒</text> <!-- 丙 --> <rect x=\"98\" y=\"98\" width=\"46\" height=\"46\" fill=\"#e9edc9\" stroke=\"#111\" stroke-width=\"1.2\"/> <text x=\"103\" y=\"110\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"12\">丙</text> <circle cx=\"121\" cy=\"121\" r=\"11\" fill=\"#d3d3d3\" stroke=\"#111\" stroke-width=\"0.8\"/> <circle cx=\"113\" cy=\"112\" r=\"4\" fill=\"#d3d3d3\" stroke=\"#111\" stroke-width=\"0.8\"/> <circle cx=\"129\" cy=\"112\" r=\"4\" fill=\"#d3d3d3\" stroke=\"#111\" stroke-width=\"0.8\"/> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "15",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-1-3",
+      "unitIds": [
+        "nanyi-9-1-1-3"
+      ],
+      "unitAssignmentBasis": "正三角形內旋轉對稱分割線段所構成各三角形的相似關係判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，正三角形 $ABC$ 中，$\\overline{AE} : \\overline{EB} = \\overline{BF} : \\overline{CF} = \\overline{CD} : \\overline{AD} = 1 : 2$，則下列敘述錯誤者為＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(A) $\\triangle ABC \\sim \\triangle PQR$　(B) $\\triangle BCE \\sim \\triangle PAD$"
+        },
+        {
+          "type": "text",
+          "text": "(C) $\\triangle AER \\sim \\triangle CFR$　(D) $\\triangle ARC \\sim \\triangle PFB$"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 165\" width=\"200\" height=\"165\"> <!-- triangle ABC --> <polygon points=\"100,20 30,140 170,140\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/> <!-- cevains AF, BD, CE --> <!-- E on AB (76.7, 60), F on BC (76.7, 140), D on CA (146.7, 100) --> <line x1=\"100\" y1=\"20\" x2=\"77\" y2=\"140\" stroke=\"#111\" stroke-width=\"1.2\"/> <line x1=\"30\" y1=\"140\" x2=\"147\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.2\"/> <line x1=\"170\" y1=\"140\" x2=\"77\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.2\"/> <!-- vertices labels --> <text x=\"100\" y=\"14\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">A</text> <text x=\"18\" y=\"145\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">B</text> <text x=\"176\" y=\"145\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">C</text> <text x=\"64\" y=\"60\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">E</text> <text x=\"74\" y=\"156\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">F</text> <text x=\"156\" y=\"100\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">D</text> <!-- inner intersections --> <text x=\"64\" y=\"112\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">P</text> <text x=\"114\" y=\"126\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">Q</text> <text x=\"104\" y=\"70\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">R</text> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "16",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-1-2",
+      "unitIds": [
+        "nanyi-9-1-1-2"
+      ],
+      "unitAssignmentBasis": "利用同高三角形面積比等於底邊長比，反求線段長之比。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$\\triangle ABC$ 中，若 $\\overline{BE} : \\overline{EA} = 3 : 2$，$\\triangle BDE$ 的面積為 6，$\\triangle ABC$ 的面積為 35，求 $\\overline{BD} : \\overline{DC} =$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 160\" width=\"240\" height=\"160\"> <polygon points=\"120,25 75,125 220,135\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/> <line x1=\"102\" y1=\"65\" x2=\"140\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.3\"/> <text x=\"120\" y=\"18\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">A</text> <text x=\"63\" y=\"130\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">B</text> <text x=\"228\" y=\"140\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">C</text> <text x=\"92\" y=\"65\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">E</text> <text x=\"140\" y=\"147\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">D</text> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "17",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-1-1",
+      "unitIds": [
+        "nanyi-9-1-1-1"
+      ],
+      "unitAssignmentBasis": "連比的應用問題：釘子長度分段比例關係轉換。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "有 $A$、$B$、$C$ 三支長短不相同的釘子，$A$ 與 $B$ 長度比是 $6 : 7$，$A$ 釘子的 $\\dfrac{3}{5}$ 釘入牆內，$A$ 與 $C$ 兩支釘入牆內長度之比為 $4 : 3$，而它們留在牆外的部分一樣長，則 $A$、$B$、$C$ 三支釘子的長度比為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "18",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-1-3",
+      "unitIds": [
+        "nanyi-9-1-1-3"
+      ],
+      "unitAssignmentBasis": "正方形與長方形幾何性質，利用相似直角三角形或面積法求線段長。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，正方形 $ABCD$ 的邊長為 20，四邊形 $EFCG$ 為長方形，且 $\\overline{CF}=25$，則 $\\overline{EF}=$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 215 180\" width=\"215\" height=\"180\"> <!-- square ABCD --> <polygon points=\"30,55 130,55 130,155 30,155\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/> <!-- rectangle EFCG --> <line x1=\"30\" y1=\"80\" x2=\"130\" y2=\"155\" stroke=\"#111\" stroke-width=\"1.5\"/> <line x1=\"78\" y1=\"16\" x2=\"30\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.5\"/> <line x1=\"130\" y1=\"155\" x2=\"178\" y2=\"91\" stroke=\"#111\" stroke-width=\"1.5\"/> <line x1=\"78\" y1=\"16\" x2=\"178\" y2=\"91\" stroke=\"#111\" stroke-width=\"1.5\"/> <!-- vertex labels --> <text x=\"18\" y=\"55\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">A</text> <text x=\"18\" y=\"162\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">B</text> <text x=\"126\" y=\"170\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">C</text> <text x=\"138\" y=\"52\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">D</text> <text x=\"18\" y=\"85\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">F</text> <text x=\"78\" y=\"11\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">E</text> <text x=\"185\" y=\"96\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">G</text> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "19",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-1-2",
+      "unitIds": [
+        "nanyi-9-1-1-2"
+      ],
+      "unitAssignmentBasis": "三角形內比例線段輔助線作法或比例關係求線段長。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$\\triangle ABC$ 中，若 $\\overline{AE} : \\overline{EF} = 3 : 2$，$\\overline{AD} : \\overline{DC} = 1 : 3$，$\\overline{BD}=30$，則 $\\overline{BE}=$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"200\" height=\"160\"> <polygon points=\"85,20 35,135 175,135\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/> <line x1=\"35\" y1=\"135\" x2=\"108\" y2=\"49\" stroke=\"#111\" stroke-width=\"1.3\"/> <line x1=\"85\" y1=\"20\" x2=\"66\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.3\"/> <text x=\"85\" y=\"14\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">A</text> <text x=\"23\" y=\"140\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">B</text> <text x=\"182\" y=\"140\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">C</text> <text x=\"114\" y=\"46\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">D</text> <text x=\"63\" y=\"88\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">E</text> <text x=\"63\" y=\"150\" font-family=\"'TW-Kai', 'BiauKai', 'DFKai-SB', serif\" font-size=\"14\" font-style=\"italic\">F</text> </svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "20",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-1-1-1",
+      "unitIds": [
+        "nanyi-9-1-1-1"
+      ],
+      "unitAssignmentBasis": "連比的應用問題：速率反比與時間總和應用。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "中華國中操場跑道一圈長 200 公尺，若大雄、小夫、胖虎三人各以等速跑一圈，所花的時間和為 4 分。已知大雄、小夫每分鐘速率比為 $4 : 3$，而小夫、胖虎每分鐘速率比為 $5 : 4$，則小夫每分鐘跑＿＿＿＿公尺。"
+        }
+      ]
+    }
+  ]
+}
