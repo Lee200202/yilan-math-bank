@@ -1,6 +1,6 @@
 # 宜蘭縣 中華國中 待完成清單
 
-未轉寫 112 份，部分轉寫 13 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
+未轉寫 110 份，部分轉寫 13 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
 
 | 範圍 | 狀態 | 格式 | paperId | 原檔／官方包 | SHA256 |
 | --- | --- | --- | --- | --- | --- |
@@ -110,7 +110,6 @@
 | 106上・7年級・第3次 | 未轉寫 | pdf | `1OdbxSZa2aDPPnSZ1DBvh58VAcfXmFvNh` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1OdbxSZa2aDPPnSZ1DBvh58VAcfXmFvNh.pdf>)  | `8a9c974f89b2bd3c282038d059e1c4ae4fa6575d910d41a7223b56947931b2aa` |
 | 106下・7年級・第2次 | 未轉寫 | pdf | `1Ea0osH-VSZrf8ZQAPNANdbAoVoMlEEPk` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1Ea0osH-VSZrf8ZQAPNANdbAoVoMlEEPk.pdf>)  | `1f3455577b363a48a151759dbf1864ba1966189fa2c404d6a357a2727adbe65c` |
 | 106下・7年級・第3次 | 未轉寫 | doc | `1UMI7X448uFG4u-xZh7bBZSj2jsO2Phsh` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1UMI7X448uFG4u-xZh7bBZSj2jsO2Phsh.doc>)  | `79af9f732cd07240adce7549a5124df52634c8a40072b76a7e404ac936bf1902` |
-| 106上・8年級・第1次 | 未轉寫 | pdf | `1BNglDD-hfJorBPeYgjj5kjpLSXVxFsL2` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1BNglDD-hfJorBPeYgjj5kjpLSXVxFsL2.pdf>)  | `285e5546a0a06ab53c1c2ceb934266e909f391093cbaeee5453905cf7ff6dc6a` |
 | 106下・8年級・第1次 | 未轉寫 | pdf | `1Oyz6Mhe7vxl1LjqAFdEtFWXeWuNk0Trn` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1Oyz6Mhe7vxl1LjqAFdEtFWXeWuNk0Trn.pdf>)  | `d7d7894f23ebf027e90914c6a9682e934eb48c4ed2543bd084acd6a656ba340e` |
 | 106下・8年級・第2次 | 未轉寫 | pdf | `192AO5odd7tQJrJpT4HAJVRWx5UQCA-vC` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/192AO5odd7tQJrJpT4HAJVRWx5UQCA-vC.pdf>)  | `89c471d52ec9202fd44ba4d58b98bf21dff859de8ad67050266e3d3a25ebdff1` |
 | 106下・8年級・第3次 | 未轉寫 | pdf | `1nj1GNW5mcPe7cPhk8aaArk1cLOqmrjHO` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1nj1GNW5mcPe7cPhk8aaArk1cLOqmrjHO.pdf>)  | `134a1810017653fcaebbee75808910c64fb311d62e42c223b476f9cd02a95a6c` |
@@ -123,7 +122,6 @@
 | 105上・7年級・第1次 | 部分轉寫 | pdf | `1k-T9wedtWmZ4qTyP7Vomjl25Xpox6ymv` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1k-T9wedtWmZ4qTyP7Vomjl25Xpox6ymv-rendered.pdf>)  | `6ca470cfce471d35b2b5a90d811663057bedc94d2aa9de48ae14d67b10a4a01f` |
 | 105下・7年級・第1次 | 未轉寫 | pdf | `1o60p6gVoQrwplTtqU5impxS6HvtOsoK5` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1o60p6gVoQrwplTtqU5impxS6HvtOsoK5.pdf>)  | `ec6fade03f1f92182c7ac37d64f935bd43abaa703d4a4af23acf096bdcca3b5b` |
 | 105下・7年級・第2次 | 未轉寫 | pdf | `1_XVHRfuywjFwihAb-SWMlDgmg3si_c8Q` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1_XVHRfuywjFwihAb-SWMlDgmg3si_c8Q.pdf>)  | `1df7f9273cbf3e96cb92d5f69cdccfecb4635fb8862f4e274dc9444e35c0a5e2` |
-| 105上・8年級・第1次 | 未轉寫 | pdf | `1gcf33QjQD73U2sMzXYWORP-5BHcO8Fxv` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1gcf33QjQD73U2sMzXYWORP-5BHcO8Fxv.pdf>)  | `d244d8e7a99ec03c0c198834b2fb41d1a8bf07317cc701b52d70421a159e4e5e` |
 | 105下・8年級・第1次 | 未轉寫 | pdf | `1VyvQlXHgH65wE5NCKFyAUW29K0ENrofT` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1VyvQlXHgH65wE5NCKFyAUW29K0ENrofT.pdf>)  | `dbf6474bb679c8a85a1e09c4a5b49d9b30be977494d39109e24f55a91a702a34` |
 | 105下・8年級・第2次 | 未轉寫 | pdf | `18klCcvdduoHtgoXIo17wK_btxr7U1nrS` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/18klCcvdduoHtgoXIo17wK_btxr7U1nrS.pdf>)  | `0b5c034ec3e1183e1abe1eccff62bd57dc7f86964cef2c25122d6539b66a662f` |
 | 105上・9年級・第1次 | 未轉寫 | pdf | `1yGvGBnloohWQcnrgQvoXM0hzfpuHyIO9` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1yGvGBnloohWQcnrgQvoXM0hzfpuHyIO9.pdf>)  | `691cd3f04aba669e454953bc0eb86621a8705a834813f915e85cc881a5ca6c8c` |
