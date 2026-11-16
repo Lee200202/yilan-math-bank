@@ -1,0 +1,618 @@
+{
+ "paperId": "metro-taipei-6fea29c643a9f8a8",
+ "sourceSha256": "304b4abd3a9a1d8614f4a5e20375df3fce9fffae584626fbe0659bf033988c63",
+ "printedHeader": "台北市立興福國中106學年度第二學期八年級第1次期中考數學科題目卷",
+ "printedSlot": {
+  "year": 106,
+  "semester": 2,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、填充12題（14格）、綜合題2題、非選題1題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1至3頁題目卷；重繪火柴棒六邊形、相交直線、圓與弦、角、星形徽章、打孔選項圖、扇形與弓形5幅圖、坐標格、梯形、座位示意共13幅。填充第1題與第6題各含兩格；第10題圖形原圖未依比例（圓心角畫得約100度），依原圖重繪。座位示意圖為簡化重繪。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 12,
+  "written": 3
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由等差中項的定義 $a$ 與 $-16$ 的平均為 $-25$ 求 $a$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a$、$-16$ 的等差中項為 $-25$，則 $a$ 是"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{-41}{2}$",
+      "$-34$",
+      "$-41$",
+      "$-66$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "觀察圖形排列的規律，列出等差數列的一般項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "香庭用火柴棒排成並列的六邊形，觀察圖形並回答問題："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 354 124\"><g transform=\"translate(12,12)\"><polygon points=\"44,40 37,52.1 23,52.1 16,40 23,27.9 37,27.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"58\" y1=\"40\" x2=\"73\" y2=\"40\" stroke=\"#111\" stroke-width=\"2.5\"/><polygon points=\"78,40 71,36 71,44\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"122,52 115,64.1 101,64.1 94,52 101,39.9 115,39.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"143,39.9 136,52 122,52 115,39.9 122,27.8 136,27.8\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"150\" y1=\"40\" x2=\"165\" y2=\"40\" stroke=\"#111\" stroke-width=\"2.5\"/><polygon points=\"170,40 163,36 163,44\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"214,52 207,64.1 193,64.1 186,52 193,39.9 207,39.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"235,39.9 228,52 214,52 207,39.9 214,27.8 228,27.8\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"256,52 249,64.1 235,64.1 228,52 235,39.9 249,39.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"252\" y=\"44\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\">……</text><text x=\"30\" y=\"88\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">圖(一)</text><text x=\"115\" y=\"88\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">圖(二)</text><text x=\"221\" y=\"88\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">圖(三)</text></g></svg>"
+    },
+    {
+     "type": "text",
+     "text": "若排圖(五)，需幾根火柴棒？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$21$",
+      "$26$",
+      "$30$",
+      "$31$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由首項、末項與公差求等差數列的項數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差數列的首項為 $12$，末項為 $-120$，公差為 $-3$，則此等差數列共有幾項？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$43$",
+      "$44$",
+      "$45$",
+      "$46$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由首項與公差列不等式，判斷第幾項開始為負數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一等差級數的首項為 $59$，公差為 $-4$，則從第幾項開始為負數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$14$",
+      "$15$",
+      "$16$",
+      "$17$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "直接代入等差級數的和公式求 $S_{20}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差數列的首項 $a_1=15$，公差 $d=-3$，則 $S_{20}$ 為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-270$",
+      "$-260$",
+      "$-250$",
+      "$-240$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "兩直線相交時對頂角相等、鄰角互補的性質。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，相異兩直線相交形成 $\\angle 1$、$\\angle 2$、$\\angle 3$、$\\angle 4$，則下列敘述何者錯誤？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 154 134\"><g transform=\"translate(12,12)\"><line x1=\"5\" y1=\"55\" x2=\"125\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"45\" y1=\"5\" x2=\"85\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"77\" y=\"46\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">1</text><text x=\"55\" y=\"46\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">2</text><text x=\"55\" y=\"74\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">3</text><text x=\"77\" y=\"74\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">4</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\angle 2$ 與 $\\angle 4$ 互餘",
+      "$\\angle 1$ 與 $\\angle 4$ 互補",
+      "$\\angle 2=\\angle 4$",
+      "$\\angle 1=\\angle 3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "圓內一點的弦長範圍：最短為與過該點直徑垂直的弦，最長為直徑。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，已知圓 $O$ 及圓內一點 $P$，若圓 $O$ 的半徑為 $5$ 公分，則下列何者不可能是通過 $P$ 點的弦長？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 184 174\"><g transform=\"translate(12,12)\"><circle cx=\"80\" cy=\"75\" r=\"65\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"80\" cy=\"75\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"82\" y=\"94\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><circle cx=\"47\" cy=\"27\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"58\" y=\"30\" font-size=\"14\" font-style=\"italic\" text-anchor=\"start\" fill=\"#111\">P</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$8$ 公分",
+      "$9$ 公分",
+      "$10$ 公分",
+      "$11$ 公分"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "互餘與角平分線的角度計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，已知 $\\angle AOC$ 與 $\\angle BOD$ 互餘，且 $\\overline{OC}$ 平分 $\\angle BOD$。若 $\\angle COD=20^\\circ$，則 $\\angle AOC$ 的角度為"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 174 166\"><g transform=\"translate(12,12)\"><text x=\"6\" y=\"134\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><line x1=\"15\" y1=\"128\" x2=\"55\" y2=\"18\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"59\" y=\"14\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><line x1=\"15\" y1=\"128\" x2=\"103\" y2=\"53\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"113\" y=\"58\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><line x1=\"15\" y1=\"128\" x2=\"115\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"125\" y=\"95\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><line x1=\"15\" y1=\"128\" x2=\"127\" y2=\"128\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"137\" y=\"133\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$40$ 度",
+      "$50$ 度",
+      "$70$ 度",
+      "無法求出"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "判斷線對稱圖形的對稱軸數量。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "怡婷設計了一個星形徽章，如圖所示，則該圖可找到幾條對稱軸？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 144 148\"><g transform=\"translate(12,12)\"><polygon points=\"60,7 71,41 85,37 81,51 115,62 81,73 85,87 71,83 60,117 49,83 35,87 39,73 5,62 39,51 35,37 49,41\" fill=\"#fdf8e1\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"60\" y1=\"62\" x2=\"71\" y2=\"41\" stroke=\"#111\" stroke-width=\"1.1\"/><line x1=\"60\" y1=\"62\" x2=\"81\" y2=\"51\" stroke=\"#111\" stroke-width=\"1.1\"/><line x1=\"60\" y1=\"62\" x2=\"81\" y2=\"73\" stroke=\"#111\" stroke-width=\"1.1\"/><line x1=\"60\" y1=\"62\" x2=\"71\" y2=\"83\" stroke=\"#111\" stroke-width=\"1.1\"/><line x1=\"60\" y1=\"62\" x2=\"49\" y2=\"83\" stroke=\"#111\" stroke-width=\"1.1\"/><line x1=\"60\" y1=\"62\" x2=\"39\" y2=\"73\" stroke=\"#111\" stroke-width=\"1.1\"/><line x1=\"60\" y1=\"62\" x2=\"39\" y2=\"51\" stroke=\"#111\" stroke-width=\"1.1\"/><line x1=\"60\" y1=\"62\" x2=\"49\" y2=\"41\" stroke=\"#111\" stroke-width=\"1.1\"/></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1$",
+      "$2$",
+      "$4$",
+      "$8$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "以線對稱與摺疊對稱推想打孔後展開的圖形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，靖康將一個紙製杯墊對摺兩次後得一扇形，然後在此扇形上以打孔機打孔。當杯墊展開之後，會得到哪一個圖形？"
+    },
+    {
+     "type": "optionFigures",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 364 224\"><g transform=\"translate(12,12)\"><text x=\"15\" y=\"56\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">(A)</text><circle cx=\"80\" cy=\"50\" r=\"42\" fill=\"#fdf6d8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"80\" y1=\"8\" x2=\"80\" y2=\"92\" stroke=\"#111\" stroke-width=\"0.6\"/><circle cx=\"65\" cy=\"18\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><circle cx=\"95\" cy=\"18\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><circle cx=\"46\" cy=\"35\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><circle cx=\"114\" cy=\"35\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><circle cx=\"46\" cy=\"65\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><circle cx=\"114\" cy=\"65\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><circle cx=\"65\" cy=\"82\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><circle cx=\"95\" cy=\"82\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"200\" y=\"56\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">(B)</text><circle cx=\"265\" cy=\"50\" r=\"42\" fill=\"#fdf6d8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"265\" y1=\"8\" x2=\"265\" y2=\"92\" stroke=\"#111\" stroke-width=\"0.6\"/><circle cx=\"235\" cy=\"36\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><circle cx=\"235\" cy=\"64\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><circle cx=\"295\" cy=\"36\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><circle cx=\"295\" cy=\"64\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"15\" y=\"156\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">(C)</text><circle cx=\"80\" cy=\"150\" r=\"42\" fill=\"#fdf6d8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"80\" y1=\"108\" x2=\"80\" y2=\"192\" stroke=\"#111\" stroke-width=\"0.6\"/><circle cx=\"47\" cy=\"135\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><circle cx=\"113\" cy=\"135\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"200\" y=\"156\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">(D)</text><circle cx=\"265\" cy=\"150\" r=\"42\" fill=\"#fdf6d8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"265\" y1=\"108\" x2=\"265\" y2=\"192\" stroke=\"#111\" stroke-width=\"0.6\"/><circle cx=\"297\" cy=\"135\" r=\"3.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\"/></g></svg>",
+     "maxHeight": 190
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由已知兩項求公差，補出等差數列的缺項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請填入適當的數，使得數列成為等差數列：$64$，＿＿＿＿，$34$，＿＿＿＿，$4$，$-11$。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "代入一般項公式求第 $8$ 項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設某數列的一般項 $a_n=4-3n$，則 $a_8=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由首項與公差求第 $11$ 項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差數列的首項 $a_1$ 為 $-9$，公差為 $-3$，此等差數列的第 $11$ 項為 ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由兩項的差除以項數差求公差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差數列的第 $5$ 項 $a_5=11$，第 $12$ 項 $a_{12}=46$，則公差為 ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "先求項數再用等差級數和公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算等差級數 $3+10+17+\\cdots\\cdots+80$ 的和是 ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由和與首末項求項數，再求公差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差級數的首項為 $-3$，末項為 $33$，和為 $180$，此等差級數的項數為 ＿＿＿＿，公差為 ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "代入首項與公差的和公式求前 $22$ 項和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一等差級數的首項為 $-29$，公差為 $3$，此等差級數前 $22$ 項的和是 ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "以圓心角占整圓的比例求扇形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知圓 $O$ 的半徑為 $12$ 公分，$\\wideparen{AB}$ 所對的圓心角為 $60^\\circ$，此扇形 $AOB$ 的面積為 ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 174 164\"><g transform=\"translate(12,12)\"><circle cx=\"75\" cy=\"66\" r=\"58\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><path d=\"M 75 66 L 46 116.2 A 58 58 0 0 0 104 116.2 Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"75\" cy=\"66\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"75\" y=\"60\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"36\" y=\"124.2\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"114\" y=\"124.2\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "由扇形周長減去兩半徑得弧長，再求圓心角。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知圓 $O$ 的半徑為 $5$，扇形 $AOB$ 的周長是 $10+3\\pi$，則 $\\angle AOB$ 的度數為 ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 174 159\"><g transform=\"translate(12,12)\"><circle cx=\"75\" cy=\"62\" r=\"58\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><path d=\"M 75 62 L 28.1 96.1 A 58 58 0 0 0 121.9 96.1 Z\" fill=\"#d9d9ec\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"75\" cy=\"62\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"83\" y=\"57\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"19.1\" y=\"102.1\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"131.9\" y=\"102.1\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "由弧長與半徑求圓心角度數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知圓 $O$ 的半徑為 $9$ 公分，$\\wideparen{CD}=6\\pi$ 公分，則 $\\angle COD$ 的度數為 ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 184 174\"><g transform=\"translate(12,12)\"><circle cx=\"75\" cy=\"70\" r=\"62\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"75\" y1=\"70\" x2=\"136.9\" y2=\"66.8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"75\" y1=\"70\" x2=\"65.3\" y2=\"131.2\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M 136.9 66.8 A 62 62 0 0 1 65.3 131.2\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.8\"/><circle cx=\"75\" cy=\"70\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"67\" y=\"72\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"146.9\" y=\"68.8\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"63.3\" y=\"147.2\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "弓形面積為扇形面積減去等腰直角三角形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知圓 $O$ 的半徑是 $2$ 公分，且 $\\overline{AO}\\perp\\overline{BO}$，則灰色弓形的面積為 ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 174 176\"><g transform=\"translate(12,12)\"><circle cx=\"70\" cy=\"75\" r=\"62\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><path d=\"M 108.2 26.1 A 62 62 0 0 1 118.9 113.2 Z\" fill=\"#c8c8c8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"70\" y1=\"75\" x2=\"108.2\" y2=\"26.1\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"70\" y1=\"75\" x2=\"118.9\" y2=\"113.2\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"70\" cy=\"75\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"59\" y=\"77\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"114.2\" y=\"22.1\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"126.9\" y=\"127.2\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "利用互補與角平分線求角度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，已知 $\\angle AOC=120^\\circ$，且 $\\angle BOC$ 與 $\\angle AOC$ 互補。若 $\\overline{OM}$、$\\overline{ON}$ 分別平分 $\\angle AOC$、$\\angle BOC$，則 $\\angle BOM$ 的度數為 ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 214 129\"><g transform=\"translate(12,12)\"><line x1=\"15\" y1=\"80\" x2=\"175\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"95\" y1=\"80\" x2=\"60\" y2=\"19.4\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"95\" y1=\"80\" x2=\"130\" y2=\"19.4\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"95\" y1=\"80\" x2=\"34.4\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"8\" y=\"84\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"183\" y=\"84\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"95\" y=\"97\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"58\" y=\"14.4\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"136\" y=\"16.4\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">M</text><text x=\"26.4\" y=\"43\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">N</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1",
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "在坐標平面上畫出三角形對稱於 $x$ 軸的線對稱圖形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，已知 $\\triangle ABC$ 的頂點坐標分別為 $A(0,3)$、$B(-1,0)$、$C(1,1)$，請畫出 $\\triangle ABC$ 對稱於 $x$ 軸的線對稱圖形。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 170,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 214 239\"><g transform=\"translate(12,12)\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"190\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"190\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"190\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"70\" y1=\"10\" x2=\"70\" y2=\"190\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"190\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"110\" y1=\"10\" x2=\"110\" y2=\"190\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"130\" y1=\"10\" x2=\"130\" y2=\"190\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"150\" y1=\"10\" x2=\"150\" y2=\"190\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"170\" y1=\"10\" x2=\"170\" y2=\"190\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"10\" y1=\"190\" x2=\"170\" y2=\"190\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"10\" y1=\"170\" x2=\"170\" y2=\"170\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"10\" y1=\"150\" x2=\"170\" y2=\"150\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"10\" y1=\"130\" x2=\"170\" y2=\"130\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"10\" y1=\"110\" x2=\"170\" y2=\"110\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"10\" y1=\"90\" x2=\"170\" y2=\"90\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"10\" y1=\"70\" x2=\"170\" y2=\"70\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"10\" y1=\"50\" x2=\"170\" y2=\"50\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"10\" y1=\"30\" x2=\"170\" y2=\"30\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"10\" y1=\"10\" x2=\"170\" y2=\"10\" stroke=\"#aaa\" stroke-width=\"0.6\"/><line x1=\"10\" y1=\"110\" x2=\"176\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"182,110 174,106 174,114\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"90\" y2=\"4\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"90,-2 86,6 94,6\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"174\" y=\"125\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><text x=\"100\" y=\"6\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">y</text><text x=\"98\" y=\"124\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><polygon points=\"90,50 70,110 110,90\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/><text x=\"82\" y=\"48\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"64\" y=\"125\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"120\" y=\"86\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3",
+    "nanyi-8-2-4-3"
+   ],
+   "unitAssignmentBasis": "利用 $30^\\circ$、$60^\\circ$、$90^\\circ$ 三角形邊長比求梯形的高再算面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "曉雯將一長方形直尺與 $30^\\circ$、$60^\\circ$、$90^\\circ$ 的三角板拼成一個梯形 $ABCD$，如下圖。已知梯形的上底 $\\overline{AD}=2$，下底 $\\overline{BC}=8$，求梯形的面積。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 170,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 224 260\"><g transform=\"translate(12,12)\"><polygon points=\"20,26 56,26 164,213.1 20,213.1\" fill=\"#f6ddd2\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"56\" y1=\"26\" x2=\"56\" y2=\"213.1\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"56,206.1 63,206.1 63,213.1\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"12\" y=\"24\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"64\" y=\"24\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"12\" y=\"227.1\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"54\" y=\"229.1\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"172\" y=\"227.1\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"80\" y=\"68\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">30°</text><text x=\"138\" y=\"207.1\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">60°</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "3",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "以等差級數和判斷班級學生所在的座位區間。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，表演臺前共有 $15$ 排座位，其中第一排有 $30$ 個，且每一排均比前一排多 $2$ 個座位。若幸福國中有 $1\\sim 25$ 班，每班 $20$ 人，並依下列方式安排學生入座："
+    },
+    {
+     "type": "text",
+     "text": "(1) 依班級順序先排第一班，安排完後再排下一班。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 前排的座位排滿後，才排下一排座位。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 324 154\"><g transform=\"translate(12,12)\"><polygon points=\"75,5 125,5 125,25 75,25\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"100\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">表演台</text><path d=\"M 30 52 Q 100 78 170 52\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\" stroke-dasharray=\"4,3\"/><circle cx=\"24\" cy=\"48\" r=\"4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"34\" cy=\"44\" r=\"4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"172\" cy=\"46\" r=\"4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"182\" cy=\"50\" r=\"4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"205\" y=\"50\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">第1排</text><path d=\"M 20 72 Q 100 100 180 72\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\" stroke-dasharray=\"4,3\"/><circle cx=\"14\" cy=\"68\" r=\"4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"24\" cy=\"64\" r=\"4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"182\" cy=\"66\" r=\"4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"192\" cy=\"70\" r=\"4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"220\" y=\"70\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">第2排</text><path d=\"M 10 92 Q 100 124 190 92\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.1\" stroke-dasharray=\"4,3\"/><circle cx=\"4\" cy=\"88\" r=\"4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"14\" cy=\"84\" r=\"4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"192\" cy=\"86\" r=\"4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"202\" cy=\"90\" r=\"4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"235\" y=\"90\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">第3排</text><text x=\"100\" y=\"118\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">⋮</text><text x=\"250\" y=\"118\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">……第15排</text></g></svg>"
+    },
+    {
+     "type": "text",
+     "text": "請問：哪一班的學生全部都坐在第 $8$ 排？"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,919 @@
+{
+ "paperId": "metro-new_taipei-d681c6855f8a9ddc-045e8083",
+ "sourceSha256": "045e80837432f9a44545dd7aa538e0b4e8c86eb3ba7d596753d62079077ced9d",
+ "printedHeader": "新北市立福和國中114學年度上學期九年級第二次段考數學科試卷",
+ "printedSlot": {
+  "year": 114,
+  "semester": 1,
+  "grade": 9,
+  "exam": 2
+ },
+ "printedCounts": "選擇20題、填充10題（10格）、計算2題（各含2小題）。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1至3頁；文字層的根號與分數亂碼，以頁面圖校正。圖1至圖23與計算題兩圖共26幅（拱門圖供第19、20題共用）。第7題原寫「承上題」，改為重述圖4條件；第20題重述拱門條件使題幹獨立。圖形多為示意，數值較精確者依題給長度重算。",
+ "expectedTypes": {
+  "choice": 20,
+  "fill": 10,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "直線與圓沒有交點，表示圓心到直線的距離大於半徑。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 1，直線 $L$ 與 $\\overline{OA}$ 垂直於 $A$ 點，$\\overline{OA}=13$。以 $O$ 為圓心，$r$ 為半徑作一圓，則當 $r$ 為下列哪一個值時，可使 $L$ 與此圓沒有交點？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 80,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 114 104\"><g transform=\"translate(12,12)\"><line x1=\"8\" y1=\"42\" x2=\"52\" y2=\"42\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"52\" y1=\"6\" x2=\"52\" y2=\"78\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"46,42 46,36 52,36\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"8\" cy=\"42\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"30\" y=\"36\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">13</text><text x=\"58\" y=\"9\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">L</text><text x=\"62\" y=\"55\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"8\" y=\"61\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$10$",
+      "$13$",
+      "$14$",
+      "$26$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "直徑所對的圓周角為直角，再由三角形內角和求 $\\angle ACB$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $\\overline{AC}$ 為圓 $O$ 的直徑，$B$ 為圓周上一點，若 $\\angle BAC=33^\\circ$，則 $\\angle ACB=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$77^\\circ$",
+      "$67^\\circ$",
+      "$57^\\circ$",
+      "$47^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-1-1-3",
+   "unitIds": [
+    "nanyi-9-1-1-3"
+   ],
+   "unitAssignmentBasis": "中點連線得相似三角形，面積比等於邊長比的平方。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 2，$\\triangle ABC$ 中，$D$、$E$ 分別為 $\\overline{AB}$、$\\overline{AC}$ 的中點，若 $\\triangle ABC$ 的面積為 $24$ 平方公分，則 $\\triangle ADE$ 的面積為多少平方公分？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 144 129\"><g transform=\"translate(12,12)\"><polygon points=\"86,9 8,89 99,89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"47\" y1=\"49\" x2=\"91\" y2=\"49\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"86\" y=\"5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"-1\" y=\"100\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"108\" y=\"100\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"38\" y=\"54\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"100\" y=\"54\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$18$ 平方公分",
+      "$12$ 平方公分",
+      "$9$ 平方公分",
+      "$6$ 平方公分"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-1-1-4",
+   "unitIds": [
+    "nanyi-9-1-1-4"
+   ],
+   "unitAssignmentBasis": "同一時刻物高與影長成比例。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某日傍晚，芳文發現院子裡一棵高度為 $2$ 公尺的樹，其影子長為 $1.6$ 公尺，若此時附近大樓的影子長為 $20$ 公尺，則這棟大樓的高度為多少公尺？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$16$ 公尺",
+      "$18$ 公尺",
+      "$20$ 公尺",
+      "$25$ 公尺"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-1-3",
+   "unitIds": [
+    "nanyi-9-1-1-3",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "直角三角形斜邊上的高，利用射影定理或相似三角形求 $\\overline{CD}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 3，已知直角三角形 $ABC$ 中，$\\angle BAC=90^\\circ$，$\\overline{AD}\\perp\\overline{BC}$ 於 $D$ 點，若 $\\overline{AC}=6$，$\\overline{BC}=9$，則 $\\overline{CD}=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 174 114\"><g transform=\"translate(12,12)\"><polygon points=\"94,9 7,59 125,63\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"94\" y1=\"9\" x2=\"94\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"88.8,12 91.8,17.2 97,14.2\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"94,54 100,54.6 100,60.6\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"94\" y=\"5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"-2\" y=\"70\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"134\" y=\"74\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"94\" y=\"78\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4$",
+      "$3$",
+      "$2.5$",
+      "$1.5$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "由弦心距與半弦用畢氏定理求半徑，再求另一弦長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 4，$\\overline{AB}$、$\\overline{CD}$ 為圓 $O$ 的兩弦，其中 $\\overline{OM}$、$\\overline{ON}$ 分別為其弦心距，若 $\\overline{CD}=24$，$\\overline{ON}=9$，$\\overline{OM}=6$，求 $\\overline{AB}=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 174 164\"><g transform=\"translate(12,12)\"><circle cx=\"70\" cy=\"70\" r=\"60\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"34.4\" y1=\"21.7\" x2=\"129.6\" y2=\"76.7\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"22\" y1=\"106\" x2=\"118\" y2=\"106\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"70\" y1=\"70\" x2=\"82\" y2=\"49.2\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"70\" y1=\"70\" x2=\"70\" y2=\"106\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"70\" cy=\"70\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"79,54.4 84.2,57.4 87.2,52.2\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"70,100 76,100 76,106\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"25.4\" y=\"22.7\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"140.6\" y=\"81.7\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"90\" y=\"44.2\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">M</text><text x=\"60\" y=\"81\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"12\" y=\"117\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"129\" y=\"117\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"70\" y=\"125\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">N</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3\\sqrt{21}$",
+      "$6\\sqrt{21}$",
+      "$8$",
+      "$16$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "弦心距越小弦越長，由兩個極端弦長界定整數弦長的範圍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 4，$\\overline{AB}$、$\\overline{CD}$ 為圓 $O$ 的兩弦，其中 $\\overline{OM}$、$\\overline{ON}$ 分別為其弦心距，若 $\\overline{CD}=24$，$\\overline{ON}=9$，$\\overline{OM}=6$。已知圓 $O$ 上有另一弦 $\\overline{EF}$，且 $\\overline{OM}<\\overline{EF}$ 的弦心距長度 $<\\overline{ON}$，若 $\\overline{EF}$ 的長度為整數值，求 $\\overline{EF}=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 174 164\"><g transform=\"translate(12,12)\"><circle cx=\"70\" cy=\"70\" r=\"60\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"34.4\" y1=\"21.7\" x2=\"129.6\" y2=\"76.7\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"22\" y1=\"106\" x2=\"118\" y2=\"106\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"70\" y1=\"70\" x2=\"82\" y2=\"49.2\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"70\" y1=\"70\" x2=\"70\" y2=\"106\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"70\" cy=\"70\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"79,54.4 84.2,57.4 87.2,52.2\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"70,100 76,100 76,106\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"25.4\" y=\"22.7\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"140.6\" y=\"81.7\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"90\" y=\"44.2\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">M</text><text x=\"60\" y=\"81\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"12\" y=\"117\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"129\" y=\"117\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"70\" y=\"125\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">N</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$25,\\ 26$",
+      "$26,\\ 27$",
+      "$24,\\ 25,\\ 26$",
+      "$25,\\ 26,\\ 27$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-1-3",
+   "unitIds": [
+    "nanyi-9-1-1-3"
+   ],
+   "unitAssignmentBasis": "平行四邊形中的相似三角形，面積比等於相似比的平方。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 5，平行四邊形 $ABCD$ 中，$\\overline{AE}:\\overline{ED}=2:3$，則 $\\triangle EMD$ 的面積 $:\\ \\triangle CMB$ 的面積 $=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 194 119\"><g transform=\"translate(12,12)\"><polygon points=\"40,0 0,70 110,70 150,0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"0\" y1=\"70\" x2=\"150\" y2=\"0\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"84\" y1=\"0\" x2=\"110\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"30\" y=\"1\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"84\" y=\"-6\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"160\" y=\"1\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"-9\" y=\"83\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"119\" y=\"83\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"105.8\" y=\"37.2\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">M</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2:3$",
+      "$3:5$",
+      "$4:25$",
+      "$9:25$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-1-4",
+   "unitIds": [
+    "nanyi-9-1-1-4",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "以影長與仰角（含 $\\sin$、$\\tan$ 的近似值）計算大樓高度；南一單元表無三角比，歸入相似形的應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 6，$\\overline{AC}$ 是大樓 $\\overline{AB}$ 的影子，且經測量得知 $\\angle C=65^\\circ$，影子長（$\\overline{AC}$）為 $20$ 公尺。請問大樓的高度 $\\overline{AB}$ 最接近下列何者？（$\\sin25^\\circ\\approx 0.4226$，$\\sin65^\\circ\\approx 0.9063$，$\\tan65^\\circ\\approx 2.1445$）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 134 134\"><g transform=\"translate(12,12)\"><line x1=\"-4\" y1=\"100\" x2=\"100\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"28,10 54,10 54,100 28,100\" fill=\"#e0e0e0\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"40\" y1=\"14\" x2=\"40\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"0\" y1=\"100\" x2=\"40\" y2=\"14\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"35,100 35,95 40,95\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"40\" y=\"6\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"40\" y=\"118\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"-6\" y=\"114\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"-2\" y=\"74\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">65°</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$40$ 公尺",
+      "$42$ 公尺",
+      "$43$ 公尺",
+      "$44$ 公尺"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "由弧長求圓心角，再求扇形面積（或 $\\dfrac{1}{2}\\times$ 弧長 $\\times$ 半徑）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "扇形 $AOB$ 中，已知 $\\overline{OA}=9$ 公分，且 $\\wideparen{AB}$ 的弧長為 $6\\pi$ 公分，則扇形 $AOB$ 面積為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$18\\pi$ 平方公分",
+      "$27\\pi$ 平方公分",
+      "$36\\pi$ 平方公分",
+      "$54\\pi$ 平方公分"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3",
+    "nanyi-9-1-1-3"
+   ],
+   "unitAssignmentBasis": "切線垂直半徑，用畢氏定理與相似三角形求弦長 $\\overline{AB}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 7，$\\overrightarrow{PA}$、$\\overrightarrow{PB}$ 切圓 $O$ 於 $A$、$B$ 兩點，$\\overline{OP}$ 與 $\\overline{AB}$ 交於 $M$ 點，若圓 $O$ 半徑為 $12$，$\\overline{OP}=20$，求 $\\overline{AB}=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 229 164\"><g transform=\"translate(12,12)\"><circle cx=\"70\" cy=\"70\" r=\"60\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"170\" y1=\"70\" x2=\"88.4\" y2=\"8.8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"170\" y1=\"70\" x2=\"88.4\" y2=\"131.2\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"106\" y1=\"22\" x2=\"106\" y2=\"118\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"70\" y1=\"70\" x2=\"170\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"70\" cy=\"70\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"106\" cy=\"22\" r=\"2.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"106\" cy=\"118\" r=\"2.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"67\" y=\"87\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"103\" y=\"87\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">M</text><text x=\"180\" y=\"75\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">P</text><text x=\"114\" y=\"19\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"114\" y=\"133\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$18$",
+      "$19.5$",
+      "$19.2$",
+      "$19$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "圓內接四邊形的外角等於其內對角，再由三角形內角和求 $\\angle A$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 8，四邊形 $ABCD$ 為圓內接四邊形，$\\overrightarrow{AB}$、$\\overrightarrow{DC}$ 交於 $P$ 點，若 $\\angle P=26^\\circ$，$\\angle CBP=89^\\circ$，則 $\\angle A=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 159 124\"><g transform=\"translate(12,12)\"><circle cx=\"43\" cy=\"44\" r=\"36\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"10.4\" y1=\"59.2\" x2=\"120\" y2=\"59.2\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"39.9\" y1=\"8.1\" x2=\"120\" y2=\"59.2\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"10.4,59.2 75.6,59.2 76.8,31.7 39.9,8.1\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"39.9\" y=\"4.1\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"85.8\" y=\"31.7\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"77.6\" y=\"76.2\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"2.4\" y=\"74.2\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"129\" y=\"74.2\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">P</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$60^\\circ$",
+      "$65^\\circ$",
+      "$66^\\circ$",
+      "$68^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3",
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "利用 $45^\\circ$ 與 $30^\\circ$-$60^\\circ$-$90^\\circ$ 特殊直角三角形的邊長比求 $\\overline{AD}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 9，$\\triangle ABC$ 中，若 $\\angle A=30^\\circ$，$\\angle C=90^\\circ$，且 $D$ 在 $\\overline{AC}$ 上，$\\angle BDC=45^\\circ$，若 $\\overline{BC}=8$，求 $\\overline{AD}=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 209 129\"><g transform=\"translate(12,12)\"><polygon points=\"4.5,88 150,4 150,88\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"150\" y1=\"4\" x2=\"66\" y2=\"88\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"150,82 144,82 144,88\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"159\" y=\"6\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"159\" y=\"101\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"-3.5\" y=\"101\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"66\" y=\"106\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$8\\sqrt{3}-8$",
+      "$8\\sqrt{3}-4$",
+      "$8\\sqrt{2}-8$",
+      "$8\\sqrt{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "14",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "圓周角等於所對弧的一半，兩圓周角所對弧合起來為 $360^\\circ$ 減去已知弧。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 10，$A$、$B$、$C$、$D$、$E$、$F$ 六個點皆在圓上，若 $\\wideparen{AD}=20^\\circ$，$\\wideparen{CF}=40^\\circ$，則 $\\angle ABC+\\angle DEF=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 149 149\"><g transform=\"translate(12,12)\"><circle cx=\"60\" cy=\"60\" r=\"54\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"60\" cy=\"60\" r=\"1.8\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"41.5\" y1=\"9.3\" x2=\"11.1\" y2=\"82.8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"11.1\" y1=\"82.8\" x2=\"87\" y2=\"106.8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"60\" y1=\"6\" x2=\"108.9\" y2=\"82.8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"108.9\" y1=\"82.8\" x2=\"50.6\" y2=\"113.2\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"37.8\" y=\"3.9\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"60\" y=\"0\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"118.9\" y=\"92.5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"92.5\" y=\"121.3\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"48.7\" y=\"129\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">F</text><text x=\"1.1\" y=\"92.5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$160^\\circ$",
+      "$170^\\circ$",
+      "$180^\\circ$",
+      "$200^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "15",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "弦被垂直平分，由畢氏定理求半徑再求圓周長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "圓內有一弦 $\\overline{AB}$ 通過其半徑的中點，且與此半徑垂直，若 $\\overline{AB}=6$，則此圓的周長是多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4\\sqrt{3}\\,\\pi$",
+      "$8\\sqrt{3}\\,\\pi$",
+      "$10\\pi$",
+      "$12\\pi$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "16",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "圓外一點到圓的兩切線段等長，推得 $\\overline{BC}=\\overline{AB}+\\overline{CD}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 11，梯形 $ABCD$ 中，除了 $\\overline{BC}$ 邊外，其餘三邊皆與圓 $O$ 相切，切點分別為 $P$、$Q$、$R$，已知 $\\overline{AB}=10$，$\\overline{AD}=6$，$\\overline{CD}=8$，則 $\\overline{BC}=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 189 179\"><g transform=\"translate(12,12)\"><circle cx=\"80\" cy=\"96\" r=\"53\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"0,96 144,96 108,43 60,43\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"80\" cy=\"96\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"56\" y=\"39\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"80\" y=\"38\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">Q</text><text x=\"112\" y=\"39\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"34\" y=\"60.3\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">P</text><text x=\"134.8\" y=\"68.2\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">R</text><text x=\"-10\" y=\"105\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"154\" y=\"105\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"80\" y=\"114\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$12$",
+      "$17$",
+      "$18$",
+      "$20$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "17",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "圓周角等於所對弧（優弧）的一半。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 12，$OBC$ 為扇形，$D$ 為 $\\wideparen{BC}$ 上任一點，若 $\\angle BOC=74^\\circ$，則 $\\angle BDC=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 159 154\"><g transform=\"translate(12,12)\"><line x1=\"20\" y1=\"100\" x2=\"47.6\" y2=\"3.9\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"100\" x2=\"120\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M 47.6 3.9 A 100 100 0 0 1 120 100\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M 28.3 71.2 A 30 30 0 0 1 50 100\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"52\" y=\"82\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">74°</text><circle cx=\"20\" cy=\"100\" r=\"2.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"12\" y=\"113\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"44.6\" y=\"-0.1\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"112.9\" y=\"46.5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"128\" y=\"113\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$143^\\circ$",
+      "$142^\\circ$",
+      "$108^\\circ$",
+      "$106^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "18",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-1-3",
+   "unitIds": [
+    "nanyi-9-1-1-3"
+   ],
+   "unitAssignmentBasis": "先證 $\\triangle ADE\\sim\\triangle EBC$，再由面積比算四邊形 $BCDE$ 的面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 13，$\\overline{AE}:\\overline{BE}=2:3$，$\\overline{AD}\\parallel\\overline{CE}$，$\\overline{BC}\\parallel\\overline{DE}$，若 $\\triangle ADE$ 的面積為 $12$，則四邊形 $BCDE$ 的面積為多少平方單位？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 174 149\"><g transform=\"translate(12,12)\"><polygon points=\"0,112 130,112 106.6,18.4 36.4,49.6\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"36.4\" y1=\"49.6\" x2=\"52\" y2=\"112\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"52\" y1=\"112\" x2=\"106.6\" y2=\"18.4\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"-9\" y=\"123\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"52\" y=\"131\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"139\" y=\"123\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"112.6\" y=\"14.4\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"27.4\" y=\"50.6\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$36$",
+      "$45$",
+      "$54$",
+      "$60$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "19",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "半弦、弦心距與半徑構成直角三角形，列方程式求拱門半徑。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "筱君在牆面設計一個 $\\overline{AB}=120\\sqrt{3}$ 公分的圓弧形拱門，使得牆面成為一個對稱圖形，若拱門的高（從最低點到最高點）為 $180$ 公分，整個牆面長為 $500$ 公分，高為 $250$ 公分。求圖中圓弧形拱門的半徑 $=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 253 149\"><g transform=\"translate(12,12)\"><g transform=\"translate(14,0)\"><polygon points=\"0,10 200,10 200,110 0,110\" fill=\"#cfe8e4\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M 58.4 110 A 48 48 0 1 1 141.6 110 Z\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"100\" y=\"6\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">500</text><text x=\"-3\" y=\"62\" font-size=\"12\" text-anchor=\"end\" fill=\"#111\">250</text><text x=\"58.4\" y=\"123\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"141.6\" y=\"123\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text></g></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$90$ 公分",
+      "$100$ 公分",
+      "$110$ 公分",
+      "$120$ 公分"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "20",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2",
+    "nanyi-8-1-2-3",
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "由半徑與弦長得圓心角 $120^\\circ$，拱門面積為優弓形，再用牆面面積相減。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "筱君在牆面設計一個 $\\overline{AB}=120\\sqrt{3}$ 公分的圓弧形拱門，使得牆面成為一個對稱圖形，若拱門的高（從最低點到最高點）為 $180$ 公分，整個牆面長為 $500$ 公分，高為 $250$ 公分。求圖中牆面扣掉圓弧形拱門後的面積 $=$？平方公分"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 253 149\"><g transform=\"translate(12,12)\"><g transform=\"translate(14,0)\"><polygon points=\"0,10 200,10 200,110 0,110\" fill=\"#cfe8e4\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M 58.4 110 A 48 48 0 1 1 141.6 110 Z\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"100\" y=\"6\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">500</text><text x=\"-3\" y=\"62\" font-size=\"12\" text-anchor=\"end\" fill=\"#111\">250</text><text x=\"58.4\" y=\"123\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"141.6\" y=\"123\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text></g></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$125000-3600\\sqrt{3}-4800\\pi$",
+      "$125000-7200\\sqrt{3}-4800\\pi$",
+      "$125000-3600\\sqrt{3}-9600\\pi$",
+      "$125000-7200\\sqrt{3}-9600\\pi$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3",
+    "nanyi-9-1-1-4"
+   ],
+   "unitAssignmentBasis": "先以畢氏定理求 $\\overline{BC}$，再用 $\\sin A=\\dfrac{\\text{對邊}}{\\text{斜邊}}$；南一單元表無三角比，歸入畢氏定理。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 14，在直角三角形 $ABC$ 中，$\\overline{AB}=17$，$\\overline{AC}=15$，$\\angle C=90^\\circ$，求 $\\sin A=$ ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 159 109\"><g transform=\"translate(12,12)\"><polygon points=\"4,62 109,6 109,62\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"103,62 103,56 109,56\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"46\" y=\"28\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">17</text><text x=\"56\" y=\"80\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">15</text><text x=\"-4\" y=\"71\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"118\" y=\"7\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"118\" y=\"75\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-1-3",
+   "unitIds": [
+    "nanyi-9-1-1-3",
+    "nanyi-9-1-1-4"
+   ],
+   "unitAssignmentBasis": "兩個相似三角形共用高 $\\overline{EF}$，由 $\\dfrac{EF}{AB}+\\dfrac{EF}{CD}=1$ 求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 15，某公路兩側有兩棟大樓 $AB$ 與 $CD$，中間立有一座高塔 $EF$，從 $B$ 點朝高塔望去，可看到 $C$ 點；從 $D$ 點朝高塔望去，可看到 $A$ 點，若 $\\overline{AB}=30$ 公尺，$\\overline{CD}=40$ 公尺，則高塔 $EF$ 為 ＿＿＿＿ 公尺。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 239 154\"><g transform=\"translate(12,12)\"><line x1=\"-4\" y1=\"110\" x2=\"205\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"10\" y1=\"110\" x2=\"10\" y2=\"44\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"190\" y1=\"110\" x2=\"190\" y2=\"22\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"10\" y1=\"44\" x2=\"190\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"10\" y1=\"110\" x2=\"190\" y2=\"22\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"87.1\" y1=\"72.3\" x2=\"87.1\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"2\" y=\"47\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"199\" y=\"23\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"90.1\" y=\"65.3\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"10\" y=\"128\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"87.1\" y=\"128\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">F</text><text x=\"190\" y=\"128\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "三角形內切圓的切線段長相等，由周長分配求 $\\overline{AE}$、$\\overline{BF}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 16，$\\triangle ABC$ 三邊分別與圓 $O$ 相切於 $D$、$E$、$F$ 三點，已知 $\\overline{AB}=\\overline{AC}=14$，$\\overline{BC}=12$，則 $\\overline{AE}-\\overline{BF}=$ ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 174 189\"><g transform=\"translate(12,12)\"><polygon points=\"74,13.5 14,140 134,140\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"74\" cy=\"102\" r=\"38\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"74\" cy=\"102\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"74\" y=\"9.5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"5\" y=\"151\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"143\" y=\"151\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"74\" y=\"158\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"118.3\" y=\"87.8\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"29.7\" y=\"87.8\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">F</text><text x=\"83\" y=\"115\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-1-3",
+   "unitIds": [
+    "nanyi-9-1-1-3",
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "$\\triangle OCD\\sim\\triangle OAB$，面積比為相似比的平方，再求梯形與三角形面積比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 17，兩同心圓中，大圓的半徑為 $9$，小圓的半徑為 $6$，$\\angle AOB=75^\\circ$，則 $\\triangle OCD$ 與梯形 $CDBA$ 的面積比 $=$ ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 174 174\"><g transform=\"translate(12,12)\"><circle cx=\"70\" cy=\"70\" r=\"66\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"70\" cy=\"70\" r=\"44\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"70\" y1=\"70\" x2=\"136\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"70\" y1=\"70\" x2=\"87.1\" y2=\"133.8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"114\" y1=\"70\" x2=\"81.4\" y2=\"112.5\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"136\" y1=\"70\" x2=\"87.1\" y2=\"133.8\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"70\" cy=\"70\" r=\"2.8\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"60\" y=\"71\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"111\" y=\"64\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"146\" y=\"73\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"72.4\" y=\"123.5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"87.1\" y=\"151.8\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "切線垂直半徑；弦 $\\overline{AD}$ 的半弦、弦心距與半徑構成直角三角形，列方程式求半徑。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 18，$ABCD$ 是正方形，$A$、$D$ 在圓 $O$ 上，$\\overline{BC}$ 和圓 $O$ 相切，若正方形 $ABCD$ 的面積為 $144$ 平方公分，求圓 $O$ 的半徑為 ＿＿＿＿ 公分。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 139 159\"><g transform=\"translate(12,12)\"><circle cx=\"50\" cy=\"69\" r=\"45\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"14,42 86,42 86,114 14,114\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"50\" cy=\"69\" r=\"1.8\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"5\" y=\"41\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"95\" y=\"41\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"5\" y=\"127\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"95\" y=\"127\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"50\" y=\"86\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "灰色區域為 $120^\\circ$ 扇形與直角三角形面積之和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 19，長方形 $ABCD$ 中，已知 $\\overline{BC}=12$，$E$ 點在 $\\overline{BC}$ 上。若以 $E$ 點為圓心，$\\overline{EC}=8$ 為半徑畫弧，會交 $\\overline{AB}$ 於 $F$ 點，則灰色區域的面積為 ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 134 154\"><g transform=\"translate(12,12)\"><path d=\"M 9.6 0 A 72 72 0 0 0 72 108 L 72 0 Z\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"0,0 72,0 72,108 0,108\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"72\" cy=\"36\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"9.6\" cy=\"0\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"-9\" y=\"0\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"9.6\" y=\"-6\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">F</text><text x=\"81\" y=\"0\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"82\" y=\"41\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"81\" y=\"121\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"-9\" y=\"121\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "圓外一點到圓的兩切線段等長，列方程式求 $\\overline{BR}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 20，圓 $O$ 外有一點 $P$，過 $P$ 分別作圓 $O$ 的切線，切點為 $Q$、$R$，另有一圓 $O$ 的切線 $\\overline{AB}$，切圓 $O$ 於 $C$ 點，交 $\\overline{PQ}$、$\\overline{PR}$ 於 $A$、$B$ 兩點，若 $\\overline{PA}=\\overline{AB}=7$，$\\overline{PB}=5$，則 $\\overline{BR}=$ ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 239 219\"><g transform=\"translate(12,12)\"><circle cx=\"120\" cy=\"70\" r=\"60\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"95.1\" y1=\"130\" x2=\"159.4\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.8\"/><line x1=\"77.5\" y1=\"112.4\" x2=\"140\" y2=\"175\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"175.1\" y1=\"93.8\" x2=\"140\" y2=\"175\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"120\" cy=\"70\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"132\" y=\"79\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"66.5\" y=\"121.4\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">Q</text><text x=\"186.1\" y=\"95.8\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">R</text><text x=\"85.1\" y=\"143\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"169.4\" y=\"143\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"120\" y=\"147\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"140\" y=\"192\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">P</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "利用三角形內角和與圓內接四邊形外角等於內對角求 $\\angle CBQ$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 21，四邊形 $ABCD$ 為圓內接四邊形，若 $\\angle A=66^\\circ$，$\\angle Q=25^\\circ$，求 $\\angle CBQ=$ ＿＿＿＿ 度。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 214 174\"><g transform=\"translate(12,12)\"><circle cx=\"71\" cy=\"85\" r=\"37\" fill=\"#f8dbe8\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"34\" y1=\"86\" x2=\"181.9\" y2=\"17.5\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"88\" y1=\"117\" x2=\"181.9\" y2=\"17.5\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"34\" y1=\"86\" x2=\"113.3\" y2=\"131.5\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"94.5\" y1=\"58\" x2=\"113.3\" y2=\"131.5\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"24\" y=\"91\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"98.5\" y=\"53\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"114\" y=\"102\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"86\" y=\"134\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"189.9\" y=\"16.5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">P</text><text x=\"121.3\" y=\"144.5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">Q</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "半徑為斜邊上的高，灰色區域為三角形面積減去 $90^\\circ$ 扇形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 22，$\\triangle ABC$ 中，$\\angle A=90^\\circ$，$A$ 為扇形的圓心，$\\overline{BC}$ 為切線，$E$ 為切點，已知 $\\overline{AB}=20$，$\\overline{BC}=25$，求灰色區域的面積 $=$ ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 254 149\"><g transform=\"translate(12,12)\"><polygon points=\"0,100 200,100 128,4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M 0 100 L 51.2 61.6 A 96 96 0 0 0 128 100 Z\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M 128 100 A 96 96 0 0 0 185.6 80.8 L 200 100 Z\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"0,100 200,100 128,4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"122.4,8.2 126.6,13.8 132.2,9.6\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"128\" y=\"0\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"-9\" y=\"113\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"209\" y=\"113\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"41.2\" y=\"62.6\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"128\" y=\"118\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"195.6\" y=\"81.8\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">F</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2",
+    "nanyi-9-1-1-3"
+   ],
+   "unitAssignmentBasis": "圓內接四邊形的外角等於內對角，得 $\\triangle EBC\\sim\\triangle EDA$，對應邊成比例。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖 23，$A$、$B$、$C$、$D$ 為圓上四點，$\\overline{AD}=5$，$\\overline{BE}=4$，$\\overline{DE}=9$，$\\overline{AB}$ 的延長線與 $\\overline{DC}$ 的延長線交於 $E$，則 $\\overline{BC}=$ ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 264 149\"><g transform=\"translate(12,12)\"><circle cx=\"60\" cy=\"60\" r=\"50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"31.3\" y1=\"19\" x2=\"229.7\" y2=\"45.2\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"38.9\" y1=\"105.3\" x2=\"229.7\" y2=\"45.2\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"31.3\" y1=\"19\" x2=\"38.9\" y2=\"105.3\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"22.3\" y=\"19\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"102.3\" y=\"21.9\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"112.3\" y=\"101\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"29.9\" y=\"118.3\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"240.7\" y=\"50.2\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "直徑所對圓周角為直角、平行弦夾等弧，再用兩弦交角與所夾弧的關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，四邊形 $ABCD$ 為圓內接梯形，且 $\\overline{AB}\\parallel\\overline{CD}$，若 $\\overline{CD}$ 為直徑，$\\angle ACD=27^\\circ$，則"
+    },
+    {
+     "type": "text",
+     "text": "(1) $\\wideparen{AB}$ 弧 $=$？度（$2$ 分）"
+    },
+    {
+     "type": "text",
+     "text": "(2) $\\angle CED=$？度（$3$ 分）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 199 154\"><g transform=\"translate(12,12)\"><circle cx=\"80\" cy=\"62\" r=\"60\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"62\" x2=\"140\" y2=\"62\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"44.7\" y1=\"13.5\" x2=\"115.3\" y2=\"13.5\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"44.7\" y1=\"13.5\" x2=\"20\" y2=\"62\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"115.3\" y1=\"13.5\" x2=\"140\" y2=\"62\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"44.7\" y1=\"13.5\" x2=\"140\" y2=\"62\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"115.3\" y1=\"13.5\" x2=\"20\" y2=\"62\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"80\" cy=\"62\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"35.7\" y=\"12.5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"124.3\" y=\"12.5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"9\" y=\"71\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"151\" y=\"71\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"80\" y=\"48.4\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"80\" y=\"79\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "由等腰梯形與圓內接四邊形求各弧度數，判定 $\\triangle AEB$ 為正三角形再求面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，梯形 $ABCD$ 中，$\\overline{AB}\\parallel\\overline{CD}$，$\\overline{BC}=\\overline{CD}=\\overline{DA}$，$\\overline{AE}=\\overline{BE}=8$，$\\angle ADC=140^\\circ$，$E$ 點在梯形 $ABCD$ 的外接圓上，求"
+    },
+    {
+     "type": "text",
+     "text": "(1) $\\wideparen{CD}$ 弧 $=$？度（$2$ 分）"
+    },
+    {
+     "type": "text",
+     "text": "(2) $\\triangle AEB$ 的面積 $=$？（$3$ 分）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 199 174\"><g transform=\"translate(12,12)\"><circle cx=\"80\" cy=\"70\" r=\"62\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"26.3,101 133.7,101 101.2,128.3 58.8,128.3\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"80\" y1=\"8\" x2=\"26.3\" y2=\"101\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"80\" y1=\"8\" x2=\"133.7\" y2=\"101\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"80\" y=\"3\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"16.3\" y=\"106\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"143.7\" y=\"106\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"52.8\" y=\"145.3\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"107.2\" y=\"145.3\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text></g></svg>"
+    }
+   ]
+  }
+ ]
+}
