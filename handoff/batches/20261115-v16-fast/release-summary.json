@@ -26,7 +26,7 @@
   ],
   "testsPassed": 69,
   "staticBuildPassed": true,
-  "deployment": "pending",
+  "deployment": "success",
   "papers": [
     {
       "id": "metro-new_taipei-48000408be9d1cbf-e11d08e9",
@@ -611,5 +611,38 @@
       "questionCount": 24,
       "transcriptionStatus": "complete"
     }
-  ]
+  ],
+  "commit": "6e10507e6bde541fdfb1aae2b7ce82699acf1c40",
+  "githubRunId": 43720166089,
+  "liveChecks": {
+    "checks": [
+      {
+        "label": "version",
+        "value": "20261115-metro-v16"
+      },
+      {
+        "label": "usableQuestions",
+        "value": 3866
+      },
+      {
+        "label": "metro-taipei-8e5cc48d338b1a31-deed3a72",
+        "school": "誠正國中",
+        "count": 24,
+        "expected": 24
+      },
+      {
+        "label": "metro-new_taipei-e2c17f6cb4474c24",
+        "school": "新莊國中",
+        "count": 20,
+        "expected": 20
+      },
+      {
+        "label": "nc-110-1-2-8",
+        "school": "內城國民中小學",
+        "count": 29,
+        "expected": 29
+      }
+    ],
+    "errors": []
+  }
 }

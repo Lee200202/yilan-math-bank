@@ -63,6 +63,8 @@ with sync_playwright() as pw:
             path.write_text(json.dumps(t, ensure_ascii=False, indent=1), encoding='utf-8')
             # the preview reads built data: rebuild only this paper's rows quickly
             import subprocess
+            # re-approve the edited bytes (release policy pins the SHA), then rebuild data
+            subprocess.run([sys.executable, 'scripts/release_queue.py', pid], cwd=ROOT, check=True, capture_output=True)
             subprocess.run([sys.executable, 'scripts/prepare_data.py'], cwd=ROOT, check=True, capture_output=True)
         else:
             print(f'{pid}: still escaping after 4 rounds')

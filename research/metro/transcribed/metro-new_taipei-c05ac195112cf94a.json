@@ -1,0 +1,907 @@
+{
+ "deliveryStatus": "complete",
+ "paperId": "metro-new_taipei-c05ac195112cf94a",
+ "sourceSha256": "de76aa6d1107b722e816bd68c91118279d49fad98e9ce6544826d72220320ed1",
+ "printedHeader": "新北市立永和國民中學114 學年度第二學期第三次段考八年級數學科試題卷",
+ "printedSlot": {
+  "year": 114,
+  "semester": 2,
+  "grade": 8,
+  "exam": 3
+ },
+ "printedCounts": "選擇題27題、非選題2題（第2題有2小題）。",
+ "visualReviewComplete": true,
+ "reviewNote": "逐題比對原卷5頁共29題（選擇27題、非選2題計3小題）；全卷共23幅幾何圖形全數純向量SVG忠實重繪；對照第6頁解答卷逐題驗證答案與數學公式；全卷無缺漏題。",
+ "expectedTypes": {
+  "choice": 27,
+  "fill": 0,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-4-1",
+   "unitIds": [
+    "nanyi-8-2-4-1"
+   ],
+   "unitAssignmentBasis": "截線與截角名稱（同位角、內錯角、同側內角、對頂角）判別。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，直線 $M$ 是直線 $L_1$ 和直線 $L_2$ 的截線，關於下列敘述何者錯誤？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 130\" width=\"200\" height=\"130\"><line x1=\"20\" y1=\"75\" x2=\"180\" y2=\"65\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"184\" y=\"73\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">M</text><line x1=\"45\" y1=\"20\" x2=\"65\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"40\" y=\"18\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">L₁</text><line x1=\"135\" y1=\"20\" x2=\"145\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"132\" y=\"18\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">L₂</text><!-- Angles at L1: intersection ~(55, 72) --><text x=\"43\" y=\"68\" font-size=\"12\" fill=\"#111\">1</text><text x=\"59\" y=\"66\" font-size=\"12\" fill=\"#111\">5</text><text x=\"47\" y=\"86\" font-size=\"12\" fill=\"#111\">3</text><text x=\"63\" y=\"85\" font-size=\"12\" fill=\"#111\">7</text><!-- Angles at L2: intersection ~(140, 68) --><text x=\"128\" y=\"64\" font-size=\"12\" fill=\"#111\">2</text><text x=\"146\" y=\"62\" font-size=\"12\" fill=\"#111\">6</text><text x=\"131\" y=\"82\" font-size=\"12\" fill=\"#111\">4</text><text x=\"150\" y=\"80\" font-size=\"12\" fill=\"#111\">8</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\angle 4$ 和 $\\angle 6$ 是對頂角",
+      "$\\angle 1$ 和 $\\angle 2$ 是同位角",
+      "$\\angle 2$ 和 $\\angle 7$ 是內錯角",
+      "$\\angle 5$ 和 $\\angle 7$ 是同側內角"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-3-5",
+   "unitIds": [
+    "nanyi-8-2-3-5"
+   ],
+   "unitAssignmentBasis": "三角形兩邊之和大於第三邊判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列四組數中，哪一組數不可能是 $\\triangle ABC$ 的三邊長？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\overline{AB}=3$、$\\overline{BC}=3$、$\\overline{CA}=4$",
+      "$\\overline{AB}=3$、$\\overline{BC}=5$、$\\overline{CA}=7$",
+      "$\\overline{AB}=5^2$、$\\overline{BC}=12^2$、$\\overline{CA}=13^2$",
+      "$\\overline{AB}=1$、$\\overline{BC}=\\sqrt{2}$、$\\overline{CA}=\\sqrt{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-3-5",
+   "unitIds": [
+    "nanyi-8-2-3-5"
+   ],
+   "unitAssignmentBasis": "三角形大邊對大角性質。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在 $\\triangle ABC$ 中，已知 $\\overline{AB}=4$、$\\overline{BC}=2\\sqrt{5}$、$\\overline{AC}=3\\sqrt{2}$，則 $\\triangle ABC$ 中哪一個角最大？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\angle A$",
+      "$\\angle B$",
+      "$\\angle C$",
+      "條件不足，無法判斷"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-4-2",
+   "unitIds": [
+    "nanyi-8-2-4-2"
+   ],
+   "unitAssignmentBasis": "平行四邊形對角相等且鄰角互補。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一組角度依 $\\angle A$、$\\angle B$、$\\angle C$、$\\angle D$ 的順序可為平行四邊形 $ABCD$ 的四個內角？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$45^\\circ$、$45^\\circ$、$135^\\circ$、$135^\\circ$",
+      "$70^\\circ$、$110^\\circ$、$110^\\circ$、$70^\\circ$",
+      "$85^\\circ$、$105^\\circ$、$85^\\circ$、$105^\\circ$",
+      "$135^\\circ$、$45^\\circ$、$135^\\circ$、$45^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-4-2",
+   "unitIds": [
+    "nanyi-8-2-4-2"
+   ],
+   "unitAssignmentBasis": "平行四邊形周長與兩鄰邊關係列式求邊長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知平行四邊形 $ABCD$ 的周長為 $168$ 公分，且 $\\overline{AB}$ 比 $\\overline{BC}$ 的 $2$ 倍少 $6$，則 $\\overline{AB}$ 為多少公分？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$54$",
+      "$42$",
+      "$35$",
+      "$30$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-4-1",
+   "unitIds": [
+    "nanyi-8-2-4-1"
+   ],
+   "unitAssignmentBasis": "平行線間等高性質與梯形面積計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$L_1 \\parallel L_2$，$\\overline{AB}=6$、$\\overline{BC}=5$、$\\overline{DE}=9$，若 $\\triangle ADE$ 的面積是 $45$，則四邊形 $BCED$ 的面積為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 115,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 125\" width=\"200\" height=\"125\"><line x1=\"20\" y1=\"30\" x2=\"175\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"180\" y=\"34\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">L₁</text><line x1=\"20\" y1=\"105\" x2=\"175\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"180\" y=\"109\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">L₂</text><!-- D(60, 30), E(150, 30) --><!-- A(35, 105), B(95, 105), C(140, 105) --><line x1=\"60\" y1=\"30\" x2=\"35\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.3\" /><line x1=\"60\" y1=\"30\" x2=\"95\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.3\" /><line x1=\"150\" y1=\"30\" x2=\"35\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.3\" /><line x1=\"150\" y1=\"30\" x2=\"95\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.3\" /><line x1=\"150\" y1=\"30\" x2=\"140\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"56\" y=\"24\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"148\" y=\"24\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"31\" y=\"119\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"91\" y=\"119\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"138\" y=\"119\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$55$",
+      "$60$",
+      "$70$",
+      "$75$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-4-2",
+   "unitIds": [
+    "nanyi-8-2-4-2",
+    "nanyi-8-2-3-2"
+   ],
+   "unitAssignmentBasis": "平行四邊形作圖法與判別性質驗證。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右下圖，已知平面上 $A$、$B$、$C$ 三點，甲、乙兩人想找到一點 $D$，使得四邊形 $ABCD$ 為平行四邊形，以下是甲、乙兩人的作法："
+    },
+    {
+     "type": "text",
+     "text": "(甲)作 $\\vec{BA}$ 與 $\\vec{BC}$，分別以 $A$、$C$ 為圓心，$\\overline{AB}$、$\\overline{BC}$ 為半徑畫弧，設兩弧交於 $D$ 點。則 $D$ 點即為所求。"
+    },
+    {
+     "type": "text",
+     "text": "(乙)連接 $\\overline{AB}$ 與 $\\overline{BC}$，作 $\\overline{AC}$ 的中垂線交 $\\overline{AC}$ 於 $O$ 點，作 $\\vec{BO}$，並在 $\\vec{BO}$ 的延長線上取一點 $D$，使得 $\\overline{BO}=\\overline{OD}$，則 $D$ 點即為所求。"
+    },
+    {
+     "type": "text",
+     "text": "對於甲、乙兩人的作法，下列判斷何者正確？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 105,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 120\" width=\"160\" height=\"120\"><circle cx=\"85\" cy=\"35\" r=\"2.5\" fill=\"#111\" /><text x=\"82\" y=\"26\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><circle cx=\"55\" cy=\"75\" r=\"2.5\" fill=\"#111\" /><text x=\"42\" y=\"79\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><circle cx=\"120\" cy=\"100\" r=\"2.5\" fill=\"#111\" /><text x=\"126\" y=\"104\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲、乙皆錯誤",
+      "甲錯誤，乙正確",
+      "甲正確，乙錯誤",
+      "甲、乙皆正確"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-4-1",
+   "unitIds": [
+    "nanyi-8-2-4-1"
+   ],
+   "unitAssignmentBasis": "平行線拐折角輔助線求角度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$L \\parallel M$，則 $\\angle 1=\\text{？}$"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 125\" width=\"200\" height=\"125\"><line x1=\"20\" y1=\"25\" x2=\"175\" y2=\"25\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"180\" y=\"29\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">L</text><line x1=\"20\" y1=\"105\" x2=\"175\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"180\" y=\"109\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">M</text><!-- Zigzag: (50, 25) -> (36, 68) -> (115, 52) -> (128, 105) --><polyline points=\"50,25 36,68 115,52 128,105\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"25\" y=\"38\" font-size=\"12\" fill=\"#111\">75°</text><text x=\"44\" y=\"65\" font-size=\"12\" fill=\"#111\">1</text><text x=\"92\" y=\"68\" font-size=\"12\" fill=\"#111\">90°</text><text x=\"100\" y=\"100\" font-size=\"12\" fill=\"#111\">85°</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$70^\\circ$",
+      "$65^\\circ$",
+      "$60^\\circ$",
+      "$55^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-3-5",
+   "unitIds": [
+    "nanyi-8-2-3-5"
+   ],
+   "unitAssignmentBasis": "三角形大邊對大角與內角和範圍估算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在 $\\triangle ABC$ 中，已知 $\\overline{AB}<\\overline{BC}<\\overline{AC}$，$\\angle B=72^\\circ$，則 $\\angle C$ 度數的範圍為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$0^\\circ<\\angle C<54^\\circ$",
+      "$54^\\circ<\\angle C<72^\\circ$",
+      "$36^\\circ<\\angle C<54^\\circ$",
+      "$36^\\circ<\\angle C<72^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-4-3",
+   "unitIds": [
+    "nanyi-8-2-4-3"
+   ],
+   "unitAssignmentBasis": "菱形面積計算（特殊角60度）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，菱形 $ABCD$ 中，$\\angle B=60^\\circ$，$\\overline{AB}=\\overline{BC}=6$，則菱形 $ABCD$ 的面積為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 115\" width=\"180\" height=\"115\"><!-- Rhombus: B(25, 95), C(115, 95), D(155, 30), A(65, 30) --><polygon points=\"65,30 155,30 115,95 25,95\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"59\" y=\"25\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"160\" y=\"28\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"15\" y=\"105\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"122\" y=\"105\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"38\" y=\"90\" font-size=\"12\" fill=\"#111\">60°</text><!-- Dimension arc on AB --><path d=\"M 27 85 Q 40 50 60 27\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" /><text x=\"32\" y=\"58\" font-size=\"12\" fill=\"#111\">6</text><!-- Dimension arc on BC --><path d=\"M 35 97 Q 70 112 105 97\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" /><text x=\"68\" y=\"112\" font-size=\"12\" fill=\"#111\">6</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$36$",
+      "$18\\sqrt{3}$",
+      "$18$",
+      "$9\\sqrt{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-4-1",
+   "unitIds": [
+    "nanyi-8-2-4-1"
+   ],
+   "unitAssignmentBasis": "多條直線截角度數判別平行線。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "右圖為平面上五條直線 $L_1$、$L_2$、$L_3$、$L_4$、$L_5$ 相交的情形。"
+    },
+    {
+     "type": "text",
+     "text": "根據圖中標示的角度，判斷下列敘述何者正確？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 199.2 145\" width=\"190\" height=\"145\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"40\" y=\"16\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">L₁</text><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"95\" y=\"16\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">L₂</text><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"140\" y=\"16\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">L₃</text><line x1=\"20\" y1=\"55\" x2=\"175\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"180\" y=\"59\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">L₄</text><line x1=\"20\" y1=\"105\" x2=\"175\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"180\" y=\"109\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">L₅</text><!-- Angles --><!-- L1 & L4 top-right: 92° --><path d=\"M 53 55 A 8 8 0 0 0 45 47\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" /><text x=\"50\" y=\"44\" font-size=\"11\" fill=\"#111\">92°</text><!-- L3 & L4 bottom-left: 88° --><path d=\"M 137 55 A 8 8 0 0 0 145 63\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" /><text x=\"122\" y=\"70\" font-size=\"11\" fill=\"#111\">88°</text><!-- L2 & L5 top-left: 88° --><path d=\"M 92 105 A 8 8 0 0 0 100 97\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" /><text x=\"75\" y=\"99\" font-size=\"11\" fill=\"#111\">88°</text><!-- L3 & L5 bottom-right: 88° --><path d=\"M 153 105 A 8 8 0 0 0 145 113\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" /><text x=\"150\" y=\"122\" font-size=\"11\" fill=\"#111\">88°</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$L_1$ 和 $L_2$ 不平行，$L_4$ 和 $L_5$ 不平行",
+      "$L_1$ 和 $L_2$ 不平行，$L_4$ 和 $L_5$ 平行",
+      "$L_1$ 和 $L_2$ 平行，$L_4$ 和 $L_5$ 不平行",
+      "$L_1$ 和 $L_2$ 平行，$L_4$ 和 $L_5$ 平行"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-3-5",
+   "unitIds": [
+    "nanyi-8-2-3-5",
+    "nanyi-8-2-4-1"
+   ],
+   "unitAssignmentBasis": "大角對大邊與平行線內錯角比較四邊形邊長大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，四邊形 $ABCD$ 中，已知 $\\overline{AB}=\\overline{BD}$，$\\overline{AD} \\parallel \\overline{BC}$，$\\angle A=61^\\circ$，$\\angle C=57^\\circ$。"
+    },
+    {
+     "type": "text",
+     "text": "則 $\\overline{AB}$、$\\overline{BC}$、$\\overline{CD}$、$\\overline{AD}$ 四個邊的大小關係為下列何者？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 115,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 120\" width=\"180\" height=\"120\"><!-- A(25, 100), B(120, 100), C(155, 35), D(55, 45) --><polygon points=\"25,100 120,100 155,35 55,45\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"55\" y1=\"45\" x2=\"120\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"16\" y=\"112\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"118\" y=\"114\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"160\" y=\"35\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"46\" y=\"42\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"31\" y=\"95\" font-size=\"11\" fill=\"#111\">61°</text><text x=\"135\" y=\"46\" font-size=\"11\" fill=\"#111\">57°</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\overline{BC}>\\overline{CD}>\\overline{AD}>\\overline{AB}$",
+      "$\\overline{CD}>\\overline{BC}>\\overline{AB}>\\overline{AD}$",
+      "$\\overline{AB}>\\overline{AD}>\\overline{BC}>\\overline{CD}$",
+      "$\\overline{BC}>\\overline{CD}>\\overline{AB}>\\overline{AD}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "13",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-4-1",
+   "unitIds": [
+    "nanyi-8-2-4-1"
+   ],
+   "unitAssignmentBasis": "平行線同側內角互補解聯立求角。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$L_1$ 和 $L_2$ 平行，$L_3$ 和 $L_4$ 不平行，若 $\\angle 1=(4x+25)^\\circ$，$\\angle 2=(3x-55)^\\circ$，$ \\angle 3=(2x+5)^\\circ$，則 $\\angle 4$ 的度數為多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 190 130\" width=\"190\" height=\"130\"><line x1=\"20\" y1=\"45\" x2=\"165\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"170\" y=\"49\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">L₃</text><line x1=\"20\" y1=\"95\" x2=\"165\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"170\" y=\"104\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">L₄</text><line x1=\"45\" y1=\"120\" x2=\"115\" y2=\"15\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"110\" y=\"12\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">L₁</text><line x1=\"95\" y1=\"120\" x2=\"165\" y2=\"15\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"160\" y=\"12\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">L₂</text><text x=\"96\" y=\"58\" font-size=\"12\" fill=\"#111\">1</text><text x=\"73\" y=\"93\" font-size=\"12\" fill=\"#111\">2</text><text x=\"134\" y=\"58\" font-size=\"12\" fill=\"#111\">3</text><text x=\"112\" y=\"93\" font-size=\"12\" fill=\"#111\">4</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$115^\\circ$",
+      "$125^\\circ$",
+      "$150^\\circ$",
+      "$160^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "14",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-4-2",
+   "unitIds": [
+    "nanyi-8-2-4-2"
+   ],
+   "unitAssignmentBasis": "平行四邊形面積公式求高與鄰邊長度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，平行四邊形 $ABCD$ 中，$\\overline{AE} \\perp \\overline{BC}$ 於 $E$ 點，$\\overline{AF} \\perp \\overline{CD}$ 於 $F$ 點，若 $\\overline{AE}=10$，$\\overline{AF}=15$，$\\overline{BC}=18$，求平行四邊形 $ABCD$ 的周長為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 115,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 190 125\" width=\"190\" height=\"125\"><!-- B(25, 95), C(125, 95), D(165, 30), A(65, 30) --><polygon points=\"65,30 165,30 125,95 25,95\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- Altitude AE perpendicular to BC at E(65, 95) --><line x1=\"65\" y1=\"30\" x2=\"65\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.3\" /><rect x=\"65\" y=\"87\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" /><!-- Altitude AF perpendicular to CD at F --><!-- CD line: from (125, 95) to (165, 30). Normal vector (65, 40) --><line x1=\"65\" y1=\"30\" x2=\"148\" y2=\"58\" stroke=\"#111\" stroke-width=\"1.3\" /><!-- Right angle mark at F(148, 58) --><path d=\"M 143 50 L 138 58 L 144 65\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" /><text x=\"53\" y=\"28\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"170\" y=\"28\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"15\" y=\"102\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"132\" y=\"102\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"61\" y=\"112\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"155\" y=\"65\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">F</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$25$",
+      "$30$",
+      "$50$",
+      "$60$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "15",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-3-5",
+   "unitIds": [
+    "nanyi-8-2-3-5"
+   ],
+   "unitAssignmentBasis": "等腰三角形大邊對大角與外角不等式判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$\\triangle ABC$ 中，$\\overline{AB}=\\overline{BC}<\\overline{AC}$。若 $\\angle 1$、$\\angle 2$ 分別為 $\\angle ABC$、$\\angle ACB$ 的外角，則下列角度關係何者正確？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 125,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><!-- A(25, 115), B(130, 115), C(77.5, 35) --><polygon points=\"25,115 130,115 77.5,35\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- Extension of AB past B --><line x1=\"130\" y1=\"115\" x2=\"155\" y2=\"115\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- Extension of AC past C --><!-- AC direction: (77.5-25, 35-115) = (52.5, -80) --><line x1=\"77.5\" y1=\"35\" x2=\"93\" y2=\"11\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"15\" y=\"122\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"127\" y=\"128\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"65\" y=\"32\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"140\" y=\"110\" font-size=\"12\" fill=\"#111\">1</text><text x=\"88\" y=\"36\" font-size=\"12\" fill=\"#111\">2</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\angle ACB+\\angle 1<180^\\circ$",
+      "$\\angle ABC+\\angle 2<180^\\circ$",
+      "$\\angle A+\\angle 1>180^\\circ$",
+      "$\\angle A+\\angle 2>180^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "16",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-4-1",
+   "unitIds": [
+    "nanyi-8-2-4-1"
+   ],
+   "unitAssignmentBasis": "五邊形內角和與平移同位角性質求交角。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，將五邊形 $ABCDE$ 沿直線 $BC$ 往下平移，使得新五邊形 $A'B'C'D'E'$ 的頂點 $B'$ 與 $C$ 點重合。若 $\\angle A=100^\\circ$、$\\angle ABC=115^\\circ$、$\\angle D=110^\\circ$、$\\angle E=112^\\circ$，則 $\\angle A'CD=\\text{？}$"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 190 160\" width=\"190\" height=\"160\"><!-- Line BC extending --><line x1=\"68\" y1=\"10\" x2=\"94\" y2=\"155\" stroke=\"#111\" stroke-width=\"1.3\" /><!-- Original pentagon ABCDE (thin/gray): B(76, 55), C(83, 95), D(122, 95), E(138, 62), A(108, 35) --><polygon points=\"76,55 83,95 122,95 138,62 108,35\" fill=\"none\" stroke=\"#888\" stroke-width=\"1.3\" /><text x=\"106\" y=\"30\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"62\" y=\"58\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"142\" y=\"66\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"124\" y=\"105\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">D</text><!-- Translated pentagon A'B'C'D'E' (offset: dx = 7, dy = 40): B' = C(83, 95) --><!-- A'(115, 75), C'(90, 135), D'(129, 135), E'(145, 102) --><polygon points=\"83,95 90,135 129,135 145,102 115,75\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\" /><text x=\"112\" y=\"70\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">A′</text><text x=\"25\" y=\"100\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">( B′ ) C</text><text x=\"148\" y=\"106\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">E′</text><text x=\"131\" y=\"146\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">D′</text><text x=\"73\" y=\"140\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">C′</text><!-- Red dashed arrow --><defs><marker id=\"red-arrow\" viewBox=\"0 0 10 10\" refX=\"6\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 1 2 L 7 5 L 1 8 Z\" fill=\"#d00\" /></marker></defs><line x1=\"168\" y1=\"45\" x2=\"178\" y2=\"105\" stroke=\"#d00\" stroke-width=\"1.4\" stroke-dasharray=\"4,3\" marker-end=\"url(#red-arrow)\" /></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$40^\\circ$",
+      "$39^\\circ$",
+      "$38^\\circ$",
+      "$37^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "17",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-4-2",
+   "unitIds": [
+    "nanyi-8-2-4-2"
+   ],
+   "unitAssignmentBasis": "坐標平面上平行四邊形第四頂點可能坐標及象限判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "國際臺灣花卉科技展想要在園區內設置四個展覽館。已知遊客服務中心位於坐標平面上的原點，其中三個展覽館分別設置在 $(-3, 4)$、$(4, 4)$、$(3, 0)$ 三個點上，若第四個展覽館的位置可與其他三個展覽館形成一個平行四邊形，則第四個展覽館可能在第幾象限內？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "第一象限",
+      "第二象限",
+      "第三象限",
+      "第四象限"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "18",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-3-5",
+   "unitIds": [
+    "nanyi-8-2-3-5",
+    "nanyi-8-2-4-2"
+   ],
+   "unitAssignmentBasis": "倍長中線構造平行四邊形求第三邊整數最大值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$\\triangle ABC$ 中，$M$ 為 $\\overline{BC}$ 的中點，若 $\\overline{AB}=4$，$\\overline{AM}=6$，且 $\\overline{AC}$ 長為整數，則 $\\overline{AC}$ 長度的最大值為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 105,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 190 110\" width=\"190\" height=\"110\"><!-- B(25, 90), C(165, 90), A(55, 30), M(95, 90) --><polygon points=\"25,90 165,90 55,30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"55\" y1=\"30\" x2=\"95\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"49\" y=\"24\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"15\" y=\"96\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"91\" y=\"104\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">M</text><text x=\"170\" y=\"96\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$16$",
+      "$15$",
+      "$14$",
+      "$13$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "19",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-4-3",
+   "unitIds": [
+    "nanyi-8-2-4-3"
+   ],
+   "unitAssignmentBasis": "等腰梯形面積與畢氏定理計算周長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，筱葳在自家院子裡用麻繩圍出了一塊等腰梯形的空地，預計用來種植蘭花。已知 $\\overline{AB}=10$ 公尺，$\\overline{CD}=40$ 公尺，整個花園 $ABCD$ 的面積為 $200$ 平方公尺，則她總共用了多少公尺的麻繩？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 105\" width=\"180\" height=\"105\"><!-- D(25, 85), C(155, 85), B(120, 40), A(60, 40) --><polygon points=\"60,40 120,40 155,85 25,85\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"52\" y=\"34\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"122\" y=\"34\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"160\" y=\"92\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"13\" y=\"92\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$84$",
+      "$70$",
+      "$64$",
+      "$48$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "20",
+   "page": 3,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-4-3",
+   "unitIds": [
+    "nanyi-8-2-4-3"
+   ],
+   "unitAssignmentBasis": "梯形兩腰等分平行線段長度差性質。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，梯形 $ABCD$ 中，$\\overline{AD} \\parallel \\overline{BC}$，$E$、$F$、$G$ 將 $\\overline{AB}$ 四等分，$H$、$I$、$J$ 將 $\\overline{CD}$ 四等分。若 $\\overline{GJ}-\\overline{EH}=10$，則 $\\overline{BC}-\\overline{AD}=\\text{？}$"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 125,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 135\" width=\"180\" height=\"135\"><!-- A(65, 25), D(115, 25), C(155, 115), B(25, 115) --><!-- Left leg AB divided by E, F, G: y = 25, 47.5, 70, 92.5, 115 --><!-- Right leg CD divided by H, I, J: y = 25, 47.5, 70, 92.5, 115 --><polygon points=\"65,25 115,25 155,115 25,115\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"55\" y1=\"47.5\" x2=\"125\" y2=\"47.5\" stroke=\"#111\" stroke-width=\"1.3\" /><line x1=\"45\" y1=\"70\" x2=\"135\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\" /><line x1=\"35\" y1=\"92.5\" x2=\"145\" y2=\"92.5\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"54\" y=\"22\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"118\" y=\"22\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"42\" y=\"46\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"128\" y=\"46\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">H</text><text x=\"32\" y=\"69\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">F</text><text x=\"138\" y=\"69\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">I</text><text x=\"21\" y=\"92\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">G</text><text x=\"148\" y=\"92\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">J</text><text x=\"13\" y=\"125\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"158\" y=\"125\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">C</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$10$",
+      "$15$",
+      "$20$",
+      "$25$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "21",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-4-2",
+   "unitIds": [
+    "nanyi-8-2-4-2"
+   ],
+   "unitAssignmentBasis": "平行四邊形內部三角形面積與底邊分割計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，平行四邊形 $ABCD$ 中，$E$ 點在 $\\overline{BC}$ 上，且 $\\overline{AE} \\perp \\overline{BC}$。若 $\\overline{AB}=9$，$\\overline{AE}=6$，$\\triangle ADE$ 的面積為 $12\\sqrt{5}$，則 $\\triangle DEC$ 的面積為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 190 115\" width=\"190\" height=\"115\"><!-- B(25, 90), C(125, 90), D(165, 30), A(65, 30) --><polygon points=\"65,30 165,30 125,90 25,90\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- Altitude AE at E(65, 90) --><line x1=\"65\" y1=\"30\" x2=\"65\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.3\" /><rect x=\"58\" y=\"83\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\" /><!-- Segment ED --><line x1=\"65\" y1=\"90\" x2=\"165\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"60\" y=\"24\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"168\" y=\"32\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"16\" y=\"97\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"62\" y=\"105\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"128\" y=\"97\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{5}$",
+      "$2\\sqrt{5}$",
+      "$3\\sqrt{5}$",
+      "$4\\sqrt{5}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "22",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-4-3",
+   "unitIds": [
+    "nanyi-8-2-4-3",
+    "nanyi-8-2-4-2"
+   ],
+   "unitAssignmentBasis": "菱形與平行四邊形邊長對應與畢氏定理求邊長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，四邊形 $ABCD$ 為平行四邊形，四邊形 $CDEF$ 為菱形，且 $F$ 點在 $\\overline{AD}$ 上。若 $\\overline{CD}=17$，$\\overline{FD}=16$，$\\overline{AC}=25$，則 $\\overline{BC}$ 的長度為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 135,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 190 150\" width=\"190\" height=\"150\"><!-- B(25, 135), C(115, 135), D(160, 75), A(70, 75) --><!-- Parallelogram ABCD --><polygon points=\"70,75 160,75 115,135 25,135\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- Rhombus CDEF: F on AD(70..160, y=75), let F=(100, 75) --><!-- CD vector: (45, -60). FE vector: (45, -60) -> E(145, 15) --><!-- ED vector: (15, 60), FC vector: (15, 60) --><polygon points=\"100,75 145,15 160,75 115,135\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- AC segment --><line x1=\"70\" y1=\"75\" x2=\"115\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.3\" /><!-- FC segment --><line x1=\"100\" y1=\"75\" x2=\"115\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"60\" y=\"72\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"90\" y=\"72\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">F</text><text x=\"165\" y=\"75\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"142\" y=\"12\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"16\" y=\"142\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"113\" y=\"147\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$25$",
+      "$28$",
+      "$30$",
+      "$32$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "23",
+   "page": 4,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-4-3",
+   "unitIds": [
+    "nanyi-8-2-4-3"
+   ],
+   "unitAssignmentBasis": "箏形對角線互相垂直性質與畢氏定理求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，箏形 $ABCD$ 中，對角線 $\\overline{AC}$ 與 $\\overline{BD}$ 交於 $O$ 點。若 $\\overline{AB}=10$，$\\overline{BC}=20$，$\\overline{AC}=10\\sqrt{5}$，則 $\\overline{BD}=\\text{？}$"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 135,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 150\" width=\"160\" height=\"150\"><!-- A(80, 20), B(35, 55), C(80, 135), D(125, 55), O(80, 55) --><polygon points=\"80,20 125,55 80,135 35,55\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.3\" /><line x1=\"35\" y1=\"55\" x2=\"125\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"76\" y=\"15\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"24\" y=\"59\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"67\" y=\"69\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">O</text><text x=\"130\" y=\"59\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"76\" y=\"147\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4\\sqrt{5}$",
+      "$8\\sqrt{5}$",
+      "$10\\sqrt{3}$",
+      "$20$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "24",
+   "page": 4,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-4-3",
+   "unitIds": [
+    "nanyi-8-2-4-3",
+    "nanyi-8-2-4-2"
+   ],
+   "unitAssignmentBasis": "正方形與共底同高平行四邊形面積轉化。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，四邊形 $ABCD$ 為正方形，四邊形 $CAEF$ 為平行四邊形，且 $E$ 點在 $\\overline{BF}$ 上。若 $\\overline{AB}=8$，則平行四邊形 $CAEF$ 的面積為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 190 135\" width=\"190\" height=\"135\"><!-- Square ABCD: A(30, 95), B(85, 95), C(85, 40), D(30, 40) --><polygon points=\"30,40 85,40 85,95 30,95\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- Diagonal AC --><line x1=\"30\" y1=\"95\" x2=\"85\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.3\" /><!-- Line BF: B(85, 95) through E(105, 75) to F(160, 20) --><line x1=\"85\" y1=\"95\" x2=\"160\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.3\" /><!-- Parallelogram CAEF: C(85, 40), A(30, 95), E(105, 75), F(160, 20) --><line x1=\"85\" y1=\"40\" x2=\"160\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.3\" /><line x1=\"30\" y1=\"95\" x2=\"105\" y2=\"75\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"19\" y=\"36\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"82\" y=\"34\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"18\" y=\"104\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"77\" y=\"109\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"108\" y=\"85\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"164\" y=\"24\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">F</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$16\\sqrt{2}$",
+      "$32$",
+      "$32\\sqrt{2}$",
+      "$64$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "25",
+   "page": 4,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-4-2",
+   "unitIds": [
+    "nanyi-8-2-4-2",
+    "nanyi-8-2-4-1"
+   ],
+   "unitAssignmentBasis": "平行四邊形判別性質與同位角求角之和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，三角形 $ABC$ 中，$D$、$E$、$F$ 三點分別在 $\\overline{BC}$、$\\overline{AC}$、$\\overline{AB}$ 上且 $\\overline{DE} \\parallel \\overline{AB}$，$\\overline{DE}=\\overline{AF}$。若 $\\angle 1+\\angle 2+\\angle 3=153^\\circ$，則 $\\angle B+\\angle C$ 的度數為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 125\" width=\"170\" height=\"125\"><!-- A(105, 25), B(30, 95), C(145, 95) --><polygon points=\"105,25 30,95 145,95\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- F on AB(67.5, 60), D on BC(87.5, 95), E on AC(125, 60) --><line x1=\"67.5\" y1=\"60\" x2=\"87.5\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.3\" /><line x1=\"87.5\" y1=\"95\" x2=\"125\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"101\" y=\"20\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"56\" y=\"58\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">F</text><text x=\"18\" y=\"100\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"83\" y=\"109\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"130\" y=\"58\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"150\" y=\"100\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"64\" y=\"75\" font-size=\"12\" fill=\"#111\">1</text><text x=\"91\" y=\"85\" font-size=\"12\" fill=\"#111\">2</text><text x=\"120\" y=\"75\" font-size=\"12\" fill=\"#111\">3</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$102^\\circ$",
+      "$127^\\circ$",
+      "$129^\\circ$",
+      "$153^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "26",
+   "page": 4,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-4-1",
+   "unitIds": [
+    "nanyi-8-2-4-1"
+   ],
+   "unitAssignmentBasis": "梯形摺疊性質與平行線同位角角度推導。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，梯形 $ABCD$ 中，已知 $\\overline{AB} \\parallel \\overline{CD}$，$\\angle A=100^\\circ$，將 $\\overline{CD}$ 沿著 $\\overline{DE}$ 對摺，使 $C$ 點落在 $C'$ 點上，且 $\\overline{C'E} \\parallel \\overline{AD}$，$\\angle C'EC=126^\\circ$，則 $\\angle CDE=\\text{？}$"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 150\" width=\"200\" height=\"150\"><!-- Original trapezoid: A(145, 30), B(110, 30), C(25, 135), D(160, 135) --><line x1=\"110\" y1=\"30\" x2=\"145\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"145\" y1=\"30\" x2=\"160\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"110\" y1=\"30\" x2=\"80\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- Fold line DE: E on BC(55, 100), D(160, 135) --><line x1=\"55\" y1=\"100\" x2=\"160\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- Folded: C folds to C'(48, 48) --><line x1=\"55\" y1=\"100\" x2=\"48\" y2=\"48\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"48\" y1=\"48\" x2=\"160\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- F is intersection of C'D and BC: F(80, 70) --><line x1=\"80\" y1=\"70\" x2=\"55\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- Original folded parts (dashed) --><line x1=\"55\" y1=\"100\" x2=\"25\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"3,3\" /><line x1=\"25\" y1=\"135\" x2=\"160\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"3,3\" /><!-- Dots --><circle cx=\"110\" cy=\"30\" r=\"1.8\" fill=\"#111\" /><circle cx=\"145\" cy=\"30\" r=\"1.8\" fill=\"#111\" /><circle cx=\"48\" cy=\"48\" r=\"1.8\" fill=\"#111\" /><circle cx=\"80\" cy=\"70\" r=\"1.8\" fill=\"#111\" /><circle cx=\"55\" cy=\"100\" r=\"1.8\" fill=\"#111\" /><circle cx=\"25\" cy=\"135\" r=\"1.8\" fill=\"#111\" /><circle cx=\"160\" cy=\"135\" r=\"1.8\" fill=\"#111\" /><text x=\"150\" y=\"26\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"98\" y=\"26\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"40\" y=\"42\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">C′</text><text x=\"73\" y=\"65\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">F</text><text x=\"40\" y=\"104\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"12\" y=\"142\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"165\" y=\"142\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">D</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$17^\\circ$",
+      "$20^\\circ$",
+      "$23^\\circ$",
+      "$26^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "27",
+   "page": 4,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-4-3",
+   "unitIds": [
+    "nanyi-8-2-4-3"
+   ],
+   "unitAssignmentBasis": "長方形對角線平分性質、正三角形與等腰三角形求交角。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，長方形 $ABCD$ 中，對角線 $\\overline{AC}$ 與 $\\overline{BD}$ 交於 $O$ 點，$M$ 點在 $\\overline{BC}$ 上，且 $\\overline{AM}$ 平分 $\\angle BAD$。若 $\\angle CAM=15^\\circ$，則 $\\angle AOM$ 的度數為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 115,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 190 120\" width=\"190\" height=\"120\"><!-- A(30, 25), D(155, 25), C(155, 95), B(30, 95) --><rect x=\"30\" y=\"25\" width=\"125\" height=\"70\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- Diagonals AC, BD --><line x1=\"30\" y1=\"25\" x2=\"155\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.3\" /><line x1=\"30\" y1=\"95\" x2=\"155\" y2=\"25\" stroke=\"#111\" stroke-width=\"1.3\" /><!-- M on BC: AM bisects BAD (45 deg) -> BM = AB = 70 -> M(100, 95) --><!-- Segment AM --><line x1=\"30\" y1=\"25\" x2=\"100\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.3\" /><!-- Segment OM: O(92.5, 60), M(100, 95) --><line x1=\"92.5\" y1=\"60\" x2=\"100\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"18\" y=\"25\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"160\" y=\"25\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"18\" y=\"105\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"160\" y=\"105\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"90\" y=\"52\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">O</text><text x=\"96\" y=\"110\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">M</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$140^\\circ$",
+      "$135^\\circ$",
+      "$125^\\circ$",
+      "$110^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 5,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-3-5",
+   "unitIds": [
+    "nanyi-8-2-3-5"
+   ],
+   "unitAssignmentBasis": "利用兩三角形邊長不等式求公共對角線長度範圍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，四邊形 $ABCD$ 中，已知 $\\overline{AB}=6$，$\\overline{BC}=11$，$\\overline{CD}=8$，$\\overline{AD}=5$，若 $\\overline{AC}$ 的長度為 $x$，則 $x$ 的範圍為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 165\" width=\"160\" height=\"165\"><!-- A(75, 145), C(73, 25), D(35, 105), B(130, 125) --><polygon points=\"75,145 130,125 73,25 35,105\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><!-- Diagonal AC --><line x1=\"75\" y1=\"145\" x2=\"73\" y2=\"25\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"70\" y=\"160\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"135\" y=\"130\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"68\" y=\"18\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"21\" y=\"110\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 5,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-4-3",
+   "unitIds": [
+    "nanyi-8-2-4-3"
+   ],
+   "unitAssignmentBasis": "正方形對角線互相垂直平分相等與畢氏定理求對角線長及面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，$O$ 點為正方形 $ABCD$ 對角線的交點，其中 $P$ 點在 $\\overline{BD}$ 上，$\\overline{PD}=2$，$\\overline{PA}=2\\sqrt{13}$，則："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 135,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 145\" width=\"160\" height=\"145\"><!-- Square: A(30, 25), D(125, 25), C(125, 120), B(30, 120) --><rect x=\"30\" y=\"25\" width=\"95\" height=\"95\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"30\" y1=\"25\" x2=\"125\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.3\" /><line x1=\"30\" y1=\"120\" x2=\"125\" y2=\"25\" stroke=\"#111\" stroke-width=\"1.3\" /><!-- O(77.5, 72.5), P on OD: P(110, 40) --><!-- Segment PA --><line x1=\"30\" y1=\"25\" x2=\"110\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.3\" /><text x=\"24\" y=\"20\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"128\" y=\"20\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"24\" y=\"133\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"128\" y=\"133\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"73\" y=\"88\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">O</text><text x=\"110\" y=\"55\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">P</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1)對角線 $\\overline{BD}$ 的長度為何？"
+    },
+    {
+     "type": "text",
+     "text": "(2)正方形 $ABCD$ 的面積為何？"
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,7 @@
 {
-  "coordinator": "Codex",
-  "since": "2026-11-15",
-  "reason": "使用者明確要求接續其他AI成果，先發布已驗收部分並繼續未完成文字題",
-  "policy": "Only coordinator rebuilds shared assets and publishes; helpers edit only assigned transcripts and source-review records."
+ "coordinator": "Claude",
+ "since": "2026-11-16",
+ "handoffState": "Claude builds/publishes v17 (all text-ready papers that pass the checker). Other AIs: keep writing only your claimed paperIds; do not rebuild/commit shared data until this note changes.",
+ "reason": "使用者2026-11-16要求Claude接續共用資料夾、分批推送並實際驗收",
+ "policy": "Only coordinator rebuilds shared assets and publishes; helpers edit only assigned transcripts and source-review records. REVIEW_POLICY.md still applies."
 }

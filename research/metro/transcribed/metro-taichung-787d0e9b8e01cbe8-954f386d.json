@@ -1,0 +1,574 @@
+{
+ "paperId": "metro-taichung-787d0e9b8e01cbe8-954f386d",
+ "sourceSha256": "954f386dc511a4cab1dc3fb95953c7e64acd26929df523048b50ce11a6752869",
+ "printedHeader": "114學年度第二學期臺中市立向上國民中學第一次定期評量三年級數學科試題",
+ "printedSlot": {
+  "year": 114,
+  "semester": 2,
+  "grade": 9,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、填充11題（共14格，以 A～N 標格）、計算2題；第3頁為空白作答卷，第4頁為答案。",
+ "visualReviewComplete": true,
+ "reviewNote": "逐題核對向上國中九下第一次段考原卷，包含選擇10題、填充11題（14格）、計算2題；重繪甲乙丙三班盒狀圖、紅酒杯二次函數圖形、二次函數與正方形圖形及第一組得分盒狀圖共4幅純向量SVG。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 11,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "二次函數頂點、對稱軸、開口方向與極值判別。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "關於二次函數 $y=-(x-7)^2+2$ 的敘述，下列何者是錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "開口向下",
+      "頂點座標 $(7, 2)$",
+      "對稱軸 $x+7=0$",
+      "函數值 $y$ 有最大值 $2$。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "機率的基本概念與生活應用判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有關機率的敘述，下列何者是正確的？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "台灣彩卷威力彩，「中獎」與「不中獎」的機率各為 $\\dfrac{1}{2}$",
+      "投擲一顆均勻的骰子，丟擲一次出現點數是 $2$ 的倍數機率是 $\\dfrac{1}{2}$",
+      "丟擲一顆長方體的橡皮擦，每一面出現的機率都一樣",
+      "天氣預報今日下雨機率是 $50\\%$，表示今天有 $12$ 小時都在下雨"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "二次函數二次項係數決定開口大小與方向。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一個二次函數的圖形和 $y=3x^2+2$ 有相同的開口大小與方向？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=(x-6)^2+2$",
+      "$y=-3(x-6)^2$",
+      "$y=-3(x+3)^2+9$",
+      "$y=3(x+2)^2-2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "袋中抽球的機率計算與大小比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知甲、乙兩袋中各裝有若干顆球，其種類與數量如表所示。今小智打算從甲袋中抽出一顆球，小蕙打算從乙袋中抽出一顆球，若甲袋和乙袋中每顆球被抽出的機會相等，則下列敘述何者正確？"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "",
+       "甲袋",
+       "乙袋"
+      ],
+      [
+       "紅球",
+       "$4$ 顆",
+       "$2$ 顆"
+      ],
+      [
+       "黃球",
+       "$4$ 顆",
+       "$1$ 顆"
+      ],
+      [
+       "綠球",
+       "$2$ 顆",
+       "$2$ 顆"
+      ],
+      [
+       "總計",
+       "$10$ 顆",
+       "$5$ 顆"
+      ]
+     ]
+    },
+    {
+     "type": "options",
+     "items": [
+      "小智抽出紅球的機率比小蕙抽出紅球的機率小",
+      "小智抽出紅球的機率比小蕙抽出紅球的機率大",
+      "小智抽出黃球的機率比小蕙抽出黃球的機率小",
+      "小智抽出黃球的機率比小蕙抽出黃球的機率大"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "被 3 整除的判別法結合古典機率計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個五位數 $1234\\square$，其中 $\\square$ 是 $0$ 到 $9$ 的其中一個數字，則這個五位數能被 $3$ 整除的機率是"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{3}{10}$",
+      "$\\dfrac{1}{5}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{1}{9}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "二次函數圖形與坐標軸交點個數判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "二次函數 $y=3(x+2)^2-4$ 與 $x$ 軸有 $m$ 個交點，與 $y$ 軸有 $n$ 個交點，則 $m+n$ 值為"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4$",
+      "$3$",
+      "$2$",
+      "$1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "線型變換對統計量與排名的影響判別。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某次的數學測驗分數，製作成統計圖表後，發現整體表現不理想，因此將每個人的原始分數都乘上 $0.8$ 後再加上 $30$，即原始分數 $60$，會變成 $60\\times0.8+30=78$，則統計資料中何種數據不會改變？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "四分位距",
+      "平均",
+      "中位數",
+      "排名"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "猜拳勝負情境的機率計算與對稱性分析。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "甲、乙、丙三人結伴旅遊，夜晚投宿於民宿時，發現正好剩下雙人床與單人床各一張，於是三人用猜拳的方式（剪刀石頭布）來決定，三人中最贏的睡單人床，則甲、乙兩人合睡雙人床的機率是多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{2}{3}$",
+      "$\\dfrac{1}{2}$",
+      "$1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "資料的四分位數（Q1、Q3）、四分位距與全距計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一組資料共 $23$ 個數字，將其由小到大排列後為：$1$、$3$、$5$、$7$、$10$、$13$、$13$、$15$、$17$、$20$、$22$、$26$、$26$、$27$、$30$、$32$、$34$、$38$、$40$、$41$、$42$、$45$、$48$，根據上述的資料，請問此資料的各項數值何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "全距 $=44$",
+      "$Q_1=14$",
+      "$Q_3=36$",
+      "四分位距 $=25$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "放回抽樣的三次試驗機率計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個摸彩箱裡面，共放了 $3$ 顆球，分別是紅球、黃球、綠球各一顆，且每顆被取出的機會都相同，取後再放回摸彩箱中，則取出三次後，三次的結果都不一樣顏色的機率為"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{2}{3}$",
+      "$\\dfrac{1}{9}$",
+      "$\\dfrac{2}{9}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "二次函數圖形的平移變換。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將一個二次函數 $y=3(x-2)^2+4$，向左平移 $3$ 單位，向下移動 $3$ 單位，則此二次函數變為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-2",
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "二次函數頂點與最大值求係數並比較大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "二次函數 $y=a(x-b)^2+c$ 在 $x=7$ 時有最大值 $3$，則係數 $a$、$b$、$c$ 的大小關係為＿＿＿＿。（請填入 $\\square>\\square>\\square$ 的格式）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "投擲單顆骰子基本事件之古典機率。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "投擲一顆公正的骰子，出現點數比 $5$ 小的機率為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "利用頂點坐標及通過點求二次函數關係式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個二次函數的頂點為 $(2, 5)$，且通過點 $(1, 3)$，則此二次函數為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "盒狀圖之全距、極值與四分位數累積人數判讀。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "右表為甲、乙、丙三班的數學成績盒狀圖，觀察右表，請問："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 450 170\"><text x=\"42\" y=\"45\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\">甲班</text><text x=\"42\" y=\"85\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\">乙班</text><text x=\"42\" y=\"125\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\">丙班</text><line x1=\"50\" y1=\"16\" x2=\"50\" y2=\"140\" stroke=\"#ccc\" stroke-width=\"0.8\"/><line x1=\"86\" y1=\"16\" x2=\"86\" y2=\"140\" stroke=\"#ccc\" stroke-width=\"0.8\"/><line x1=\"122\" y1=\"16\" x2=\"122\" y2=\"140\" stroke=\"#ccc\" stroke-width=\"0.8\"/><line x1=\"158\" y1=\"16\" x2=\"158\" y2=\"140\" stroke=\"#ccc\" stroke-width=\"0.8\"/><line x1=\"194\" y1=\"16\" x2=\"194\" y2=\"140\" stroke=\"#ccc\" stroke-width=\"0.8\"/><line x1=\"230\" y1=\"16\" x2=\"230\" y2=\"140\" stroke=\"#ccc\" stroke-width=\"0.8\"/><line x1=\"266\" y1=\"16\" x2=\"266\" y2=\"140\" stroke=\"#ccc\" stroke-width=\"0.8\"/><line x1=\"302\" y1=\"16\" x2=\"302\" y2=\"140\" stroke=\"#ccc\" stroke-width=\"0.8\"/><line x1=\"338\" y1=\"16\" x2=\"338\" y2=\"140\" stroke=\"#ccc\" stroke-width=\"0.8\"/><line x1=\"374\" y1=\"16\" x2=\"374\" y2=\"140\" stroke=\"#ccc\" stroke-width=\"0.8\"/><line x1=\"410\" y1=\"16\" x2=\"410\" y2=\"140\" stroke=\"#ccc\" stroke-width=\"0.8\"/><rect x=\"50\" y=\"16\" width=\"360\" height=\"124\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"50\" y1=\"140\" x2=\"50\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"86\" y1=\"140\" x2=\"86\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"122\" y1=\"140\" x2=\"122\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"158\" y1=\"140\" x2=\"158\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"194\" y1=\"140\" x2=\"194\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"230\" y1=\"140\" x2=\"230\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"266\" y1=\"140\" x2=\"266\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"302\" y1=\"140\" x2=\"302\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"338\" y1=\"140\" x2=\"338\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"374\" y1=\"140\" x2=\"374\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"410\" y1=\"140\" x2=\"410\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"50\" y=\"156\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">0</text><text x=\"86\" y=\"156\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">10</text><text x=\"122\" y=\"156\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">20</text><text x=\"158\" y=\"156\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">30</text><text x=\"194\" y=\"156\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">40</text><text x=\"230\" y=\"156\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">50</text><text x=\"266\" y=\"156\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">60</text><text x=\"302\" y=\"156\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">70</text><text x=\"338\" y=\"156\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">80</text><text x=\"374\" y=\"156\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">90</text><text x=\"410\" y=\"156\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">100</text><text x=\"380\" y=\"168\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">分數(分)</text><rect x=\"140\" y=\"30\" width=\"205.2\" height=\"20\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"284\" y1=\"30\" x2=\"284\" y2=\"50\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"93.2\" y1=\"40\" x2=\"140\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"93.2\" y1=\"33\" x2=\"93.2\" y2=\"47\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"345.2\" y1=\"40\" x2=\"402.8\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"402.8\" y1=\"33\" x2=\"402.8\" y2=\"47\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"93.2\" y=\"26\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">12</text><text x=\"140\" y=\"26\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">25</text><text x=\"284\" y=\"26\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">65</text><text x=\"345.2\" y=\"26\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">82</text><text x=\"402.8\" y=\"26\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">98</text><rect x=\"122\" y=\"70\" width=\"158.4\" height=\"20\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"201.2\" y1=\"70\" x2=\"201.2\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"104\" y1=\"80\" x2=\"122\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"104\" y1=\"73\" x2=\"104\" y2=\"87\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"280.4\" y1=\"80\" x2=\"366.8\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"366.8\" y1=\"73\" x2=\"366.8\" y2=\"87\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"104\" y=\"66\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">15</text><text x=\"122\" y=\"66\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">20</text><text x=\"201.2\" y=\"66\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">42</text><text x=\"280.4\" y=\"66\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">64</text><text x=\"366.8\" y=\"66\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">88</text><rect x=\"244.4\" y=\"110\" width=\"129.6\" height=\"20\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"330.8\" y1=\"110\" x2=\"330.8\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"140\" y1=\"120\" x2=\"244.4\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"140\" y1=\"113\" x2=\"140\" y2=\"127\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"374\" y1=\"120\" x2=\"410\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"410\" y1=\"113\" x2=\"410\" y2=\"127\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"140\" y=\"106\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">25</text><text x=\"244.4\" y=\"106\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">54</text><text x=\"330.8\" y=\"106\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">78</text><text x=\"374\" y=\"106\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">90</text><text x=\"410\" y=\"106\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">100</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) 三個班中全距最大的是＿＿＿＿班；"
+    },
+    {
+     "type": "text",
+     "text": "(2) 三個班中分數最高的在＿＿＿＿班；"
+    },
+    {
+     "type": "text",
+     "text": "(3) 若三個班的人數，每班都是 $40$ 人，則不及格人數中佔最多的在＿＿＿＿班。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "利用二次函數開口方向與對稱軸距離判斷函數值大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "坐標平面上，某二次函數的頂點為 $(-2, -3)$，此函數圖形與 $x$ 軸沒有任何交點。若此函數圖形通過 $(1, a)$、$(-1, b)$、$(4, c)$，則 $a$、$b$、$c$ 的大小關係為何？＿＿＿＿（請填入 $\\square>\\square>\\square$ 的格式）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "二次函數次數定義與開口方向決定未知數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $y=(2-m)x^{m^2-3}$ 確定為一個二次函數，且開口向下，則 $m$ 值＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "利用對稱軸與通過點求平移後二次函數之頂點。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知二次函數 $y=3x^2$ 的圖形經過平移後，圖形的對稱軸變為 $x+4=0$，且圖形經過 $(-3, 7)$，則平移後的二次函數的圖形頂點坐標＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "兩次擲骰點數和為質數與擲硬幣之複合事件機率。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "投擲一顆公正的骰子二次與一個公正的硬幣一次，則骰子二次的結果加起來是質數且硬幣是正面的機率是＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "三點求二次函數、頂點坐標及兩軸截距線段長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個二次函數通過 $(5, -4)$、$(-1, -28)$、$(1, -4)$ 三點，則"
+    },
+    {
+     "type": "text",
+     "text": "(1) 此二次函數的頂點座標為＿＿＿＿。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 設此二次函數交 $x$ 軸於 $A$、$B$ 二點，則 $\\overline{AB}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "二次函數在容器液面寬度與深度之幾何應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，有一個紅酒杯，杯子的曲線呈現二次函數的圖形，已知原來酒杯中的飲料高度 $9\\text{ cm}$，液面寬度 $7\\text{ cm}$，小智喝了一口後，飲料高度下降 $5\\text{ cm}$，則液面寬度變成＿＿＿＿$\\text{cm}$。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 180\"><path d=\"M 60 40 C 70 85, 82 130, 95 130 C 108 130, 120 85, 130 40 Z\" fill=\"#b5b5b5\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M 55 25 C 57 70, 75 130, 95 130 C 115 130, 133 70, 135 25\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"60\" y1=\"40\" x2=\"130\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"95\" y1=\"130\" x2=\"95\" y2=\"162\" stroke=\"#111\" stroke-width=\"1.6\"/><ellipse cx=\"95\" cy=\"166\" rx=\"20\" ry=\"5.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"38\" y1=\"40\" x2=\"48\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"43\" y1=\"40\" x2=\"43\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"38\" y1=\"130\" x2=\"48\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"32\" y=\"89\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">9cm</text><text x=\"95\" y=\"34\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">7cm</text><path d=\"M 212 90 C 218 112, 226 130, 235 130 C 244 130, 252 112, 258 90 Z\" fill=\"#b5b5b5\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M 195 25 C 197 70, 215 130, 235 130 C 255 130, 273 70, 275 25\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"212\" y1=\"90\" x2=\"258\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"235\" y1=\"130\" x2=\"235\" y2=\"162\" stroke=\"#111\" stroke-width=\"1.6\"/><ellipse cx=\"235\" cy=\"166\" rx=\"20\" ry=\"5.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"235\" y=\"84\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">? cm</text><line x1=\"282\" y1=\"40\" x2=\"292\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"287\" y1=\"40\" x2=\"287\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"282\" y1=\"90\" x2=\"292\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"298\" y=\"69\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">5cm</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "二次函數圖形與正方形幾何性質之綜合代數求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖為一個二次函數與正方形 $ABCD$ 組成的圖形，其中 $A$ 為二次函數頂點，$B$、$D$ 在二次函數圖形上，$C$ 點在 $x$ 軸上，且 $B$、$D$ 兩點 $y$ 坐標相同，已知 $y=a(x-h)^2+k$，$h$、$k$ 皆不為 $0$，則 $a\\times k=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 160,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 230\"><line x1=\"15\" y1=\"165\" x2=\"255\" y2=\"165\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"255,162 263,165 255,168\" fill=\"#111\"/><text x=\"268\" y=\"169\" font-size=\"14\" fill=\"#111\">X</text><line x1=\"205\" y1=\"210\" x2=\"205\" y2=\"25\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"202,25 205,17 208,25\" fill=\"#111\"/><text x=\"205\" y=\"12\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">Y</text><text x=\"210\" y=\"179\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">O</text><polygon points=\"150,55 95,110 150,165 205,110\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M 60 215 Q 150 -35 240 215\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"150\" y=\"47\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"83\" y=\"114\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\">B</text><text x=\"150\" y=\"180\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"214\" y=\"114\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\">D</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由 6 筆資料盒狀圖之五分位數求平均數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "班上舉辦飛鏢比賽，第一組組長淑娟將全部小組的 $6$ 個人分數做成盒狀圖，如圖所示，結果發現小組的平均分數，跟全班的平均分數相同，則全班平均分數為多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 160,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 260\"><rect x=\"15\" y=\"10\" width=\"230\" height=\"240\" fill=\"none\" stroke=\"#d0d0d0\" stroke-width=\"1\"/><text x=\"130\" y=\"32\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">第一組得分盒狀圖</text><line x1=\"68\" y1=\"36\" x2=\"192\" y2=\"36\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"52\" y1=\"55\" x2=\"52\" y2=\"235\" stroke=\"#888\" stroke-width=\"1.3\"/><line x1=\"52\" y1=\"55\" x2=\"47\" y2=\"55\" stroke=\"#888\" stroke-width=\"1.2\"/><text x=\"35\" y=\"53\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">95</text><line x1=\"26\" y1=\"57\" x2=\"44\" y2=\"57\" stroke=\"#111\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"85\" x2=\"47\" y2=\"85\" stroke=\"#888\" stroke-width=\"1.2\"/><text x=\"35\" y=\"83\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">85</text><line x1=\"26\" y1=\"87\" x2=\"44\" y2=\"87\" stroke=\"#111\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"115\" x2=\"47\" y2=\"115\" stroke=\"#888\" stroke-width=\"1.2\"/><text x=\"35\" y=\"113\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">75</text><line x1=\"26\" y1=\"117\" x2=\"44\" y2=\"117\" stroke=\"#111\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"145\" x2=\"47\" y2=\"145\" stroke=\"#888\" stroke-width=\"1.2\"/><text x=\"35\" y=\"143\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">65</text><line x1=\"26\" y1=\"147\" x2=\"44\" y2=\"147\" stroke=\"#111\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"175\" x2=\"47\" y2=\"175\" stroke=\"#888\" stroke-width=\"1.2\"/><text x=\"35\" y=\"173\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">55</text><line x1=\"26\" y1=\"177\" x2=\"44\" y2=\"177\" stroke=\"#111\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"205\" x2=\"47\" y2=\"205\" stroke=\"#888\" stroke-width=\"1.2\"/><text x=\"35\" y=\"203\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">45</text><line x1=\"26\" y1=\"207\" x2=\"44\" y2=\"207\" stroke=\"#111\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"235\" x2=\"47\" y2=\"235\" stroke=\"#888\" stroke-width=\"1.2\"/><text x=\"35\" y=\"233\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">35</text><line x1=\"26\" y1=\"237\" x2=\"44\" y2=\"237\" stroke=\"#111\" stroke-width=\"0.9\"/><line x1=\"120\" y1=\"55\" x2=\"150\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"162\" y=\"53\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">95</text><line x1=\"162\" y1=\"57\" x2=\"178\" y2=\"57\" stroke=\"#111\" stroke-width=\"0.9\"/><line x1=\"135\" y1=\"55\" x2=\"135\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"178\" y1=\"68\" x2=\"194\" y2=\"68\" stroke=\"none\"/><text x=\"178\" y=\"68\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">90</text><line x1=\"178\" y1=\"72\" x2=\"194\" y2=\"72\" stroke=\"#111\" stroke-width=\"0.9\"/><rect x=\"100\" y=\"70\" width=\"70\" height=\"120\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"100\" y1=\"100\" x2=\"170\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"178\" y=\"98\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">80</text><line x1=\"178\" y1=\"102\" x2=\"194\" y2=\"102\" stroke=\"#111\" stroke-width=\"0.9\"/><text x=\"178\" y=\"188\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">50</text><line x1=\"178\" y1=\"192\" x2=\"194\" y2=\"192\" stroke=\"#111\" stroke-width=\"0.9\"/><line x1=\"135\" y1=\"190\" x2=\"135\" y2=\"220\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"120\" y1=\"220\" x2=\"150\" y2=\"220\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"162\" y=\"218\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">40</text><line x1=\"162\" y1=\"222\" x2=\"178\" y2=\"222\" stroke=\"#111\" stroke-width=\"0.9\"/></svg>"
+    }
+   ]
+  }
+ ]
+}

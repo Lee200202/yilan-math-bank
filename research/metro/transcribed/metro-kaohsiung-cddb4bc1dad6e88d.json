@@ -1,0 +1,670 @@
+{
+ "paperId": "metro-kaohsiung-cddb4bc1dad6e88d",
+ "sourceSha256": "caf5503c1d3167ba81f9356b39c7795177a73111cb3a3290793980754a9cc7c0",
+ "printedHeader": "高雄市立大灣國中110 學年度下學期國二數學科第一次月考定期評量   題目卷",
+ "printedSlot": {
+  "year": 110,
+  "semester": 2,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇23題，非選2題，共25題。",
+ "expectedTypes": {
+  "choice": 23,
+  "fill": 0,
+  "written": 2
+ },
+ "visualReviewComplete": true,
+ "reviewNote": "全卷23題選擇題與2題非選計算題逐題逐字校對；柵欄木條規律圖形與等差方格矩陣圖均以純向量SVG重繪。",
+ "questions": [
+  {
+   "sourceNumber": 1,
+   "type": "choice",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一數列的前八項為 $1$ , $4$ , $5$ , $9$ , $14$ , $23$ , $37$ , $60$，請觀察此數列的規律性，推斷此數列的第 $11$ 項為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$85$",
+      "$97$",
+      "$254$",
+      "$411$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 2,
+   "type": "choice",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一數列 $2$ , $8$ , $\\square$ , $20$ , $26$ , $32$ , $38$，依某種規律排列而成，則可判斷 $\\square$ 內之數字為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$10$",
+      "$12$",
+      "$14$",
+      "$16$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 3,
+   "type": "choice",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將分數 $\\dfrac{7}{111}$ 化成小數，得到 $\\dfrac{7}{111} = 0.063063063\\dots\\dots$。若將小數點以後的數字，依序排成數列：$0$ , $6$ , $3$ , $0$ , $6$ , $3$ , $\\dots\\dots$，則此數列的第 $200$ 項為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$0$",
+      "$6$",
+      "$7$",
+      "$3$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 4,
+   "type": "choice",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，用木條依次向右排出相連的柵欄，如果要排出第 $30$ 個圖形，總共需要幾根木條？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 100\" width=\"520\" height=\"100\"><g id=\"fig1\"><rect x=\"30\" y=\"15\" width=\"45\" height=\"45\" stroke=\"#111827\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><line x1=\"30\" y1=\"15\" x2=\"75\" y2=\"60\" stroke=\"#111827\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><text x=\"52.5\" y=\"85\" font-size=\"15\" fill=\"#111827\" text-anchor=\"middle\">第 1 個</text></g><path d=\"M 94 35.5 L 102 35.5 L 102 32 L 109 37.5 L 102 43 L 102 39.5 L 94 39.5 Z\" fill=\"#4b5563\"/><g id=\"fig2\"><rect x=\"128\" y=\"15\" width=\"90\" height=\"45\" stroke=\"#111827\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><line x1=\"173\" y1=\"15\" x2=\"173\" y2=\"60\" stroke=\"#111827\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><line x1=\"128\" y1=\"15\" x2=\"173\" y2=\"60\" stroke=\"#111827\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><line x1=\"173\" y1=\"15\" x2=\"218\" y2=\"60\" stroke=\"#111827\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><text x=\"173\" y=\"85\" font-size=\"15\" fill=\"#111827\" text-anchor=\"middle\">第 2 個</text></g><path d=\"M 237 35.5 L 245 35.5 L 245 32 L 252 37.5 L 245 43 L 245 39.5 L 237 39.5 Z\" fill=\"#4b5563\"/><g id=\"fig3\"><rect x=\"271\" y=\"15\" width=\"135\" height=\"45\" stroke=\"#111827\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><line x1=\"316\" y1=\"15\" x2=\"316\" y2=\"60\" stroke=\"#111827\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><line x1=\"361\" y1=\"15\" x2=\"361\" y2=\"60\" stroke=\"#111827\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><line x1=\"271\" y1=\"15\" x2=\"316\" y2=\"60\" stroke=\"#111827\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><line x1=\"316\" y1=\"15\" x2=\"361\" y2=\"60\" stroke=\"#111827\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><line x1=\"361\" y1=\"15\" x2=\"406\" y2=\"60\" stroke=\"#111827\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><text x=\"338.5\" y=\"85\" font-size=\"15\" fill=\"#111827\" text-anchor=\"middle\">第 3 個</text></g><path d=\"M 425 35.5 L 433 35.5 L 433 32 L 440 37.5 L 433 43 L 433 39.5 L 425 39.5 Z\" fill=\"#4b5563\"/><text x=\"456\" y=\"42\" font-size=\"20\" fill=\"#111827\">……</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$101$",
+      "$111$",
+      "$120$",
+      "$121$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 5,
+   "type": "choice",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在 $1 \\sim 300$ 且個位數字為 $3$ 的正整數，自小到大排列的數列中，請問下列敘述何者不正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "此數列為等差數列",
+      "此數列公差為 $10$",
+      "此數列末項為 $293$",
+      "此數列共有 $29$ 項"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 6,
+   "type": "choice",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，若在每個方格中各填入一個整數，使每一橫列、直行均為等差數列，則鋪色部分所代表的數為何？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 240\" width=\"240\" height=\"240\"><rect x=\"176\" y=\"136\" width=\"40\" height=\"40\" fill=\"#d1d5db\" stroke=\"#111827\" stroke-width=\"2\"/><rect x=\"16\" y=\"16\" width=\"200\" height=\"200\" fill=\"none\" stroke=\"#111827\" stroke-width=\"2\"/><line x1=\"56\" y1=\"16\" x2=\"56\" y2=\"216\" stroke=\"#111827\" stroke-width=\"2\"/><line x1=\"96\" y1=\"16\" x2=\"96\" y2=\"216\" stroke=\"#111827\" stroke-width=\"2\"/><line x1=\"136\" y1=\"16\" x2=\"136\" y2=\"216\" stroke=\"#111827\" stroke-width=\"2\"/><line x1=\"176\" y1=\"16\" x2=\"176\" y2=\"216\" stroke=\"#111827\" stroke-width=\"2\"/><line x1=\"16\" y1=\"56\" x2=\"216\" y2=\"56\" stroke=\"#111827\" stroke-width=\"2\"/><line x1=\"16\" y1=\"96\" x2=\"216\" y2=\"96\" stroke=\"#111827\" stroke-width=\"2\"/><line x1=\"16\" y1=\"136\" x2=\"216\" y2=\"136\" stroke=\"#111827\" stroke-width=\"2\"/><line x1=\"16\" y1=\"176\" x2=\"216\" y2=\"176\" stroke=\"#111827\" stroke-width=\"2\"/><text x=\"76\" y=\"36\" font-size=\"22\" font-weight=\"bold\" fill=\"#111827\" text-anchor=\"middle\" dominant-baseline=\"central\">19</text><text x=\"156\" y=\"36\" font-size=\"22\" font-weight=\"bold\" fill=\"#111827\" text-anchor=\"middle\" dominant-baseline=\"central\">7</text><text x=\"36\" y=\"116\" font-size=\"22\" font-weight=\"bold\" fill=\"#111827\" text-anchor=\"middle\" dominant-baseline=\"central\">31</text><text x=\"196\" y=\"196\" font-size=\"22\" font-weight=\"bold\" fill=\"#111827\" text-anchor=\"middle\" dominant-baseline=\"central\">13</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$9$",
+      "$10$",
+      "$11$",
+      "$12$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 7,
+   "type": "choice",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "等差數列 $-8$ , $-5$ , $-2$ , $1$ , $4$，則其公差為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3$",
+      "$12$",
+      "$13$",
+      "$-3$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 8,
+   "type": "choice",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一數列 $12$ , $9$ , $6$ , $3$ , $0$ , $-3$，則下列敘述何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "此數列為等差數列",
+      "此數列公差為 $3$",
+      "此數列首項為 $12$",
+      "依此規則延續此數列，必有一項為 $-42$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 9,
+   "type": "choice",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "由小而大，在 $-8$ 和 $24$ 之間插入 $15$ 個數，使其成為等差數列，則此等差數列的公差為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$",
+      "$-2$",
+      "$3$",
+      "$-3$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 10,
+   "type": "choice",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $a_1$ , $a_2$ , $a_3$ , $a_4$ 四數成等差數列，若 $a_1 + a_2 = 16$，$a_3 + a_4 = 28$，則公差 $d = ?$ "
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 11,
+   "type": "choice",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一等差數列的首項為 $50$，第 $3$ 項為 $38$，若從第 $n$ 項開始出現負數，則 $n$ 為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$8$",
+      "$9$",
+      "$10$",
+      "$11$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 12,
+   "type": "choice",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請找出下列兩數列第 $20$ 個相同的數為何？"
+    },
+    {
+     "type": "text",
+     "text": "$2$ , $5$ , $8$ , $11$ , $14$ , $17$ , $20$ , $23$ , $\\dots\\dots$"
+    },
+    {
+     "type": "text",
+     "text": "$3$ , $7$ , $11$ , $15$ , $19$ , $23$ , $27$ , $31$ , $\\dots\\dots$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$228$",
+      "$239$",
+      "$251$",
+      "$263$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 13,
+   "type": "choice",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設有四數成等差數列，且和為 $20$，公差大於 $0$，若首、末兩項的乘積為 $16$，則其公差值為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$",
+      "$2.5$",
+      "$3$",
+      "$4$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 14,
+   "type": "choice",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差數列首項為 $93$，末項為 $2$，公差為 $-7$，則此等差數列有幾項？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$13$",
+      "$14$",
+      "$15$",
+      "$16$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 15,
+   "type": "choice",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若在 $a$、$70$ 兩數之間插入 $23$ 個數，使這 $25$ 個數成一等差數列，已知插入的第 $11$ 個數為 $5$，則 $a = ?$ "
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-50$",
+      "$-45$",
+      "$-40$",
+      "$-35$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 16,
+   "type": "choice",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-1 等差數列",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差數列的首項為 $-101$，第 $3$ 項為 $-97$，則此數列第幾項開始為正數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$27$",
+      "$51$",
+      "$52$",
+      "$103$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 17,
+   "type": "choice",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-2-1 一次函數及函數圖形與應用",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列 $x$ 與 $y$ 的對應關係中，哪一組的 $y$ 不是 $x$ 的函數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\begin{array}{|c|c|c|}\\hline x & 1 & 2 \\\\ \\hline y & 11 & 12 \\\\ \\hline\\end{array}$",
+      "$\\begin{array}{|c|c|c|}\\hline x & -9 & 15 \\\\ \\hline y & 3 & -5 \\\\ \\hline\\end{array}$",
+      "$\\begin{array}{|c|c|c|}\\hline x & -1 & -2 \\\\ \\hline y & 8 & 8 \\\\ \\hline\\end{array}$",
+      "$\\begin{array}{|c|c|c|}\\hline x & 3 & 3 \\\\ \\hline y & 6 & 7 \\\\ \\hline\\end{array}$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 18,
+   "type": "choice",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-2-1 一次函數及函數圖形與應用",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x$ 表示長方形的其中一邊長，$y$ 表示長方形的另一邊長，設此長方形的周長為 $40$，則當 $x$ 為下列何者時，$y$ 無意義？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$8$",
+      "$10$",
+      "$16$",
+      "$24$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 19,
+   "type": "choice",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-2-1 一次函數及函數圖形與應用",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某行動電話業者所設定的通話費率為：每月基本費 $88$ 元，基本費可抵 $300$ 秒的通話費，超過 $300$ 秒的部分每秒加收 $0.2$ 元。若本月份阿祥的通話秒數為 $x$ 秒（$x > 300$），通話費用為 $y$ 元，則 $x$ 與 $y$ 的關係式為下列何者？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y = 88 + 0.2x - 300$",
+      "$y = 0.2x - 300 - 88$",
+      "$y = 88 + 0.2x$",
+      "$y = 88 + 0.2(x - 300)$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 20,
+   "type": "choice",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-2-1 一次函數及函數圖形與應用",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設函數 $y = 3(x + a) + 5$，在 $x = 5$ 的函數值是 $14$，則 $a = ?$ "
+    },
+    {
+     "type": "options",
+     "items": [
+      "$0$",
+      "$3$",
+      "$2$",
+      "$-2$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 21,
+   "type": "choice",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-2-1 一次函數及函數圖形與應用",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $a$ 為已知數，若 $y = (a - 2)x^2 + (3a + 1)x + 4$ 為 $x$ 的一次函數，則在 $x = 1$ 時，函數值 $y = ?$ "
+    },
+    {
+     "type": "options",
+     "items": [
+      "$7$",
+      "$11$",
+      "$14$",
+      "$21$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 22,
+   "type": "choice",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-2-1 一次函數及函數圖形與應用",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $y = 5x - 2$，則 $y$ 的圖形不通過第幾象限？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "一",
+      "二",
+      "三",
+      "四"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 23,
+   "type": "choice",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-2-1 一次函數及函數圖形與應用",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若線型函數 $y = ax + b$ 的圖形通過 $(1, -8)$、$(-2, 1)$ 兩點，則必通過下列哪一點？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(1, 2)$",
+      "$(1, -2)$",
+      "$(3, 4)$",
+      "$(-3, 4)$"
+     ]
+    }
+   ]
+  },
+  {
+   "sourceNumber": 1,
+   "type": "written",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-1-2 等差級數",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知等差數列 $2$ , $5$ , $8$ , $11$ , $14$ , $17$ , $\\dots\\dots$，第 $10$ 項為 $x$，前 $10$ 項的總和為 $y$，則 $x + y = ?$ "
+    }
+   ]
+  },
+  {
+   "sourceNumber": 2,
+   "type": "written",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "課綱對應：8-2-2-1 一次函數及函數圖形與應用",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $y$ 是 $x$ 的函數，設 $y = ax + b$，且在 $x = 2$ 時，函數值為 $8$，在 $x = -3$ 時，函數值為 $48$，則在 $x = -1$ 時，函數值 $y = ?$ "
+    }
+   ]
+  }
+ ]
+}

@@ -189,7 +189,16 @@ def build(root, unit_ids):
                 if hashlib.sha256(local.read_bytes()).hexdigest() != f['sha256']:
                     raise ValueError(f'Metro source hash changed: {f["id"]}')
                 if f.get('format') != 'pdf':
-                    raise ValueError(f'Metro transcribed source must be a PDF original: {f["id"]}')
+                    renders_path = root / 'research/metro/rendered-sources.json'
+                    render = json.loads(renders_path.read_text(encoding='utf-8')).get(f['id']) if renders_path.exists() else None
+                    if not render or render['sourceSha256'] != f['sha256']:
+                        raise ValueError(f'Office source needs a pinned reference PDF: {f["id"]}')
+                    local = root / render['localPath']
+                    if hashlib.sha256(local.read_bytes()).hexdigest() != render['renderSha256']:
+                        raise ValueError(f'Office reference PDF changed: {f["id"]}')
+                    original_dest = root / 'public/papers' / f'{f["id"]}.{ext}'
+                    shutil.copyfile(root / f['localPath'], original_dest)
+                    paper.update(originalFile=f'./papers/{original_dest.name}', renderedFrom=ext, renderSha256=render['renderSha256'])
                 dest = root / 'public/papers' / f'{f["id"]}.pdf'
                 shutil.copyfile(local, dest)
                 paper['file'] = f'./papers/{dest.name}'

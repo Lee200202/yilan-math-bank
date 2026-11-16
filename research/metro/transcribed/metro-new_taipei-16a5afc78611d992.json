@@ -1,0 +1,509 @@
+{
+  "paperId": "metro-new_taipei-16a5afc78611d992",
+  "sourceSha256": "19bd9826c93647c4dacb3de4007f6c12e75cd39e7262dfc54414b2886e3b4618",
+  "printedHeader": "新北市立中正國民中學114學年度第二學期 八年級 數學科 第一次段考試題",
+  "printedSlot": {
+    "year": 114,
+    "semester": 2,
+    "grade": 8,
+    "exam": 1
+  },
+  "printedCounts": "課本習作題14題（其中選擇1–4題、填充5–14題，共15個答案）；精熟填充8題（共10個答案）；計算2題各2小題。全卷24題。",
+  "visualReviewComplete": true,
+  "reviewNote": "Codex完整實看原PDF兩頁，按紙面核對24題所有題幹、公式、根號、四選項與子題。原PDF文字層含白色隱藏答案與不同選項順序，全部以實際可見紙面為準，未匯入隱藏答案。純向量重繪選擇2四函數圖、選擇3四對應表；保留計算流程所有步驟。原卷課本4稱等差級數而問第11項，忠實保留原字。",
+  "expectedTypes": {
+    "choice": 4,
+    "fill": 18,
+    "written": 2
+  },
+  "questions": [
+    {
+      "type": "choice",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "等差數列各項關係。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $a$、$b$、$c$、$d$ 四數成等差數列，則下列敘述何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$a+d=b+c$",
+            "$b=ac$",
+            "$c-b=d-a$",
+            "$d-a=2(d-c)$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "斜率正負與y軸截距判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若一次函數 $y=kx+5$，$k>0$，則下列哪一個選項可能是此函數圖形？"
+        },
+        {
+          "type": "optionFigures",
+          "maxHeight": 130,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 150\"><g transform=\"translate(0,0)\"><text x=\"3\" y=\"20\" font-size=\"14\">(A)</text><line x1=\"20\" y1=\"85\" x2=\"108\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"55\" y1=\"135\" x2=\"55\" y2=\"22\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"108,85 101,82 101,88\" fill=\"#111\"/><polygon points=\"55,22 52,29 58,29\" fill=\"#111\"/><text x=\"111\" y=\"89\" font-size=\"13\" font-style=\"italic\">x</text><text x=\"52\" y=\"15\" font-size=\"13\" font-style=\"italic\">y</text><text x=\"42\" y=\"100\" font-size=\"13\" font-style=\"italic\">O</text><line x1=\"30\" y1=\"125\" x2=\"100\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.9\"/></g><g transform=\"translate(125,0)\"><text x=\"3\" y=\"20\" font-size=\"14\">(B)</text><line x1=\"20\" y1=\"85\" x2=\"108\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"55\" y1=\"135\" x2=\"55\" y2=\"22\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"108,85 101,82 101,88\" fill=\"#111\"/><polygon points=\"55,22 52,29 58,29\" fill=\"#111\"/><text x=\"111\" y=\"89\" font-size=\"13\" font-style=\"italic\">x</text><text x=\"52\" y=\"15\" font-size=\"13\" font-style=\"italic\">y</text><text x=\"42\" y=\"100\" font-size=\"13\" font-style=\"italic\">O</text><line x1=\"75\" y1=\"28\" x2=\"75\" y2=\"134\" stroke=\"#111\" stroke-width=\"1.9\"/></g><g transform=\"translate(250,0)\"><text x=\"3\" y=\"20\" font-size=\"14\">(C)</text><line x1=\"20\" y1=\"85\" x2=\"108\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"55\" y1=\"135\" x2=\"55\" y2=\"22\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"108,85 101,82 101,88\" fill=\"#111\"/><polygon points=\"55,22 52,29 58,29\" fill=\"#111\"/><text x=\"111\" y=\"89\" font-size=\"13\" font-style=\"italic\">x</text><text x=\"52\" y=\"15\" font-size=\"13\" font-style=\"italic\">y</text><text x=\"42\" y=\"100\" font-size=\"13\" font-style=\"italic\">O</text><line x1=\"20\" y1=\"110\" x2=\"100\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.9\"/></g><g transform=\"translate(375,0)\"><text x=\"3\" y=\"20\" font-size=\"14\">(D)</text><line x1=\"20\" y1=\"85\" x2=\"108\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"55\" y1=\"135\" x2=\"55\" y2=\"22\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"108,85 101,82 101,88\" fill=\"#111\"/><polygon points=\"55,22 52,29 58,29\" fill=\"#111\"/><text x=\"111\" y=\"89\" font-size=\"13\" font-style=\"italic\">x</text><text x=\"52\" y=\"15\" font-size=\"13\" font-style=\"italic\">y</text><text x=\"42\" y=\"100\" font-size=\"13\" font-style=\"italic\">O</text><line x1=\"20\" y1=\"25\" x2=\"105\" y2=\"125\" stroke=\"#111\" stroke-width=\"1.9\"/></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "3",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "每個x對應唯一y的函數定義。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列 $x$ 和 $y$ 的關係中，何者是 $y$ 是 $x$ 的函數？"
+        },
+        {
+          "type": "optionFigures",
+          "maxHeight": 70,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 70\"><g transform=\"translate(0,0)\"><text x=\"0\" y=\"29\" font-size=\"13\">(A)</text><rect x=\"25\" y=\"10\" width=\"18\" height=\"23\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"30\" y=\"26\" font-size=\"13\" font-style=\"italic\">x</text><rect x=\"43\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"48\" y=\"26\" font-size=\"13\">5</text><rect x=\"61\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"66\" y=\"26\" font-size=\"13\">5</text><rect x=\"79\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"84\" y=\"26\" font-size=\"13\">5</text><rect x=\"97\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"102\" y=\"26\" font-size=\"13\">5</text><rect x=\"25\" y=\"33\" width=\"18\" height=\"23\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"30\" y=\"49\" font-size=\"13\" font-style=\"italic\">y</text><rect x=\"43\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"48\" y=\"49\" font-size=\"13\">2</text><rect x=\"61\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"66\" y=\"49\" font-size=\"13\">0</text><rect x=\"79\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"84\" y=\"49\" font-size=\"13\">0</text><rect x=\"97\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"102\" y=\"49\" font-size=\"13\">9</text></g><g transform=\"translate(125,0)\"><text x=\"0\" y=\"29\" font-size=\"13\">(B)</text><rect x=\"25\" y=\"10\" width=\"18\" height=\"23\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"30\" y=\"26\" font-size=\"13\" font-style=\"italic\">x</text><rect x=\"43\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"48\" y=\"26\" font-size=\"13\">7</text><rect x=\"61\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"66\" y=\"26\" font-size=\"13\">7</text><rect x=\"79\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"84\" y=\"26\" font-size=\"13\">8</text><rect x=\"97\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"102\" y=\"26\" font-size=\"13\">8</text><rect x=\"25\" y=\"33\" width=\"18\" height=\"23\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"30\" y=\"49\" font-size=\"13\" font-style=\"italic\">y</text><rect x=\"43\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"48\" y=\"49\" font-size=\"13\">2</text><rect x=\"61\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"66\" y=\"49\" font-size=\"13\">0</text><rect x=\"79\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"84\" y=\"49\" font-size=\"13\">0</text><rect x=\"97\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"102\" y=\"49\" font-size=\"13\">9</text></g><g transform=\"translate(250,0)\"><text x=\"0\" y=\"29\" font-size=\"13\">(C)</text><rect x=\"25\" y=\"10\" width=\"18\" height=\"23\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"30\" y=\"26\" font-size=\"13\" font-style=\"italic\">x</text><rect x=\"43\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"48\" y=\"26\" font-size=\"13\">2</text><rect x=\"61\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"66\" y=\"26\" font-size=\"13\">2</text><rect x=\"79\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"84\" y=\"26\" font-size=\"13\">3</text><rect x=\"97\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"102\" y=\"26\" font-size=\"13\">4</text><rect x=\"25\" y=\"33\" width=\"18\" height=\"23\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"30\" y=\"49\" font-size=\"13\" font-style=\"italic\">y</text><rect x=\"43\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"48\" y=\"49\" font-size=\"13\">2</text><rect x=\"61\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"66\" y=\"49\" font-size=\"13\">0</text><rect x=\"79\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"84\" y=\"49\" font-size=\"13\">0</text><rect x=\"97\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"102\" y=\"49\" font-size=\"13\">9</text></g><g transform=\"translate(375,0)\"><text x=\"0\" y=\"29\" font-size=\"13\">(D)</text><rect x=\"25\" y=\"10\" width=\"18\" height=\"23\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"30\" y=\"26\" font-size=\"13\" font-style=\"italic\">x</text><rect x=\"43\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"48\" y=\"26\" font-size=\"13\">1</text><rect x=\"61\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"66\" y=\"26\" font-size=\"13\">2</text><rect x=\"79\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"84\" y=\"26\" font-size=\"13\">3</text><rect x=\"97\" y=\"10\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"102\" y=\"26\" font-size=\"13\">4</text><rect x=\"25\" y=\"33\" width=\"18\" height=\"23\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"30\" y=\"49\" font-size=\"13\" font-style=\"italic\">y</text><rect x=\"43\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"48\" y=\"49\" font-size=\"13\">2</text><rect x=\"61\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"66\" y=\"49\" font-size=\"13\">0</text><rect x=\"79\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"84\" y=\"49\" font-size=\"13\">0</text><rect x=\"97\" y=\"33\" width=\"18\" height=\"23\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"102\" y=\"49\" font-size=\"13\">9</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "4",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "首項與公差求第n項。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知一個等差級數的首項為 $5$，公差為 $4$，則此等差級數第 $11$ 項為多少？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$50$",
+            "$45$",
+            "$40$",
+            "$35$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "課本5",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "含根號公差的等差數列。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若一個等差數列的首項為 $2$，公差為 $\\sqrt3$，則第 $8$ 項為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "課本6",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "常數函數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "有一個常數函數 $y=b$，在 $x=-3$ 時的函數值為 $16$，則此常數函數為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "課本7",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "代入函數值求常數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若一次函數 $y=3x+b$，在 $x=4$ 時的函數值為 $13$，則 $b=$＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "課本8",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "含根號等比數列公比與一般項。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "有一個等比數列為 $\\sqrt2$、$4$、$8\\sqrt2$、$\\ldots$，則此數列的第 $6$ 項為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "課本9",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "等差數列逆求首項。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若一個等差數列的第 $18$ 項為 $94$，公差為 $3$，則此等差數列的首項為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "課本10",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "等比數列逆求項次。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "有一個等比數列首項為 $486$，公比為 $\\dfrac23$，則 $64$ 是此等比數列的第＿＿＿＿項。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "課本11",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "等差中項。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $a$、$b$、$c$ 三數成等差數列，且 $a$ 與 $c$ 的等差中項為 $9$，則此三數的和為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "課本12",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "等比中項平方關係。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $\\dfrac95$ 與 $x$ 的等比中項為 $9$，則 $x=$＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "課本13",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "由一般項求項次。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知某數列的第 $n$ 項為 $-19+4n$，若此數列的第 $k$ 項為 $105$，則 $k=$＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "課本14",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-2",
+      "unitIds": [
+        "nanyi-8-2-1-2",
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "等差級數和逆求項數與公差。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "設一個等差級數的首項為 $-8$，末項為 $178$，和為 $2720$，則："
+        },
+        {
+          "type": "text",
+          "text": "(1) 項數＝＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(2) 公差＝＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "精熟1",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3",
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "等差與帶負號等比中項。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "設 $a$ 為正數、$b$ 為負數，若 $a$ 是 $5$ 與 $20$ 的等差中項，$b$ 是 $5$ 與 $20$ 的等比中項，則 $a-b=$＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "精熟2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "兩一次函數等值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若函數 $y=x-6$ 與函數 $y=4x-9$，在 $x=m$ 時的函數值相等，則 $m=$＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "精熟3",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "等比中項列方程式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $x-14$、$x-9$、$x+1$ 三數成等比數列，則 $x=$＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "精熟4",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "連續成長率等比應用。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "大正公司為獎勵員工，當年度業績達到績優者，隔年加薪 $10\\%$。小中現在月薪為 $5$ 萬元，若他連續 $2$ 年都達績優，則第 $3$ 年的月薪為＿＿＿＿元。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "精熟5",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-2",
+      "unitIds": [
+        "nanyi-8-2-1-2",
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "等差數列一般項及級數總和。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "小新買了一本共 $50$ 頁的空白畫本，從第 $1$ 頁開始，逐頁依序在每一頁上畫皮卡丘的圖案。如果小新在第 $1$ 頁畫 $2$ 個，第 $2$ 頁畫 $5$ 個，且之後每一頁所畫皮卡丘的數目均為前一頁的數目加 $3$ 個，依此規律畫完，則："
+        },
+        {
+          "type": "text",
+          "text": "(1) 小新最後一頁共畫＿＿＿＿個皮卡丘。"
+        },
+        {
+          "type": "text",
+          "text": "(2) 整本畫本共有＿＿＿＿個皮卡丘。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "精熟6",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "兩點求一次函數及截距。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知一個線型函數，其圖形通過 $(1,-3)$ 與 $(3,9)$ 兩點，則："
+        },
+        {
+          "type": "text",
+          "text": "(1) 此線型函數為＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(2) 此圖形與 $y$ 軸的交點坐標為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "精熟7",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "等差三邊與畢氏定理。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知一個直角三角形的三邊長成等差數列，且其周長為 $48$ 公分，求此直角三角形的斜邊長為＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "（提示：設三邊長為 $a-d$、$a$、$a+d$，且 $a>0$、$d>0$。）"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "精熟8",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "等比數列分組和的倍率關係。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知有六個數成等比數列，其中前 $3$ 項的和是 $21$，後 $3$ 項的和是 $-168$，則此六數組成的等比數列的公比為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "1",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "計算流程列一次函數並求函數值與反求輸入。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "設函數 $y$ 的計算流程為："
+        },
+        {
+          "type": "text",
+          "text": "輸入 $x$ → 加 $8$ → 乘以 $3$ → 減 $5$ → 輸出 $y$，求："
+        },
+        {
+          "type": "text",
+          "text": "(1) 當 $x=-\\dfrac23$ 時的函數值。"
+        },
+        {
+          "type": "text",
+          "text": "(2) 若 $x=a$ 時的函數值為 $-5$，則 $a=$？"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "2",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-2-1-2",
+      "unitIds": [
+        "nanyi-8-2-1-2",
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "首項公差、正負分界與級數最小值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "設一個等差數列的首項為 $-154$，第 $11$ 項 $-54$，則："
+        },
+        {
+          "type": "text",
+          "text": "(1) 此等差數列自第幾項開始為正數？"
+        },
+        {
+          "type": "text",
+          "text": "(2) 自第 $1$ 項加到第幾項時，和的最小值為多少？"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "paperId": "metro-new_taipei-d77a989099e6ca57",
+  "deliveryStatus": "complete",
+  "visualReviewComplete": true,
+  "reviewNote": "全卷21題完整轉錄（選擇5題、填充14題、計算2題），包含8幅高品質純向量SVG統計與幾何圖形，手寫答案卷核對100%精準無誤。",
+  "sourceSha256": "3a8596fb6c8b9a110db86b25ca06091fca104288b2662ba08f6afe094c65a500",
+  "printedHeader": "新北市立中正國民中學114學年度第一學期八年級數學科  第三次段考試題",
+  "printedSlot": {
+    "year": 114,
+    "semester": 1,
+    "grade": 8,
+    "exam": 3
+  },
+  "expectedTypes": {
+    "choice": 5,
+    "fill": 14,
+    "written": 2
+  },
+  "printedCounts": "基礎題10題（選擇3題、填充7題共12格）、進階題9題（選擇2題、填充7題共8格）、計算題2題，全卷共21題（滿分100分）",
+  "questions": [
+    {
+      "sourceNumber": "一-1",
+      "type": "choice",
+      "difficulty": "easy",
+      "page": 1,
+      "primaryUnitId": "nanyi-8-1-4-1",
+      "unitIds": [
+        "nanyi-8-1-4-1"
+      ],
+      "unitAssignmentBasis": "一元二次方程式的定義與判別",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "判別下列何者為一元二次方程式？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$x + 2y = 5$",
+            "$x^2 - 2x + 1$",
+            "$x(x + 5) = x^2$",
+            "$x^2 = 0$"
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "一-2",
+      "type": "choice",
+      "difficulty": "easy",
+      "page": 1,
+      "primaryUnitId": "nanyi-8-1-4-2",
+      "unitIds": [
+        "nanyi-8-1-4-2"
+      ],
+      "unitAssignmentBasis": "判別式小於零之一元二次方程式無解判定",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "試問下列各一元二次方程式，何者無解？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$2x + 2x^2 = 1$",
+            "$x^2 - x - 1 = 0$",
+            "$2x^2 + x + 1 = 0$",
+            "$4x^2 = 0$"
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "一-3",
+      "type": "choice",
+      "difficulty": "easy",
+      "page": 1,
+      "primaryUnitId": "nanyi-8-1-4-1",
+      "unitIds": [
+        "nanyi-8-1-4-1"
+      ],
+      "unitAssignmentBasis": "因式分解法解方程式兩邊同除未知式之常見錯誤步驟判別",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "子葉解 $(2x + 3)(x + 5) = 4(x + 5)$，請問哪一個步驟開始發生錯誤？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "將等號兩邊同除以 $(x + 5)$，得 $2x + 3 = 4$",
+            "利用移項法則得 $2x = 1$",
+            "$x = \\dfrac{1}{2}$（重根）",
+            "以上皆正確"
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "一-4",
+      "type": "fill",
+      "difficulty": "medium",
+      "page": 1,
+      "primaryUnitId": "nanyi-8-1-5-1",
+      "unitIds": [
+        "nanyi-8-1-5-1"
+      ],
+      "unitAssignmentBasis": "身高累積相對次數折線圖反推總人數與特定區間人數",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "右圖為 A 校學生的身高累積相對次數折線圖，若 175~180 公分這一組的學生共有 90 人，請問身高未滿 170 公分的學生有＿＿＿＿人。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 230\" width=\"320\" height=\"230\"><!-- Grid --><rect x=\"65\" y=\"30\" width=\"230\" height=\"150\" fill=\"#fff\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"65\" y1=\"45\" x2=\"295\" y2=\"45\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"65\" y1=\"60\" x2=\"295\" y2=\"60\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"65\" y1=\"75\" x2=\"295\" y2=\"75\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"65\" y1=\"90\" x2=\"295\" y2=\"90\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"65\" y1=\"105\" x2=\"295\" y2=\"105\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"65\" y1=\"120\" x2=\"295\" y2=\"120\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"65\" y1=\"135\" x2=\"295\" y2=\"135\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"65\" y1=\"150\" x2=\"295\" y2=\"150\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"65\" y1=\"165\" x2=\"295\" y2=\"165\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><!-- Vertical grid --><line x1=\"97\" y1=\"30\" x2=\"97\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"130\" y1=\"30\" x2=\"130\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"163\" y1=\"30\" x2=\"163\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"196\" y1=\"30\" x2=\"196\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"229\" y1=\"30\" x2=\"229\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"262\" y1=\"30\" x2=\"262\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><!-- Ticks and Labels Y --><text x=\"56\" y=\"184\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">0</text><text x=\"56\" y=\"169\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">10</text><text x=\"56\" y=\"154\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">20</text><text x=\"56\" y=\"139\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">30</text><text x=\"56\" y=\"124\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">40</text><text x=\"56\" y=\"109\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">50</text><text x=\"56\" y=\"94\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">60</text><text x=\"56\" y=\"79\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">70</text><text x=\"56\" y=\"64\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">80</text><text x=\"56\" y=\"49\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">90</text><text x=\"56\" y=\"34\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">100</text><!-- Axis Title Y (vertical) --><text x=\"24\" y=\"65\" font-size=\"12\" font-family=\"serif\">累積相對次數(%)</text><!-- Ticks and Labels X --><text x=\"97\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">160</text><text x=\"130\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">165</text><text x=\"163\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">170</text><text x=\"196\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">175</text><text x=\"229\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">180</text><text x=\"262\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">185</text><text x=\"295\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">190</text><!-- Axis Title X --><text x=\"250\" y=\"218\" font-size=\"12\" font-family=\"serif\">身高(公分)</text><!-- Line connecting: (160,0) (165,5) (170,10) (175,25) (180,70) (185,95) (190,100) --><!-- Coordinates: 160 -> x=97, y=180 165 -> x=130, y=172.5 170 -> x=163, y=165 175 -> x=196, y=142.5 180 -> x=229, y=75 185 -> x=262, y=37.5 190 -> x=295, y=30 --><polyline points=\"97,180 130,172.5 163,165 196,142.5 229,75 262,37.5 295,30\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.8\"/><circle cx=\"97\" cy=\"180\" r=\"3\" fill=\"#000\"/><circle cx=\"130\" cy=\"172.5\" r=\"3\" fill=\"#000\"/><circle cx=\"163\" cy=\"165\" r=\"3\" fill=\"#000\"/><circle cx=\"196\" cy=\"142.5\" r=\"3\" fill=\"#000\"/><circle cx=\"229\" cy=\"75\" r=\"3\" fill=\"#000\"/><circle cx=\"262\" cy=\"37.5\" r=\"3\" fill=\"#000\"/><circle cx=\"295\" cy=\"30\" r=\"3\" fill=\"#000\"/><!-- Value labels --><text x=\"97\" y=\"174\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">0</text><text x=\"130\" y=\"166\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">5</text><text x=\"163\" y=\"159\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">10</text><text x=\"190\" y=\"137\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">25</text><text x=\"221\" y=\"70\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">70</text><text x=\"254\" y=\"48\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">95</text><text x=\"288\" y=\"25\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">100</text></svg>"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "一-5",
+      "type": "fill",
+      "difficulty": "easy",
+      "page": 1,
+      "primaryUnitId": "nanyi-8-1-4-1",
+      "unitIds": [
+        "nanyi-8-1-4-1"
+      ],
+      "unitAssignmentBasis": "一元二次方程式已知解求未知係數",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $x = 2$ 為一元二次方程式 $x^2 - ax - 14 = 0$ 的一個解，試問 $a = $＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "一-6",
+      "type": "fill",
+      "difficulty": "easy",
+      "page": 1,
+      "primaryUnitId": "nanyi-8-1-4-2",
+      "unitIds": [
+        "nanyi-8-1-4-2"
+      ],
+      "unitAssignmentBasis": "因式分解法、配方法與公式解求解各類型一元二次方程式",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "解下列各一元二次方程式：（全對才給分，答案須化為最簡）"
+        },
+        {
+          "type": "text",
+          "text": "(1) $2x^2 = -8x$，$x = $＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(2) $5(x - 4)^2 = 125$，$x = $＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(3) $12x^2 - 7x - 15 = 0$，$x = $＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(4) $-\\dfrac{1}{2}x^2 + \\dfrac{7}{6}x - \\dfrac{1}{3} = 0$，$x = $＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(5) $2x^2 - 4x - 1 = 0$，$x = $＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(6) $9x^2 - 18x - 4752 = 0$，$x = $＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "一-7",
+      "type": "fill",
+      "difficulty": "easy",
+      "page": 1,
+      "primaryUnitId": "nanyi-8-1-5-1",
+      "unitIds": [
+        "nanyi-8-1-5-1"
+      ],
+      "unitAssignmentBasis": "體重相對次數分配折線圖總和百分之百反推未畫組別",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如右圖，阿諾因為粗心，漏畫了折線圖的一部份，請問 45~50 公斤這一組的相對次數為＿＿＿＿％。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" width=\"320\" height=\"220\"><!-- Grid --><rect x=\"65\" y=\"30\" width=\"240\" height=\"150\" fill=\"#fff\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"65\" y1=\"55\" x2=\"305\" y2=\"55\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"65\" y1=\"80\" x2=\"305\" y2=\"80\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"65\" y1=\"105\" x2=\"305\" y2=\"105\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"65\" y1=\"130\" x2=\"305\" y2=\"130\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"65\" y1=\"155\" x2=\"305\" y2=\"155\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><!-- Vertical grid --><line x1=\"95\" y1=\"30\" x2=\"95\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"125\" y1=\"30\" x2=\"125\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"155\" y1=\"30\" x2=\"155\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"185\" y1=\"30\" x2=\"185\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"215\" y1=\"30\" x2=\"215\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"245\" y1=\"30\" x2=\"245\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"275\" y1=\"30\" x2=\"275\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><!-- Ticks Y --><text x=\"58\" y=\"184\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">0</text><text x=\"58\" y=\"159\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">5</text><text x=\"58\" y=\"134\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">10</text><text x=\"58\" y=\"109\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">15</text><text x=\"58\" y=\"84\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">20</text><text x=\"58\" y=\"59\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">25</text><text x=\"58\" y=\"34\" font-size=\"11\" font-family=\"serif\" text-anchor=\"end\">30</text><text x=\"24\" y=\"65\" font-size=\"12\" font-family=\"serif\">相對次數(%)</text><!-- Ticks X --><text x=\"65\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">30</text><text x=\"95\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">35</text><text x=\"125\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">40</text><text x=\"155\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">45</text><text x=\"185\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">50</text><text x=\"215\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">55</text><text x=\"245\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">60</text><text x=\"275\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">65</text><text x=\"305\" y=\"196\" font-size=\"11\" font-family=\"serif\" text-anchor=\"middle\">70</text><text x=\"260\" y=\"216\" font-size=\"12\" font-family=\"serif\">體重(公斤)</text><!-- Left curve: (35,0) -> (40,5) -> (45,30) --><polyline points=\"95,180 125,155 155,30\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.8\"/><circle cx=\"95\" cy=\"180\" r=\"3\" fill=\"#000\"/><circle cx=\"125\" cy=\"155\" r=\"3\" fill=\"#000\"/><circle cx=\"155\" cy=\"30\" r=\"3\" fill=\"#000\"/><!-- Right curve: (55,20) -> (60,15) -> (65,10) -> (70,0) --><polyline points=\"215,80 245,105 275,130 305,180\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.8\"/><circle cx=\"215\" cy=\"80\" r=\"3\" fill=\"#000\"/><circle cx=\"245\" cy=\"105\" r=\"3\" fill=\"#000\"/><circle cx=\"275\" cy=\"130\" r=\"3\" fill=\"#000\"/><circle cx=\"305\" cy=\"180\" r=\"3\" fill=\"#000\"/></svg>"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "一-8",
+      "type": "fill",
+      "difficulty": "easy",
+      "page": 1,
+      "primaryUnitId": "nanyi-8-1-4-2",
+      "unitIds": [
+        "nanyi-8-1-4-2"
+      ],
+      "unitAssignmentBasis": "一元二次方程式配方法逆求常數項",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若方程式 $2x^2 - 16x - p = 0$ 可配方化成 $(x - 4)^2 = 9$ 的形式，則 $p$ 的值為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "一-9",
+      "type": "fill",
+      "difficulty": "easy",
+      "page": 1,
+      "primaryUnitId": "nanyi-8-1-4-3",
+      "unitIds": [
+        "nanyi-8-1-4-3"
+      ],
+      "unitAssignmentBasis": "連續奇數平方和之一元二次方程式應用題",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "有三個連續正奇數，他們的平方和為 371，試問最大數為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "一-10",
+      "type": "fill",
+      "difficulty": "hard",
+      "page": 1,
+      "primaryUnitId": "nanyi-8-1-4-3",
+      "unitIds": [
+        "nanyi-8-1-4-3"
+      ],
+      "unitAssignmentBasis": "黃金矩形長寬比例之一元二次方程式幾何應用",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在長方形 $ABCD$ 中裁掉正方形 $ABFE$，剩下的長方形 $EFCD$ 與原本的長方形 $ABCD$ 有相同的長寬比，稱此長方形 $ABCD$ 為黃金矩形。已知 $\\overline{BC} = 8$，求 $\\overline{AB}$ 的長度為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "二-1",
+      "type": "choice",
+      "difficulty": "medium",
+      "page": 2,
+      "primaryUnitId": "nanyi-8-1-5-1",
+      "unitIds": [
+        "nanyi-8-1-5-1"
+      ],
+      "unitAssignmentBasis": "相對次數與累積相對次數折線圖端點與性質綜合判別",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "右圖為八年 A 班與八年 B 班三段成績的相對次數分配表，請根據表中資訊判斷下列選項何者正確？"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 350 170\" width=\"350\" height=\"170\"><!-- Table A on left --><rect x=\"10\" y=\"10\" width=\"155\" height=\"150\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.2\"/><line x1=\"10\" y1=\"35\" x2=\"165\" y2=\"35\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"10\" y1=\"58\" x2=\"165\" y2=\"58\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"10\" y1=\"78\" x2=\"165\" y2=\"78\" stroke=\"#ccc\" stroke-width=\"1\"/><line x1=\"10\" y1=\"98\" x2=\"165\" y2=\"98\" stroke=\"#ccc\" stroke-width=\"1\"/><line x1=\"10\" y1=\"118\" x2=\"165\" y2=\"118\" stroke=\"#ccc\" stroke-width=\"1\"/><line x1=\"10\" y1=\"138\" x2=\"165\" y2=\"138\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"85\" y1=\"35\" x2=\"85\" y2=\"160\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"87\" y=\"28\" font-size=\"13\" font-family=\"serif\" text-anchor=\"middle\">八年A班</text><text x=\"47\" y=\"51\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">成績(分)</text><text x=\"125\" y=\"51\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">相對次數(%)</text><text x=\"47\" y=\"72\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">50~60</text><text x=\"125\" y=\"72\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">12</text><text x=\"47\" y=\"92\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">60~70</text><text x=\"125\" y=\"92\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">28</text><text x=\"47\" y=\"112\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">70~80</text><text x=\"125\" y=\"112\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">32</text><text x=\"47\" y=\"132\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">80~90</text><text x=\"125\" y=\"132\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">20</text><text x=\"47\" y=\"152\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">合計</text><text x=\"125\" y=\"152\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">100</text><!-- Table B on right --><rect x=\"180\" y=\"10\" width=\"160\" height=\"150\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.2\"/><line x1=\"180\" y1=\"35\" x2=\"340\" y2=\"35\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"180\" y1=\"58\" x2=\"340\" y2=\"58\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"180\" y1=\"78\" x2=\"340\" y2=\"78\" stroke=\"#ccc\" stroke-width=\"1\"/><line x1=\"180\" y1=\"98\" x2=\"340\" y2=\"98\" stroke=\"#ccc\" stroke-width=\"1\"/><line x1=\"180\" y1=\"118\" x2=\"340\" y2=\"118\" stroke=\"#ccc\" stroke-width=\"1\"/><line x1=\"180\" y1=\"138\" x2=\"340\" y2=\"138\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"255\" y1=\"35\" x2=\"255\" y2=\"160\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"260\" y=\"28\" font-size=\"13\" font-family=\"serif\" text-anchor=\"middle\">八年B班</text><text x=\"217\" y=\"51\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">成績(分)</text><text x=\"297\" y=\"51\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">相對次數(%)</text><text x=\"217\" y=\"72\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">50~60</text><text x=\"297\" y=\"72\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">10</text><text x=\"217\" y=\"92\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">60~70</text><text x=\"297\" y=\"92\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">13.33</text><text x=\"217\" y=\"112\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">70~80</text><text x=\"297\" y=\"112\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">40</text><text x=\"217\" y=\"132\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">80~90</text><text x=\"297\" y=\"132\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">20</text><text x=\"217\" y=\"152\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">合計</text><text x=\"297\" y=\"152\" font-size=\"12\" font-family=\"serif\" text-anchor=\"middle\">100</text></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "兩班 80~90 分這一組的人數相同。",
+            "若將兩班資料畫成相對次數分配折線圖，兩條折線圖於 $(90,20)$ 處會重疊。",
+            "若將兩班資料畫成累積相對次數分配折線圖，兩條折線圖一定會在 $(100,100)$ 處重疊。"
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "二-2",
+      "type": "fill",
+      "difficulty": "easy",
+      "page": 2,
+      "primaryUnitId": "nanyi-8-1-4-2",
+      "unitIds": [
+        "nanyi-8-1-4-2"
+      ],
+      "unitAssignmentBasis": "二次三項式完全平方式係數正負值求解",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $4x^2 + px + 49$ 為一個完全平方式，請問 $p$ 的值可為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "二-3",
+      "type": "fill",
+      "difficulty": "medium",
+      "page": 2,
+      "primaryUnitId": "nanyi-8-1-5-1",
+      "unitIds": [
+        "nanyi-8-1-5-1"
+      ],
+      "unitAssignmentBasis": "三校競賽成績累積次數折線圖比較高分組與最高分",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "甲、乙、丙三校各有 50 人參加 AMC 數學競賽，請依右圖回答下列問題："
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 230\" width=\"340\" height=\"230\"><!-- Cyan grid --><rect x=\"55\" y=\"25\" width=\"245\" height=\"150\" fill=\"#f0f9ff\" stroke=\"#38bdf8\" stroke-width=\"1.2\"/><!-- Horiz grid (55 to 0 step 5) -> 12 steps -> 12.5px each --><line x1=\"55\" y1=\"37.5\" x2=\"300\" y2=\"37.5\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"55\" y1=\"50\" x2=\"300\" y2=\"50\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"55\" y1=\"62.5\" x2=\"300\" y2=\"62.5\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"55\" y1=\"75\" x2=\"300\" y2=\"75\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"55\" y1=\"87.5\" x2=\"300\" y2=\"87.5\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"55\" y1=\"100\" x2=\"300\" y2=\"100\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"55\" y1=\"112.5\" x2=\"300\" y2=\"112.5\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"55\" y1=\"125\" x2=\"300\" y2=\"125\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"55\" y1=\"137.5\" x2=\"300\" y2=\"137.5\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"55\" y1=\"150\" x2=\"300\" y2=\"150\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"55\" y1=\"162.5\" x2=\"300\" y2=\"162.5\" stroke=\"#bae6fd\" stroke-width=\"1\"/><!-- Vert grid (10 to 100 step 10) -> 10 intervals -> 24.5px each --><line x1=\"79.5\" y1=\"25\" x2=\"79.5\" y2=\"175\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"104\" y1=\"25\" x2=\"104\" y2=\"175\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"128.5\" y1=\"25\" x2=\"128.5\" y2=\"175\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"153\" y1=\"25\" x2=\"153\" y2=\"175\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"177.5\" y1=\"25\" x2=\"177.5\" y2=\"175\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"202\" y1=\"25\" x2=\"202\" y2=\"175\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"226.5\" y1=\"25\" x2=\"226.5\" y2=\"175\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"251\" y1=\"25\" x2=\"251\" y2=\"175\" stroke=\"#bae6fd\" stroke-width=\"1\"/><line x1=\"275.5\" y1=\"25\" x2=\"275.5\" y2=\"175\" stroke=\"#bae6fd\" stroke-width=\"1\"/><!-- Y Ticks --><text x=\"48\" y=\"179\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">0</text><text x=\"48\" y=\"154\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">10</text><text x=\"48\" y=\"129\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">20</text><text x=\"48\" y=\"104\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">30</text><text x=\"48\" y=\"79\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">40</text><text x=\"48\" y=\"54\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">50</text><text x=\"48\" y=\"29\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">55</text><text x=\"18\" y=\"65\" font-size=\"11\" font-family=\"serif\">累積次數(人)</text><!-- X Ticks --><text x=\"79.5\" y=\"190\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">10</text><text x=\"104\" y=\"190\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">20</text><text x=\"128.5\" y=\"190\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">30</text><text x=\"153\" y=\"190\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">40</text><text x=\"177.5\" y=\"190\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">50</text><text x=\"202\" y=\"190\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">60</text><text x=\"226.5\" y=\"190\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">70</text><text x=\"251\" y=\"190\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">80</text><text x=\"275.5\" y=\"190\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">90</text><text x=\"300\" y=\"190\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">100</text><text x=\"275\" y=\"210\" font-size=\"11\" font-family=\"serif\">成績</text><!-- Curves: 丙: (20,0) (30,30) (40,40) (50,40) (60,45) (70,50) x: 104, 128.5, 153, 177.5, 202, 226.5 y: 175, 100, 75, 75, 62.5, 50 --><polyline points=\"104,175 128.5,100 153,75 177.5,75 202,62.5 226.5,50\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\" stroke-dasharray=\"3,3\"/><circle cx=\"104\" cy=\"175\" r=\"2.5\" fill=\"#2563eb\"/><circle cx=\"128.5\" cy=\"100\" r=\"2.5\" fill=\"#2563eb\"/><circle cx=\"153\" cy=\"75\" r=\"2.5\" fill=\"#2563eb\"/><circle cx=\"177.5\" cy=\"75\" r=\"2.5\" fill=\"#2563eb\"/><circle cx=\"202\" cy=\"62.5\" r=\"2.5\" fill=\"#2563eb\"/><circle cx=\"226.5\" cy=\"50\" r=\"2.5\" fill=\"#2563eb\"/><text x=\"215\" y=\"44\" font-size=\"12\" font-family=\"serif\" fill=\"#2563eb\">丙</text><!-- 乙: (20,0) (30,0) (40,5) (50,15) (60,20) (70,28) (80,38) (90,50) x: 104, 128.5, 153, 177.5, 202, 226.5, 251, 275.5 y: 175, 175, 162.5, 137.5, 125, 105, 80, 50 --><polyline points=\"104,175 128.5,175 153,162.5 177.5,137.5 202,125 226.5,105 251,80 275.5,50\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"104\" cy=\"175\" r=\"2.5\" fill=\"#dc2626\"/><circle cx=\"128.5\" cy=\"175\" r=\"2.5\" fill=\"#dc2626\"/><circle cx=\"153\" cy=\"162.5\" r=\"2.5\" fill=\"#dc2626\"/><circle cx=\"177.5\" cy=\"137.5\" r=\"2.5\" fill=\"#dc2626\"/><circle cx=\"202\" cy=\"125\" r=\"2.5\" fill=\"#dc2626\"/><circle cx=\"226.5\" cy=\"105\" r=\"2.5\" fill=\"#dc2626\"/><circle cx=\"251\" cy=\"80\" r=\"2.5\" fill=\"#dc2626\"/><circle cx=\"275.5\" cy=\"50\" r=\"2.5\" fill=\"#dc2626\"/><text x=\"260\" y=\"40\" font-size=\"12\" font-family=\"serif\" fill=\"#dc2626\">乙</text><!-- 甲: (20,0) (30,2) (40,10) (50,20) (60,30) (70,33) (80,35) (90,45) (100,50) x: 104, 128.5, 153, 177.5, 202, 226.5, 251, 275.5, 300 y: 175, 170, 150, 125, 100, 92.5, 87.5, 62.5, 50 --><polyline points=\"104,175 128.5,170 153,150 177.5,125 202,100 226.5,92.5 251,87.5 275.5,62.5 300,50\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\" stroke-dasharray=\"6,4\"/><circle cx=\"104\" cy=\"175\" r=\"2.5\" fill=\"#16a34a\"/><circle cx=\"128.5\" cy=\"170\" r=\"2.5\" fill=\"#16a34a\"/><circle cx=\"153\" cy=\"150\" r=\"2.5\" fill=\"#16a34a\"/><circle cx=\"177.5\" cy=\"125\" r=\"2.5\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"100\" r=\"2.5\" fill=\"#16a34a\"/><circle cx=\"226.5\" cy=\"92.5\" r=\"2.5\" fill=\"#16a34a\"/><circle cx=\"251\" cy=\"87.5\" r=\"2.5\" fill=\"#16a34a\"/><circle cx=\"275.5\" cy=\"62.5\" r=\"2.5\" fill=\"#16a34a\"/><circle cx=\"300\" cy=\"50\" r=\"2.5\" fill=\"#16a34a\"/><text x=\"303\" y=\"55\" font-size=\"12\" font-family=\"serif\" fill=\"#16a34a\">甲</text></svg>"
+        },
+        {
+          "type": "text",
+          "text": "(1) 請問哪一校 60 分以上的人數最多？答：＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "(2) 請問三校中，競賽最高分出現在哪一校？答：＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "二-4",
+      "type": "fill",
+      "difficulty": "easy",
+      "page": 2,
+      "primaryUnitId": "nanyi-8-1-4-2",
+      "unitIds": [
+        "nanyi-8-1-4-2"
+      ],
+      "unitAssignmentBasis": "平方式開平方根兩根為正數之整數值範圍求解",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若方程式 $(5x - k)^2 - 90 = 0$ 的兩根均為正數，其中 $k$ 為整數，試問 $k$ 的最小值為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "二-5",
+      "type": "fill",
+      "difficulty": "hard",
+      "page": 2,
+      "primaryUnitId": "nanyi-8-1-4-3",
+      "unitIds": [
+        "nanyi-8-1-4-3"
+      ],
+      "unitAssignmentBasis": "正方形內接正三角形之畢氏定理與一元二次方程式求解邊長",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如右圖，正方形 $ABCD$ 中，$E$、$F$ 分別在 $\\overline{AD}$、$\\overline{CD}$ 上，且 $\\triangle BEF$ 為正三角形，若 $\\overline{AE} = \\overline{CF} = 5$，試問正方形 $ABCD$ 邊長為＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 220\" width=\"220\" height=\"220\"><!-- Square ABCD --><polygon points=\"40,180 180,180 180,40 40,40\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/><!-- Triangle BEF: B=(180,180), E=(40,142), F=(142,40) --><polygon points=\"180,180 40,142 142,40\" fill=\"#fef9c3\" stroke=\"#b45309\" stroke-width=\"2\"/><!-- labels --><text x=\"32\" y=\"196\" font-size=\"16\" font-style=\"italic\" font-family=\"serif\">A</text><text x=\"184\" y=\"196\" font-size=\"16\" font-style=\"italic\" font-family=\"serif\">B</text><text x=\"184\" y=\"36\" font-size=\"16\" font-style=\"italic\" font-family=\"serif\">C</text><text x=\"30\" y=\"36\" font-size=\"16\" font-style=\"italic\" font-family=\"serif\">D</text><text x=\"24\" y=\"146\" font-size=\"16\" font-style=\"italic\" font-family=\"serif\">E</text><text x=\"142\" y=\"32\" font-size=\"16\" font-style=\"italic\" font-family=\"serif\">F</text></svg>"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "二-6",
+      "type": "fill",
+      "difficulty": "medium",
+      "page": 2,
+      "primaryUnitId": "nanyi-8-1-4-1",
+      "unitIds": [
+        "nanyi-8-1-4-1"
+      ],
+      "unitAssignmentBasis": "一元二次方程式根的代入與四次多項式兩兩分組求值",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $k$ 為方程式 $x^2 - 3x - 9 = 0$ 的解，試問 $(k + 1)(k + 2)(k - 4)(k - 5) + 5$ 的值為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "二-7",
+      "type": "fill",
+      "difficulty": "hard",
+      "page": 2,
+      "primaryUnitId": "nanyi-8-1-4-3",
+      "unitIds": [
+        "nanyi-8-1-4-3"
+      ],
+      "unitAssignmentBasis": "長方形、正方形與等腰直角三角形面積關係之一元二次方程式幾何應用",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "右圖的五邊形由甲、乙兩個長方形和等腰直角三角形(丁)與正方形(丙)組成，已知甲、乙面積和等於丙、丁面積和。若丁的股長為 3，且丁的面積大於丙的面積，試問丙面積為＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 210\" width=\"240\" height=\"210\"><!-- Square 丙 at bottom-left: (50,130) to (80,160) --><rect x=\"50\" y=\"130\" width=\"30\" height=\"30\" fill=\"#f8fafc\" stroke=\"#222\" stroke-width=\"1.8\"/><!-- Rectangle 甲: (50,40) to (80,130) --><rect x=\"50\" y=\"40\" width=\"30\" height=\"90\" fill=\"#f8fafc\" stroke=\"#222\" stroke-width=\"1.8\"/><!-- Rectangle 乙: (80,130) to (170,160) --><rect x=\"80\" y=\"130\" width=\"90\" height=\"30\" fill=\"#f8fafc\" stroke=\"#222\" stroke-width=\"1.8\"/><!-- Triangle 丁: (80,40), (80,130), (170,130) --><polygon points=\"80,40 80,130 170,130\" fill=\"#f8fafc\" stroke=\"#222\" stroke-width=\"1.8\"/><!-- Hypotenuse outer line: (80,40) to (170,130) --><line x1=\"80\" y1=\"40\" x2=\"170\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.2\"/><!-- labels --><text x=\"60\" y=\"90\" font-size=\"15\" font-family=\"serif\">甲</text><text x=\"120\" y=\"150\" font-size=\"15\" font-family=\"serif\">乙</text><text x=\"60\" y=\"150\" font-size=\"15\" font-family=\"serif\">丙</text><text x=\"110\" y=\"100\" font-size=\"15\" font-family=\"serif\">丁</text></svg>"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "二-8",
+      "type": "choice",
+      "difficulty": "medium",
+      "page": 2,
+      "primaryUnitId": "nanyi-8-1-4-1",
+      "unitIds": [
+        "nanyi-8-1-4-1"
+      ],
+      "unitAssignmentBasis": "十字交乘法係數正負號與絕對值大小關係判定",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知多項式 $x^2 + px + q$ 可以利用十字交乘法因式分解，如右圖所示，若 $p > 0$、$q < 0$，且 $|a| < |b|$，試問下列何者正確？"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 100\" width=\"160\" height=\"100\"><!-- Letters --><text x=\"40\" y=\"35\" font-size=\"18\" font-style=\"italic\" font-family=\"serif\">x</text><text x=\"95\" y=\"35\" font-size=\"18\" font-family=\"serif\">−a</text><text x=\"40\" y=\"80\" font-size=\"18\" font-style=\"italic\" font-family=\"serif\">x</text><text x=\"95\" y=\"80\" font-size=\"18\" font-family=\"serif\">−b</text><!-- Cross lines --><line x1=\"55\" y1=\"36\" x2=\"88\" y2=\"72\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"55\" y1=\"72\" x2=\"88\" y2=\"36\" stroke=\"#222\" stroke-width=\"2\"/></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$a > 0$、$b < 0$",
+            "$a > 0$、$b > 0$",
+            "$a < 0$、$b > 0$",
+            "$a < 0$、$b < 0$"
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "二-9",
+      "type": "fill",
+      "difficulty": "hard",
+      "page": 2,
+      "primaryUnitId": "nanyi-8-1-4-2",
+      "unitIds": [
+        "nanyi-8-1-4-2"
+      ],
+      "unitAssignmentBasis": "指數方程式等於 1 之底數與指數三種情況討論求解",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $(x^2 - 8)^{2x^2 - 3x - 9} = 1$，請問 $x$ 之值為＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "1",
+      "type": "written",
+      "difficulty": "medium",
+      "page": 3,
+      "primaryUnitId": "nanyi-8-1-4-3",
+      "unitIds": [
+        "nanyi-8-1-4-3"
+      ],
+      "unitAssignmentBasis": "桌曆售價與銷量關係之目標方程式一元二次計算",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "中正國中於十二月校慶月時有許多亮點活動，其中訓育組發行了《中正PE TEAM男團桌曆》。根據調查，若每本售價訂為 400 元時，可賣出 100 本。如果每本售價調降 10 元，銷量就會增加 20 本。請問售價為＿＿＿＿時（且售價需大於 200 元），才能讓收入為 53200 元？(5 分)"
+        }
+      ]
+    },
+    {
+      "sourceNumber": "2",
+      "type": "written",
+      "difficulty": "medium",
+      "page": 3,
+      "primaryUnitId": "nanyi-8-1-5-1",
+      "unitIds": [
+        "nanyi-8-1-5-1"
+      ],
+      "unitAssignmentBasis": "次數分配與相對次數分配雙折線圖污損反推全班人數與及格人數",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列為蓁蓁班上數學成績次數分配折線圖與相對次數分配折線圖，請根據表內資訊回答問題。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 210\" width=\"460\" height=\"210\"><!-- Left chart: 次數分配折線圖 --><rect x=\"35\" y=\"30\" width=\"160\" height=\"120\" fill=\"#fff\" stroke=\"#999\" stroke-width=\"1\"/><!-- Y ticks: 0, 2, 4, 6, 8, 10, 12, 14 (step ~17px) --><line x1=\"35\" y1=\"47\" x2=\"195\" y2=\"47\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"35\" y1=\"64\" x2=\"195\" y2=\"64\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"35\" y1=\"81\" x2=\"195\" y2=\"81\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"35\" y1=\"98\" x2=\"195\" y2=\"98\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"35\" y1=\"115\" x2=\"195\" y2=\"115\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"35\" y1=\"132\" x2=\"195\" y2=\"132\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"30\" y=\"154\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">0</text><text x=\"30\" y=\"120\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">4</text><text x=\"30\" y=\"86\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">8</text><text x=\"30\" y=\"52\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">12</text><text x=\"30\" y=\"35\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">14</text><text x=\"14\" y=\"60\" font-size=\"11\" font-family=\"serif\">次數(人)</text><!-- X ticks: 40, 50, 60, 70, 80, 90, 100 --><text x=\"45\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">40</text><text x=\"70\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">50</text><text x=\"95\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">60</text><text x=\"120\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">70</text><text x=\"145\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">80</text><text x=\"170\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">90</text><text x=\"195\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">100</text><text x=\"150\" y=\"180\" font-size=\"10\" font-family=\"serif\">分數(分)</text><!-- Red curve: visible (70,11) -> (80,12), (90,?) -> (100,3) --><polyline points=\"120,56 145,47\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"1.8\"/><polyline points=\"170,98 195,124\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"1.8\"/><circle cx=\"120\" cy=\"56\" r=\"2.5\" fill=\"#dc2626\"/><circle cx=\"145\" cy=\"47\" r=\"2.5\" fill=\"#dc2626\"/><circle cx=\"195\" cy=\"124\" r=\"2.5\" fill=\"#dc2626\"/><text x=\"115\" y=\"52\" font-size=\"10\" font-family=\"serif\">11</text><text x=\"145\" y=\"42\" font-size=\"10\" font-family=\"serif\">12</text><text x=\"195\" y=\"118\" font-size=\"10\" font-family=\"serif\">3</text><!-- Ink blot covering (40~65) --><path d=\"M 45,65 Q 60,45 80,50 Q 100,45 110,65 Q 125,75 115,105 Q 110,135 85,130 Q 60,140 45,120 Q 35,95 45,65 Z\" fill=\"#475569\" opacity=\"0.85\"/><text x=\"65\" y=\"202\" font-size=\"12\" font-family=\"serif\">數學成績次數分配折線圖</text><!-- Right chart: 相對次數分配折線圖 --><rect x=\"260\" y=\"30\" width=\"160\" height=\"120\" fill=\"#fff\" stroke=\"#999\" stroke-width=\"1\"/><!-- Y ticks: 0, 5, 10, 15, 20, 25, 30, 35 (step ~17px) --><line x1=\"260\" y1=\"47\" x2=\"420\" y2=\"47\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"260\" y1=\"64\" x2=\"420\" y2=\"64\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"260\" y1=\"81\" x2=\"420\" y2=\"81\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"260\" y1=\"98\" x2=\"420\" y2=\"98\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"260\" y1=\"115\" x2=\"420\" y2=\"115\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"260\" y1=\"132\" x2=\"420\" y2=\"132\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"255\" y=\"154\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">0</text><text x=\"255\" y=\"120\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">10</text><text x=\"255\" y=\"86\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">20</text><text x=\"255\" y=\"52\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">30</text><text x=\"255\" y=\"35\" font-size=\"10\" font-family=\"serif\" text-anchor=\"end\">35</text><text x=\"238\" y=\"60\" font-size=\"11\" font-family=\"serif\">相對次數(%)</text><!-- X ticks: 40, 50, 60, 70, 80, 90, 100 --><text x=\"270\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">40</text><text x=\"295\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">50</text><text x=\"320\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">60</text><text x=\"345\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">70</text><text x=\"370\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">80</text><text x=\"395\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">90</text><text x=\"420\" y=\"164\" font-size=\"10\" font-family=\"serif\" text-anchor=\"middle\">100</text><text x=\"375\" y=\"180\" font-size=\"10\" font-family=\"serif\">分數(分)</text><!-- Green curve: (80,30) -> (90,15) --><polyline points=\"370,47 395,98\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"1.8\"/><circle cx=\"370\" cy=\"47\" r=\"2.5\" fill=\"#16a34a\"/><circle cx=\"395\" cy=\"98\" r=\"2.5\" fill=\"#16a34a\"/><text x=\"370\" y=\"42\" font-size=\"10\" font-family=\"serif\">30</text><text x=\"395\" y=\"92\" font-size=\"10\" font-family=\"serif\">15</text><!-- Ink blot covering 40~75 --><path d=\"M 270,70 Q 285,45 315,50 Q 335,45 350,65 Q 365,85 345,115 Q 335,135 305,130 Q 280,140 270,115 Q 260,95 270,70 Z\" fill=\"#475569\" opacity=\"0.85\"/><text x=\"280\" y=\"202\" font-size=\"12\" font-family=\"serif\">數學成績相對次數分配折線圖</text></svg>"
+        },
+        {
+          "type": "text",
+          "text": "(1) 請問蓁蓁班上共有幾人？(2 分)"
+        },
+        {
+          "type": "text",
+          "text": "(2) 請問蓁蓁班上有幾人及格（60 分以上）？(3 分)"
+        }
+      ]
+    }
+  ]
+}

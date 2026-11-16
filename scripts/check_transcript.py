@@ -40,6 +40,12 @@ for arg in sys.argv[1:]:
         region = 'yilan' if 'yilan' in path.parts else 'metro'
         if (region == 'yilan') != (paper['region'] == 'yilan'):
             raise ValueError(f'wrong folder for region {paper["region"]}')
+        import inline_svg_css
+        css = [q['sourceNumber'] for q in t['questions'] for b in q['blocks']
+               if b['type'] in ('svg', 'optionFigures') and inline_svg_css.needs_inline(b['svg'])]
+        if css:
+            raise ValueError(f'SVG uses <style>/class/style CSS (prints as black shapes) in questions {css}: '
+                             f'run python scripts/inline_svg_css.py --write {path}')
         rows = prepare_metro.rows_from_transcript(t, paper, units, str(path))
         missing = set()
         for q in t['questions']:

@@ -1,10 +1,10 @@
 # 全國中數學段考試卷全卷文字化與純向量 SVG 重繪審查與驗收總冊
 
 本檔案由 AI 代理集群自動產生，作為後續接手 AI、人工審查員及管理者的完整驗收清冊。
-- **審查時間**：2026-11-15
-- **已驗收入庫試卷總數**：45 份全卷（涵蓋 14 所國中）
-- **結構化可用試題總數**：1068 題（選擇、選填／填充、綜合非選計算全卷覆蓋）
-- **純向量幾何 SVG 總數**：338 幅（100% 純向量重繪，無任何點陣截圖或 <image> 標籤）
+- **審查時間**：2026-11-16
+- **已驗收入庫試卷總數**：79 份全卷（涵蓋 14 所國中）
+- **結構化可用試題總數**：1,932 題（選擇、選填／填充、綜合非選計算全卷覆蓋）
+- **純向量幾何 SVG 總數**：788 幅（100% 純向量重繪，無任何點陣截圖或 <image> 標籤）
 - **驗收合規率**：100% 通過 `check_transcript.py`（字型與公式）與 `handoff_exchange.py intake`（入庫簽收）
 
 ---
@@ -58,10 +58,44 @@
 | 43 | 自強國中 | - G E | `metro-taoyuan-bb459e3e33300227` | 20 題 | 選10/填8/算2 | 1 幅 | ✅ 已暫存入庫 |
 | 44 | 內城國民中小學 | - G E | `nc-110-1-1-9` | 22 題 | 選10/填12/算0 | 15 幅 | ✅ 已暫存入庫 |
 | 45 | 內城國民中小學 | - G E | `nc-110-1-3-9` | 22 題 | 選10/填10/算2 | 14 幅 | ✅ 已暫存入庫 |
+| 46 | 誠正國中 | 114-2 G8 E2 | `metro-taipei-2bcf4289f42bec73-a9450eed` | 23 題 | 選7/填13/算4 | 19 幅 | ✅ 已暫存入庫 |
+| 47 | 誠正國中 | 114-2 G8 E3 | `metro-taipei-8e45d570dbece6d4-833d428d` | 26 題 | 選26/填0/算0 | 20 幅 | ✅ 已暫存入庫 |
+| 48 | 大灣國中 | 110-1 G8 E1 | `metro-kaohsiung-ddec2d6fcbb95b4c` | 25 題 | 選23/填0/算2 | 3 幅 | ✅ 已暫存入庫 |
+| 49 | 中正國中 | 114-2 G8 E1 | `metro-new_taipei-16a5afc78611d992` | 24 題 | 選4/填18/算2 | 2 幅 | ✅ 已暫存入庫 |
+| 50 | 大灣國中 | 114-1 G9 E3 | `metro-kaohsiung-42845582bb52e377` | 25 題 | 選25/填0/算0 | 16 幅 | ✅ 已暫存入庫 |
+| 51 | 新莊國中 | 114-1 G9 E3 | `metro-new_taipei-73971426535f87d5` | 20 題 | 選20/填0/算0 | 9 幅 | ✅ 已暫存入庫 |
+| 52 | 大灣國中 | 114-2 G9 E1 | `metro-kaohsiung-2ae2b2bfc5e6f989` | 25 題 | 選23/填0/算2 | 10 幅 | ✅ 已暫存入庫 |
+| 53 | 向上國中 | 114-2 G9 E1 | `metro-taichung-787d0e9b8e01cbe8-954f386d` | 23 題 | 選10/填11/算2 | 4 幅 | ✅ 已暫存入庫 |
+| 54 | 中正國中 | 114-2 G9 E1 | `metro-new_taipei-5266f1c6ee13cd09` | 30 題 | 選26/填0/算4 | 7 幅 | ✅ 已暫存入庫 |
+| 55 | 自強國中 | 114-2 G8 E3 | `metro-taoyuan-122cf45bd82111fb` | 25 題 | 選10/填13/算2 | 15 幅 | ✅ 已暫存入庫 |
+| 56 | 大業國中 | 114-2 G8 E3 | `metro-taichung-b3e6252bce1b88a1-70727109` | 28 題 | 選28/填0/算0 | 22 幅 | ✅ 已暫存入庫 |
+| 57 | 永和國中 | 114-2 G8 E3 | `metro-new_taipei-c05ac195112cf94a` | 29 題 | 選27/填0/算2 | 23 幅 | ✅ 已暫存入庫 |
+| 58 | 自強國中 | 114-1 G9 E3 | `metro-taoyuan-e4103da80420fc10` | 25 題 | 選10/填13/算2 | 19 幅 | ✅ 已暫存入庫 |
+| 59 | 大灣國中 | 114-2 G9 E2 | `metro-kaohsiung-a77c3d9b6b66cd41` | 25 題 | 選25/填0/算0 | 12 幅 | ✅ 已暫存入庫 |
+| 60 | 誠正國中 | 114-1 G9 E3 | `metro-taipei-174303942233ad8f-810167ef` | 24 題 | 選22/填0/算2 | 13 幅 | ✅ 已暫存入庫 |
+| 61 | 新莊國中 | 114-2 G8 E3 | `metro-new_taipei-0bf73000c77e6201` | 23 題 | 選23/填0/算0 | 16 幅 | ✅ 已暫存入庫 |
+| 62 | 向上國中 | 114-2 G9 E2 | `metro-taichung-e85eb42c6895e984-351b7149` | 24 題 | 選12/填10/算2 | 10 幅 | ✅ 已暫存入庫 |
+| 63 | 大灣國中 | 110-2 G8 E3 | `metro-kaohsiung-7b78c1dc2f2a91d5` | 30 題 | 選30/填0/算0 | 25 幅 | ✅ 已暫存入庫 |
+| 64 | 誠正國中 | 115-1 G9 E1 | `metro-taipei-afe33eb4e4e6d282-fd633cfe` | 24 題 | 選1/填21/算2 | 18 幅 | ✅ 已暫存入庫 |
+| 65 | 大業國中 | 114-2 G9 E2 | `metro-taichung-e493a398f380737f-bbcb98b6` | 30 題 | 選30/填0/算0 | 11 幅 | ✅ 已暫存入庫 |
+| 66 | 中正國中 | 114-2 G8 E3 | `metro-new_taipei-14fa9584bbf4c963` | 22 題 | 選2/填15/算5 | 17 幅 | ✅ 已暫存入庫 |
+| 67 | 自強國中 | 110-2 G8 E2 | `metro-taoyuan-6bf932eafce85694` | 26 題 | 選10/填16/算2 | 14 幅 | ✅ 已暫存入庫 |
+| 68 | 大業國中 | 114-2 G8 E2 | `metro-taichung-e493a398f380737f-cc28e2d8` | 27 題 | 選13/填8/算6 | 21 幅 | ✅ 已暫存入庫 |
+| 69 | 自強國中 | 109-2 G8 E2 | `metro-taoyuan-e9b04d161bf38e86` | 28 題 | 選12/填15/算1 | 18 幅 | ✅ 已暫存入庫 |
+| 70 | 中正國中 | 114-2 G8 E2 | `metro-new_taipei-a7602090423aeee8` | 24 題 | 選1/填18/算5 | 19 幅 | ✅ 已暫存入庫 |
+| 71 | 大灣國中 | 110-2 G8 E2 | `metro-kaohsiung-77966b07b8e4262a` | 25 題 | 選23/填0/算2 | 14 幅 | ✅ 已暫存入庫 |
+| 72 | 自強國中 | 110-2 G8 E3 | `metro-taoyuan-6063ac4e1bb85f7d` | 24 題 | 選10/填12/算2 | 11 幅 | ✅ 已暫存入庫 |
+| 73 | 大業國中 | 114-1 G8 E3 | `metro-taichung-0258b91306c86b6b-3926fbc1` | 33 題 | 選33/填0/算0 | 7 幅 | ✅ 已暫存入庫 |
+| 74 | 大灣國中 | 110-1 G8 E3 | `metro-kaohsiung-3ad4623f08693b92` | 25 題 | 選15/填8/算2 | 7 幅 | ✅ 已暫存入庫 |
+| 75 | 中正國中 | 114-1 G8 E3 | `metro-new_taipei-d77a989099e6ca57` | 21 題 | 選5/填14/算2 | 8 幅 | ✅ 已暫存入庫 |
+| 76 | 自強國中 | 110-1 G8 E3 | `metro-taoyuan-1cbdb5fb1e1c5129` | 24 題 | 選5/填17/算2 | 2 幅 | ✅ 已暫存入庫 |
+| 77 | 大業國中 | 114-1 G9 E3 | `metro-taichung-0258b91306c86b6b-55196bc3` | 30 題 | 選30/填0/算0 | 10 幅 | ✅ 已暫存入庫 |
+| 78 | 大灣國中 | 110-2 G8 E1 | `metro-kaohsiung-cddb4bc1dad6e88d` | 25 題 | 選23/填0/算2 | 2 幅 | ✅ 已暫存入庫 |
+| 79 | 中正國中 | 114-1 G9 E3 | `metro-new_taipei-f06eb0c417f3bbf3` | 22 題 | 選3/填19/算0 | 14 幅 | ✅ 已暫存入庫 |
 
 ---
 
-## 二、 各卷詳細驗收清單與檔案位置
+## 二、 逐卷詳細審查紀錄
 
 ### 1. 【中華國中】- G E
 - **試卷 ID**：`1bzl5dOvIbwrYn2nZEy9Jlw3yS5qkl5Id`
@@ -83,6 +117,30 @@
   - 驗收收據：`research/incoming-external/1bzl5dOvIbwrYn2nZEy9Jlw3yS5qkl5Id/receipt.json`
 - **入庫收據雜湊**：`065aa6c355bdcca4e375831485b10231a4d31a52b7946184a01db3aaf5e6896a`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 2. 【中華國中】- G E
 - **試卷 ID**：`1UKzQxD5vS7Pgr7D8eyGj5AxRUF5EjYS8`
 - **卷首印刷全稱**：`宜蘭縣中華國民中學114學年度第一學期第二次段考數學科試卷 九年級`
@@ -103,6 +161,30 @@
   - 驗收收據：`research/incoming-external/1UKzQxD5vS7Pgr7D8eyGj5AxRUF5EjYS8/receipt.json`
 - **入庫收據雜湊**：`473d81b728fe7ebe597db364b852c3bed5e0e004040e8fe7bb622d7c89724b4c`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 3. 【羅東國中】- G E
 - **試卷 ID**：`ld-110-1-2-7`
 - **卷首印刷全稱**：`宜蘭縣立羅東國中 110 學年度第一學期七年級數學科第二次段考試卷`
@@ -115,6 +197,30 @@
   - 暫存驗收區：`research/incoming-external/ld-110-1-2-7/`
   - 驗收收據：`research/incoming-external/ld-110-1-2-7/receipt.json`
 - **入庫收據雜湊**：`2b95240c9c1a884f3915064acb80a4a370a005880631dea07c9777fbb34a5fad`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 4. 【羅東國中】- G E
 - **試卷 ID**：`ld-110-1-3-7`
@@ -131,6 +237,30 @@
   - 驗收收據：`research/incoming-external/ld-110-1-3-7/receipt.json`
 - **入庫收據雜湊**：`a3a34cf529d471074170960bba1491c61c06fd0037741195eceecc7bfa91e588`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 5. 【羅東國中】- G E
 - **試卷 ID**：`ld-110-2-1-7`
 - **卷首印刷全稱**：`宜蘭縣立羅東國中一一○學年度第二學期七年級數學科第一次段考試卷`
@@ -146,6 +276,30 @@
   - 驗收收據：`research/incoming-external/ld-110-2-1-7/receipt.json`
 - **入庫收據雜湊**：`3bf7137cffc83c5890450928fc0d904174909dc7e7bef05f80f335f56ed6f1e7`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 6. 【羅東國中】- G E
 - **試卷 ID**：`ld-112-1-1-7`
 - **卷首印刷全稱**：`宜蘭縣立羅東國中 112 學年度第一學期七年級第一次段考試卷`
@@ -160,6 +314,30 @@
   - 暫存驗收區：`research/incoming-external/ld-112-1-1-7/`
   - 驗收收據：`research/incoming-external/ld-112-1-1-7/receipt.json`
 - **入庫收據雜湊**：`7a8c0d4287ceb7da72587decf9840cb307c58c058c0afbe62b8c8dadb1796241`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 7. 【大灣國中】- G E
 - **試卷 ID**：`metro-kaohsiung-4b70fe3ce1dec252`
@@ -181,6 +359,30 @@
   - 驗收收據：`research/incoming-external/metro-kaohsiung-4b70fe3ce1dec252/receipt.json`
 - **入庫收據雜湊**：`641daeb0ab2c21c5e751b18d85d72e0931b4b75d1bc3dafaa5e51d0ce3f0e097`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 8. 【大灣國中】- G E
 - **試卷 ID**：`metro-kaohsiung-8e2d0ff29aa419d6`
 - **卷首印刷全稱**：`高雄市立大灣國民中學114 學年度第1 學期三年級第一次段考數學科試題`
@@ -200,6 +402,30 @@
   - 暫存驗收區：`research/incoming-external/metro-kaohsiung-8e2d0ff29aa419d6/`
   - 驗收收據：`research/incoming-external/metro-kaohsiung-8e2d0ff29aa419d6/receipt.json`
 - **入庫收據雜湊**：`2a5ae2c04b85826ecf431a52596b17b95065b59f20fb408cb1a252dc44bfb14b`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 9. 【大灣國中】- G E
 - **試卷 ID**：`metro-kaohsiung-921d04ed484090b6`
@@ -221,6 +447,30 @@
   - 驗收收據：`research/incoming-external/metro-kaohsiung-921d04ed484090b6/receipt.json`
 - **入庫收據雜湊**：`179bd3ace204ead23f9fcec2c81ddb6478ee94405231ccc0103830b5d611c59e`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 10. 【大灣國中】- G E
 - **試卷 ID**：`metro-kaohsiung-e02156b47ddeeb35`
 - **卷首印刷全稱**：`高雄市立大灣國中 113 學年度下學期第二次定期評量國二數學科試題 題目卷`
@@ -241,6 +491,30 @@
   - 驗收收據：`research/incoming-external/metro-kaohsiung-e02156b47ddeeb35/receipt.json`
 - **入庫收據雜湊**：`a72cc2fe438b4adf0d1d26eaa41ce79690a4f6c4a56e822abf1bd1d1ceb11e5e`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 11. 【鷺江國中】- G E
 - **試卷 ID**：`metro-new_taipei-1301dd54e12fcb4c`
 - **卷首印刷全稱**：`新北市立鷺江國民中學 114 學年度 第 2 學期 7 年級 數學科 第 2 次段考 題目卷`
@@ -256,6 +530,30 @@
   - 暫存驗收區：`research/incoming-external/metro-new_taipei-1301dd54e12fcb4c/`
   - 驗收收據：`research/incoming-external/metro-new_taipei-1301dd54e12fcb4c/receipt.json`
 - **入庫收據雜湊**：`54ec7fea7eee8bce9620a558b3de424a70f1d04f843c6ef816979cdaa373f41b`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 12. 【三和國中】- G E
 - **試卷 ID**：`metro-new_taipei-4063b9afdc8dfcc7`
@@ -277,6 +575,30 @@
   - 驗收收據：`research/incoming-external/metro-new_taipei-4063b9afdc8dfcc7/receipt.json`
 - **入庫收據雜湊**：`5b3597981d10a4c8552abfed1b936d7739e87f4c8eee083a675f6219755b89f8`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 13. 【中正國中】- G E
 - **試卷 ID**：`metro-new_taipei-468697ed08e57880`
 - **卷首印刷全稱**：`新北市立中正國民中學107學年度第一學期九 年級 數學科 第三次段考試題`
@@ -297,6 +619,30 @@
   - 驗收收據：`research/incoming-external/metro-new_taipei-468697ed08e57880/receipt.json`
 - **入庫收據雜湊**：`43d268df90d000f047a240d54883387bb6afd4e0cf1ecda83dec0298ad8711e3`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 14. 【五峰國中】- G E
 - **試卷 ID**：`metro-new_taipei-48000408be9d1cbf-e11d08e9`
 - **卷首印刷全稱**：`新北市立五峰國民中學 115學年度第1學期7年級第1次定期評量 數學科試題`
@@ -313,6 +659,30 @@
   - 暫存驗收區：`research/incoming-external/metro-new_taipei-48000408be9d1cbf-e11d08e9/`
   - 驗收收據：`research/incoming-external/metro-new_taipei-48000408be9d1cbf-e11d08e9/receipt.json`
 - **入庫收據雜湊**：`e11d08e9a6803b11472b053a63106cc833a11ecb3e888078820478d8d5b5e7f8`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 15. 【福和國中】- G E
 - **試卷 ID**：`metro-new_taipei-5cab22c1a02f7f12-79bd26ce`
@@ -331,6 +701,30 @@
   - 暫存驗收區：`research/incoming-external/metro-new_taipei-5cab22c1a02f7f12-79bd26ce/`
   - 驗收收據：`research/incoming-external/metro-new_taipei-5cab22c1a02f7f12-79bd26ce/receipt.json`
 - **入庫收據雜湊**：`79bd26ced5041cf825ed52f783c8cb25f5c996f25faa85b575acdb3d0ef9ed6d`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 16. 【新莊國中】- G E
 - **試卷 ID**：`metro-new_taipei-61dfa91da9e32b52`
@@ -352,6 +746,30 @@
   - 驗收收據：`research/incoming-external/metro-new_taipei-61dfa91da9e32b52/receipt.json`
 - **入庫收據雜湊**：`1a0c09a0ea63c2c67cbe9c52c898f9b596b236e753d150518ea891e2d03bb109`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 17. 【永和國中】- G E
 - **試卷 ID**：`metro-new_taipei-6634e66e4ed9aabe`
 - **卷首印刷全稱**：`新北市立永和國民中學 114 學年度第二學期第二次段考七年級數學科試題卷`
@@ -368,6 +786,30 @@
   - 暫存驗收區：`research/incoming-external/metro-new_taipei-6634e66e4ed9aabe/`
   - 驗收收據：`research/incoming-external/metro-new_taipei-6634e66e4ed9aabe/receipt.json`
 - **入庫收據雜湊**：`af6ff06a6322f1683b53150e569817342a19e2a26495f85c112e0d2fe7b93350`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 18. 【三和國中】- G E
 - **試卷 ID**：`metro-new_taipei-7cd592b6bb5523d9`
@@ -389,6 +831,30 @@
   - 驗收收據：`research/incoming-external/metro-new_taipei-7cd592b6bb5523d9/receipt.json`
 - **入庫收據雜湊**：`3ada27fbdc8ea0e54f2764795062cf5b74467089e1b22c367e8a2720512dbcc1`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 19. 【中正國中】- G E
 - **試卷 ID**：`metro-new_taipei-9f2559a02c8e9c6e`
 - **卷首印刷全稱**：`新北市立中正國民中學114學年度第二學期九年級數學科 第二次段考試題`
@@ -408,6 +874,30 @@
   - 暫存驗收區：`research/incoming-external/metro-new_taipei-9f2559a02c8e9c6e/`
   - 驗收收據：`research/incoming-external/metro-new_taipei-9f2559a02c8e9c6e/receipt.json`
 - **入庫收據雜湊**：`2ec89d2d9a4db59314c466b36c40117fedd5edb470a3127c138f2ed8488cca8d`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 20. 【福和國中】- G E
 - **試卷 ID**：`metro-new_taipei-b21214e21635f694-4838de03`
@@ -429,6 +919,30 @@
   - 驗收收據：`research/incoming-external/metro-new_taipei-b21214e21635f694-4838de03/receipt.json`
 - **入庫收據雜湊**：`4838de03ac2ac2619b8ef07cebfe5a0ef1f3f6642f07973deeb519cd535faadf`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 21. 【三和國中】- G E
 - **試卷 ID**：`metro-new_taipei-bd58e37631b2b9dd`
 - **卷首印刷全稱**：`新北市立三和國中114學年度第1學期9年級數學科 第2次段考試題卷`
@@ -449,6 +963,30 @@
   - 驗收收據：`research/incoming-external/metro-new_taipei-bd58e37631b2b9dd/receipt.json`
 - **入庫收據雜湊**：`42aef08fbcbcda31b9f54db747fffc2412ba45c9307290a6fa2306dac49d03bf`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 22. 【三和國中】- G E
 - **試卷 ID**：`metro-new_taipei-c2b108cc42ec8d83`
 - **卷首印刷全稱**：`新北市立三和國中114學年度第1學期8年級數學科第一次段考試題卷`
@@ -464,6 +1002,30 @@
   - 暫存驗收區：`research/incoming-external/metro-new_taipei-c2b108cc42ec8d83/`
   - 驗收收據：`research/incoming-external/metro-new_taipei-c2b108cc42ec8d83/receipt.json`
 - **入庫收據雜湊**：`aa590f238b08c4f218d6db4eb1989609f1c7747a60e8ee71702c43b1f5d466f4`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 23. 【新莊國中】- G E
 - **試卷 ID**：`metro-new_taipei-e2c17f6cb4474c24`
@@ -485,6 +1047,30 @@
   - 驗收收據：`research/incoming-external/metro-new_taipei-e2c17f6cb4474c24/receipt.json`
 - **入庫收據雜湊**：`f71b4f2fc9c287c1e229ca1f83dae5e461a22471f4f0141d50aa3e616686dee8`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 24. 【永和國中】- G E
 - **試卷 ID**：`metro-new_taipei-ed07d2affdc64c8e`
 - **卷首印刷全稱**：`新北市立永和國民中學 114 學年度第二學期第二次段考九年級數學科試題卷`
@@ -505,6 +1091,30 @@
   - 驗收收據：`research/incoming-external/metro-new_taipei-ed07d2affdc64c8e/receipt.json`
 - **入庫收據雜湊**：`ef10325b58e054ac76bc99d99ea5b695aa126660530e09831ebdaa080d351c2b`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 25. 【五峰國中】- G E
 - **試卷 ID**：`metro-new_taipei-f75aec47e95dd944-87a42e19`
 - **卷首印刷全稱**：`新北市立五峰國民中學 114 學年度第一學期第二次定期評量八年級數學科試題`
@@ -521,6 +1131,30 @@
   - 暫存驗收區：`research/incoming-external/metro-new_taipei-f75aec47e95dd944-87a42e19/`
   - 驗收收據：`research/incoming-external/metro-new_taipei-f75aec47e95dd944-87a42e19/receipt.json`
 - **入庫收據雜湊**：`87a42e19a447de48e01028d785c43bb15be9ad81d77735dd36b7c2af1a5e2895`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 26. 【向上國中】- G E
 - **試卷 ID**：`metro-taichung-2a6f4107bf420737-dd698c91`
@@ -542,6 +1176,30 @@
   - 驗收收據：`research/incoming-external/metro-taichung-2a6f4107bf420737-dd698c91/receipt.json`
 - **入庫收據雜湊**：`dd698c911bd85ff08ee2bb40193450e542206b2f9cd04316e9ba6c91b76ee9a4`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 27. 【向上國中】- G E
 - **試卷 ID**：`metro-taichung-33aa153f5696dfab-d018c852`
 - **卷首印刷全稱**：`114學年度第二學期臺中市立向上國民中學第一次定期評量 二年級 數學科試題（段考範圍：1-1~2-1）`
@@ -557,6 +1215,30 @@
   - 暫存驗收區：`research/incoming-external/metro-taichung-33aa153f5696dfab-d018c852/`
   - 驗收收據：`research/incoming-external/metro-taichung-33aa153f5696dfab-d018c852/receipt.json`
 - **入庫收據雜湊**：`d018c852bb6103b60f297501b148440375a2e6920deff980b2f61f6c0912648f`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 28. 【大業國中】- G E
 - **試卷 ID**：`metro-taichung-4180c88b4eef0001-ebfd1c88`
@@ -575,6 +1257,30 @@
   - 驗收收據：`research/incoming-external/metro-taichung-4180c88b4eef0001-ebfd1c88/receipt.json`
 - **入庫收據雜湊**：`ebfd1c88306367bfde1c5aaf5f9e7f4ce14ad9cf0d4d688a70a761fd0987c349`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 29. 【大業國中】- G E
 - **試卷 ID**：`metro-taichung-95e31b65b363fa06-ddcf5fc4`
 - **卷首印刷全稱**：`臺中市大業國中 115 學年度第 1 學期第 1 次定期評量七年級數學科試卷 【翰林版 第一冊 1－1～1－4】`
@@ -590,6 +1296,30 @@
   - 驗收收據：`research/incoming-external/metro-taichung-95e31b65b363fa06-ddcf5fc4/receipt.json`
 - **入庫收據雜湊**：`ddcf5fc4dc675b0761fb267726db67e000de3562df5da79d343dd5d7722616b5`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 30. 【大華國中】- G E
 - **試卷 ID**：`metro-taichung-9dafef2259b6eb43`
 - **卷首印刷全稱**：`臺中市立大華國民中學 112 學年度 第一學期第三次段考 【七年級 數學科】 命題範圍： 第一冊全`
@@ -602,6 +1332,30 @@
   - 暫存驗收區：`research/incoming-external/metro-taichung-9dafef2259b6eb43/`
   - 驗收收據：`research/incoming-external/metro-taichung-9dafef2259b6eb43/receipt.json`
 - **入庫收據雜湊**：`924583f210bb0be4f62ccec773d80c95c457dd4d00a5e6bd68bebcc7fd5b9a91`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 31. 【向上國中】- G E
 - **試卷 ID**：`metro-taichung-c022227cebcf9962-f51e2d09`
@@ -623,6 +1377,30 @@
   - 驗收收據：`research/incoming-external/metro-taichung-c022227cebcf9962-f51e2d09/receipt.json`
 - **入庫收據雜湊**：`f51e2d09620a8eb4bde9200513b9ac2e8938a54424834dcbc055bd0e8a2e5d23`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 32. 【大華國中】- G E
 - **試卷 ID**：`metro-taichung-c1b2801d9f350f8e`
 - **卷首印刷全稱**：`臺中市立大華國民中學 114 學年度 第一學期 第二次定期評量 【七年級 數學科】 命題範圍：1-1~1-4(20%)，2-1~2-4(80%)`
@@ -635,6 +1413,30 @@
   - 暫存驗收區：`research/incoming-external/metro-taichung-c1b2801d9f350f8e/`
   - 驗收收據：`research/incoming-external/metro-taichung-c1b2801d9f350f8e/receipt.json`
 - **入庫收據雜湊**：`cb068e2cc0d00ccb5fb0a179e24e30c6c6512533ee65d6d2993f0b3115da1e6b`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 33. 【向上國中】- G E
 - **試卷 ID**：`metro-taichung-e625830e7b498df5-b44837ec`
@@ -656,6 +1458,30 @@
   - 驗收收據：`research/incoming-external/metro-taichung-e625830e7b498df5-b44837ec/receipt.json`
 - **入庫收據雜湊**：`b44837ec0d59e0c73fafb013e7ae49b58ac2943c006c508f4edc5c2ee45965b9`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 34. 【興福國中】- G E
 - **試卷 ID**：`metro-taipei-4dd690b8587a3cf6`
 - **卷首印刷全稱**：`臺北市立興福國中 106 學年度第二學期 7 年級 第 1 次段考 數學科試卷 共 3 頁`
@@ -672,6 +1498,30 @@
   - 暫存驗收區：`research/incoming-external/metro-taipei-4dd690b8587a3cf6/`
   - 驗收收據：`research/incoming-external/metro-taipei-4dd690b8587a3cf6/receipt.json`
 - **入庫收據雜湊**：`5a8e4297862a81eaeb471af36605472e1525c1cf6f20a3309e31498cfbdd7542`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 35. 【誠正國中】- G E
 - **試卷 ID**：`metro-taipei-509300ecf27c3ab8-ab2bebfa`
@@ -692,6 +1542,30 @@
   - 驗收收據：`research/incoming-external/metro-taipei-509300ecf27c3ab8-ab2bebfa/receipt.json`
 - **入庫收據雜湊**：`ab2bebfad9e54c510066dd0e97123ffa916c7ca87df672e180b67eea6daa509b`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 36. 【興福國中】- G E
 - **試卷 ID**：`metro-taipei-5b254e58c256b046`
 - **卷首印刷全稱**：`臺北市興福國民中學 107 學年度第一學期七年級第二次段考數學科試題卷`
@@ -706,6 +1580,30 @@
   - 暫存驗收區：`research/incoming-external/metro-taipei-5b254e58c256b046/`
   - 驗收收據：`research/incoming-external/metro-taipei-5b254e58c256b046/receipt.json`
 - **入庫收據雜湊**：`8d418dcca4e96ceabf9ba01b06b5bb217e09882a160bcea9be1c1b563476ed7c`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 37. 【誠正國中】- G E
 - **試卷 ID**：`metro-taipei-5d62e415c7f44b90-372f7899`
@@ -727,6 +1625,30 @@
   - 驗收收據：`research/incoming-external/metro-taipei-5d62e415c7f44b90-372f7899/receipt.json`
 - **入庫收據雜湊**：`372f7899e5a30d7e71205a63066eee6c2d4577ead3b5204bfa98b4a8ed67a271`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 38. 【誠正國中】- G E
 - **試卷 ID**：`metro-taipei-8e5cc48d338b1a31-deed3a72`
 - **卷首印刷全稱**：`臺北市立誠正國民中學114 學年度第一學期第三次定期評量 八年級數學科題目卷`
@@ -747,6 +1669,30 @@
   - 驗收收據：`research/incoming-external/metro-taipei-8e5cc48d338b1a31-deed3a72/receipt.json`
 - **入庫收據雜湊**：`deed3a7277d107bacb9a706bab472db5c27804cad56d1999cc3573f8679c6f86`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 39. 【誠正國中】- G E
 - **試卷 ID**：`metro-taipei-e46b59a1468c8ed0-67065845`
 - **卷首印刷全稱**：`台北市立誠正國民中學114 學年度第二學期第三次定期評量七年級數學科試卷`
@@ -761,6 +1707,30 @@
   - 暫存驗收區：`research/incoming-external/metro-taipei-e46b59a1468c8ed0-67065845/`
   - 驗收收據：`research/incoming-external/metro-taipei-e46b59a1468c8ed0-67065845/receipt.json`
 - **入庫收據雜湊**：`6706584563ecd2652719e7edb71ccf72836e03c20d61b730657025de8e9f4f67`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 40. 【自強國中】- G E
 - **試卷 ID**：`metro-taoyuan-124b10db3fe20584`
@@ -782,6 +1752,30 @@
   - 驗收收據：`research/incoming-external/metro-taoyuan-124b10db3fe20584/receipt.json`
 - **入庫收據雜湊**：`21aea8ac44beca7a630290ccf8f08f3d677393191dc88c17c6519ca74427182b`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 41. 【自強國中】- G E
 - **試卷 ID**：`metro-taoyuan-73d7c0ecb504ddb0`
 - **卷首印刷全稱**：`桃園市立自強國中114學年度八年級第二學期數學科第一次定期考試卷`
@@ -801,6 +1795,30 @@
   - 驗收收據：`research/incoming-external/metro-taoyuan-73d7c0ecb504ddb0/receipt.json`
 - **入庫收據雜湊**：`23698481daf6ea64e28c3115c0c6c6cacaadddb85453683979bcf07f23fcf92d`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 42. 【自強國中】- G E
 - **試卷 ID**：`metro-taoyuan-a83099fd238f1cb9`
 - **卷首印刷全稱**：`自強國中114學年度第一學期八年級第二次段考數學科題目卷`
@@ -818,6 +1836,30 @@
   - 驗收收據：`research/incoming-external/metro-taoyuan-a83099fd238f1cb9/receipt.json`
 - **入庫收據雜湊**：`30555c6c223b4db25a16f7dcb61af48c9c928629c45054f6254c269bc9d9070b`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 43. 【自強國中】- G E
 - **試卷 ID**：`metro-taoyuan-bb459e3e33300227`
 - **卷首印刷全稱**：`桃園市立自強國民中學 110學年度第二學期 第3次段考 七年級數學科題目卷`
@@ -832,6 +1874,30 @@
   - 暫存驗收區：`research/incoming-external/metro-taoyuan-bb459e3e33300227/`
   - 驗收收據：`research/incoming-external/metro-taoyuan-bb459e3e33300227/receipt.json`
 - **入庫收據雜湊**：`03507eb3eca976391e9f70eb1d0da18ecd67088168705f10ab657388a46cc542`
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ### 44. 【內城國民中小學】- G E
 - **試卷 ID**：`nc-110-1-1-9`
@@ -853,6 +1919,30 @@
   - 驗收收據：`research/incoming-external/nc-110-1-1-9/receipt.json`
 - **入庫收據雜湊**：`606058e8834bcbb03e40d8a59b9b4503b74a1b11abc5e420251b7016efe36a24`
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ### 45. 【內城國民中小學】- G E
 - **試卷 ID**：`nc-110-1-3-9`
 - **卷首印刷全稱**：`宜蘭縣立內城國民中小學-國中部 110 學年度第一學期九年級數學科第三段考試題`
@@ -872,6 +1962,493 @@
   - 暫存驗收區：`research/incoming-external/nc-110-1-3-9/`
   - 驗收收據：`research/incoming-external/nc-110-1-3-9/receipt.json`
 - **入庫收據雜湊**：`83385d0cf3d8cc2ce8362137f8f3b0b695167fa39e9d830774891e96aeb691e7`
+
+---
+
+## 三、 給接手／審查 AI 的驗收執行步驟
+
+1. **載入審查技能**：
+   請讀取 `skills/math-exam-verifier/SKILL.md`（或全局技能 `math-exam-verifier`），遵循內附之側向逐頁對照規範。
+2. **自動化驗證指令**：
+   在根目錄下執行：
+   ```bash
+   # 檢驗指定試卷 JSON 字型與公式合法性
+   python scripts/check_transcript.py research/metro/transcribed/<paperId>.json
+
+   # 檢驗指定試卷 Markdown 交付檔 intake 暫存狀態
+   python scripts/handoff_exchange.py intake output/external-ai/<學校資料夾>/<paperId>/<paperId>.md
+   ```
+3. **逐頁視覺側向審查**：
+   開啟 `output/external-ai/<學校資料夾>/<paperId>/pages/page-*.png` 與轉錄文字／SVG 進行 1:1 比對：
+   - 卷首印刷字樣是否與元資料完全一致。
+   - 公式數學符號是否完整以 KaTeX `$...$` 包覆。
+   - 幾何圖形之頂點字母標籤、垂直直角符號、平行箭頭、輔助虛線是否正確重繪且清晰可讀。
+4. **安全性準則**：
+   未經使用者明確指示，絕不發布至 live 網站，絕不執行 git push。
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+### 46. 【誠正國中】114-2 G8 E2
+- **試卷 ID**：`metro-taipei-2bcf4289f42bec73-a9450eed`
+- **卷首印刷全稱**：台北市立誠正國民中學114學年度第二學期第二次定期評量 八年級數學科題目卷
+- **題數統計**：可用 23 / 總計 24 題
+  - 題型分布：選擇題 7 題、填充題 13 題、非選／計算 4 題
+  - 難易度：容易 2 題、中等 19 題、困難 3 題
+- **純向量幾何 SVG**：共 19 幅純向量幾何重繪圖形（三角形內角和與外角定理、等腰三角形邊角關係、尺規作圖中垂線與角平分線、平行線截角等 12 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taipei-2bcf4289f42bec73-a9450eed.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 47. 【誠正國中】114-2 G8 E3
+- **試卷 ID**：`metro-taipei-8e45d570dbece6d4-833d428d`
+- **卷首印刷全稱**：臺北市立誠正國中114 學年度第二學期第三次段考八年級數學科試卷P.1
+- **題數統計**：可用 26 / 總計 26 題
+  - 題型分布：選擇題 26 題、填充題 0 題、非選／計算 0 題
+  - 難易度：容易 4 題、中等 18 題、困難 4 題
+- **純向量幾何 SVG**：共 20 幅純向量幾何重繪圖形（平行四邊形性質與判別、長方形、菱形、箏形、等腰梯形中位線性質等 20 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taipei-8e45d570dbece6d4-833d428d.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 48. 【大灣國中】110-1 G8 E1
+- **試卷 ID**：`metro-kaohsiung-ddec2d6fcbb95b4c`
+- **卷首印刷全稱**：高雄市立大灣國中110學年度第一學期第一次段考 國二數學科定期評量試題 題目卷
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 23 題、填充題 0 題、非選／計算 2 題
+  - 難易度：容易 8 題、中等 16 題、困難 1 題
+- **純向量幾何 SVG**：共 3 幅純向量幾何重繪圖形（乘法公式幾何面積分割、根號數線尺規作圖、直角坐標系幾何等 3 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-kaohsiung-ddec2d6fcbb95b4c.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 49. 【中正國中】114-2 G8 E1
+- **試卷 ID**：`metro-new_taipei-16a5afc78611d992`
+- **卷首印刷全稱**：新北市立中正國民中學114學年度第二學期 八年級 數學科 第一次段考試題
+- **題數統計**：可用 24 / 總計 24 題
+  - 題型分布：選擇題 4 題、填充題 18 題、非選／計算 2 題
+  - 難易度：容易 11 題、中等 10 題、困難 3 題
+- **純向量幾何 SVG**：共 2 幅純向量幾何重繪圖形（等差數列圖形規律、方格幾何路徑等 4 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-16a5afc78611d992.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 50. 【大灣國中】114-1 G9 E3
+- **試卷 ID**：`metro-kaohsiung-42845582bb52e377`
+- **卷首印刷全稱**：高雄市立大灣國中11 4 學年度第一學期第三次段考三年級數學科試題卷
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 25 題、填充題 0 題、非選／計算 0 題
+  - 難易度：容易 8 題、中等 14 題、困難 3 題
+- **純向量幾何 SVG**：共 16 幅純向量幾何重繪圖形（圓形幾何、圓心角、圓周角、弦切角、切線段等長定理、圓內接四邊形對角互補等 16 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-kaohsiung-42845582bb52e377.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 51. 【新莊國中】114-1 G9 E3
+- **試卷 ID**：`metro-new_taipei-73971426535f87d5`
+- **卷首印刷全稱**：新北市立新莊國民中學114學年度第1學期第3次段考9年級數學領域試題卷
+- **題數統計**：可用 20 / 總計 20 題
+  - 題型分布：選擇題 20 題、填充題 0 題、非選／計算 0 題
+  - 難易度：容易 3 題、中等 8 題、困難 9 題
+- **純向量幾何 SVG**：共 9 幅純向量幾何重繪圖形（圓幾何性質、切線、圓內接三角形外心與內心性質等 9 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-73971426535f87d5.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 52. 【大灣國中】114-2 G9 E1
+- **試卷 ID**：`metro-kaohsiung-2ae2b2bfc5e6f989`
+- **卷首印刷全稱**：高雄市立大灣國中114 學年度第二學期第一次月考國三數學科題目卷
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 23 題、填充題 0 題、非選／計算 2 題
+  - 難易度：容易 8 題、中等 14 題、困難 3 題
+- **純向量幾何 SVG**：共 10 幅純向量幾何重繪圖形（二次函數拋物線頂點對稱軸、二次函數圖形平移與交點等 10 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-kaohsiung-2ae2b2bfc5e6f989.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 53. 【向上國中】114-2 G9 E1
+- **試卷 ID**：`metro-taichung-787d0e9b8e01cbe8-954f386d`
+- **卷首印刷全稱**：114學年度第二學期臺中市立向上國民中學第一次定期評量三年級數學科試題
+- **題數統計**：可用 23 / 總計 23 題
+  - 題型分布：選擇題 10 題、填充題 11 題、非選／計算 2 題
+  - 難易度：容易 12 題、中等 9 題、困難 2 題
+- **純向量幾何 SVG**：共 4 幅純向量幾何重繪圖形（二次函數拋物線軌跡、投籃拋物線路徑圖等 4 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-787d0e9b8e01cbe8-954f386d.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 54. 【中正國中】114-2 G9 E1
+- **試卷 ID**：`metro-new_taipei-5266f1c6ee13cd09`
+- **卷首印刷全稱**：新北市立中正國民中學114學年度第二學期九年級數學科第一次段考試題
+- **題數統計**：可用 30 / 總計 30 題
+  - 題型分布：選擇題 26 題、填充題 0 題、非選／計算 4 題
+  - 難易度：容易 14 題、中等 13 題、困難 3 題
+- **純向量幾何 SVG**：共 7 幅純向量幾何重繪圖形（二次函數拋物線開口與頂點判別、立體圖形展開圖等 7 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-5266f1c6ee13cd09.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 55. 【自強國中】114-2 G8 E3
+- **試卷 ID**：`metro-taoyuan-122cf45bd82111fb`
+- **卷首印刷全稱**：桃園市立自強國中114學年度第二學期八年級第三次段考數學科題目卷
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 10 題、填充題 13 題、非選／計算 2 題
+  - 難易度：容易 16 題、中等 7 題、困難 2 題
+- **純向量幾何 SVG**：共 15 幅純向量幾何重繪圖形（三角形外心內心重心幾何性質、平行線截線段比等 15 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taoyuan-122cf45bd82111fb.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 56. 【大業國中】114-2 G8 E3
+- **試卷 ID**：`metro-taichung-b3e6252bce1b88a1-70727109`
+- **卷首印刷全稱**：臺中市立大業國中114 學年度第2 學期第3 次定期評量八年級數學科試卷
+- **題數統計**：可用 28 / 總計 28 題
+  - 題型分布：選擇題 28 題、填充題 0 題、非選／計算 0 題
+  - 難易度：容易 17 題、中等 10 題、困難 1 題
+- **純向量幾何 SVG**：共 22 幅純向量幾何重繪圖形（平行四邊形角度、菱形、箏形、梯形中位線與摺疊幾何等 22 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-b3e6252bce1b88a1-70727109.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 57. 【永和國中】114-2 G8 E3
+- **試卷 ID**：`metro-new_taipei-c05ac195112cf94a`
+- **卷首印刷全稱**：新北市立永和國民中學114 學年度第二學期第三次段考八年級數學科試題卷
+- **題數統計**：可用 29 / 總計 29 題
+  - 題型分布：選擇題 27 題、填充題 0 題、非選／計算 2 題
+  - 難易度：容易 11 題、中等 13 題、困難 5 題
+- **純向量幾何 SVG**：共 23 幅純向量幾何重繪圖形（平行線截角、平行四邊形判別、摺疊對稱軸、等腰梯形等 23 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-c05ac195112cf94a.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 58. 【自強國中】114-1 G9 E3
+- **試卷 ID**：`metro-taoyuan-e4103da80420fc10`
+- **卷首印刷全稱**：桃園市立自強國中 114 學年度  第一學期  第 三 次 定期考查  九年級 數學科 考試卷
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 10 題、填充題 13 題、非選／計算 2 題
+  - 難易度：容易 12 題、中等 13 題、困難 0 題
+- **純向量幾何 SVG**：共 19 幅純向量幾何重繪圖形（三角形三心（外心、內心、重心）、圓內接四邊形、切線性質等 19 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taoyuan-e4103da80420fc10.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 59. 【大灣國中】114-2 G9 E2
+- **試卷 ID**：`metro-kaohsiung-a77c3d9b6b66cd41`
+- **卷首印刷全稱**：高雄市大灣國中114 學年度下學期第2 次段考國中數學3 年級題目卷
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 25 題、填充題 0 題、非選／計算 0 題
+  - 難易度：容易 18 題、中等 7 題、困難 0 題
+- **純向量幾何 SVG**：共 12 幅純向量幾何重繪圖形（立體幾何展開圖、正方體、圓柱圓錐側面展開圖等 12 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-kaohsiung-a77c3d9b6b66cd41.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 60. 【誠正國中】114-1 G9 E3
+- **試卷 ID**：`metro-taipei-174303942233ad8f-810167ef`
+- **卷首印刷全稱**：臺 北 市 立 誠 正 國 民 中 學 114 學 年 度 第 一 學 期 第 三 次 定期評量 九 年級 數學科試卷
+- **題數統計**：可用 24 / 總計 24 題
+  - 題型分布：選擇題 22 題、填充題 0 題、非選／計算 2 題
+  - 難易度：容易 15 題、中等 8 題、困難 1 題
+- **純向量幾何 SVG**：共 13 幅純向量幾何重繪圖形（三角形外心內心幾何、切線長、切線角、圓周角等 13 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taipei-174303942233ad8f-810167ef.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 61. 【新莊國中】114-2 G8 E3
+- **試卷 ID**：`metro-new_taipei-0bf73000c77e6201`
+- **卷首印刷全稱**：新北市立新莊國民中學114學年度第2學期第3次段考8年級數學領域試題卷
+- **題數統計**：可用 23 / 總計 23 題
+  - 題型分布：選擇題 23 題、填充題 0 題、非選／計算 0 題
+  - 難易度：容易 9 題、中等 11 題、困難 3 題
+- **純向量幾何 SVG**：共 16 幅純向量幾何重繪圖形（五直線相交截角、四選項 optionFigures、同心圓、平行四邊形垂平分線等 16 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-0bf73000c77e6201.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 62. 【向上國中】114-2 G9 E2
+- **試卷 ID**：`metro-taichung-e85eb42c6895e984-351b7149`
+- **卷首印刷全稱**：臺中市立向上國民中學114 學年度第二學期第二次定期評量三年級數學科試題
+- **題數統計**：可用 24 / 總計 24 題
+  - 題型分布：選擇題 12 題、填充題 10 題、非選／計算 2 題
+  - 難易度：容易 8 題、中等 10 題、困難 6 題
+- **純向量幾何 SVG**：共 10 幅純向量幾何重繪圖形（空間立體幾何、直圓錐、直角柱、展開圖最短路徑等 10 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-e85eb42c6895e984-351b7149.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 63. 【大灣國中】110-2 G8 E3
+- **試卷 ID**：`metro-kaohsiung-7b78c1dc2f2a91d5`
+- **卷首印刷全稱**：高雄市立大灣國民中學110 學年度第二學期二年級數學科第三次段考試卷
+- **題數統計**：可用 30 / 總計 30 題
+  - 題型分布：選擇題 30 題、填充題 0 題、非選／計算 0 題
+  - 難易度：容易 11 題、中等 17 題、困難 2 題
+- **純向量幾何 SVG**：共 25 幅純向量幾何重繪圖形（平行四邊形判別四選項 optionFigures、平行線截角、矩形摺疊、等腰梯形等 25 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-kaohsiung-7b78c1dc2f2a91d5.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 64. 【誠正國中】115-1 G9 E1
+- **試卷 ID**：`metro-taipei-afe33eb4e4e6d282-fd633cfe`
+- **卷首印刷全稱**：臺北市立誠正國中115 學年度第一學期第一次段考九年級數學科試卷P.1
+- **題數統計**：可用 24 / 總計 24 題
+  - 題型分布：選擇題 1 題、填充題 21 題、非選／計算 2 題
+  - 難易度：容易 14 題、中等 9 題、困難 1 題
+- **純向量幾何 SVG**：共 18 幅純向量幾何重繪圖形（6 個三角形相似整合圖、平行線截比例線段、中點三等分點連線等 15 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taipei-afe33eb4e4e6d282-fd633cfe.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 65. 【大業國中】114-2 G9 E2
+- **試卷 ID**：`metro-taichung-e493a398f380737f-bbcb98b6`
+- **卷首印刷全稱**：臺中市立大業國中114 學年度第2 學期第2 次定期評量九年級數學科試卷
+- **題數統計**：可用 30 / 總計 30 題
+  - 題型分布：選擇題 30 題、填充題 0 題、非選／計算 0 題
+  - 難易度：容易 13 題、中等 14 題、困難 3 題
+- **純向量幾何 SVG**：共 11 幅純向量幾何重繪圖形（正方體展開圖四選項 optionFigures、盒狀圖 optionFigures、拋物線拱橋水位剖面等 11 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-e493a398f380737f-bbcb98b6.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 66. 【中正國中】114-2 G8 E3
+- **試卷 ID**：`metro-new_taipei-14fa9584bbf4c963`
+- **卷首印刷全稱**：新北市立中正國民中學114學年度第二學期  八  年級  數學  科  第  三  次段考試題
+- **題數統計**：可用 22 / 總計 22 題
+  - 題型分布：選擇題 2 題、填充題 15 題、非選／計算 5 題
+  - 難易度：容易 6 題、中等 11 題、困難 5 題
+- **純向量幾何 SVG**：共 17 幅純向量幾何重繪圖形（平行線同側內角、滑板轉向角、菱形對角線、將軍飲馬最短距離等 17 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-14fa9584bbf4c963.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 67. 【自強國中】110-2 G8 E2
+- **試卷 ID**：`metro-taoyuan-6bf932eafce85694`
+- **卷首印刷全稱**：桃園市立自強國民中學110 學年度 第二學期 第二次段考 八年級數學科試題卷
+- **題數統計**：可用 26 / 總計 28 題
+  - 題型分布：選擇題 10 題、填充題 16 題、非選／計算 2 題
+  - 難易度：容易 23 題、中等 5 題、困難 0 題
+- **純向量幾何 SVG**：共 14 幅純向量幾何重繪圖形（兩直線對頂角、尺規作圖線段 CD、正六邊形與正五邊形共用底邊等 13 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taoyuan-6bf932eafce85694.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 68. 【大業國中】114-2 G8 E2
+- **試卷 ID**：`metro-taichung-e493a398f380737f-cc28e2d8`
+- **卷首印刷全稱**：臺中市大業國中114學年度第2學期第2次定期評量八年級數學科試卷
+- **題數統計**：可用 27 / 總計 27 題
+  - 題型分布：選擇題 13 題、填充題 8 題、非選／計算 6 題
+  - 難易度：容易 10 題、中等 12 題、困難 5 題
+- **純向量幾何 SVG**：共 21 幅純向量幾何重繪圖形（垂直直角、平行箭頭、角度弧線、旋轉變換、正方形截角展開、尺規作圖弧線軌跡（中垂線、角平分線、倍長中線、直角三角形作無理數點）等 21 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-e493a398f380737f-cc28e2d8.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 69. 【自強國中】109-2 G8 E2
+- **試卷 ID**：`metro-taoyuan-e9b04d161bf38e86`
+- **卷首印刷全稱**：桃園市立自強國中109學年度八年級第二學期數學科第二次定期考試卷
+- **題數統計**：可用 28 / 總計 28 題
+  - 題型分布：選擇題 12 題、填充題 15 題、非選／計算 1 題
+  - 難易度：容易 22 題、中等 6 題、困難 0 題
+- **純向量幾何 SVG**：共 18 幅純向量幾何重繪圖形（尺規角平分線、蝶形凹多邊形角度、6 個全等配對小三角形、相切環繞正五邊形等 15 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taoyuan-e9b04d161bf38e86.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 70. 【中正國中】114-2 G8 E2
+- **試卷 ID**：`metro-new_taipei-a7602090423aeee8`
+- **卷首印刷全稱**：新北市立中正國民中學114學年度第二學期八年級數學科  第二次段考試題
+- **題數統計**：可用 24 / 總計 24 題
+  - 題型分布：選擇題 1 題、填充題 18 題、非選／計算 5 題
+  - 難易度：容易 9 題、中等 12 題、困難 3 題
+- **純向量幾何 SVG**：共 19 幅純向量幾何重繪圖形（路徑轉向角外角、七角自交星形內角和、摺疊頂角、正五邊形與正八邊形共用邊、直角三角形中垂線與角平分線、長方形沿對角線對摺、尺規作圖等 19 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-a7602090423aeee8.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 71. 【大灣國中】110-2 G8 E2
+- **試卷 ID**：`metro-kaohsiung-77966b07b8e4262a`
+- **卷首印刷全稱**：高雄市立大灣國民中學110 學年度第2 學期二年級第二次段考數學科試題
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 23 題、填充題 0 題、非選／計算 2 題
+  - 難易度：容易 16 題、中等 8 題、困難 1 題
+- **純向量幾何 SVG**：共 14 幅純向量幾何重繪圖形（8 個全等判定三角形幾何圖、內角外角、尺規作圖、全等三角形應用等 13 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-kaohsiung-77966b07b8e4262a.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 72. 【自強國中】110-2 G8 E3
+- **試卷 ID**：`metro-taoyuan-6063ac4e1bb85f7d`
+- **卷首印刷全稱**：自強國中110 學年度 第二學期 八年級 第三次段考 數學科  題目卷
+- **題數統計**：可用 24 / 總計 24 題
+  - 題型分布：選擇題 10 題、填充題 12 題、非選／計算 2 題
+  - 難易度：容易 15 題、中等 8 題、困難 1 題
+- **純向量幾何 SVG**：共 11 幅純向量幾何重繪圖形（平行線轉折角、夾正三角形、角平分線、平行四邊形雙高面積、正方形垂直線段、等腰三角形對摺、梯形中線等 11 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taoyuan-6063ac4e1bb85f7d.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 73. 【大業國中】114-1 G8 E3
+- **試卷 ID**：`metro-taichung-0258b91306c86b6b-3926fbc1`
+- **卷首印刷全稱**：臺中市大業國中 114 學年度第 1 學期第 3 次定期評量八年級數學科試卷
+- **題數統計**：可用 33 / 總計 33 題
+  - 題型分布：選擇題 33 題、填充題 0 題、非選／計算 0 題
+  - 難易度：容易 18 題、中等 11 題、困難 4 題
+- **純向量幾何 SVG**：共 7 幅純向量幾何重繪圖形（手機購買界面圖、累積次數折線圖、雙班累積相對次數折線圖、次數分配直方圖、optionFigures四直方圖、多邊形組合幾何等 7 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-0258b91306c86b6b-3926fbc1.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 74. 【大灣國中】110-1 G8 E3
+- **試卷 ID**：`metro-kaohsiung-3ad4623f08693b92`
+- **卷首印刷全稱**：高雄市立大灣國民中學110 學年度第一學期第三次段考二年級數學科試題
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 15 題、填充題 8 題、非選／計算 2 題
+  - 難易度：容易 15 題、中等 10 題、困難 0 題
+- **純向量幾何 SVG**：共 7 幅純向量幾何重繪圖形（圓形圖、身高雙折線圖、年齡累積折線圖、心跳相對次數折線圖、牧場三隔間出入口示意圖、師生對話框情境圖、手機 APP 下載介面圖等 7 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-kaohsiung-3ad4623f08693b92.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 75. 【中正國中】114-1 G8 E3
+- **試卷 ID**：`metro-new_taipei-d77a989099e6ca57`
+- **卷首印刷全稱**：新北市立中正國民中學114學年度第一學期八年級數學科  第三次段考試題
+- **題數統計**：可用 21 / 總計 21 題
+  - 題型分布：選擇題 5 題、填充題 14 題、非選／計算 2 題
+  - 難易度：容易 10 題、中等 7 題、困難 4 題
+- **純向量幾何 SVG**：共 8 幅純向量幾何重繪圖形（身高累積相對次數折線圖、體重相對次數折線圖、三段成績並列向量表格、三校AMC競賽折線圖、正方形內接正三角形、五邊形組合幾何、十字交乘線條、擬真墨漬雙折線圖等 8 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-d77a989099e6ca57.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 76. 【自強國中】110-1 G8 E3
+- **試卷 ID**：`metro-taoyuan-1cbdb5fb1e1c5129`
+- **卷首印刷全稱**：自強國中110 學年度 第一學期 八年級 第三次段考 數學科  題目卷
+- **題數統計**：可用 24 / 總計 24 題
+  - 題型分布：選擇題 5 題、填充題 17 題、非選／計算 2 題
+  - 難易度：容易 19 題、中等 5 題、困難 0 題
+- **純向量幾何 SVG**：共 2 幅純向量幾何重繪圖形（身高累積次數分配折線圖、每人每天平均消費金額累積相對次數分配折線圖等 2 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taoyuan-1cbdb5fb1e1c5129.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 77. 【大業國中】114-1 G9 E3
+- **試卷 ID**：`metro-taichung-0258b91306c86b6b-55196bc3`
+- **卷首印刷全稱**：臺中市大業國中 114 學年度第 1 學期第 3 次定期評量九年級數學科試卷
+- **題數統計**：可用 30 / 總計 30 題
+  - 題型分布：選擇題 30 題、填充題 0 題、非選／計算 0 題
+  - 難易度：容易 16 題、中等 10 題、困難 4 題
+- **純向量幾何 SVG**：共 10 幅純向量幾何重繪圖形（雙正三角形共頂點旋轉SAS全等、角平分線平行線等腰、重心中線面積分割、梯形對角線分割面積比、雙同心圓等 10 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-taichung-0258b91306c86b6b-55196bc3.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 78. 【大灣國中】110-2 G8 E1
+- **試卷 ID**：`metro-kaohsiung-cddb4bc1dad6e88d`
+- **卷首印刷全稱**：高雄市立大灣國中110 學年度下學期國二數學科第一次月考定期評量   題目卷
+- **題數統計**：可用 25 / 總計 25 題
+  - 題型分布：選擇題 23 題、填充題 0 題、非選／計算 2 題
+  - 難易度：容易 13 題、中等 12 題、困難 0 題
+- **純向量幾何 SVG**：共 2 幅純向量幾何重繪圖形（柵欄木條向右規律相連圖形、5x5等差方格矩陣圖等 2 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-kaohsiung-cddb4bc1dad6e88d.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
+
+---
+
+### 79. 【中正國中】114-1 G9 E3
+- **試卷 ID**：`metro-new_taipei-f06eb0c417f3bbf3`
+- **卷首印刷全稱**：新北市立中正國民中學114學年度第一學期九年級數學科  第三次段考試題
+- **題數統計**：可用 22 / 總計 22 題
+  - 題型分布：選擇題 3 題、填充題 19 題、非選／計算 0 題
+  - 難易度：容易 13 題、中等 4 題、困難 5 題
+- **純向量幾何 SVG**：共 14 幅純向量幾何重繪圖形（等腰截線相似、雙高全等、重心三分面積、內切圓面積、直角中垂線截角、雙矩形中點距離等 14 幅純向量圖）
+- **主要檔案存取路徑**：
+  - JSON 主檔：`research/metro/transcribed/metro-new_taipei-f06eb0c417f3bbf3.json`
+- **驗證狀態**：check_transcript.py OK；handoff_exchange.py intake staged；通過 TW-Kai 字型與 KaTeX 公式檢驗。
 
 ---
 
