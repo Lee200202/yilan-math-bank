@@ -16,7 +16,8 @@ export function eligiblePool(bank,filters){const seen=new Set();return bank.filt
 // them reads as the same question twice, so generation treats them as one family and only combines them when the
 // requested scope has no other question of that type and difficulty left.
 const plainText=q=>(q.blocks||[]).map(b=>(b.text||'')+(b.items||[]).join('')+(b.rows||[]).flat().join('')).join('').replace(/[\s　（）()．.，,、。：:；;]/g,'');
-const baseNumber=n=>String(n??'').replace(/(?:-\d+|\(\d+\))+$/,'');
+// "6(1)" and "1-1" are parts of problems 6 and 1; "二-2" is item 2 of section 二 and is a problem of its own.
+const baseNumber=n=>{const s=String(n??'').replace(/(?:\(\d+\))+$/,'');return /^\d+(?:-\d+)+$/.test(s)?s.split('-')[0]:s;};
 export function familyKeys(q){
   const number=baseNumber(q.sourceNumber||q.number),keys=[],opening=plainText(q).slice(0,50);
   if(q.sourceParentId)keys.push(`parent|${q.sourceParentId}`);else if(q.paperId&&number)keys.push(`${q.paperId}|${q.type}|#${number}`);
@@ -30,7 +31,10 @@ function diversify(selected,pool,byUnit,random){
     const keys=familyKeys(result[i]),others=result.filter((_,j)=>j!==i),blocked=new Set(others.flatMap(familyKeys));
     if(!keys.some(k=>blocked.has(k)))continue;
     const inUse=new Set(result.map(q=>q.id)),q=result[i];
-    const options=pool.filter(c=>!inUse.has(c.id)&&c.type===q.type&&c.difficulty===q.difficulty&&(!byUnit||c.primaryUnitId===q.primaryUnitId)&&!familyKeys(c).some(k=>blocked.has(k)));
+    const fresh=pool.filter(c=>!inUse.has(c.id)&&c.type===q.type&&(!byUnit||c.primaryUnitId===q.primaryUnitId)&&!familyKeys(c).some(k=>blocked.has(k)));
+    // Same difficulty keeps the requested ratio; a different one is used only so that the paper never repeats a problem.
+    const sameLevel=fresh.filter(c=>c.difficulty===q.difficulty);
+    const options=sameLevel.length?sameLevel:fresh;
     if(options.length)result[i]=shuffle(options,random)[0];
   }
   return result;
@@ -78,12 +82,27 @@ function network(){
 const stockMatrix=pool=>TYPES.map(type=>LEVELS.map(level=>pool.filter(q=>q.type===type&&q.difficulty===level).length));
 // Difficulty is rounded once across the entire paper. This transport plan
 // distributes that quota between question types without imposing per-type ratios.
+// The whole-paper difficulty quota is still honoured first (it is rounded once, and a shortage is the only reason to
+// miss it). Within that quota every question type receives the same easy/medium/hard proportions as the paper:
+// 50% easy + 50% medium means choice, fill and written are each about half easy and half medium, instead of all the
+// easy questions landing in the multiple-choice section. Each extra question placed in a (type, level) cell costs the
+// marginal increase of its squared distance from that cell's ideal share, so the plan is the most even split.
 function typeLevelPlan(stock,counts,target,total){
  const net=network(),source=net.node(),sink=net.node(),types=TYPES.map(()=>net.node()),levels=LEVELS.map(()=>net.node());
- const cells=types.map((tn,t)=>{net.edge(source,tn,Number(counts[TYPES[t]]));return levels.map((ln,l)=>net.edge(tn,ln,stock[t][l]));});
- levels.forEach((ln,l)=>{net.edge(ln,sink,target[l]);net.edge(ln,sink,total,1);});
+ const UNIT=1000,OFFSET=400000,SHORTAGE=1e9,units=[];
+ types.forEach((tn,t)=>{
+  const n=Number(counts[TYPES[t]]);net.edge(source,tn,n);
+  levels.forEach((ln,l)=>{
+   const ideal=total?n*target[l]/total:0,edges=[];
+   for(let k=1;k<=Math.min(stock[t][l],n);k++)edges.push(net.edge(tn,ln,1,Math.round((2*k-1-2*ideal)*UNIT)+OFFSET));
+   units.push({t,l,edges});
+  });
+ });
+ levels.forEach((ln,l)=>{net.edge(ln,sink,target[l]);net.edge(ln,sink,total,SHORTAGE);});
  if(net.minCost(source,sink,total)!==total)return null;
- return cells.map(row=>row.map(e=>e.initial-e.cap));
+ const plan=TYPES.map(()=>LEVELS.map(()=>0));
+ units.forEach(({t,l,edges})=>{plan[t][l]=edges.filter(e=>e.cap===0).length;});
+ return plan;
 }
 function difficultyNotices(selected,counts,target,total,byUnit){
  const actual=LEVELS.map(level=>selected.filter(q=>q.difficulty===level).length);
@@ -163,7 +182,7 @@ export function generate(bank, filters, counts, ratios, target=100, random=Math.
   if(!ratios||typeof ratios!=='object'||Array.isArray(ratios)||Object.keys(ratios).some(k=>!LEVELS.includes(k))||Object.values(ratios).some(n=>!Number.isFinite(Number(n))||n<0)||Object.values(ratios).reduce((a,b)=>a+Number(b),0)!==100) throw new Error('三種難度比例合計須為 100%。');
   const pool=eligiblePool(bank,filters), selected=[];
   const difficultyTarget=quotas(Object.fromEntries(LEVELS.map(level=>[level,Number(ratios[level])||0])),total).map(r=>r.count);
-  if(filters.scopeMode==='units'){const result=unitSelection(pool,filters,counts,difficultyTarget,total,random),ordered=orderPracticeQuestions(diversify(result.selected,pool,true,random)),scores=allocateScores(ordered,target);return {items:ordered.map((q,i)=>({id:q.id,score:scores[i]})),notices:result.notices};}
+  if(filters.scopeMode==='units'){const result=unitSelection(pool,filters,counts,difficultyTarget,total,random),distinct=diversify(result.selected,pool,true,random),ordered=orderPracticeQuestions(distinct),scores=allocateScores(ordered,target);return {items:ordered.map((q,i)=>({id:q.id,score:scores[i]})),notices:distinct.every((q,i)=>q===result.selected[i])?result.notices:difficultyNotices(distinct,counts,difficultyTarget,total,true)};}
   for(const type of TYPES){
     const n=Number(counts[type]), available=pool.filter(q=>q.type===type);
     if(available.length<n) throw new Error(`${TYPE_NAMES[type]}只有 ${available.length} 題符合條件，請減少題數或放寬篩選。`);
@@ -171,8 +190,8 @@ export function generate(bank, filters, counts, ratios, target=100, random=Math.
   const plan=typeLevelPlan(stockMatrix(pool),counts,difficultyTarget,total);
   if(!plan)throw new Error('目前題型與難度資料無法完成組卷。');
   TYPES.forEach((type,t)=>selected.push(...shuffle(LEVELS.flatMap((level,l)=>shuffle(pool.filter(q=>q.type===type&&q.difficulty===level),random).slice(0,plan[t][l])),random)));
-  const notices=difficultyNotices(selected,counts,difficultyTarget,total,false);
-  const ordered=orderPracticeQuestions(diversify(selected,pool,false,random)),scores=allocateScores(ordered,target);
+  const distinct=diversify(selected,pool,false,random),notices=difficultyNotices(distinct,counts,difficultyTarget,total,false);
+  const ordered=orderPracticeQuestions(distinct),scores=allocateScores(ordered,target);
   return {items:ordered.map((q,i)=>({id:q.id,score:scores[i]})),notices};
 }
 export function replaceQuestion(bank, session, index, filters, random=Math.random) {

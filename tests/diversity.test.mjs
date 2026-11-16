@@ -56,3 +56,35 @@ test('replacing a question prefers one that is not a sub-question of the rest of
     assert.equal(next.items[1].id, 'p3-written-3', `seed ${seed} swapped in a sibling of question 1`);
   }
 });
+
+test('section-style numbers are separate problems, part numbers are not', () => {
+  const mk = (number, text) => written('pp', number, text);
+  assert.notDeepEqual(familyKeys(mk('二-1', '第一個問題的文字，說明各項條件。'))[0], familyKeys(mk('二-2', '第二個問題的文字，說明各項條件。'))[0]);
+  assert.deepEqual(familyKeys(mk('3-1', '第三題第一小題的題幹內容說明'))[0], familyKeys(mk('3-2', '第三題第二小題的題幹內容說明'))[0]);
+  assert.deepEqual(familyKeys(mk('6(1)', '第六題第一小題的題幹內容說明'))[0], familyKeys(mk('6(3)', '第六題第三小題的題幹內容說明'))[0]);
+});
+
+function stocked(type, level, count, tag) {
+  return Array.from({length: count}, (_, i) => ({...base, id: `${tag}-${type}-${level}-${i}`, paperId: `${tag}-${level}-${i}`, type, difficulty: level, sourceSha256: `sha-${tag}-${type}-${level}-${i}`, sourceNumber: String(i + 1), number: String(i + 1), blocks: [{type: 'text', text: `${type}${level}題目${tag}第${i}個，內容各不相同。`}]}));
+}
+const levelCount = (items, bank, type, level) => items.map(i => bank.find(q => q.id === i.id)).filter(q => q.type === type && q.difficulty === level).length;
+
+test('the requested difficulty ratio applies inside every question type, not only across the paper', () => {
+  const bank = ['choice', 'fill', 'written'].flatMap(type => ['easy', 'medium', 'hard'].flatMap(level => stocked(type, level, 30, 'a')));
+  for (let seed = 1; seed <= 50; seed++) {
+    const {items} = generate(bank, filters, {choice: 10, fill: 6, written: 4}, {easy: 50, medium: 50, hard: 0}, 100, seeded(seed));
+    for (const [type, n] of [['choice', 10], ['fill', 6], ['written', 4]]) {
+      assert.equal(levelCount(items, bank, type, 'easy'), n / 2, `${type} easy share, seed ${seed}`);
+      assert.equal(levelCount(items, bank, type, 'medium'), n / 2, `${type} medium share, seed ${seed}`);
+      assert.equal(levelCount(items, bank, type, 'hard'), 0);
+    }
+  }
+});
+
+test('the whole-paper quota still holds when one type lacks easy questions', () => {
+  const bank = [...stocked('choice', 'easy', 2, 'b'), ...stocked('choice', 'medium', 30, 'b'), ...stocked('fill', 'easy', 30, 'b'), ...stocked('fill', 'medium', 30, 'b'), ...stocked('written', 'easy', 30, 'b'), ...stocked('written', 'medium', 30, 'b')];
+  const {items} = generate(bank, filters, {choice: 10, fill: 6, written: 4}, {easy: 50, medium: 50, hard: 0}, 100, seeded(3));
+  const easy = ['choice', 'fill', 'written'].reduce((s, t) => s + levelCount(items, bank, t, 'easy'), 0);
+  assert.equal(easy, 10);
+  assert.ok(levelCount(items, bank, 'choice', 'easy') <= 2);
+});

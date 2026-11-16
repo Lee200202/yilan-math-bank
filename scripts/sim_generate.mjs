@@ -1,7 +1,7 @@
 // Monte-Carlo check of generate(): looks for repeated questions inside one generated paper.
 // Usage: node scripts/sim_generate.mjs [runs]
 import {readFileSync} from 'node:fs';
-import {generate, availableCounts, TYPES} from '../public/engine.mjs';
+import {generate, availableCounts, eligiblePool, familyKeys, TYPES} from '../public/engine.mjs';
 
 const bank = JSON.parse(readFileSync(new URL('../public/data/questions.json', import.meta.url), 'utf8'));
 const byId = new Map(bank.map(q => [q.id, q]));
@@ -11,7 +11,7 @@ const opening = q => norm(q).slice(0, 50);
 let seed = 12345;
 const random = () => { seed = (seed * 1664525 + 1013904223) % 4294967296; return seed / 4294967296; };
 const pick = a => a[Math.floor(random() * a.length)];
-const stats = {runs: 0, dupId: 0, dupText: 0, dupOpening: 0, samePaperWritten: 0, errors: 0};
+const stats = {runs: 0, dupId: 0, dupText: 0, dupOpening: 0, samePaperWritten: 0, familyRepeats: 0, avoidableFamilyRepeats: 0, errors: 0};
 const examples = [];
 for (let i = 0; i < runs; i++) {
   const filters = {year: '', semester: pick(['', '1', '2']), grade: pick(['', '7', '8', '9']), exam: pick(['', '1', '2', '3']), region: pick(['', 'yilan', 'taipei', 'new_taipei', 'taoyuan', 'taichung', 'kaohsiung']), school: '', difficulty: '', scopeMode: 'exam', curriculumOnly: true, unitWeights: {}};
@@ -27,6 +27,16 @@ for (let i = 0; i < runs; i++) {
     const mine = qs.filter(q => q.type === type);
     if (new Set(mine.map(norm)).size !== mine.length) { stats.dupText++; examples.push(['text', type, filters, mine.map(q => q.id)]); }
     if (new Set(mine.map(opening)).size !== mine.length) { stats.dupOpening++; if (examples.length < 12) examples.push(['opening', type, filters, mine.map(q => q.id + ' | ' + opening(q))]); }
+  }
+  const pool = eligiblePool(bank, filters);
+  for (const type of TYPES) {
+    const mine = qs.filter(q => q.type === type);
+    const fams = mine.map(q => familyKeys(q)[0]);
+    if (new Set(fams).size !== mine.length) {
+      stats.familyRepeats++;
+      const distinct = new Set(pool.filter(q => q.type === type).map(q => familyKeys(q)[0])).size;
+      if (distinct >= mine.length) { stats.avoidableFamilyRepeats++; if (examples.length < 8) examples.push(['avoidable', type, filters, mine.map(q => q.id + ' ' + q.difficulty), distinct]); }
+    }
   }
   const written = qs.filter(q => q.type === 'written');
   if (new Set(written.map(q => q.paperId)).size !== written.length) stats.samePaperWritten++;
