@@ -1,13 +1,12 @@
 # 臺中市 大華國中 待完成清單
 
-未轉寫 85 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
+未轉寫 83 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
 
 | 範圍 | 狀態 | 格式 | paperId | 原檔／官方包 | SHA256 |
 | --- | --- | --- | --- | --- | --- |
 | 115上・9年級・第1次 | 未轉寫 | doc | `metro-taichung-958e8a3eb0650037` | [原檔/來源](<https://drive.google.com/file/d/1zqi8PjO-M8Ic3wAeVMBUYF9s4iH6BCAW/view>)  | `0bbb5d6e4ffff0849c3ca4731d12bace6f45a50e51899a9e3be21ec41b1b5c98` |
 | 114上・7年級・第1次 | 未轉寫 | doc | `metro-taichung-02f15645013273f8` | [原檔/來源](<https://drive.google.com/file/d/18kWURWVud9wBx5iZsArKmxVjRicn9mYF/view>)  | `d4e21b283371409a8d6c7d3938d990306a5f386fbeb67c7f311ec35e4ff2bb41` |
 | 114上・7年級・第1次 | 未轉寫 | doc | `metro-taichung-13aeafd0e0b5a1e2` | [原檔/來源](<https://drive.google.com/file/d/1l_q_rMBA2oZb1x7ViMJ7XhsLLU0tAp5x/view>)  | `75fc887eb3305f8d4b5594dd8a98b1401f1904fd9f7e754db183d4cb97d7a608` |
-| 114上・7年級・第1次 | 未轉寫 | pdf | `metro-taichung-4b9434bd9bd86b86` | [原檔/來源](<https://drive.google.com/file/d/1Ss4PxunaOof0j0ToDQ5h6gXTMg8Qo9ST/view>)  | `22b2a88a6f5d245f30176f648936af702eddacf811f1ad458e65ce7d873fa8e6` |
 | 114上・7年級・第2次 | 未轉寫 | docx | `metro-taichung-94e701bcb430b316` | [原檔/來源](<https://drive.google.com/file/d/1asDRyftRJzTt04mguvADgHQX2sPZ6r87/view>)  | `2dc12f9f947b38a3b0167f9d0f8b1685984b2db045f577a6526c8e91f73d76b4` |
 | 114上・7年級・第3次 | 未轉寫 | docx | `metro-taichung-621c4112c3b54312` | [原檔/來源](<https://drive.google.com/file/d/1YG0kvUiZKrbtLKdbK4Bb4hIIfLx7qSYf/view>)  | `1bdb98427475c274b2bdd143e67a570791e973bcd3f5aebf730e37384ddafee7` |
 | 114下・7年級・第1次 | 未轉寫 | pdf | `metro-taichung-076a3db57980ebd7` | [原檔/來源](<https://drive.google.com/file/d/11x-7N5IkPjRFmOqVEUtbDLP2izlnzgP4/view>)  | `9518b32d029b11c2e1347118312e2d2820b0be445886c4c1ab400266ade6a6ea` |
@@ -35,7 +34,6 @@
 | 114上・9年級・第3次 | 未轉寫 | pdf | `metro-taichung-544a6b2618894b56` | [原檔/來源](<https://drive.google.com/file/d/1ON4TK4QmOU0DZamGa2Ywc2vVPjCp8OZC/view>)  | `6db43ed00371da66c8de5cbba2867d47cd2c060aa15c9f62f8479d6e3fa6a010` |
 | 114下・9年級・第2次 | 未轉寫 | docx | `metro-taichung-12feae393e5d715c` | [原檔/來源](<https://drive.google.com/file/d/15c1HVRIAeyVwQ_ItiN3phb8QOEl32Do1/view>)  | `0c48e39889d7a73bcb392c880c02e0f8c93fdf5aa54db6b78ed1ae7421ab7634` |
 | 114下・9年級・第2次 | 未轉寫 | pdf | `metro-taichung-a88a21ddaf646827` | [原檔/來源](<https://drive.google.com/file/d/1WYob0nIxEnig9_-2CnKBzeH-GfXEUUEi/view>)  | `f59852e59b63217d86239bb24dec9ea007205171f2bae5a21f4c717112369829` |
-| 113上・7年級・第1次 | 未轉寫 | pdf | `metro-taichung-6869acb13cff7690` | [原檔/來源](<https://drive.google.com/file/d/1tyKUvrQ3UNHtHhq2-qDbd4jtnKwGw1Di/view>)  | `3c1f9588ecb88a5f29025264cac9fef61057f4215a4c5829913088b38db603ab` |
 | 113上・7年級・第1次 | 未轉寫 | docx | `metro-taichung-7496dbc71ef50523` | [原檔/來源](<https://drive.google.com/file/d/1zpH9_6vHVnlV9z1DjMgMKAHugScrmmRQ/view>)  | `f8a3d1280dae2449ae11a3e6912d45a988e7ea96b6fcd739258f45fab0d41c86` |
 | 113上・7年級・第1次 | 未轉寫 | docx | `metro-taichung-9b6414616f7ccded` | [原檔/來源](<https://drive.google.com/file/d/1-3mweGoJWC7XBOekgF-XbnE5iYGq2gkA/view>)  | `897b5ccfab5d1e95821abc116f42365be6f038d905a9d1cb4ffff10bdf1dbe99` |
 | 113上・7年級・第2次 | 未轉寫 | docx | `metro-taichung-abdb979848435a7c` | [原檔/來源](<https://drive.google.com/file/d/1zxgbmsnBENqJYTT_HcYktqjhEzb-0ugP/view>)  | `f3f08218655d2e373f545057c900d599e634d6d52e9f79ba29550b6debb71e4b` |

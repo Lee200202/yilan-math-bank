@@ -5,6 +5,8 @@ description: Run the 蘭卷 junior-high math exam bank end to end — dispatch h
 
 # 蘭卷題庫：接手與協調流程
 
+**2026-11-16 最新使用者指示：先宜蘭全部學校的八上、八下、九上、九下、七年級，再處理都會區同順序。** `research/make_waves.py` 以個別原卷排隊；不同學校、同年考次及同校不同原卷均不能因已有一卷而忽略。僅 PDF 本機可處理卷進派工清單；Word／ODT、缺檔、來源疑義另列待辦，不能當作完成。沿用 AI 文字，圖形對照原卷並執行結構檢查；不要求全文或逐頁 PDF 重審。舊版「每個地區時段只選一份」的敘述已被此條取代。
+
 ## 0. 一分鐘版
 
 - 網站：<https://lee200202.github.io/yilan-math-bank/>（推到 `main` 就由 GitHub Actions `pages.yml` 自動部署，約 40 秒）。

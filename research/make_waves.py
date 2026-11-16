@@ -1,5 +1,4 @@
-"""Build non-overlapping transcription waves for helpers: one best PDF per uncovered
-(region, year, grade, semester, exam) slot, skipping papers that are claimed/staged/transcribed.
+"""Build non-overlapping waves of individual papers, skipping claimed or transcribed files.
 Usage: python research/make_waves.py <wave-name> <helpers> <per-helper> [region ...]
 Writes research/targets/<wave>-<k>.json and claims the papers in handoff/CLAIMS.json."""
 import collections
@@ -18,34 +17,23 @@ claims = json.loads((ROOT / 'handoff/CLAIMS.json').read_text(encoding='utf-8'))
 taken = {c['paperId'] for c in claims['claims'] if c['status'] not in ('source-issue-reported',)}
 taken |= {f.stem for d in ('research/metro/transcribed', 'research/yilan/transcribed') for f in (ROOT / d).glob('*.json')}
 issues = {f.stem for f in (ROOT / 'handoff/source-issues').glob('*.json')}
-slots = collections.defaultdict(lambda: {'done': 0, 'todo': []})
-for x in papers:
-    k = (x['region'], x['year'], x['grade'], x['semester'], x['exam'])
-    if x.get('transcriptionStatus', '').startswith('complete'):
-        slots[k]['done'] += 1
-    else:
-        slots[k]['todo'].append(x)
-# a slot already has a paper in flight -> skip it entirely
-inflight = {k for k, v in slots.items() if any(t['id'] in taken for t in v['todo'])}
 queue = collections.defaultdict(list)
-for k, v in slots.items():
-    if v['done'] or k in inflight or k[0] not in regions:
+for x in papers:
+    if x['region'] not in regions or x.get('transcriptionStatus', '').startswith('complete') or x['id'] in taken:
         continue
-    for x in sorted(v['todo'], key=lambda t: t['id']):
-        if x['format'] != 'pdf' or x['id'] in issues:
-            continue
-        path = ('public/' + x['file'].removeprefix('./')) if x['region'] == 'yilan' else local.get(x['id'])
-        if path and (ROOT / path).exists():
-            queue[x['region']].append({'paperId': x['id'], 'region': x['region'], 'school': x['school'], 'year': x['year'],
-                                       'semester': x['semester'], 'grade': x['grade'], 'exam': x['exam'], 'pdf': path,
-                                       'existingQuestions': x.get('questionCount', 0),
-                                       'outFile': ('research/yilan/transcribed/' if x['region'] == 'yilan' else 'research/metro/transcribed/') + x['id'] + '.json'})
-            break
+    if x['format'] != 'pdf' or x['id'] in issues:
+        continue
+    path = ('public/' + x['file'].removeprefix('./')) if x['region'] == 'yilan' else local.get(x['id'])
+    if path and (ROOT / path).exists():
+        queue[x['region']].append({'paperId': x['id'], 'region': x['region'], 'school': x['school'], 'year': x['year'],
+                                   'semester': x['semester'], 'grade': x['grade'], 'exam': x['exam'], 'pdf': path,
+                                   'existingQuestions': x.get('questionCount', 0),
+                                   'outFile': ('research/yilan/transcribed/' if x['region'] == 'yilan' else 'research/metro/transcribed/') + x['id'] + '.json'})
 # Owner's priority (2026-11-16): 八上 first, then 八下, 九上, 九下, and 七年級 last.
 PRIORITY = {(8, 1): 0, (8, 2): 1, (9, 1): 2, (9, 2): 3, (7, 1): 4, (7, 2): 4}
 rank = lambda t: PRIORITY.get((t['grade'], t['semester']), 9)
 region_index = {r: i for i, r in enumerate(regions)}
-order = sorted((t for r in queue for t in queue[r]), key=lambda t: (rank(t), -t['year'], region_index[t['region']], t['exam']))
+order = sorted((t for r in queue for t in queue[r]), key=lambda t: (t['region'] != 'yilan', rank(t), -t['year'], region_index[t['region']], t['exam']))
 chosen = order[:helpers * per]
 # helper k takes every helpers-th paper so each helper gets a mix of regions at the same priority
 queue = {'rest': order[helpers * per:]}
@@ -59,4 +47,4 @@ for h in range(helpers):
     print(f'{wave}-{h + 1}:', [f"{t['school']}{t['year']}-{t['semester']}-G{t['grade']}-E{t['exam']}" for t in mine])
 claims['updatedAt'] = now
 (ROOT / 'handoff/CLAIMS.json').write_text(json.dumps(claims, ensure_ascii=False, indent=1), encoding='utf-8')
-print(len(chosen), 'claimed;', sum(len(v) for v in queue.values()) + len(order) - len(chosen), 'more queued')
+print(len(chosen), 'claimed;', len(order) - len(chosen), 'more locally available PDF papers queued')

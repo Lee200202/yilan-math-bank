@@ -59,7 +59,7 @@ def main():
     data = snapshot()
     summary = f"版本 {data['dataVersion']} / {data['head'][:8]}\n原卷 {data['paperCount']}；可用題 {data['usableQuestions']}；狀態 {data['statuses']}\n"
     for name, queue in data['queues'].items():
-        summary += f"{name}: 未認領PDF候選 {queue['remaining']} 卷，接續 " + ', '.join(t['paperId'] for t in queue['next']) + '\n'
+        summary += (f"{name}: 未認領PDF候選 {queue['remaining']} 卷，接續 " + ', '.join(t['paperId'] for t in queue['next'])).rstrip() + '\n'
     print(summary)
     if args.write:
         folder = ROOT / 'handoff'

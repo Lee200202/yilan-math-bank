@@ -1,6 +1,6 @@
 # 新北市 永和國中 待完成清單
 
-未轉寫 15 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
+未轉寫 14 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
 
 | 範圍 | 狀態 | 格式 | paperId | 原檔／官方包 | SHA256 |
 | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,6 @@
 | 114上・8年級・第3次 | 未轉寫 | pdf | `metro-new_taipei-7e95660c4c6585bb` | [原檔/來源](<https://drive.google.com/file/d/1Wp96cEKOvgF-5QKve6-VLLWfLh2X5L65/view>)  | `2cff840ec9ddad0148e4e028938b6e0e53addb9a167ea1587a74ea4eca8a72e5` |
 | 114下・8年級・第1次 | 未轉寫 | pdf | `metro-new_taipei-4141eefb8db2d129` | [原檔/來源](<https://drive.google.com/file/d/1HpyIoO9iL-D9aFoTgqWoyh9KvWtmT9rQ/view>)  | `ec79ce137df2a556d285d7caac07a0ecaa28d34d80ef1ced5c4f11387c345016` |
 | 114下・8年級・第2次 | 未轉寫 | pdf | `metro-new_taipei-41ffc82d2dff3e90` | [原檔/來源](<https://drive.google.com/file/d/1LLnx3KeM42N-Hald4PrRPR6XUU22i63C/view>)  | `2737b8c1bba5730ce36f131e60bdde51701297170e703cf7a5d23afe951132da` |
-| 114下・8年級・第3次 | 未轉寫 | pdf | `metro-new_taipei-c05ac195112cf94a` | [原檔/來源](<https://drive.google.com/file/d/1RjR8S-h_0PQdN5mXLVMGg1rbpptFM_Py/view>)  | `de76aa6d1107b722e816bd68c91118279d49fad98e9ce6544826d72220320ed1` |
 | 114上・9年級・第1次 | 未轉寫 | pdf | `metro-new_taipei-dd00c2d63d4642e0` | [原檔/來源](<https://drive.google.com/file/d/13z5WMkCCCybEUo0FGFMbZ_qbFAoXxotF/view>)  | `098fe7759eae113a4fdbcfdb57d6dafbe3c1f71b17ec39509ba34d54127101e8` |
 | 114上・9年級・第2次 | 未轉寫 | pdf | `metro-new_taipei-bd487fbfbd1d81df` | [原檔/來源](<https://drive.google.com/file/d/118Egb-NS6pJOxm0phrGU63ZXQEhJX2q7/view>)  | `d42ccff8bc3c330904a3da081b53295eec8d3d08ec494bdc87187831a4fe4213` |
 | 114上・9年級・第3次 | 未轉寫 | pdf | `metro-new_taipei-d87a9189ff92618d` | [原檔/來源](<https://drive.google.com/file/d/1F_Li5zWCjOskJnC3gMhBfu6HMD-919R9/view>)  | `86b46dbdbd08a8a4e7102befcdd25bf4c874871bc110b80f1f7074c59d815f9c` |

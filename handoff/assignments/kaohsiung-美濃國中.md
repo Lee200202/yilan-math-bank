@@ -1,6 +1,6 @@
 # 高雄市 美濃國中 待完成清單
 
-未轉寫 119 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
+未轉寫 118 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
 
 | 範圍 | 狀態 | 格式 | paperId | 原檔／官方包 | SHA256 |
 | --- | --- | --- | --- | --- | --- |
@@ -95,7 +95,6 @@
 | 109上・7年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-bec758715419c3fa` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1091/03/一數學.doc>)  | `d60ebfcb361bb3c366cc2907cfd62699baab1c0442ac9c14fd88c70086220256` |
 | 109下・7年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-301b20f3011cd113` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1092/01/一數學.doc>)  | `361251521a74b1d29dc82c5d41f6698ff720270ea2509837b135d42d5d7ae7a1` |
 | 109下・7年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-b4eaaa0dc2367b52` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1092/02/一數學.docx>)  | `8c1200565d25c09a7f3592fb56fb0490161bab3714f1a80e2c5e201e99019bf4` |
-| 109下・7年級・第3次 | 未轉寫 | pdf | `metro-kaohsiung-af064db20548ddb6` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1092/03/一數學.pdf>)  | `df45d9d8471b30d1ed7d2bb987750b8904809441d0d00e850e0403619a65c573` |
 | 109上・8年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-c09eed0740c7991c` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1091/01/二數學.docx>)  | `c59dbc0ba6e8ba7b81e5515af4bac1ea3f6e31978c0e76af999099109a286d28` |
 | 109上・8年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-ab072c4621722909` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1091/02/二數學.docx>)  | `bb5d434e9fd92f0136262373e6b952eb891daf4dec3667d6622153431f362590` |
 | 109上・8年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-cdcd7aa605a007dc` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1091/03/二數學.doc>)  | `7ce20a516f411320de135d7a67c9f63860a898e04b43fb0e8d6dbd59975df380` |

@@ -1,16 +1,15 @@
 # 宜蘭縣 羅東國中 待完成清單
 
-未轉寫 66 份，部分轉寫 10 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
+未轉寫 66 份，部分轉寫 9 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
 
 | 範圍 | 狀態 | 格式 | paperId | 原檔／官方包 | SHA256 |
 | --- | --- | --- | --- | --- | --- |
 | 112上・7年級・第2次 | 部分轉寫 | pdf | `ld-112-1-2-7` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-112-1-2-7.pdf>)  | `2a4b3827acf1bed0fb1db7e090304d91bd711d7e428d5f7e2a85cb38fa49dda9` |
-| 112上・8年級・第1次 | 部分轉寫 | pdf | `ld-112-1-1-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-112-1-1-8.pdf>)  | `fdd152166a63edb966e8042469f1ca8cd34ce8c773b97dbc339d9eea66b1a9a2` |
 | 112上・9年級・第1次 | 部分轉寫 | pdf | `ld-112-1-1-9` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-112-1-1-9.pdf>)  | `5705a85551e84f20e5ceee9641c1bee91774d82e28b54afeef3e7c3829808374` |
 | 112上・9年級・第2次 | 未轉寫 | pdf | `ld-112-1-2-9` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-112-1-2-9.pdf>)  | `98a9be91d00b8558214ef9be797d059cce6bd810c79c969deee6d6263b4be232` |
 | 110上・7年級・第1次 | 部分轉寫 | pdf | `ld-110-1-1-7` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-110-1-1-7.pdf>)  | `99d589c444a7d72cdbb6c3b7242e3c4a5db61377ea6a78b40d06d3aba1155be6` |
 | 110上・8年級・第1次 | 部分轉寫 | pdf | `ld-110-1-1-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-110-1-1-8.pdf>)  | `90086d9306fa35ac52a8e48635dd71841d8e4b1e257791202a7382f06698bd4b` |
-| 110上・8年級・第3次 | 未轉寫 | pdf | `ld-110-1-3-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-110-1-3-8.pdf>)  | `6c980ee5b254150b7457cbef918ec936ee20c0aad514724d80e287a8d2532832` |
+| 110上・8年級・第3次 | 已預留外部AI，勿重派 | pdf | `ld-110-1-3-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-110-1-3-8.pdf>)  | `6c980ee5b254150b7457cbef918ec936ee20c0aad514724d80e287a8d2532832` |
 | 110上・9年級・第1次 | 部分轉寫 | pdf | `ld-110-1-1-9` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-110-1-1-9.pdf>)  | `504e5aee4d08e5a51fedeaaad1b25ca9e8143ed3f096219a087e5b7cfcaf3fb6` |
 | 110上・9年級・第2次 | 未轉寫 | pdf | `ld-110-1-2-9` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-110-1-2-9.pdf>)  | `f002d4d81612b59490e86b8b383bd3c8327b6b3949d894def48dc32083af2868` |
 | 110上・9年級・第3次 | 未轉寫 | pdf | `ld-110-1-3-9` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-110-1-3-9.pdf>)  | `2cc6f26727434b490e6e33b0d226831ffa24b6406ab480ddcfa85034f595df22` |
