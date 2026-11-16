@@ -165,4 +165,4 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 
 - 新增中正、興福、自強、鷺江、大業、三和、大灣、五峰、永和、福和共 23 卷，可組卷題數 11,684 → 12,283。`npm test` 77 項通過；23 卷 PDF 匯出檢查全數通過（`handoff/batches/20261116-w11-pdf-acceptance.json`）。原卷疑義見 `handoff/batches/20261116-w11-SOURCE_ISSUES_REPORT.md`。
 - 另修 `scripts/merge_batch.py`：核准卷超過數百份時檢查指令超出 Windows 長度限制，改用相對路徑。
-- 正式站驗收：見 `handoff/batches/20261116-w11/live-acceptance.json`（發布後補）。
+- 正式站驗收：見 `handoff/batches/20261116-w11/live-acceptance.json`：ALL PASS（3 卷整卷載入／換題／PDF 還原、各年級組卷、手機版、無主控台錯誤）。
