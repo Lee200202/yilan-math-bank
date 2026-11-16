@@ -32,10 +32,10 @@ def snapshot():
     claims = json.loads((ROOT / 'handoff/CLAIMS.json').read_text(encoding='utf-8'))['claims']
     reserved = {c['paperId'] for c in claims if c.get('status') in ('claimed','transcribing','repairing-figures','assigned-external','reserved-for-external-dispatch','staged-for-coordinator-review')}
     for path in sorted((ROOT / 'research/targets').glob('*.json')):
-        targets = json.loads(path.read_text(encoding='utf-8'))
+        targets = json.loads(path.read_text(encoding='utf-8-sig'))
         if not isinstance(targets, list):
             continue
-        incomplete = [t for t in targets if not (ROOT / t['outFile']).exists()]
+        incomplete = [t for t in targets if isinstance(t, dict) and 'outFile' in t and not (ROOT / t['outFile']).exists()]
         queued_ids.update(t['paperId'] for t in incomplete)
         waiting = [t for t in incomplete if t['paperId'] not in blocked_ids | reserved]
         queues[path.stem] = {'remaining': len(waiting), 'next': waiting[:3]}

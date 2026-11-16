@@ -1,3 +1,5 @@
+> **最新入口：[skills/exam-bank-coordinator/SKILL.md](skills/exam-bank-coordinator/SKILL.md)** — 接手後先讀它（流程、指令、路徑、部署、坑、待決事項）。下方是較早的交接說明。
+
 > 最新規則：先讀 [REVIEW_POLICY.md](handoff/REVIEW_POLICY.md)。完整AI文字直接沿用，圖形優先；不再等待全文或每頁PDF重審。
 
 # Codex／Claude 共用交接入口

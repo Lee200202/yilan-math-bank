@@ -41,14 +41,14 @@ for k, v in slots.items():
                                        'existingQuestions': x.get('questionCount', 0),
                                        'outFile': ('research/yilan/transcribed/' if x['region'] == 'yilan' else 'research/metro/transcribed/') + x['id'] + '.json'})
             break
-order = []
-for r in queue:
-    queue[r].sort(key=lambda t: (-t['year'], t['grade'], t['semester'], t['exam']))
-while any(queue.values()):
-    for r in regions:
-        if queue.get(r):
-            order.append(queue[r].pop(0))
+# Owner's priority (2026-11-16): 八上 first, then 八下, 九上, 九下, and 七年級 last.
+PRIORITY = {(8, 1): 0, (8, 2): 1, (9, 1): 2, (9, 2): 3, (7, 1): 4, (7, 2): 4}
+rank = lambda t: PRIORITY.get((t['grade'], t['semester']), 9)
+region_index = {r: i for i, r in enumerate(regions)}
+order = sorted((t for r in queue for t in queue[r]), key=lambda t: (rank(t), -t['year'], region_index[t['region']], t['exam']))
 chosen = order[:helpers * per]
+# helper k takes every helpers-th paper so each helper gets a mix of regions at the same priority
+queue = {'rest': order[helpers * per:]}
 out = ROOT / 'research/targets'
 now = datetime.datetime.now(datetime.timezone.utc).isoformat()
 for h in range(helpers):
