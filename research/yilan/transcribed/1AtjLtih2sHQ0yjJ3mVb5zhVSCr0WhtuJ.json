@@ -10,7 +10,7 @@
   },
   "printedCounts": "填充22題，多小題併原題。",
   "visualReviewComplete": true,
-  "reviewNote": "原卷兩頁；第3題圖形線段暫不能確認，標示停用，其餘21題供選用。",
+  "reviewNote": "原卷兩頁；第3題圖形線段暫不能確認，標示停用，其餘21題供選用。 最後一題圖按原卷幾何結構重繪，取消停用。",
   "expectedTypes": {
     "choice": 0,
     "fill": 22,
@@ -65,10 +65,13 @@
         {
           "type": "text",
           "text": "求原卷圖中陰影面積：＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 125,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 170\"><path d=\"M45 110 L70 25 L235 65 L210 150 Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><polygon points=\"45,110 145,43 235,65 170,140\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.5\"/><path d=\"M68 34 L76 36 L79 27 M201 148 L204 140 L212 142\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><g font-size=\"16\" fill=\"#111\"><text x=\"2\" y=\"65\">2x＋3</text><text x=\"155\" y=\"37\">3x−2</text><text x=\"238\" y=\"113\">3x＋1</text><text x=\"60\" y=\"140\">2x＋3</text></g></svg>"
         }
-      ],
-      "usable": false,
-      "sourceIssue": "圖形線段陰影配置尚待重新核對及重繪，暫不抽題。"
+      ]
     },
     {
       "type": "fill",
