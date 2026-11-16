@@ -10,7 +10,7 @@
   },
   "printedCounts": "基礎填充6題、一般填充12題、綜合題3題。",
   "visualReviewComplete": true,
-  "reviewNote": "兩頁原卷，兩道幾何圖尚待重繪，標示停用；數表依原卷保留。",
+  "reviewNote": "兩頁原卷，兩道幾何圖尚待重繪，標示停用；數表依原卷保留。 已對照原卷重繪恢復部分幾何圖。",
   "expectedTypes": {
     "choice": 0,
     "fill": 18,
@@ -384,10 +384,13 @@
         {
           "type": "text",
           "text": "如下圖，正方形甲和正方形乙的面積分別為 $20$ 和 $36$，兩正方形以 $A$ 點為樞紐點可順時針或逆時針旋轉，$A$ 點與兩正方形的兩邊長圍成 $\\triangle ABC$。若 $\\overline{BC}$ 長為一整數，則 $\\overline{BC}$ 長的值可能有幾種？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 150\"><g stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"><path d=\"M115 35 L95 110 L20 90 L40 15 Z M115 35 L200 5 L230 90 L145 120 Z\"/><path d=\"M95 110 L145 120\" stroke-dasharray=\"5 4\"/></g><g fill=\"#111\" font-size=\"16\"><text x=\"109\" y=\"29\">A</text><text x=\"86\" y=\"127\">B</text><text x=\"146\" y=\"138\">C</text><text x=\"57\" y=\"68\">甲</text><text x=\"170\" y=\"65\">乙</text></g></svg>"
         }
-      ],
-      "usable": false,
-      "sourceIssue": "原卷兩方形轉動圖尚待重繪，暫不抽題。"
+      ]
     },
     {
       "type": "written",
@@ -403,10 +406,13 @@
         {
           "type": "text",
           "text": "如下圖，正方形甲與矩形乙合併成一矩形 $ABCD$，矩形乙與矩形丙合併成一正方形 $CEFG$，已知 $\\overline{BC}=7$，乙面積 $=5$，求：(1) 甲面積＋丙面積；(2) $\\overline{DE}$。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 175\"><g stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"><path d=\"M20 90 H220 V150 H20 Z M80 90 V10 H220 V150 M80 90 V150\"/></g><g fill=\"#111\" font-size=\"16\"><text x=\"8\" y=\"86\">A</text><text x=\"8\" y=\"165\">B</text><text x=\"222\" y=\"165\">C</text><text x=\"222\" y=\"96\">D</text><text x=\"222\" y=\"16\">E</text><text x=\"68\" y=\"16\">F</text><text x=\"68\" y=\"165\">G</text><text x=\"42\" y=\"126\">甲</text><text x=\"145\" y=\"126\">乙</text><text x=\"145\" y=\"58\">丙</text></g></svg>"
         }
-      ],
-      "usable": false,
-      "sourceIssue": "原卷三矩形示意圖尚待重繪，暫不抽題。"
+      ]
     }
   ]
 }

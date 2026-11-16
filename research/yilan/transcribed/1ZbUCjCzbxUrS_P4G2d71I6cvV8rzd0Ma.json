@@ -10,7 +10,7 @@
   },
   "printedCounts": "是非6題、填充9題、計算4題。",
   "visualReviewComplete": true,
-  "reviewNote": "兩頁原卷，3題圖形尚待重繪故停用。",
+  "reviewNote": "兩頁原卷，3題圖形尚待重繪故停用。 已對照原卷重繪恢復部分幾何圖。",
   "expectedTypes": {
     "choice": 0,
     "fill": 15,
@@ -269,10 +269,13 @@
         {
           "type": "text",
           "text": "原卷圖中的六邊形是由甲、乙兩個長方形和丙、丁兩個等腰直角三角形所組成，其中甲、乙的面積和等於丙、丁的面積和。若丙的一股長為 $3$，且丁的面積比丙的面積小，則丁的一股長為何？答：＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 160\"><g stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"><path d=\"M20 110 L100 30 H140 L220 110 L200 130 H40 Z M100 30 L200 130 M140 30 L40 130\"/></g><g fill=\"#111\" font-size=\"16\"><text x=\"65\" y=\"88\">甲</text><text x=\"162\" y=\"88\">乙</text><text x=\"112\" y=\"108\">丙</text><text x=\"112\" y=\"47\">丁</text></g></svg>"
         }
-      ],
-      "usable": false,
-      "sourceIssue": "六邊形面積圖待重繪，暫停抽題。"
+      ]
     },
     {
       "type": "written",
@@ -288,10 +291,13 @@
         {
           "type": "text",
           "text": "有一塊長 $60$ 公尺、寬 $40$ 公尺的長方形花圃，今在其周圍及內部開闢等寬的道路，如圖，將花圃分為 $6$ 塊面積均為 $192$ 平方公尺的長方形土地，則路寬為多少公尺？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 110,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 165\"><g stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"><rect x=\"35\" y=\"35\" width=\"180\" height=\"120\"/><rect x=\"45\" y=\"45\" width=\"75\" height=\"30\"/><rect x=\"130\" y=\"45\" width=\"75\" height=\"30\"/><rect x=\"45\" y=\"85\" width=\"75\" height=\"25\"/><rect x=\"130\" y=\"85\" width=\"75\" height=\"25\"/><rect x=\"45\" y=\"120\" width=\"75\" height=\"25\"/><rect x=\"130\" y=\"120\" width=\"75\" height=\"25\"/></g><g fill=\"#111\" font-size=\"16\"><text x=\"117\" y=\"25\">60</text><text x=\"8\" y=\"100\">40</text></g></svg>"
         }
-      ],
-      "usable": false,
-      "sourceIssue": "道路分割示意圖待重繪，暫停抽題。"
+      ]
     },
     {
       "type": "written",

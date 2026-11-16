@@ -1,6 +1,6 @@
 # 宜蘭縣 羅東國中 待完成清單
 
-未轉寫 62 份，部分轉寫 8 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
+未轉寫 60 份，部分轉寫 8 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
 
 | 範圍 | 狀態 | 格式 | paperId | 原檔／官方包 | SHA256 |
 | --- | --- | --- | --- | --- | --- |
@@ -63,8 +63,6 @@
 | 105下・7年級・第1次 | 未轉寫 | docx | `ld-105-2-1-7` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-105-2-1-7.docx>)  | `22107859d277017edc64c63364ddf3bae63b05d0283819e7b14de809b4ebd817` |
 | 105下・7年級・第2次 | 未轉寫 | pdf | `ld-105-2-2-7` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-105-2-2-7.pdf>)  | `713e252752ae523d79cda669f7852ab95c1d49936fdbea336a89aec40f554d04` |
 | 105下・7年級・第3次 | 未轉寫 | pdf | `ld-105-2-3-7` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-105-2-3-7.pdf>)  | `6bbb372823d108b6027186607ede1172a4ee546358f526e705ab86a08066e130` |
-| 105上・8年級・第1次 | 未轉寫 | pdf | `ld-105-1-1-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-105-1-1-8.pdf>)  | `a509a87b6711578507821a670c359ded01dd89180b6b0b9723c181611044209c` |
-| 105上・8年級・第3次 | 未轉寫 | pdf | `ld-105-1-3-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-105-1-3-8.pdf>)  | `0d662c9e1112f4483e58a89f9ebe16072e149d25b24397fb0837cac6d7741130` |
 | 105下・8年級・第1次 | 未轉寫 | doc | `ld-105-2-1-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-105-2-1-8.doc>)  | `93bdfb31189c1b296d19b595cf3288511ab9309866fccfe82425f6c723727ff2` |
 | 105下・8年級・第1次 | 未轉寫 | doc | `ld-106-1-1-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-106-1-1-8.doc>)  | `93bdfb31189c1b296d19b595cf3288511ab9309866fccfe82425f6c723727ff2` |
 | 105下・8年級・第2次 | 未轉寫 | pdf | `ld-105-2-2-8` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/ld-105-2-2-8.pdf>)  | `2b425c8ed7a41ee554c703547e98ae6cdb4ab391d008b0db934da08900b4aa45` |
