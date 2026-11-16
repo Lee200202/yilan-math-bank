@@ -8,7 +8,33 @@ export function eligible(q, f) {
   return q.reviewed && q.typesetVerified===true && !q.selectionHidden && (!f.year || q.year===Number(f.year)) && (!f.semester || q.semester===Number(f.semester)) && (!f.grade || q.grade===Number(f.grade)) && (byUnit||!f.exam || q.exam===Number(f.exam)) && (!f.region || regionOf(q)===f.region) && (!f.school || q.school===f.school) && (!f.difficulty || q.difficulty===f.difficulty) && (!f.curriculumOnly || q.year>=108+q.grade-7) && (!byUnit||Number(f.unitWeights?.[q.primaryUnitId])>0);
 }
 const contentKey=q=>q.sourceSha256?`${q.sourceSha256}:${q.type}:${q.sourceNumber||q.number}`:q.id;
-export function eligiblePool(bank,filters){const seen=new Set();return bank.filter(q=>{if(!eligible(q,filters))return false;const key=contentKey(q);if(seen.has(key))return false;seen.add(key);return true;});}
+// Visible content (text, options, table cells and figures). Two questions with identical content are the same
+// question even when they come from different source files (a school re-posts the same exam).
+const visibleContent=q=>Array.isArray(q.blocks)&&q.blocks.length?JSON.stringify(q.blocks).replace(/\s+/g,''):null;
+export function eligiblePool(bank,filters){const seen=new Set();return bank.filter(q=>{if(!eligible(q,filters))return false;const keys=[contentKey(q)],body=visibleContent(q);if(body)keys.push(`${q.type}:${body}`);if(keys.some(k=>seen.has(k)))return false;keys.forEach(k=>seen.add(k));return true;});}
+// Sub-questions of one problem ("1-1" and "1-2", "6(1)" and "6(3)", "承上題") share a stem. A paper that carries two of
+// them reads as the same question twice, so generation treats them as one family and only combines them when the
+// requested scope has no other question of that type and difficulty left.
+const plainText=q=>(q.blocks||[]).map(b=>(b.text||'')+(b.items||[]).join('')+(b.rows||[]).flat().join('')).join('').replace(/[\s　（）()．.，,、。：:；;]/g,'');
+const baseNumber=n=>String(n??'').replace(/(?:-\d+|\(\d+\))+$/,'');
+export function familyKeys(q){
+  const number=baseNumber(q.sourceNumber||q.number),keys=[],opening=plainText(q).slice(0,50);
+  if(q.sourceParentId)keys.push(`parent|${q.sourceParentId}`);else if(q.paperId&&number)keys.push(`${q.paperId}|${q.type}|#${number}`);
+  // The same exam is often posted twice with small edits, so an identical opening also marks a repeat across papers.
+  if(opening.length>=24)keys.push(`${q.type}|~${opening}`);
+  return keys;
+}
+function diversify(selected,pool,byUnit,random){
+  const result=[...selected];
+  for(let i=0;i<result.length;i++){
+    const keys=familyKeys(result[i]),others=result.filter((_,j)=>j!==i),blocked=new Set(others.flatMap(familyKeys));
+    if(!keys.some(k=>blocked.has(k)))continue;
+    const inUse=new Set(result.map(q=>q.id)),q=result[i];
+    const options=pool.filter(c=>!inUse.has(c.id)&&c.type===q.type&&c.difficulty===q.difficulty&&(!byUnit||c.primaryUnitId===q.primaryUnitId)&&!familyKeys(c).some(k=>blocked.has(k)));
+    if(options.length)result[i]=shuffle(options,random)[0];
+  }
+  return result;
+}
 export function availableCounts(bank,filters){const pool=eligiblePool(bank,filters);return Object.fromEntries(TYPES.map(type=>[type,pool.filter(q=>q.type===type).length]));}
 export function suggestedCounts(bank,filters,requested){
   const stock=availableCounts(bank,filters);
@@ -137,7 +163,7 @@ export function generate(bank, filters, counts, ratios, target=100, random=Math.
   if(!ratios||typeof ratios!=='object'||Array.isArray(ratios)||Object.keys(ratios).some(k=>!LEVELS.includes(k))||Object.values(ratios).some(n=>!Number.isFinite(Number(n))||n<0)||Object.values(ratios).reduce((a,b)=>a+Number(b),0)!==100) throw new Error('三種難度比例合計須為 100%。');
   const pool=eligiblePool(bank,filters), selected=[];
   const difficultyTarget=quotas(Object.fromEntries(LEVELS.map(level=>[level,Number(ratios[level])||0])),total).map(r=>r.count);
-  if(filters.scopeMode==='units'){const result=unitSelection(pool,filters,counts,difficultyTarget,total,random),ordered=orderPracticeQuestions(result.selected),scores=allocateScores(ordered,target);return {items:ordered.map((q,i)=>({id:q.id,score:scores[i]})),notices:result.notices};}
+  if(filters.scopeMode==='units'){const result=unitSelection(pool,filters,counts,difficultyTarget,total,random),ordered=orderPracticeQuestions(diversify(result.selected,pool,true,random)),scores=allocateScores(ordered,target);return {items:ordered.map((q,i)=>({id:q.id,score:scores[i]})),notices:result.notices};}
   for(const type of TYPES){
     const n=Number(counts[type]), available=pool.filter(q=>q.type===type);
     if(available.length<n) throw new Error(`${TYPE_NAMES[type]}只有 ${available.length} 題符合條件，請減少題數或放寬篩選。`);
@@ -146,7 +172,7 @@ export function generate(bank, filters, counts, ratios, target=100, random=Math.
   if(!plan)throw new Error('目前題型與難度資料無法完成組卷。');
   TYPES.forEach((type,t)=>selected.push(...shuffle(LEVELS.flatMap((level,l)=>shuffle(pool.filter(q=>q.type===type&&q.difficulty===level),random).slice(0,plan[t][l])),random)));
   const notices=difficultyNotices(selected,counts,difficultyTarget,total,false);
-  const ordered=orderPracticeQuestions(selected),scores=allocateScores(ordered,target);
+  const ordered=orderPracticeQuestions(diversify(selected,pool,false,random)),scores=allocateScores(ordered,target);
   return {items:ordered.map((q,i)=>({id:q.id,score:scores[i]})),notices};
 }
 export function replaceQuestion(bank, session, index, filters, random=Math.random) {
@@ -155,7 +181,10 @@ export function replaceQuestion(bank, session, index, filters, random=Math.rando
   const usedContent=new Set(bank.filter(q=>used.has(q.id)).map(contentKey));
   const candidates=eligiblePool(bank,filters).filter(q=>q.type===old.type&&q.difficulty===old.difficulty&&!used.has(q.id)&&!usedContent.has(contentKey(q))&&(filters.scopeMode!=='units'||q.primaryUnitId===old.primaryUnitId));
   if(!candidates.length)throw new Error('相同篩選、題型及難度已無未使用的題目。請調整篩選後重新組卷，或保留本題。');
-  const next=shuffle(candidates,random)[0];
+  // Prefer a question that is not a sub-question of something already on the paper.
+  const blocked=new Set(bank.filter(q=>used.has(q.id)&&q.id!==old.id).flatMap(familyKeys));
+  const fresh=candidates.filter(q=>!familyKeys(q).some(k=>blocked.has(k)));
+  const next=shuffle(fresh.length?fresh:candidates,random)[0];
   return {...session,revision:(session.revision||1)+1,items:session.items.map((item,i)=>i===index?{...item,id:next.id}:item)};
 }
 export function validateSession(data,bank) {

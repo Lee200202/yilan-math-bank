@@ -14,7 +14,7 @@ let seq=0;
 function question(unit,type,difficulty,extra={}){
  const number=++seq;
  const text=unit===U22?'直角三角形兩股為3、4，求斜邊長。':unit===U31?'因式分解 $3x^2+6x$。':'用十字交乘法因式分解 $2x^2+5x+2$。';
- return {id:`fixture-${number}`,number,sourceSha256:createHash('sha256').update(`fixture-paper:${unit}`).digest('hex'),school:'配比測試校',year:114,semester:1,grade:8,exam:unit===U32?3:2,type,difficulty,primaryUnitId:unit,unitIds:[unit],reviewed:true,typesetVerified:true,blocks:[{type:'text',text}],...extra};
+ return {id:`fixture-${number}`,number,sourceSha256:createHash('sha256').update(`fixture-paper:${unit}`).digest('hex'),school:'配比測試校',year:114,semester:1,grade:8,exam:unit===U32?3:2,type,difficulty,primaryUnitId:unit,unitIds:[unit],reviewed:true,typesetVerified:true,blocks:[{type:'text',text:`${text}（第${number}題）`}],...extra};
 }
 const balanced=()=>[U22,U31,U32].flatMap(u=>TYPES.flatMap(t=>LEVELS.flatMap(d=>[question(u,t,d),question(u,t,d)])));
 const filters=weights=>({scopeMode:'units',unitWeights:weights,semester:'1',grade:'8',exam:'2',school:'配比測試校',curriculumOnly:false});
