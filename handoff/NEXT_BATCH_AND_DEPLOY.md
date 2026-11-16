@@ -1,5 +1,13 @@
 # 下一批與部署接續（快速流程）
 
+## 最新接手（2026-11-16，Codex）
+
+- 使用者指定先全部宜蘭八上、八下、九上、九下、七年級，再都會區相同順序；已修正 `research/make_waves.py` 對每一個原卷排隊，不再把同年、年級、考次只留一校一卷。詳讀 `AGENTS.md` 與 `skills/exam-bank-coordinator/SKILL.md` 最新說明。
+- v25 已推 GitHub，commit `ba9011d`；本機建置 1,528 份原卷、6,946 可組卷題，77 項程式測試通過。GitHub Actions 與正式站是否完成須自行核對，勿將建置成功誤稱部署成功。上一批 v24 已部署。
+- 宜蘭八上接續：中華 108上三 `1nMb5wIa9Ssd0PURUjncoC_25bZawOPud`、羅東 107上一 `ld-107-1-1-8` 完成待納入；內城 `nc-110-1-2-8-pullout`、`nc-110-1-3-8-pullout` 已完成稿但為抽班卷，暫存且未混入普通班。後者一題刻度矛盾已停用。其餘新稿以磁碟與 CLAIMS、實際代理狀態為準。
+- 目前代理正在處理中華 107上三 `1ZbUCjCzbxUrS_P4G2d71I6cvV8rzd0Ma`、110上一 `1C8OHjkXiEXjJwe0tFeSHI_eIDbPVySAS`、109上一 `1ZASDtBiRnEoXShkcBvn-r9gbCo6txlYo`，羅東 106上三 `ld-106-1-3-8`；交接前先確認代理已停止，避免重複認領。Word/DOCX 等未能讀取者保留原卷、記缺口，不算完成。
+- 下一批以 `python -X utf8 scripts/release_queue.py <完成ID...>` 鎖定，`python -X utf8 scripts/merge_batch.py` 建置，版本從 v25 增加、只加入核准 JSON 與必要 public 檔，再按下方 Git 指令推送。不要用全量 `git add` 收進其他 AI 的草稿。
+
 共用位置：`C:\Users\user\桌面\國中家教\yilan-math-bank`；GitHub `Lee200202/yilan-math-bank`的main。接手先讀AI_HANDOFF.md、REVIEW_POLICY.md、OWNER與CLAIMS，保留未提交工作。
 
 ## 現在先做什麼
