@@ -1,0 +1,625 @@
+{
+ "paperId": "metro-taichung-0199240ba223fc48-51d85327",
+ "sourceSha256": "51d85327e968fda3f2bc7dce03bafd62a7982b78c6a44c39341fcf257af7aadf",
+ "printedHeader": "111學年度第二學期臺中市立向上國民中學第一次定期評量二年級數學科試題（段考範圍Ch1～Ch2）",
+ "printedSlot": {
+  "year": 111,
+  "semester": 2,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、填充12題、非選擇2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1頁試題（第2頁為作答卷、第3頁為答案卷，未收錄答案，僅用以核對題數）；重繪選擇7數陣、選擇9彈跳圖、填充5格子、填充12玫瑰圖；選擇5的對摺流程改以文字呈現。非選2稅率表以表格呈現，但表中累進差額與例題算法矛盾且附折線圖未重繪，標為不可用。本卷無三角函數。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 12,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "分數化為循環小數，找出週期後判斷第 20 位數字。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將分數 $\\dfrac{3}{7}$ 化成小數，請問小數點後第 $20$ 個數字為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$",
+      "$4$",
+      "$5$",
+      "$7$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-3",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "辨認首項與相鄰項的差、比，判斷數列類型並求項與和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個數列前六項為 $5,-5,5,-5,5,-5$，則下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "公差 $-10$",
+      "此數列不是等差數列也不是等比數列",
+      "第七項 $a_7=5$",
+      "前 $10$ 項的和為 $50$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "判斷兩變量是否一對一（唯一）對應，辨別函數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述中，哪一個 $y$ 不是 $x$ 的函數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "周長為 $25$ 的長方形，長為 $x$ 寬為 $y$",
+      "面積為 $25$ 的長方形，長為 $x$ 寬為 $y$",
+      "$213$ 班上的學生，座號為 $x$ 身高為 $y$",
+      "$2023$ 年 $3$ 月，星期為 $x$ 日期為 $y$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由前兩項求公差，再判斷各項關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一等差數列首項 $a_1=2$，$a_2=20$，則下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "公差 $10$",
+      "$a_3=200$",
+      "$a_3=a_1+a_2$",
+      "$a_{10}-a_9=18$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "影印紙對摺形成公比為 2 的倍增關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "我們常見的影印紙尺寸有 A3、A4、B4 等，其中 A 系列的編號關係如下："
+    },
+    {
+     "type": "text",
+     "text": "A1 ──對摺→ 2 張 A2 ──對摺→ 4 張 A3 ──對摺→ ……"
+    },
+    {
+     "type": "text",
+     "text": "依據上面的資訊，請問下列敘述何者不正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "A1 對摺 3 次後是 A3",
+      "A4 面積大小是 A3 的 $\\dfrac{1}{2}$",
+      "一張 A1 可摺出 16 張 A5",
+      "A5 可以由 A3 對摺 2 次得到"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由兩點求一次函數，再判斷圖形經過的象限與函數式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若某一次函數的圖形通過 $(2,-3)$、$(-2,3)$ 兩點，則下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "圖形通過第一象限",
+      "圖形通過第三象限",
+      "圖形通過原點",
+      "此一次函數為 $y=-\\dfrac{2}{3}x$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "觀察三角形數陣，奇數平方與項數的規律。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，請依圖形規律並找出那個數正好在 $99$ 的正上方？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 140\"><text x=\"170.0\" y=\"22\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">1</text><text x=\"136.0\" y=\"58\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">2</text><text x=\"170.0\" y=\"58\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">3</text><text x=\"204.0\" y=\"58\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">4</text><text x=\"102.0\" y=\"94\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">5</text><text x=\"136.0\" y=\"94\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">6</text><text x=\"170.0\" y=\"94\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">7</text><text x=\"204.0\" y=\"94\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">8</text><text x=\"238.0\" y=\"94\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">9</text><text x=\"102.0\" y=\"130\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">10</text><text x=\"136.0\" y=\"130\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">11</text><text x=\"170.0\" y=\"130\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">12</text><text x=\"204.0\" y=\"130\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">13</text><text x=\"238.0\" y=\"130\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">14</text><text x=\"272.0\" y=\"130\" font-size=\"17\" text-anchor=\"middle\" fill=\"#111\">…</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$65$",
+      "$80$",
+      "$81$",
+      "$82$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "公差須為整數且五項不超過 50，逐一檢查各選項能否成為其中一項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若知岑從 $1\\sim 50$ 的整數中挑選 $5$ 個數，由小到大排成等差數列。其中最小是 $9$，則下列那個數不可能出現在挑選的數之中？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$27$",
+      "$26$",
+      "$25$",
+      "$24$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "反彈高度形成公比 $\\frac{2}{3}$ 的等比數列，求第幾項小於 1。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一顆球從 $3$ 公尺高的地方落下，第一次反彈的高度為 $2$ 公尺，若每次反彈的高度是前一次的 $\\dfrac{2}{3}$，則反彈幾次高度才會低於 $1$ 公尺？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 160\"><line x1=\"20\" y1=\"150\" x2=\"20\" y2=\"14\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"20,6 15,20 25,20\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"20\" y1=\"140\" x2=\"265\" y2=\"140\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"274,140 260,135 260,145\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"24\" cy=\"42\" r=\"5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M24 42 C 30 100 42 140 62 140\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.0\"/><path d=\"M62 140 Q87.0 0 112 140\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.0\"/><path d=\"M112 140 Q132.0 60 152 140\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.0\"/><path d=\"M152 140 Q167.0 96 182 140\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.0\"/><path d=\"M182 140 Q193.5 116 205 140\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.0\"/></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$",
+      "$3$",
+      "$4$",
+      "$5$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由首項、末項與中間項推公差，限制項數與正整數後求和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "庭萱求一個等差級數的和 $11+\\cdots+17+\\cdots+29$，過程中不小心弄髒了算式（$\\cdots$ 為被弄髒的部分），已知此級數的項數少於十項且級數的每一項都是正整數，則此級數的和為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$280$",
+      "$180$",
+      "$160$",
+      "$140$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列任兩項之差與公差的倍數關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一個等差數列 $a_1,a_2,a_3,\\cdots$，若 $a_5-a_2=5$，則 $a_{20}-a_2=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "觀察質數數列的規律。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列數列是小於 40 的正整數中所存在某種的規律，觀察後請在空格中填入適當的數："
+    },
+    {
+     "type": "text",
+     "text": "2、3、5、7、11、13、17、19、23、＿＿＿＿、31、37。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "常數函數 $a=0$，由圖形通過的點求 $b$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知常數函數 $y=ax+b$ 的圖形通過 $(-3,8)$，則 $3a+b=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數前 $n$ 項和與末項的關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個等差級數前 20 項的和為 200，第 20 項為 20，則前 19 項的和為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "橫列與直行皆為等差，由已知格推出各格數字。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，有 7 個格子，已知由上而下、由左而右均呈等差數列，則格子內所有數字和為＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 150\"><polygon points=\"20,10 80,10 80,50 20,50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"20,50 80,50 80,90 20,90\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"20,90 80,90 80,130 20,130\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"140,10 200,10 200,50 140,50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"140,50 200,50 200,90 140,90\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"140,90 200,90 200,130 140,130\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"80,50 140,50 140,90 80,90\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"50\" y=\"77\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">5</text><text x=\"170\" y=\"77\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">15</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "插入 $n$ 個數的等差數列，公差為 $\\dfrac{末項-首項}{n+1}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在 $6$ 和 $48$ 之間插入 $7$ 個數，使得此數列成等差數列，則插入的第 $4$ 個數為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "公差為負的等差級數，和最大時取到最後一個正項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個等差級數 $50+46+42+\\cdots+a_k$ 的和最大，則 $k=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差中項與首末項和的關係，$b+c=a+d$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $a$、$b$、$c$、$d$ 四數成等差數列，其中 $a$、$d$ 的等差中項為 $10$，$a$、$d$ 的差為 $6$，則 $b+c=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差中項、等比中項的定義，通分求倒數和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a$、$b$ 的等差中項為 $25$，等比中項為 $-15$，則 $\\dfrac{1}{a}+\\dfrac{1}{b}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "單淘汰制每場淘汰一隊，場次等於隊數減一。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "向上國中二年級班際籃球賽，採單淘汰制，每次由兩班各自比賽，勝者晉級敗者淘汰。若學校二年級一共有 16 班，每班都派出男、女兩隊選手參賽，請問一共比賽＿＿＿＿場可產生男、女生冠軍隊伍。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "已知函數值反求自變數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "秉禾理化課學到了自製溫度計，命名為禾氏溫度計。若攝氏溫度度數為 $x^\\circ\\mathrm{C}$，禾氏溫度計為 $y^\\circ\\mathrm{H}$，已知 $y=\\dfrac{7}{5}x+20$，若秉禾用禾氏溫度計測得今天氣溫為 $55^\\circ\\mathrm{H}$，則攝氏溫度計量得氣溫為＿＿＿＿$^\\circ\\mathrm{C}$。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "連接中點使面積逐次減半，塗色部分為首項、公比不同的面積和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "閔芯用一張邊長為 10 公分的正方形色紙，將各邊中點連起來則形成第二個正方形，再連接第二個正方形各邊中點形成第三個正方形，依此規則……畫出五個大小正方形。將此圖形部分塗上顏色，如圖則出現了一朵玫瑰花，請求出塗色部分的面積為＿＿＿＿平方公分。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 240\"><polygon points=\"20.0,20.0 120.0,20.0 20.0,120.0\" fill=\"#d9d9d9\" stroke=\"#111\" stroke-width=\"0.8\"/><polygon points=\"220.0,20.0 220.0,120.0 120.0,20.0\" fill=\"#d9d9d9\" stroke=\"#111\" stroke-width=\"0.8\"/><polygon points=\"220.0,220.0 120.0,220.0 220.0,120.0\" fill=\"#d9d9d9\" stroke=\"#111\" stroke-width=\"0.8\"/><polygon points=\"20.0,220.0 20.0,120.0 120.0,220.0\" fill=\"#d9d9d9\" stroke=\"#111\" stroke-width=\"0.8\"/><polygon points=\"70.0,70.0 120.0,70.0 70.0,120.0\" fill=\"#d9d9d9\" stroke=\"#111\" stroke-width=\"0.8\"/><polygon points=\"170.0,70.0 170.0,120.0 120.0,70.0\" fill=\"#d9d9d9\" stroke=\"#111\" stroke-width=\"0.8\"/><polygon points=\"170.0,170.0 120.0,170.0 170.0,120.0\" fill=\"#d9d9d9\" stroke=\"#111\" stroke-width=\"0.8\"/><polygon points=\"70.0,170.0 70.0,120.0 120.0,170.0\" fill=\"#d9d9d9\" stroke=\"#111\" stroke-width=\"0.8\"/><polygon points=\"95.0,95.0 145.0,95.0 145.0,145.0 95.0,145.0\" fill=\"#d9d9d9\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"20.0,20.0 220.0,20.0 220.0,220.0 20.0,220.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"120.0,20.0 220.0,120.0 120.0,220.0 20.0,120.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"70.0,70.0 170.0,70.0 170.0,170.0 70.0,170.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"120.0,70.0 170.0,120.0 120.0,170.0 70.0,120.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"95.0,95.0 145.0,95.0 145.0,145.0 95.0,145.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1",
+    "nanyi-7-2-4-2"
+   ],
+   "unitAssignmentBasis": "以一次函數表示水溫變化，並用反比關係求質量減半後的升溫速率。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將一杯 $200\\mathrm{ml}$ 水溫 $20^\\circ\\mathrm{C}$ 的冷水，以固定的熱源加熱，加熱時水溫每分鐘上升 $5^\\circ\\mathrm{C}$。"
+    },
+    {
+     "type": "text",
+     "text": "(1) 設加熱 $x$ 分鐘後水溫是 $y^\\circ\\mathrm{C}$，請寫出 $x$ 與 $y$ 的關係式。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 已知熱源固定時，質量和溫度變化成反比。加熱 $5$ 分鐘後，倒掉 $100\\mathrm{ml}$ 的水，相同熱源再繼續加熱 $5$ 分鐘，則水溫變成幾 $^\\circ\\mathrm{C}$？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "分段累進稅率換成各級距的一次函數，代入所得求稅額。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "又來到五月申報所得稅，我國所得稅是採累進稅率。"
+    },
+    {
+     "type": "text",
+     "text": "112 年 5 月報稅（淨額 = 年所得 − 扣除額；全年應納稅額 = 綜合所得淨額 × 稅率 − 累進差額）："
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "級別",
+       "綜合所得淨額",
+       "稅率",
+       "累進差額"
+      ],
+      [
+       "1",
+       "0～56 萬",
+       "5%",
+       "0"
+      ],
+      [
+       "2",
+       "56 萬零 1～126 萬",
+       "12%",
+       "2.8 萬（56 萬 × 5%）"
+      ],
+      [
+       "3",
+       "126 萬零 1～252 萬",
+       "20%",
+       "11.2 萬（2.8 萬 + 8.4 萬）"
+      ],
+      [
+       "4",
+       "252 萬零 1～472 萬",
+       "30%",
+       "36.4 萬（2.8 萬 + 8.4 萬 + 25.2 萬）"
+      ],
+      [
+       "5",
+       "472 萬零 1 以上",
+       "40%",
+       "102.4 萬（2.8 萬 + 8.4 萬 + 25.2 萬 + 66 萬）"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "例如：媺晴的淨所得為 150 萬，前面 56 萬是以 5% 的稅率、56 萬零 1～126 萬的部分則以 12% 的稅率、超過 126 萬的部分則以 20% 的稅率計算。依此規則，媺晴需繳納"
+    },
+    {
+     "type": "text",
+     "text": "$(150-126)\\times 20\\%+(126-56)\\times 12\\%+56\\times 5\\%=16$ 萬"
+    },
+    {
+     "type": "text",
+     "text": "已知小涵家和小雅家去年所得淨額為 300 萬和 500 萬，請依據上述資訊幫他們算一算，今年 5 月要繳納多少稅額？"
+    }
+   ],
+   "usable": false,
+   "sourceIssue": "表中「累進差額」的算法與例題的分段計算互相矛盾（例如第 2 級 126 萬元，依例題規則稅額為 11.2 萬，但表中 0.12×126−2.8=12.32 萬）；且表旁另附一張稅額與所得關係的折線圖（含各級距一次函數），無法在不猜測的情形下重繪與判定採用哪一種算法。"
+  }
+ ]
+}

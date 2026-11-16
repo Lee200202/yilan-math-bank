@@ -60,6 +60,24 @@ Codex 此批認領：臺中大華114上八三 `metro-taichung-bb1ff929033d5f84`�
 
 臺中大華八下 `metro-taichung-24da45623297d946` 23/23 完成；累計三十份、759 題可用待集中發布。
 
+桃園自強 `metro-taoyuan-e4fba5c0dd51f170` 與新北三和 `metro-new_taipei-da91860fede62046` 各 24/25 可用，分別因原卷幾何條件矛盾各停用一題；三和第4題原卷 A/B 重複照錄。累計三十二份、807 題可用待集中發布。
+
+臺中大華 `metro-taichung-42181fc66a634971` 24/24；主卷與解答卷均112下第一次，作答卷卷首不同，已記 reviewNote。累計三十三份、831 題可用待集中發布。
+
+桃園自強 `metro-taoyuan-13338cfe00e6eec7` 28/28；科索沃地圖為向量示意、見 reviewNote。累計三十四份、859 題待集中發布。
+
+新北中正 `metro-new_taipei-95b03ea5c2877be6` 已補齊5幅缺圖並完成，26/27 可用；填3-6原卷圖文疑義保留停用。累計三十五份、885 題可用待集中發布。舊的 partial 草稿僅作歷史記錄。
+
+臺中向上 `metro-taichung-9587bc0222095b7c-84ae4b98` 接續完成 25/25，圖形比對並修正；累計三十六份、910 題可用待集中發布。
+
+新北中正 `metro-new_taipei-3b983d9d0ed24b52` 已轉寫 26 題、24 題可用；選3原題有歧義，選8尺規選項圖待重繪，兩題停用。此卷非全題完成圖形。累計三十七份、934 題可用待集中發布。
+
+新北中正 `metro-new_taipei-98ffdbded0f97914` 29/29 完成；校方獨立答案PDF確認原題三頁完整。另 `3b983...` 已再次交代理修補選8，暫標 repairing-figures，不可發行至固定。完成清單總數以 codex-metro-ready.json 最新快照為準。
+
+更新：`metro-new_taipei-3b983d9d0ed24b52` 選8尺規選項已補繪、固定，現25/26可用，僅選3原題歧義停用。加計中正 `98ffdbded0f97914` 的29題，本批共三十八份、964題可用，均待集中發布。
+
+臺中向上 `metro-taichung-f3a599cca4e68027-bdcf42f9` 完成25/26；選8因多個選項正確而停用，地圖為向量示意，詳見 reviewNote。累計三十九份、989題可用待集中發布。
+
 使用者最新指示 Codex 協助都會區八上，接續八下、九上、九下；Claude 的既有認領仍優先，Codex 只挑尚未認領 paperId，先寫 CLAIMS。首卷為 `metro-taichung-bb1ff929033d5f84`（大華114上八三），由 codex-metro_eight 處理。建置和發布仍由當前協調者執行，Codex 不覆蓋其他 AI 的成果。以下原「沒有另行認領」為較早狀態。
 
 Codex 已讀取 OWNER.json 與 COORDINATION.md：Antigravity 負責宜蘭八下、九上、九下，Claude 負責八上及都會區後續。看到兩者均在執行，Codex 不改雙方轉寫、認領、建置產物或發行清單，也不推送，避免在共用工作目錄互相覆寫。Git HEAD 觀察到 fd25792，網站資料快照 8,124 題（v44），實際後續版本以 Git 與正式站為準。

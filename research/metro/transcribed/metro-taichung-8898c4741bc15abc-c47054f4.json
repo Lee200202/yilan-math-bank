@@ -1,0 +1,706 @@
+{
+ "paperId": "metro-taichung-8898c4741bc15abc-c47054f4",
+ "sourceSha256": "c47054f44a12cf430b9f3a3183a1078bf7adf4cefd91130b7c72addbf6b42232",
+ "printedHeader": "113學年度第二學期臺中市立向上國民中學第一次定期評量二年級數學科試題",
+ "printedSlot": {
+  "year": 113,
+  "semester": 2,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、填充11格、非選2題（各2小題）。",
+ "visualReviewComplete": true,
+ "reviewNote": "已逐頁對照原卷；段考範圍CH1～2-1。重繪圖形：通行費圖、鋸齒數字排列、地磚條帶、三角形地磚圖；冰店對話圖以文字轉錄（對話內容與價格皆保留）；5x5方格以表格呈現。地磚條帶斷裂處為近似畫法。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 11,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "判斷哪些數可補成等差數列。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在18，42，54這三個數中，再加下列哪兩個數後，可以由小到大依序排列為一個等差數列？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "9，27",
+      "30，66",
+      "9，29",
+      "30，67"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數和公式與項數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者是等差級數 $2+4+6+\\cdots\\cdots+200$ 的和？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{200(2+200)}{2}$",
+      "$\\dfrac{100(2+200)}{2}$",
+      "$\\dfrac{198(2+200)}{2}$",
+      "$\\dfrac{99(2+200)}{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "檢查相鄰項比值是否固定。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列四個選項中的數列，哪一個不是等比數列？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$8,-8,8,-8$",
+      "$\\dfrac{8}{27},-\\dfrac{4}{9},\\dfrac{2}{3},-1$",
+      "$7\\sqrt{5},-6\\sqrt{5},5\\sqrt{5},-4\\sqrt{5}$",
+      "$0.0001,0.001,0.01,0.1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "函數的意義：一個 $x$ 對應唯一 $y$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請問下列敘述中所假設的 $x$ 和 $y$，哪一個選項 $y$ 不是 $x$ 的函數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "設 $x$ 表示圓的半徑，$y$ 表示該圓的面積。",
+      "設 $x$ 表示正方形的邊長，$y$ 表示該正方形的面積。",
+      "設 $x$ 表示正三角形的邊長，$y$ 表示該正三角形的面積。",
+      "設 $x$ 表示長方形的周長，$y$ 表示該長方形的面積。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "鋸齒排列的週期規律，可用等差數列判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將正整數依照下圖的方式排列成四列寬的鋸齒狀："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 285 100\"><line x1=\"22\" y1=\"4\" x2=\"22\" y2=\"96\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"10\" y=\"18\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"10\" y=\"42\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"10\" y=\"66\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"10\" y=\"90\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"34\" y=\"18\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">1</text><text x=\"51\" y=\"42\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">2</text><text x=\"69\" y=\"66\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">3</text><text x=\"86\" y=\"90\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">4</text><text x=\"104\" y=\"66\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">5</text><text x=\"121\" y=\"42\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">6</text><text x=\"139\" y=\"18\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">7</text><text x=\"156\" y=\"42\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">8</text><text x=\"174\" y=\"66\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">9</text><text x=\"191\" y=\"90\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">10</text><text x=\"209\" y=\"66\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">11</text><text x=\"226\" y=\"42\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">12</text><text x=\"244\" y=\"18\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">13</text><text x=\"261\" y=\"42\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">14</text><text x=\"279\" y=\"66\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">‧</text><text x=\"261\" y=\"90\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">‧</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "請問數字2025將出現在哪一列？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "第A列",
+      "第B列",
+      "第C列",
+      "第D列"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比數列對稱項乘積等於中間項平方。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a_1,a_2,a_3,a_4,a_5$ 是一個等比數列，若數列的第3項為4，則此數列 $a_1\\times a_2\\times a_3\\times a_4\\times a_5$ 的值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "128",
+      "256",
+      "512",
+      "1024"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "依一次函數規則逐字對應並計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在密碼學中，想要傳遞的真實內容為「明碼」，對明碼進行某種處理後得到的內容為「密碼」。有一種密碼是將英文26個字母 $a,b,c,\\cdots,z$ 依次對應1、2、3、…、26這26個正整數(見下方表格)。"
+    },
+    {
+     "type": "text",
+     "text": "當明碼對應的序號 $x$ 為奇數時，密碼對應的序號 $y=\\dfrac{x+1}{2}$。"
+    },
+    {
+     "type": "text",
+     "text": "當明碼對應的序號 $x$ 為偶數時，密碼對應的序號 $y=\\dfrac{x}{2}+7$。"
+    },
+    {
+     "type": "table",
+     "header": false,
+     "rows": [
+      [
+       "字母",
+       "a",
+       "b",
+       "c",
+       "d",
+       "e",
+       "f",
+       "g",
+       "h",
+       "i",
+       "j",
+       "k",
+       "l",
+       "m"
+      ],
+      [
+       "序號",
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "9",
+       "10",
+       "11",
+       "12",
+       "13"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "header": false,
+     "rows": [
+      [
+       "字母",
+       "n",
+       "o",
+       "p",
+       "q",
+       "r",
+       "s",
+       "t",
+       "u",
+       "v",
+       "w",
+       "x",
+       "y",
+       "z"
+      ],
+      [
+       "序號",
+       "14",
+       "15",
+       "16",
+       "17",
+       "18",
+       "19",
+       "20",
+       "21",
+       "22",
+       "23",
+       "24",
+       "25",
+       "26"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "按上述規定，若將明碼「$love$」譯成密碼則為「$mhrc$」，請問將明碼「$math$」譯成密碼為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$gaqk$",
+      "$gazb$",
+      "$yazb$",
+      "$math$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數和求項數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小珍工作第一天賣出三個飾品；第二天賣出五個飾品；第三天賣出七個飾品；之後她每天都比前一天多賣出二個飾品。若小珍在離職前總共賣出了528個飾品，試問小珍工作了幾天？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "22天",
+      "24天",
+      "26天",
+      "28天"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由圖形求一次函數並代入。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "高速公路的養護經費是依「取之於路、用之於路」原則，藉由開徵「通行費」，並撥用部分「汽車燃料使用費」，將此作為高速公路財務的來源。明華查詢到國道高速公路的收費分成一般時段、連續假期兩種時段，以不同方式計費。已知 $x$ 表示當日行駛總里程(公里)，$y$ 表示通行費(元)，且 $y$ 與 $x$ 成線型函數關係，其圖形如下圖所示，其中直線 $A$ 和直線 $B$ 分別代表一般時段和連續假期兩種時段的通行費率。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 180\"><text x=\"4\" y=\"14\" font-size=\"13\" fill=\"#111\">通行費（元）</text><line x1=\"30\" y1=\"140\" x2=\"30\" y2=\"22\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"30,18 26,27 34,27\" fill=\"#111\" stroke=\"#111\"/><line x1=\"10\" y1=\"140\" x2=\"165\" y2=\"140\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"171,140 162,136 162,144\" fill=\"#111\" stroke=\"#111\"/><line x1=\"30\" y1=\"140\" x2=\"105\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"74\" y1=\"140\" x2=\"121\" y2=\"47\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"30\" y1=\"75\" x2=\"74\" y2=\"75\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><line x1=\"74\" y1=\"75\" x2=\"74\" y2=\"140\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><line x1=\"30\" y1=\"54\" x2=\"118\" y2=\"54\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><line x1=\"118\" y1=\"54\" x2=\"118\" y2=\"140\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><text x=\"18\" y=\"80\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">18</text><text x=\"18\" y=\"59\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">24</text><text x=\"22\" y=\"154\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">0</text><text x=\"74\" y=\"154\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">20</text><text x=\"118\" y=\"154\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">40</text><text x=\"36\" y=\"24\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">y</text><text x=\"172\" y=\"154\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">x</text><text x=\"98\" y=\"26\" font-size=\"14\" fill=\"#111\">B</text><text x=\"126\" y=\"44\" font-size=\"14\" fill=\"#111\">A</text><text x=\"105\" y=\"173\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">當日行駛總里程（公里）</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "一般時段：如果是一般平日或假日，也就是非連續假期的時段，收費費率採「每日每車優惠里程20公里」。"
+    },
+    {
+     "type": "text",
+     "text": "連續假期：如果碰到連續假期，國道採用單一費率計算，取消20公里優惠與長途優惠里程。"
+    },
+    {
+     "type": "text",
+     "text": "明華在平日需經由國道高速公路開車前往上班地點，若晚上下班到家時，他發現今日在高速公路開車總共累積了60公里，請問明華在這一天需繳交多少元的通行費？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "24元",
+      "36元",
+      "48元",
+      "54元"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "比較兩條一次函數的大小關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "高速公路的養護經費是依「取之於路、用之於路」原則，藉由開徵「通行費」，並撥用部分「汽車燃料使用費」，將此作為高速公路財務的來源。明華查詢到國道高速公路的收費分成一般時段、連續假期兩種時段，以不同方式計費。已知 $x$ 表示當日行駛總里程(公里)，$y$ 表示通行費(元)，且 $y$ 與 $x$ 成線型函數關係，其圖形如下圖所示，其中直線 $A$ 和直線 $B$ 分別代表一般時段和連續假期兩種時段的通行費率。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 180\"><text x=\"4\" y=\"14\" font-size=\"13\" fill=\"#111\">通行費（元）</text><line x1=\"30\" y1=\"140\" x2=\"30\" y2=\"22\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"30,18 26,27 34,27\" fill=\"#111\" stroke=\"#111\"/><line x1=\"10\" y1=\"140\" x2=\"165\" y2=\"140\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"171,140 162,136 162,144\" fill=\"#111\" stroke=\"#111\"/><line x1=\"30\" y1=\"140\" x2=\"105\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"74\" y1=\"140\" x2=\"121\" y2=\"47\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"30\" y1=\"75\" x2=\"74\" y2=\"75\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><line x1=\"74\" y1=\"75\" x2=\"74\" y2=\"140\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><line x1=\"30\" y1=\"54\" x2=\"118\" y2=\"54\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><line x1=\"118\" y1=\"54\" x2=\"118\" y2=\"140\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><text x=\"18\" y=\"80\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">18</text><text x=\"18\" y=\"59\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">24</text><text x=\"22\" y=\"154\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">0</text><text x=\"74\" y=\"154\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">20</text><text x=\"118\" y=\"154\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">40</text><text x=\"36\" y=\"24\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">y</text><text x=\"172\" y=\"154\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">x</text><text x=\"98\" y=\"26\" font-size=\"14\" fill=\"#111\">B</text><text x=\"126\" y=\"44\" font-size=\"14\" fill=\"#111\">A</text><text x=\"105\" y=\"173\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">當日行駛總里程（公里）</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "一般時段：如果是一般平日或假日，也就是非連續假期的時段，收費費率採「每日每車優惠里程20公里」。"
+    },
+    {
+     "type": "text",
+     "text": "連續假期：如果碰到連續假期，國道採用單一費率計算，取消20公里優惠與長途優惠里程。"
+    },
+    {
+     "type": "text",
+     "text": "明華計畫利用連續假期從台中跟朋友到外地遊玩，若當日行程中只計算汽車在高速公路上從台中到外地移動的距離(不考慮回程)，請問當外地距離台中至少為多少公里以上時，於連續假期出發前往才比較划算？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "60公里",
+      "80公里",
+      "100公里",
+      "120公里"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列一般項不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差數列的首項為85，公差為 $-3$，則此等差數列在第＿＿＿＿項開始為負數。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數和與排除重複項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在1到100中，是「3的倍數但不是5的倍數」的數字，其數字總和為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比數列一般項估算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小宇為了參加路跑，每天開始練習跑步，已知他第一天跑了10公里，從那之後，他每天跑的公里數都是前一天的 $\\dfrac{9}{10}$ 倍，則小宇在第＿＿＿＿天開始，跑的公里數會低於7公里。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "常數函數的函數值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一線性函數的圖形平行 $x$ 軸，且在 $x=5$ 時的函數值是10，則此函數在 $x=10$、$100$、$-100$、$\\dfrac{1}{100}$、$-\\dfrac{1}{100}$ 時的函數值，其總和為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "方格每行每列皆成等比數列，求中心值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖是一個5x5的方格，它的每一直行與每一橫列均是五項的等比數列，且每一個數字均為正數，則圖中A的值為＿＿＿＿。"
+    },
+    {
+     "type": "table",
+     "header": false,
+     "rows": [
+      [
+       "1",
+       "",
+       "",
+       "",
+       "25"
+      ],
+      [
+       "",
+       "",
+       "",
+       "",
+       ""
+      ],
+      [
+       "",
+       "",
+       "A",
+       "",
+       ""
+      ],
+      [
+       "",
+       "",
+       "",
+       "",
+       ""
+      ],
+      [
+       "9",
+       "",
+       "",
+       "",
+       "81"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "由圖形規律建立等差關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "公園內有一矩形步道，其地面使用相同的灰色正方形地磚與相同的白色等腰直角三角形地磚排列而成。下圖表示此步道的地磚排列方式，其中正方形地磚為連續排列且總共有50個，則步道上總共使用＿＿＿＿個三角形地磚。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 60,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-4 -4 258 48\"><polygon points=\"20,20 40,0 60,20 40,40\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"60,20 80,0 100,20 80,40\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"0\" y1=\"0\" x2=\"100\" y2=\"0\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"0\" y1=\"40\" x2=\"100\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"0\" y1=\"0\" x2=\"40\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"40\" y1=\"40\" x2=\"80\" y2=\"0\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"80\" y1=\"0\" x2=\"100\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"0\" y1=\"40\" x2=\"40\" y2=\"0\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"40\" y1=\"0\" x2=\"80\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"80\" y1=\"40\" x2=\"100\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"230,20 210,0 190,20 210,40\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"190,20 170,0 150,20 170,40\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"250\" y1=\"0\" x2=\"150\" y2=\"0\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"250\" y1=\"40\" x2=\"150\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"250\" y1=\"0\" x2=\"250\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"250\" y1=\"0\" x2=\"210\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"210\" y1=\"40\" x2=\"170\" y2=\"0\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"170\" y1=\"0\" x2=\"150\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"250\" y1=\"40\" x2=\"210\" y2=\"0\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"210\" y1=\"0\" x2=\"170\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"170\" y1=\"40\" x2=\"150\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"125\" y=\"26\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">⋯⋯</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "圖形規律求第15個圖白色地磚數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "用黑、白兩種顏色的正三角形地磚，依照如下圖的規律，排成若干圖形。則第15個圖需用到＿＿＿＿塊白色地磚。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 135\"><polygon points=\"25,88.9 19.5,98.5 30.5,98.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"19.5,98.5 14,108 25,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"30.5,98.5 25,108 36,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"19.5,98.5 30.5,98.5 25,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><text x=\"25\" y=\"128\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">第1個圖</text><polygon points=\"72,69.9 66.5,79.4 77.5,79.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"66.5,79.4 61,88.9 72,88.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"77.5,79.4 72,88.9 83,88.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"66.5,79.4 77.5,79.4 72,88.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"61,88.9 55.5,98.5 66.5,98.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"72,88.9 66.5,98.5 77.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"83,88.9 77.5,98.5 88.5,98.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"61,88.9 72,88.9 66.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"72,88.9 83,88.9 77.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"55.5,98.5 50,108 61,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"66.5,98.5 61,108 72,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"77.5,98.5 72,108 83,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"88.5,98.5 83,108 94,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"55.5,98.5 66.5,98.5 61,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"66.5,98.5 77.5,98.5 72,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"77.5,98.5 88.5,98.5 83,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><text x=\"72\" y=\"128\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">第2個圖</text><polygon points=\"141,50.8 135.5,60.4 146.5,60.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"135.5,60.4 130,69.9 141,69.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"146.5,60.4 141,69.9 152,69.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"135.5,60.4 146.5,60.4 141,69.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"130,69.9 124.5,79.4 135.5,79.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"141,69.9 135.5,79.4 146.5,79.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"152,69.9 146.5,79.4 157.5,79.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"130,69.9 141,69.9 135.5,79.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"141,69.9 152,69.9 146.5,79.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"124.5,79.4 119,88.9 130,88.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"135.5,79.4 130,88.9 141,88.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"146.5,79.4 141,88.9 152,88.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"157.5,79.4 152,88.9 163,88.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"124.5,79.4 135.5,79.4 130,88.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"135.5,79.4 146.5,79.4 141,88.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"146.5,79.4 157.5,79.4 152,88.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"119,88.9 113.5,98.5 124.5,98.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"130,88.9 124.5,98.5 135.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"141,88.9 135.5,98.5 146.5,98.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"152,88.9 146.5,98.5 157.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"163,88.9 157.5,98.5 168.5,98.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"119,88.9 130,88.9 124.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"130,88.9 141,88.9 135.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"141,88.9 152,88.9 146.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"152,88.9 163,88.9 157.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"113.5,98.5 108,108 119,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"124.5,98.5 119,108 130,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"135.5,98.5 130,108 141,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"146.5,98.5 141,108 152,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"157.5,98.5 152,108 163,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"168.5,98.5 163,108 174,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"113.5,98.5 124.5,98.5 119,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"124.5,98.5 135.5,98.5 130,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"135.5,98.5 146.5,98.5 141,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"146.5,98.5 157.5,98.5 152,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"157.5,98.5 168.5,98.5 163,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><text x=\"141\" y=\"128\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">第3個圖</text><polygon points=\"232,31.8 226.5,41.3 237.5,41.3\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"226.5,41.3 221,50.8 232,50.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"237.5,41.3 232,50.8 243,50.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"226.5,41.3 237.5,41.3 232,50.8\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"221,50.8 215.5,60.4 226.5,60.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"232,50.8 226.5,60.4 237.5,60.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"243,50.8 237.5,60.4 248.5,60.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"221,50.8 232,50.8 226.5,60.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"232,50.8 243,50.8 237.5,60.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"215.5,60.4 210,69.9 221,69.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"226.5,60.4 221,69.9 232,69.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"237.5,60.4 232,69.9 243,69.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"248.5,60.4 243,69.9 254,69.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"215.5,60.4 226.5,60.4 221,69.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"226.5,60.4 237.5,60.4 232,69.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"237.5,60.4 248.5,60.4 243,69.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"210,69.9 204.5,79.4 215.5,79.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"221,69.9 215.5,79.4 226.5,79.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"232,69.9 226.5,79.4 237.5,79.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"243,69.9 237.5,79.4 248.5,79.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"254,69.9 248.5,79.4 259.5,79.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"210,69.9 221,69.9 215.5,79.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"221,69.9 232,69.9 226.5,79.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"232,69.9 243,69.9 237.5,79.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"243,69.9 254,69.9 248.5,79.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"204.5,79.4 199,88.9 210,88.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"215.5,79.4 210,88.9 221,88.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"226.5,79.4 221,88.9 232,88.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"237.5,79.4 232,88.9 243,88.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"248.5,79.4 243,88.9 254,88.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"259.5,79.4 254,88.9 265,88.9\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"204.5,79.4 215.5,79.4 210,88.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"215.5,79.4 226.5,79.4 221,88.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"226.5,79.4 237.5,79.4 232,88.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"237.5,79.4 248.5,79.4 243,88.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"248.5,79.4 259.5,79.4 254,88.9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"199,88.9 193.5,98.5 204.5,98.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"210,88.9 204.5,98.5 215.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"221,88.9 215.5,98.5 226.5,98.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"232,88.9 226.5,98.5 237.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"243,88.9 237.5,98.5 248.5,98.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"254,88.9 248.5,98.5 259.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"265,88.9 259.5,98.5 270.5,98.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"199,88.9 210,88.9 204.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"210,88.9 221,88.9 215.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"221,88.9 232,88.9 226.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"232,88.9 243,88.9 237.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"243,88.9 254,88.9 248.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"254,88.9 265,88.9 259.5,98.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"193.5,98.5 188,108 199,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"204.5,98.5 199,108 210,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"215.5,98.5 210,108 221,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"226.5,98.5 221,108 232,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"237.5,98.5 232,108 243,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"248.5,98.5 243,108 254,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"259.5,98.5 254,108 265,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"270.5,98.5 265,108 276,108\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"193.5,98.5 204.5,98.5 199,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"204.5,98.5 215.5,98.5 210,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"215.5,98.5 226.5,98.5 221,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"226.5,98.5 237.5,98.5 232,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"237.5,98.5 248.5,98.5 243,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"248.5,98.5 259.5,98.5 254,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><polygon points=\"259.5,98.5 270.5,98.5 265,108\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\" stroke-linejoin=\"round\"/><text x=\"232\" y=\"128\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">第4個圖</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等比與等差中項條件聯立。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $2,a,b$ 是一個等比數列，$a,b,30$ 是一個等差數列，則 $a+b$ 的值＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "求一次函數與截距三角形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一線型函數通過 $(-1,8)$ 和 $(2,-1)$ 兩點，若此函數圖形與 $x$ 軸、$y$ 軸分別交於 $A$、$B$ 兩點，且 $O$ 為原點，則 $\\triangle AOB$ 的面積為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差級數和與末項不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小潘於2025年元旦擬定了「48週儲蓄攻略」計畫，預計第1週存10元，接下來每週比前一週多存 $x$ 元(其中 $x$ 為正整數)，依此規律至第48週，小潘希望48週後能讓他存下超過12000元，且每週存的錢均不超過600元，則 $x$ 可能為＿＿＿＿。(全對才給分)"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "構造數列使級數和固定時項數最少。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "加奈想造出一個非負整數數列，其中首項及末項皆為0，任意兩項的差都不超過1，例如：0,1,2,2,3,2,1,0 就是一個這種數列。考慮所有級數和為200的這種數列，則這些數列中，項數最少的數列有＿＿＿＿項。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "建立一次函數並求損益平衡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖為小琦與冰店老闆的對話情形。小琦說：「哇！好特別的冰喔！老闆你製作冰的機器好特別，不便宜吧？」老闆說：「內行人喔，機器一臺要價12萬，要不要來一碗試試？」招牌：本店招牌　泡泡雪花冰　55元。已知每碗泡泡雪花冰的製作成本為15元，且總成本僅計算泡泡雪花冰的製作成本和機器設備成本。若製作 $x$ 碗泡泡雪花冰的總成本為 $y$ 元，請回答下列問題："
+    },
+    {
+     "type": "text",
+     "text": "(1) 請列出 $y$ 與 $x$ 的關係式。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 當老闆銷售多少碗泡泡雪花冰時，可以達到收支平衡？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數和公式與前後四項和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $S_n$ 為等差級數前 $n$ 項之和，已知 $S_4=16$，$S_n=100$，$S_{n-4}=36$，則："
+    },
+    {
+     "type": "text",
+     "text": "(1) 此等差數列首項和末項的總和為何？"
+    },
+    {
+     "type": "text",
+     "text": "(2) 此等差數列的公差為何？"
+    }
+   ]
+  }
+ ]
+}

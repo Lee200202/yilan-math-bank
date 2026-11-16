@@ -1,0 +1,583 @@
+{
+ "paperId": "metro-taoyuan-db93c9cfab3307e4",
+ "sourceSha256": "19558c28b4907d8f03359661ddc6e03d35aa93179dea720af46bf8399f99c8ee",
+ "printedHeader": "桃園市立自強國民中學106學年度第一學期第1次段考八年級數學科題目卷",
+ "printedSlot": {
+  "year": 106,
+  "semester": 1,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、填充12格、計算題2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "Compared pages 1-3 with PNGs (page 4 is the answer sheet, not transcribed; used to sanity-check). Choice 10 drawn figure redrawn as SVG but marked usable:false because its labels do not reproduce the official answer. Choice 5 and 6 fractions verified from the image (text layer garbled).",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 12,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式乘法的最高次項次數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$(7-3x^4+2x^3)(5+3x^2-2)$ 展開後，最高次數是多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "20",
+      "6",
+      "5",
+      "4"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式的名詞與性質。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述，何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "多項式 $x^2-2x$ 中，$x$ 項的係數是 2",
+      "兩個 $x$ 的二次多項式相加，其結果也是 $x$ 的二次多項式。",
+      "$\\dfrac{3}{x}+5$ 是 $x$ 的多項式。",
+      "在多項式除法中，當餘式為 0 時，我們稱除式可以整除被除式。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根的定義與性質。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述，何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "0 的平方根為 0。",
+      "如果 $a=b^2$，則 $a$ 是 $b$ 的平方根。",
+      "$-7^2=-49$，所以 $-7$ 是 $-49$ 的平方根。",
+      "所有正數的平方根都大於 0。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "以平方數估計根號值所在範圍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$-\\sqrt{230}$ 的值介於哪兩個連續整數之間？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "14 和 15 之間",
+      "15 和 16 之間",
+      "$-14$ 和 $-15$ 之間",
+      "$-15$ 和 $-16$ 之間"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "比較根號內分數的大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$a=\\sqrt{\\dfrac{13}{2}}$、$b=\\sqrt{\\dfrac{11}{5}}$、$c=\\sqrt{\\dfrac{39}{10}}$，請問 $a$、$b$、$c$ 三數的大小關係為？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a>b>c$",
+      "$b>a>c$",
+      "$a>c>b$",
+      "$b>c>a$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以完全平方公式估算 $(299\\frac{1}{2})^2$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一個數最接近 $(299\\dfrac{1}{2})^2$ 的值？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "90000",
+      "89698",
+      "89700",
+      "89702"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "平方差公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$452^2-148^2=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "180400",
+      "182400",
+      "184400",
+      "186400"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "判斷乘法公式與多項式乘法的正誤。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列多項式乘法運算，哪一個正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(6x-2)^2=36x^2-6x+4$",
+      "$(x-1)(3x+2)=3x^2-2$",
+      "$(4x+5)^2=4x^2+40x+25$",
+      "$(3x+7)(3x-7)=9x^2-49$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "分離係數法做多項式加法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小鐘以分離係數法做多項式加法，過程如下所示，則 $a+b+c=$？"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "",
+       "$x^2$ 項",
+       "$x$ 項",
+       "常數項"
+      ],
+      [
+       "",
+       "$-2$",
+       "$3$",
+       "$a$"
+      ],
+      [
+       "+)",
+       "$b$",
+       "$-6$",
+       "$-1$"
+      ],
+      [
+       "",
+       "$-2$",
+       "$c$",
+       "$5$"
+      ]
+     ]
+    },
+    {
+     "type": "options",
+     "items": [
+      "7",
+      "5",
+      "3",
+      "1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "以多項式乘法表示組合矩形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖中每個夾角都是 $90^\\circ$，試以 $x$ 的多項式表示區域的面積為"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 175\"><rect x=\"25\" y=\"30\" width=\"203\" height=\"129\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"114\" y1=\"30\" x2=\"114\" y2=\"127\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"127\" x2=\"228\" y2=\"127\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"148\" y=\"22\" font-size=\"15\" font-style=\"italic\" fill=\"#111\">3x+5</text><text x=\"38\" y=\"75\" font-size=\"15\" font-style=\"italic\" fill=\"#111\">5x−3</text><text x=\"46\" y=\"108\" font-size=\"15\" font-style=\"italic\" fill=\"#111\">x+2</text><text x=\"8\" y=\"148\" font-size=\"15\" fill=\"#111\">1</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$15x^2+20x-8$",
+      "$18x+10$",
+      "$15x^2+17x-13$",
+      "$9x+5$"
+     ]
+    }
+   ],
+   "usable": false,
+   "sourceIssue": "圖中標示（3x+5、5x−3、x+2、1）以弧線標在不明確的線段上，依任何一致讀法算出的面積（如 20x²+27x−14 或 15x²+19x−10）都不在選項中，與官方答案 A 不符，無法確定原題尺寸意義。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "平方差公式計算小數乘法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用乘法公式，計算 $20.3\\times19.7=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "逆用完全平方公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用乘法公式，計算 $46^2+2\\times46\\times4+4^2=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式加法並按降冪排列。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $(3x-6+5x^2)+(5+2x^2-3x)=$＿＿＿＿，並按降冪排列。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式乘法並按降冪排列。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $(-2x+1)(x^2-5)=$＿＿＿＿，並按降冪排列。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "完全平方公式與平方差公式的混合運算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $(2x-1)^2-(3x+1)(3x-1)=$＿＿＿＿，並按降冪排列。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "分數根號化簡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $\\sqrt{\\dfrac{169}{9}}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "小數的平方根。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $-\\sqrt{17.64}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "由除法關係式（被除式＝除式×商式＋餘式）求除式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $2x^2+9x+2$ 除以另一個多項式 $A$ 後，得到商式為 $2x+1$，餘式為 $-2$，試求此多項式 $A=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "由平方根條件求 $a$、$b$ 再求平方根。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $2a+1$ 的正平方根為 3，$3a+b-1$ 的負平方根為 $-4$，則 $6a+8b$ 的平方根為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以完全平方公式計算帶分數的平方。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $(39\\dfrac{1}{2})^2=40^2+s$，則 $s$ 的值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式加減運算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $A$、$B$、$C$ 皆為多項式，且 $A=3x^2-6+x$，$B=1-2x^2$，$C=-3x+4$，則 $A-B+C=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式加減運算（去括號變號）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $A$、$B$、$C$ 皆為多項式，且 $A=3x^2-6+x$，$B=1-2x^2$，$C=-3x+4$，則 $A-(B+C)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "平方差與完全平方公式化簡，並利用結果計算大數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "(1) 化簡 $(a+5)(a-5)-(a-6)^2$。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 利用(1)的結果，計算 $3005\\times2995-2994^2$。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "連續做多項式除法，求新定義的展開式係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "兩多項式 $A$、$B$，有一種特別的展開方式，步驟如下："
+    },
+    {
+     "type": "text",
+     "text": "I. 多項式 $A\\div B$，得到商式 $Q_1$ 與餘式 $R_1$"
+    },
+    {
+     "type": "text",
+     "text": "II. 再將 $Q_1\\div B$，得到商式 $Q_2$ 與餘式 $R_2$"
+    },
+    {
+     "type": "text",
+     "text": "III. 如此，多項式 $A$ 可改寫成 $A=Q_2(B)^2+R_2(B)+R_1$"
+    },
+    {
+     "type": "text",
+     "text": "IV. 稱為 $A$ 對 $B$ 的展開式"
+    },
+    {
+     "type": "text",
+     "text": "仿照此作法，求得 $2x^2+3x+5$ 對 $x-1$ 的展開式為 $2x^2+3x+5=d(x-1)^2+e(x-1)+f$，則 $d$、$e$、$f$ 分別為何？"
+    }
+   ]
+  }
+ ]
+}

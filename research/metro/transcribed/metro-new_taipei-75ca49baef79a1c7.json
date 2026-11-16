@@ -1,0 +1,606 @@
+{
+ "paperId": "metro-new_taipei-75ca49baef79a1c7",
+ "sourceSha256": "9869d7454f7907fa89767eddd1d5ea8546cd28e778031e02b7f053c6ba3d7706",
+ "printedHeader": "新北市立中正國民中學109學年度第一學期八年級數學科第一次段考試題卷（範圍：1-1～2-1）",
+ "printedSlot": {
+  "year": 109,
+  "semester": 1,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇8題、填充15格、計算4題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1至2頁；重繪選擇5凸字形圖、填充6、7圖與計算4兩圖共4幅。選擇5原卷印為HG=ax²+bx²+c（疑為bx筆誤），照原樣保留；計算2原題稱「依下列步驟」但未印出步驟，已保留題幹。",
+ "expectedTypes": {
+  "choice": 8,
+  "fill": 15,
+  "written": 4
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "判斷完全平方公式的敘述是否正確。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請問下列三項敘述，正確的有幾個？"
+    },
+    {
+     "type": "text",
+     "text": "甲：$(a-b)^{2}=(-a+b)^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "乙：$(a+b)^{2}=(-a-b)^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "丙：$(a+b)^{2}=a^{2}+b^{2}$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "都不正確",
+      "一式正確",
+      "兩式正確",
+      "三式正確"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以平方差公式計算並比較大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "比較甲、乙、丙三數，哪個最小？"
+    },
+    {
+     "type": "text",
+     "text": "甲$=95^{2}-45^{2}$，乙$=85^{2}-15^{2}$，丙$=115^{2}-95^{2}$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲",
+      "乙",
+      "丙",
+      "無法比較"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式的定義。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請判斷下列何者為多項式？"
+    },
+    {
+     "type": "text",
+     "text": "甲$=3x^{2}+1$，乙$=6-x$，丙$=5+\\sqrt{x}$，丁$=4+\\dfrac{1}{x}$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "一個符合",
+      "兩個符合",
+      "三個符合",
+      "四個符合"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式相加後的次數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$A$、$B$ 均為三次多項式，且 $C=A+B$，則 $C$ 為幾次多項式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "六",
+      "四",
+      "三",
+      "無法確定"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "由垂直線段長度關係列多項式加減求線段。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖為各線段均垂直的「凸」字形圖案，已知 $\\overline{AB}=4x+1$，$\\overline{CD}=5x^{2}-4x-6$，$\\overline{EF}=4x^{2}+5$，可求出 $\\overline{HG}=ax^{2}+bx^{2}+c$，則 $a+b+c=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 160\"><polygon points=\"70,18 136,18 136,70 185,70 185,138 20,138 20,87 70,87\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"58\" y=\"14\" font-size=\"15\" font-style=\"italic\">A</text><text x=\"140\" y=\"14\" font-size=\"15\" font-style=\"italic\">H</text><text x=\"122\" y=\"84\" font-size=\"15\" font-style=\"italic\">G</text><text x=\"190\" y=\"68\" font-size=\"15\" font-style=\"italic\">F</text><text x=\"190\" y=\"146\" font-size=\"15\" font-style=\"italic\">E</text><text x=\"2\" y=\"151\" font-size=\"15\" font-style=\"italic\">D</text><text x=\"4\" y=\"84\" font-size=\"15\" font-style=\"italic\">C</text><text x=\"76\" y=\"103\" font-size=\"15\" font-style=\"italic\">B</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$9$",
+      "$5$",
+      "$-5$",
+      "$-9$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "非負數之和為 0 的性質與根式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$(x-1)^{2}+|y+2|+\\sqrt{z-3}=0$，代表 $x+y+z=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1$",
+      "$2$",
+      "$3$",
+      "$-1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式除法與餘式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "多項式 $4x^{2}-7x+a$ 除以 $x-3$，得餘式為 $8$，求 $a$ 值？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-7$",
+      "$5$",
+      "$3$",
+      "$-3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "用平方表與四捨五入估計平方根近似值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小凡想估計 $\\sqrt{5}$ 的值（到小數點後第一位），手邊有資料為：$(2.2)^{2}=4.84$，$(2.3)^{2}=5.29$，$(2.35)^{2}=5.5225$，$(2.25)^{2}=5.0625$，則 $\\sqrt{5}$ 近似值應為"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2.2$",
+      "$2.3$",
+      "$2.4$",
+      "無法回答"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "帶分數乘法，以分配律或乘法公式化簡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "試計算 $8\\dfrac{1}{7}\\times70\\dfrac{1}{4}=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以乘法公式估算整數部分。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $67\\times\\dfrac{67}{69}=A$，則 $A$ 的整數部分為 ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式減法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $(-4x^{2}+3)-(-4x^{2}+3x)=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式加減。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $(-x+1)-(7-x)-(4+6x^{2})=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式除法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$(3x^{3}+x^{2}-7x+1)\\div(3x+4)$ 後，得商式為 $A$，餘式為 $5$，求 $A=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "由面積公式反求高，需多項式除法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "三角形 $ABC$ 的面積為 $6x^{2}+13x+6$，底為 $6x+4$，則高為 ＿＿＿＿，如右圖。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 140\"><polygon points=\"68,13 15,123 198,123\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"68\" y1=\"13\" x2=\"68\" y2=\"123\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"68,114 77,114 77,123\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"62\" y=\"10\" font-size=\"15\" font-style=\"italic\">A</text><text x=\"2\" y=\"134\" font-size=\"15\" font-style=\"italic\">B</text><text x=\"200\" y=\"134\" font-size=\"15\" font-style=\"italic\">C</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式相乘的面積模型，比較係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "矩形 $ABCD$ 面積為 $ax^{2}+23x+20$，右圖中 $ABCD$ 被分割成 $4$ 塊小矩形，求 $a=$ ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 190 190\"><rect x=\"30\" y=\"20\" width=\"117\" height=\"153\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"173\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"143\" x2=\"147\" y2=\"143\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"60\" y=\"88\" font-size=\"15\" font-style=\"italic\">ax²</text><text x=\"120\" y=\"88\" font-size=\"15\">乙</text><text x=\"60\" y=\"163\" font-size=\"14\">甲</text><text x=\"120\" y=\"163\" font-size=\"14\">20</text><text x=\"4\" y=\"90\" font-size=\"15\" font-style=\"italic\">3x</text><text x=\"14\" y=\"162\" font-size=\"15\">4</text><text x=\"18\" y=\"16\" font-size=\"15\" font-style=\"italic\">A</text><text x=\"150\" y=\"16\" font-size=\"15\" font-style=\"italic\">D</text><text x=\"18\" y=\"188\" font-size=\"15\" font-style=\"italic\">B</text><text x=\"150\" y=\"188\" font-size=\"15\" font-style=\"italic\">C</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "算術平方根與平方根的區別。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$\\sqrt{256}$ 的平方根（化簡）為 ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根的意義與方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $\\dfrac{1}{2}$ 為 $\\sqrt{\\dfrac{25+x}{64}}$ 的正平方根，則 $x$ 為 ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "平方差公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $(123.45)^{2}-(23.45)^{2}=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "平方差與完全平方公式化簡分數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$\\dfrac{161^{2}-11^{2}}{161^{2}+22\\times161+11^{2}}=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式加減與分數係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $x^{2}+1-\\dfrac{2(x+1)}{3}=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "13",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "平方差公式化簡分數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$\\dfrac{36^{2}-16^{2}}{33^{2}-7^{2}}=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "14",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方差公式後開平方。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$\\sqrt{43^{2}-25^{2}-18^{2}}=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "15",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "指數律與平方根化簡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$\\sqrt{2^{4}\\times3^{0}\\times5^{-2}}=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "乘法公式的恆等變形求值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a+b=4$，$ab=3$，請依下列步驟回答，"
+    },
+    {
+     "type": "text",
+     "text": "(1) 試求 $a^{2}+b^{2}=$？"
+    },
+    {
+     "type": "text",
+     "text": "(2) $(a-b)^{2}=$？"
+    },
+    {
+     "type": "text",
+     "text": "(3) $a$、$b$ 兩數為？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "分配律分組提公因式求值（原題未印出步驟）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小明遇到一題：$37.4\\times2.1+62.6\\times1.9+2.1\\times62.6+37.4\\times1.9$，小明先觀察題目中的數字，再看式子結構，就作出來，請依下列步驟回答並求值。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根意義列二元一次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $-2$ 是 $x+2y$ 的一個平方根，$3x-2y+5$ 的平方根為 $\\pm5$，試求 $x$、$y$ 的值？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以多項式表示周長與面積並展開化簡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖(一)是一條 $4$ 單位長的繩子，取其中一點 $P$，$\\overline{AP}$ 圍成一個長寬比為 $3:1$ 的長方形 $OPMN$，$\\overline{BP}$ 則圍成一個正方形 $TUVP$，如圖(二)，設 $\\overline{PO}$ 為 $x$（長方形寬），則圖(二)中兩圖形面積和，用多項式表示為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 190,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 240\"><line x1=\"10\" y1=\"25\" x2=\"400\" y2=\"25\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"10\" cy=\"25\" r=\"3\" fill=\"#111\"/><circle cx=\"250\" cy=\"25\" r=\"3\" fill=\"#111\"/><circle cx=\"400\" cy=\"25\" r=\"3\" fill=\"#111\"/><text x=\"6\" y=\"50\" font-size=\"18\" font-style=\"italic\">A</text><text x=\"246\" y=\"50\" font-size=\"18\" font-style=\"italic\">P</text><text x=\"396\" y=\"50\" font-size=\"18\" font-style=\"italic\">B</text><text x=\"180\" y=\"72\" font-size=\"16\">圖(一)</text><polygon points=\"88,172 220,172 220,218 88,218\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"220,172 298,172 298,95 220,95\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"66\" y=\"172\" font-size=\"18\" font-style=\"italic\">M</text><text x=\"223\" y=\"186\" font-size=\"18\" font-style=\"italic\">P</text><text x=\"66\" y=\"228\" font-size=\"18\" font-style=\"italic\">N</text><text x=\"223\" y=\"232\" font-size=\"18\" font-style=\"italic\">O</text><text x=\"216\" y=\"90\" font-size=\"18\" font-style=\"italic\">T</text><text x=\"301\" y=\"90\" font-size=\"18\" font-style=\"italic\">U</text><text x=\"301\" y=\"184\" font-size=\"18\" font-style=\"italic\">V</text><text x=\"330\" y=\"215\" font-size=\"16\">圖(二)</text></svg>"
+    }
+   ]
+  }
+ ]
+}

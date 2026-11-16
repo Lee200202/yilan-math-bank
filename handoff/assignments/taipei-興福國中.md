@@ -1,6 +1,6 @@
 # 臺北市 興福國中 待完成清單
 
-未轉寫 22 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
+未轉寫 21 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
 
 | 範圍 | 狀態 | 格式 | paperId | 原檔／官方包 | SHA256 |
 | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,6 @@
 | 108上・9年級・第3次 | 未轉寫 | pdf | `metro-taipei-053945dd25e66b4a` | [原檔/來源](<https://drive.google.com/file/d/1mDo1PbSuh7DBtZ0KQNQMH1tmIp4eMavo/view>)  | `672cc4f6839f4f1a4494f2c81ea5a718a254dcbe47bd63b0f1d84018bce8a8b8` |
 | 107上・7年級・第1次 | 未轉寫 | pdf | `metro-taipei-e863a0f5ed17e8ea` | [原檔/來源](<https://drive.google.com/file/d/1EZI1pFZWYl_KXfd6bxR8LsoIeTAc71v3/view>)  | `bd311dd89ccd699adf07c2379a9fd577c86e39f2a03be3493d2948e74831b32d` |
 | 107下・7年級・第2次 | 未轉寫 | doc | `metro-taipei-942a5244a07add8c` | [原檔/來源](<https://drive.google.com/file/d/1t6Cvj_KoIrPfulhUf17PGdMlOv804KX0/view>)  | `eb78921518e0ec69cc82c8055590b162b5cf4b3cf1b366900158277c52794d81` |
-| 107上・8年級・第3次 | 未轉寫 | pdf | `metro-taipei-5f852d32da3173a9` | [原檔/來源](<https://drive.google.com/file/d/1uhac4r6L96726Khma7TtOEMp52rCdlws/view>)  | `8d478b1b0de13ab858f1831e9f6b9a05d1f41471f1d090a0b3d399491f67fb52` |
 | 107下・8年級・第2次 | 未轉寫 | doc | `metro-taipei-011e47ead27555c0` | [原檔/來源](<https://drive.google.com/file/d/11JIAz7Xak1vpoUT36xuscxQjuPzO5rai/view>)  | `122d1805731ae33e6e460138d7f6f6000da624d8365bee8caeacd2151ce269ae` |
 | 107上・9年級・第1次 | 未轉寫 | pdf | `metro-taipei-a3f09147151bb60d` | [原檔/來源](<https://drive.google.com/file/d/1ZvtqetfwLlllcmovlGHBTnoJLWkfwOGx/view>)  | `9e0ebe638bf49fbfaf62d427a4358780c253fb5498438742e20909863af1c249` |
 | 107上・9年級・第2次 | 未轉寫 | pdf | `metro-taipei-dd76e9ba1cf6e3f8` | [原檔/來源](<https://drive.google.com/file/d/1t7kzewDdAOTq2VVuc20sPejO9fc96dYM/view>)  | `e6d8806e071ba0f46ab20a0a85b81223a213d427a3fa2fa081c59de2a6e8c23d` |

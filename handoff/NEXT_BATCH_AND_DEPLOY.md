@@ -1,5 +1,13 @@
 # Next Batch and Deployment Record
 
+## v48 交接（2026-11-16，Codex 接手）
+
+使用者指示先收尾都會區已完成工作，再接續 Antigravity：宜蘭九上→九下→七年級，其後都會區。v48 本機建置納入發行清單中較 v47 新增的 127 份稿件，資料為 1,528 份原卷、11,684 題可組卷、全卷狀態 463 份、部分 11、待轉寫 1,054；77 項測試通過。推送與部署是否成功以 Git 與 Actions 實際狀態為準。
+
+這批文字依使用者要求沿用其他 AI 已完成稿件，沒有進行全部全文或全部 PDF 逐頁重審。部分 Claude 交棒稿的圖形尚待後續集中對照：永和114上一／上二、向上110上二／上三、鷺江113上三（fda4…）、福和112上一；不要將建置成功說成這些圖已確認無誤。持續按原卷核對圖形，待釐清題不能猜測。
+
+宜蘭九上正在處理 `1tQDE7sJrJX2xBbkfVok8vwdiOz-pipuF`、`ld-107-1-1-9`、`ld-106-1-3-9`；`ld-107-1-2-9` 已在這批核准清單。依 CLAIMS 檢查實際狀態，接續前確認代理是否仍在執行。下方 v40、v41 等均為歷史記錄。
+
 ## Milestone v40 (Current Deployment)
 - **Scope**: Completed and approved 5 Yilan Grade 8 Semester 2 exam papers:
   1. `1b94poZdz6s5sgBAkXf--VMoKS2fpoyce`: 中華國中 107-2 E2 (31 usable questions, 16 pure-vector SVGs)

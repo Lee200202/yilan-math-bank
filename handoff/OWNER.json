@@ -1,12 +1,12 @@
 {
- "coordinator": "Antigravity",
- "since": "2026-11-16",
- "handoffState": "依使用者指示：宜蘭八下優先轉寫，分工加速，定段發布，v37 已建置（7,380題）",
- "reason": "接手協調推進，依指示優先處理宜蘭八下，善用 subagent 與本地腳本省 token 驗收",
- "policy": "Only the coordinator rebuilds shared assets and publishes; helpers edit only their claimed transcripts. REVIEW_POLICY.md applies.",
- "lanes": {
-  "Antigravity": "宜蘭縣：八下→九上→九下",
-  "Claude/Codex": "都會區：八上→八下→九上→九下→最後七年級；只寫轉寫檔，不碰共用建置檔"
- },
- "coordinationNote": "見 handoff/COORDINATION.md；兩位都可發布，一次一位建置推送。"
+  "coordinator": "Codex",
+  "since": "2026-11-16",
+  "handoffState": "使用者要求收尾目前都會區卷後接手 Antigravity，先宜蘭九上、九下、七年級，再都會區",
+  "reason": "Antigravity 額度到期，使用者指示 Codex 接手並單一協調發布",
+  "policy": "Only the coordinator rebuilds shared assets and publishes; helpers edit only their claimed transcripts. REVIEW_POLICY.md applies.",
+  "lanes": {
+    "Antigravity": "宜蘭縣：八下→九上→九下",
+    "Claude/Codex": "都會區：八上→八下→九上→九下→最後七年級；只寫轉寫檔，不碰共用建置檔"
+  },
+  "coordinationNote": "見 handoff/COORDINATION.md；兩位都可發布，一次一位建置推送。"
 }

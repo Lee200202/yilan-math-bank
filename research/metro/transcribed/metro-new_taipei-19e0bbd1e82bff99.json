@@ -1,0 +1,523 @@
+{
+ "paperId": "metro-new_taipei-19e0bbd1e82bff99",
+ "sourceSha256": "a4209aeecbf6d6ae50e395be17fb61cf123506dce2f0c3e450afd7a8364e47bf",
+ "printedHeader": "新北市立中正國民中學111學年度第二學期八年級數學科第一次段考試題",
+ "printedSlot": {
+  "year": 111,
+  "semester": 2,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "基礎題13題（第2題含3格，共15格60分）、精熟題7題（共8格24分）、計算說明題4題（共16分）。",
+ "visualReviewComplete": true,
+ "reviewNote": "逐頁對照3頁試題。精熟題的題號在卷上重新從1起算，為避免與基礎題重號，轉成第14至20題。第1題月曆依卷面如實轉成表格。第15題手指圖、第16題杯子堆疊圖、第19題損益圖、計算1機器人路徑圖與計算2坐標格均重繪；手指圖為示意（標出各手指對應的數字）。第9題「剩下的1/2砍去一半」依原文照錄。",
+ "expectedTypes": {
+  "fill": 20,
+  "written": 4
+ },
+ "questions": [
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "以每週七天的週期推算日期對應的星期。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖是 $2003$ 年 $8$ 月分的月曆，請問 $8$ 月 $30$ 日開學當天是星期幾？＿＿＿＿"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "日",
+       "一",
+       "二",
+       "三",
+       "四",
+       "五",
+       "六"
+      ],
+      [
+       "",
+       "",
+       "1",
+       "2",
+       "3",
+       "4",
+       "5"
+      ],
+      [
+       "6",
+       "7",
+       "8",
+       "9",
+       "10",
+       "11",
+       "12"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等比數列與等比中項的定義，並與等差數列比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若數列 $a_1,a_2,\\cdots,a_n$ 為等比數列，其公比為 $r$，則下列敘述如果正確打「○」，不正確打「✕」："
+    },
+    {
+     "type": "text",
+     "text": "(1) $a_{18}$ 為 $a_{17}$、$a_{19}$ 的等比中項。＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(2) $a_{19},a_{18},a_{17}$ 也是等比數列。＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(3) $a_1,a_2,\\cdots,a_n$ 一定不是等差數列。＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "以等差數列的一般項求日期。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在 $2023$ 年 $1$ 月 $1$ 日冠頡已有存款 $350$ 元，他自 $1$ 月 $2$ 日起，每日皆再儲蓄 $55$ 元，則 $2023$ 年幾月幾日冠頡即有足夠的錢參加 $2600$ 元的隔宿露營？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由等差數列的首項、公差與末項求項數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知北北基地區計程車的計費錶起跳為 $70$ 元，之後每跳一次錶加 $5$ 元。若將起跳 $70$ 當作數列的首項，則計費錶所形成的數列為 $70,75,80,\\cdots,a_n$，求：喬璘坐計程車到達時，錶上呈現的費用是 $225$ 元，則共跳錶多少次？（設起跳 $70$ 元為第一次跳錶）＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "先求項數再套用等差級數和公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求等差級數 $7+10+13+\\cdots+52$ 的和為？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比中項的平方等於前後兩項的積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $3,a,27$ 三數成等比數列，且 $a<0$，求 $a$ 的值為？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "辨識公差為分數的等差級數並求前 16 項和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求等差級數 $5+5\\dfrac{2}{5}+5\\dfrac{4}{5}+\\cdots$ 到第 $16$ 項的和為？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "由相鄰兩項之比求公比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $5,15,45,\\cdots$ 是一個等比數列，求公比 $r$ 為？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "把逐日剩餘長度視為公比 $\\dfrac{1}{2}$ 的等比數列。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一根甘蔗長 $4$ 公尺，第 $1$ 天砍去一半，第 $2$ 天再從剩下的 $\\dfrac{1}{2}$ 砍去一半，用同樣的方法繼續下去，則第 $5$ 天甘蔗剩下多少公尺？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "常數函數的函數值不隨 $x$ 改變。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個常數函數 $y=c$，當 $x=5$ 與 $x=-5$ 時，其函數值均為 $8$，求此常數函數當 $x=20230329$ 時，其函數值為？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "令兩函數值相等，解一元一次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若函數 $y=x+1$ 與 $y=3x-7$，在 $x=m$ 時的函數值相等，求 $m$ 的值為？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由兩組對應值求一次函數的係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個一次函數，在 $x=1$ 時的函數值為 $6$，$x=-2$ 時的函數值為 $1$，求此一次函數為？（寫 $y=$）＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "由中間項與公差求首項，再用等差級數和公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某電影院 $E$ 廳共有 $13$ 排座位，此廳每一排都比其前一排多 $3$ 個座位，立德坐在正中間那一排（即第 $7$ 排），發現此排共有 $20$ 個座位，則此球場 $E$ 廳共有幾個座位？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "14",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "遞迴數列逐項計算再求和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "費氏數列 $a_1=1$，$a_2=1$，且 $a_{m+2}=a_{m+1}+a_m$，其中 $m$ 為正整數，則此數列前 $6$ 項的和為？（提示 $a_3=a_2+a_1$）＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "15",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "觀察手指數數的週期規律，推算第 102 次的數字。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "伸出你的左手，從大拇指開始，如圖所示的規律數數字（數字 $1$ 在大拇指，$2$ 在食指，$3$ 在中指，$4$ 在無名指，$5$ 在小指，之後往回數，$6$ 在無名指，$7$ 在中指，$8$ 在食指，$9$ 在大拇指，$10$ 在食指，依此類推）。設 $a_n$ 是數到無名指第 $n$ 次時，所表示的數字，例如 $a_1=4$，$a_2=6$，回答下列問題：$a_{102}$ 表示的數字是多少？＿＿＿＿"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-10 -10 230 180\"><polygon points=\"70,140 150,140 150,80 70,80\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"30,100 52,92 72,135 56,142\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"72,80 88,80 88,45 72,45\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"80\" y=\"40\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">2,8,10</text><polygon points=\"92,80 108,80 108,28 92,28\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"100\" y=\"23\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">3,7</text><polygon points=\"112,80 128,80 128,40 112,40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"120\" y=\"35\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">4,6</text><polygon points=\"132,80 148,80 148,58 132,58\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"140\" y=\"53\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">5</text><text x=\"28\" y=\"122\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">1,9</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "16",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "以等差級數 $1+2+\\cdots+n=465$ 求最底層杯數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某公司派對時間結束後，同事們一起清洗現場所有的 $465$ 個杯子，洗完後他們想把杯子裡的水瀝乾，且為了美觀，將杯子倒著放並排成如下圖。排放的規律如下：由下往上每一層少一個杯子，最高層僅剩一個杯子。如果 $465$ 個杯子剛好排完，請你幫忙想一想，最底層需要排幾個杯子？＿＿＿＿"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-10 -10 190 150\"><polygon points=\"75,5 95,5 99,33 71,33\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"60,33 80,33 84,61 56,61\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"90,33 110,33 114,61 86,61\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"45,61 65,61 69,89 41,89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"75,61 95,61 99,89 71,89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"105,61 125,61 129,89 101,89\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"30,89 50,89 54,117 26,117\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"60,89 80,89 84,117 56,117\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"90,89 110,89 114,117 86,117\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"120,89 140,89 144,117 116,117\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "17",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "由首項與第 10 項求公差，再判斷正負項與和的最小值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設一個等差數列的首項為 $-39$，第 $10$ 項為 $-19$，則："
+    },
+    {
+     "type": "text",
+     "text": "(1) 此等差數列自第幾項開始為正數？＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(2) 自第 $1$ 項加到第幾項時，其和會最小？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "18",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "由 $S_n$ 求 $a_1$、$a_2$，得出公差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "等差級數 $S_n=3n^{2}+4n$，求其公差 $d$ 為＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "19",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "兩一次函數值相等時求交點，應用於收支平衡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "YES 超商的霜淇淋機價格為 $20$ 萬元，且每支霜淇淋的製造成本為 $15$ 元，售價是 $35$ 元。當函數 $y=15x+200000$ 與函數 $y=35x$ 的函數值相等時所求出的 $x$ 值，就是收支平衡時的銷售量。即 $15x+200000=35x$，解得 $x=10000$。也就是這家超商在售出 $10000$ 支霜淇淋時，總收入為 $350000$ 元，才可收支平衡，由下圖可看出結果。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 170,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-10 -10 490 320\"><line x1=\"93\" y1=\"250\" x2=\"93\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"93\" y1=\"250\" x2=\"330\" y2=\"250\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"89\" y1=\"210\" x2=\"97\" y2=\"210\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"82\" y=\"215\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">100000</text><line x1=\"89\" y1=\"170\" x2=\"97\" y2=\"170\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"82\" y=\"175\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">200000</text><line x1=\"89\" y1=\"130\" x2=\"97\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"82\" y=\"135\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">300000</text><line x1=\"89\" y1=\"90\" x2=\"97\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"82\" y=\"95\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">400000</text><line x1=\"132\" y1=\"246\" x2=\"132\" y2=\"254\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"132\" y=\"270\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">5000</text><line x1=\"172\" y1=\"246\" x2=\"172\" y2=\"254\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"172\" y=\"270\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">10000</text><line x1=\"212\" y1=\"246\" x2=\"212\" y2=\"254\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"212\" y=\"270\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">15000</text><line x1=\"252\" y1=\"246\" x2=\"252\" y2=\"254\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"252\" y=\"270\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">20000</text><line x1=\"292\" y1=\"246\" x2=\"292\" y2=\"254\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"292\" y=\"270\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">25000</text><line x1=\"93\" y1=\"170\" x2=\"222\" y2=\"75\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"93\" y1=\"250\" x2=\"200\" y2=\"65\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"93\" y1=\"110\" x2=\"172\" y2=\"110\" stroke=\"#111\" stroke-width=\"0.9\" stroke-dasharray=\"4 3\"/><line x1=\"172\" y1=\"110\" x2=\"172\" y2=\"250\" stroke=\"#111\" stroke-width=\"0.9\" stroke-dasharray=\"4 3\"/><circle cx=\"172\" cy=\"110\" r=\"3\" fill=\"#111\" stroke=\"none\"/><text x=\"82\" y=\"115\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">350000</text><text x=\"78\" y=\"264\" font-size=\"13\" text-anchor=\"end\" font-style=\"italic\" fill=\"#111\">O</text><text x=\"86\" y=\"55\" font-size=\"13\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">y</text><text x=\"335\" y=\"255\" font-size=\"13\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">x</text><text x=\"88\" y=\"40\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">金額（元）</text><text x=\"360\" y=\"272\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">銷售支數（支）</text><text x=\"240\" y=\"45\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">總成本</text><text x=\"240\" y=\"63\" font-size=\"12\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">y=15x+200000</text><text x=\"148\" y=\"190\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">總收入</text><text x=\"148\" y=\"208\" font-size=\"12\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">y=35x</text><text x=\"200\" y=\"122\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">收支平衡點</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "另外，YES 超商的咖啡機價格為 $7$ 萬元，且每杯咖啡的製造成本為 $20$ 元，售價是 $55$ 元。請你幫忙算一下，當咖啡銷售幾杯時，可以達到收支平衡？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "20",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "由三數成等比列比例式，解一元二次方程式求黃金比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在不失一般性的情況下，可以假設黃金矩形的寬為 $1$，長為 $x$，則 $1,x,x+1$ 三數成等比數列，請你求出黃金矩形之長與寬的比值為？（不寫近似值）＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "分別觀察奇數次與偶數次行走的距離，用等差級數求坐標。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，有一個機器人從原點 $O(0,0)$ 出發，按以下規律行走：第 $1$ 次向右方行走 $1$ 個單位移動到 $A_1$；第 $2$ 次向上方行走 $2$ 個單位移動到 $A_2$；第 $3$ 次向右方行走 $3$ 個單位移動到 $A_3$；第 $4$ 次向上方行走 $4$ 個單位移動到 $A_4$；按這樣的規律繼續行走，第 $n$ 次行走 $n$ 個單位，其中第奇數次向右方行走，第偶數次向上方行走，第 $21$ 次機器人到達 $A_{21}$，則 $A_{21}$ 的坐標是多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-10 -10 280 220\"><line x1=\"15\" y1=\"163\" x2=\"200\" y2=\"163\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"195\" x2=\"53\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.2\"/><polyline points=\"53,163 68,163 68,130 119,130 119,63\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.0\"/><line x1=\"119\" y1=\"63\" x2=\"160\" y2=\"63\" stroke=\"#111\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"48\" y=\"17\" font-size=\"14\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">y</text><text x=\"215\" y=\"170\" font-size=\"14\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">x</text><text x=\"40\" y=\"185\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text><text x=\"84\" y=\"190\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A₁</text><text x=\"65\" y=\"123\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A₂</text><text x=\"134\" y=\"153\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A₃</text><text x=\"105\" y=\"57\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A₄</text><text x=\"62\" y=\"192\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">1</text><text x=\"84\" y=\"155\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">2</text><text x=\"95\" y=\"123\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">3</text><text x=\"135\" y=\"100\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">4</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 3,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "取兩點描繪一次函數的圖形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在坐標平面上畫出一次函數 $y=-3x+2$ 的圖形。（須在圖上標示此函數通過至少兩點的點坐標）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-10 -10 360 340\"><line x1=\"25\" y1=\"30\" x2=\"25\" y2=\"310\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"25\" y1=\"30\" x2=\"305\" y2=\"30\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"53\" y1=\"30\" x2=\"53\" y2=\"310\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"25\" y1=\"58\" x2=\"305\" y2=\"58\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"81\" y1=\"30\" x2=\"81\" y2=\"310\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"25\" y1=\"86\" x2=\"305\" y2=\"86\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"109\" y1=\"30\" x2=\"109\" y2=\"310\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"25\" y1=\"114\" x2=\"305\" y2=\"114\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"137\" y1=\"30\" x2=\"137\" y2=\"310\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"25\" y1=\"142\" x2=\"305\" y2=\"142\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"165\" y1=\"30\" x2=\"165\" y2=\"310\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"25\" y1=\"170\" x2=\"305\" y2=\"170\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"193\" y1=\"30\" x2=\"193\" y2=\"310\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"25\" y1=\"198\" x2=\"305\" y2=\"198\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"221\" y1=\"30\" x2=\"221\" y2=\"310\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"25\" y1=\"226\" x2=\"305\" y2=\"226\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"249\" y1=\"30\" x2=\"249\" y2=\"310\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"25\" y1=\"254\" x2=\"305\" y2=\"254\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"277\" y1=\"30\" x2=\"277\" y2=\"310\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"25\" y1=\"282\" x2=\"305\" y2=\"282\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"305\" y1=\"30\" x2=\"305\" y2=\"310\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"25\" y1=\"310\" x2=\"305\" y2=\"310\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"170\" x2=\"320\" y2=\"170\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"165\" y1=\"315\" x2=\"165\" y2=\"15\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"325\" y=\"175\" font-size=\"14\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">x</text><text x=\"173\" y=\"22\" font-size=\"14\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">y</text><text x=\"157\" y=\"186\" font-size=\"14\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text><line x1=\"193\" y1=\"166\" x2=\"193\" y2=\"174\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"197\" y=\"188\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">1</text><line x1=\"161\" y1=\"142\" x2=\"169\" y2=\"142\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"153\" y=\"147\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">1</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "3",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由一點求正比例函數的係數，再正向與反向代入。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某文具行舉辦促銷活動，已知促銷方式是將原來的價格用線型函數 $y=ax$ 調整成新的價格，使得原來 $40$ 元的文具變成 $30$ 元，則："
+    },
+    {
+     "type": "text",
+     "text": "(1) 原來價格 $80$ 元的文具，調整後變成多少元？"
+    },
+    {
+     "type": "text",
+     "text": "(2) 原來價格多少元的文具，調整後變成 $99$ 元？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "4",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "設三邊成等差，用畢氏定理求邊長比，再說明面積為 $6d^{2}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若直角三角形的三邊長剛好成等差數列，且公差為 $d$，試畫圖列式說明其面積必為 $6d^{2}$。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,614 @@
+{
+  "paperId": "metro-taichung-24da45623297d946",
+  "sourceSha256": "21eee3b4ee26df975d007a5c701b40757e9d3fbd33ba66909e9a0b637241b7f1",
+  "printedHeader": "臺中市立大華國民中學112學年度第二學期第2次定期評量八年級數學科",
+  "printedSlot": {
+    "year": 112,
+    "semester": 2,
+    "grade": 8,
+    "exam": 2
+  },
+  "printedCounts": "選擇10題、填充10題、計算3題；第3頁為答案紙。",
+  "visualReviewComplete": true,
+  "reviewNote": "原題兩頁轉為文字公式，第3頁為答案紙。必要圖形及共用條件重繪純SVG。",
+  "expectedTypes": {
+    "choice": 10,
+    "fill": 10,
+    "written": 3
+  },
+  "questions": [
+    {
+      "type": "choice",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-1",
+      "unitIds": [
+        "nanyi-8-2-3-1"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "$\\triangle ABC$ 中，$\\angle A$ 的補角與 $\\angle B$ 的餘角相等，則此三角形必為何種三角形？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "鈍角三角形",
+            "直角三角形",
+            "銳角三角形",
+            "正三角形"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "2",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-5",
+      "unitIds": [
+        "nanyi-8-2-3-5"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，大小兩圓的圓心均為 $O$，半徑分別為 $3$、$2$，$A$ 為小圓上的固定點。在大圓上找一點 $B$，使 $AB=2OA$，滿足條件的 $B$ 點共有幾個？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><circle cx=\"150\" cy=\"95\" r=\"72\"/><circle cx=\"150\" cy=\"95\" r=\"48\"/><circle cx=\"150\" cy=\"95\" r=\"2\" fill=\"#111\"/><circle cx=\"116\" cy=\"61\" r=\"2\" fill=\"#111\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"153\" y=\"108\">O</text><text x=\"102\" y=\"58\">A</text></g></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$3$",
+            "$2$",
+            "$1$",
+            "$0$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "3",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-2",
+      "unitIds": [
+        "nanyi-8-2-3-2"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$M$ 為 $BC$ 中點，$AM$ 為 $\\triangle ABC$ 的中線，$\\angle C>\\angle B$。以 $A$、$M$ 為圓心，$AG$ 為半徑畫弧，兩弧交點連線延長成直線 $L$，交 $AB$、$AM$、$AC$ 於 $F$、$E$、$D$。何者錯誤？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M160 20 L35 165 H245 Z M160 20 L140 165 M35 165 H245 M30 65 L265 110\"/><path d=\"M60 45 Q85 70 95 94 M205 60 Q220 90 225 120\" stroke-dasharray=\"4 3\"/><circle cx=\"87\" cy=\"76\" r=\"2\" fill=\"#111\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"158\" y=\"16\">A</text><text x=\"20\" y=\"181\">B</text><text x=\"246\" y=\"181\">C</text><text x=\"134\" y=\"183\">M</text><text x=\"104\" y=\"77\">F</text><text x=\"147\" y=\"91\">E</text><text x=\"220\" y=\"106\">D</text><text x=\"75\" y=\"91\">G</text><text x=\"18\" y=\"65\">L</text></g></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$E$ 為 $AM$ 中點",
+            "$DF\\perp AM$",
+            "$AG=\\frac12 AM$",
+            "連接 $MF$，則 $MF=AF$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "4",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-2",
+      "unitIds": [
+        "nanyi-8-2-3-2"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，作直線 $L$ 上的點 $P$ 的垂線。步驟如下，何者順序正確？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M20 130 H275 M150 30 V170 M90 130 A60 60 0 0 1 210 130 M90 130 Q120 60 150 50 M210 130 Q180 60 150 50\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"78\" y=\"150\">A</text><text x=\"145\" y=\"150\">P</text><text x=\"209\" y=\"150\">B</text><text x=\"154\" y=\"52\">Q</text><text x=\"278\" y=\"135\">L</text></g></g></svg>"
+        },
+        {
+          "type": "text",
+          "text": "甲：直線 $PQ$ 即為所求。"
+        },
+        {
+          "type": "text",
+          "text": "乙：以 $P$ 為圓心、適當長度為半徑畫弧，交 $L$ 於 $A$、$B$。"
+        },
+        {
+          "type": "text",
+          "text": "丙：以 $A$、$B$ 為圓心，大於 $\\frac12 AB$ 的長度為半徑畫弧，兩弧相交於 $Q$。"
+        },
+        {
+          "type": "text",
+          "text": "丁：連接 $PQ$ 並延長。"
+        },
+        {
+          "type": "options",
+          "items": [
+            "乙、丙、丁、甲",
+            "甲、丙、乙、丁",
+            "丙、乙、丁、甲",
+            "丁、乙、丙、甲"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "5",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-3",
+      "unitIds": [
+        "nanyi-8-2-1-3"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列敘述何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "公比為 $r$ 的等比數列各項乘以 $3$ 後，新公比為 $3r$",
+            "若 $a,b,c$ 為等差數列且 $a,b$ 均為負數，則 $c$ 必為負數",
+            "若 $a,b,c$ 為等比數列且 $a,b$ 均為負數，則 $c$ 必為負數",
+            "數列 $0,0,0,0,0$ 既是等差數列也是等比數列"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "6",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-3-2",
+      "unitIds": [
+        "nanyi-8-2-3-2"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知一角為 $120^\\circ$，欲得到 $15^\\circ$ 的角，至少需作幾次角平分線作圖？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$3$",
+            "$4$",
+            "$5$",
+            "$6$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "7",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-3",
+      "unitIds": [
+        "nanyi-8-2-3-3"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，在 $\\triangle ABC$ 與 $\\triangle DEF$ 中，$B,F,C,E$ 共線且 $BF=CE$，則下列敘述何者錯誤？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M45 145 L85 25 L220 145 H45 M95 145 L225 25 L260 145 H95\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"35\" y=\"164\">B</text><text x=\"92\" y=\"164\">F</text><text x=\"219\" y=\"164\">C</text><text x=\"261\" y=\"164\">E</text><text x=\"79\" y=\"20\">A</text><text x=\"226\" y=\"20\">D</text></g></g></svg>"
+        },
+        {
+          "type": "text",
+          "text": "由條件 $BC=BF+FC=CE+FC=EF$。"
+        },
+        {
+          "type": "options",
+          "items": [
+            "若 $AB=DE$、$AC=DF$，則兩三角形依 SSS 全等",
+            "若 $\\angle B=\\angle E$、$\\angle ACB=\\angle DFE$，則兩三角形依 ASA 全等",
+            "若 $AB=DE$、$\\angle B=\\angle E$，則兩三角形依 SAS 全等",
+            "若 $\\angle A=\\angle D$、$AC=DF$，則兩三角形依 SSA 全等"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "8",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-3",
+      "unitIds": [
+        "nanyi-8-2-3-3"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，平面上有 $\\triangle ACD$ 與 $\\triangle BCE$，$AD$、$BE$ 相交於 $P$。若 $AC=BC$、$AD=BE$、$CD=CE$，$\\angle ACE=55^\\circ$、$\\angle BCD=155^\\circ$，則 $\\angle BPD$ 為何？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M50 90 L130 160 L255 170 L110 30 L130 160 L220 45 L50 90\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"105\" y=\"24\">A</text><text x=\"37\" y=\"93\">B</text><text x=\"128\" y=\"177\">C</text><text x=\"258\" y=\"181\">D</text><text x=\"221\" y=\"40\">E</text><text x=\"151\" y=\"64\">P</text></g></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$110^\\circ$",
+            "$125^\\circ$",
+            "$130^\\circ$",
+            "$155^\\circ$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "9",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-2",
+      "unitIds": [
+        "nanyi-8-2-3-2"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，射線 $AD$ 為 $\\angle A$ 的角平分線，$D$ 為以 $B$、$C$ 為圓心所作兩弧的交點，何者錯誤？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M35 155 H270 M35 155 L200 -10 M35 155 L255 64 M120 70 Q145 95 155 155 M120 70 Q160 65 225 76 M155 155 Q180 100 225 76\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"21\" y=\"171\">A</text><text x=\"155\" y=\"172\">B</text><text x=\"110\" y=\"65\">C</text><text x=\"229\" y=\"77\">D</text></g></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$CD>\\frac12 CB$",
+            "連接 $CB$，則 $CB$ 為 $AD$ 的中垂線",
+            "$D$ 到射線 $AB$、$AC$ 的距離相等",
+            "若平面上一點 $E$ 到射線 $AB$、$AC$ 等距，則 $E$ 必在射線 $AD$ 上"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "10",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-1-1",
+      "unitIds": [
+        "nanyi-8-2-1-1"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列何者不是等差數列？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$\\sqrt5,2\\sqrt5,3\\sqrt5,4\\sqrt5$",
+            "$\\sqrt1,\\sqrt4,\\sqrt9,\\sqrt{16}$",
+            "$\\sqrt5,\\sqrt5,\\sqrt5,\\sqrt5$",
+            "$\\sqrt1,2\\sqrt2,3\\sqrt3,4\\sqrt4$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-2-3-1",
+      "unitIds": [
+        "nanyi-8-2-3-1"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，正六邊形與正九邊形共用邊 $EF$，連接 $DM$，則 $\\angle CDM=$ ＿＿＿＿度。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M100.0 172.0 L148.0 172.0 L172.0 130.4 L148.0 88.9 L100.0 88.9 L76.0 130.4 Z M100.0 172.0 L148.0 172.0 L184.8 141.1 L193.1 93.9 L169.1 52.3 L124.0 35.9 L78.9 52.3 L54.9 93.9 L63.2 141.1 Z M76.0 130.4 L63.2 141.1\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"96\" y=\"188\">E</text><text x=\"149\" y=\"188\">F</text><text x=\"172\" y=\"145\">A</text><text x=\"153\" y=\"103\">B</text><text x=\"98\" y=\"103\">C</text><text x=\"72\" y=\"148\">D</text><text x=\"179\" y=\"162\">G</text><text x=\"190\" y=\"116\">H</text><text x=\"174\" y=\"72\">I</text><text x=\"130\" y=\"53\">J</text><text x=\"80\" y=\"70\">K</text><text x=\"56\" y=\"113\">L</text><text x=\"59\" y=\"161\">M</text></g></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "2",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-1",
+      "unitIds": [
+        "nanyi-8-2-3-1"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，兩直線相交於一點，$\\angle1=(18x+43)^\\circ$、$\\angle2=(7x-13)^\\circ$，求 $\\angle3=$ ＿＿＿＿度。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M20 30 L270 155 M20 150 L270 30\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"148\" y=\"70\">1</text><text x=\"115\" y=\"87\">2</text><text x=\"147\" y=\"113\">3</text><text x=\"174\" y=\"93\">4</text></g></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "3",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-2-3-2",
+      "unitIds": [
+        "nanyi-8-2-3-2"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$\\triangle ABC$ 是邊長為 $10$ 的正三角形。$E$ 為以 $D$ 為圓心、$BD$ 為半徑所畫弧與 $AB$ 的交點；利用尺規作圖痕跡判斷 $DH=$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M135 20 L55 158.6 H215 Z M135 20 V180 M135 158.6 L45 106.6\"/><path d=\"M55 158.6 A80 80 0 0 1 95 89.3 M90 68 Q110 90 130 88 M140 88 Q160 90 180 68\" stroke-dasharray=\"4 3\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"130\" y=\"15\">A</text><text x=\"40\" y=\"175\">B</text><text x=\"216\" y=\"175\">C</text><text x=\"138\" y=\"175\">D</text><text x=\"84\" y=\"89\">E</text><text x=\"34\" y=\"108\">F</text><text x=\"63\" y=\"123\">H</text></g></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "4",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-2",
+      "unitIds": [
+        "nanyi-8-2-3-2"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$\\triangle ABC$ 是邊長為 $10$ 的正三角形；$E$ 是以 $D$ 為圓心、$BD$ 為半徑所畫弧與 $AB$ 的交點。連接 $DE$，則 $\\angle AED=$ ＿＿＿＿度。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M135 20 L55 158.6 H215 Z M135 20 V180 M135 158.6 L45 106.6\"/><path d=\"M55 158.6 A80 80 0 0 1 95 89.3 M90 68 Q110 90 130 88 M140 88 Q160 90 180 68\" stroke-dasharray=\"4 3\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"130\" y=\"15\">A</text><text x=\"40\" y=\"175\">B</text><text x=\"216\" y=\"175\">C</text><text x=\"138\" y=\"175\">D</text><text x=\"84\" y=\"89\">E</text><text x=\"34\" y=\"108\">F</text><text x=\"63\" y=\"123\">H</text></g></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "5",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-2-3-1",
+      "unitIds": [
+        "nanyi-8-2-3-1"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，四邊形 $ABCD$ 中，$AF$、$DF$ 分別平分 $\\angle BAD$、$\\angle ADC$；$BE$、$CE$ 分別平分 $\\angle ABC$、$\\angle BCD$。若 $\\angle E=100^\\circ$，則 $\\angle F=$ ＿＿＿＿度。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M65 25 L45 160 H245 L265 45 Z M65 25 L160 135 M265 45 L160 135 M45 160 L155 70 M245 160 L155 70\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"53\" y=\"20\">A</text><text x=\"30\" y=\"178\">B</text><text x=\"246\" y=\"178\">C</text><text x=\"269\" y=\"45\">D</text><text x=\"155\" y=\"64\">E</text><text x=\"160\" y=\"152\">F</text></g></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "6",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-4",
+      "unitIds": [
+        "nanyi-8-2-3-4"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，直線 $L$ 為 $AB$ 的中垂線，$D$、$E$ 在 $L$ 上。已知 $AB=24$、$AD=13$、$DE=4$，則四邊形 $ADBE$ 的周長為 ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M150 5 V185 M20 165 H280 M20 165 L150 111 L280 165 M20 165 L150 67.5 L280 165\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"4\" y=\"170\">A</text><text x=\"282\" y=\"170\">B</text><text x=\"137\" y=\"183\">C</text><text x=\"136\" y=\"109\">D</text><text x=\"137\" y=\"65\">E</text><text x=\"154\" y=\"13\">L</text></g></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "7",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-2-3-4",
+      "unitIds": [
+        "nanyi-8-2-3-4"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$\\triangle ABC$ 為等腰三角形，$BC=10$、$AB=AC=13$，$DE\\perp AB$ 交 $AB$ 於 $E$，$DF\\perp AC$ 交 $AC$ 於 $F$，則 $DE+DF=$ ＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 260\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M150 20 L60 236 H240 Z M105 236 L66.66 220.02 M105 236 L220.03 188.07 M64.35 225.56 L69.89 227.87 L72.2 222.33 M222.34 193.61 L216.8 195.92 L214.49 190.38\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"145\" y=\"15\">A</text><text x=\"45\" y=\"252\">B</text><text x=\"240\" y=\"252\">C</text><text x=\"99\" y=\"253\">D</text><text x=\"51\" y=\"222\">E</text><text x=\"224\" y=\"190\">F</text></g></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "8",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-1-2",
+      "unitIds": [
+        "nanyi-8-2-1-2"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "兩等差數列 $\\langle a_n\\rangle$、$\\langle b_n\\rangle$ 的一般項為 $a_n=3n-5$、$b_n=5n+2$。若 $S_n=a_1+a_2+\\cdots+a_n$、$T_n=b_1+b_2+\\cdots+b_n$，則 $S_{17}:T_{17}=$ ＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "9",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-2-2-1",
+      "unitIds": [
+        "nanyi-8-2-2-1"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "函數 $y=f(x)$ 的圖形經過 $(-1,4)$、$(0,3)$、$(1,0)$、$(2,1)$、$(3,2)$、$(4,7)$，求 $f(-1)+f(1)+f(2)+f(4)=$ ＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "10",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-3",
+      "unitIds": [
+        "nanyi-8-2-3-3"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，正方形 $ABCD$ 中，$E$、$F$ 分別在 $BC$、$CD$ 上，且 $BE=DF$。證明 $\\triangle ABE\\cong\\triangle ADF$：由 $\\angle B=\\angle D=90^\\circ$、$AD=AB$、$BE=DF$，可依 ＿＿＿＿ 全等性質得證。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M65 25 H225 V165 H65 Z M65 25 L115 165 M65 25 L225 75\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"53\" y=\"20\">A</text><text x=\"51\" y=\"181\">B</text><text x=\"226\" y=\"181\">C</text><text x=\"226\" y=\"20\">D</text><text x=\"111\" y=\"183\">E</text><text x=\"229\" y=\"78\">F</text></g></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "1",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-1",
+      "unitIds": [
+        "nanyi-8-2-3-1"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $\\triangle ABC$ 為直角三角形；若 $\\angle A$ 的補角是 $\\angle B$ 餘角的兩倍，則 $AB:AC=$？"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "2",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-2-3-1",
+      "unitIds": [
+        "nanyi-8-2-3-1"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "艾大華從 $P$ 點向東出發騎自行車：騎 $15$ 公尺後右轉 $10^\\circ$，再騎 $15$ 公尺後右轉 $20^\\circ$，再騎 $15$ 公尺後右轉 $30^\\circ$，依此規律直到第一次回到 $P$ 點停止。求此次騎行總距離。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M15 35 H115 L200 55 L260 95 L285 145\"/><path d=\"M115 35 H165 M200 55 L240 63 M260 95 L285 110\" stroke-dasharray=\"3 3\"/><path d=\"M265 40 V10 M265 10 L260 20 M265 10 L270 20\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"8\" y=\"30\">P</text><text x=\"52\" y=\"28\">15m</text><text x=\"152\" y=\"48\">15m</text><text x=\"222\" y=\"83\">15m</text><text x=\"265\" y=\"140\">15m</text><text x=\"130\" y=\"27\">10°</text><text x=\"218\" y=\"55\">20°</text><text x=\"265\" y=\"94\">30°</text><text x=\"273\" y=\"17\">北</text></g></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "3",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-2-3-3",
+      "unitIds": [
+        "nanyi-8-2-3-3"
+      ],
+      "unitAssignmentBasis": "依主要數學概念分類。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，$ABCDE$ 與 $FGHIJ$ 均為正五邊形，$FGHIJ$ 五個頂點分別位於 $ABCDE$ 的五邊上。填入適當文字、線段或角度，完成 $\\triangle AFJ\\cong\\triangle BGF$ 的證明。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"><path d=\"M97 178 L203 178 L236 77 L150 15 L64 77 Z M171 178 L226 108 L176 34 L90 58 L87 147 Z\"/><g stroke=\"none\" fill=\"#111\" font-size=\"15\"><text x=\"84\" y=\"187\">A</text><text x=\"203\" y=\"187\">B</text><text x=\"239\" y=\"76\">C</text><text x=\"147\" y=\"12\">D</text><text x=\"51\" y=\"78\">E</text><text x=\"170\" y=\"187\">F</text><text x=\"229\" y=\"110\">G</text><text x=\"179\" y=\"33\">H</text><text x=\"77\" y=\"57\">I</text><text x=\"72\" y=\"148\">J</text></g></g></svg>"
+        },
+        {
+          "type": "text",
+          "text": "在兩三角形中：① $\\angle AFJ+\\angle AJF=$ ＿＿＿＿度；$\\angle AFJ+\\angle BFG=$ ＿＿＿＿度，故 $\\angle AJF=$ ＿＿＿＿。"
+        },
+        {
+          "type": "text",
+          "text": "② $\\angle A=$ ＿＿＿＿ $=108^\\circ$。③ ＿＿＿＿ $=FG$。"
+        },
+        {
+          "type": "text",
+          "text": "因此 $\\triangle AFJ\\cong\\triangle BGF$（＿＿＿＿ 全等性質）。"
+        }
+      ]
+    }
+  ]
+}

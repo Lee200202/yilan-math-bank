@@ -1,0 +1,578 @@
+{
+ "paperId": "metro-taichung-3ff0248918f0119e-af142d95",
+ "sourceSha256": "af142d95066eed4ecb0d16d9a91302430dc8079554597db3f70cef1648f1b279",
+ "printedHeader": "110學年度第二學期臺中市立向上國民中學第一次定期評量二年級數學科",
+ "printedSlot": {
+  "year": 110,
+  "semester": 2,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、填充13格（A～M）、綜合應用題2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "已逐頁對照原卷2頁（第3頁答案卷、第4頁解答未轉錄，僅用來核對）。圖形（第10選擇的加熱圖、填充J的圖1～3、填充L的牙籤圖）以向量SVG重畫；填充J的艾薛爾版畫為裝飾性圖片，未重畫。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 13,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差、等比數列與等差中項的判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "數列$\\dfrac{1}{2}$，$\\dfrac{2}{3}$，$\\dfrac{3}{4}$，$\\dfrac{4}{5}$，$\\dfrac{5}{6}$是一個等差數列",
+      "數列$\\dfrac{\\sqrt{3}}{3}$，$\\dfrac{1}{3}$，$\\dfrac{\\sqrt{3}}{9}$，$\\dfrac{1}{9}$是一個等比數列",
+      "正整數$1$到$100$為等差數列，則$50$是$1$與$100$的等差中項",
+      "若$a$，$b$，$c$三數成等比數列，則$a+2$，$b+4$，$c+8$亦為等比數列"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "函數的意義：每個$x$恰對應一個$y$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列各敘述中，何者$y$是$x$的函數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "新冠肺炎PCR檢測，$y$為檢測結果，$x$為第一次參加檢測的民眾",
+      "$x$為正整數，$y$為$x$的平方根",
+      "超商販售的飲料，$y$為顧客，$x$為飲料類別",
+      "西元$2022$年，$y$為月份，$x$為日數"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列一般項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若等差數列的首項為$48$，公差為$-4$，則第$12$項為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$92$",
+      "$0$",
+      "$4$",
+      "$12$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差中項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知$-4$，$x$，$20$成等差數列，求$x=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-12$",
+      "$12$",
+      "$8$",
+      "$0$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數求和（先求項數）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知等差級數$37+33+29+\\cdots-23-27-31$，則此級數的和為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$204$",
+      "$54$",
+      "$53$",
+      "$51$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "由相鄰兩項求公比再求前面的項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若等比數列的第七項為$2$，第八項為$3$，則此數列的第四項為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{16}{27}$",
+      "$\\dfrac{27}{4}$",
+      "$\\dfrac{8}{9}$",
+      "$-1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比中項（同號）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有五個數$-4$，$a$，$b$，$c$，$-36$成等比數列，則$b$的值為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$144$",
+      "$\\pm 12$",
+      "$12$",
+      "$-12$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "在範圍內討論整數等比數列。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "索隆從$1\\sim 50$的正整數中挑選$3$個數，並將其由小到大排序成等比數列，已知$3$個數中最小的是$4$，則下列哪一個數不可能出現在索隆挑選的數字之中？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$49$",
+      "$48$",
+      "$16$",
+      "$12$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "費波那契數列的奇偶規律。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "觀察費波那契數列$1$，$1$，$2$，$3$，$5$，$8$，$13$，$\\cdots$，若依費波那契數列的規律寫出$200$個數字，則奇數數字個數會比偶數數字個數多幾個？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$",
+      "$66$",
+      "$67$",
+      "$68$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由圖形求一次函數式與函數值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "娜美加熱一壺水，加熱時間$x$(分)和溫度$y(^\\circ C)$的變化如圖，則下列敘述何者正確？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 128\"><line x1=\"34\" y1=\"100\" x2=\"34\" y2=\"8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"34\" y1=\"100\" x2=\"160\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"31,14 34,8 37,14\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><polyline points=\"153,97 160,100 153,103\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"34\" y1=\"69.2\" x2=\"148\" y2=\"9.8\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"58\" y1=\"56\" x2=\"58\" y2=\"100\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"58\" y1=\"56\" x2=\"34\" y2=\"56\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"118\" y1=\"23\" x2=\"118\" y2=\"100\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"118\" y1=\"23\" x2=\"34\" y2=\"23\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><text x=\"29\" y=\"60\" font-size=\"11\" fill=\"#111\" text-anchor=\"end\">40</text><text x=\"29\" y=\"27\" font-size=\"11\" fill=\"#111\" text-anchor=\"end\">70</text><text x=\"58\" y=\"113\" font-size=\"11\" fill=\"#111\" text-anchor=\"middle\">2</text><text x=\"118\" y=\"113\" font-size=\"11\" fill=\"#111\" text-anchor=\"middle\">7</text><text x=\"29\" y=\"112\" font-size=\"11\" fill=\"#111\" text-anchor=\"end\">0</text><text x=\"42\" y=\"12\" font-size=\"14\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">y</text><text x=\"166\" y=\"104\" font-size=\"14\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">x</text><text x=\"94\" y=\"127\" font-size=\"11\" fill=\"#111\" text-anchor=\"middle\">加熱時間(分)</text><text x=\"8\" y=\"24\" font-size=\"10\" fill=\"#111\" text-anchor=\"middle\">溫</text><text x=\"8\" y=\"35\" font-size=\"10\" fill=\"#111\" text-anchor=\"middle\">度</text><text x=\"8\" y=\"46\" font-size=\"10\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">y</text><text x=\"8\" y=\"57\" font-size=\"9\" fill=\"#111\" text-anchor=\"middle\">(°C)</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "水在未加熱前的水溫為$28^\\circ C$",
+      "$x$與$y$的關係式為$y=30+5x$",
+      "這壺水加熱$10$分鐘會沸騰",
+      "$y$是$x$的常數函數"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "列出一次函數關係式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有長$21$公分的線香，其每分鐘燃燒的長度均相等且每分鐘可燒掉的長度為$1.5$公分，若今點燃$x$分鐘後($x\\le 14$)，線香剩下的長度為$y$公分，則$x$與$y$的關係式為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由函數值求係數再求函數值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一次函數$y=ax-16$，在$x=3$時的函數值是$5$，則在$x=8$時的函數值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由兩個函數值求$a+b$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一次函數$y=ax+b$，在$x=3$時的函數值是$-4$，在$x=-2$時的函數值是$31$，則$a+b=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數求公差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知等差級數的首項為$30$，前$10$項的和為$30$，則公差為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由兩項求等差數列的第20項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知等差數列的第$5$項為$24$，第$15$項為$36$，則第$20$項為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數：倍數的和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "正整數$8$到$192$中，所有$4$的倍數的和等於＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差中項列方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知$4x-21$，$3x+8$，$5x+1$三數成等差數列，則公差的值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比中項列方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知$x-3$，$x+1$，$x+7$三數成等比數列，則公比的值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列的應用（不等式）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "香吉士應徵廚師工作，第一年的月薪為基本工資$24250$元，但老闆答應他未來會加薪，只要工作每滿一年，月薪就加$3000$元，請問香吉士工作到第＿＿＿＿年起，月薪就會超過$50000$元？"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "圖形面積規律形成等比數列。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "荷蘭版畫家艾薛爾把自己稱為一個「圖形藝術家」，他專門從事於木版畫和平版畫，而數學家稱他為藝術家中的數學家。他在1964年4月曾作一幅木製版畫《方極限》(Square Limit)。魯夫在欣賞過艾薛爾作品後，藝術魂大爆發，於是他也開始嘗試創作，他先在白紙上畫一正方形如(圖1)，將其等分為$9$個正方形並沿一對角線方向的$3$個正方形著色如(圖2)，再將(圖2)中剩餘的白色正方形各自等分為$9$個正方形，並依前述方式著色如(圖3)，如此反覆進行，請問，如果魯夫持續進行到(圖5)，則(圖5)中會有＿＿＿＿個白色正方形？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 365 120\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><text x=\"50\" y=\"112\" font-size=\"12\" fill=\"#111\" text-anchor=\"middle\">圖1</text><rect x=\"115\" y=\"5\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"145\" y=\"5\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"175\" y=\"5\" width=\"30\" height=\"30\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"115\" y=\"35\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"145\" y=\"35\" width=\"30\" height=\"30\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"175\" y=\"35\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"115\" y=\"65\" width=\"30\" height=\"30\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"145\" y=\"65\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"175\" y=\"65\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><text x=\"160\" y=\"112\" font-size=\"12\" fill=\"#111\" text-anchor=\"middle\">圖2</text><rect x=\"225\" y=\"5\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"235\" y=\"5\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"245\" y=\"5\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"225\" y=\"15\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"235\" y=\"15\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"245\" y=\"15\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"225\" y=\"25\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"235\" y=\"25\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"245\" y=\"25\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"255\" y=\"5\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"265\" y=\"5\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"275\" y=\"5\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"255\" y=\"15\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"265\" y=\"15\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"275\" y=\"15\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"255\" y=\"25\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"265\" y=\"25\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"275\" y=\"25\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"285\" y=\"5\" width=\"30\" height=\"30\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"225\" y=\"35\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"235\" y=\"35\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"245\" y=\"35\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"225\" y=\"45\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"235\" y=\"45\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"245\" y=\"45\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"225\" y=\"55\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"235\" y=\"55\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"245\" y=\"55\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"255\" y=\"35\" width=\"30\" height=\"30\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"285\" y=\"35\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"295\" y=\"35\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"305\" y=\"35\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"285\" y=\"45\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"295\" y=\"45\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"305\" y=\"45\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"285\" y=\"55\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"295\" y=\"55\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"305\" y=\"55\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"225\" y=\"65\" width=\"30\" height=\"30\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"255\" y=\"65\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"265\" y=\"65\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"275\" y=\"65\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"255\" y=\"75\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"265\" y=\"75\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"275\" y=\"75\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"255\" y=\"85\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"265\" y=\"85\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"275\" y=\"85\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"285\" y=\"65\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"295\" y=\"65\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"305\" y=\"65\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"285\" y=\"75\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"295\" y=\"75\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"305\" y=\"75\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"285\" y=\"85\" width=\"10\" height=\"10\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"295\" y=\"85\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><rect x=\"305\" y=\"85\" width=\"10\" height=\"10\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"0.8\"/><text x=\"270\" y=\"112\" font-size=\"12\" fill=\"#111\" text-anchor=\"middle\">圖3</text><text x=\"335\" y=\"55\" font-size=\"14\" fill=\"#111\" text-anchor=\"middle\">……</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數奇數項與偶數項的和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一等差數列共有$17$項，已知奇數項的和為$216$，則偶數項的和為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "牙籤數的規律（等差數列）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "跨年夜時，野比大雄獨自守歲，一時無聊，拿起牙籤排成有規律的正方格，起初用$4$根牙籤排成$1\\times 1$正方格如圖1，接著繼續用更多牙籤將其擴大成$3\\times 3$的正方格如圖2，其後，野比大雄很有耐心的用更多牙籤使其擴大成$5\\times 5$的正方格如圖3，突然間，不喜歡動腦的野比大雄在想如果按此方式排到圖10的話，則圖10要用到＿＿＿＿根牙籤？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 125\"><line x1=\"8\" y1=\"52\" x2=\"22\" y2=\"52\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"8\" y1=\"52\" x2=\"8\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"8\" y1=\"66\" x2=\"22\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"22\" y1=\"52\" x2=\"22\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"15\" y=\"85\" font-size=\"11\" fill=\"#111\" text-anchor=\"middle\">圖1</text><line x1=\"30\" y1=\"59\" x2=\"52\" y2=\"59\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"46\" y1=\"55\" x2=\"52\" y2=\"59\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"46\" y1=\"63\" x2=\"52\" y2=\"59\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"62\" y1=\"38\" x2=\"104\" y2=\"38\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"62\" y1=\"38\" x2=\"62\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"62\" y1=\"52\" x2=\"104\" y2=\"52\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"76\" y1=\"38\" x2=\"76\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"62\" y1=\"66\" x2=\"104\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"90\" y1=\"38\" x2=\"90\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"62\" y1=\"80\" x2=\"104\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"104\" y1=\"38\" x2=\"104\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"83\" y=\"98\" font-size=\"11\" fill=\"#111\" text-anchor=\"middle\">圖2</text><line x1=\"112\" y1=\"59\" x2=\"134\" y2=\"59\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"128\" y1=\"55\" x2=\"134\" y2=\"59\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"128\" y1=\"63\" x2=\"134\" y2=\"59\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"144\" y1=\"24\" x2=\"214\" y2=\"24\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"144\" y1=\"24\" x2=\"144\" y2=\"94\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"144\" y1=\"38\" x2=\"214\" y2=\"38\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"158\" y1=\"24\" x2=\"158\" y2=\"94\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"144\" y1=\"52\" x2=\"214\" y2=\"52\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"172\" y1=\"24\" x2=\"172\" y2=\"94\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"144\" y1=\"66\" x2=\"214\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"186\" y1=\"24\" x2=\"186\" y2=\"94\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"144\" y1=\"80\" x2=\"214\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"200\" y1=\"24\" x2=\"200\" y2=\"94\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"144\" y1=\"94\" x2=\"214\" y2=\"94\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"214\" y1=\"24\" x2=\"214\" y2=\"94\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"179\" y=\"112\" font-size=\"11\" fill=\"#111\" text-anchor=\"middle\">圖3</text><line x1=\"222\" y1=\"59\" x2=\"244\" y2=\"59\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"238\" y1=\"55\" x2=\"244\" y2=\"59\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"238\" y1=\"63\" x2=\"244\" y2=\"59\" stroke=\"#111\" stroke-width=\"1.6\"/><text x=\"268\" y=\"66\" font-size=\"14\" fill=\"#111\" text-anchor=\"middle\">……</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "13",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比中項求公比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知$a$，$a+b$，$a-b$三數成等比數列，且$a\\ne 0$，則公比的值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "反覆刪去規律，歸納保留號碼。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某公司年終尾牙，一共有$665$名員工參加，晚會高潮時，董事長在員工鼓吹下決定加發$8$個八萬元紅包給幸運兒，董事長臨時想了一個選擇方式，首先，他製作數字$1\\sim 665$的號碼牌給這$665$名員工隨機抽選，然後，依照號碼由小到大排列，再以「刪掉，刪掉，保留，刪掉，刪掉，保留，$\\cdots\\cdots$」的方式進行第一輪挑選，因此第一輪挑選出保留的號碼就是$3$、$6$、$9$、$\\cdots\\cdots$、$663$等，之後，董事長繼續將挑選出的號碼由小到大排列，仍按前述方式再進行第二輪挑選，其後，董事長持續反覆進行此挑選方式直到保留的號碼數量不超過紅包數量為止，請問："
+    },
+    {
+     "type": "text",
+     "text": "(1) 按董事長挑選的方式，第二輪挑選會留下幾個號碼呢？"
+    },
+    {
+     "type": "text",
+     "text": "(2) 拿到紅包的幸運兒中，號碼最大的是幾號？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-1-3-3",
+   "unitIds": [
+    "nanyi-7-1-3-3",
+    "nanyi-7-1-3-2"
+   ],
+   "unitAssignmentBasis": "依公式列一元一次方程式求解（平均油耗）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "隨著科技發展，許多汽車儀表上也愈來愈多電子顯示資訊，其中有一項資訊為「平均油耗」，其計算方式為："
+    },
+    {
+     "type": "text",
+     "text": "平均油耗（單位：L/100KM）＝（消耗燃油量（單位：L）÷行駛里程（單位：KM））$\\times 100$"
+    },
+    {
+     "type": "text",
+     "text": "請問："
+    },
+    {
+     "type": "text",
+     "text": "(1) 若行駛$25$公里，消耗燃油量$1.2$公升，則此次平均油耗為多少？"
+    },
+    {
+     "type": "text",
+     "text": "(2) 若有一車廠在封閉車道上測試新開發的引擎，油箱只裝$10$公升燃油，首先進行高速行駛測試，測得高速行駛平均油耗為$5.2$，之後用剩餘油量進行低速行駛測試，測得低速行駛平均油耗為$10.8$，已知二次測試的行駛里程數相同且測試過程中無其他影響油耗因素，則在高速行駛測試中消耗多少燃油？"
+    }
+   ]
+  }
+ ]
+}

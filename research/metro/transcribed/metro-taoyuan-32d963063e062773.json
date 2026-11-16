@@ -1,0 +1,656 @@
+{
+ "paperId": "metro-taoyuan-32d963063e062773",
+ "sourceSha256": "91b5a4615f41ecdd13fe93dc919e2fe7ab28d6864f7b0832a1296e196959da2b",
+ "printedHeader": "桃園市自強國中106學年度第一學期八年級第三次段考數學科題目卷",
+ "printedSlot": {
+  "year": 106,
+  "semester": 1,
+  "grade": 8,
+  "exam": 3
+ },
+ "printedCounts": "是非5題、選擇5題、填充15題、引導式計算4題；第3頁為空白答案卷，不轉錄。",
+ "visualReviewComplete": true,
+ "reviewNote": "Scanned PDF (no text layer): every page image read at 1.6 and 2.6 scale. Figures redrawn: cross-multiplication diagram (三-2), stall rectangle (三-9, corner squares white and not stalls), hexagon of 甲乙丙丁 (三-11, shape approximate), 甲乙丙 pieces (written 1). True/false items are fill with sourceNumber 一-1..一-5; fill section numbered 三-*. 三-9 and 三-11 figures are approximate; the guided blanks in the written problems (with score marks) were reduced to stem plus labelled sub-lines. 三-13 and 三-7 keep their option list as text lines because they are answered in a fill section.",
+ "expectedTypes": {
+  "fill": 20,
+  "choice": 5,
+  "written": 4
+ },
+ "questions": [
+  {
+   "type": "fill",
+   "sourceNumber": "一-1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法的一次項係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判斷對錯（填○或✕）：若一個二次多項式可因式分解成 $(x+a)(x+b)$，則此二次多項式的一次項係數為 $a+b$。＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "一-2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "乘積為 0 才可拆成兩因式分別為 0。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判斷對錯（填○或✕）：若 $(2x-3)(x-4)=1$，則 $2x-3=1$ 或 $x-4=1$。＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "一-3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "零乘積性質。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判斷對錯（填○或✕）：有兩個數 $A$ 和 $B$，若 $AB=0$，則 $A=0$ 或 $B=0$。＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "一-4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "判別式為 0 時有重根。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判斷對錯（填○或✕）：$x$ 的一元二次方程式 $ax^2+bx+c=0$ 中，當 $b^2-4ac=0$ 時，此方程式有兩相異實根。＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "一-5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以畢氏定理列式並判斷是否成立。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判斷對錯（填○或✕）：一正三角形的一邊增加 3 公分、另一邊增加 2 公分、第三邊減少 5 公分後，可形成一個直角三角形，設原正三角形的邊長為 $x$，則可列式為 $(x+3)^2=(x+2)^2+(x-5)^2$。＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "檢查因式分解法解方程式的每一步，同除以 $x$ 會失根。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解一元二次方程式 $2x-5x^2=0$ 的步驟如下："
+    },
+    {
+     "type": "text",
+     "text": "第一步：將 $5x^2$ 移項，得 $2x=5x^2$"
+    },
+    {
+     "type": "text",
+     "text": "第二步：等號兩邊同除以 $x$，得 $2=5x$"
+    },
+    {
+     "type": "text",
+     "text": "第三步：等號兩邊同除以 5，得 $\\dfrac{2}{5}=x$"
+    },
+    {
+     "type": "text",
+     "text": "請問哪個步驟開始錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "第一步",
+      "第二步",
+      "第三步",
+      "以上步驟都正確"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法分解後判斷各敘述。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $10x^2+23x+12$ 可因式分解成 $(2x+a)(bx+c)$，其中 $a$、$b$、$c$ 均為整數，則下列敘述何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$b$ 是 10 的因數",
+      "12 是 $a$ 的倍數",
+      "$a$、$c$ 是異號數",
+      "$ab>3c$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "一元二次方程式的二次項係數不為 0。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $(m-5)x^2+(m-3)x+2=0$ 是 $x$ 的一元二次方程式，則 $m$ 的條件為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$m=5$",
+      "$m\\ne3$",
+      "$m\\ne0$",
+      "$m\\ne5$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "辨認完全平方式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者是完全平方式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$16x^2-8x+1$",
+      "$4x^2-2x-4$",
+      "$x^2+6x-9$",
+      "$x^2-25$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "由周長和與面積和求兩邊長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "兩個正方形的周長和為 32 公尺，面積和為 34 平方公尺，則這兩個正方形的邊長分別為多少公尺？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "16 公尺、16 公尺",
+      "3 公尺、4 公尺",
+      "3 公尺、5 公尺",
+      "2 公尺、6 公尺"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "完全平方式配方補常數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知下列式子為完全平方式，在空格中填入適當的數：$x^2+4x+$＿＿＿＿$=(x+$＿＿＿＿$)^2$。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法的填空導引。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用十字交乘法將二次多項式 $x^2-7x+10$ 化為兩個一次式的乘積（下圖空格為 ①～④）。所以 $x^2-7x+10=($⑤＿＿＿＿$)($⑥＿＿＿＿$)$。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 90\"><text x=\"30\" y=\"22\" font-size=\"16\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><text x=\"30\" y=\"62\" font-size=\"16\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><line x1=\"45\" y1=\"17\" x2=\"95\" y2=\"57\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"45\" y1=\"57\" x2=\"95\" y2=\"17\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"120\" y=\"22\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">（①）</text><text x=\"120\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">（②）</text><line x1=\"10\" y1=\"72\" x2=\"190\" y2=\"72\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"100\" y=\"87\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">（③）x + （④）x = −7x</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "重根時判別式為 0。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若方程式 $x^2+mx+25$ 有重根，則 $m=$＿＿＿＿。（全對才給分）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-4-1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $2x^2+5x-7=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-4-2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "分解後由質數條件限制因式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $x$ 是正整數，且 $2x^2+5x-7$ 為一個質數，則此質數＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "配方成 $(x-p)^2=q$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將方程式 $x^2-26x+165=0$ 整理成 $(x-p)^2=q$，其中 $p$、$q$ 為整數，則 $p+q=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "直接開平方法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解一元二次方程式 $4(2x-1)^2=1$，則 $x=$＿＿＿＿。（全對才給分）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "整理後判斷是否為一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判別下列哪些是一元二次方程式。答：＿＿＿＿。（請填寫代號，全對才給分）"
+    },
+    {
+     "type": "text",
+     "text": "(A) $(2x-1)^2=4x^2-1+9x$"
+    },
+    {
+     "type": "text",
+     "text": "(B) $\\dfrac{1}{2}x^2=18$"
+    },
+    {
+     "type": "text",
+     "text": "(C) $x^2-8x=6$"
+    },
+    {
+     "type": "text",
+     "text": "(D) $(4x-1)(x+\\dfrac{2}{5})=0$"
+    },
+    {
+     "type": "text",
+     "text": "(E) $3-2x=0$"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "代入根求係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $5$ 是 $x$ 的一元二次方程式 $x(x+m)=30$ 其中一根，則 $m=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-9",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "列出灰色區域面積的方程式求攤位寬度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖的長方形為某園遊會場地（長為 44 公尺，寬為 20 公尺），其中每一個灰色小格為面積相等的正方形，且各代表一個攤位。若圖中灰色區域（即攤位）的總面積為 224 平方公尺，則此園遊會場地共有＿＿＿＿個攤位。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 145\"><text x=\"130\" y=\"14\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">44 公尺</text><rect x=\"20\" y=\"22\" width=\"220\" height=\"100\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"30\" y=\"22\" width=\"200\" height=\"10\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"30\" y=\"112\" width=\"200\" height=\"10\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"20\" y=\"32\" width=\"10\" height=\"80\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"230\" y=\"32\" width=\"10\" height=\"80\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"30\" y1=\"22\" x2=\"30\" y2=\"32\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"30\" y1=\"112\" x2=\"30\" y2=\"122\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"220\" y1=\"22\" x2=\"220\" y2=\"32\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"220\" y1=\"112\" x2=\"220\" y2=\"122\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"40\" y1=\"22\" x2=\"40\" y2=\"32\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"40\" y1=\"112\" x2=\"40\" y2=\"122\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"210\" y1=\"22\" x2=\"210\" y2=\"32\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"210\" y1=\"112\" x2=\"210\" y2=\"122\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"50\" y1=\"22\" x2=\"50\" y2=\"32\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"50\" y1=\"112\" x2=\"50\" y2=\"122\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"200\" y1=\"22\" x2=\"200\" y2=\"32\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"200\" y1=\"112\" x2=\"200\" y2=\"122\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"20\" y1=\"32\" x2=\"30\" y2=\"32\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"230\" y1=\"32\" x2=\"240\" y2=\"32\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"20\" y1=\"112\" x2=\"30\" y2=\"112\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"230\" y1=\"112\" x2=\"240\" y2=\"112\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"20\" y1=\"42\" x2=\"30\" y2=\"42\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"230\" y1=\"42\" x2=\"240\" y2=\"42\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"20\" y1=\"102\" x2=\"30\" y2=\"102\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"230\" y1=\"102\" x2=\"240\" y2=\"102\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"20\" y1=\"52\" x2=\"30\" y2=\"52\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"230\" y1=\"52\" x2=\"240\" y2=\"52\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"20\" y1=\"92\" x2=\"30\" y2=\"92\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"230\" y1=\"92\" x2=\"240\" y2=\"92\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"252\" y1=\"22\" x2=\"252\" y2=\"122\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"248\" y1=\"22\" x2=\"256\" y2=\"22\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"248\" y1=\"122\" x2=\"256\" y2=\"122\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"262\" y=\"78\" font-size=\"15\" fill=\"#111\">20 公尺</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "去分母後因式分解求兩根。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $\\alpha$、$\\beta$ 為方程式 $\\dfrac{2x-1}{3}=\\dfrac{x(x+3)}{2}$ 的兩根，且 $\\alpha>\\beta$，則 $3\\alpha+\\beta=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-11",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以面積關係列式，丙丁為等腰直角三角形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖的六邊形是由甲、乙兩個長方形和丙、丁兩個等腰直角三角形所組成，其中甲、乙的面積和等於丙、丁的面積和。若丙的一股長為 1，且丁的面積比丙的面積小，則丁的一股長為：＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 130\"><polygon points=\"80,21 114,21 183,88 165,105 30,105 12,88\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"80\" y1=\"21\" x2=\"165\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"114\" y1=\"21\" x2=\"30\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"53\" y=\"68\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">甲</text><text x=\"145\" y=\"68\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">乙</text><text x=\"98\" y=\"92\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">丙</text><text x=\"98\" y=\"30\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">丁</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-12",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "速率問題列分式方程。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "阿翰從住家以固定的速率開車到桃園市政府跨年。已知回程每小時的速率比去程快 2 公里，且去、回所用的時間相差 1 小時。若阿翰家和桃園市政府相距 60 公里，則阿翰去程的速率為每小時＿＿＿＿公里。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-13",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "先提公因式再十字交乘。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者是 $26x^7-71x^6+15x^5$ 的因式：＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(A) $2x+5$"
+    },
+    {
+     "type": "text",
+     "text": "(B) $x^2(13x-3)$"
+    },
+    {
+     "type": "text",
+     "text": "(C) $x^4(13x-5)$"
+    },
+    {
+     "type": "text",
+     "text": "(D) $x^6(2x-3)$"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "三-14",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "工作問題列分式方程。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "甲、乙兩人合作一工程只要 4 個工作天可完成，已知乙獨作比甲獨作需多費時 6 個工作天才可完成，則乙獨作＿＿＿＿個工作天可以完成。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "多項式面積表示並用十字交乘法因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，有甲、乙、丙三種不同的圖形（甲為邊長 $x$ 的正方形，乙為長 $x$、寬 1 的長方形，丙為邊長 1 的正方形）。若志軒將 6 個甲圖形、7 個乙圖形和 2 個丙圖形拼成一個大長方形，則他拼成的大長方形長、寬分別為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 270 115\"><rect x=\"20\" y=\"22\" width=\"80\" height=\"80\" fill=\"#e6e6e6\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"130\" y=\"22\" width=\"30\" height=\"80\" fill=\"#e6e6e6\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"200\" y=\"72\" width=\"30\" height=\"30\" fill=\"#e6e6e6\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"60\" y=\"68\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">甲</text><text x=\"145\" y=\"68\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">乙</text><text x=\"215\" y=\"92\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">丙</text><text x=\"60\" y=\"14\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><text x=\"8\" y=\"66\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><text x=\"145\" y=\"14\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">1</text><text x=\"120\" y=\"66\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><text x=\"215\" y=\"64\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">1</text><text x=\"188\" y=\"92\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">1</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) 大長方形面積為："
+    },
+    {
+     "type": "text",
+     "text": "(2) 因式分解得："
+    },
+    {
+     "type": "text",
+     "text": "(3) 長、寬分別為："
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "移項後用平方差公式因式分解求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求一元二次方程式 $(4x+1)^2=(x+2)^2$ 的解。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "由配方後的根反推原方程式的係數 $p$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "以配方法解一元二次方程式 $2x^2+px+13=0$，可得 $x=-3\\pm\\dfrac{\\sqrt{10}}{2}$，則 $p$ 為多少？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "收費隨人數增加而遞減的收入方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "熊大旅行社舉辦桐花季一日遊，預定人數 40 人，每人收費 600 元，當人數到達 40 人後，每增加 1 人，每人可便宜 100 元。請問應加多少人才能使旅行社總收入為 16800 元？"
+    },
+    {
+     "type": "text",
+     "text": "設增加＿＿＿＿人，請列方程式並解方程式，答："
+    }
+   ]
+  }
+ ]
+}

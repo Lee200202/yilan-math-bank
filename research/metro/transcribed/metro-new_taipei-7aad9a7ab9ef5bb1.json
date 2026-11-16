@@ -1,0 +1,706 @@
+{
+ "paperId": "metro-new_taipei-7aad9a7ab9ef5bb1",
+ "sourceSha256": "1c2339872d6e4e7739b84c2f73032b971edc9216986430e50be2fe8b0424d419",
+ "printedHeader": "新北市立中正國民中學106學年度第一學期八年級數學科第1次段考試題（範圍1-1~2-1）",
+ "printedSlot": {
+  "year": 106,
+  "semester": 1,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、配合題5格、填充15格（12題）、計算2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "Checked both page images. Figures redrawn: number line (Q6) and square-with-two-triangles (fill 11); the sqrt table is a table block. The matching section (配合題, candidate list A-F) is split into five standalone fill items sourceNumber 二-1..二-5 without the candidate list. Fill items with two blanks split into separate items (1-1,1-2,2-1,2-2,4-1,4-2). Chapter codes (1-1) etc. and score notes dropped.",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 20,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "判斷完全平方公式展開是否正確。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列各運算的展開何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(18+22)^2=18^2+18\\times22+22^2$",
+      "$(36-6)^2=36^2-2\\times36\\times6-6^2$",
+      "$(11-17)^2=11^2-22\\times17+17^2$",
+      "$(21-19)^2=21^2-19^2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "辨認多項式的定義。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列選項中哪一個是 $x$ 的多項式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$|x+9|$",
+      "$5$",
+      "$x^2+\\dfrac{1}{x}-5$",
+      "$\\dfrac{-1}{x^2+x+1}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "零多項式各項係數為 0。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $A=(a-b+c)x^2+(2a+c)x+c-4$ 為零多項式，則下列敘述何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$b=-2$",
+      "$a-b=-4$",
+      "$a=-2$",
+      "$c=4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根的定義。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-8$ 是 $64$ 的平方根",
+      "$\\sqrt{25}$ 的平方根是 $\\pm5$",
+      "$-4$ 是 $-16$ 的平方根",
+      "$0.3$ 是 $0.9$ 的平方根"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "平方差公式的逆用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $A$ 為正整數，且滿足 $401^2=A+1$，則 $A$ 與下列何者相等？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(401-1)^2$",
+      "$(401+1)^2$",
+      "$(401+1)^2(401-1)^2$",
+      "$(401+1)(401-1)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "估計根號在數線上的位置。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，請問 $\\sqrt{74}$ 在數線上的哪一個區間內？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 70,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 70\"><line x1=\"20\" y1=\"40\" x2=\"378\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"386,40 376,36 376,44\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"40\" y1=\"35\" x2=\"40\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"40\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">4</text><line x1=\"95\" y1=\"35\" x2=\"95\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"95\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">5</text><line x1=\"150\" y1=\"35\" x2=\"150\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"150\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">6</text><line x1=\"205\" y1=\"35\" x2=\"205\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"205\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">7</text><line x1=\"260\" y1=\"35\" x2=\"260\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"260\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">8</text><line x1=\"315\" y1=\"35\" x2=\"315\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"315\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">9</text><line x1=\"370\" y1=\"35\" x2=\"370\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"370\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">10</text><text x=\"67\" y=\"26\" font-size=\"16\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"122\" y=\"26\" font-size=\"16\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"177\" y=\"26\" font-size=\"16\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"232\" y=\"26\" font-size=\"16\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"287\" y=\"26\" font-size=\"16\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"342\" y=\"26\" font-size=\"16\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">F</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$C$",
+      "$D$",
+      "$E$",
+      "$F$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "判斷乘法公式何者錯誤。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列乘法公式何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(a-b)^2=a^2-2ab+b^2$",
+      "$(x-y)^2=x^2-y^2$",
+      "$(a+b)^2=a^2+2ab+b^2$",
+      "$(x+y)(x-y)=x^2-y^2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-2",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式相加減乘的次數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若多項式 A 為三次多項式，多項式 B 為二次多項式，則下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(A\\times B)$ 為六次多項式",
+      "$(A+B)$ 為五次多項式",
+      "$(A-B)$ 為一次多項式",
+      "$(A-B)$ 為三次多項式"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "以長除法或綜合除法改寫成 $(x-1)$ 的多項式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $2x^2-5x+9=a(x-1)^2+b(x-1)+c$，則下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a=-2$",
+      "$b=-1$",
+      "$c=9$",
+      "$a+b+c=6$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "由加法結果求除式，再做多項式除法求餘式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $A$ 為一次式，小珠在計算 $(15x^2-32x+5)\\div A$ 時，誤將「$\\div$」看成「$+$」，因此得到答案為 $15x^2-29x-2$，則原本 $(15x^2-32x+5)\\div A$ 的餘式為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$",
+      "$12$",
+      "$5$",
+      "$-12$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二-1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "整式除以整數的運算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "安欣買了 4 支同樣價錢的原子筆，一共花了 $(4x^3+4)$ 元，則每支原子筆＿＿＿＿元。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二-2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式相減。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "媽媽給安欣 $(7x^3+11x^2-6x-2)$ 元，她花了 $(4x^3+4)$ 元，則她剩下＿＿＿＿元。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二-3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式相加。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "安欣身上剩 $(3x^3+11x^2-6x-6)$ 元，同學還她 $(3x^3-x^2+2x+8)$ 元，則她身上全部的錢一共＿＿＿＿元。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二-4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式乘以常數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "便當一個 $(2x^3+x^2-2x+3)$ 元，買 3 個共花＿＿＿＿元。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二-5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式相減。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "安欣身上共有 $(6x^3+10x^2-4x+2)$ 元，買了 3 個 $(2x^3+x^2-2x+3)$ 元的便當後，剩下＿＿＿＿元。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1-1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以和與積求平方和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $a+b=7$，$ab=3$，則 $a^2+b^2=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1-2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以和與積求差的平方。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $a+b=7$，$ab=3$，則 $(a-b)^2=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2-1",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "平方差公式速算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用乘法公式計算 $49.2\\times50.8=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2-2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "提出係數後用平方差公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用乘法公式計算 $36\\times7^2-22^2=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "合併同類項並降冪排列。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "化簡多項式 $x^3-2x^2+3-5x+4x^2-7+x^3+5x+4=$＿＿＿＿。（答案以降冪排列）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4-1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "根號內為完全平方數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $n$ 為正整數，若 $\\sqrt{100+n}$ 為正整數，則 $n$ 的最小值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4-2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "根號內為完全平方數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $m$ 為正整數，若 $\\sqrt{100-m}$ 為正整數，則 $m$ 的最小值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式乘法比較係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $(ax+1)(2x-7)=6x^2+bx+c$，則 $a+b+c=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根的意義與簡單方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $7$ 是 $3x+19$ 的平方根，則 $\\sqrt{7x-6}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式加減求周長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一個矩形的長為 $(4x^2-13x+2)$、寬為 $(-x^2+4x+1)$，則此矩形的周長為＿＿＿＿。（答案以降冪排列）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "只算 $x^2$ 項的係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "多項式 $(197x^2+197x+9)(x^2+6x+197)$ 展開式中，$x^2$ 項的係數是＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "比較含根號的數的大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "比較 $-\\sqrt{71}$、$\\sqrt{65}$、$8$、$-9$ 四數的大小：＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "分子分母分別用平方差與完全平方公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $\\dfrac{155^2-43^2}{155^2+86\\times155+43^2}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "大正方形面積減兩個等腰直角三角形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，邊長為 $(3x-6)$ 的正方形中，挖去兩個邊長為 $(x-1)$ 的等腰直角三角形（兩個三角形不重疊），則灰色區域面積為＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\"><text x=\"102\" y=\"20\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">3x − 6</text><rect x=\"22\" y=\"32\" width=\"159\" height=\"159\" fill=\"#999\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"101,58 101,111 154,111\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"49,111 101,111 101,164\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.2\"/><polyline points=\"101,102 110,102 110,111\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"101,120 92,120 92,111\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"116\" y=\"126\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">x − 1</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "查表求根號近似值並化簡根式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用下方表格，計算 $\\sqrt{34}+\\sqrt{320}+\\sqrt{1225}\\approx$＿＿＿＿。"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "$N$",
+       "$N^2$",
+       "$\\sqrt{N}$",
+       "$\\sqrt{10N}$"
+      ],
+      [
+       "32",
+       "1024",
+       "5.6568",
+       "17.8885"
+      ],
+      [
+       "33",
+       "1089",
+       "5.7445",
+       "18.1659"
+      ],
+      [
+       "34",
+       "1156",
+       "5.8309",
+       "18.4390"
+      ],
+      [
+       "35",
+       "1225",
+       "5.9160",
+       "18.7082"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式長除法求商式與餘式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求出多項式 $6x^3-7x^2+11x+4$ 除以 $2x+3$ 的商式與餘式。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "根號內分數為完全平方數，需分解質因數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a$ 是正整數，且 $\\sqrt{\\dfrac{1080}{a}}$ 是正整數，求出所有 $a$ 可能的值。"
+    }
+   ]
+  }
+ ]
+}

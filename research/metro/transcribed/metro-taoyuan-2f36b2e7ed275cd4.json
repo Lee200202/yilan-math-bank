@@ -1,0 +1,534 @@
+{
+ "paperId": "metro-taoyuan-2f36b2e7ed275cd4",
+ "sourceSha256": "fc875e41fc5d28c1104d2c8514359ca497cb84b9f9c76454b4e1beedd9a1cfef",
+ "printedHeader": "桃園市立自強國中106學年度第一學期八年級數學科第二次定期考試卷",
+ "printedSlot": {
+  "year": 106,
+  "semester": 1,
+  "grade": 8,
+  "exam": 2
+ },
+ "printedCounts": "選擇12題、填充10格（7題）、計算2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1至2頁（第3頁為空白答案卷，未收錄）。重繪第4、5題、填充1、計算2共4幅圖；第5題方格為4×3、每格2公分。填充題依題號分7題（共10格）。",
+ "expectedTypes": {
+  "choice": 12,
+  "fill": 7,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "由周長求邊長與面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "正方形周長為 $\\sqrt{80}$ 公分，則其面積為多少平方公分？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "5",
+      "10",
+      "20",
+      "40"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "同類方根的判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者不是 $\\sqrt{3}$ 的同類方根？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{12}$",
+      "$\\dfrac{6}{\\sqrt{3}}$",
+      "$\\dfrac{1}{3}\\sqrt{24}$",
+      "$\\sqrt{16\\dfrac{1}{3}}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式的乘法與化簡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "算式 $(\\sqrt{6}+\\sqrt{10}\\times\\sqrt{15})\\times\\sqrt{3}$ 之值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2\\sqrt{42}$",
+      "$12\\sqrt{5}$",
+      "$12\\sqrt{13}$",
+      "$18\\sqrt{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "直角三角形斜邊上的高，用面積關係求值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $\\overline{AB}=12$，$\\overline{AC}=16$，求圖中的 $\\overline{AD}$ ＝？（$\\angle A=90^{\\circ}$，$\\overline{AD}\\perp\\overline{BC}$）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-5 -5 235 135\"><polygon points=\"82,10 10,110 210,110\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"82\" y1=\"10\" x2=\"82\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polyline points=\"82,98 94,98 94,110\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polyline points=\"82,22 92,28 86,38\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"82\" y=\"8\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"2\" y=\"124\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"218\" y=\"124\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"82\" y=\"125\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "9",
+      "9.6",
+      "10",
+      "10.4"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "格子紙上以畢氏定理求線段長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一方格紙如圖，用直線連接 $A$、$B$，求 $\\overline{AB}$ 的長度為多少公分？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 115\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"120\" y1=\"20\" x2=\"120\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"40\" y1=\"20\" x2=\"120\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"40\" y1=\"40\" x2=\"120\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"40\" y1=\"60\" x2=\"120\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"40\" y1=\"80\" x2=\"120\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"34\" y=\"16\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"128\" y=\"94\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><line x1=\"28\" y1=\"60\" x2=\"28\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polyline points=\"25,64 28,60 31,64\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polyline points=\"25,76 28,80 31,76\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"24\" y=\"74\" font-size=\"12\" text-anchor=\"end\" font-style=\"italic\" fill=\"#111\">2cm</text><line x1=\"40\" y1=\"90\" x2=\"60\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polyline points=\"44,87 40,90 44,93\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polyline points=\"56,87 60,90 56,93\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"50\" y=\"104\" font-size=\"12\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">2cm</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "9",
+      "10",
+      "11",
+      "12"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理的應用（球棒靠牆）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "明賜拿一長為 80 公分的球棒斜放於牆邊，在地面的那端離牆邊 48 公分，則靠著牆的那端離地面幾公分？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "60",
+      "64",
+      "68",
+      "72"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "因式定理（餘式為零）求係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $x^{3}+x^{2}-x+a$ 為 $x-2$ 的倍式，求 $a$ ＝？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "10",
+      "15",
+      "$-10$",
+      "$-20$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "提公因式法求共同因式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者是 $9(x-4)-(x^{2}-4x)$ 的因式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x-2$",
+      "$x+2$",
+      "$x-9$",
+      "$x+9$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "分組分解法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $ab-a-b+1$ ＝？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(a-1)(b+1)$",
+      "$(a+1)(b-1)$",
+      "$(a-1)(b-1)$",
+      "$(a+1)(b+1)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "完全平方公式因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $x^{2}+12x+36=(x+b)^{2}$，則 $b$ ＝？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "36",
+      "18",
+      "6",
+      "$\\pm6$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "完全平方式的係數關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將 $4x^{2}-ax+9$ 因式分解，可得 $(2x-b)^{2}$ 的形式。若 $a$ 為正整數，則 $2a-b$ ＝？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "9",
+      "15",
+      "21",
+      "27"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法並比較係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知多項式 $4x^{2}+4x-15$ 可因式分解為 $(2x+5)(ax+b)$，則 $a+b$ ＝？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-1$",
+      "1",
+      "$-9$",
+      "9"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理求竹竿頂端高度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將長 17 公尺的竹竿斜靠在一垂直牆上，已知竿腳到牆腳的距離是 8 公尺，則竿頂距離地面多少公尺？＿＿＿＿"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"20 0 200 195\"><rect x=\"150\" y=\"10\" width=\"60\" height=\"160\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"150\" y1=\"30\" x2=\"210\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"150\" y1=\"50\" x2=\"210\" y2=\"50\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"150\" y1=\"70\" x2=\"210\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"150\" y1=\"90\" x2=\"210\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"150\" y1=\"110\" x2=\"210\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"150\" y1=\"130\" x2=\"210\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"150\" y1=\"150\" x2=\"210\" y2=\"150\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"165\" y1=\"10\" x2=\"165\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"180\" y1=\"30\" x2=\"180\" y2=\"50\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"165\" y1=\"50\" x2=\"165\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"180\" y1=\"70\" x2=\"180\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"165\" y1=\"90\" x2=\"165\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"180\" y1=\"110\" x2=\"180\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"165\" y1=\"130\" x2=\"165\" y2=\"150\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"180\" y1=\"150\" x2=\"180\" y2=\"170\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"30\" y1=\"170\" x2=\"210\" y2=\"170\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"70\" y1=\"170\" x2=\"150\" y2=\"20\" stroke=\"#111\" stroke-width=\"2.4\" fill=\"none\"/><text x=\"95\" y=\"90\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">17</text><text x=\"110\" y=\"187\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">8</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "坐標平面上兩點距離。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "坐標平面上有 $A(3,6)$、$B(-2,3)$ 二點，則 $\\overline{AB}=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "由一因式分解三次多項式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $x+4$ 是 $x^{3}-12x+16$ 的因式，則 $x^{3}-12x+16$ 的因式分解為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "提公因式法因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解下列各式："
+    },
+    {
+     "type": "text",
+     "text": "(1) $x(x-3)-(x-3)=$ ＿＿＿＿。"
+    },
+    {
+     "type": "text",
+     "text": "(2) $(x-1)(3x-7)-(1-x)^{2}=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式的加減與除法化簡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算下列各式的值，並化為最簡根式。"
+    },
+    {
+     "type": "text",
+     "text": "(1) $1+\\sqrt{5}-\\sqrt{2}-2\\sqrt{5}+4\\sqrt{2}=$ ＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(2) $(-2\\sqrt{3}+\\sqrt{75})\\div(-\\sqrt{3})=$ ＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式的有理化。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知方程式 $(3-\\sqrt{6})x=3$，則 $x=$ ＿＿＿＿。（化為最簡根式）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "完全平方式的係數比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $2x^{2}+12x+a$ 可以分解成 $2(x+b)^{2}$，則 $a=$ ＿＿＿＿，$b=$ ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "完全平方公式因式分解並用於簡化計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "(1) 因式分解 $(x+y)^{2}-4xy$。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 利用 (1) 的結果，計算 $(265+65)^{2}-4\\times265\\times65$。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "長方體對角線與畢氏定理。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一隻蜜蜂不小心掉到長方體盒子裡，已知盒子內部邊長的長、寬、高分別為 3 公分、4 公分、12 公分，如圖，請問："
+    },
+    {
+     "type": "text",
+     "text": "(1) $\\overline{EG}=$ ？"
+    },
+    {
+     "type": "text",
+     "text": "(2) 若牠沿著 $\\overline{GA}$，從 $G$ 點飛到 $A$ 點，則牠飛了多少距離？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 160,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 205\"><line x1=\"30\" y1=\"60\" x2=\"90\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"90\" y1=\"60\" x2=\"120\" y2=\"42\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"120\" y1=\"42\" x2=\"60\" y2=\"42\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"60\" y1=\"42\" x2=\"30\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"30\" y1=\"60\" x2=\"30\" y2=\"180\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"30\" y1=\"180\" x2=\"90\" y2=\"180\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"90\" y1=\"60\" x2=\"90\" y2=\"180\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"120\" y1=\"42\" x2=\"120\" y2=\"162\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"90\" y1=\"180\" x2=\"120\" y2=\"162\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"60\" y1=\"42\" x2=\"60\" y2=\"162\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"4 3\"/><line x1=\"60\" y1=\"162\" x2=\"30\" y2=\"180\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"4 3\"/><line x1=\"60\" y1=\"162\" x2=\"120\" y2=\"162\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"4 3\"/><line x1=\"30\" y1=\"180\" x2=\"120\" y2=\"162\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"4 3\"/><line x1=\"30\" y1=\"180\" x2=\"120\" y2=\"42\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"4 3\"/><text x=\"24\" y=\"56\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"90\" y=\"56\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"60\" y=\"36\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"126\" y=\"40\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"24\" y=\"190\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">G</text><text x=\"90\" y=\"194\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">F</text><text x=\"128\" y=\"170\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"60\" y=\"158\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">H</text><text x=\"44\" y=\"44\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">4</text><text x=\"60\" y=\"76\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">3</text><text x=\"133\" y=\"110\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">12</text></svg>"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,547 @@
+{
+ "paperId": "metro-new_taipei-441947e9c5ea5bee",
+ "sourceSha256": "58814cfaa6954367130be24aea2ae800fd4fc5bb5d62c923d107c89614ae1ec9",
+ "printedHeader": "新北市立中正國民中學112學年度第二學期八年級數學科第一次段考試題（範圍：1-1~2-1）",
+ "printedSlot": {
+  "year": 112,
+  "semester": 2,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "基本題12題（含選擇1題）、進階題10題（含選擇1題）、挑戰題3題、計算題1題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1至2頁逐題核對；重繪基本題10四張一次函數圖、進階題6格子圖、進階題9沙漏圖共3幅。原卷無獨立選擇題區，兩題選擇題散在基本題與進階題中，sourceNumber以區別標示（基/進/挑/四）；基1(2)的分數1/4、1/5依圖片原樣轉錄；各題多小題合為一題。未收錄卷面書寫規則與課本頁碼標記。",
+ "expectedTypes": {
+  "choice": 2,
+  "fill": 23,
+  "written": 1
+ },
+ "questions": [
+  {
+   "type": "fill",
+   "sourceNumber": "基1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "補出等差數列的下一項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "試在空格中填入適當的數使之成等差數列："
+    },
+    {
+     "type": "text",
+     "text": "(1) $13$，$16$，$19$，$22$，$25$，＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(2) $\\dfrac{1}{4}$，$\\dfrac{1}{5}$，＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "基2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "補出等比數列的下一項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "試在空格中填入適當的數使之成等比數列："
+    },
+    {
+     "type": "text",
+     "text": "(1) $64$，$32$，$16$，$8$，＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(2) $2$，$2\\sqrt{3}$，＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "基3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "用等差數列一般項與等差級數和公式求第20項與前20項和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差級數的首項 $a_1=150$，公差 $d=-3$，求："
+    },
+    {
+     "type": "text",
+     "text": "(1) $a_{20}=$＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(2) 前20項的和為＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "基4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由一般項判斷公差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某等差數列一般項 $a_n=6n-4$，求公差為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "基5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比中項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x$ 為 $2$、$32$ 的等比中項，則 $x=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "基6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "由公比與第6項求首項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等比數列的公比為 $2$，第6項 $a_6=320$，求首項 $a_1=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "基7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "利用 $a_{20}=S_{20}-S_{19}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一等差級數前20項的和 $S_{20}$ 為 $168$，前19項的和 $S_{19}$ 為 $142$，求此等差級數的第20項為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "基8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "代入函數值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求 $y=3x+5$ 在 $x=7$ 時的函數值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "基9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "以兩點求一次函數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一次函數 $y=ax+b$ 的圖形通過 $(1,8)$、$(3,4)$ 兩點，求此一次函數為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "基10",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由斜率與截距判斷一次函數圖形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一次函數 $y=ax-2$，其中 $a>0$，則下列哪一個選項可能是此函數的圖形？"
+    },
+    {
+     "type": "optionFigures",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-16 -18 632 161\"><line x1=\"25\" y1=\"55\" x2=\"115\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"105\" x2=\"70\" y2=\"5\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"118,55 111,52 111,58\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"70,2 67,9 73,9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"122\" y=\"67\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><text x=\"62\" y=\"9\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">y</text><text x=\"62\" y=\"67\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><line x1=\"62\" y1=\"10\" x2=\"90\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"45\" y=\"118\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">(A)</text><line x1=\"175\" y1=\"55\" x2=\"265\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"220\" y1=\"105\" x2=\"220\" y2=\"5\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"268,55 261,52 261,58\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"220,2 217,9 223,9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"272\" y=\"67\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><text x=\"212\" y=\"9\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">y</text><text x=\"212\" y=\"67\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><line x1=\"196\" y1=\"95\" x2=\"228\" y2=\"7\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"195\" y=\"118\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">(B)</text><line x1=\"325\" y1=\"55\" x2=\"415\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"370\" y1=\"105\" x2=\"370\" y2=\"5\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"418,55 411,52 411,58\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"370,2 367,9 373,9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"422\" y=\"67\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><text x=\"362\" y=\"9\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">y</text><text x=\"362\" y=\"67\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><line x1=\"352\" y1=\"105\" x2=\"392\" y2=\"10\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"345\" y=\"118\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">(C)</text><line x1=\"475\" y1=\"55\" x2=\"565\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"520\" y1=\"105\" x2=\"520\" y2=\"5\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"568,55 561,52 561,58\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"520,2 517,9 523,9\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"572\" y=\"67\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><text x=\"512\" y=\"9\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">y</text><text x=\"512\" y=\"67\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><line x1=\"500\" y1=\"10\" x2=\"532\" y2=\"103\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"495\" y=\"118\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">(D)</text></svg>",
+     "maxHeight": 100
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "基11",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "常數函數的函數值處處相同。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一常數函數在 $x=3$ 和 $x=11$ 時的函數值之和為 $20$，試問此常數函數在 $x=-5$ 時的函數值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "基12",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由圖形通過的點讀出函數值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某函數在直角坐標平面的圖形通過 $(0,2)$、$(1,3)$、$(2,5)$、$(3,9)$ 四點，求 $x=2$ 時函數值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "進1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "公比與等比數列項的關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "等比數列 $a_1,a_2,a_3,\\cdots,a_n$ 中，若 $\\dfrac{a_3}{a_2}=-2$，則 $\\dfrac{a_{12}}{a_8}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "進2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "由等比數列一般項求項數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某等比數列首項 $3$，公比 $2$，求 $384$ 是第＿＿＿＿項。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "進3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由正項等差級數的和求最大值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一疊卡片，每張卡片上標示一個數字，卡片上數字的規則是每一張卡片的數字都比下一張卡片的數字還要大3，已知由上面數來第一張卡片的數字為92，第二張卡片的數字為89，請問由上面開始取卡片，取到某張卡片為止才能讓這些卡片上的數字總和為最大，此時和為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "進4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "利用等差級數公式求末項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若等差級數 $(-2)+0+2+4+\\cdots+m=2548$，求末項 $m=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "進5",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差級數和的不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差級數的首項 $a_1=1$，公差 $2$。請問至少到第＿＿＿＿項的和會超過 $2000$。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "進6",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "橫列與直行各成等差，需求各格並加總。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，共有11個格子，所有格子內各填入一個數字，已知由左至右成等差數列，由上至下成等差數列，則格子內所有數字的總和為＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-16 -18 332 176\"><rect x=\"10\" y=\"50\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"50\" y=\"50\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"90\" y=\"50\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"130\" y=\"50\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"170\" y=\"50\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"210\" y=\"50\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"250\" y=\"50\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"50\" y=\"10\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"50\" y=\"90\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"210\" y=\"10\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"210\" y=\"90\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"60\" y=\"74\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">5</text><text x=\"220\" y=\"74\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">11</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "進7",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "一次函數函數值的差與斜率。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一次函數 $y=-5x+4$，若 $x=m$ 的函數值比 $x=n$ 的函數值多了 $20$，則 $m-n=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "進8",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "判斷函數與一次函數、常數函數相關敘述。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者一定正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "一次函數在坐標平面上的圖形一定與 $y$ 軸相交",
+      "常數函數在坐標平面上的圖形一定會通過第一象限",
+      "若 $y$ 是 $x$ 的函數，則對於每一個 $x$ 值所對應到的函數值 $y$ 都不能相同",
+      "平面上所有的直線都是一次函數的圖形"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "進9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由圖形的線性關係寫出函數關係式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小新買了一個沙漏，沙子完全由上面的 $A$ 容器流入下面的 $B$ 容器共需時4分鐘，並且在它的說明上寫了流速固定。假設容器 $A$ 內的沙子重量與時間成函數關係，其圖形如下圖。設 $B$ 容器在時間 $x$ 分時，沙子的重量為 $y$ 公克，求 $x$ 與 $y$ 的函數關係式為＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-16 -18 282 176\"><line x1=\"40\" y1=\"112\" x2=\"215\" y2=\"112\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40\" y1=\"112\" x2=\"40\" y2=\"8\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"220,112 213,109 213,115\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"40,4 37,11 43,11\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"40\" y1=\"32\" x2=\"160\" y2=\"112\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"228\" y=\"116\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><text x=\"32\" y=\"10\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">y</text><text x=\"30\" y=\"126\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"26\" y=\"36\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\">300</text><text x=\"160\" y=\"128\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">4</text><text x=\"50\" y=\"12\" font-size=\"12\" text-anchor=\"start\" fill=\"#111\">沙子重量(公克)</text><text x=\"115\" y=\"132\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">時間(分鐘)</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "進10",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "遞迴數列逐項求值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某數列 $\\langle a_n\\rangle$ 規則如下：$a_1=1$，$a_2=1$，當 $n>0$ 時 $2a_n+a_{n+1}=a_{n+2}$，求 $a_8=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "挑1",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "觀察數列規律，找第800項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "觀察下列數列規律，求第800項為＿＿＿＿。"
+    },
+    {
+     "type": "text",
+     "text": "$1,2,3,2,3,4,3,4,5,4,5,6,5,6,7,6,7,8,7,8,9,\\cdots$"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "挑2",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數 $S_{10},S_{20}-S_{10},S_{30}-S_{20}$ 成等差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某等差級數前10項和為100，前20項和為300，求前30項和為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "挑3",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "分區填入等差數列，找第30區的第4個數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將等差數列 $20,23,26,29,\\cdots$ 按下列規律填入各區："
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "第一區",
+       "第二區",
+       "第三區",
+       "第四區",
+       "第五區",
+       "…"
+      ],
+      [
+       "20，23，26",
+       "29，32，35，38",
+       "41，44，47，50，53",
+       "56，59，62，65，68，71",
+       "……",
+       "…"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "求第30區左邊數來第4個數為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "四1",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "週期規律與等差級數，討論起始星期。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "大軍為了運動會正在進行跑操場練習，每星期一跑1圈，每星期二跑2圈，每星期三跑3圈，每星期四跑4圈，每星期五跑5圈，每星期六跑6圈，每星期日跑7圈。若大軍從某年的4月1日開始練習，到4月30日練習完後累積跑完的操場已超過120圈，則4月1日可能為星期幾？請求出所有可能的答案並完整說明理由。"
+    }
+   ]
+  }
+ ]
+}

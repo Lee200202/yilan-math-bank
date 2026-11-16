@@ -1,6 +1,6 @@
 # 臺中市 大業國中 待完成清單
 
-未轉寫 24 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
+未轉寫 17 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
 
 | 範圍 | 狀態 | 格式 | paperId | 原檔／官方包 | SHA256 |
 | --- | --- | --- | --- | --- | --- |
@@ -9,8 +9,6 @@
 | 114下・7年級・第1次 | 未轉寫 | pdf | `metro-taichung-228b1e22c0c59405-748c900d` | [原檔/來源](<https://drive.google.com/file/d/1UUqRlzYqPt98o-012XhBFeIeSooSJcnu/view#七年級/114s2-1 七年級數學科試題.pdf>) ；ZIP成員：七年級/114s2-1 七年級數學科試題.pdf | `748c900d9dd7635399f8a419304e19b5d6302570bcde9c51301c7f8ebe2df1eb` |
 | 114下・7年級・第2次 | 未轉寫 | pdf | `metro-taichung-e493a398f380737f-b9feda72` | [原檔/來源](<https://drive.google.com/file/d/1EdNBW9hYKZdGlj-13VKhKjV0JG-nmR5Y/view#七年級/114s2-2 七年級數學科試題.pdf>) ；ZIP成員：七年級/114s2-2 七年級數學科試題.pdf | `b9feda7276cb4536d07b206358c1d8e9cfe4e193ef3e76f6429d6dc8e7691a11` |
 | 114下・7年級・第3次 | 未轉寫 | pdf | `metro-taichung-b3e6252bce1b88a1-56f40442` | [原檔/來源](<https://drive.google.com/file/d/1ZHR6CvmATnhWVTlZm0OprpmQQ1mkYnCe/view#七年級/114s2-3 七年級數學科試題.pdf>) ；ZIP成員：七年級/114s2-3 七年級數學科試題.pdf | `56f40442bda11f0e0f638116f9566c9ec14113329e54aae970c8b746c600f55f` |
-| 114上・8年級・第1次 | 未轉寫 | pdf | `metro-taichung-b394cb6e23364a6b-3cebe228` | [原檔/來源](<https://drive.google.com/file/d/15odnA1HLBHFTqq7CbJj6AI6UsUZ0T4tx/view#八年級/114s1-1 八年級數學科試卷.pdf>) ；ZIP成員：八年級/114s1-1 八年級數學科試卷.pdf | `3cebe228c09b42b8bf654824f5115261b303dc076cc0131a5296b70930921ce6` |
-| 114下・8年級・第1次 | 未轉寫 | pdf | `metro-taichung-228b1e22c0c59405-7cd24397` | [原檔/來源](<https://drive.google.com/file/d/1UUqRlzYqPt98o-012XhBFeIeSooSJcnu/view#八年級/114s2-1八年級數學科試題.pdf>) ；ZIP成員：八年級/114s2-1八年級數學科試題.pdf | `7cd24397d2680b1dc7354d47841f749d0f16dc92718ea130ba996ecf1fd8e226` |
 | 114上・9年級・第1次 | 未轉寫 | pdf | `metro-taichung-b394cb6e23364a6b-4d9d5fc6` | [原檔/來源](<https://drive.google.com/file/d/15odnA1HLBHFTqq7CbJj6AI6UsUZ0T4tx/view#九年級/114s1-1 九年級數學科試題.pdf>) ；ZIP成員：九年級/114s1-1 九年級數學科試題.pdf | `4d9d5fc6a7dec5aa1a28ff99923f06c1daaa765b841a4f5ce6fc5decc36781fc` |
 | 114下・9年級・第1次 | 未轉寫 | pdf | `metro-taichung-228b1e22c0c59405-dc8f8aa5` | [原檔/來源](<https://drive.google.com/file/d/1UUqRlzYqPt98o-012XhBFeIeSooSJcnu/view#九年級/114s2-1 九年級數學科試題.pdf>) ；ZIP成員：九年級/114s2-1 九年級數學科試題.pdf | `dc8f8aa576e1c822d370d4a07a265561d551a461f025adb11ed6b860503d692b` |
 | 113上・7年級・第1次 | 未轉寫 | pdf | `metro-taichung-c54e88879c19ba0a-f6fcfbe4` | [原檔/來源](<https://drive.google.com/file/d/1okanuw6hkziMsKQW8paBZpYFiEILt7du/view#七年級/113s1-1七年級數學科試題.pdf>) ；ZIP成員：七年級/113s1-1七年級數學科試題.pdf | `f6fcfbe4955a0664eaad53404869207c372f45682d8a233ee8aea6c093402e10` |
@@ -18,11 +16,6 @@
 | 113上・7年級・第3次 | 未轉寫 | pdf | `metro-taichung-742a223623efdd42-e0495f4d` | [原檔/來源](<https://drive.google.com/file/d/1J8WdqwVtpZFmLjLwgdlu6EngX2ON2PfA/view#七年級/113s1-3 七年級數學科試卷.pdf>) ；ZIP成員：七年級/113s1-3 七年級數學科試卷.pdf | `e0495f4d3cd581161cdb263d975ff85d930ef942812d51083c3078aab1106e2b` |
 | 113下・7年級・第2次 | 未轉寫 | pdf | `metro-taichung-7f43045b62375e98-1d6d0a8f` | [原檔/來源](<https://drive.google.com/file/d/17CTIBBTtKHxNmz3P4iHX3ErnJO56_qQN/view#七年級/113s2-2 七年級數學科試題.pdf>) ；ZIP成員：七年級/113s2-2 七年級數學科試題.pdf | `1d6d0a8f2911b9755bf0f6377c77fac1071d186b9461a603740b1be7f4313904` |
 | 113下・7年級・第3次 | 未轉寫 | pdf | `metro-taichung-80d7b5af69d9e2c6-22a02a7a` | [原檔/來源](<https://drive.google.com/file/d/1-mLG6UsLYvcedD_c5lOoIpUw--DDWBOf/view#七年級/113s2-3 七年級數學科試題.pdf>) ；ZIP成員：七年級/113s2-3 七年級數學科試題.pdf | `22a02a7af60b3814748707ea733f7ee1bb35b856eefe65938b9f4727c699501d` |
-| 113上・8年級・第1次 | 未轉寫 | pdf | `metro-taichung-c54e88879c19ba0a-1f3c61ba` | [原檔/來源](<https://drive.google.com/file/d/1okanuw6hkziMsKQW8paBZpYFiEILt7du/view#八年級/113s1-1 八年級數學科試題.pdf>) ；ZIP成員：八年級/113s1-1 八年級數學科試題.pdf | `1f3c61bae3ebdb28fa4f5c690bcba817c1a4790640431767af23b1678e09474f` |
-| 113上・8年級・第3次 | 未轉寫 | pdf | `metro-taichung-742a223623efdd42-66cd3788` | [原檔/來源](<https://drive.google.com/file/d/1J8WdqwVtpZFmLjLwgdlu6EngX2ON2PfA/view#八年級/113s1-3 八年級數學科試題.pdf>) ；ZIP成員：八年級/113s1-3 八年級數學科試題.pdf | `66cd37889e0306288b377388c8701bd0f56cc823a8c7d3ee57129d95756c70f3` |
-| 113下・8年級・第1次 | 未轉寫 | pdf | `metro-taichung-0ce5869333984b93-ac3646b6` | [原檔/來源](<https://drive.google.com/file/d/1HBRHTRTe6yHNo1wcc-TVR4327btxveBi/view#八年級/113s2-1 八年級數學科試題.pdf>) ；ZIP成員：八年級/113s2-1 八年級數學科試題.pdf | `ac3646b6a381faea8dc6e065c63277291b7b426694657725f273a4ce654587b1` |
-| 113下・8年級・第2次 | 未轉寫 | pdf | `metro-taichung-7f43045b62375e98-afb750aa` | [原檔/來源](<https://drive.google.com/file/d/17CTIBBTtKHxNmz3P4iHX3ErnJO56_qQN/view#八年級/113s2-2 八年級數學科試題.pdf>) ；ZIP成員：八年級/113s2-2 八年級數學科試題.pdf | `afb750aa10ecb209b145ab6ec9ddf3b7984eae2bae70c1562cabb7818551e164` |
-| 113下・8年級・第3次 | 未轉寫 | pdf | `metro-taichung-80d7b5af69d9e2c6-1f6a98e0` | [原檔/來源](<https://drive.google.com/file/d/1-mLG6UsLYvcedD_c5lOoIpUw--DDWBOf/view#八年級/113s2-3 八年級數學科試題.pdf>) ；ZIP成員：八年級/113s2-3 八年級數學科試題.pdf | `1f6a98e0ae46c91869985402e4b560148ab52d3bdd6306e06f049bd8c165f69b` |
 | 113上・9年級・第1次 | 未轉寫 | pdf | `metro-taichung-c54e88879c19ba0a-c497d6e0` | [原檔/來源](<https://drive.google.com/file/d/1okanuw6hkziMsKQW8paBZpYFiEILt7du/view#九年級/113s1-1 九年級數學科試題.pdf>) ；ZIP成員：九年級/113s1-1 九年級數學科試題.pdf | `c497d6e09d031991ef2bdeb5f3571cca2c72b279368f8259543bd98c836b8c17` |
 | 113上・9年級・第2次 | 未轉寫 | pdf | `metro-taichung-9b266cad235e33ba-1cb81725` | [原檔/來源](<https://drive.google.com/file/d/1aCCtcTHLkJhw4M5V-9WGnmIa9MpKyIBi/view#九年級/113s1-2 九年級數學科試題.pdf>) ；ZIP成員：九年級/113s1-2 九年級數學科試題.pdf | `1cb81725603031e03605e093e4ff72e2624396d6d289116a6a8a56987b9b9896` |
 | 113上・9年級・第3次 | 未轉寫 | pdf | `metro-taichung-742a223623efdd42-9b69e56e` | [原檔/來源](<https://drive.google.com/file/d/1J8WdqwVtpZFmLjLwgdlu6EngX2ON2PfA/view#九年級/113s1-3 九年級數學科試題.pdf>) ；ZIP成員：九年級/113s1-3 九年級數學科試題.pdf | `9b69e56e0d0b85b1cf47c4b9664ae43eb4b763651c6e4df32cc2508dd6642946` |

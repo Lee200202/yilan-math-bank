@@ -1,0 +1,578 @@
+{
+ "paperId": "metro-taipei-5f852d32da3173a9",
+ "sourceSha256": "8d478b1b0de13ab858f1831e9f6b9a05d1f41471f1d090a0b3d399491f67fb52",
+ "printedHeader": "台北市立興福國中107學年度第一學期八年級第三次段考數學科題目卷",
+ "printedSlot": {
+  "year": 107,
+  "semester": 1,
+  "grade": 8,
+  "exam": 3
+ },
+ "printedCounts": "選擇10題、填充12格（第1題4格、第2題5格、第3至5題各1格）、計算4題、非選擇題1題。",
+ "visualReviewComplete": true,
+ "reviewNote": "Checked every page image against text layer. No figures. Fill items 1 and 2 split into separate blanks (sourceNumber 1-1.. 2-5); non-selection problem (6 points) numbered 四. Stray score notes (6分/20分) and circled blank numbers dropped. 7(A)-(D) options kept as full step text. Q10 has a printed gap after 其上刻著 (kept).",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 12,
+  "written": 5
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2",
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "分解兩多項式找公因式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一個多項式是 $6x^2-x-2$ 與 $9x^2-12x+4$ 的公因式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$15x^2-13x+2$",
+      "$3x^2-11x+6$",
+      "$2x-1$",
+      "$3x-2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法分解係數較大的二次式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $221x^2+5x-6$ 可因式分解成 $(13x-a)(bx+c)$，其中 $a$、$b$、$c$ 均為整數，則下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a=1$",
+      "$b=17$",
+      "$c=-3$",
+      "$a+b+c=18$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "檢驗各方程式是否有根 $x=2$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$x=2$ 不是下列哪一個方程式的解？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(x-2)(x+3)=0$",
+      "$3x^2-8x+4=0$",
+      "$\\dfrac{1}{2}x^2-\\dfrac{1}{3}x=\\dfrac{8}{3}$",
+      "$(x+2)(3x-9)=-12$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "以判別式判斷方程式有無實數解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一個方程式沒有解？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-x^2+x-1=0$",
+      "$x^2+3x-1=0$",
+      "$-x^2-x+1=0$",
+      "$x^2+3x+1=0$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "列一元二次方程式解正方形邊長問題。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一正方形的邊長增加 2 公分，則其面積變成原來的 4 倍，試問原正方形的邊長為多少公分？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$8$",
+      "$4$",
+      "$2$",
+      "$1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法分解並求係數和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "多項式 $77x^2-13x-30$ 可因式分解成 $(7x+a)(bx+c)$，其中 $a$、$b$、$c$ 均為整數，求 $a+b+c$ 之值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$0$",
+      "$10$",
+      "$12$",
+      "$22$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "因式分解法解方程式時不可兩邊同除含未知數的式子。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小可欲解方程式 $3x^2+x-2=9x^2-4$，請問哪一個步驟開始錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "因式分解得 $(x+1)(3x-2)=(3x+1)(3x-2)$",
+      "兩邊同除以 $(3x-2)$ 得 $x+1=3x+1$",
+      "利用移項得 $(x+1)-(3x+1)=0$",
+      "解得 $x=\\dfrac{1}{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "以配方法化成頂點式再比較係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用配方法將 $-4x^2+8x+3$ 化成 $a(x+b)^2+c$ 的型式，則下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a\\times b=4$",
+      "$a-c=11$",
+      "$c\\div b=7$",
+      "$a+b+c=10$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "由公式解的根代入求值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x=\\dfrac{-3\\pm\\sqrt{11}}{4}$，則 $(4x+3)^2+15=$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4$",
+      "$26$",
+      "$36$",
+      "$18$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "列方程式 $x^2-396=4x$ 並因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某考古學家發現一塊墓碑，其上刻著，此人生於西元 396 年死於西元 $x^2$ 年，享年 $4x$ 歲，則此人共活了多少年？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$18$",
+      "$22$",
+      "$72$",
+      "$88$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1-1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用十字交乘法，因式分解 $x^2-9x+14=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1-2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2",
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "先提公因式再十字交乘。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用十字交乘法，因式分解 $4x^2+4x-24=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1-3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "以 $x+3$ 為整體做十字交乘。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用十字交乘法，因式分解 $(x+3)^2-5(x+3)-36=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1-4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "領先係數為負的二次式十字交乘。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用十字交乘法，因式分解 $2-x-15x^2=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2-1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "提出公因式 $(2x-5)$ 後解方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解一元二次方程式 $(2x-5)x+8(5-2x)=0$，$x=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2-2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "移項後十字交乘求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解一元二次方程式 $15x^2+7x=4$，$x=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2-3",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "直接開平方法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解一元二次方程式 $(x+3)^2=7$，$x=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2-4",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2",
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "配方法或因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解一元二次方程式 $x^2+6x-247=0$，$x=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2-5",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "以判別式判斷無實數解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解一元二次方程式 $3x^2+2x+7=0$，$x=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "已知兩根求係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一元二次方程式 $2x^2+bx+c=0$ 的解為 $4$ 和 $-5$，求 $b+c=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "配方法求常數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "以配方法解一元二次方程式 $x^2-4x+k=0$，得 $x=2\\pm\\sqrt{5}$，則 $k=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "重根的判別式為零。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x$ 的一元二次方程式 $2x^2+3x+a=0$ 有重根，求 $a=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "年齡問題列一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若曉華 10 年前年齡的平方恰好為現在的 5 倍，則曉華現在是幾歲？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "分配問題列分式方程轉一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "幾個朋友聚餐，6000 cc 的可樂要均分給所有參加的人，結果實際參加人數比預定人數少了 2 個人，因此每個人可多分得 100 cc，試問實際參加聚餐的有幾個人？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "列方程式 $2x=x^2-15$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "彤彤在計算某正數的平方時，誤算為該數的 2 倍，且所求得的結果比正確答案少了 15，試問正確的答案應該是多少？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "套用公式解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用公式解，求一元二次方程式 $3x^2+2=6x$ 的解。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "四",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "循環賽場數列一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "幸福里舉辦一年一度羽毛球比賽，規定每個參賽隊伍必須和其他參賽隊伍各進行一場比賽，這種賽制稱為循環賽，若此日共需比賽 45 場，則共有幾隊報名參加？"
+    }
+   ]
+  }
+ ]
+}
