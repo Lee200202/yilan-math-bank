@@ -26,7 +26,7 @@ must read exactly like the original (numbers, signs, options, figures).
 
 ## Steps per paper
 
-1. Render: `python -I research/metro/render_pages.py <pdf> research/targets/render/<group>/<paperId> 2`
+1. Render: `python -X utf8 research/metro/render_pages.py <pdf> research/targets/render/<group>/<paperId> 2`
    → `<prefix>-p1.png …` and `<prefix>-text.txt` (text layer; may be empty for scans, and formulas in it
    are often garbled; always trust the image). Look at every page image with the Read tool; zoom by
    re-rendering at 3 if small print is unclear.
@@ -94,6 +94,7 @@ must read exactly like the original (numbers, signs, options, figures).
 
 `{"type": "svg", "maxHeight": 120, "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 160\">…</svg>"}`
 
+- Style every element with plain attributes (`stroke="#111" fill="none"`). NEVER use `<style>`, `class=` or `style=`: the PDF typesetter ignores CSS and prints such shapes as solid black (check_transcript.py rejects it; `python scripts/inline_svg_css.py --write <file>` repairs).
 - Only `path/line/polyline/polygon/circle/ellipse/rect/text/g`. No `<image>`, `<tspan>`, `<foreignObject>`,
   scripts or embedded data. Stroke `#111`, width 1.2–1.6, `fill="none"` for outlines.
 - `<text>` is printed in Kai at a fixed size: use plain Unicode (², ³, √, π, °, −), no super/subscript

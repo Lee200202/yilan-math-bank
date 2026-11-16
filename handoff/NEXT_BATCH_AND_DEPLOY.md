@@ -46,3 +46,10 @@ GitHub Actions的pages.yml會執行測試與靜態build，成功後更新 <https
 目前發布批次 v16：1,528 份原卷、3,866 題可組卷；新增 53 份全卷文字（較v15增加 1,249 題）。全卷狀態 128 份；部分轉寫 37 份、尚未轉寫 1,363 份。依使用者要求直接沿用其他AI文字，圖形比對持續修正；這批不宣稱全文或全部PDF逐頁複核。部署完成與否另見本批release-summary.json。
 
 圖形尚待比對：1Kqjgn-K3nvvgGfntroSOtnScJ0rhsOuf, 1nxHnyR47GQM4EgbVPJ3iBvZPFEqKCPxH, ld-110-2-1-7, ld-112-1-1-7, metro-taipei-f2d726b55ed00db9, nc-110-1-1-9, nc-110-1-3-9。完成即可單獨修正發布，不阻擋現有完整文字稿。
+
+## v17 本批狀態（Claude 接手協調，2026-11-16）
+
+- 正式站 v17：1,528 份原卷、4,760 題可組卷；全卷 163 份（complete 146＋含來源疑義 17），部分 37、未轉寫 1,328。已用 `scripts/live_acceptance.py` 在正式站實測：版本、題數、地區分頁、原卷篩選、整卷預覽、單題替換、PDF 匯出再匯入、各年級隨機組卷、手機版無橫向溢出（見 handoff/batches/20261116-v17/live-acceptance.json）。唯一待修：部分 SVG 根元素帶 height="auto"，瀏覽器主控台報錯但不影響顯示；`inline_svg_css.py` 已能一併清除，下一批建置會帶入。
+- 協調流程（協調者操作）：`python scripts/release_queue.py <ids>` → `python scripts/inline_svg_css.py --write <檔>`（SVG 含 CSS／class 會印成黑塊，check_transcript 會擋）→ `python scripts/merge_batch.py` → `python scripts/qa_metro.py --ids-file <本批> --report-file <報告>`（圖形超出畫框時用 `scripts/fix_svg_viewbox.py <paperId>`）→ 逐頁抽查含圖頁 → 提交推送 → `python scripts/live_acceptance.py <站址> <報告> <paperId…>`。
+- 下一批派工：`python research/make_waves.py <wave> <helpers> <每人篇數> [region…]`，每個「地區×學年×年級×學期×次別」尚無全卷的缺口挑一份最佳 PDF，寫入 research/targets/<wave>-<k>.json 並在 CLAIMS 認領。w1 六組各 4 卷已派工；缺口共 618 個，其中 164 個只有 Word/ODT 原卷（高雄 84、桃園 41、新北 21、臺北 13、宜蘭 5）。
+- Word 轉 PDF（scripts/render_office_source.ps1）在本機 2026-11-16 實測 120 秒無回應（隱藏對話框），已清掉遺留的隱藏 Word 程序；Word/ODT 缺口需使用者先確認 Word 可無人值守開啟，或改用其他轉檔方式。

@@ -123,3 +123,9 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 - 本批 37 卷 182 頁 PDF 匯出機器檢查全過（題數、無點陣、單一字型、往返匯入、圖形不超出框、無版面溢出，見 `handoff/batches/20261116-v17/pdf-acceptance.json`）。
 - 發現並修正系統性圖形問題：12 份卷共 151 幅 SVG 以 `<style>`／class 繪製，PDF 排版器只讀屬性，會把線條圖印成實心黑塊（例：向上九下二第 6 題平行四邊形旋轉圖）。新增 `scripts/inline_svg_css.py` 內嵌樣式，`check_transcript.py` 之後會擋下含 CSS 的 SVG。另用 `scripts/fix_svg_viewbox.py` 把 7 卷共 14 幅標籤被裁切的圖放寬畫框。已逐頁目視抽查：高雄大灣八下三（與原卷圖形、選項角度一致）、臺中向上九下二（第 6 題修正後與原卷相符）。
 - 未做：本批全部圖形與原卷逐幅比對；圖形比對仍須持續（見 handoff/NEXT_BATCH_AND_DEPLOY.md）。
+
+## v18（20261116-metro-v18）
+
+- 六位轉寫助手完成 wave 1：23 份新全卷（中華 4、誠正 4、五峰／福和／三和 3、自強 4、大灣 4、大華／向上 4），另有鷺江 1 份經查為答案卷、未轉寫。可組卷 4,760 → 5,232 題；全卷 186 份（complete 165＋含來源疑義 21）、部分 33、未轉寫 1,309。
+- 另把前批 15 卷 SVG 根元素的 height="auto"／width="100%" 清除（瀏覽器主控台報錯來源），並用 `scripts/fix_svg_viewbox.py` 放寬大灣 111下九第一次 2 幅被裁切的圖。
+- 本批 38 卷 154 頁 PDF 匯出機器檢查全過（`handoff/batches/20261116-v18/pdf-acceptance.json`）；抽查自強 113上九第三次第 2 頁（外心、內切圓、重心圖）與原卷風格一致。圖形未逐幅比對原卷；原卷疑義與待複核項目見 `handoff/batches/20261116-v18/SOURCE_ISSUES_REPORT.md`。

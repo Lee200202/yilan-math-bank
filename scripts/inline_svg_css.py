@@ -52,7 +52,9 @@ def inline(svg):
     def fix(match):
         name, attrs, close = match.group(1), match.group(2), match.group(3)
         if name in ('svg', 'defs', 'style'):
-            return re.sub(r'\sclass="[^"]*"', '', match.group(0))
+            tag = re.sub(r'\sclass="[^"]*"', '', match.group(0))
+            # invalid length values make browsers log console errors; the viewBox alone sizes the figure
+            return re.sub(r'\s(?:height="auto"|width="100%"|height="100%")', '', tag)
         attributes = dict(ATTR.findall(attrs))
         merged = dict(by_tag.get(name, {}))
         for cls in attributes.pop('class', '').split():
@@ -71,7 +73,7 @@ def inline(svg):
 
 
 def needs_inline(svg):
-    return bool(re.search(r'<style\b|\sclass=|<(?!svg\b)[a-zA-Z][^<>]*\sstyle=', svg, re.I))
+    return bool(re.search(r'<style\b|\sclass=|<(?!svg\b)[a-zA-Z][^<>]*\sstyle=|\sheight="auto"|\swidth="100%"|\sheight="100%"', svg, re.I))
 
 
 if __name__ == '__main__':
