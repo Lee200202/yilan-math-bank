@@ -46,6 +46,14 @@ for arg in sys.argv[1:]:
         if css:
             raise ValueError(f'SVG uses <style>/class/style CSS (prints as black shapes) in questions {css}: '
                              f'run python scripts/inline_svg_css.py --write {path}')
+        import xml.dom.minidom
+        for q in t['questions']:
+            for b in q['blocks']:
+                if b['type'] in ('svg', 'optionFigures'):
+                    try:
+                        xml.dom.minidom.parseString(b['svg'].encode('utf-8'))
+                    except Exception as e:
+                        raise ValueError(f'SVG is not well-formed XML in {q["type"]}-{q["sourceNumber"]}: {e}')
         rows = prepare_metro.rows_from_transcript(t, paper, units, str(path))
         missing = set()
         for q in t['questions']:

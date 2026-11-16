@@ -55,7 +55,9 @@ def inline(svg):
             tag = re.sub(r'\sclass="[^"]*"', '', match.group(0))
             # invalid length values make browsers log console errors; the viewBox alone sizes the figure
             return re.sub(r'\s(?:height="auto"|width="100%"|height="100%")', '', tag)
-        attributes = dict(ATTR.findall(attrs))
+        attributes = {}
+        for k, v in ATTR.findall(attrs):
+            attributes.setdefault(k, v)  # duplicate attributes are invalid XML; keep the first
         merged = dict(by_tag.get(name, {}))
         for cls in attributes.pop('class', '').split():
             merged.update(by_class.get(cls, {}))
@@ -73,7 +75,7 @@ def inline(svg):
 
 
 def needs_inline(svg):
-    return bool(re.search(r'<style\b|\sclass=|<(?!svg\b)[a-zA-Z][^<>]*\sstyle=|\sheight="auto"|\swidth="100%"|\sheight="100%"', svg, re.I))
+    return bool(re.search(r'<style\b|\sclass=|<(?!svg\b)[a-zA-Z][^<>]*\sstyle=|\sheight="auto"|\swidth="100%"|\sheight="100%"|<[^<>]*\s([\w:-]+)="[^"]*"[^<>]*\s\1="', svg, re.I))
 
 
 if __name__ == '__main__':

@@ -1,9 +1,9 @@
-import {examTitle,questionHTML,typesetDOM,createTypesetPdf} from './typesetter.mjs?v=20261116-metro-v19';
-import {REGIONS,regionOf,TYPES,TYPE_NAMES,LEVEL_NAMES,eligible,eligiblePool,availableCounts,suggestedCounts,generate,replaceQuestion,allocateScores,orderPracticeQuestions,validateSession} from './engine.mjs?v=20261116-metro-v19';
-import {setupUnits} from './units-ui.mjs?v=20261116-metro-v19';
+import {examTitle,questionHTML,typesetDOM,createTypesetPdf} from './typesetter.mjs?v=20261116-metro-v20';
+import {REGIONS,regionOf,TYPES,TYPE_NAMES,LEVEL_NAMES,eligible,eligiblePool,availableCounts,suggestedCounts,generate,replaceQuestion,allocateScores,orderPracticeQuestions,validateSession} from './engine.mjs?v=20261116-metro-v20';
+import {setupUnits} from './units-ui.mjs?v=20261116-metro-v20';
 const $=s=>document.querySelector(s), esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let bank=[],papers=[],coverage={},unitCatalog=[],unitsUI=null,session=null,more=24,toastTimer; const paperMap=new Map(),bankMap=new Map();
-const DATA_VERSION='20261116-metro-v19';
+const DATA_VERSION='20261116-metro-v20';
 const fetchJson=async path=>{const url=new URL(path,document.baseURI);url.searchParams.set('v',DATA_VERSION);const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error(`無法載入資料（${r.status}），請重新整理。`);return r.json();};
 function toast(message){$('#toast').textContent=message;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,6500);}
 function notice(message,error=false){$('#notice').textContent=message;$('#notice').hidden=!message;$('#notice').classList.toggle('error',error);}

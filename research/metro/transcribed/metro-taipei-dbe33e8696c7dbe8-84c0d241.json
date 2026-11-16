@@ -1,0 +1,675 @@
+{
+ "paperId": "metro-taipei-dbe33e8696c7dbe8-84c0d241",
+ "sourceSha256": "84c0d24107841341535cc8cbc4005da59f92256ccf346451c17c71ee9fb37059",
+ "printedHeader": "臺北市立誠正國中113學年度第二學期第一次段考七年級數學科試題（命題範圍：CH1+CH6）",
+ "printedSlot": {
+  "year": 113,
+  "semester": 2,
+  "grade": 7,
+  "exam": 1
+ },
+ "printedCounts": "輕鬆得分區30格（含選擇1格）、細心計算區選擇7題、完整推演區2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1至3頁全部試題；輕鬆得分區的(1)至(30)格依題組合併為單題（如(3)(4)、(9)至(12)），以格號作為題號；另有繪圖題（對稱圖形補畫、三視圖、展開圖）以written收錄。重繪方格線段、線段與直線、等腰直角三角形、對稱圖形半圖、積木立體圖（含選擇30的三個立體與選擇4的圖(二)）、時鐘與摺紙示意圖。第(30)格因僅有三個選項（無(D)），改以fill收錄並請填A、B或C。第(5)格交通號誌為照片式圖案且答案不唯一，標為不可用。",
+ "expectedTypes": {
+  "choice": 8,
+  "fill": 16,
+  "written": 4
+ },
+ "questions": [
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "以兩個字母列出總花費的二元一次式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "芬芬老師購買了每顆 $7$ 元的茶葉蛋 $x$ 顆，以及每根 $10$ 元的熱狗 $y$ 根。請問芬芬老師總共花費了＿＿＿＿元（用 $x$、$y$ 表示）。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "以字母列出含折抵金額的二元一次式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "壯壯到早餐店購買了 $2$ 份 $a$ 元的蛋餅和 $1$ 份 $b$ 元的蘿蔔糕，並自備餐盒折抵 $15$ 元。請問壯壯需要支付＿＿＿＿元（用 $a$、$b$ 表示）。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3-4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3",
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "由月份與日期的兩個關係列式求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "咚咚讓大家猜他的生日。他將生日的月份乘以 $3$，再減去生日的日期，結果得到 $6$。已知他的生日日期是月份的 $2$ 倍多 $4$。請問咚咚的生日是＿＿＿＿月＿＿＿＿日。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "格5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "判斷交通號誌圖形是否為線對稱圖形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "沿途發現了許多造型獨特的交通號誌。請問在這些號誌中，哪一個不屬於線對稱圖形呢？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "傾斜的飛機圖案警告標誌（三角形）",
+      "三個箭頭環形的圓環警告標誌（三角形）",
+      "交叉路口 X 形警告標誌（三角形）",
+      "路面顛簸（凸起）警告標誌（三角形）"
+     ]
+    }
+   ],
+   "usable": false,
+   "sourceIssue": "四個選項為照片式的交通號誌，無法忠實重繪；且飛機（傾斜）與圓環（三箭頭）兩個號誌依字面都不是線對稱，原卷未提供可判斷唯一答案的依據。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6-7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3",
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "以人數與香蕉數列二元一次聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "園區內共有 $36$ 隻大猴子和小猴子，正舉辦美食餐會。每隻大猴子獨自吃掉 $2$ 條香蕉，每 $2$ 隻小猴子則分食 $1$ 條香蕉。如果大、小猴子共吃掉了 $42$ 條香蕉，園區內有＿＿＿＿隻大猴子、＿＿＿＿隻小猴子？"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "二元一次方程式的正整數解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "菱菱買了每個 $15$ 元的鑰匙圈 $m$ 個及每個 $20$ 元的手機吊飾 $n$ 個當紀念品，總共花了 $85$ 元。請問她可能買了＿＿＿＿個手機吊飾。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9-12",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "代入 $x$、$y$ 的值求二元一次式的值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在下列各題空格中，填入各二元一次式的值："
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "$x$",
+       "$3$",
+       "$0$"
+      ],
+      [
+       "$y$",
+       "$2$",
+       "$-3$"
+      ],
+      [
+       "$x+5y$",
+       "＿＿＿＿",
+       "＿＿＿＿"
+      ],
+      [
+       "$-2x+y-3$",
+       "＿＿＿＿",
+       "＿＿＿＿"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "合併同類項化簡二元一次式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "化簡 $3x-2y-7-4x+6y+10=$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "14",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "去括號並合併同類項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "化簡 $(-x+6y-3)-2(2x-y-5)=$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "15",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "代入消去法解二元一次聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解下列二元一次聯立方程式 $x$、$y$ 之值：$y=x+1$、$2x+y=7$。＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "16",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "加減消去法解二元一次聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解下列二元一次聯立方程式 $x$、$y$ 之值：$2x+5y=14$、$7x-10y=-6$。＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "17",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "先去分母化簡再解聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解下列二元一次聯立方程式 $x$、$y$ 之值：$\\dfrac{3x+y}{2}=3$、$x-2y=9$。＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "18-20",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "在方格紙上判斷線段與直線的垂直、平分關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖中每一個小方格的邊長都是 $1$，$L$ 為直線，其他粗線都是線段，回答下列問題："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 175,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 225 295\"><line x1=\"12\" y1=\"18\" x2=\"12\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"28\" y1=\"18\" x2=\"28\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"44\" y1=\"18\" x2=\"44\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"60\" y1=\"18\" x2=\"60\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"18\" x2=\"76\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"92\" y1=\"18\" x2=\"92\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"108\" y1=\"18\" x2=\"108\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"124\" y1=\"18\" x2=\"124\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"140\" y1=\"18\" x2=\"140\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"156\" y1=\"18\" x2=\"156\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"172\" y1=\"18\" x2=\"172\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"18\" x2=\"188\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"204\" y1=\"18\" x2=\"204\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"18\" x2=\"204\" y2=\"18\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"34\" x2=\"204\" y2=\"34\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"50\" x2=\"204\" y2=\"50\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"66\" x2=\"204\" y2=\"66\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"82\" x2=\"204\" y2=\"82\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"98\" x2=\"204\" y2=\"98\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"114\" x2=\"204\" y2=\"114\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"130\" x2=\"204\" y2=\"130\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"146\" x2=\"204\" y2=\"146\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"162\" x2=\"204\" y2=\"162\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"178\" x2=\"204\" y2=\"178\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"194\" x2=\"204\" y2=\"194\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"210\" x2=\"204\" y2=\"210\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"226\" x2=\"204\" y2=\"226\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"242\" x2=\"204\" y2=\"242\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"258\" x2=\"204\" y2=\"258\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"274\" x2=\"204\" y2=\"274\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"108\" y1=\"18\" x2=\"108\" y2=\"278.8\" stroke=\"#111\" stroke-width=\"1.6\"/><text x=\"118\" y=\"12\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">L</text><line x1=\"44\" y1=\"34\" x2=\"172\" y2=\"34\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"44\" y1=\"66\" x2=\"188\" y2=\"50\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"76\" y1=\"82\" x2=\"140\" y2=\"82\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"60\" y1=\"82\" x2=\"188\" y2=\"114\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"44\" y1=\"114\" x2=\"156\" y2=\"114\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"92\" y1=\"130\" x2=\"124\" y2=\"162\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"76\" y1=\"178\" x2=\"156\" y2=\"178\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"28\" y1=\"210\" x2=\"172\" y2=\"194\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"60\" y1=\"242\" x2=\"156\" y2=\"210\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"60\" y1=\"258\" x2=\"156\" y2=\"258\" stroke=\"#111\" stroke-width=\"1.6\"/><text x=\"36\" y=\"39\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"180\" y=\"41\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"36\" y=\"73\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"196\" y=\"52\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"74\" y=\"79\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"149\" y=\"91\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">F</text><text x=\"51\" y=\"86\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">G</text><text x=\"194\" y=\"128\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">H</text><text x=\"35\" y=\"119\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">J</text><text x=\"164\" y=\"127\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">K</text><text x=\"85\" y=\"130\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">M</text><text x=\"132\" y=\"176\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">N</text><text x=\"67\" y=\"183\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">P</text><text x=\"164\" y=\"183\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">Q</text><text x=\"20\" y=\"218\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">S</text><text x=\"181\" y=\"196\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">T</text><text x=\"52\" y=\"250\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">U</text><text x=\"165\" y=\"211\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">V</text><text x=\"52\" y=\"266\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">X</text><text x=\"164\" y=\"267\" font-size=\"12\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">Y</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) $L$ 是哪些線段的垂線？＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(2) $L$ 平分哪些線段？＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(3) $L$ 是哪些線段的垂直平分線？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "21-22",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "正方形的對角線與對稱軸數量。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "正方形有＿＿＿＿條對角線，有＿＿＿＿條對稱軸。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "23",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "由三角形面積與底邊求高（點到直線的距離）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，三條直線分別相交於 $P$、$Q$、$R$ 三點，已知 $\\triangle PQR$ 的面積為 $81$，且 $\\overline{QR}=18$，求 $P$ 點到 $\\overline{QR}$ 的距離。＿＿＿＿"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"13.8 0.4 203.4 127.2\"><line x1=\"87\" y1=\"14.4\" x2=\"47.4\" y2=\"116.8\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"52.8\" y1=\"15.4\" x2=\"208\" y2=\"107.2\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"19.8\" y1=\"93.1\" x2=\"211.2\" y2=\"93.1\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"75.4\" y=\"25.7\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">P</text><text x=\"48.5\" y=\"106.1\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">Q</text><text x=\"187.2\" y=\"88.1\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">R</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "24-25",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "等腰直角三角形的對稱軸性質：求角度與斜邊長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，$\\triangle PQR$ 為等腰三角形，$\\overline{SQ}$ 為對稱軸。已知 $\\angle PQR=90^\\circ$，$\\overline{SR}=10$，求："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-4 -4 120 124\"><polygon points=\"100,100 78,100 84.4,84.4\" fill=\"#ccc\" stroke=\"none\"/><polygon points=\"100,10 100,100 10,100\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"55\" y1=\"55\" x2=\"100\" y2=\"100\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><text x=\"104\" y=\"6\" font-size=\"15\" font-style=\"italic\" text-anchor=\"start\" fill=\"#111\">P</text><text x=\"104\" y=\"113\" font-size=\"15\" font-style=\"italic\" text-anchor=\"start\" fill=\"#111\">Q</text><text x=\"1\" y=\"113\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">R</text><text x=\"47\" y=\"52\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">S</text><text x=\"90\" y=\"97\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">1</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) $\\angle 1=$＿＿＿＿度"
+    },
+    {
+     "type": "text",
+     "text": "(2) $\\overline{PR}=$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "26",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "依對稱軸補畫線對稱圖形的另一半。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖的粗黑實線是一個線對稱圖形的一半，虛線是其對稱軸，完成此線對稱圖形。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 215 160\"><line x1=\"10\" y1=\"14\" x2=\"10\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"26\" y1=\"14\" x2=\"26\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"42\" y1=\"14\" x2=\"42\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"58\" y1=\"14\" x2=\"58\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"74\" y1=\"14\" x2=\"74\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"90\" y1=\"14\" x2=\"90\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"106\" y1=\"14\" x2=\"106\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"122\" y1=\"14\" x2=\"122\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"138\" y1=\"14\" x2=\"138\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"154\" y1=\"14\" x2=\"154\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"170\" y1=\"14\" x2=\"170\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"186\" y1=\"14\" x2=\"186\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"202\" y1=\"14\" x2=\"202\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"10\" y1=\"14\" x2=\"202\" y2=\"14\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"10\" y1=\"30\" x2=\"202\" y2=\"30\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"10\" y1=\"46\" x2=\"202\" y2=\"46\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"10\" y1=\"62\" x2=\"202\" y2=\"62\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"10\" y1=\"78\" x2=\"202\" y2=\"78\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"10\" y1=\"94\" x2=\"202\" y2=\"94\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"10\" y1=\"110\" x2=\"202\" y2=\"110\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"10\" y1=\"126\" x2=\"202\" y2=\"126\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"10\" y1=\"142\" x2=\"202\" y2=\"142\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"106\" y1=\"2.8\" x2=\"106\" y2=\"153.2\" stroke=\"#111\" stroke-width=\"1.6\" stroke-dasharray=\"7,4\"/><polyline points=\"106,14 138,14 122,30 122,62 186,78 138,126 106,126\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.2\"/></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "27-29",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "由立體圖形畫出前視圖、右視圖與上視圖。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "畫出下圖中立體圖形的三視圖。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"8 -7.6 146 149.6\"><polygon points=\"84,49.2 100,58.4 100,38.4 84,29.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"116,49.2 100,58.4 100,38.4 116,29.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"100,20 116,29.2 100,38.4 84,29.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"100,58.4 116,67.6 116,47.6 100,38.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"132,58.4 116,67.6 116,47.6 132,38.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"116,29.2 132,38.4 116,47.6 100,38.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"100,38.4 116,47.6 116,27.6 100,18.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"132,38.4 116,47.6 116,27.6 132,18.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"116,9.2 132,18.4 116,27.6 100,18.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"84,67.6 100,76.8 100,56.8 84,47.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"116,67.6 100,76.8 100,56.8 116,47.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"100,38.4 116,47.6 100,56.8 84,47.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"116,67.6 132,76.8 132,56.8 116,47.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"148,67.6 132,76.8 132,56.8 148,47.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"132,38.4 148,47.6 132,56.8 116,47.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"116,47.6 132,56.8 132,36.8 116,27.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"148,47.6 132,56.8 132,36.8 148,27.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"132,18.4 148,27.6 132,36.8 116,27.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"116,27.6 132,36.8 132,16.8 116,7.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"148,27.6 132,36.8 132,16.8 148,7.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"132,-1.6 148,7.6 132,16.8 116,7.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"68,76.8 84,86 84,66 68,56.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"100,76.8 84,86 84,66 100,56.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"84,47.6 100,56.8 84,66 68,56.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"29.2,114.3 46,105.9 47.3,108.5 52,100 42.4,98.7 43.7,101.3 26.8,109.7\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><text x=\"22\" y=\"130\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">前方</text></svg>"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 85\"><text x=\"32\" y=\"14\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">前視圖</text><line x1=\"8\" y1=\"20\" x2=\"8\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"24\" y1=\"20\" x2=\"24\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"56\" y1=\"20\" x2=\"56\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"8\" y1=\"20\" x2=\"56\" y2=\"20\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"8\" y1=\"36\" x2=\"56\" y2=\"36\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"8\" y1=\"52\" x2=\"56\" y2=\"52\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"8\" y1=\"68\" x2=\"56\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><text x=\"114\" y=\"14\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">右視圖</text><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"106\" y1=\"20\" x2=\"106\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"122\" y1=\"20\" x2=\"122\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"138\" y1=\"20\" x2=\"138\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"90\" y1=\"20\" x2=\"138\" y2=\"20\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"90\" y1=\"36\" x2=\"138\" y2=\"36\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"90\" y1=\"52\" x2=\"138\" y2=\"52\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"90\" y1=\"68\" x2=\"138\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><text x=\"196\" y=\"14\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">上視圖</text><line x1=\"172\" y1=\"20\" x2=\"172\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"204\" y1=\"20\" x2=\"204\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"220\" y1=\"20\" x2=\"220\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"172\" y1=\"20\" x2=\"220\" y2=\"20\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"172\" y1=\"36\" x2=\"220\" y2=\"36\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"172\" y1=\"52\" x2=\"220\" y2=\"52\" stroke=\"#111\" stroke-width=\"0.8\"/><line x1=\"172\" y1=\"68\" x2=\"220\" y2=\"68\" stroke=\"#111\" stroke-width=\"0.8\"/></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "30",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "由前視圖判斷對應的立體圖形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下題所給的前視圖，是哪個立體圖形的前視圖？答：＿＿＿＿（填 A、B 或 C）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 70,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90 80\"><text x=\"33\" y=\"14\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">前視圖</text><rect x=\"8\" y=\"20\" width=\"18\" height=\"18\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"26\" y=\"20\" width=\"18\" height=\"18\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"44\" y=\"20\" width=\"18\" height=\"18\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"8\" y=\"38\" width=\"18\" height=\"18\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"26\" y=\"38\" width=\"18\" height=\"18\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"44\" y=\"38\" width=\"18\" height=\"18\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"8\" y=\"56\" width=\"18\" height=\"18\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"26\" y=\"56\" width=\"18\" height=\"18\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"44\" y=\"56\" width=\"18\" height=\"18\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1\"/></svg>"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 115,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 450 150\"><text x=\"4\" y=\"14\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">(A)</text><polygon points=\"64,81.2 80,90.4 80,70.4 64,61.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"96,81.2 80,90.4 80,70.4 96,61.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,52 96,61.2 80,70.4 64,61.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"64,61.2 80,70.4 80,50.4 64,41.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"96,61.2 80,70.4 80,50.4 96,41.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,32 96,41.2 80,50.4 64,41.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"64,41.2 80,50.4 80,30.4 64,21.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"96,41.2 80,50.4 80,30.4 96,21.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,12 96,21.2 80,30.4 64,21.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"48,90.4 64,99.6 64,79.6 48,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,90.4 64,99.6 64,79.6 80,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"64,61.2 80,70.4 64,79.6 48,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"48,70.4 64,79.6 64,59.6 48,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,70.4 64,79.6 64,59.6 80,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"64,41.2 80,50.4 64,59.6 48,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"48,50.4 64,59.6 64,39.6 48,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,50.4 64,59.6 64,39.6 80,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"64,21.2 80,30.4 64,39.6 48,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,90.4 96,99.6 96,79.6 80,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"112,90.4 96,99.6 96,79.6 112,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"96,61.2 112,70.4 96,79.6 80,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,70.4 96,79.6 96,59.6 80,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"112,70.4 96,79.6 96,59.6 112,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"96,41.2 112,50.4 96,59.6 80,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,50.4 96,59.6 96,39.6 80,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"112,50.4 96,59.6 96,39.6 112,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"96,21.2 112,30.4 96,39.6 80,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"32,99.6 48,108.8 48,88.8 32,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"64,99.6 48,108.8 48,88.8 64,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"48,70.4 64,79.6 48,88.8 32,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"32,79.6 48,88.8 48,68.8 32,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"64,79.6 48,88.8 48,68.8 64,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"48,50.4 64,59.6 48,68.8 32,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"64,99.6 80,108.8 80,88.8 64,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"96,99.6 80,108.8 80,88.8 96,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,70.4 96,79.6 80,88.8 64,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"64,79.6 80,88.8 80,68.8 64,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"96,79.6 80,88.8 80,68.8 96,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,50.4 96,59.6 80,68.8 64,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"96,99.6 112,108.8 112,88.8 96,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"128,99.6 112,108.8 112,88.8 128,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"112,70.4 128,79.6 112,88.8 96,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"96,79.6 112,88.8 112,68.8 96,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"128,79.6 112,88.8 112,68.8 128,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"112,50.4 128,59.6 112,68.8 96,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"48,108.8 64,118 64,98 48,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,108.8 64,118 64,98 80,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"64,79.6 80,88.8 64,98 48,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,108.8 96,118 96,98 80,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"112,108.8 96,118 96,98 112,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"96,79.6 112,88.8 96,98 80,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"64,118 80,127.2 80,107.2 64,98\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"96,118 80,127.2 80,107.2 96,98\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"80,88.8 96,98 80,107.2 64,98\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"11.2,134.3 26,126.9 27.3,129.5 32,121 22.4,119.7 23.7,122.3 8.8,129.7\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><text x=\"24\" y=\"148\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">前方</text><text x=\"154\" y=\"14\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">(B)</text><polygon points=\"214,81.2 230,90.4 230,70.4 214,61.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,81.2 230,90.4 230,70.4 246,61.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,52 246,61.2 230,70.4 214,61.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,61.2 230,70.4 230,50.4 214,41.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,61.2 230,70.4 230,50.4 246,41.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,32 246,41.2 230,50.4 214,41.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,41.2 230,50.4 230,30.4 214,21.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,41.2 230,50.4 230,30.4 246,21.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,12 246,21.2 230,30.4 214,21.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"198,90.4 214,99.6 214,79.6 198,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,90.4 214,99.6 214,79.6 230,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,61.2 230,70.4 214,79.6 198,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"198,70.4 214,79.6 214,59.6 198,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,70.4 214,79.6 214,59.6 230,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,41.2 230,50.4 214,59.6 198,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"198,50.4 214,59.6 214,39.6 198,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,50.4 214,59.6 214,39.6 230,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,21.2 230,30.4 214,39.6 198,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,90.4 246,99.6 246,79.6 230,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"262,90.4 246,99.6 246,79.6 262,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,61.2 262,70.4 246,79.6 230,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,70.4 246,79.6 246,59.6 230,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"262,70.4 246,79.6 246,59.6 262,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,41.2 262,50.4 246,59.6 230,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,50.4 246,59.6 246,39.6 230,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"262,50.4 246,59.6 246,39.6 262,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,21.2 262,30.4 246,39.6 230,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"182,99.6 198,108.8 198,88.8 182,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,99.6 198,108.8 198,88.8 214,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"198,70.4 214,79.6 198,88.8 182,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"182,79.6 198,88.8 198,68.8 182,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,79.6 198,88.8 198,68.8 214,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"198,50.4 214,59.6 198,68.8 182,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,99.6 230,108.8 230,88.8 214,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,99.6 230,108.8 230,88.8 246,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,70.4 246,79.6 230,88.8 214,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,79.6 230,88.8 230,68.8 214,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,79.6 230,88.8 230,68.8 246,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,50.4 246,59.6 230,68.8 214,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,59.6 230,68.8 230,48.8 214,39.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,59.6 230,68.8 230,48.8 246,39.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,30.4 246,39.6 230,48.8 214,39.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,99.6 262,108.8 262,88.8 246,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"278,99.6 262,108.8 262,88.8 278,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"262,70.4 278,79.6 262,88.8 246,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,79.6 262,88.8 262,68.8 246,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"278,79.6 262,88.8 262,68.8 278,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"262,50.4 278,59.6 262,68.8 246,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"198,108.8 214,118 214,98 198,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,108.8 214,118 214,98 230,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,79.6 230,88.8 214,98 198,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"198,88.8 214,98 214,78 198,68.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,88.8 214,98 214,78 230,68.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,59.6 230,68.8 214,78 198,68.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,108.8 246,118 246,98 230,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"262,108.8 246,118 246,98 262,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,79.6 262,88.8 246,98 230,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,88.8 246,98 246,78 230,68.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"262,88.8 246,98 246,78 262,68.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,59.6 262,68.8 246,78 230,68.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,118 230,127.2 230,107.2 214,98\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,118 230,127.2 230,107.2 246,98\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,88.8 246,98 230,107.2 214,98\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"214,98 230,107.2 230,87.2 214,78\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"246,98 230,107.2 230,87.2 246,78\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,68.8 246,78 230,87.2 214,78\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"161.2,134.3 176,126.9 177.3,129.5 182,121 172.4,119.7 173.7,122.3 158.8,129.7\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><text x=\"174\" y=\"148\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">前方</text><text x=\"304\" y=\"14\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">(C)</text><polygon points=\"364,81.2 380,90.4 380,70.4 364,61.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"396,81.2 380,90.4 380,70.4 396,61.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,52 396,61.2 380,70.4 364,61.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"364,61.2 380,70.4 380,50.4 364,41.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"396,61.2 380,70.4 380,50.4 396,41.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,32 396,41.2 380,50.4 364,41.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"364,41.2 380,50.4 380,30.4 364,21.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"396,41.2 380,50.4 380,30.4 396,21.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,12 396,21.2 380,30.4 364,21.2\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"348,90.4 364,99.6 364,79.6 348,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,90.4 364,99.6 364,79.6 380,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"364,61.2 380,70.4 364,79.6 348,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"348,70.4 364,79.6 364,59.6 348,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,70.4 364,79.6 364,59.6 380,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"364,41.2 380,50.4 364,59.6 348,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"348,50.4 364,59.6 364,39.6 348,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,50.4 364,59.6 364,39.6 380,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"364,21.2 380,30.4 364,39.6 348,30.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,90.4 396,99.6 396,79.6 380,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"412,90.4 396,99.6 396,79.6 412,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"396,61.2 412,70.4 396,79.6 380,70.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,70.4 396,79.6 396,59.6 380,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"412,70.4 396,79.6 396,59.6 412,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"396,41.2 412,50.4 396,59.6 380,50.4\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"332,99.6 348,108.8 348,88.8 332,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"364,99.6 348,108.8 348,88.8 364,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"348,70.4 364,79.6 348,88.8 332,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"364,99.6 380,108.8 380,88.8 364,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"396,99.6 380,108.8 380,88.8 396,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,70.4 396,79.6 380,88.8 364,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"364,79.6 380,88.8 380,68.8 364,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"396,79.6 380,88.8 380,68.8 396,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,50.4 396,59.6 380,68.8 364,59.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"396,99.6 412,108.8 412,88.8 396,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"428,99.6 412,108.8 412,88.8 428,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"412,70.4 428,79.6 412,88.8 396,79.6\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"348,108.8 364,118 364,98 348,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,108.8 364,118 364,98 380,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"364,79.6 380,88.8 364,98 348,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,108.8 396,118 396,98 380,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"412,108.8 396,118 396,98 412,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"396,79.6 412,88.8 396,98 380,88.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,88.8 396,98 396,78 380,68.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"412,88.8 396,98 396,78 412,68.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"396,59.6 412,68.8 396,78 380,68.8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"364,118 380,127.2 380,107.2 364,98\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"396,118 380,127.2 380,107.2 396,98\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,88.8 396,98 380,107.2 364,98\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"364,98 380,107.2 380,87.2 364,78\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"396,98 380,107.2 380,87.2 396,78\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"380,68.8 396,78 380,87.2 364,78\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"311.2,134.3 326,126.9 327.3,129.5 332,121 322.4,119.7 323.7,122.3 308.8,129.7\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><text x=\"324\" y=\"148\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">前方</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "代入檢驗二元一次方程式的解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者不是二元一次方程式 $2x+y=3$ 的解？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x=1$，$y=1$",
+      "$x=3$，$y=-2$",
+      "$x=4$，$y=-5$",
+      "$x=-2$，$y=7$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "垂直平分線與線段、等腰三角形、箏形性質的判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請判別下列哪一個選項是錯誤的？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "兩條相異的線段可以透過兩者比較，來決定其長度的大小",
+      "等腰三角形 $ABC$，其中 $\\overline{AB}=\\overline{AC}\\ne\\overline{BC}$，則 $\\overline{BC}$ 的垂直平分線會過頂點 $A$。",
+      "與 $\\overline{AB}$ 垂直且平分 $\\overline{AB}$ 的直線只有一條",
+      "箏形的兩條對角線互相垂直平分"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "正多邊形的頂點與時鐘刻度的等分關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "糖糖設計時鐘面板上的幾何圖形，若將位在 4、8、12 的刻度相連，可畫出一個正三角形，如右圖。依此構想，糖糖無法用連接時鐘的刻度畫出哪一個正多邊形？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"4 4 112 112\"><circle cx=\"60\" cy=\"60\" r=\"52\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"86\" y1=\"15\" x2=\"83\" y2=\"20.2\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"78.5\" y=\"33\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">1</text><line x1=\"105\" y1=\"34\" x2=\"99.8\" y2=\"37\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"92\" y=\"46.5\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">2</text><line x1=\"112\" y1=\"60\" x2=\"106\" y2=\"60\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"97\" y=\"65\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">3</text><line x1=\"105\" y1=\"86\" x2=\"99.8\" y2=\"83\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"92\" y=\"83.5\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">4</text><line x1=\"86\" y1=\"105\" x2=\"83\" y2=\"99.8\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"78.5\" y=\"97\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">5</text><line x1=\"60\" y1=\"112\" x2=\"60\" y2=\"106\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"60\" y=\"102\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">6</text><line x1=\"34\" y1=\"105\" x2=\"37\" y2=\"99.8\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"41.5\" y=\"97\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">7</text><line x1=\"15\" y1=\"86\" x2=\"20.2\" y2=\"83\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"28\" y=\"83.5\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">8</text><line x1=\"8\" y1=\"60\" x2=\"14\" y2=\"60\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"23\" y=\"65\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">9</text><line x1=\"15\" y1=\"34\" x2=\"20.2\" y2=\"37\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"28\" y=\"46.5\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">10</text><line x1=\"34\" y1=\"15\" x2=\"37\" y2=\"20.2\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"41.5\" y=\"33\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">11</text><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"14\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"60\" y=\"28\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">12</text><polygon points=\"60,8 105,86 15,86\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"60\" cy=\"60\" r=\"2\" fill=\"#111\" stroke=\"none\"/></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "正四邊形",
+      "正六邊形",
+      "正八邊形",
+      "正十二邊形"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "由堆疊立體模型判斷觀察右視圖的位置。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 9 個正方體積木堆疊的立體模型如圖(二)。若依依站在甲、乙、丙、丁某處觀察到的右視圖樣貌如圖(一)，則依依應站在哪一個位置？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 125,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-2 2 294 190\"><text x=\"28\" y=\"33\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">右視圖</text><rect x=\"10\" y=\"40\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"#999\" stroke-width=\"0.7\" stroke-dasharray=\"3,2\"/><rect x=\"28\" y=\"40\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"#999\" stroke-width=\"0.7\" stroke-dasharray=\"3,2\"/><rect x=\"46\" y=\"40\" width=\"18\" height=\"18\" fill=\"#f3d9d0\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"10\" y=\"58\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"#999\" stroke-width=\"0.7\" stroke-dasharray=\"3,2\"/><rect x=\"28\" y=\"58\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"#999\" stroke-width=\"0.7\" stroke-dasharray=\"3,2\"/><rect x=\"46\" y=\"58\" width=\"18\" height=\"18\" fill=\"#f3d9d0\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"10\" y=\"76\" width=\"18\" height=\"18\" fill=\"#f3d9d0\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"28\" y=\"76\" width=\"18\" height=\"18\" fill=\"#f3d9d0\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"46\" y=\"76\" width=\"18\" height=\"18\" fill=\"#f3d9d0\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"37\" y=\"115\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">圖(一)</text><line x1=\"89.5\" y1=\"62\" x2=\"109.5\" y2=\"72.9\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"181.3\" y1=\"115.7\" x2=\"247.7\" y2=\"155.7\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"247.7\" y1=\"62.9\" x2=\"221.4\" y2=\"77.4\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"158.5\" y1=\"114.7\" x2=\"89.5\" y2=\"155.7\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"150,86.3 170,97.6 170,74 150,62.7\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"190,86.3 170,97.6 170,74 190,62.7\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"170,51.4 190,62.7 170,74 150,62.7\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"150,62.7 170,74 170,50.4 150,39.1\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"190,62.7 170,74 170,50.4 190,39.1\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"170,27.8 190,39.1 170,50.4 150,39.1\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"150,39.1 170,50.4 170,26.8 150,15.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"190,39.1 170,50.4 170,26.8 190,15.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"170,4.2 190,15.5 170,26.8 150,15.5\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"130,97.6 150,108.9 150,85.3 130,74\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"170,97.6 150,108.9 150,85.3 170,74\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"150,62.7 170,74 150,85.3 130,74\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"170,97.6 190,108.9 190,85.3 170,74\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"210,97.6 190,108.9 190,85.3 210,74\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"190,62.7 210,74 190,85.3 170,74\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"110,108.9 130,120.2 130,96.6 110,85.3\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"150,108.9 130,120.2 130,96.6 150,85.3\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"130,74 150,85.3 130,96.6 110,85.3\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"110,85.3 130,96.6 130,73 110,61.7\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"150,85.3 130,96.6 130,73 150,61.7\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"130,50.4 150,61.7 130,73 110,61.7\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"150,108.9 170,120.2 170,96.6 150,85.3\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"190,108.9 170,120.2 170,96.6 190,85.3\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"170,74 190,85.3 170,96.6 150,85.3\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"190,108.9 210,120.2 210,96.6 190,85.3\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"230,108.9 210,120.2 210,96.6 230,85.3\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"210,74 230,85.3 210,96.6 190,85.3\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"73\" y=\"61\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">乙</text><text x=\"274\" y=\"61\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">甲</text><text x=\"73\" y=\"180\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">丙</text><text x=\"280\" y=\"171\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">丁</text><text x=\"174\" y=\"174\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">圖(二)</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3",
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "以年齡和與年齡差關係列聯立方程式求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "牙牙、卉卉、貝貝、芯芯四人現在的年齡和是 100 歲，已知牙牙今年是 22 歲，卉卉 24 歲；當牙牙 19 歲時，貝貝的年齡是芯芯年齡的兩倍，請問貝貝今年幾歲？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "32",
+      "35",
+      "36",
+      "無解"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "由二元一次方程式的定義（兩個未知數皆為一次）求係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $5x^{-2a+b-7}+3y^{3a-b+4}=8$ 是 $x$、$y$ 的二元一次方程式，求 $a+b=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$0$",
+      "$16$",
+      "$23$",
+      "$27$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "由因式的倍數關係化簡第二式，再解聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解聯立方程式 $2x-y=6$、$(x+2y)(4x-2y)=336$，並求 $3x+y$ 的值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$34$",
+      "$48$",
+      "$56$",
+      "$62$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "由 $x$、$y$ 互為相反數代入聯立方程式，求參數與解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知聯立方程式 $3x-5y=2a$、$2x+7y=a-18$ 的解 $x$、$y$ 互為相反數，試問 $a$、$x$、$y$ 的值？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "由摺疊與剪角的過程，用線對稱畫出展開後的圖形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，亭亭將一張正方形色紙沿著對角線對摺兩次後得一等腰直角三角形，然後將此三角形剪去一角，試畫出色紙展開後的圖形。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 200,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-2 6 344 264\"><polygon points=\"50,16 94,60 50,104 6,60\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"6\" y1=\"60\" x2=\"94\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.1\" stroke-dasharray=\"5,3\"/><path d=\"M 44,82 Q 38,58 60,52\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"58,44 68,52 58,58\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"106,56 123,56 123,52 132,60 123,68 123,64 106,64\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"190,22 146,80 234,80\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"190\" y1=\"22\" x2=\"190\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.1\" stroke-dasharray=\"5,3\"/><path d=\"M 176,60 Q 190,38 204,60\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"199,55 205,64 211,54\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><polygon points=\"244,56 261,56 261,52 270,60 261,68 261,64 244,64\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"284,28 284,80 330,80\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"284\" y1=\"50\" x2=\"296\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"1.5,2\"/><line x1=\"310\" y1=\"12\" x2=\"298\" y2=\"28\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"300\" y1=\"12\" x2=\"310\" y2=\"28\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"312\" cy=\"31\" r=\"3\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.9\"/><circle cx=\"298\" cy=\"31\" r=\"3\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.9\"/><path d=\"M 306,100 Q 328,108 316,128\" fill=\"#ccc\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"308,124 314,134 322,124\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"90\" y1=\"162\" x2=\"34\" y2=\"218\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"90\" y1=\"162\" x2=\"146\" y2=\"218\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"176\" x2=\"48\" y2=\"232\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"176\" x2=\"132\" y2=\"232\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"118\" y1=\"190\" x2=\"62\" y2=\"246\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"62\" y1=\"190\" x2=\"118\" y2=\"246\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"204\" x2=\"76\" y2=\"260\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"48\" y1=\"204\" x2=\"104\" y2=\"260\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"146\" y1=\"218\" x2=\"90\" y2=\"274\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"34\" y1=\"218\" x2=\"90\" y2=\"274\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"48\" y1=\"204\" x2=\"48\" y2=\"232\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"62\" y1=\"190\" x2=\"62\" y2=\"246\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"176\" x2=\"76\" y2=\"260\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"90\" y1=\"162\" x2=\"90\" y2=\"274\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"176\" x2=\"104\" y2=\"260\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"118\" y1=\"190\" x2=\"118\" y2=\"246\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"204\" x2=\"132\" y2=\"232\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"176\" x2=\"104\" y2=\"176\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"62\" y1=\"190\" x2=\"118\" y2=\"190\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"48\" y1=\"204\" x2=\"132\" y2=\"204\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"34\" y1=\"218\" x2=\"146\" y2=\"218\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"48\" y1=\"232\" x2=\"132\" y2=\"232\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"62\" y1=\"246\" x2=\"118\" y2=\"246\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"260\" x2=\"104\" y2=\"260\" stroke=\"#999\" stroke-width=\"0.5\"/><polygon points=\"90,162 146,218 90,274 34,218\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.9\"/><line x1=\"245\" y1=\"162\" x2=\"189\" y2=\"218\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"245\" y1=\"162\" x2=\"301\" y2=\"218\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"259\" y1=\"176\" x2=\"203\" y2=\"232\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"231\" y1=\"176\" x2=\"287\" y2=\"232\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"273\" y1=\"190\" x2=\"217\" y2=\"246\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"217\" y1=\"190\" x2=\"273\" y2=\"246\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"287\" y1=\"204\" x2=\"231\" y2=\"260\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"203\" y1=\"204\" x2=\"259\" y2=\"260\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"301\" y1=\"218\" x2=\"245\" y2=\"274\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"189\" y1=\"218\" x2=\"245\" y2=\"274\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"203\" y1=\"204\" x2=\"203\" y2=\"232\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"217\" y1=\"190\" x2=\"217\" y2=\"246\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"231\" y1=\"176\" x2=\"231\" y2=\"260\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"245\" y1=\"162\" x2=\"245\" y2=\"274\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"259\" y1=\"176\" x2=\"259\" y2=\"260\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"273\" y1=\"190\" x2=\"273\" y2=\"246\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"287\" y1=\"204\" x2=\"287\" y2=\"232\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"231\" y1=\"176\" x2=\"259\" y2=\"176\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"217\" y1=\"190\" x2=\"273\" y2=\"190\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"203\" y1=\"204\" x2=\"287\" y2=\"204\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"189\" y1=\"218\" x2=\"301\" y2=\"218\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"203\" y1=\"232\" x2=\"287\" y2=\"232\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"217\" y1=\"246\" x2=\"273\" y2=\"246\" stroke=\"#999\" stroke-width=\"0.5\"/><line x1=\"231\" y1=\"260\" x2=\"259\" y2=\"260\" stroke=\"#999\" stroke-width=\"0.5\"/><polygon points=\"245,162 301,218 245,274 189,218\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.9\"/><polygon points=\"188,186 159,186 159,182 150,190 159,198 159,194 188,194\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"90\" y=\"262\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">畫出色紙第二次展開後的圖</text><text x=\"245\" y=\"262\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">畫出色紙第一次展開後的圖</text></svg>"
+    }
+   ]
+  }
+ ]
+}

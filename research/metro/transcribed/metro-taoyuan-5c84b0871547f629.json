@@ -1,0 +1,575 @@
+{
+ "paperId": "metro-taoyuan-5c84b0871547f629",
+ "sourceSha256": "7844f53935710dad4e2f2e046edc15c755806c818c97d6e2faa7027a33738b53",
+ "printedHeader": "桃園市立自強國中110學年度第二學期第一次定期考查八年級數學科試題卷",
+ "printedSlot": {
+  "year": 110,
+  "semester": 2,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、填充12題（共15格）、計算2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1至2頁試題（第3頁為答案卷，內容與計算題重複，未另收錄）。重繪選擇9的地磚排列圖、填充12的數字三角形、計算2的費用折線圖共3幅，圖形為近似比例。選擇3的四個對應表改以文字列出 x、y 數值。填充11的 x 有 2 與 18 兩解（x=2,y=-8；x=18,y=24 皆滿足條件），原題為單格作答，已保留並請注意答案不唯一。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 12,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列的判斷（相鄰兩項差是否相等）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者不是等差數列？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$0,0,0,0,0$",
+      "$\\dfrac{5}{9},\\dfrac{6}{9},\\dfrac{7}{9},\\dfrac{8}{9},1$",
+      "$1,-1,1,-1,1$",
+      "$\\sqrt{2},2\\sqrt{2},3\\sqrt{2},4\\sqrt{2},5\\sqrt{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比數列的判斷（相鄰兩項比是否相等）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列數列中，何者為等比數列？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3,5,7,9,11$",
+      "$0,0,0,0,0$",
+      "$3,6,12,24,48$",
+      "$3,1,3,1,3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "函數的定義（一個 x 恰對應一個 y）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列 $x$ 與 $y$ 的對應中，何者 $y$ 不是 $x$ 的函數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x$：$1,1,3$；$y$：$1,0,-2$",
+      "$x$：$4,5,6$；$y$：$3,3,3$",
+      "$x$：$1,0,3$；$y$：$1,0,3$",
+      "$x$：$0,2,4$；$y$：$-3,-4,-5$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1",
+    "nanyi-7-1-2-1"
+   ],
+   "unitAssignmentBasis": "以質因數分解求正因數個數，並代入函數值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知正整數 $x$ 有 $y$ 個正因數，其中 $y$ 與 $x$ 的關係為函數關係，則當 $x=24$ 時的函數值為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$",
+      "$4$",
+      "$6$",
+      "$8$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列插入項數後求總和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $-5$ 和 $22$ 之間插入 $8$ 個數使其成為等差數列，試問該數列的總和為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$51$",
+      "$68$",
+      "$85$",
+      "$108$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "以等比數列的通項建立不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某細菌每經過一天即分裂成 $2$ 個，今有此細菌 $3$ 個，則經過多少天後其數量開始達 $500$ 個以上？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "7 天",
+      "8 天",
+      "9 天",
+      "10 天"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列項與項之間的對稱關係及公差為負的判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個等差數列 $a_{1},a_{2},a_{3},\\cdots,a_{49}$，已知此等差數列的公差為負數，且 $a_{25}=0$，則下列何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a_{1}+a_{49}<0$",
+      "$a_{2}+a_{47}<0$",
+      "$a_{21}+a_{30}<0$",
+      "$a_{19}+a_{29}<0$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "以反例判斷等差、等比數列中項的正負。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "以下為大雄與小美對於等差數列與等比數列的說法，判斷何者正確？"
+    },
+    {
+     "type": "text",
+     "text": "大雄：「若 $a$、$b$、$c$ 是等差數列且 $a$、$b$ 皆為負數，則 $c$ 必為負數。」"
+    },
+    {
+     "type": "text",
+     "text": "小美：「若 $a$、$b$、$c$ 是等比數列且 $a$、$c$ 皆為負數，則 $b$ 必為負數。」"
+    },
+    {
+     "type": "options",
+     "items": [
+      "大雄、小美皆正確",
+      "大雄正確、小美錯誤",
+      "大雄錯誤、小美正確",
+      "大雄、小美皆錯誤"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由圖形規律建立一次式，代入 40 個正方形求三角形數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "公園內有一矩形步道，其地面使用相同的灰色正方形地磚與相同的白色等腰直角三角形地磚排列而成。下圖表示此步道的地磚排列方式，其中正方形地磚為連續排列且總共有 $40$ 個。求步道上總共使用多少個三角形地磚？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 80,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 72\"><polygon points=\"35,35 65,5 95,35 65,65\" fill=\"#d0d0d0\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"95,35 125,5 155,35 125,65\" fill=\"#d0d0d0\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"275,35 305,5 335,35 305,65\" fill=\"#d0d0d0\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"335,35 365,5 395,35 365,65\" fill=\"#d0d0d0\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"185,5 5,5 5,65 185,65\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polyline points=\"5,5 35,35 5,65\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polyline points=\"155,35 185,5\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polyline points=\"155,35 185,65\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polyline points=\"245,5 425,5 425,65 245,65\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polyline points=\"245,5 275,35 245,65\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polyline points=\"395,35 425,5\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polyline points=\"395,35 425,65\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"215\" y=\"38\" font-size=\"18\" text-anchor=\"middle\">⋯⋯</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$84$",
+      "$86$",
+      "$160$",
+      "$162$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "利用等差數列項的對稱性（首末項和）求兩級數和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a_{1}+a_{2}+\\cdots+a_{30}+a_{31}$ 與 $b_{1}+b_{2}+\\cdots+b_{30}+b_{31}$ 均為等差級數，且皆有 $31$ 項。若 $a_{2}+b_{30}=29$，$a_{30}+b_{2}=-9$，則此兩等差級數的和相加的結果為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$300$",
+      "$310$",
+      "$600$",
+      "$620$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "由公比補上等比數列的下一項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在下列空格填入適當的數，使其成為等比數列：$1,-4,16,$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由等差中項關係補上缺項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在下列空格填入適當的數，使其成為等差數列："
+    },
+    {
+     "type": "text",
+     "text": "(1) $12,$＿＿＿＿$,2$"
+    },
+    {
+     "type": "text",
+     "text": "(2) $2a-3d,\\ 3a,$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由兩項求公差與首項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設一等差數列的 $a_{4}=28$，$a_{9}=63$，求 $d=$＿＿＿＿，$a_{1}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-7-1-2-2"
+   ],
+   "unitAssignmentBasis": "倍數構成等差數列，求項數與總和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$40$ 至 $400$ 的正整數中，$7$ 的倍數有＿＿＿＿個，所有 $7$ 的倍數和是＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等比中項（取負）與等差中項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a$ 是 $4$ 和 $36$ 的等比中項（$a<0$），$b$ 是 $4$ 和 $36$ 的等差中項，則 $a+b=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "分數等差級數：先求項數再求和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "等差級數 $\\dfrac{1}{4}+\\dfrac{3}{4}+1\\dfrac{1}{4}+\\cdots+7\\dfrac{3}{4}$ 的和為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "由兩個和求公比與首項，再求第五項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在等比數列中，$a_{1}+a_{3}=30$，$a_{2}+a_{4}=90$，則 $a_{5}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由等差中項的描述辨識等差數列並求某項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "八個人依「甲乙丙丁戊己庚辛」的順序坐成一列。甲說：「我今年 10 歲。」辛說：「我今年 52 歲。」乙、丙、丁、戊、己、庚六個人皆異口同聲說：「坐在我左右兩個人年齡加起來為我年齡的兩倍。」則丁今年＿＿＿＿歲。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "平行於水平線的一次函數與係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "坐標平面上，已知函數 $y=ax+b$ 的圖形通過點 $(4,-3)$，且和直線 $y=2$ 平行，則 $a-b=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "設加上的數，由等比中項建立方程式求公比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將 $20$、$50$、$100$ 各加上同一數後會成為等比數列，則此等比數列的公比＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-3",
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "等差中項與等比中項聯立，解一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若數列 $12$、$x$、$y$、$32$ 的前三項成等差數列，後三項成等比數列，則 $x=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "數字依序排列的三角形，求前 78 個正整數之和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，若填完十二層，則這十二層數字的總和為＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 110\"><text x=\"50\" y=\"18\" font-size=\"16\" text-anchor=\"middle\">1</text><text x=\"40\" y=\"40\" font-size=\"16\" text-anchor=\"middle\">2</text><text x=\"60\" y=\"40\" font-size=\"16\" text-anchor=\"middle\">3</text><text x=\"30\" y=\"62\" font-size=\"16\" text-anchor=\"middle\">4</text><text x=\"50\" y=\"62\" font-size=\"16\" text-anchor=\"middle\">5</text><text x=\"70\" y=\"62\" font-size=\"16\" text-anchor=\"middle\">6</text><text x=\"50\" y=\"92\" font-size=\"16\" text-anchor=\"middle\">⋮</text><text x=\"95\" y=\"18\" font-size=\"16\">第一層</text><text x=\"95\" y=\"40\" font-size=\"16\">第二層</text><text x=\"95\" y=\"62\" font-size=\"16\">第三層</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "由首項與第 7 項求公差，判斷負項起點並求前 n 項和最大值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知等差級數的首項為 $47$，第 $7$ 項為 $29$，則："
+    },
+    {
+     "type": "text",
+     "text": "(1) 從第幾項開始為負數？"
+    },
+    {
+     "type": "text",
+     "text": "(2) 若前 $n$ 項和為最大，求 $S_{n}$ 為多少？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由圖形上兩點求一次函數關係式與起算里程。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "爸爸打算清明連假帶小田去小叮噹主題樂園玩，當天開車行駛高速公路的收費如下圖，其計算方式為：每日行駛優惠里程以內不收費，且費用 $(y)$ 與行駛距離 $(x)$ 成線型函數關係，則"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 270 175\"><polyline points=\"40,130 40,12\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polygon points=\"40,8 36,18 44,18\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"40,130 252,130\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polygon points=\"258,130 248,126 248,134\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"40,130 120,130 232,22.4\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"91.6\" x2=\"160\" y2=\"91.6\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"40\" y1=\"34\" x2=\"220\" y2=\"34\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"160\" y1=\"91.6\" x2=\"160\" y2=\"130\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"220\" y1=\"34\" x2=\"220\" y2=\"130\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><circle cx=\"160\" cy=\"91.6\" r=\"2.5\" fill=\"#111\"/><circle cx=\"220\" cy=\"34\" r=\"2.5\" fill=\"#111\"/><text x=\"30\" y=\"144\" font-size=\"15\" text-anchor=\"end\">0</text><text x=\"34\" y=\"39\" font-size=\"15\" text-anchor=\"end\">30</text><text x=\"34\" y=\"97\" font-size=\"15\" text-anchor=\"end\">12</text><text x=\"160\" y=\"147\" font-size=\"15\" text-anchor=\"middle\">30</text><text x=\"220\" y=\"147\" font-size=\"15\" text-anchor=\"middle\">45</text><text x=\"48\" y=\"14\" font-size=\"14\">費用（元）</text><text x=\"258\" y=\"168\" font-size=\"14\" text-anchor=\"end\">行駛距離（公里）</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) 寫出 $x$、$y$ 的關係式？"
+    },
+    {
+     "type": "text",
+     "text": "(2) 每日優惠里程數為多少公里？"
+    }
+   ]
+  }
+ ]
+}

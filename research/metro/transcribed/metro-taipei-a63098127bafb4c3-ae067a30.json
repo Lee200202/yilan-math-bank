@@ -1,0 +1,930 @@
+{
+ "paperId": "metro-taipei-a63098127bafb4c3-ae067a30",
+ "sourceSha256": "ae067a30b2707dff9294a2f059ebee514bcd53cd312a8e77871f86bc2be907f0",
+ "printedHeader": "臺北市立誠正國民中學113學年度第二學期第一次定期評量八年級數學科試卷（範圍1-1~2-1）",
+ "printedSlot": {
+  "year": 113,
+  "semester": 2,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題（含9~10題組）、填充15題（16格）、非選擇2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1、2頁全部題目逐題核對；重繪選擇6的四個函數圖形與填充14的竹筷三角形圖形；選擇2、3選項引用的表與非選擇2的四個月月曆以表格呈現。填充題共15題（填空格(1)至(16)，第3題含兩格）。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 15,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "辨別等差數列、等比數列與數列的定義。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$5$、$5$、$5$、$5$、$5$ 是等差數列也是等比數列。",
+      "$0$、$0$、$0$、$0$、$0$ 是等比數列。",
+      "$1$、$5$、$3$、$2$、$0$、$7$ 沒有規律，所以不是數列。",
+      "$10$、$20$、$30$、$40$ 是公比為 $2$ 的等比數列。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "函數的定義與常數函數、鉛直線的概念。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者錯誤？（選項 (A) 所指的表如下）"
+    },
+    {
+     "type": "table",
+     "header": false,
+     "rows": [
+      [
+       "$x$",
+       "$1$",
+       "$1$",
+       "$1$",
+       "$1$"
+      ],
+      [
+       "$y$",
+       "$1$",
+       "$2$",
+       "$3$",
+       "$4$"
+      ]
+     ]
+    },
+    {
+     "type": "options",
+     "items": [
+      "上表列出 $x$、$y$ 之間的對應關係顯示 $y$ 不是 $x$ 的函數。",
+      "若 $y$ 是 $x$ 的函數，則對於每一個 $x$ 而言，恰有一個 $y$ 值可以對應。",
+      "如果線型函數是鉛直線的時候，我們會說它是常數函數。",
+      "常數函數可以是 $y=299$。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由情境判斷每個 x 是否恰對應一個 y（函數的定義）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列 $x$ 與 $y$ 的關係式中，哪一個 $y$ 不是 $x$ 的函數？（選項 (B) 的對應表如下，座號為 $y$，數學成績為 $x$）"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "成績 $(x)$",
+       "30 分",
+       "40 分",
+       "60 分",
+       "70 分",
+       "90 分"
+      ],
+      [
+       "座號 $(y)$",
+       "2、5、7",
+       "1、8",
+       "6",
+       "4、9、10",
+       "3"
+      ]
+     ]
+    },
+    {
+     "type": "options",
+     "items": [
+      "一杯紅茶 $30$ 元，買了 $x$ 杯，共付了 $y$ 元。",
+      "813 班同學的數學成績為 $x$ 分，學生的座號為 $y$。（見上表）",
+      "一個長方形的面積是 $18$，長為 $x$，寬為 $y$。",
+      "美美和花花一起完成 $500$ 片的拚圖，美美拚 $x$ 片、花花拚 $y$ 片。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "找出週期性文字數列的第 38 個字。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "花花在紙上寫著「我、愛、誠、正、國、中、我、愛、誠、正、國、中…」這樣一連串有規律的字來表達對誠正國中的喜愛，請問她寫的第 $38$ 個字是什麼？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "我",
+      "愛",
+      "誠",
+      "正"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "辨別一次函數（線型函數）的關係式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列各選項中，哪一個不是線型函數的關係式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=\\dfrac{1}{x}+2$",
+      "$y=\\dfrac{2}{3}$",
+      "$x=y$",
+      "$y=2x-3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由斜率與截距的正負判斷一次函數圖形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "花花想畫出函數 $y=3x+2$ 的圖形，請問下列哪一個圖形比較像？"
+    },
+    {
+     "type": "optionFigures",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 290\"><line x1=\"15\" y1=\"60\" x2=\"148.5\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"152.5,60 142.9,55.8 142.9,64.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"75\" y1=\"135\" x2=\"75\" y2=\"7.8\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"75,3.8 70.8,13.4 79.2,13.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"154.5\" y=\"76\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">x</text><text x=\"81\" y=\"9.8\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">y</text><text x=\"55\" y=\"74\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">O</text><line x1=\"63.8\" y1=\"131.2\" x2=\"111.2\" y2=\"35\" stroke=\"#111\" stroke-width=\"1.8\"/><text x=\"4\" y=\"132\" font-size=\"15\" fill=\"#111\">(A)</text><line x1=\"181.2\" y1=\"60\" x2=\"286\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"290,60 280.4,55.8 280.4,64.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"255\" y1=\"113.8\" x2=\"255\" y2=\"27.8\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"255,23.8 250.8,33.4 259.2,33.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"292\" y=\"76\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">x</text><text x=\"261\" y=\"29.8\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">y</text><text x=\"267\" y=\"74\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">O</text><line x1=\"185\" y1=\"48.8\" x2=\"277.5\" y2=\"96.2\" stroke=\"#111\" stroke-width=\"1.8\"/><text x=\"166\" y=\"132\" font-size=\"15\" fill=\"#111\">(B)</text><line x1=\"36.2\" y1=\"248\" x2=\"111\" y2=\"248\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"115,248 105.4,243.8 105.4,252.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"75\" y1=\"270.5\" x2=\"75\" y2=\"169.5\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"75,165.5 70.8,175.1 79.2,175.1\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"117\" y=\"264\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">x</text><text x=\"81\" y=\"171.5\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">y</text><text x=\"55\" y=\"262\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">O</text><line x1=\"40\" y1=\"269.2\" x2=\"86.2\" y2=\"180.5\" stroke=\"#111\" stroke-width=\"1.8\"/><text x=\"4\" y=\"276\" font-size=\"15\" fill=\"#111\">(C)</text><line x1=\"177.5\" y1=\"248\" x2=\"284.8\" y2=\"248\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"288.8,248 279.1,243.8 279.1,252.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"205\" y1=\"270.5\" x2=\"205\" y2=\"195.8\" stroke=\"#111\" stroke-width=\"1.1\"/><polygon points=\"205,191.8 200.8,201.3 209.2,201.3\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"290.8\" y=\"264\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">x</text><text x=\"211\" y=\"197.8\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">y</text><text x=\"185\" y=\"262\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">O</text><line x1=\"183.8\" y1=\"215.5\" x2=\"280\" y2=\"261.8\" stroke=\"#111\" stroke-width=\"1.8\"/><text x=\"166\" y=\"276\" font-size=\"15\" fill=\"#111\">(D)</text></svg>",
+     "maxHeight": 200
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "先求第 10 項再用等差級數和公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知等差級數 $-3+2+7+\\cdots$，求此等差級數前 $10$ 項的和？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$42$",
+      "$168$",
+      "$177$",
+      "$195$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由首項與公差列出一般項，解不等式求項數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一等差數列，首項為 $-3$，公差為 $5$，則第幾項開始大於 $52$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$12$",
+      "$13$",
+      "$14$",
+      "$15$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "依題組說明列出刪去倍數後數列的前幾項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小花在研究數字時發現，從 $1$ 到 $100$ 的正整數中，刪去 $2$ 的倍數、再刪去 $3$ 的倍數、最後再刪去 $5$ 的倍數。如果把剩下來的數由小到大排成一個數列。小花發現這個數列好像有一個規律，那就是 $1\\sim 30$ 一組、$31\\sim 60$ 一組、$61\\sim 90$ 一組；比如 $31\\sim 60$ 的數列是 $30+1$、$30+7$、$30+11$、$30+13$、$30+17$、$30+19$、$30+23$、$30+29$，共 $8$ 個數。"
+    },
+    {
+     "type": "text",
+     "text": "依據上述，請問排列出來第 $4$ 個數為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$7$",
+      "$11$",
+      "$13$",
+      "$14$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "利用循環規律，每組 8 個數且每組各加 30，分組求前 24 項和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小花在研究數字時發現，從 $1$ 到 $100$ 的正整數中，刪去 $2$ 的倍數、再刪去 $3$ 的倍數、最後再刪去 $5$ 的倍數。如果把剩下來的數由小到大排成一個數列。小花發現這個數列好像有一個規律，那就是 $1\\sim 30$ 一組、$31\\sim 60$ 一組、$61\\sim 90$ 一組；比如 $31\\sim 60$ 的數列是 $30+1$、$30+7$、$30+11$、$30+13$、$30+17$、$30+19$、$30+23$、$30+29$，共 $8$ 個數。"
+    },
+    {
+     "type": "text",
+     "text": "由此循環規律可以計算出這個數列從第 $1$ 項到第 $24$ 項的總和為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$120$",
+      "$720$",
+      "$840$",
+      "$1080$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列一般項公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差數列，首項 $a_1$、公差為 $d$，請寫出等差數列第 $n$ 項公式：$a_n=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數和公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差數列，首項 $a_1$、末項 $a_n$、項數為 $n$，請寫出等差級數和的公式：$S_n=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由前兩項求公差與第 11 項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若等差數列的首項為 $6$，第 $2$ 項為 $3$，請問"
+    },
+    {
+     "type": "text",
+     "text": "(1) 公差為＿＿＿＿。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 第 $11$ 項為：＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差中項是前後兩項的平均。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一等差數列 $20$，$x$，$30$，則等差中項 $x$ 為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "兩項的等差中項的項數是兩項項數的平均。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差數列 $a_1$，$a_2$，$a_3$，$\\cdots$，則 $a_{16}$ 與 $a_{24}$ 的等差中項為第＿＿＿＿項。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "依計算流程列出 x 與 y 的關係式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖表示一個計算流程，若輸入的數為 $x$，輸出的數以 $y$ 表示："
+    },
+    {
+     "type": "text",
+     "text": "輸入 $x$ $\\to$ 加上 $3$ $\\to$ 乘以 $2$ $\\to$ 除以 $7$ $\\to$ 輸出 $y$"
+    },
+    {
+     "type": "text",
+     "text": "請寫出 $x$ 與 $y$ 的關係式：＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "平行 x 軸的直線是常數函數，函數值固定。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知函數 $y=ax+b$ 的圖形是平行 $x$ 軸的直線，且此圖形通過 $(3,-1)$ 這點，當 $x$ 為 $25$ 時，其函數值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比中項的平方等於前後兩項之積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一等比數列 $6$、$x$、$24$，請計算出等比中項為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "常數函數在不同 x 時函數值相同。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如果有一個函數是 $y=80$，請問當 $x=-5$ 和 $x=18$ 時函數值的總和為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由兩點求一次函數的斜率與截距。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知函數 $y=ax+b$ 的圖形通過 $(1,1)$、$(3,-1)$ 兩點，則此函數為：＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "半衰期情境為公比 $\\frac{1}{2}$ 的等比數列。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小花在做獨立研究。她發現有一種放射性物質「兀」的半衰期為 $4$ 個月，也就是說此物質在 $4$ 個月之後的質量將會衰減為原來的 $\\dfrac{1}{2}$。現在有「兀」物質 $1024$ 公克，則 $1$ 年後「兀」質量剩下＿＿＿＿公克。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "三數成等差，中間項的兩倍等於前後兩項的和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a-b$，$16$，$a+3b$ 三數成等差數列，試求 $a+b$ 為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "13",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "令兩個一次函數的函數值相等，解一元一次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一次函數 $y=\\dfrac{2x-1}{3}$ 與 $y=\\dfrac{x-2}{2}$ 在 $x=a$ 時的函數值相同，則 $a=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "14",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由圖形規律推出一般項（等差）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下面圖（一）中，用 $3$ 根竹筷子排成一個三角形，圖（二）中，需 $5$ 根竹筷子排成 $2$ 個三角形，圖（三）中，需 $7$ 根竹筷子排成 $3$ 個三角形。如果依此規律，則圖（十二）中，有＿＿＿＿根竹筷子。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 75,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 90\"><polygon points=\"12,56 42,56 27,30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"80,56 110,56 125,30 95,30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"95\" y1=\"30\" x2=\"110\" y2=\"56\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"160,56 220,56 205,30 175,30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"175\" y1=\"30\" x2=\"190\" y2=\"56\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"205\" y1=\"30\" x2=\"190\" y2=\"56\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"238\" cy=\"52\" r=\"1.8\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"248\" cy=\"52\" r=\"1.8\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"258\" cy=\"52\" r=\"1.8\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"27\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">圖（一）</text><text x=\"110\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">圖（二）</text><text x=\"190\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">圖（三）</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "15",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "設加上的數為 k，利用等比中項平方關係列方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "把 $6$、$14$、$30$ 同時加上某一個數之後會變成等比數列，請問加上的數字為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "偶數構成等差數列，利用等差級數和求出未取出的數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "花花：「美美，你知道 $1$ 到 $50$ 中有幾個偶數嗎？」"
+    },
+    {
+     "type": "text",
+     "text": "美美：「嗯…讓我想一想…」"
+    },
+    {
+     "type": "text",
+     "text": "花花：「那我再問你哦！假如我從這些偶數中隨意找出 $24$ 個數，然後計算出平均數為 $26$，你可以找出沒有取出的數字是哪一個嗎？」"
+    },
+    {
+     "type": "text",
+     "text": "美美：「…」"
+    },
+    {
+     "type": "text",
+     "text": "請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋："
+    },
+    {
+     "type": "text",
+     "text": "(1) 請問 $1$ 到 $50$ 中有幾個偶數？"
+    },
+    {
+     "type": "text",
+     "text": "(2) 請你幫美美找出那個沒有被花花抽出來的數字是多少？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "每週多存 10 元形成等差數列，列出含壓歲錢的級數和關係式，並由月曆算出到繳款日的存錢週數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小花是國中八年級的學生，為了可以參加九年級的畢業旅行，決定每星期一存錢。第一個星期從零用錢撥出 $100$ 元，第二個星期撥出 $110$ 元，第三個星期撥出 $120$ 元，…以此規則把錢存起來。已知小花從 $6$ 月 $2$ 日起開始存錢，且過年時已經有壓歲錢 $4500$ 元，假設小花存到第 $x$ 星期後，連同壓歲錢就會有 $y$ 元。"
+    },
+    {
+     "type": "text",
+     "text": "請根據上述資訊及下圖中的標示回答下列問題，完整寫出你的解題過程並詳細解釋："
+    },
+    {
+     "type": "text",
+     "text": "(1) 請依照上述題意，列出關係式。（不用化簡）"
+    },
+    {
+     "type": "text",
+     "text": "(2) 如果小花畢業旅行的費用要 $7500$ 元，且最後的繳款日是 $9$ 月 $12$ 日，請問小花有辦法存到足夠的費用嗎？"
+    },
+    {
+     "type": "text",
+     "text": "下圖為 $6$ 月 $1$ 日至 $9$ 月 $21$ 日的月曆："
+    },
+    {
+     "type": "text",
+     "text": "6 月"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "一",
+       "二",
+       "三",
+       "四",
+       "五",
+       "六",
+       "日"
+      ],
+      [
+       "",
+       "",
+       "",
+       "",
+       "",
+       "",
+       "1"
+      ],
+      [
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8"
+      ],
+      [
+       "9",
+       "10",
+       "11",
+       "12",
+       "13",
+       "14",
+       "15"
+      ],
+      [
+       "16",
+       "17",
+       "18",
+       "19",
+       "20",
+       "21",
+       "22"
+      ],
+      [
+       "23",
+       "24",
+       "25",
+       "26",
+       "27",
+       "28",
+       "29"
+      ],
+      [
+       "30",
+       "",
+       "",
+       "",
+       "",
+       "",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "7 月"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "一",
+       "二",
+       "三",
+       "四",
+       "五",
+       "六",
+       "日"
+      ],
+      [
+       "",
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6"
+      ],
+      [
+       "7",
+       "8",
+       "9",
+       "10",
+       "11",
+       "12",
+       "13"
+      ],
+      [
+       "14",
+       "15",
+       "16",
+       "17",
+       "18",
+       "19",
+       "20"
+      ],
+      [
+       "21",
+       "22",
+       "23",
+       "24",
+       "25",
+       "26",
+       "27"
+      ],
+      [
+       "28",
+       "29",
+       "30",
+       "31",
+       "",
+       "",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "8 月"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "一",
+       "二",
+       "三",
+       "四",
+       "五",
+       "六",
+       "日"
+      ],
+      [
+       "",
+       "",
+       "",
+       "",
+       "1",
+       "2",
+       "3"
+      ],
+      [
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "9",
+       "10"
+      ],
+      [
+       "11",
+       "12",
+       "13",
+       "14",
+       "15",
+       "16",
+       "17"
+      ],
+      [
+       "18",
+       "19",
+       "20",
+       "21",
+       "22",
+       "23",
+       "24"
+      ],
+      [
+       "25",
+       "26",
+       "27",
+       "28",
+       "29",
+       "30",
+       "31"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "9 月（$12$ 日為最後的繳款日）"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "一",
+       "二",
+       "三",
+       "四",
+       "五",
+       "六",
+       "日"
+      ],
+      [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7"
+      ],
+      [
+       "8",
+       "9",
+       "10",
+       "11",
+       "12",
+       "13",
+       "14"
+      ],
+      [
+       "15",
+       "16",
+       "17",
+       "18",
+       "19",
+       "20",
+       "21"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
