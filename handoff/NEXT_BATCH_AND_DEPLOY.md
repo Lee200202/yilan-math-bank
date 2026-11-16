@@ -53,3 +53,8 @@ GitHub Actions的pages.yml會執行測試與靜態build，成功後更新 <https
 - 協調流程（協調者操作）：`python scripts/release_queue.py <ids>` → `python scripts/inline_svg_css.py --write <檔>`（SVG 含 CSS／class 會印成黑塊，check_transcript 會擋）→ `python scripts/merge_batch.py` → `python scripts/qa_metro.py --ids-file <本批> --report-file <報告>`（圖形超出畫框時用 `scripts/fix_svg_viewbox.py <paperId>`）→ 逐頁抽查含圖頁 → 提交推送 → `python scripts/live_acceptance.py <站址> <報告> <paperId…>`。
 - 下一批派工：`python research/make_waves.py <wave> <helpers> <每人篇數> [region…]`，每個「地區×學年×年級×學期×次別」尚無全卷的缺口挑一份最佳 PDF，寫入 research/targets/<wave>-<k>.json 並在 CLAIMS 認領。w1 六組各 4 卷已派工；缺口共 618 個，其中 164 個只有 Word/ODT 原卷（高雄 84、桃園 41、新北 21、臺北 13、宜蘭 5）。
 - Word 轉 PDF（scripts/render_office_source.ps1）在本機 2026-11-16 實測 120 秒無回應（隱藏對話框），已清掉遺留的隱藏 Word 程序；Word/ODT 缺口需使用者先確認 Word 可無人值守開啟，或改用其他轉檔方式。
+
+## v20–v22（Claude，2026-11-16）
+
+- v20：6,277 題、全卷 231 份（wave 2 尾卷＋wave 3）。v21–v22：組卷修正——①同題小題家族／同內容不並抽（`familyKeys`、內容去重、去重換題）；②難度比例分到每個題型（`typeLevelPlan`）。正式站實測：UI 連按「生成」40 次，各題型都是簡單50／中等50（選擇 5/5、填充 3/3、非選 2/2），重複題 0；`scripts/live_acceptance.py` 全過（handoff/batches/20261116-v22/live-acceptance.json）。
+- 下一批：`python research/make_waves.py w4 6 4`，helpers 讀 `research/HELPER_PROMPT.md`；其餘流程見上方 v17 段。原卷疑義報告在各 batch 目錄的 SOURCE_ISSUES_REPORT.md。
