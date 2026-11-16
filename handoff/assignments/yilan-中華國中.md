@@ -1,6 +1,6 @@
 # 宜蘭縣 中華國中 待完成清單
 
-未轉寫 113 份，部分轉寫 13 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
+未轉寫 112 份，部分轉寫 13 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
 
 | 範圍 | 狀態 | 格式 | paperId | 原檔／官方包 | SHA256 |
 | --- | --- | --- | --- | --- | --- |
@@ -96,7 +96,6 @@
 | 107下・7年級・第2次 | 未轉寫 | pdf | `105J__1NnYMfjUaEX_KdQ43VpqmMko0s_` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/105J__1NnYMfjUaEX_KdQ43VpqmMko0s_.pdf>)  | `52fd58ac8a3f2d213b8bc8066072ff72d5331246eef51760e18a05851e6b6f15` |
 | 107下・7年級・第2次 | 未轉寫 | doc | `1zjiYw3Qm5gPl0YRRZfTOhFdZMxOAiZBX` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1zjiYw3Qm5gPl0YRRZfTOhFdZMxOAiZBX.doc>)  | `5da9e11e62ee8e89c01e0eb63bdc943a39d557320c16b6660ecb537c38dfe4ad` |
 | 107下・7年級・第3次 | 未轉寫 | pdf | `1oVDqj6DtO3YMRbtjgMGZFGkFyW46pL-o` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1oVDqj6DtO3YMRbtjgMGZFGkFyW46pL-o.pdf>)  | `a1fb6d5059991ff04adc7a5040e6cfd0a793938cd959a2d7bd6582009ed0d589` |
-| 107上・8年級・第1次 | 已預留外部AI，勿重派 | pdf | `1AtjLtih2sHQ0yjJ3mVb5zhVSCr0WhtuJ` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1AtjLtih2sHQ0yjJ3mVb5zhVSCr0WhtuJ.pdf>)  | `a281c07a5c02ebd2e4578376a26c43a46d3c07247ee3c0b129aa8a432957ff9b` |
 | 107上・8年級・第3次 | 未轉寫 | pdf | `1ZbUCjCzbxUrS_P4G2d71I6cvV8rzd0Ma` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1ZbUCjCzbxUrS_P4G2d71I6cvV8rzd0Ma.pdf>)  | `5872114156f6b8154fe52aa0e2ce4270ab43352ed5e640040234bbf7a55529ed` |
 | 107下・8年級・第1次 | 未轉寫 | pdf | `15r7g1ubI4lr3w6CptVNHqi6Uw8TQSODb` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/15r7g1ubI4lr3w6CptVNHqi6Uw8TQSODb.pdf>)  | `ed8dd63b8ef62c83126cf2621ab239ca447aeb3bce42b3223a4d74d4d48f67a1` |
 | 107下・8年級・第2次 | 未轉寫 | pdf | `1b94poZdz6s5sgBAkXf--VMoKS2fpoyce` | [原檔/來源](<https://lee200202.github.io/yilan-math-bank/papers/1b94poZdz6s5sgBAkXf--VMoKS2fpoyce.pdf>)  | `8746fc193430047d77633e421c46d25b68f37b816af465aaddc815e8e6bb68ec` |
