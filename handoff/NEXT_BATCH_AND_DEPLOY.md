@@ -23,7 +23,7 @@
 ## Claude 交棒筆記（2026-11-16，都會區轉寫）
 
 - 分工見 `handoff/COORDINATION.md`：Antigravity＝宜蘭八下→九上→九下；Claude／Codex＝都會區八上→八下→九上→九下→七年級。**只寫轉寫檔，不碰共用建置檔；集中檢查後才發布。**
-- 已寫好但**尚未核准／建置／發布**的都會區轉寫檔（在 `research/metro/transcribed/`）：wave 5（14 卷，清單 `handoff/batches/20261116-w5/targets.txt`）、wave 6（15 卷，`20261116-w6/targets.txt`）；wave 7（都會區八上收尾＋八下，4 位助手進行中，`research/targets/w7-*.json`）。發布時：`python -X utf8 scripts/release_queue.py $(cat <清單>)` → `python -X utf8 scripts/merge_batch.py` → `python -X utf8 scripts/qa_metro.py --ids-file <清單> --report-file <報告>`（需本機伺服器 `node scripts/server.mjs`）→ 抽查含圖頁 → 版本字串加一 → commit → push 兩個分支 → `scripts/live_acceptance.py`。也可一次用 `scripts/coordinate_wave.py w5 w6 w7`。
+- 已寫好但**尚未核准／建置／發布**的都會區轉寫檔（在 `research/metro/transcribed/`）：wave 5（14 卷，清單 `handoff/batches/20261116-w5/targets.txt`）、wave 6（15 卷，`20261116-w6/targets.txt`）；wave 7（`20261116-w7/targets.txt`）、wave 8（`20261116-w8/targets.txt`，八下）。發布時：`python -X utf8 scripts/release_queue.py $(cat <清單>)` → `python -X utf8 scripts/merge_batch.py` → `python -X utf8 scripts/qa_metro.py --ids-file <清單> --report-file <報告>`（需本機伺服器 `node scripts/server.mjs`）→ 抽查含圖頁 → 版本字串加一 → commit → push 兩個分支 → `scripts/live_acceptance.py`。也可一次用 `scripts/coordinate_wave.py w5 w6 w7`。
 - 圖形待集中比對（助手沒能實際看到渲染結果）：wave 5 永和 114上一／114上二、wave 6 向上 110上二、鷺江 113上三（fda4…）、福和 112上一、向上 110上三。
 - 已登記的答案卷（不轉寫）：`handoff/source-issues/` 內鷺江 113上七第三次、113上八第一次／第三次（2e34…）、114上八第一次／第三次，中正 112上八第三次。這些時段需要找到真正試題卷。
 - 剩餘都會區 PDF 缺口：`python -X utf8 research/make_waves.py <新波名> 4 4` 會列出下一批（八上已接近完成，之後八下、九上、九下、七年級）。

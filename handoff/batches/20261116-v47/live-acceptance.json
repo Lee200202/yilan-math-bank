@@ -1,0 +1,122 @@
+{
+ "base": "https://lee200202.github.io/yilan-math-bank",
+ "checks": [
+  {
+   "name": "version string present",
+   "ok": true,
+   "detail": "20261116-metro-v47"
+  },
+  {
+   "name": "coverage question count",
+   "ok": true,
+   "detail": "8352"
+  },
+  {
+   "name": "browser bank equals coverage",
+   "ok": true,
+   "detail": "8352 vs 8352"
+  },
+  {
+   "name": "page loaded the new version",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "six region choices (all + yilan + 5 metro)",
+   "ok": true,
+   "detail": "[['', '全部地區1038 題'], ['yilan', '宜蘭縣454 題'], ['taipei', '臺北市78 題'], ['new_taipei', '新北市219 題'], ['taoyuan', '桃園市45 題'], ['taichung', '臺中市193 題'], ['kaohsiung', '高雄市50 題']]"
+  },
+  {
+   "name": "region  shows availability",
+   "ok": true,
+   "detail": "可用題目 1038 題"
+  },
+  {
+   "name": "region yilan shows availability",
+   "ok": true,
+   "detail": "可用題目 454 題"
+  },
+  {
+   "name": "region taipei shows availability",
+   "ok": true,
+   "detail": "可用題目 78 題"
+  },
+  {
+   "name": "region new_taipei shows availability",
+   "ok": true,
+   "detail": "可用題目 219 題"
+  },
+  {
+   "name": "region taoyuan shows availability",
+   "ok": true,
+   "detail": "可用題目 45 題"
+  },
+  {
+   "name": "region taichung shows availability",
+   "ok": true,
+   "detail": "可用題目 193 題"
+  },
+  {
+   "name": "region kaohsiung shows availability",
+   "ok": true,
+   "detail": "可用題目 50 題"
+  },
+  {
+   "name": "library ready-only toggle narrows list",
+   "ok": true,
+   "detail": "共 1528 份原卷檔案（不同格式、修訂版可能來自同一次考試） -> 共 342 份原卷檔案（不同格式、修訂版可能來自同一次考試）"
+  },
+  {
+   "name": "library grade 7 lists papers",
+   "ok": true,
+   "detail": "24"
+  },
+  {
+   "name": "library grade 8 lists papers",
+   "ok": true,
+   "detail": "24"
+  },
+  {
+   "name": "library grade 9 lists papers",
+   "ok": true,
+   "detail": "24"
+  },
+  {
+   "name": "whole paper 1B5pbQux_YE1p_hTMPFeIxPgzknbLuixF loads all questions",
+   "ok": true,
+   "detail": "25/25 errors=0"
+  },
+  {
+   "name": "swap one question in 1B5pbQux_YE1p_hTMPFeIxPgzknbLuixF keeps the rest",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "PDF of 1B5pbQux_YE1p_hTMPFeIxPgzknbLuixF restores the same ids and scores",
+   "ok": true,
+   "detail": "25 items, 213 KB"
+  },
+  {
+   "name": "compose grade 7 generates questions",
+   "ok": true,
+   "detail": "25"
+  },
+  {
+   "name": "compose grade 8 generates questions",
+   "ok": true,
+   "detail": "25"
+  },
+  {
+   "name": "compose grade 9 generates questions",
+   "ok": true,
+   "detail": "25"
+  },
+  {
+   "name": "phone viewport has no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "errors": [],
+ "pass": true
+}
