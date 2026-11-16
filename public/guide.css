@@ -80,3 +80,9 @@ button.step-zone.is-active-step:not(:disabled){animation:btn-breathe 2.2s ease-i
 @media(max-width:760px){.section-heading{flex-wrap:wrap;row-gap:6px}.section-heading .steps{width:100%;justify-content:space-between;gap:4px}.section-heading #reset-button{margin-left:auto}.region-bar{gap:6px;padding:8px}.region-label{width:100%}.region-pill{padding:6px 11px}.guide-cards{grid-template-columns:1fr}.steps li{padding:3px 6px 3px 2px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.guide-cards li{opacity:1}}
 @media print{.region-bar,.steps,.step-badge{display:none!important}}
+
+.memory-item{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 0;border-bottom:1px solid var(--line,#ddd)}
+.memory-item label{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;cursor:pointer}
+.memory-item small{color:var(--muted,#666)}
+.memory-empty{margin:6px 0;color:var(--muted,#666);font-size:.9rem}
+#memory-clear{margin-top:4px}

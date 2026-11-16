@@ -1,4 +1,4 @@
-import {eligiblePool} from './engine.mjs?v=20261116-metro-v46';
+import {eligiblePool} from './engine.mjs?v=20261116-metro-v47';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function setupUnits({form,catalog,bank,getBaseFilters,onChange}){
  const modeLabel=document.createElement('label');modeLabel.className='scope-mode-label';modeLabel.innerHTML='出題方式<select id="scope-mode"><option value="exam">段考次別</option><option value="units">自選單元</option></select>';

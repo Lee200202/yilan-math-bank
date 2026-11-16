@@ -11,7 +11,16 @@ const contentKey=q=>q.sourceSha256?`${q.sourceSha256}:${q.type}:${q.sourceNumber
 // Visible content (text, options, table cells and figures). Two questions with identical content are the same
 // question even when they come from different source files (a school re-posts the same exam).
 const visibleContent=q=>Array.isArray(q.blocks)&&q.blocks.length?JSON.stringify(q.blocks).replace(/\s+/g,''):null;
-export function eligiblePool(bank,filters){const seen=new Set();return bank.filter(q=>{if(!eligible(q,filters))return false;const keys=[contentKey(q)],body=visibleContent(q);if(body)keys.push(`${q.type}:${body}`);if(keys.some(k=>seen.has(k)))return false;keys.forEach(k=>seen.add(k));return true;});}
+// 記憶點: questions already used in a downloaded paper. The page registers them; they stay out of generation and swaps.
+let excludedIds=new Set(),excludeCache=null;
+export function setExcluded(ids){excludedIds=new Set(ids||[]);excludeCache=null;}
+export const excludedCount=()=>excludedIds.size;
+function excludedKeys(bank){
+  if(!excludedIds.size)return null;if(excludeCache&&excludeCache.bank===bank)return excludeCache.keys;
+  const keys=new Set();for(const q of bank)if(excludedIds.has(q.id)){keys.add(`id:${q.id}`);keys.add(`c:${contentKey(q)}`);const body=visibleContent(q);if(body)keys.add(`b:${q.type}:${body}`);familyKeys(q).forEach(k=>keys.add(`f:${k}`));}
+  excludeCache={bank,keys};return keys;
+}
+export function eligiblePool(bank,filters){const seen=new Set(),ex=excludedKeys(bank);return bank.filter(q=>{if(!eligible(q,filters))return false;const keys=[contentKey(q)],body=visibleContent(q);if(ex&&(ex.has(`id:${q.id}`)||ex.has(`c:${keys[0]}`)||(body&&ex.has(`b:${q.type}:${body}`))||familyKeys(q).some(k=>ex.has(`f:${k}`))))return false;if(body)keys.push(`${q.type}:${body}`);if(keys.some(k=>seen.has(k)))return false;keys.forEach(k=>seen.add(k));return true;});}
 // Sub-questions of one problem ("1-1" and "1-2", "6(1)" and "6(3)", "承上題") share a stem. A paper that carries two of
 // them reads as the same question twice, so generation treats them as one family and only combines them when the
 // requested scope has no other question of that type and difficulty left.
@@ -185,7 +194,7 @@ export function generate(bank, filters, counts, ratios, target=100, random=Math.
   if(filters.scopeMode==='units'){const result=unitSelection(pool,filters,counts,difficultyTarget,total,random),distinct=diversify(result.selected,pool,true,random),ordered=orderPracticeQuestions(distinct),scores=allocateScores(ordered,target);return {items:ordered.map((q,i)=>({id:q.id,score:scores[i]})),notices:distinct.every((q,i)=>q===result.selected[i])?result.notices:difficultyNotices(distinct,counts,difficultyTarget,total,true)};}
   for(const type of TYPES){
     const n=Number(counts[type]), available=pool.filter(q=>q.type===type);
-    if(available.length<n) throw new Error(`${TYPE_NAMES[type]}只有 ${available.length} 題符合條件，請減少題數或放寬篩選。`);
+    if(available.length<n) throw new Error(`${TYPE_NAMES[type]}只有 ${available.length} 題符合條件${excludedIds.size?'（已排除記憶點內的題目）':''}，請減少題數、放寬篩選或取消勾選部分記憶點。`);
   }
   const plan=typeLevelPlan(stockMatrix(pool),counts,difficultyTarget,total);
   if(!plan)throw new Error('目前題型與難度資料無法完成組卷。');

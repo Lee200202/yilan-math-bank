@@ -1,9 +1,9 @@
-import {examTitle,questionHTML,typesetDOM,createTypesetPdf} from './typesetter.mjs?v=20261116-metro-v46';
-import {REGIONS,regionOf,TYPES,TYPE_NAMES,LEVEL_NAMES,eligible,eligiblePool,availableCounts,suggestedCounts,generate,replaceQuestion,allocateScores,orderPracticeQuestions,validateSession} from './engine.mjs?v=20261116-metro-v46';
-import {setupUnits} from './units-ui.mjs?v=20261116-metro-v46';
+import {examTitle,questionHTML,typesetDOM,createTypesetPdf} from './typesetter.mjs?v=20261116-metro-v47';
+import {REGIONS,regionOf,TYPES,TYPE_NAMES,LEVEL_NAMES,eligible,eligiblePool,availableCounts,suggestedCounts,generate,setExcluded,replaceQuestion,allocateScores,orderPracticeQuestions,validateSession} from './engine.mjs?v=20261116-metro-v47';
+import {setupUnits} from './units-ui.mjs?v=20261116-metro-v47';
 const $=s=>document.querySelector(s), esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let bank=[],papers=[],coverage={},unitCatalog=[],unitsUI=null,session=null,more=24,toastTimer; const paperMap=new Map(),bankMap=new Map();
-const DATA_VERSION='20261116-metro-v46';
+const DATA_VERSION='20261116-metro-v47';
 const fetchJson=async path=>{const url=new URL(path,document.baseURI);url.searchParams.set('v',DATA_VERSION);const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error(`無法載入資料（${r.status}），請重新整理。`);return r.json();};
 function toast(message){$('#toast').textContent=message;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,6500);}
 function notice(message,error=false){$('#notice').textContent=message;$('#notice').hidden=!message;$('#notice').classList.toggle('error',error);}
@@ -113,7 +113,7 @@ const zoomDialog=document.createElement('dialog');zoomDialog.id='question-dialog
 document.addEventListener('click',e=>{const button=e.target.closest('[data-zoom]');if(!button)return;const q=bankMap.get(button.dataset.zoom);$('#zoom-heading').textContent='題目檢視';zoomDialog.querySelector('.zoom-scroll').innerHTML=`<div class="typed-question">${questionHTML(q)}</div>`;zoomDialog.showModal();typesetDOM(zoomDialog).catch(err=>toast(err.message));});
 
 export async function createPdf(record=session){const result=await createTypesetPdf(record,bankMap);window.lanjuan.lastLayout=result.layout;window.lanjuan.lastPdfPages=result.pages;return result.bytes;}
-$('#pdf-button').onclick=async()=>{const button=$('#pdf-button');button.disabled=true;button.textContent='正在製作…';try{download(await createPdf(),safeName()+'.pdf','application/pdf');workflowStep(3);toast('PDF 已下載，內含可再次匯入的組卷紀錄。');}catch(e){toast('PDF 匯出失敗：'+e.message);}finally{button.disabled=false;button.textContent='下載 PDF';}};
+$('#pdf-button').onclick=async()=>{const button=$('#pdf-button');button.disabled=true;button.textContent='正在製作…';try{download(await createPdf(),safeName()+'.pdf','application/pdf');memAdd(session.title,session.items.map(i=>i.id));workflowStep(3);toast('PDF 已下載，內含可再次匯入的組卷紀錄。');}catch(e){toast('PDF 匯出失敗：'+e.message);}finally{button.disabled=false;button.textContent='下載 PDF';}};
 $('#print-button').onclick=()=>$('#pdf-button').click();
 try{[bank,papers,coverage,unitCatalog]=await Promise.all([fetchJson('./data/questions.json'),fetchJson('./data/papers.json'),fetchJson('./data/coverage.json'),fetchJson('./data/units.json')]);papers.forEach(p=>paperMap.set(p.id,p));bank.forEach(q=>bankMap.set(q.id,q));
   for(let y=115;y>=105;y--){$('#year').add(new Option(`${y} 學年度`,y));$('#library-year').add(new Option(`${y} 學年度`,y));}const schools=[...new Set(papers.map(p=>p.school))];fillSchools($('#school'),'');fillSchools($('#library-school'),'');
@@ -125,3 +125,14 @@ try{[bank,papers,coverage,unitCatalog]=await Promise.all([fetchJson('./data/ques
   const linkedPaper=paperMap.get(new URL(location.href).searchParams.get('paper'));if(linkedPaper){for(const key of ['year','school','grade','semester','exam'])$('#library-'+key).value=linkedPaper[key];$('#library-search').value='';showView('library');}
   else{const params=new URL(location.href).searchParams;if(params.has('region')&&Object.hasOwn(REGIONS,params.get('region'))){$('#region').value=params.get('region');fillSchools($('#school'),params.get('region'));}if(['region','year','semester','grade','exam','school','difficulty'].some(k=>params.has(k))){for(const key of ['year','semester','grade','exam','school','difficulty'])if(params.has(key)&&[...$('#'+key).options].some(o=>o.value===params.get(key)))$('#'+key).value=params.get(key);if(params.get('mode')==='exam'||params.has('exam'))unitsUI.apply({scopeMode:'exam'});if(params.has('curriculum'))$('#curriculumOnly').checked=params.get('curriculum')==='108';syncDifficultyUI();showView('compose');updateConfig();}}
 }catch(err){notice(err.message,true);$('#stats-row').textContent='資料載入失敗，請稍後重新整理。';$('#generate-button').disabled=true;}
+// ── 記憶點：下載過的 PDF 的題目，之後不再出（只存在這個瀏覽器的 localStorage）──
+const MEM_KEY='lanjuan-memory-v1';
+function memLoad(){try{const d=JSON.parse(localStorage.getItem(MEM_KEY)||'null');return d&&Array.isArray(d.points)?d:{next:1,points:[]};}catch{return {next:1,points:[]};}}
+function memSave(d){try{localStorage.setItem(MEM_KEY,JSON.stringify(d));}catch{}}
+const memExcluded=()=>memLoad().points.filter(p=>p.on).flatMap(p=>p.ids);
+function memApply(){setExcluded(memExcluded());try{updateConfig();}catch{}}
+function memAdd(title,ids){const d=memLoad(),last=d.points.at(-1),key=[...ids].sort().join('|');if(last&&[...last.ids].sort().join('|')===key){last.date=new Date().toISOString();}else{d.points.push({n:d.next++,title:String(title||'').slice(0,40),date:new Date().toISOString(),ids:[...ids],on:true});d.points=d.points.slice(-60);}memSave(d);memApply();renderMemory();}
+function renderMemory(){const box=$('#memory-list');if(!box)return;const d=memLoad();box.innerHTML=d.points.length?[...d.points].reverse().map(p=>`<div class="memory-item"><label><input type="checkbox" data-mem="${p.n}" ${p.on?'checked':''}> <strong>記憶點 ${p.n}</strong><small>${esc(new Date(p.date).toLocaleDateString('zh-TW'))}・${p.ids.length} 題${p.title?'・'+esc(p.title):''}</small></label><button class="text-button" type="button" data-mem-del="${p.n}">刪除</button></div>`).join(''):'<p class="memory-empty">還沒有記憶點。下載 PDF 後，這份的題目會自動記下來。</p>';const on=d.points.filter(p=>p.on).reduce((n,p)=>n+p.ids.length,0);$('#memory-summary').textContent=d.points.length?(on?`生成與換題會避開已勾選記憶點的 ${on} 題。`:'目前沒有勾選任何記憶點，不會避開舊題。'):'';}
+document.addEventListener('change',e=>{const box=e.target.closest('[data-mem]');if(!box)return;const d=memLoad(),p=d.points.find(x=>x.n===Number(box.dataset.mem));if(p){p.on=box.checked;memSave(d);memApply();renderMemory();}});
+document.addEventListener('click',e=>{const del=e.target.closest('[data-mem-del]');if(del){const d=memLoad();d.points=d.points.filter(p=>p.n!==Number(del.dataset.memDel));memSave(d);memApply();renderMemory();return;}if(e.target.closest('#memory-clear')){if(memLoad().points.length&&confirm('清除全部記憶點？之後生成就不會再避開舊題。')){memSave({next:memLoad().next,points:[]});memApply();renderMemory();}}});
+memApply();renderMemory();
