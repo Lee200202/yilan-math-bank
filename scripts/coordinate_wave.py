@@ -28,7 +28,7 @@ PY = [sys.executable, '-X', 'utf8']
 
 
 def run(args, check=True):
-    return subprocess.run(PY + args, cwd=ROOT, capture_output=True, text=True, encoding='utf-8', check=False)
+    return subprocess.run(PY + args, cwd=ROOT, capture_output=True, text=True, encoding='utf-8', errors='replace', check=False)
 
 
 def sha(path):

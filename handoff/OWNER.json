@@ -1,7 +1,12 @@
 {
-  "coordinator": "Antigravity",
-  "since": "2026-11-16",
-  "handoffState": "依使用者指示：宜蘭八下優先轉寫，分工加速，定段發布，v37 已建置（7,380題）",
-  "reason": "接手協調推進，依指示優先處理宜蘭八下，善用 subagent 與本地腳本省 token 驗收",
-  "policy": "Only the coordinator rebuilds shared assets and publishes; helpers edit only their claimed transcripts. REVIEW_POLICY.md applies."
+ "coordinator": "Antigravity",
+ "since": "2026-11-16",
+ "handoffState": "依使用者指示：宜蘭八下優先轉寫，分工加速，定段發布，v37 已建置（7,380題）",
+ "reason": "接手協調推進，依指示優先處理宜蘭八下，善用 subagent 與本地腳本省 token 驗收",
+ "policy": "Only the coordinator rebuilds shared assets and publishes; helpers edit only their claimed transcripts. REVIEW_POLICY.md applies.",
+ "lanes": {
+  "Antigravity": "宜蘭縣：八下→九上→九下",
+  "Claude": "八年級上學期（全縣市）；之後都會區八下、九上、九下，最後七年級"
+ },
+ "coordinationNote": "見 handoff/COORDINATION.md；兩位都可發布，一次一位建置推送。"
 }
