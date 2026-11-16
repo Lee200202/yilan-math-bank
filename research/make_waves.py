@@ -9,7 +9,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 wave, helpers, per = sys.argv[1], int(sys.argv[2]), int(sys.argv[3])
-regions = sys.argv[4:] or ['yilan', 'taipei', 'new_taipei', 'taoyuan', 'kaohsiung', 'taichung']
+regions = sys.argv[4:] or ['taipei', 'new_taipei', 'taoyuan', 'kaohsiung', 'taichung']  # Yilan belongs to the other AI's lane
 papers = json.loads((ROOT / 'public/data/papers.json').read_text(encoding='utf-8'))
 inv = json.loads((ROOT / 'research/metro/metro-inventory.json').read_text(encoding='utf-8'))
 local = {f['id']: f['localPath'] for s in inv['sources'].values() for f in s['files'] if f.get('localPath')}
