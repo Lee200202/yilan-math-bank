@@ -191,3 +191,8 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 - `scripts/prepare_metro.py`：Word/ODT 來源沒有 Word 轉出的參考 PDF 時不再中斷建置，卡片連結指向官方原檔。測試同步放寬（engine.test.mjs 兩處、exchange.test.mjs 未完成學校數 ≥15）。
 - 正式站驗收：發布後補。
 
+
+## v67（20261117-metro-v67）：依使用者裁決補發 3 卷（民族國中 ×2、自強第二次）
+
+- 可組卷題數 15,413 → 15,490。`npm test` 77 項通過；3 卷 PDF 匯出檢查通過。裁決與依據見 `handoff/batches/20261117-held3-NOTES.md`、`research/metro/slot-overrides.json`。`scripts/prepare_metro.py` 新增 `school` 覆蓋欄位。
+- 正式站驗收：發布後補。

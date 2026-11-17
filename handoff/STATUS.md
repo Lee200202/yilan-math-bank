@@ -1,10 +1,10 @@
 # 資料快照
 
-2026-11-17T14:35:36.907445+00:00
+2026-11-17T14:46:42.910194+00:00
 
 ```text
-版本 20261117-metro-v66 / 43a7fa66
-原卷 1528；可用題 15413；狀態 {'complete': 545, 'complete-with-source-issues': 71, 'pending': 901, 'partial': 11}
+版本 20261117-metro-v67 / 4bbef895
+原卷 1528；可用題 15490；狀態 {'complete': 548, 'complete-with-source-issues': 71, 'pending': 898, 'partial': 11}
 kaohsiung: 未認領PDF候選 6 卷，接續 metro-kaohsiung-1e550e4db3803d78, metro-kaohsiung-afca0cfa38edd928, metro-kaohsiung-1282ef567a1e083c
 new_taipei: 未認領PDF候選 144 卷，接續 metro-new_taipei-e30f51dc497bbd00, metro-new_taipei-d2ee158944361fce, metro-new_taipei-979b1b18b0a6eecb
 taichung: 未認領PDF候選 52 卷，接續 metro-taichung-c492c637c48c9959-998d7afd, metro-taichung-228b1e22c0c59405-748c900d, metro-taichung-e493a398f380737f-b9feda72

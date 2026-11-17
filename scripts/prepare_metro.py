@@ -138,6 +138,8 @@ def build(root, unit_ids):
                 if o['sourceSha256'] != f.get('sha256'):
                     raise ValueError(f'Slot override evidence invalidated: {f["id"]}')
                 f.update({k: o[k] for k in ('year', 'semester', 'grade', 'exam') if k in o})
+                if 'school' in o:
+                    f['schoolOverride'] = o['school']  # printed header names a different school than the source folder
     tdir = root / 'research/metro/transcribed'
     transcripts = {f.stem: json.loads(f.read_text(encoding='utf-8')) for f in sorted(tdir.glob('*.json')) if approved(root, f)}
     papers, questions, summary = [], [], []
@@ -172,7 +174,7 @@ def build(root, unit_ids):
             stats['years'].add(f['year'])
             ext = f['name'].rsplit('.', 1)[-1].lower() if '.' in f['name'] else f.get('format', 'pdf')
             paper = {
-                'id': f['id'], 'region': region, 'school': school, 'year': f['year'], 'semester': f['semester'],
+                'id': f['id'], 'region': region, 'school': f.get('schoolOverride', school), 'year': f['year'], 'semester': f['semester'],
                 'grade': f['grade'], 'exam': f['exam'], 'title': f['name'], 'file': '', 'format': ext,
                 'sha256': f['sha256'], 'bytes': f.get('bytes'), 'sourceUrl': f['sourceUrl'], 'sourcePage': f['sourcePage'],
                 'curriculum108': f['year'] >= 108 + f['grade'] - 7, 'track': 'regular', 'questionCount': 0, 'warning': '',

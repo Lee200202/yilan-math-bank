@@ -1,0 +1,683 @@
+{
+ "paperId": "metro-kaohsiung-a189ea48827f3aaf",
+ "sourceSha256": "067a09b46e077c95c8d119249e04ea83e1322a24f038e717f0291cb8a94a05c1",
+ "printedHeader": "高雄市民族國中114學年度第一學期二年級數學科第二次段考試題",
+ "printedSlot": {
+  "year": 114,
+  "semester": 1,
+  "grade": 8,
+  "exam": 2
+ },
+ "printedCounts": "單選15題、填充10題、計算2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照 text.md、26張圖逐題重讀，公式圖已逐一辨識；重繪圖(一)~(九)與計算題1之圖；解答頁用來核對。標題『二年級』即國二（八年級）。公式欄位的latex與圖片偶有不一致（如第6格填充 latex 為BC、圖片為CD），一律以圖片為準，答案與解答吻合。",
+ "expectedTypes": {
+  "choice": 15,
+  "fill": 10,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式乘除加減的對錯判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請選出下列何者敘述錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{5}\\times\\sqrt{3}=\\sqrt{15}$",
+      "$\\sqrt{12}\\div\\sqrt{2}=\\sqrt{6}$",
+      "$\\sqrt{12}+\\sqrt{3}=3\\sqrt{3}$",
+      "$5\\sqrt{3}-5=\\sqrt{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式運算的對錯判斷，含乘法公式展開。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請選出下列何者敘述正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(-2)\\times 3\\sqrt{5}=-3\\sqrt{10}$",
+      "$(-12\\sqrt{6})\\div(4\\sqrt{3})=-3\\sqrt{2}$",
+      "$(\\sqrt{6}+3\\sqrt{2})^{2}=6+18$",
+      "$5\\sqrt{10}-3\\sqrt{7}-2\\sqrt{10}+4\\sqrt{7}=(5-2)+(-3+4)=4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式乘法與同類方根加減，求係數和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "算出 $(\\sqrt{3}+\\sqrt{2})\\times(\\sqrt{6}-1)$ 的值為 $a\\sqrt{3}-b\\sqrt{2}$，也算出 $5\\sqrt{10}-3\\sqrt{5}-2\\sqrt{10}+4\\sqrt{5}$ 的值為 $c\\sqrt{10}+d\\sqrt{5}$，求 $a+b+c+d$ 的和為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1$",
+      "$3$",
+      "$-2$",
+      "$-1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "平方差或完全平方展開化簡根式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請算出 $(\\sqrt{3}+\\sqrt{2})^{2}-(\\sqrt{3}-\\sqrt{2})^{2}$ 的值？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$10$",
+      "$0$",
+      "$4\\sqrt{6}$",
+      "$2\\sqrt{6}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "兩次使用畢氏定理。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖（一），四邊形 $ABCD$ 中，$\\angle A=\\angle C=90^{\\circ}$，若 $\\overline{AB}=4$，$\\overline{BC}=3$，$\\overline{AD}=5$，請算出 $\\overline{CD}$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 195 200\"><polygon points=\"25,30 160,30 103,172 25,140\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"25\" y1=\"140\" x2=\"160\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polyline points=\"25,38 33,38 33,30\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polyline points=\"95.6,169 98.6,161.6 106,164.6\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"12\" y=\"28\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">A</text><text x=\"170\" y=\"28\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">D</text><text x=\"10\" y=\"152\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">B</text><text x=\"108\" y=\"192\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">C</text><text x=\"92\" y=\"20\" font-size=\"16\" fill=\"#111\" text-anchor=\"middle\">5</text><text x=\"10\" y=\"90\" font-size=\"16\" fill=\"#111\" text-anchor=\"middle\">4</text><text x=\"52\" y=\"168\" font-size=\"16\" fill=\"#111\" text-anchor=\"middle\">3</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{41}$",
+      "$4\\sqrt{3}$",
+      "$4\\sqrt{2}$",
+      "$4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "等腰三角形的高與面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖（二），已知等腰三角形 $ABC$ 中，$\\overline{AB}=\\overline{AC}=15$，$\\overline{BC}=18$，則等腰三角形 $ABC$ 的面積為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 150\"><polygon points=\"100,15 10,130 190,130\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"100\" y=\"12\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">A</text><text x=\"2\" y=\"145\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">B</text><text x=\"194\" y=\"145\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">C</text><text x=\"42\" y=\"72\" font-size=\"16\" fill=\"#111\" text-anchor=\"middle\">15</text><text x=\"158\" y=\"72\" font-size=\"16\" fill=\"#111\" text-anchor=\"middle\">15</text><text x=\"100\" y=\"148\" font-size=\"16\" fill=\"#111\" text-anchor=\"middle\">18</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$108$",
+      "$216$",
+      "$12$",
+      "$6$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "由方位路徑合成直角三角形求直線距離。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小寶從家裡出發前往車站，必須先向東走12公里，再向北走5公里，再向西走8公里，再向北走7公里，最後再向東走1公里才會到達，則小寶家與車站的直線距離是多少公里？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$13$",
+      "$12$",
+      "$5$",
+      "$13\\sqrt{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "坐標平面上兩點距離公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請計算坐標平面上兩點的距離：$A(2,-3)$、$B(-5,-3)$、$C(-1,-4)$、$D(3,-2)$，選出何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\overline{AB}=-3$",
+      "$\\overline{AC}=\\sqrt{10}$",
+      "$\\overline{AD}=\\sqrt{5}$",
+      "$\\overline{BC}=\\sqrt{15}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "一次因式與因式定理（以根代入）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $3x-1$ 為多項式 $-15x^{2}+ax-2$ 的因式，請算出 $a$ 的值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-1$",
+      "$1$",
+      "$6$",
+      "$11$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "提公因式與乘法公式因式分解的對錯判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解下列各式，何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x(2x+5)-x(x-1)=(2x+5)(x-1)$",
+      "$x(2x+1)+3(2x+1)=(2x+1)(x+3)$",
+      "$81x^{2}-25=(9x+5)(9x-5)$",
+      "$4x^{2}-28x+49=(2x-7)^{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "提公因式（變號）後比較係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $(x-3)(2x+1)+(3-x)(x+5)$ 可因式分解為 $(x-3)(x+a)$，$(x-1)(2x+1)-(1-x)^{2}$ 可因式分解為 $(x-1)(x+b)$，請求 $a+b$ 的值？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-2$",
+      "$-4$",
+      "$6$",
+      "$8$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1",
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "含根號數的大小比較，需平方或估值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a=\\sqrt{13}+\\sqrt{6}$，$b=\\sqrt{14}+\\sqrt{5}$，$c=\\sqrt{17}+\\sqrt{2}$，請求出三數 $a$，$b$，$c$ 的大小關係？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$c>b>a$",
+      "$b>a>c$",
+      "$c>a>b$",
+      "$a>b>c$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "正三角形的高與面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖（三），正三角形 $ABC$ 的邊長為10公分，若將 $\\overline{AB}$ 與 $\\overline{AC}$ 重疊對摺，得到的摺痕為 $\\overline{AD}$，則 $\\overline{AD}$ 為 $a$ 公分，正三角形 $ABC$ 的面積為 $b$ 平方公分，$a+b=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 175\"><polygon points=\"100,12 10,150 190,150\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"100\" y1=\"12\" x2=\"100\" y2=\"150\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"5 3\"/><polyline points=\"92,150 92,142 100,142\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"100\" y=\"9\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">A</text><text x=\"2\" y=\"165\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">B</text><text x=\"194\" y=\"165\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">C</text><text x=\"100\" y=\"168\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">D</text><text x=\"160\" y=\"72\" font-size=\"16\" fill=\"#111\" text-anchor=\"middle\">10</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$40$",
+      "$30$",
+      "$30\\sqrt{3}$",
+      "$25\\sqrt{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "14",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "平方差面積因式分解求另一邊。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖（四），將一張邊長為 $3x+1$ 的正方形色紙，中間剪去一個邊長為 $2x$ 的正方形，則剩餘的面積會與一個長方形的面積相等，若此長方形的其中一個邊長為 $x+1$，求另一邊長為多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 235 165\"><rect x=\"5\" y=\"5\" width=\"150\" height=\"150\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polygon points=\"35.9,69.5 91.4,36.7 122.3,91.3 67.3,123.6\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M158 5 Q172 80 158 155\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"180\" y=\"86\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"start\">3x+1</text><text x=\"108\" y=\"138\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">2x</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3x+1$",
+      "$4x+1$",
+      "$5x+1$",
+      "$6x+1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "15",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "各多項式因式分解後找共同一次因式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $P$、$Q$、$R$ 三個多項式，其中 $P=6x^{2}-2x$、$Q=(2x+1)(2x-1)$、$R=(2x+1)(6x-3)-x(6x-3)$，則下列選項中何者有一次公因式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$P$、$Q$",
+      "$Q$、$R$",
+      "$P$、$R$",
+      "以上皆無"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式乘法與平方差求體積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一個長方體的長為 $(\\sqrt{15}+\\sqrt{10})$ 公分，其寬為 $(\\sqrt{15}-\\sqrt{10})$ 公分，高為 $\\sqrt{3}$ 公分，求此長方體體積＝＿＿＿＿立方公分。（答案為最簡根式）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "分數根式乘除並代入求差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $\\dfrac{\\sqrt{5}}{\\sqrt{2}}\\times\\dfrac{2}{\\sqrt{3}}\\div\\dfrac{\\sqrt{12}}{\\sqrt{5}}$ 得到正確的值為 $a$，小呆把其中的數 $\\dfrac{2}{\\sqrt{3}}$ 的分子2看成 $\\sqrt{2}$，其他部分沒有計算錯誤，得到的值為 $b$，請求出 $a^{2}-b^{2}$ 的值＝＿＿＿＿。（答案為最簡根式）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3",
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "同一三角形兩種放法，以面積求高。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖（五），$\\triangle ABC$ 中，$\\angle B$ 為直角，$\\overline{BC}=3$。將 $\\triangle ABC$ 之 $\\overline{BC}$ 置於地上時，$A$ 點與地面的距離為5，若將 $\\overline{AC}$ 置於地上時，則 $B$ 點與地面的距離為＿＿＿＿。（答案為最簡根式）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 120\"><line x1=\"5\" y1=\"95\" x2=\"315\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polygon points=\"15,15 15,95 63,95\" fill=\"#fcd77f\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"15,87 23,87 23,95\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polygon points=\"190,95 283,95 214.7,53.8\" fill=\"#fcd77f\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"142,15 142,95 190,95\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"5 3\"/><line x1=\"142\" y1=\"15\" x2=\"190\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"5 3\"/><polyline points=\"210.6,60.7 217.5,64.8 221.5,58\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polygon points=\"98,45 112,50 98,55\" fill=\"#111\" stroke=\"#111\"/><line x1=\"86\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"#111\" stroke-width=\"4\"/><text x=\"15\" y=\"12\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">A</text><text x=\"8\" y=\"112\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">B</text><text x=\"66\" y=\"112\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">C</text><text x=\"214\" y=\"48\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">B</text><text x=\"188\" y=\"112\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">C</text><text x=\"285\" y=\"112\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">A</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3",
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "長方形面積求邊長，再計算沿邊路徑長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖（六），長方形 $ABCD$ 的面積為150平方公尺，且 $\\overline{CD}=5\\sqrt{3}$ 公尺，$\\overline{AP}=4\\sqrt{6}$ 公尺。若小毅從 $P$ 點出發，沿著長方形的邊依序經過 $D$ 點、$C$ 點，最後到達 $B$ 點，試問小毅走＿＿＿＿公尺。（答案為最簡根式）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 145\"><rect x=\"20\" y=\"25\" width=\"180\" height=\"90\" fill=\"#e6f2e8\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"122\" cy=\"25\" r=\"3\" fill=\"#111\"/><path d=\"M20 28 Q71 52 122 28\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M203 25 Q216 70 203 115\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"10\" y=\"22\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">A</text><text x=\"122\" y=\"17\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">P</text><text x=\"210\" y=\"22\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">D</text><text x=\"10\" y=\"130\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">B</text><text x=\"210\" y=\"132\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">C</text><text x=\"71\" y=\"54\" font-size=\"16\" fill=\"#111\" text-anchor=\"middle\">4√6</text><text x=\"222\" y=\"74\" font-size=\"16\" fill=\"#111\" text-anchor=\"start\">5√3</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "完全平方式因式分解求係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $8x^{2}+24x+a$ 可以因式分解成 $2(2x+b)^{2}$，則 $a+b$ 的值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "坐標平面兩點距離。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "佳佳卡丁車的跑道如圖（七）所示。已知 $A(1,3)$、$B(-2,-5)$、$C(4,-2)$、$D(4,3)$ 四點為四個轉彎處，則 $\\overline{AB}+\\overline{CD}=$＿＿＿＿。（答案為最簡根式）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 190\"><polygon points=\"76,44 28,172 124,124 124,44\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"10\" y1=\"92\" x2=\"150\" y2=\"92\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polygon points=\"150,88.5 158,92 150,95.5\" fill=\"#111\"/><line x1=\"60\" y1=\"178\" x2=\"60\" y2=\"14\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polygon points=\"56.5,14 60,6 63.5,14\" fill=\"#111\"/><line x1=\"56\" y1=\"76\" x2=\"64\" y2=\"76\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"76\" y1=\"89\" x2=\"76\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><circle cx=\"76\" cy=\"44\" r=\"2.5\" fill=\"#111\"/><circle cx=\"28\" cy=\"172\" r=\"2.5\" fill=\"#111\"/><circle cx=\"124\" cy=\"124\" r=\"2.5\" fill=\"#111\"/><circle cx=\"124\" cy=\"44\" r=\"2.5\" fill=\"#111\"/><text x=\"68\" y=\"40\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">A</text><text x=\"19\" y=\"178\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">B</text><text x=\"130\" y=\"138\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">C</text><text x=\"134\" y=\"41\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">D</text><text x=\"46\" y=\"80\" font-size=\"13\" fill=\"#111\" text-anchor=\"end\">1</text><text x=\"50\" y=\"106\" font-size=\"13\" font-style=\"italic\" fill=\"#111\" text-anchor=\"end\">O</text><text x=\"158\" y=\"108\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">x</text><text x=\"72\" y=\"12\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">y</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "竹竿靠牆的畢氏定理應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖（八），將一竹竿斜靠在一垂直牆上，且竿腳到牆腳的距離為0.7公尺，竿頂距離地面為2.4公尺。若竿腳遠離牆腳向外移動1.3公尺，則竿頂向下移動＿＿＿＿公尺。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 215\"><rect x=\"170\" y=\"10\" width=\"45\" height=\"180\" fill=\"#f19db5\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"5\" y1=\"190\" x2=\"215\" y2=\"190\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"121\" y1=\"190\" x2=\"170\" y2=\"22\" stroke=\"#e89a1c\" stroke-width=\"3.5\" fill=\"none\"/><line x1=\"30\" y1=\"190\" x2=\"170\" y2=\"85\" stroke=\"#888\" stroke-width=\"3\" fill=\"none\"/><path d=\"M30 194 Q40 204 75 204\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M92 204 Q118 204 121 194\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M124 194 Q132 204 147 204\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M158 204 Q168 204 170 194\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"83\" y=\"208\" font-size=\"13\" fill=\"#111\" text-anchor=\"middle\">1.3</text><text x=\"148\" y=\"208\" font-size=\"13\" fill=\"#111\" text-anchor=\"middle\">0.7</text><text x=\"188\" y=\"96\" font-size=\"16\" fill=\"#111\" text-anchor=\"middle\">2.4</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "提公因式化簡後求長寬係數和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "長方形的長為 $ax-b$，寬為 $cx+d$，面積為 $2x(3x+1)-(3-2x)(3x+1)$，其中 $a$、$b$、$c$、$d$ 皆為正整數，求 $a+b+c+d=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "方位的直角三角形求兩點距離。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖（九），放學後，小妍和小翊分別沿東南方向和西南方向回家。若小妍和小翊行走的速率都是每分鐘30公尺，小妍花15分鐘回到家，小翊花20分鐘回到家，則小妍家和小翊家的最短距離是＿＿＿＿公尺。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 200\"><polyline points=\"118,52 130,64 142,52\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"130\" y1=\"64\" x2=\"62\" y2=\"132\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"5 3\"/><line x1=\"130\" y1=\"64\" x2=\"198\" y2=\"132\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"5 3\"/><polygon points=\"56,138 62,126 68,132\" fill=\"#111\"/><polygon points=\"204,138 192,132 198,126\" fill=\"#111\"/><rect x=\"105\" y=\"10\" width=\"50\" height=\"28\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"130\" y=\"58\" font-size=\"18\" fill=\"#111\" text-anchor=\"middle\">學校</text><text x=\"88\" y=\"156\" font-size=\"16\" fill=\"#111\" text-anchor=\"middle\">西南</text><text x=\"172\" y=\"156\" font-size=\"16\" fill=\"#111\" text-anchor=\"middle\">東南</text><text x=\"45\" y=\"188\" font-size=\"18\" fill=\"#111\" text-anchor=\"middle\">小翊</text><text x=\"215\" y=\"188\" font-size=\"18\" fill=\"#111\" text-anchor=\"middle\">小妍</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "提公因式後由質數條件討論整數解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一個質數只能分解成1與本身的乘積，例如：$5=1\\times 5$，$7=1\\times 7$。若 $x$ 為正整數，$(4x+7)(x-4)-10(x-4)$ 為一個質數，請求出此質數＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "長方形摺疊，以畢氏定理列方程求線段長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，矩形 $ABCD$ 中，$\\overline{AB}=7$，$\\overline{BC}=25$，今將其摺疊使 $D$ 點落在 $\\overline{BC}$ 上之一點 $F$，則："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 270 110\"><polyline points=\"10,20 10,84 240,84 231,84 10,84\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"10,20 240,20 240,53\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"5 3\"/><polygon points=\"10,20 231,84 240,53\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"10\" y1=\"20\" x2=\"240\" y2=\"53\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"240\" y1=\"53\" x2=\"240\" y2=\"84\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><polyline points=\"223.3,81.8 225.5,74.1 233.2,76.3\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"8\" y=\"16\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">A</text><text x=\"240\" y=\"16\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">D</text><text x=\"250\" y=\"53\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"start\">E</text><text x=\"8\" y=\"100\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">B</text><text x=\"224\" y=\"100\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"middle\">F</text><text x=\"248\" y=\"100\" font-size=\"16\" font-style=\"italic\" fill=\"#111\" text-anchor=\"start\">C</text><text x=\"124\" y=\"100\" font-size=\"16\" fill=\"#111\" text-anchor=\"middle\">25</text><text x=\"2\" y=\"56\" font-size=\"16\" fill=\"#111\" text-anchor=\"end\">7</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) $\\overline{CF}=$？"
+    },
+    {
+     "type": "text",
+     "text": "(2) $\\overline{EF}=$？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "提公因式因式分解並代入求值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "(1) 因式分解 $(3x+5)(x-14)-2(x+1)(x-14)+x(x-14)$。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 若 $x=114$ 代入計算 (1) 的這個式子，所得到的值為多少？"
+    }
+   ]
+  }
+ ]
+}
