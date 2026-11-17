@@ -183,3 +183,11 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 - 依使用者指示，把共用資料夾中已轉寫、通過檢查但尚未上站的卷全部發布：都會區 22 卷（新北、臺中，多為 Cloud AI 第十一、十二波九上）＋宜蘭 4 卷＋重新核准 1 卷（新北 `metro-new_taipei-530dfb5ea7127748` 檔案已變更）。可組卷題數 13,717 → 14,379。`npm test` 77 項通過；27 卷 PDF 匯出檢查全數通過（`handoff/batches/20261117-leftover-pdf-acceptance.json`）。清單 `handoff/batches/20261117-leftover-ids.txt`；Cloud AI 的 w11／w12 清單存為各批次資料夾的 `cloud-targets.txt`。
 - 這批未經逐卷原卷疑義整理；各卷 reviewNote 與 source-issues 為準。
 - 正式站驗收：ALL PASS（`handoff/batches/20261117-v60/live-acceptance.json`）。
+
+## v66（20261117-metro-v66；因遠端已先到 v65，於其上重建）：第十四波（九上下，PDF）＋第一批 Word/ODT 直接轉寫（八上），共 34 卷
+
+- 可組卷題數 15,211 → 15,413（含遠端宜蘭新增）。`npm test` 77 項通過；34 卷 PDF 匯出檢查全數通過（`handoff/batches/20261117-w14o1-pdf-acceptance.json`）；疑義見 `handoff/batches/20261117-w14o1-SOURCE_ISSUES_REPORT.md`。
+- 新增 Word/ODT 轉寫流程：`research/metro/office_extract.py`（docx/odt → 文字＋LaTeX 公式＋圖片，含 EQ 欄位、上下標、符號字型、自動編號、WMF 轉 PNG）、`research/metro/wmf_text.py`、`research/make_office_waves.py`、`research/HELPER_OFFICE.md`。`.doc` 舊格式仍無法處理（需 Word）。
+- `scripts/prepare_metro.py`：Word/ODT 來源沒有 Word 轉出的參考 PDF 時不再中斷建置，卡片連結指向官方原檔。測試同步放寬（engine.test.mjs 兩處、exchange.test.mjs 未完成學校數 ≥15）。
+- 正式站驗收：發布後補。
+
