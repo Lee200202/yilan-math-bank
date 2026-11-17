@@ -171,4 +171,9 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 
 - 新增 22 卷，可組卷題數 12,533 → 13,328（含宜蘭先前提交）。`npm test` 77 項通過；22 卷 PDF 匯出檢查全數通過（`handoff/batches/20261117-w12-pdf-acceptance.json`）；疑義見 `handoff/batches/20261117-w12-SOURCE_ISSUES_REPORT.md`。
 - `scripts/merge_batch.py`：檢查指令改為每 150 檔一批，避免 Windows 指令長度上限。
+- 正式站驗收：ALL PASS（3 卷整卷載入／換題／PDF 還原、各年級組卷、手機版、無主控台錯誤；`handoff/batches/20261117-w12/live-acceptance.json`）。
+
+## v59（20261117-metro-v59）：都會區第十三波 16 卷（九上，108–110 學年度）
+
+- 接手 Cloud AI 中斷的 w13 清單，新增 16 卷，可組卷題數 13,328 → 13,717。`npm test` 77 項通過；16 卷 PDF 匯出檢查全數通過（`handoff/batches/20261117-w13-pdf-acceptance.json`）；疑義見 `handoff/batches/20261117-w13-SOURCE_ISSUES_REPORT.md`。
 - 正式站驗收：發布後補。

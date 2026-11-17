@@ -1,0 +1,711 @@
+{
+ "paperId": "metro-new_taipei-88a933afe65dcdcc",
+ "sourceSha256": "a07e248c55040d00803f414a7f1468790bbf14edce6f12951073f4dd59a9883f",
+ "printedHeader": "新北市立中正國民中學108學年度第一學期九年級數學科第二次段考試題（範圍2-1~2-2）",
+ "printedSlot": {
+  "year": 108,
+  "semester": 1,
+  "grade": 9,
+  "exam": 2
+ },
+ "printedCounts": "選擇8題、填充16題（共19格）、計算2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1至2頁（第3頁為答案卷，未收錄）。重繪圖(一)至圖(十八)及計算題兩圖，其中圖(十六)為填充13、14共用（兩題各附一幅）；圖形多依題給數值與條件重新計算比例，與原圖形狀略有差異。原卷填充題上有電腦批改答案殘留（如「13」），已忽略。",
+ "expectedTypes": {
+  "choice": 8,
+  "fill": 16,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "兩圓外離時有 4 條公切線，為最多。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "兩圓的位置關係為下列何者時，公切線數最多？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "外離",
+      "外切",
+      "相交於兩點",
+      "內切"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "由原點在圓上求半徑，再比較各點到圓心的距離判斷圓內。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "坐標平面上有一個圓，圓心坐標為 $(3,-4)$，若原點在此圓上，則下列哪一個點的位置在此圓的內部？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$P(6,-8)$",
+      "$Q(0,5)$",
+      "$R(0,-4)$",
+      "$S(5,5)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "兩圓相交於兩點時，連心線長介於兩半徑差與兩半徑和之間。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有兩圓 $O_1$、$O_2$，圓 $O_1$ 的直徑為 $14$、圓 $O_2$ 的直徑為 $28$，若此二圓相交於兩點，則其連心線段長 $\\overline{O_1O_2}$ 之範圍為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$0\\le\\overline{O_1O_2}<7$",
+      "$7<\\overline{O_1O_2}<21$",
+      "$0\\le\\overline{O_1O_2}<14$",
+      "$14<\\overline{O_1O_2}<42$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "切線長相等與 $\\angle MOP=60^\\circ$ 得 $\\overline{MN}=2\\times 7\\sin 60^\\circ$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(一)，$P$ 為圓 $O$ 外一點，$\\overleftrightarrow{PM}$ 與 $\\overleftrightarrow{PN}$ 為圓 $O$ 的切線，$M$、$N$ 為切點。已知圓 $O$ 半徑為 $7$ 公分、$\\angle MOP=60^\\circ$，則 $\\overline{MN}$ 為多少公分？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 178 172\"><circle cx=\"45\" cy=\"70\" r=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"45\" y1=\"70\" x2=\"65\" y2=\"35.4\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"45\" y1=\"70\" x2=\"65\" y2=\"104.6\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"45\" y1=\"70\" x2=\"125\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"4,3\"/><line x1=\"125\" y1=\"70\" x2=\"65\" y2=\"35.4\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"125\" y1=\"70\" x2=\"65\" y2=\"104.6\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"35\" y=\"74\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text><text x=\"65\" y=\"29.4\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">M</text><text x=\"65\" y=\"121.6\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">N</text><text x=\"135\" y=\"74\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">P</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$12$",
+      "$10$",
+      "$7\\sqrt{3}$",
+      "$6\\sqrt{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2",
+    "nanyi-9-1-1-3"
+   ],
+   "unitAssignmentBasis": "圓內兩弦交於一點，兩線段乘積相等。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(二)，若 $\\overline{PA}=2$、$\\overline{PC}=6$、$\\overline{PD}=4$，則 $\\overline{PB}=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 168 172\"><circle cx=\"70\" cy=\"70\" r=\"50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"20.6\" y1=\"62.2\" x2=\"114.2\" y2=\"93.5\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"35.2\" y1=\"105.9\" x2=\"55.7\" y2=\"22.1\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"44\" cy=\"70\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"11.6\" y=\"60.2\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"26.2\" y=\"115.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"122.2\" y=\"105.5\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"63.7\" y=\"20.1\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"48\" y=\"85\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">P</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$6$",
+      "$5$",
+      "$4$",
+      "$3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "圓內角等於所夾兩弧和的一半。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(二)，若 $\\overset{\\frown}{AB}=88^\\circ$、$\\overset{\\frown}{CD}=102^\\circ$，則圓內角 $\\angle APB=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 168 172\"><circle cx=\"70\" cy=\"70\" r=\"50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"20.6\" y1=\"62.2\" x2=\"114.2\" y2=\"93.5\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"35.2\" y1=\"105.9\" x2=\"55.7\" y2=\"22.1\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"44\" cy=\"70\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"11.6\" y=\"60.2\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"26.2\" y=\"115.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"122.2\" y=\"105.5\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"63.7\" y=\"20.1\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"48\" y=\"85\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">P</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$88^\\circ$",
+      "$95^\\circ$",
+      "$100^\\circ$",
+      "$102^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "圓外切四邊形對邊和相等，周長為對邊和的 2 倍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(三)，四邊形 $ABCD$ 各邊分別與圓 $O$ 相切於 $E$、$F$、$G$、$H$ 四點，若 $\\overline{AD}=11$，$\\overline{BC}=12$，則四邊形 $ABCD$ 的周長為多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 193 182\"><circle cx=\"80\" cy=\"70\" r=\"46\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"35.5,27 32.5,112.8 127.8,119.5 124.3,20.8\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"80\" cy=\"70\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"27.5\" y=\"25\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"24.5\" y=\"124.8\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"136.8\" y=\"131.5\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"133.3\" y=\"18.8\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"25\" y=\"72.4\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"76.8\" y=\"133.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">F</text><text x=\"135\" y=\"72.4\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">G</text><text x=\"76.8\" y=\"17.1\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">H</text><text x=\"90\" y=\"74\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$40$",
+      "$42$",
+      "$44$",
+      "$46$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "三圓兩兩外切，圓心距等於兩半徑和，列三元一次關係求半徑。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(四)，圓 $A$、圓 $B$、圓 $C$ 三個圓兩兩外切，若 $\\overline{AB}=8$、$\\overline{BC}=10$、$\\overline{CA}=14$，則圓 $C$ 的半徑為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 258 232\"><circle cx=\"54\" cy=\"100\" r=\"42\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"105.8\" cy=\"121.3\" r=\"14\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"144.9\" cy=\"63.3\" r=\"56\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"54\" y1=\"100\" x2=\"105.8\" y2=\"121.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"105.8\" y1=\"121.3\" x2=\"144.9\" y2=\"63.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"54\" y1=\"100\" x2=\"144.9\" y2=\"63.3\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"54\" cy=\"100\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"105.8\" cy=\"121.3\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"144.9\" cy=\"63.3\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"42\" y=\"104\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"111.8\" y=\"137.3\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"152.9\" y=\"57.3\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$8$",
+      "$9$",
+      "$10$",
+      "$11$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "弦心距垂直平分弦，用畢氏定理求半徑。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(五)，$\\overline{AB}$ 是圓 $O$ 上一弦，$\\overline{OM}$ 為其弦心距。已知 $\\overline{OM}=5$ 公分、弦 $\\overline{AB}$ 的長度為 $24$ 公分，則圓 $O$ 的半徑為 ＿＿＿＿ 公分。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 105,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 178 172\"><circle cx=\"70\" cy=\"65\" r=\"45\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"52.9\" y1=\"106.6\" x2=\"111.6\" y2=\"47.9\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"65\" x2=\"82.2\" y2=\"77.2\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"70\" cy=\"65\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"78,73 82.2,68.8 86.5,73\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"61\" y=\"67\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text><text x=\"91.2\" y=\"91.2\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">M</text><text x=\"46.9\" y=\"120.6\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"119.6\" y=\"43.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "過圓內一點的弦：最短垂直於 $\\overline{OP}$，最長為直徑。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(六)，$P$ 為圓 $O$ 內部一點，若 $\\overline{OP}=8$，圓 $O$ 半徑長為 $17$，則"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 115,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 198 197\"><circle cx=\"85\" cy=\"80\" r=\"76.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"85\" y1=\"80\" x2=\"85\" y2=\"116\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"85\" cy=\"80\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"85\" cy=\"116\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"97\" y=\"80\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text><text x=\"97\" y=\"122\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">P</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) 圓 $O$ 內過 $P$ 點的最短弦長度為 ＿＿＿＿。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 圓 $O$ 內過 $P$ 點的最長弦長度為 ＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "圓內接等腰梯形，由圓周角得弧度，再求弧長與角度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(七)，四邊形 $ABCD$ 為圓內接梯形，$\\overline{AB}\\parallel\\overline{CD}$，若 $\\angle ACD=40^\\circ$，圓 $O$ 的半徑為 $18$ 公分，求："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 115,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 198 182\"><circle cx=\"85\" cy=\"70\" r=\"60\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"25\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"74.6\" y1=\"10.9\" x2=\"95.4\" y2=\"10.9\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"74.6\" y1=\"10.9\" x2=\"25\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"95.4\" y1=\"10.9\" x2=\"145\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"74.6\" y1=\"10.9\" x2=\"145\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"95.4\" y1=\"10.9\" x2=\"25\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"85\" cy=\"70\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"68.6\" y=\"4.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"101.4\" y=\"4.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"15\" y=\"75\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"155\" y=\"75\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"85\" y=\"87\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text><text x=\"95\" y=\"33.7\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">E</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) $\\overset{\\frown}{BC}$ 長 $=$ ＿＿＿＿ 公分，"
+    },
+    {
+     "type": "text",
+     "text": "(2) $\\angle BCD=$ ＿＿＿＿ 度。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3",
+    "nanyi-9-1-1-3"
+   ],
+   "unitAssignmentBasis": "圓與兩切線的半徑，用面積法 $\\frac12\\times 15\\times 20=\\frac12\\times 25 r+\\cdots$ 或相似三角形求半徑。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(八)，$\\triangle ABC$ 中，$\\angle C=90^\\circ$，$\\overline{AC}$、$\\overline{BC}$ 為圓 $O$ 的切線，且 $\\overline{AB}$ 通過圓心 $O$，若 $\\overline{AC}=15$，$\\overline{BC}=20$，求圓 $O$ 的半徑 $=$ ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 233 182\"><polygon points=\"150,15 10,120 150,120\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"90\" cy=\"60\" r=\"60\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"90\" cy=\"60\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"90\" y1=\"60\" x2=\"90\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"4,3\"/><line x1=\"90\" y1=\"60\" x2=\"150\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"4,3\"/><line x1=\"90\" y1=\"60\" x2=\"150\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"4,3\"/><text x=\"156\" y=\"13\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"1\" y=\"125\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"159\" y=\"134\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"79\" y=\"60\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2",
+    "nanyi-8-2-3-1"
+   ],
+   "unitAssignmentBasis": "圓內接四邊形的外角等於內對角。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(九)，四邊形 $ABCD$ 為圓內接四邊形，且 $B$、$C$、$E$ 三點共線，若 $\\angle ABC=75^\\circ$，$\\angle BAD=110^\\circ$，則 $\\angle DCE=$ ＿＿＿＿ 度。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 243 182\"><circle cx=\"80\" cy=\"75\" r=\"58\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"25.5,55.2 90.1,17.9 137.1,64.9 35.6,112.3\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"137.1\" y1=\"64.9\" x2=\"177.7\" y2=\"46\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"177.7\" cy=\"46\" r=\"2.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"16.5\" y=\"55.2\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"90.1\" y=\"11.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"146.1\" y=\"78.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"32.6\" y=\"127.3\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"185.7\" y=\"40\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">E</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-9-1-1-1"
+   ],
+   "unitAssignmentBasis": "面積比得半徑比 $4:3$，由外切連心線長求半徑，再求內切連心線長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知大小兩圓的面積比為 $16:9$，當兩圓外切時連心線段長是 $21$ 公分，則兩圓內切時連心線段長為 ＿＿＿＿ 公分。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2",
+    "nanyi-8-2-3-1"
+   ],
+   "unitAssignmentBasis": "$\\overline{AD}=\\overline{CD}$ 得等腰三角形角度，再用圓外角等於兩弧差的一半求 $\\overset{\\frown}{AE}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(十)，已知 $\\overleftrightarrow{AB}$、$\\overleftrightarrow{DE}$ 交於圓外一點 $C$，若 $\\overline{AD}=\\overline{CD}$，$\\angle C=20^\\circ$，則 $\\overset{\\frown}{AE}=$ ＿＿＿＿ 度。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 115,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 268 182\"><circle cx=\"75\" cy=\"75\" r=\"58\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"37.7\" y1=\"30.6\" x2=\"239.5\" y2=\"104\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"24.8\" y1=\"104\" x2=\"239.5\" y2=\"104\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"24.8\" y1=\"104\" x2=\"132.1\" y2=\"64.9\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"75\" cy=\"75\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"31.7\" y=\"24.6\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"136.1\" y=\"56.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"125.2\" y=\"121\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"14.8\" y=\"112\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"249.5\" y=\"109\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"65\" y=\"75\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2",
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "弦切角等於所夾弧的圓周角，配合圓外角求 $\\angle PAB$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(十一)，若 $\\overleftrightarrow{AP}$、$\\overleftrightarrow{BC}$ 分別切圓於 $A$、$B$ 兩點，$\\overline{AC}$ 與此圓交於 $D$ 點，(1) 若 $\\angle DAB=32^\\circ$、$\\angle DCB=30^\\circ$，則 $\\angle PAB=$ ＿＿＿＿ 度。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 258 192\"><circle cx=\"85\" cy=\"75\" r=\"58\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"50.9\" y1=\"21.8\" x2=\"14.5\" y2=\"75.7\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"20\" y1=\"133\" x2=\"213.6\" y2=\"133\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"36.9\" y1=\"42.6\" x2=\"193.6\" y2=\"133\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"36.9\" y1=\"42.6\" x2=\"85\" y2=\"133\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"85\" y1=\"133\" x2=\"137.1\" y2=\"100.4\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"28.9\" y=\"38.6\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"85\" y=\"150\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"147.1\" y=\"98.4\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"202.6\" y=\"138\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"4.5\" y=\"83.7\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">P</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3",
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "內公切線：作輔助線構成直角三角形，兩股為 $\\overline{AB}$ 與半徑和，求 $\\overline{O_1O_2}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(十二)，直線 $L$ 與兩圓分別切於 $A$、$B$ 兩點，若 $\\overline{O_1A}=5$、$\\overline{O_2B}=3$、$\\overline{AB}=8$，則 $\\overline{O_1O_2}=$ ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 145,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 278 212\"><circle cx=\"64.7\" cy=\"61.1\" r=\"50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"171\" cy=\"99.8\" r=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"102.4\" y1=\"23.7\" x2=\"155.6\" y2=\"137.9\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"64.7\" y1=\"61.1\" x2=\"171\" y2=\"99.8\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"64.7\" y1=\"61.1\" x2=\"110\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"171\" y1=\"99.8\" x2=\"143.8\" y2=\"112.5\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"64.7\" cy=\"61.1\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"171\" cy=\"99.8\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"103.7,43 106.6,49.3 113,46.3\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"150.2,109.5 147.2,103.2 140.9,106.2\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"55.7\" y=\"65.1\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O₁</text><text x=\"181\" y=\"103.8\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O₂</text><text x=\"114\" y=\"32\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"133.8\" y=\"124.5\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"163.6\" y=\"143.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">L</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-9-1-1-3",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "等圓兩兩相切於直角三角形兩邊，利用相似或距離列式求半徑，再求面積和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(十三)，圓 $O_1$、圓 $O_2$、圓 $O_3$ 三個等圓外切，且圓 $O_1$、圓 $O_3$ 分別與直角三角形 $ABC$ 的其中兩邊外切，若 $\\angle C=90^\\circ$，$\\overline{AC}=18$，$\\overline{BC}=24$，則三個等圓的面積和 $=$ ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 218 182\"><polygon points=\"178,9 10,135 178,135\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"73\" cy=\"114\" r=\"21\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"73\" cy=\"114\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"115\" cy=\"114\" r=\"21\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"115\" cy=\"114\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"157\" cy=\"114\" r=\"21\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"157\" cy=\"114\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"73\" y=\"127\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O₁</text><text x=\"115\" y=\"127\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O₂</text><text x=\"157\" y=\"127\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O₃</text><text x=\"184\" y=\"7\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"1\" y=\"140\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"187\" y=\"149\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2",
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "圓周角與圓心角、四邊形 $PAOB$ 的角度關係，求 $\\angle ADB+\\angle APB$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(十四)，$\\overline{PA}$、$\\overline{PB}$ 分別切圓 $O$ 於 $A$、$B$ 兩點，$C$、$D$ 兩點皆在圓 $O$ 上，若 $\\angle ACB=55^\\circ$，則 $\\angle ADB+\\angle APB=$ ＿＿＿＿ 度。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 213 172\"><circle cx=\"75\" cy=\"70\" r=\"50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"70.6,20.2 34,98.7 123.3,82.9 113.3,37.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"70.6\" y1=\"20.2\" x2=\"141.8\" y2=\"14\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"123.3\" y1=\"82.9\" x2=\"141.8\" y2=\"14\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"75\" cy=\"70\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"68.6\" y=\"14.2\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"129.3\" y=\"97.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"25\" y=\"106.7\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"104.3\" y=\"33.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"150.8\" y=\"11\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">P</text><text x=\"75\" y=\"88\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "兩圓公切線與弦切角、圓內接四邊形，求 $\\angle ACB$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(十五)，兩圓相交於 $C$、$D$ 兩點，$\\overleftrightarrow{AB}$ 分別切兩圓於 $A$、$B$ 兩點，若 $\\angle D=45^\\circ$，則 $\\angle ACB=$ ＿＿＿＿ 度。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 213 167\"><circle cx=\"70\" cy=\"70\" r=\"50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"140.7\" cy=\"70\" r=\"50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40\" y1=\"20\" x2=\"170.7\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"20\" x2=\"105.4\" y2=\"34.6\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"140.7\" y1=\"20\" x2=\"105.4\" y2=\"34.6\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"20\" x2=\"105.4\" y2=\"105.4\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"140.7\" y1=\"20\" x2=\"105.4\" y2=\"105.4\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"65\" y=\"14\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"145.7\" y=\"14\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"107.4\" y=\"48.6\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"107.4\" y=\"122.4\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "13",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3",
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "兩圓外切時外公切線長 $2\\sqrt{Rr}$，過切點的公切線平分外公切線。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(十六)，兩圓 $O_1$、圓 $O_2$ 外切，切點為 $C$，且 $\\overleftrightarrow{AB}$ 與 $\\overleftrightarrow{CD}$ 為公切線，切點分別為 $A$、$B$、$C$ 三點，$\\overline{AB}$ 與 $\\overline{CD}$ 交於 $D$ 點。若圓 $O_1$ 的半徑為 $13$ 公分，圓 $O_2$ 的半徑為 $11$ 公分，則"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 145,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 348 267\"><circle cx=\"92\" cy=\"120\" r=\"78\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"236\" cy=\"120\" r=\"66\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"62.5\" y1=\"39.3\" x2=\"277.5\" y2=\"57.2\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"170\" y1=\"210\" x2=\"170\" y2=\"12.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"92\" y1=\"120\" x2=\"170\" y2=\"48.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"236\" y1=\"120\" x2=\"170\" y2=\"48.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"92\" y1=\"120\" x2=\"236\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"92\" cy=\"120\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"236\" cy=\"120\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"94.5\" y=\"35.3\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"247.5\" y=\"47.2\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"178\" y=\"42.3\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"161\" y=\"134\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"92\" y=\"137\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O₁</text><text x=\"236\" y=\"137\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O₂</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) $\\overline{AB}$ 為 ＿＿＿＿ 公分，"
+    },
+    {
+     "type": "text",
+     "text": "(2) $\\overline{CD}$ 為 ＿＿＿＿ 公分。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "14",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3",
+    "nanyi-9-1-1-4"
+   ],
+   "unitAssignmentBasis": "$\\angle O_1DO_2=90^\\circ$，用直角三角形面積求 $\\overline{CD}$，$\\overline{AB}=2\\overline{CD}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(十六)，兩圓 $O_1$、圓 $O_2$ 外切，切點為 $C$，且 $\\overleftrightarrow{AB}$ 與 $\\overleftrightarrow{CD}$ 為公切線，切點分別為 $A$、$B$、$C$ 三點，$\\overline{AB}$ 與 $\\overline{CD}$ 交於 $D$ 點。若 $\\overline{O_1D}=24$、$\\overline{O_2D}=18$，則 $\\overline{AB}=$ ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 145,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 348 267\"><circle cx=\"92\" cy=\"120\" r=\"78\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"236\" cy=\"120\" r=\"66\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"62.5\" y1=\"39.3\" x2=\"277.5\" y2=\"57.2\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"170\" y1=\"210\" x2=\"170\" y2=\"12.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"92\" y1=\"120\" x2=\"170\" y2=\"48.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"236\" y1=\"120\" x2=\"170\" y2=\"48.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"92\" y1=\"120\" x2=\"236\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"92\" cy=\"120\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"236\" cy=\"120\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"94.5\" y=\"35.3\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"247.5\" y=\"47.2\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"178\" y=\"42.3\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"161\" y=\"134\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"92\" y=\"137\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O₁</text><text x=\"236\" y=\"137\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O₂</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "15",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "切線長性質得 $\\angle COD=90^\\circ$，$CO^{2}+OD^{2}=CD^{2}=(AC+BD)^{2}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖(十七)，直線 $\\overleftrightarrow{AC}$、$\\overleftrightarrow{CD}$、$\\overleftrightarrow{BD}$ 均為圓 $O$ 的切線，且 $A$、$E$、$B$ 為其切點。若 $\\overline{AC}=4$，$\\overline{BD}=7$，則 $\\overline{CO}^{2}+\\overline{OD}^{2}=$ ＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 213 222\"><circle cx=\"60\" cy=\"100\" r=\"37\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"4.4\" y1=\"63\" x2=\"88\" y2=\"63\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"4.4\" y1=\"137\" x2=\"109\" y2=\"137\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"88\" y1=\"63\" x2=\"109\" y2=\"137\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"60\" y1=\"63\" x2=\"60\" y2=\"137\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"60\" cy=\"100\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"60,70 67,70 67,63\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"60,130 67,130 67,137\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"60\" y=\"56\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"94\" y=\"56\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"60\" y=\"154\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"117\" y=\"151\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"105.6\" y=\"89.9\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"50\" y=\"104\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "16",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2",
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "外切兩圓的公切線與半圓周角 $90^\\circ$、弦切角，求 $\\angle BAD$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖(十八)，圓 $O_1$ 與圓 $O_2$ 外切於 $A$，$\\overline{CD}$ 為這兩圓的外公切線且 $C$、$D$ 分別是圓 $O_1$ 與圓 $O_2$ 上的切點，$\\overline{AB}$ 是圓 $O_1$ 的直徑，若 $\\angle ABC=25^\\circ$，則 $\\angle BAD=$ ＿＿＿＿ 度。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 203 162\"><circle cx=\"60\" cy=\"90\" r=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"108.7\" cy=\"90\" r=\"8.7\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"20\" y1=\"90\" x2=\"85.7\" y2=\"59.4\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"85.7\" y1=\"59.4\" x2=\"100\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"100\" y1=\"90\" x2=\"114.3\" y2=\"83.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"85.7\" y1=\"59.4\" x2=\"114.3\" y2=\"83.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"20\" y1=\"90\" x2=\"100\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"60\" cy=\"90\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"108.7\" cy=\"90\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"11\" y=\"94\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"85.7\" y=\"53.4\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"98\" y=\"105\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"120.3\" y=\"78.3\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"60\" y=\"105\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O₁</text><text x=\"114.7\" y=\"105\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O₂</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2",
+    "nanyi-9-1-1-3"
+   ],
+   "unitAssignmentBasis": "割線與切線性質：$\\overline{PA}\\times\\overline{PB}=\\overline{PC}\\times\\overline{PD}=\\overline{PE}^{2}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$\\overleftrightarrow{PA}$ 交圓 $O$ 於 $A$、$B$ 兩點，$\\overleftrightarrow{PC}$ 交圓 $O$ 於 $C$、$D$ 兩點，$\\overleftrightarrow{PE}$ 為圓 $O$ 切線，切點為 $E$，若 $\\overline{CD}=14$、$\\overline{PA}=8$、$\\overline{AB}=7$，求"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 125,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 243 202\"><circle cx=\"104.5\" cy=\"84\" r=\"52.4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"20\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"20\" y1=\"110\" x2=\"83.5\" y2=\"36\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"20\" y1=\"110\" x2=\"87.2\" y2=\"133.5\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"104.5\" cy=\"84\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"10\" y=\"115\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">P</text><text x=\"44.9\" y=\"72.5\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"83.5\" y=\"30\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"57\" y=\"126\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"159\" y=\"114\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"89.2\" y=\"149.5\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"114.5\" y=\"78\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) $\\overline{PC}=$？"
+    },
+    {
+     "type": "text",
+     "text": "(2) $\\overline{PE}=$？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3",
+    "nanyi-9-1-2-1"
+   ],
+   "unitAssignmentBasis": "弦切小圓時 $\\overline{OC}$ 垂直平分弦，用畢氏定理求小圓半徑，再算環形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "右圖為兩同心圓，其中 $\\overline{AB}$ 為大圓的一弦且切小圓於 $C$ 點，若大圓半徑為 $30$，$\\overline{AB}$ 為 $48$，則"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 125,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -16 178 172\"><circle cx=\"70\" cy=\"65\" r=\"55\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"70\" cy=\"65\" r=\"33\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"26\" y1=\"32\" x2=\"114\" y2=\"32\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"70\" cy=\"65\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"70\" cy=\"32\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"17\" y=\"36\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"123\" y=\"36\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"70\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"70\" y=\"81\" font-size=\"15\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">O</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) 小圓半徑為多少？"
+    },
+    {
+     "type": "text",
+     "text": "(2) 大圓與小圓之間的環形區域面積為多少？"
+    }
+   ]
+  }
+ ]
+}

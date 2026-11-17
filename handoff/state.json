@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-17T08:47:50.268832+00:00",
-  "head": "bc646addbbb3aba6567238901ea751701fab9aac",
-  "dataVersion": "20261117-metro-v58",
+  "generatedAt": "2026-11-17T08:53:19.706896+00:00",
+  "head": "c2479100442b128324d4322b598dd6415884e908",
+  "dataVersion": "20261117-metro-v59",
   "paperCount": 1528,
-  "questionRecords": 13334,
-  "usableQuestions": 13328,
+  "questionRecords": 13723,
+  "usableQuestions": 13717,
   "statuses": {
-    "complete": 471,
-    "complete-with-source-issues": 59,
-    "pending": 987,
+    "complete": 485,
+    "complete-with-source-issues": 61,
+    "pending": 971,
     "partial": 11
   },
   "regions": {
@@ -24,38 +24,38 @@
     "new_taipei": {
       "papers": 685,
       "statuses": {
-        "pending": 526,
-        "complete": 141,
+        "pending": 519,
+        "complete": 148,
         "complete-with-source-issues": 18
       },
-      "usableQuestions": 4064
+      "usableQuestions": 4237
     },
     "taichung": {
       "papers": 212,
       "statuses": {
-        "complete": 79,
-        "complete-with-source-issues": 10,
-        "pending": 123
+        "complete": 81,
+        "complete-with-source-issues": 11,
+        "pending": 120
       },
-      "usableQuestions": 2290
+      "usableQuestions": 2366
     },
     "taipei": {
       "papers": 54,
       "statuses": {
-        "complete-with-source-issues": 6,
+        "complete-with-source-issues": 7,
         "complete": 29,
-        "pending": 19
+        "pending": 18
       },
-      "usableQuestions": 874
+      "usableQuestions": 900
     },
     "taoyuan": {
       "papers": 146,
       "statuses": {
-        "pending": 98,
-        "complete": 42,
+        "pending": 93,
+        "complete": 47,
         "complete-with-source-issues": 6
       },
-      "usableQuestions": 1152
+      "usableQuestions": 1266
     },
     "yilan": {
       "papers": 270,
@@ -111,7 +111,7 @@
       ]
     },
     "new_taipei": {
-      "remaining": 172,
+      "remaining": 165,
       "next": [
         {
           "paperId": "metro-new_taipei-e30f51dc497bbd00",
@@ -152,7 +152,7 @@
       ]
     },
     "taichung": {
-      "remaining": 66,
+      "remaining": 63,
       "next": [
         {
           "paperId": "metro-taichung-c492c637c48c9959-998d7afd",
@@ -193,7 +193,7 @@
       ]
     },
     "taipei_taoyuan": {
-      "remaining": 51,
+      "remaining": 45,
       "next": [
         {
           "paperId": "metro-taoyuan-84fec2475bcc6fec",
@@ -470,7 +470,7 @@
   "remainingByFormat": {
     "docx": 320,
     "doc": 148,
-    "pdf": 389,
+    "pdf": 373,
     "odt": 141
   },
   "notInPreparedQueues": [
@@ -1086,6 +1086,6 @@
     "metro-taipei-927010dbc0ab4d71-745196a7"
   ],
   "parked": [],
-  "workingChanges": "M VERIFICATION.md\n M handoff/CLAIMS.json\n M public/app.mjs\n M public/data/coverage.json\n M public/data/paper-workflow.json\n M public/data/papers.json\n M public/data/questions.json\n M public/fonts/TW-Kai-subset.ttf\n M public/fonts/TW-Kai-subset.woff2\n M public/fonts/subset-coverage.json\n M public/index.html\n M public/units-ui.mjs\n M public/workbench.css\n M research/release-transcripts.json\n M scripts/merge_batch.py\n M scripts/qa-requested-papers.mjs\n?? handoff/batches/20261117-w12-SOURCE_ISSUES_REPORT.md\n?? handoff/batches/20261117-w12-ids.txt\n?? handoff/batches/20261117-w12-pdf-acceptance.json\n?? public/papers/metro-new_taipei-5a23abb837a254e9.pdf\n?? public/papers/metro-new_taipei-6b0484b8de6fe799.pdf\n?? public/papers/metro-new_taipei-7d95b90c303196fe-7aa78bb0.pdf\n?? public/papers/metro-new_taipei-7d95b90c303196fe-b1e0d408.pdf\n?? public/papers/metro-new_taipei-817619b244ce579a-49d25394.pdf\n?? public/papers/metro-new_taipei-84f48813c34fa243.pdf\n?? public/papers/metro-new_taipei-b1743c7513f5880c.pdf\n?? public/papers/metro-new_taipei-b5a141acdf7d8ceb-3f182d67.pdf\n?? public/papers/metro-new_taipei-bcaa84c9fb997fc3.pdf\n?? public/papers/metro-new_taipei-d0d087dd4c0b470a.pdf\n?? public/papers/metro-new_taipei-d815f2d04cd47991.pdf\n?? public/papers/metro-new_taipei-d87a9189ff92618d.pdf\n?? public/papers/metro-new_taipei-e2ed3a166eac53c5.pdf\n?? public/papers/metro-taichung-216b470b3938a058-5d33ca83.pdf\n?? public/papers/metro-taichung-31785c7bb0e77dd5-bfd05c1e.pdf\n?? public/papers/metro-taichung-53fee485b86c0fb2-f6d302a6.pdf\n?? public/papers/metro-taichung-9856e07f6fad415b.pdf\n?? public/papers/metro-taichung-b0815e0647d67f33.pdf\n?? public/papers/metro-taichung-b13be87570de0889-ece43e93.pdf\n?? public/papers/metro-taichung-b2dc1099f137909d-378db96f.pdf\n?? public/papers/metro-taichung-c65654521b3dbecc-9f35c04b.pdf\n?? public/papers/metro-taichung-f4d6af8a0e11f3a1-54ba7081.pdf\n?? research/metro/transcribed/metro-new_taipei-5a23abb837a254e9.json\n?? research/metro/transcribed/metro-new_taipei-6b0484b8de6fe799.json\n?? research/metro/transcribed/metro-new_taipei-7d95b90c303196fe-7aa78bb0.json\n?? research/metro/transcribed/metro-new_taipei-7d95b90c303196fe-b1e0d408.json\n?? research/metro/transcribed/metro-new_taipei-817619b244ce579a-49d25394.json\n?? research/metro/transcribed/metro-new_taipei-84f48813c34fa243.json\n?? research/metro/transcribed/metro-new_taipei-b1743c7513f5880c.json\n?? research/metro/transcribed/metro-new_taipei-b5a141acdf7d8ceb-3f182d67.json\n?? research/metro/transcribed/metro-new_taipei-bcaa84c9fb997fc3.json\n?? research/metro/transcribed/metro-new_taipei-d0d087dd4c0b470a.json\n?? research/metro/transcribed/metro-new_taipei-d815f2d04cd47991.json\n?? research/metro/transcribed/metro-new_taipei-d87a9189ff92618d.json\n?? research/metro/transcribed/metro-new_taipei-e2ed3a166eac53c5.json\n?? research/metro/transcribed/metro-taichung-216b470b3938a058-5d33ca83.json\n?? research/metro/transcribed/metro-taichung-31785c7bb0e77dd5-bfd05c1e.json\n?? research/metro/transcribed/metro-taichung-53fee485b86c0fb2-f6d302a6.json\n?? research/metro/transcribed/metro-taichung-9856e07f6fad415b.json\n?? research/metro/transcribed/metro-taichung-b0815e0647d67f33.json\n?? research/metro/transcribed/metro-taichung-b13be87570de0889-ece43e93.json\n?? research/metro/transcribed/metro-taichung-b2dc1099f137909d-378db96f.json\n?? research/metro/transcribed/metro-taichung-c65654521b3dbecc-9f35c04b.json\n?? research/metro/transcribed/metro-taichung-f4d6af8a0e11f3a1-54ba7081.json",
+  "workingChanges": "M VERIFICATION.md\n M handoff/CLAIMS.json\n M public/app.mjs\n M public/data/coverage.json\n M public/data/paper-workflow.json\n M public/data/papers.json\n M public/data/questions.json\n M public/fonts/TW-Kai-subset.ttf\n M public/fonts/TW-Kai-subset.woff2\n M public/fonts/subset-coverage.json\n M public/index.html\n M public/units-ui.mjs\n M public/workbench.css\n M research/release-transcripts.json\n M scripts/qa-requested-papers.mjs\n?? handoff/batches/20261117-w12/\n?? handoff/batches/20261117-w13-SOURCE_ISSUES_REPORT.md\n?? handoff/batches/20261117-w13-ids.txt\n?? handoff/batches/20261117-w13-pdf-acceptance.json\n?? public/papers/metro-new_taipei-018bb4c875817ade.pdf\n?? public/papers/metro-new_taipei-88a933afe65dcdcc.pdf\n?? public/papers/metro-new_taipei-bf3192db64e4741b.pdf\n?? public/papers/metro-new_taipei-cb70b5b231c6e64d.pdf\n?? public/papers/metro-new_taipei-cf79664bbcd60dc2.pdf\n?? public/papers/metro-new_taipei-efb593365e7f68f2.pdf\n?? public/papers/metro-new_taipei-f6f6f1a582773683.pdf\n?? public/papers/metro-taichung-788f78d3b0e5b7e0-d148062f.pdf\n?? public/papers/metro-taichung-c6caa842ead027dd-414e19ff.pdf\n?? public/papers/metro-taichung-ee36c60a7a2f3342-19e02f3d.pdf\n?? public/papers/metro-taipei-053945dd25e66b4a.pdf\n?? public/papers/metro-taoyuan-39d700ec28d6a030.pdf\n?? public/papers/metro-taoyuan-40391ec2b8b98585.pdf\n?? public/papers/metro-taoyuan-52277f06cffd8c52.pdf\n?? public/papers/metro-taoyuan-5dde993c55871df4.pdf\n?? public/papers/metro-taoyuan-f994e6d0bfb7ea0c.pdf\n?? research/metro/transcribed/metro-new_taipei-018bb4c875817ade.json\n?? research/metro/transcribed/metro-new_taipei-88a933afe65dcdcc.json\n?? research/metro/transcribed/metro-new_taipei-bf3192db64e4741b.json\n?? research/metro/transcribed/metro-new_taipei-cb70b5b231c6e64d.json\n?? research/metro/transcribed/metro-new_taipei-cf79664bbcd60dc2.json\n?? research/metro/transcribed/metro-new_taipei-efb593365e7f68f2.json\n?? research/metro/transcribed/metro-new_taipei-f6f6f1a582773683.json\n?? research/metro/transcribed/metro-taichung-788f78d3b0e5b7e0-d148062f.json\n?? research/metro/transcribed/metro-taichung-c6caa842ead027dd-414e19ff.json\n?? research/metro/transcribed/metro-taichung-ee36c60a7a2f3342-19e02f3d.json\n?? research/metro/transcribed/metro-taipei-053945dd25e66b4a.json\n?? research/metro/transcribed/metro-taoyuan-39d700ec28d6a030.json\n?? research/metro/transcribed/metro-taoyuan-40391ec2b8b98585.json\n?? research/metro/transcribed/metro-taoyuan-52277f06cffd8c52.json\n?? research/metro/transcribed/metro-taoyuan-5dde993c55871df4.json\n?? research/metro/transcribed/metro-taoyuan-f994e6d0bfb7ea0c.json\n?? scratch/",
   "warning": "此快照只代表本機資料；不代表 PDF 目視通過或正式站已更新，另讀 VERIFICATION.md。"
 }
