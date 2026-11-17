@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v55 宜蘭九下（2026-11-17）
+
+新增中華111下九二 `1Nr14twvD65HQwpWUlA-ATwUfMCEgjqGE` 17題組與112下九二 `1ah-78tAk-UdF9_2dFnSCGcxhOdbjH0xY` 20題；原卷重複錯誤選項已保留註記。本機12,682題、77項測試通過，部署另查 Actions。持續宜蘭九下，九上 DOC／答案卷缺口不可視為完成；多AI未提交稿見 AI_UPLOAD_AUDIT_20261117.json 與共享工作目錄。
+
 ## v54 宜蘭九下（2026-11-17）
 
 中華112下九一 `1VMeuADYnNNcXqN60pemHOVHfldoQkzAk` 已轉寫22題，21可用，填4原題正負未限定而停用。圖形已重繪；本機建置12,645題、77項測試通過。部署以 GitHub Actions 與正式站為準。其他 AI 的未發布檔以原共享目錄 CLAIMS、AI_UPLOAD_AUDIT 清單與最新實際內容逐卷核對，不得假稱全部已上傳。
