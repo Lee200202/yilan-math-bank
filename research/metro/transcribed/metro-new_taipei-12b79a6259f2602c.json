@@ -1,0 +1,843 @@
+{
+ "paperId": "metro-new_taipei-12b79a6259f2602c",
+ "sourceSha256": "6cd091a46107bbe38c62a0553dccd248e891cde5e1b841180a5703aa1660b71a",
+ "printedHeader": "新北市立鷺江國民中學114學年度第1學期9年級數學科第3次段考",
+ "printedSlot": {
+  "year": 114,
+  "semester": 1,
+  "grade": 9,
+  "exam": 3
+ },
+ "printedCounts": "選擇題25題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照四頁頁面圖與文字層逐題重讀；圖皆以向量重繪。第23至25題原為插圖藏寶地圖，以四個地標與三個家的相對位置重繪為示意圖（位置由原圖量得，經計算外心、內心、重心對應的地標可唯一判定）。",
+ "expectedTypes": {
+  "choice": 25
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-1-3-1",
+   "unitIds": [
+    "nanyi-9-1-3-1"
+   ],
+   "unitAssignmentBasis": "奇數與偶數的和與積、平方的性質判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列各選項，何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "任意兩個奇數相加的和是奇數。",
+      "任意兩個偶數的乘積是奇數。",
+      "奇數的平方是奇數。",
+      "偶數的平方是奇數。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2"
+   ],
+   "unitAssignmentBasis": "三角形外心、內心、重心的位置與性質。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列各選項，何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "三角形的外心必在三角形內部。",
+      "三角形的內心與重心必在三角形內部。",
+      "三角形的外心到三角形的三邊等距離。",
+      "三角形的外心為三內角角平分線的交點。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-1",
+   "unitIds": [
+    "nanyi-9-1-3-1",
+    "nanyi-8-2-3-3"
+   ],
+   "unitAssignmentBasis": "以全等性質（ASA）補足推理過程所缺的條件。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，四邊形 $ABCD$，$\\angle CBA=\\angle DAB$，$\\angle CAB=\\angle DBA$，證明 $\\overline{AC}=\\overline{BD}$。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 270 140\"><polygon points=\"15,122 255,122 180,20 90,20\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><line x1=\"15\" y1=\"122\" x2=\"180\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"255\" y1=\"122\" x2=\"90\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"84\" y=\"14\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"186\" y=\"14\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"5\" y=\"128\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"265\" y=\"128\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "證明：在 $\\triangle ABC$ 和 $\\triangle BAD$，"
+    },
+    {
+     "type": "text",
+     "text": "$\\because$ $\\angle CBA=\\angle DAB$"
+    },
+    {
+     "type": "text",
+     "text": "（　　　　　　　　）"
+    },
+    {
+     "type": "text",
+     "text": "$\\angle CAB=\\angle DBA$"
+    },
+    {
+     "type": "text",
+     "text": "$\\therefore \\triangle ABC\\cong\\triangle BAD$"
+    },
+    {
+     "type": "text",
+     "text": "故 $\\overline{AC}=\\overline{BD}$"
+    },
+    {
+     "type": "text",
+     "text": "試問空白括號內還應加入那一證明過程，才能完整證明？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\angle CBD=\\angle DAC$",
+      "$\\angle ACB=\\angle BDA$",
+      "$\\overline{AB}=\\overline{AB}$",
+      "$\\overline{CA}=\\overline{DB}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "利用平方差公式化簡後判斷倍數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $k$ 為正整數，則 $(k+2)^{2}-k^{2}$ 是那一個數的倍數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3$",
+      "$4$",
+      "$6$",
+      "$9$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-9-1-3-1"
+   ],
+   "unitAssignmentBasis": "外心到三頂點等距，由正方形邊長相等判斷是否為另兩個三角形的外心。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，已知 $F$ 點為鈍角三角形 $ABC$ 的外心，四邊形 $CDEF$ 為正方形，其中 $D$、$E$ 兩點皆在三角形外部。以下為小祐與小喆對於此圖形的看法："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 185\"><polygon points=\"58,70 15,128 218,125\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"218,125 185,25 82,60 118,160\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><text x=\"49\" y=\"68\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"6\" y=\"134\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"228\" y=\"133\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"187\" y=\"18\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"78\" y=\"52\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"120\" y=\"176\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">F</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "小祐：「我認為 $F$ 點是三角形 $ACE$ 的外心。」"
+    },
+    {
+     "type": "text",
+     "text": "小喆：「我認為 $F$ 點也是三角形 $BCE$ 的外心。」"
+    },
+    {
+     "type": "text",
+     "text": "判斷兩人的看法何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "僅小祐正確",
+      "僅小喆正確",
+      "兩人的看法皆正確",
+      "兩人的看法皆不正確"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2"
+   ],
+   "unitAssignmentBasis": "重心將中線分成 2:1，求兩重疊正三角形的重疊面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，有兩全等的正三角形 $ABC$、$DEF$，面積均為 $144$，且 $D$、$A$ 分別為正三角形 $ABC$、正三角形 $DEF$ 的重心，則兩個正三角形重疊區域的面積為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 190 160\"><polygon points=\"95,49.6 115,84.3 95,118.9 75,84.3\" fill=\"#ffe94d\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"35,15 155,15 95,118.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"95,49.6 155,153.6 35,153.6\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><text x=\"26\" y=\"13\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"164\" y=\"13\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">F</text><text x=\"26\" y=\"163.6\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"164\" y=\"163.6\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"95\" y=\"43.6\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"95\" y=\"112.9\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$16$",
+      "$32$",
+      "$48$",
+      "$64$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "外心對應圓心角，圓周角為圓心角一半，並討論銳角、鈍角兩種情形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在 $\\triangle ABC$ 中，$O$ 點為外心，若 $\\angle BOC=142^\\circ$，則 $\\angle BAC$ 的度數為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$71^\\circ$ 或 $109^\\circ$",
+      "$72^\\circ$ 或 $108^\\circ$",
+      "$75^\\circ$ 或 $105^\\circ$",
+      "$76^\\circ$ 或 $104^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "直角三角形外心為斜邊中點，由 OC=BC 得正三角形再求邊長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，直角 $\\triangle ABC$ 中，$\\angle C=90^\\circ$，$O$ 點為外心，若 $\\overline{OC}=\\overline{BC}=5$，則 $\\triangle ABC$ 的周長為多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 215\"><polygon points=\"110,51.4 30,190 110,190\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"120.7\" x2=\"110\" y2=\"190\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"102,190 102,182 110,182\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><circle cx=\"70\" cy=\"120.7\" r=\"2\" fill=\"#111\"/><text x=\"119\" y=\"51.4\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"21\" y=\"198\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"119\" y=\"202\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"60\" y=\"120.7\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$5(3+\\sqrt{3})$",
+      "$5(5+\\sqrt{5})$",
+      "$5(7+\\sqrt{7})$",
+      "$5(11+\\sqrt{11})$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2"
+   ],
+   "unitAssignmentBasis": "內心到三邊等距，面積比等於邊長比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $I$ 點為 $\\triangle ABC$ 的內心，$\\overline{AB}:\\overline{BC}:\\overline{CA}=3:8:9$。已知 $\\triangle BIC$ 的面積為 $24$，則 $\\triangle ABC$ 的面積為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 125\"><polygon points=\"30,29 42,100 234,100\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><line x1=\"66\" y1=\"71.6\" x2=\"30\" y2=\"29\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"66\" y1=\"71.6\" x2=\"42\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"66\" y1=\"71.6\" x2=\"234\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"26\" y=\"23\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"34\" y=\"110\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"244\" y=\"106\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"64\" y=\"65.6\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">I</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$45$",
+      "$50$",
+      "$55$",
+      "$60$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "等腰三角形求高與面積，再用內切圓半徑公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$\\triangle ABC$ 中，$\\overline{AB}=\\overline{AC}=10$，$\\overline{BC}=16$，則其內切圓半徑為多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 115\"><polygon points=\"103,24 15,90 191,90\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><text x=\"103\" y=\"18\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"6\" y=\"96\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"200\" y=\"96\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{8}{3}$",
+      "$\\dfrac{7}{4}$",
+      "$\\dfrac{6}{5}$",
+      "$\\dfrac{11}{7}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "直角三角形外心為斜邊中點，重心到頂點距離為中線的三分之二。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$\\triangle ABC$ 中，$\\angle ACB=90^\\circ$，$\\overline{AB}=15$，$\\overline{AC}=12$，$O$、$G$ 兩點分別為 $\\triangle ABC$ 的外心與重心，則 $\\overline{CG}=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 215\"><polygon points=\"150,46 42,190 150,190\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><line x1=\"96\" y1=\"118\" x2=\"150\" y2=\"190\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"42\" y1=\"190\" x2=\"150\" y2=\"118\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"142,190 142,182 150,182\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><circle cx=\"96\" cy=\"118\" r=\"2\" fill=\"#111\"/><circle cx=\"114\" cy=\"142\" r=\"2\" fill=\"#111\"/><text x=\"158\" y=\"46\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"33\" y=\"198\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"159\" y=\"202\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"86\" y=\"118\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"124\" y=\"138\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">G</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3.5$",
+      "$4$",
+      "$4.5$",
+      "$5$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "重心與面積：由畢氏定理求邊長，△ACG 為三角形面積的三分之一。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，直角 $\\triangle ABC$ 中，$\\angle B=90^\\circ$，$G$ 點為中線 $\\overline{AD}$、$\\overline{CE}$ 之交點。若 $\\overline{AB}=16$、$\\overline{AC}=20$，則 $\\triangle ACG$ 面積為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 180\"><polygon points=\"54,150 230,150 230,18\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><line x1=\"54\" y1=\"150\" x2=\"230\" y2=\"84\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"230\" y1=\"18\" x2=\"142\" y2=\"150\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"222,150 222,142 230,142\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><text x=\"45\" y=\"156\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"240\" y=\"158\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"230\" y=\"12\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"240\" y=\"84\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"142\" y=\"167\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"173.3\" y=\"99\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">G</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$30$",
+      "$32$",
+      "$34$",
+      "$36$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "13",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-8-2-4-2"
+   ],
+   "unitAssignmentBasis": "平行四邊形對角線互相平分，G 為 △ABC 的重心，求 BD。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，四邊形 $ABCD$ 為平行四邊形，兩對角線 $\\overline{AC}$ 與 $\\overline{BD}$ 交於 $O$ 點，$E$ 為 $\\overline{BC}$ 的中點，$\\overline{AE}$ 與 $\\overline{BD}$ 相交於 $G$ 點，且 $\\overline{OG}=10$，則 $\\overline{BD}$ 長度為多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 255 170\"><polygon points=\"75,20 233,20 170,140 5,140\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><line x1=\"75\" y1=\"20\" x2=\"170\" y2=\"140\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"5\" y1=\"140\" x2=\"233\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"75\" y1=\"20\" x2=\"87.5\" y2=\"140\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"73\" y=\"14\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"241\" y=\"16\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"-3\" y=\"148\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"178\" y=\"148\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"87.5\" y=\"157\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"75.2\" y=\"94.8\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">G</text><text x=\"132.5\" y=\"86\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$50$",
+      "$60$",
+      "$70$",
+      "$80$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "14",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-8-2-4-2"
+   ],
+   "unitAssignmentBasis": "以重心與平行四邊形面積比求 △AGO 佔平行四邊形的比例。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，四邊形 $ABCD$ 為平行四邊形，兩對角線 $\\overline{AC}$ 與 $\\overline{BD}$ 交於 $O$ 點，$E$ 為 $\\overline{BC}$ 的中點，$\\overline{AE}$ 與 $\\overline{BD}$ 相交於 $G$ 點，且 $\\overline{OG}=10$。$\\triangle AGO$ 面積為平行四邊形 $ABCD$ 面積的幾分之幾？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 255 170\"><polygon points=\"75,20 233,20 170,140 5,140\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><line x1=\"75\" y1=\"20\" x2=\"170\" y2=\"140\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"5\" y1=\"140\" x2=\"233\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"75\" y1=\"20\" x2=\"87.5\" y2=\"140\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"73\" y=\"14\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"241\" y=\"16\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"-3\" y=\"148\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"178\" y=\"148\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"87.5\" y=\"157\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"75.2\" y=\"94.8\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">G</text><text x=\"132.5\" y=\"86\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{1}{7}$",
+      "$\\dfrac{1}{8}$",
+      "$\\dfrac{1}{12}$",
+      "$\\dfrac{1}{13}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "15",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2"
+   ],
+   "unitAssignmentBasis": "重心分中線 2:1，以面積比由四邊形 AHBG 求 △ABC。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$\\triangle ABC$ 中，三中線 $\\overline{AD}$、$\\overline{BE}$、$\\overline{CF}$ 交於 $G$ 點，$H$ 點在 $\\overline{CF}$ 上，且 $\\overline{CG}=\\overline{GH}$。若四邊形 $AHBG$ 的面積為 $96$，則 $\\triangle ABC$ 的面積為多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 215 200\"><polygon points=\"15,150 193,150 135,5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><line x1=\"15\" y1=\"150\" x2=\"164\" y2=\"77.5\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"193\" y1=\"150\" x2=\"75\" y2=\"77.5\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"135\" y1=\"5\" x2=\"93.7\" y2=\"198.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"15\" y1=\"150\" x2=\"93.7\" y2=\"198.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"193\" y1=\"150\" x2=\"93.7\" y2=\"198.3\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"6\" y=\"154\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"203\" y=\"154\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"135\" y=\"-1\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"174\" y=\"75.5\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"65\" y=\"75.5\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"110\" y=\"144\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">F</text><text x=\"108.3\" y=\"93.7\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">G</text><text x=\"93.7\" y=\"214.3\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">H</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$144$",
+      "$156$",
+      "$160$",
+      "$166$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "16",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "外接圓半徑等於腰長，得正三角形 OAB，再求底與高。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$O$ 點為等腰 $\\triangle ABC$ 的外心，$\\overline{AO}$ 交 $\\overline{BC}$ 於 $D$ 點，若 $\\overline{AB}=\\overline{AC}=20$，外接圓面積為 $400\\pi$，則 $\\triangle ABC$ 的面積為多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 135\"><polygon points=\"100,30 30.7,70 169.3,70\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><line x1=\"100\" y1=\"30\" x2=\"100\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"100\" cy=\"110\" r=\"2.5\" fill=\"#111\"/><text x=\"100\" y=\"24\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"21.7\" y=\"72\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"179.3\" y=\"72\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"110\" y=\"87\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"90\" y=\"116\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$100\\sqrt{2}$",
+      "$100\\sqrt{3}$",
+      "$120\\sqrt{2}$",
+      "$120\\sqrt{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "17",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-3-1",
+   "unitIds": [
+    "nanyi-9-1-3-1",
+    "nanyi-8-2-3-3"
+   ],
+   "unitAssignmentBasis": "兩正三角形共頂點，利用 SAS 全等推得角度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，正 $\\triangle ABC$ 中，$D$ 為 $\\overline{BC}$ 上一點，若 $\\triangle ADE$ 為正三角形，則 $\\angle BCE=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 165\"><polygon points=\"92.5,8 15,142 170,142\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"92.5,8 115,142 219.8,55.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><line x1=\"170\" y1=\"142\" x2=\"219.8\" y2=\"55.5\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"92.5\" y=\"2\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"6\" y=\"150\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"113\" y=\"159\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"180\" y=\"150\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"229.8\" y=\"55.5\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$116^\\circ$",
+      "$118^\\circ$",
+      "$120^\\circ$",
+      "$122^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "18",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "正三角形外心為中心，由外接圓直徑求邊長與面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$\\overline{AB}$、$\\overline{BC}$、$\\overline{CA}$ 為圓 $O$ 內等長的弦，若圓 $O$ 的直徑為 $14$，則 $\\triangle ABC$ 面積為多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 205\"><circle cx=\"100\" cy=\"100\" r=\"85\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"100,15 26.4,142.5 173.6,142.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><circle cx=\"100\" cy=\"100\" r=\"2.5\" fill=\"#111\"/><text x=\"100\" y=\"9\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"17.4\" y=\"150.5\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"182.6\" y=\"150.5\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"90\" y=\"94\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{141}{4}\\sqrt{3}$",
+      "$\\dfrac{143}{4}\\sqrt{3}$",
+      "$\\dfrac{145}{4}\\sqrt{3}$",
+      "$\\dfrac{147}{4}\\sqrt{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "19",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "座標平面上以三邊長與內切圓半徑求內心座標。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，直角坐標平面上有一 $\\triangle OAB$，若 $A$ 點坐標為 $(3,4)$、$B$ 點坐標為 $(6,0)$，則 $\\triangle OAB$ 內心坐標為？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 230 170\"><line x1=\"15\" y1=\"130\" x2=\"215\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40\" y1=\"155\" x2=\"40\" y2=\"10\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"215,130 207,127 207,133\" fill=\"#111\"/><polygon points=\"40,10 37,18 43,18\" fill=\"#111\"/><text x=\"217\" y=\"148\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><text x=\"30\" y=\"14\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">y</text><polygon points=\"40,130 106,42 172,130\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><circle cx=\"106\" cy=\"42\" r=\"2\" fill=\"#111\"/><circle cx=\"172\" cy=\"130\" r=\"2\" fill=\"#111\"/><text x=\"31\" y=\"145\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text><text x=\"97\" y=\"38\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"174\" y=\"145\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(3,\\dfrac{3}{2})$",
+      "$(4,\\dfrac{4}{3})$",
+      "$(5,\\dfrac{5}{4})$",
+      "$(6,\\dfrac{6}{5})$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "20",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "直角三角形斜邊中點為外心，由 BC 為斜邊判斷 D 的位置。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$\\triangle ABC$ 中，$\\overline{BE}$ 與 $\\overline{CF}$ 分別為 $\\overline{AC}$ 與 $\\overline{AB}$ 邊上的高，$D$ 為 $\\overline{BC}$ 的中點，已知 $\\overline{CE}=10$，$\\overline{BE}=24$，則 $D$ 點是 $\\triangle BCF$ 的什麼心？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 235\"><polygon points=\"195.4,11.9 20,215 280,215\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><line x1=\"20\" y1=\"215\" x2=\"241.5\" y2=\"122.7\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"280\" y1=\"215\" x2=\"131.1\" y2=\"86.4\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"150\" y1=\"215\" x2=\"241.5\" y2=\"122.7\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"150\" y1=\"215\" x2=\"131.1\" y2=\"86.4\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"135.7,81.1 141,85.7 136.4,91\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polyline points=\"238.8,116.2 232.4,118.9 235.1,125.4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><text x=\"195.4\" y=\"5.9\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"11\" y=\"223\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"290\" y=\"223\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"150\" y=\"232\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"251.5\" y=\"120.7\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"122.1\" y=\"84.4\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">F</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "內心",
+      "外心",
+      "重心",
+      "以上皆非"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "21",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "D 為直角三角形 BCF 的外心，DF 等於斜邊 BC 的一半。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$\\triangle ABC$ 中，$\\overline{BE}$ 與 $\\overline{CF}$ 分別為 $\\overline{AC}$ 與 $\\overline{AB}$ 邊上的高，$D$ 為 $\\overline{BC}$ 的中點，已知 $\\overline{CE}=10$，$\\overline{BE}=24$，則 $\\overline{DF}=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 235\"><polygon points=\"195.4,11.9 20,215 280,215\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><line x1=\"20\" y1=\"215\" x2=\"241.5\" y2=\"122.7\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"280\" y1=\"215\" x2=\"131.1\" y2=\"86.4\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"150\" y1=\"215\" x2=\"241.5\" y2=\"122.7\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"150\" y1=\"215\" x2=\"131.1\" y2=\"86.4\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"135.7,81.1 141,85.7 136.4,91\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polyline points=\"238.8,116.2 232.4,118.9 235.1,125.4\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><text x=\"195.4\" y=\"5.9\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"11\" y=\"223\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"290\" y=\"223\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"150\" y=\"232\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"251.5\" y=\"120.7\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">E</text><text x=\"122.1\" y=\"84.4\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">F</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$9$",
+      "$11$",
+      "$13$",
+      "$15$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "22",
+   "page": 4,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "外心在邊的中垂線上，坐標平面上以等距求外心座標。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，坐標平面上，$A(-7,0)$，$B(7,0)$，$C(0,5)$，若 $P(x,y)$ 為 $\\triangle ABC$ 的外心，則 $x-5y$ 之值為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 230 130\"><line x1=\"-10\" y1=\"90\" x2=\"215\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"100\" y1=\"110\" x2=\"100\" y2=\"12\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"215,90 207,87 207,93\" fill=\"#111\"/><polygon points=\"100,12 97,20 103,20\" fill=\"#111\"/><polygon points=\"16,90 184,90 100,30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><text x=\"217\" y=\"106\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">x</text><text x=\"90\" y=\"16\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">y</text><text x=\"12\" y=\"84\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">A</text><text x=\"188\" y=\"84\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">B</text><text x=\"110\" y=\"27\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">C</text><text x=\"92\" y=\"104\" font-size=\"15\" font-family=\"serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$9$",
+      "$10$",
+      "$11$",
+      "$12$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "23",
+   "page": 4,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2"
+   ],
+   "unitAssignmentBasis": "到三頂點等距的點為外心，在地圖上以中垂線找出。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "大雄在後山發現了一張藏寶圖！地圖上標示著哆啦A夢遺失的「任意門轉運站」、「露天音箱」、「時光噴泉」、「記憶圖書館」。（藏寶地圖如下圖，圖中四個方框為四個地標位置，三個黑點為大雄家、靜香家、胖虎家。）"
+    },
+    {
+     "type": "text",
+     "text": "哆啦A夢說：「我有個道具藏在某個地方，這個地方到大雄家、靜香家和胖虎家的距離都一樣，走路去每個人家都很快！」請問這個地標最可能是："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 160,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\"><rect x=\"2\" y=\"2\" width=\"696\" height=\"326\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"188\" cy=\"35\" r=\"4\" fill=\"#111\"/><text x=\"200\" y=\"40\" font-size=\"15\" font-family=\"serif\" text-anchor=\"start\" fill=\"#111\">胖虎家</text><circle cx=\"105\" cy=\"268\" r=\"4\" fill=\"#111\"/><text x=\"117\" y=\"272\" font-size=\"15\" font-family=\"serif\" text-anchor=\"start\" fill=\"#111\">大雄家</text><circle cx=\"678\" cy=\"268\" r=\"4\" fill=\"#111\"/><text x=\"666\" y=\"260\" font-size=\"15\" font-family=\"serif\" text-anchor=\"end\" fill=\"#111\">靜香家</text><rect x=\"163\" y=\"205\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"168\" y=\"198\" font-size=\"14\" font-family=\"serif\" text-anchor=\"middle\" fill=\"#111\">露天音箱</text><rect x=\"232\" y=\"163\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"237\" y=\"156\" font-size=\"14\" font-family=\"serif\" text-anchor=\"middle\" fill=\"#111\">任意門轉運站</text><rect x=\"335\" y=\"180\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"340\" y=\"173\" font-size=\"14\" font-family=\"serif\" text-anchor=\"middle\" fill=\"#111\">記憶圖書館</text><rect x=\"385\" y=\"245\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"390\" y=\"272\" font-size=\"14\" font-family=\"serif\" text-anchor=\"middle\" fill=\"#111\">時光噴泉</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "時光噴泉",
+      "記憶圖書館",
+      "任意門轉運站",
+      "露天音箱"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "24",
+   "page": 4,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2"
+   ],
+   "unitAssignmentBasis": "到三邊等距的點為內心，在地圖上以角平分線找出。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "大雄在後山發現了一張藏寶圖！地圖上標示著哆啦A夢遺失的「任意門轉運站」、「露天音箱」、「時光噴泉」、「記憶圖書館」。（藏寶地圖如下圖，圖中四個方框為四個地標位置，三個黑點為大雄家、靜香家、胖虎家。）"
+    },
+    {
+     "type": "text",
+     "text": "以他們三個人的家會形成一個三角形。靜香想要哆啦A夢幫她蓋一個「圓形花園」，要求這個花園要離這個三角形的三邊等距離。請問這個地點對應的地標是："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 160,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\"><rect x=\"2\" y=\"2\" width=\"696\" height=\"326\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"188\" cy=\"35\" r=\"4\" fill=\"#111\"/><text x=\"200\" y=\"40\" font-size=\"15\" font-family=\"serif\" text-anchor=\"start\" fill=\"#111\">胖虎家</text><circle cx=\"105\" cy=\"268\" r=\"4\" fill=\"#111\"/><text x=\"117\" y=\"272\" font-size=\"15\" font-family=\"serif\" text-anchor=\"start\" fill=\"#111\">大雄家</text><circle cx=\"678\" cy=\"268\" r=\"4\" fill=\"#111\"/><text x=\"666\" y=\"260\" font-size=\"15\" font-family=\"serif\" text-anchor=\"end\" fill=\"#111\">靜香家</text><rect x=\"163\" y=\"205\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"168\" y=\"198\" font-size=\"14\" font-family=\"serif\" text-anchor=\"middle\" fill=\"#111\">露天音箱</text><rect x=\"232\" y=\"163\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"237\" y=\"156\" font-size=\"14\" font-family=\"serif\" text-anchor=\"middle\" fill=\"#111\">任意門轉運站</text><rect x=\"335\" y=\"180\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"340\" y=\"173\" font-size=\"14\" font-family=\"serif\" text-anchor=\"middle\" fill=\"#111\">記憶圖書館</text><rect x=\"385\" y=\"245\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"390\" y=\"272\" font-size=\"14\" font-family=\"serif\" text-anchor=\"middle\" fill=\"#111\">時光噴泉</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "時光噴泉",
+      "記憶圖書館",
+      "任意門轉運站",
+      "露天音箱"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "25",
+   "page": 4,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2"
+   ],
+   "unitAssignmentBasis": "三角形的重心為三頂點坐標平均，在地圖上找出。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "大雄在後山發現了一張藏寶圖！地圖上標示著哆啦A夢遺失的「任意門轉運站」、「露天音箱」、「時光噴泉」、「記憶圖書館」。（藏寶地圖如下圖，圖中四個方框為四個地標位置，三個黑點為大雄家、靜香家、胖虎家。）"
+    },
+    {
+     "type": "text",
+     "text": "胖虎打了鄰居小朋友，他媽媽要修理他，因此胖虎要哆啦A夢找個地點讓他躲起來，要求這個地點是在這三角形的重心。請問這個重心點對應的地標是："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 160,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\"><rect x=\"2\" y=\"2\" width=\"696\" height=\"326\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"188\" cy=\"35\" r=\"4\" fill=\"#111\"/><text x=\"200\" y=\"40\" font-size=\"15\" font-family=\"serif\" text-anchor=\"start\" fill=\"#111\">胖虎家</text><circle cx=\"105\" cy=\"268\" r=\"4\" fill=\"#111\"/><text x=\"117\" y=\"272\" font-size=\"15\" font-family=\"serif\" text-anchor=\"start\" fill=\"#111\">大雄家</text><circle cx=\"678\" cy=\"268\" r=\"4\" fill=\"#111\"/><text x=\"666\" y=\"260\" font-size=\"15\" font-family=\"serif\" text-anchor=\"end\" fill=\"#111\">靜香家</text><rect x=\"163\" y=\"205\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"168\" y=\"198\" font-size=\"14\" font-family=\"serif\" text-anchor=\"middle\" fill=\"#111\">露天音箱</text><rect x=\"232\" y=\"163\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"237\" y=\"156\" font-size=\"14\" font-family=\"serif\" text-anchor=\"middle\" fill=\"#111\">任意門轉運站</text><rect x=\"335\" y=\"180\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"340\" y=\"173\" font-size=\"14\" font-family=\"serif\" text-anchor=\"middle\" fill=\"#111\">記憶圖書館</text><rect x=\"385\" y=\"245\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"390\" y=\"272\" font-size=\"14\" font-family=\"serif\" text-anchor=\"middle\" fill=\"#111\">時光噴泉</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "時光噴泉",
+      "記憶圖書館",
+      "任意門轉運站",
+      "露天音箱"
+     ]
+    }
+   ]
+  }
+ ]
+}

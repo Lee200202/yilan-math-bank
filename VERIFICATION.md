@@ -177,3 +177,9 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 
 - 接手 Cloud AI 中斷的 w13 清單，新增 16 卷，可組卷題數 13,328 → 13,717。`npm test` 77 項通過；16 卷 PDF 匯出檢查全數通過（`handoff/batches/20261117-w13-pdf-acceptance.json`）；疑義見 `handoff/batches/20261117-w13-SOURCE_ISSUES_REPORT.md`。
 - 正式站驗收：ALL PASS（`handoff/batches/20261117-w13/live-acceptance.json`）。
+
+## v60（20261117-metro-v60）：補上先前完成但未上站的轉寫稿（27 卷）
+
+- 依使用者指示，把共用資料夾中已轉寫、通過檢查但尚未上站的卷全部發布：都會區 22 卷（新北、臺中，多為 Cloud AI 第十一、十二波九上）＋宜蘭 4 卷＋重新核准 1 卷（新北 `metro-new_taipei-530dfb5ea7127748` 檔案已變更）。可組卷題數 13,717 → 14,379。`npm test` 77 項通過；27 卷 PDF 匯出檢查全數通過（`handoff/batches/20261117-leftover-pdf-acceptance.json`）。清單 `handoff/batches/20261117-leftover-ids.txt`；Cloud AI 的 w11／w12 清單存為各批次資料夾的 `cloud-targets.txt`。
+- 這批未經逐卷原卷疑義整理；各卷 reviewNote 與 source-issues 為準。
+- 正式站驗收：發布後補。
