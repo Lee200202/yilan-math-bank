@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v62 宜蘭九下（2026-11-17）
+
+新增中華 `1lWtFa-Jjc8Z77Eg2MBRcoQVLrc7F7Qr6` 25/25（3計算題來源為獨立答案卷）與 `1PAf8GkV-WnaR9l6L5o2CdAMIqOyokW96` 20/20（原題表格百分比合計90%，照原卷保留並註記）。本機14,482題、77項測試通過，網站狀態查Actions。DOC 原卷獨立草稿與解析紀錄見 research/word-reference，尚未發行。
+
 ## v61 圖形修正與宜蘭九下（2026-11-17）
 
 已在 v60 基礎上補入中華109下九二 `1JJHVV6vhGJGnXuMSWo8wYgrFJfS-_94W` 10/10 與108下九二 `1U_QKE5U_XHgspfFMI4z0UALHYFLGcPZC` 26/26。修正羅東107下九二 `ld-107-2-2-9` 第11題隱藏邊與第12題標籤；實際輸出PDF檢視第11、12、18、21題的圖與虛線，25題及題號齊全、無點陣題圖。建置14,437題、77項測試通過；部署以 Actions 與正式站為準。
