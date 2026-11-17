@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v63 宜蘭九下（2026-11-17）
+
+新增羅東107下九一 `ld-107-2-1-9` 21/22（原卷比較項重複缺漏，1題停用）與中華106下九二 `174QCQASOMa3gnCdI0oS0BADxGv_cZO3P` 18/18。本機建置14,521題、77項測試通過；部署以Actions與網站為準。繼續宜蘭九下；九上 Word 草稿仍保留 research/word-reference，不能當完成。
+
 ## v62 宜蘭九下（2026-11-17）
 
 新增中華 `1lWtFa-Jjc8Z77Eg2MBRcoQVLrc7F7Qr6` 25/25（3計算題來源為獨立答案卷）與 `1PAf8GkV-WnaR9l6L5o2CdAMIqOyokW96` 20/20（原題表格百分比合計90%，照原卷保留並註記）。本機14,482題、77項測試通過，網站狀態查Actions。DOC 原卷獨立草稿與解析紀錄見 research/word-reference，尚未發行。
