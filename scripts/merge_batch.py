@@ -14,7 +14,9 @@ def run(command):
 if __name__ == '__main__':
     files = sorted((ROOT / 'research/metro/transcribed').glob('*.json')) + sorted((ROOT / 'research/yilan/transcribed').glob('*.json'))
     files = [p for p in files if approved(ROOT,p)]
-    run([sys.executable, 'scripts/check_transcript.py', *(f.relative_to(ROOT).as_posix() for f in files)])
+    rel = [f.relative_to(ROOT).as_posix() for f in files]
+    for i in range(0, len(rel), 150):  # Windows command lines are limited to ~32k chars
+        run([sys.executable, 'scripts/check_transcript.py', *rel[i:i + 150]])
     run([sys.executable, 'scripts/prepare_data.py'])
     run([sys.executable, 'scripts/subset_font.py'])
     # Node is cross-platform; shell-free invocation also works on Windows npm.cmd.
