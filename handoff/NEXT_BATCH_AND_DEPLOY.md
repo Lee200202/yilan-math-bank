@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v65 宜蘭九下（2026-11-17）
+
+新增羅東105下九一 `ld-105-2-1-9` 19/19 與中華105下九二 `1mWMEAkBMg952vrGmeKhCJOYQ2WE2ddxU` 21/22；後者 III-2 歷年折線圖僅概略重現，無法確保忠實支援判斷，暫停該題。本機建置14,603題、77項測試通過；部署以Actions與正式站為準。Word 草稿仍未發布。
+
 ## v64 宜蘭九下（2026-11-17）
 
 新增中華106下九一 `1KsOfekSeWsMWzrOqZkNIHSXcYpIhGj4E` 19/19 與羅東106下九二 `ld-106-2-2-9` 23/25；後者第13題選項無正解、第18題資料不足，均保留停用。本機14,563題、77項測試通過，部署以Actions與網站為準。九上 Word 草稿仍留 research/word-reference/drafts，非正式題庫，持續核對。
