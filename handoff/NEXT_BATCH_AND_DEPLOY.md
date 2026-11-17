@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v54 宜蘭九下（2026-11-17）
+
+中華112下九一 `1VMeuADYnNNcXqN60pemHOVHfldoQkzAk` 已轉寫22題，21可用，填4原題正負未限定而停用。圖形已重繪；本機建置12,645題、77項測試通過。部署以 GitHub Actions 與正式站為準。其他 AI 的未發布檔以原共享目錄 CLAIMS、AI_UPLOAD_AUDIT 清單與最新實際內容逐卷核對，不得假稱全部已上傳。
+
 ## v53 宜蘭九年級（2026-11-17）
 
 本版納入中華106上九一 `1w29VRxA9QMjO1dZ_ooVx3NO4ssuxJCFB`、羅東105上九一 `ld-105-1-1-9`、中華113下九二 `1p6cGtyJnvEtLoGtkXVHk0OaaO8kohB75`、羅東110下九二 `ld-110-2-2-9`。羅東兩卷各有原卷條件或選項矛盾各1題停用；中華九下計算題來源為獨立答案卷，網址及SHA見轉錄稿 additionalSources。本機建置 12,624 題、77測試通過；正式部署另查 Actions。中斷工作與本機未上傳檔案清單見 AI_UPLOAD_AUDIT_20261117.json，先核對現況再派工。
