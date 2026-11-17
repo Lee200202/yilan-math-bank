@@ -25,13 +25,22 @@ cand = []
 for x in papers:
     if x['region'] not in regions or x.get('transcriptionStatus', '').startswith('complete') or x['id'] in taken or x['id'] in issues:
         continue
-    if x['format'] not in ('docx', 'odt'):
+    if x['format'] not in ('docx', 'odt', 'doc'):
         continue
     path = local.get(x['id'])
-    if path and (ROOT / path).exists():
+    extract_from = path
+    if x['format'] == 'doc':  # legacy Word: use the .docx made by scripts/word_convert_batch.py (SHA stays that of the original .doc)
+        conv = 'research/metro/converted/' + x['id'] + '.docx'
+        extract_from = conv if (ROOT / conv).exists() else None
+    if path and extract_from and (ROOT / path).exists():
         cand.append({'paperId': x['id'], 'region': x['region'], 'school': x['school'], 'year': x['year'], 'semester': x['semester'],
-                     'grade': x['grade'], 'exam': x['exam'], 'source': path, 'format': x['format'],
+                     'grade': x['grade'], 'exam': x['exam'], 'source': path, 'extractFrom': extract_from, 'format': x['format'],
                      'outFile': 'research/metro/transcribed/' + x['id'] + '.json'})
+# drop odt duplicates: when the same school/slot exists as .docx/.doc and as .odt, the Word version is more reliable
+slots = collections.defaultdict(set)
+for c in cand:
+    slots[(c['school'], c['year'], c['semester'], c['grade'], c['exam'])].add(c['format'])
+cand = [c for c in cand if not (c['format'] == 'odt' and slots[(c['school'], c['year'], c['semester'], c['grade'], c['exam'])] & {'docx', 'doc'})]
 PRIORITY = {(8, 1): 0, (8, 2): 1, (9, 1): 2, (9, 2): 3, (7, 1): 4, (7, 2): 4}
 rank = lambda t: PRIORITY.get((t['grade'], t['semester']), 9)
 ridx = {r: i for i, r in enumerate(regions)}
@@ -40,7 +49,7 @@ chosen = order[:helpers * per]
 now = datetime.datetime.now(datetime.timezone.utc).isoformat()
 for t in chosen:
     d = ROOT / 'research/targets/office' / t['paperId']
-    r = subprocess.run([sys.executable, '-X', 'utf8', str(ROOT / 'research/metro/office_extract.py'), str(ROOT / t['source']), str(d)],
+    r = subprocess.run([sys.executable, '-X', 'utf8', str(ROOT / 'research/metro/office_extract.py'), str(ROOT / t['extractFrom']), str(d)],
                        capture_output=True, text=True, encoding='utf-8')
     t['office'] = f"research/targets/office/{t['paperId']}/text.md"
     t['extract'] = (r.stdout.strip().splitlines() or [r.stderr[-200:]])[-1][:120]

@@ -195,4 +195,8 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 ## v67（20261117-metro-v67）：依使用者裁決補發 3 卷（民族國中 ×2、自強第二次）
 
 - 可組卷題數 15,413 → 15,490。`npm test` 77 項通過；3 卷 PDF 匯出檢查通過。裁決與依據見 `handoff/batches/20261117-held3-NOTES.md`、`research/metro/slot-overrides.json`。`scripts/prepare_metro.py` 新增 `school` 覆蓋欄位。
-- 正式站驗收：發布後補。
+- 正式站驗收：ALL PASS（`handoff/batches/20261117-v67/live-acceptance.json`）；正式站資料確認民族國中 ×2、自強第2次。
+
+## Word → DOCX 自動轉檔工具（2026-11-17，未改動網站）
+
+- 新增 `scripts/word_convert.py`、`word_convert_one.ps1`、`word_convert_batch.py`：用本機 Word 把舊版 `.doc` 無人值守轉成 `.docx`（約 8–11 秒／份，不卡住；舊 Equation Editor 公式被轉成真公式）。說明見 `handoff/WORD_CONVERT.md`。`research/make_office_waves.py` 支援轉換後的 doc 並自動去除 docx／odt 重複。
