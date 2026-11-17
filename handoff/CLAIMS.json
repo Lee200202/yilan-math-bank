@@ -1,2455 +1,2599 @@
 {
-  "claims": [
-    {
-      "agent": "school_inventory",
-      "paperId": "1WHmRmhEpiignvLq7SJ6XAymkqX_puPvr",
-      "status": "source-and-pdf-verified",
-      "batch": "20261115-v15"
-    },
-    {
-      "agent": "school_inventory",
-      "paperId": "1N7akUT_Cyuz05u1dNYDUr7ZRdfciAV_3",
-      "status": "source-and-pdf-verified",
-      "batch": "20261115-v15"
-    },
-    {
-      "agent": "source_research",
-      "paperId": "metro-new_taipei-496df91f55fcc6af",
-      "status": "source-and-pdf-verified",
-      "batch": "20261115-v15"
-    },
-    {
-      "agent": "source_research",
-      "paperId": "metro-new_taipei-15ccb3f889b576f9",
-      "status": "source-and-pdf-verified",
-      "batch": "20261115-v15"
-    },
-    {
-      "agent": "Codex",
-      "paperId": "metro-taichung-1bfb6cff9c03ff5f-b4f39ce6",
-      "status": "source-and-pdf-verified",
-      "batch": "20261115-v15"
-    },
-    {
-      "agent": "Codex-source-review-3",
-      "paperId": "1UKzQxD5vS7Pgr7D8eyGj5AxRUF5EjYS8",
-      "status": "published-text",
-      "sharedPack": "handoff/workpacks/yilan-zhonghua-01.zip",
-      "note": "全卷15題完成轉寫，全量SVG向量重繪，通過check_transcript與handoff_exchange intake驗證。",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-1",
-      "paperId": "1bzl5dOvIbwrYn2nZEy9Jlw3yS5qkl5Id",
-      "status": "published-text",
-      "sharedPack": "handoff/workpacks/yilan-zhonghua-01.zip",
-      "note": "全卷21題完成轉寫，14幅純向量SVG重繪，通過check_transcript與intake驗證。",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-2",
-      "paperId": "nc-110-1-1-9",
-      "status": "published-text",
-      "sharedPack": "handoff/workpacks/yilan-neicheng-01.zip",
-      "note": "全卷22題完成轉寫，12組純向量SVG重繪（含optionFigures面板），通過check_transcript與intake驗證。",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "pending",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-3",
-      "paperId": "nc-110-1-3-9",
-      "status": "published-text",
-      "sharedPack": "handoff/workpacks/yilan-neicheng-01.zip",
-      "note": "全卷22題完成轉寫，11組純向量幾何與情境SVG重繪，通過check_transcript與intake驗證。",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "pending",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-3",
-      "paperId": "ld-110-1-2-7",
-      "status": "published-text",
-      "sharedPack": "handoff/workpacks/yilan-luodong-01.zip",
-      "note": "全卷22題完成轉寫，通過check_transcript與intake驗證。",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-3",
-      "paperId": "ld-112-1-1-7",
-      "status": "published-text",
-      "sharedPack": "handoff/workpacks/yilan-luodong-01.zip",
-      "note": "全卷24題完成轉寫，純向量數線SVG重繪，通過check_transcript與intake驗證。",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "pending",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-1",
-      "paperId": "metro-taipei-4dd690b8587a3cf6",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/興福國中_第1包",
-      "note": "全卷27題完成轉寫，3幅直角坐標系向量SVG重繪，通過check_transcript與intake驗證。",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-2",
-      "paperId": "metro-taipei-5b254e58c256b046",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/興福國中_第1包",
-      "note": "全卷27題完成轉寫（可用26題，1題原題無最簡分數停用），質因數分解短除法向量SVG重繪，通過check_transcript與intake驗證。",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-zhonghua",
-      "paperId": "metro-new_taipei-7cd592b6bb5523d9",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/三和國中_第1包",
-      "note": "全卷25題完成轉寫，16幅高精度純向量SVG重繪，通過check_transcript與intake驗證。",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-zhonghua",
-      "paperId": "metro-new_taipei-bd58e37631b2b9dd",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/三和國中_第1包",
-      "note": "全卷25題完成轉寫，17幅高精度純向量SVG重繪，通過check_transcript與intake驗證。",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-luodong",
-      "paperId": "metro-taichung-2a6f4107bf420737-dd698c91",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/向上國中_第1包",
-      "note": "全卷23題完成轉寫，14幅純向量SVG重繪，通過check_transcript與intake驗證。",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-1",
-      "paperId": "metro-taichung-33aa153f5696dfab-d018c852",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/向上國中_第1包",
-      "note": "全卷23題完成轉寫，線型函數坐標軸SVG及等差九宮格table結構化排版，通過check_transcript與intake驗證。",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-xingfu",
-      "paperId": "metro-kaohsiung-4b70fe3ce1dec252",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/大灣國中_第1包",
-      "note": "接續多Agent並行派工（高雄市立大灣國中）。",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-xingfu",
-      "paperId": "metro-kaohsiung-e02156b47ddeeb35",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/大灣國中_第1包",
-      "note": "接續多Agent並行派工（高雄市立大灣國中）。",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-3",
-      "paperId": "metro-taoyuan-124b10db3fe20584",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/自強國中_第1包",
-      "note": "全卷21題完成轉寫，8幅純向量SVG重繪（含三視圖optionFigures面板、坐標方格等），通過check_transcript與intake驗證。",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-1",
-      "paperId": "metro-taoyuan-bb459e3e33300227",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/自強國中_第1包",
-      "note": "全卷20題完成轉寫，數線選項純向量optionFigures面板重繪，通過check_transcript與intake驗證。",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-neicheng",
-      "paperId": "metro-taipei-509300ecf27c3ab8-ab2bebfa",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/誠正國中_第1包",
-      "note": "接續多Agent並行派工（臺北市立誠正國中）。",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-1",
-      "paperId": "metro-taipei-e46b59a1468c8ed0-67065845",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/誠正國中_第1包",
-      "note": "接續多Agent並行派工（臺北市立誠正國中）。",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-luodong",
-      "paperId": "metro-new_taipei-48000408be9d1cbf-e11d08e9",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/五峰國中_第1包",
-      "note": "接續多Agent並行派工（新北市立五峰國中）。",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-luodong",
-      "paperId": "metro-new_taipei-f75aec47e95dd944-87a42e19",
-      "status": "published-text",
-      "sharedPack": "output/external-ai/五峰國中_第1包",
-      "note": "接續多Agent並行派工（新北市立五峰國中）。",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-2",
-      "paperId": "metro-taichung-4180c88b4eef0001-ebfd1c88",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-daye",
-      "paperId": "metro-taichung-95e31b65b363fa06-ddcf5fc4",
-      "status": "published-text",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-yonghe",
-      "paperId": "metro-new_taipei-6634e66e4ed9aabe",
-      "status": "published-text",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-1",
-      "paperId": "metro-new_taipei-ed07d2affdc64c8e",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-2",
-      "paperId": "metro-new_taipei-468697ed08e57880",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-zhongzheng",
-      "paperId": "metro-new_taipei-9f2559a02c8e9c6e",
-      "status": "published-text",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-xinzhuang",
-      "paperId": "metro-new_taipei-61dfa91da9e32b52",
-      "status": "published-text",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-3",
-      "paperId": "metro-new_taipei-e2c17f6cb4474c24",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-lujiang",
-      "paperId": "metro-new_taipei-09b063aea71ea3ce",
-      "status": "source-issue-reported"
-    },
-    {
-      "agent": "Codex-source-review-1",
-      "paperId": "metro-new_taipei-1301dd54e12fcb4c",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-fuhe",
-      "paperId": "metro-new_taipei-5cab22c1a02f7f12-79bd26ce",
-      "status": "published-text",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-fuhe",
-      "paperId": "metro-new_taipei-b21214e21635f694-4838de03",
-      "status": "published-text",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-1",
-      "paperId": "metro-taichung-9dafef2259b6eb43",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-2",
-      "paperId": "metro-taichung-c1b2801d9f350f8e",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-sanhe-02",
-      "paperId": "metro-new_taipei-4063b9afdc8dfcc7",
-      "status": "published-text",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-sanhe-02",
-      "paperId": "metro-new_taipei-c2b108cc42ec8d83",
-      "status": "published-text",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-dawan-02",
-      "paperId": "metro-kaohsiung-8e2d0ff29aa419d6",
-      "status": "published-text",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-dawan-02",
-      "paperId": "metro-kaohsiung-921d04ed484090b6",
-      "status": "published-text",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-3",
-      "paperId": "metro-taichung-c022227cebcf9962-f51e2d09",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-3",
-      "paperId": "metro-taichung-e625830e7b498df5-b44837ec",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Antigravity-subagent-ziqiang-02",
-      "paperId": "metro-taoyuan-73d7c0ecb504ddb0",
-      "status": "published-text",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-3",
-      "paperId": "metro-taoyuan-a83099fd238f1cb9",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-1",
-      "paperId": "metro-taipei-5d62e415c7f44b90-372f7899",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-2",
-      "paperId": "metro-taipei-8e5cc48d338b1a31-deed3a72",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-1",
-      "paperId": "ld-110-1-3-7",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-2",
-      "paperId": "ld-110-2-1-7",
-      "status": "published-text",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "pending",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-2",
-      "paperId": "1Kqjgn-K3nvvgGfntroSOtnScJ0rhsOuf",
-      "status": "published-text",
-      "note": "Claude 接手完成（原外部子代理配額中斷）",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "pending",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-2",
-      "paperId": "1nxHnyR47GQM4EgbVPJ3iBvZPFEqKCPxH",
-      "status": "published-text",
-      "note": "Claude 接手完成（原外部子代理配額中斷）",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "pending",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-3",
-      "paperId": "metro-taipei-94f246461699ab6b",
-      "status": "published-text",
-      "note": "Claude 接手完成（原外部子代理配額中斷）",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-2",
-      "paperId": "metro-taipei-f2d726b55ed00db9",
-      "status": "published-text",
-      "note": "Claude 接手完成（原外部子代理配額中斷）",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "pending",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-2",
-      "paperId": "metro-taichung-0258b91306c86b6b-c23ebfeb",
-      "status": "published-text",
-      "note": "Claude 接手完成（原外部子代理配額中斷）",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-3",
-      "paperId": "metro-taichung-4180c88b4eef0001-54c01c80",
-      "status": "published-text",
-      "note": "Claude 接手完成（原外部子代理配額中斷）",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-1",
-      "paperId": "nc-109-1-1-7",
-      "status": "published-text",
-      "note": "Claude 接手完成（原外部子代理配額中斷）",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "Codex-source-review-1",
-      "paperId": "nc-110-1-2-8",
-      "status": "published-text",
-      "note": "Claude 接手完成（原外部子代理配額中斷）",
-      "scope": "source comparison only; coordinator controls public release",
-      "figureReview": "recorded",
-      "batch": "20261115-v16-fast",
-      "publishedCommit": "6e10507"
-    },
-    {
-      "agent": "school_inventory",
-      "paperId": "metro-taipei-2bcf4289f42bec73-a9450eed",
-      "status": "text-ready",
-      "batch": "20261115-v17-codex",
-      "note": "誠正國中 114-2 八年級第二次段考，7選13填4算共24題（23題可用），純向量SVG重繪，check_transcript OK。"
-    },
-    {
-      "agent": "school_inventory",
-      "paperId": "metro-taipei-8e45d570dbece6d4-833d428d",
-      "status": "text-ready",
-      "batch": "20261115-v17-codex",
-      "note": "誠正國中 114-2 八年級第三次段考，26題選擇題全可用，20幅幾何純向量SVG重繪，check_transcript OK。"
-    },
-    {
-      "agent": "Codex",
-      "paperId": "metro-kaohsiung-ddec2d6fcbb95b4c",
-      "status": "text-ready",
-      "batch": "20261115-v17-codex",
-      "note": "大灣國中 110-1 八年級第一次段考，23選2算共25題，3幅純向量SVG，check_transcript OK。"
-    },
-    {
-      "agent": "typeset_other_schools",
-      "paperId": "metro-new_taipei-16a5afc78611d992",
-      "status": "text-ready",
-      "batch": "20261115-v17-codex",
-      "note": "中正國中 114-2 八年級第一次段考，4選18填2算共24題，純向量SVG重繪，check_transcript OK。"
-    },
-    {
-      "agent": "math_transcriber_kaohsiung",
-      "paperId": "metro-kaohsiung-42845582bb52e377",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大灣國中 114-1 九年級第三次段考，25題選擇題全可用，16幅純向量SVG重繪，check_transcript OK。"
-    },
-    {
-      "agent": "math_transcriber_new_taipei",
-      "paperId": "metro-new_taipei-73971426535f87d5",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "新莊國中 114-1 九年級第三次段考，20題選擇題全可用，9幅純向量SVG重繪，check_transcript OK。"
-    },
-    {
-      "agent": "math_transcriber_kaohsiung",
-      "paperId": "metro-kaohsiung-2ae2b2bfc5e6f989",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大灣國中 114-2 九年級第一次段考，23選2算共25題全可用，10幅純向量SVG重繪，check_transcript OK。"
-    },
-    {
-      "agent": "subagent_taichung_xiangshang",
-      "paperId": "metro-taichung-787d0e9b8e01cbe8-954f386d",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "向上國中 114-2 九年級第一次段考，23題全可用（10選11填2算），4幅純向量SVG，check_transcript OK。"
-    },
-    {
-      "agent": "subagent_new_taipei_zhongzheng",
-      "paperId": "metro-new_taipei-5266f1c6ee13cd09",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "中正國中 114-2 九年級第一次段考，30題全可用（26選4算），7幅純向量SVG，check_transcript OK。"
-    },
-    {
-      "agent": "subagent_taoyuan_ziqiang",
-      "paperId": "metro-taoyuan-122cf45bd82111fb",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "自強國中 114-2 八年級第三次段考，25題全可用（10選13填2算），15幅純向量SVG，check_transcript OK。"
-    },
-    {
-      "agent": "subagent_taichung_daye",
-      "paperId": "metro-taichung-b3e6252bce1b88a1-70727109",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大業國中 114-2 八年級第三次段考，28題選擇題全可用，22幅純向量SVG，check_transcript OK。"
-    },
-    {
-      "agent": "subagent_new_taipei_yonghe",
-      "paperId": "metro-new_taipei-c05ac195112cf94a",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "永和國中 114-2 八年級第三次段考，29題全可用（27選2算），23幅純向量SVG，check_transcript OK。"
-    },
-    {
-      "agent": "subagent_taoyuan_ziqiang",
-      "paperId": "metro-taoyuan-e4103da80420fc10",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "自強國中 114-1 九年級第三次段考，25題全可用（10選13填2算），19幅純向量SVG，check_transcript OK。"
-    },
-    {
-      "agent": "subagent_kaohsiung_dawan",
-      "paperId": "metro-kaohsiung-a77c3d9b6b66cd41",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大灣國中 114-2 九年級第二次段考，25題選擇題全可用，12幅純向量SVG，check_transcript OK。"
-    },
-    {
-      "agent": "subagent_taipei_chengzheng",
-      "paperId": "metro-taipei-174303942233ad8f-810167ef",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "誠正國中 114-1 九年級第三次段考，24題全可用（22選2算），13幅純向量SVG，check_transcript OK。"
-    },
-    {
-      "agent": "subagent_new_taipei_xinzhuang",
-      "paperId": "metro-new_taipei-0bf73000c77e6201",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "新莊國中 114-2 八年級第三次段考，23題選擇題全可用，16幅純向量SVG，check_transcript OK。"
-    },
-    {
-      "agent": "subagent_taichung_xiangshang",
-      "paperId": "metro-taichung-e85eb42c6895e984-351b7149",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "向上國中 114-2 九年級第二次段考，24題全可用（12選10填2算），10幅純向量SVG，check_transcript OK。"
-    },
-    {
-      "agent": "subagent_kaohsiung_dawan",
-      "paperId": "metro-kaohsiung-7b78c1dc2f2a91d5",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大灣國中 110-2 八年級第三次段考，30題單選全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_taipei_chengzheng",
-      "paperId": "metro-taipei-afe33eb4e4e6d282-fd633cfe",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "誠正國中 115-1 九年級第一次段考，24題全可用（1選21填2算），15幅純向量SVG，check_transcript OK。"
-    },
-    {
-      "agent": "subagent_taichung_daye",
-      "paperId": "metro-taichung-e493a398f380737f-bbcb98b6",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大業國中 114-2 九年級第二次段考，30題單選全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_new_taipei_zhongzheng",
-      "paperId": "metro-new_taipei-14fa9584bbf4c963",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "中正國中 114-2 八年級第三次段考，22題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_taoyuan_ziqiang",
-      "paperId": "metro-taoyuan-6bf932eafce85694",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "自強國中 110-2 八年級第二次段考，28題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_taichung_daye",
-      "paperId": "metro-taichung-e493a398f380737f-cc28e2d8",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大業國中 114-2 八年級第二次段考，27題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_taoyuan_ziqiang",
-      "paperId": "metro-taoyuan-e9b04d161bf38e86",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "自強國中 109-2 八年級第二次段考，28題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_new_taipei_zhongzheng",
-      "paperId": "metro-new_taipei-a7602090423aeee8",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "中正國中 114-2 八年級第二次段考，24題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_kaohsiung_dawan",
-      "paperId": "metro-kaohsiung-77966b07b8e4262a",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大灣國中 110-2 八年級第二次段考，25題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_taoyuan_ziqiang",
-      "paperId": "metro-taoyuan-6063ac4e1bb85f7d",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "自強國中 110-2 八年級第三次段考，24題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_taichung_daye",
-      "paperId": "metro-taichung-0258b91306c86b6b-3926fbc1",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大業國中 114-1 八年級第三次段考，33題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_kaohsiung_dawan",
-      "paperId": "metro-kaohsiung-3ad4623f08693b92",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大灣國中 110-1 八年級第三次段考，25題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_new_taipei_zhongzheng",
-      "paperId": "metro-new_taipei-d77a989099e6ca57",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "中正國中 114-1 八年級第三次段考，21題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_taoyuan_ziqiang",
-      "paperId": "metro-taoyuan-1cbdb5fb1e1c5129",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "自強國中 110-1 八年級第三次段考，24題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_taichung_daye",
-      "paperId": "metro-taichung-0258b91306c86b6b-55196bc3",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大業國中 114-1 九年級第三次段考，30題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_kaohsiung_dawan",
-      "paperId": "metro-kaohsiung-cddb4bc1dad6e88d",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大灣國中 110-2 八年級第一次段考，25題全卷完成並通過check_transcript驗收。"
-    },
-    {
-      "agent": "subagent_new_taipei_zhongzheng",
-      "paperId": "metro-new_taipei-f06eb0c417f3bbf3",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "中正國中 114-1 九年級第三次段考，子代理分派轉錄中。"
-    },
-    {
-      "agent": "subagent_taoyuan_ziqiang",
-      "paperId": "metro-taoyuan-07d68120297d7e10",
-      "status": "in-progress",
-      "batch": "20261115-v17-batch",
-      "note": "自強國中 110-1 九年級第三次段考，子代理分派轉錄中。"
-    },
-    {
-      "agent": "subagent_taichung_daye",
-      "paperId": "metro-taichung-4180c88b4eef0001-72b638ee",
-      "status": "text-ready",
-      "batch": "20261115-v17-batch",
-      "note": "大業國中 114-1 九年級第二次段考，子代理分派轉錄中。"
-    },
-    {
-      "agent": "subagent_kaohsiung_dawan",
-      "paperId": "metro-kaohsiung-1e550e4db3803d78",
-      "status": "in-progress",
-      "batch": "20261115-v17-batch",
-      "note": "大灣國中 111-1 九年級第三次段考，子代理分派轉錄中。"
-    },
-    {
-      "paperId": "metro-new_taipei-cc4c65c09802f6c3",
-      "agent": "subagent:New Taipei Math Transcriber",
-      "status": "in-progress",
-      "note": "新莊國中 114-1 八上三"
-    },
-    {
-      "paperId": "metro-taichung-c492c637c48c9959-998d7afd",
-      "agent": "subagent:Taichung Math Transcriber",
-      "status": "in-progress",
-      "note": "向上國中 114-1 九上三"
-    },
-    {
-      "agent": "claude-helper-w1-1",
-      "paperId": "1xC6nsQlSQmlF5_7aQtpegd0nwV8beaRU",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-1",
-      "paperId": "1aDSOOkqBVHxfjza6Y2Di4qnEI_Kcr2gn",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-1",
-      "paperId": "183TRa0vOg4H9S12jauOZXQNBl8SvJoPp",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-1",
-      "paperId": "1wFwXlVeoTh8-P8yIEY27hWIXMXFDOtoF",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-2",
-      "paperId": "metro-taipei-193baf54c5b88af0-57c28e59",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-2",
-      "paperId": "metro-taipei-3384c082984623a2-a3873a6c",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-2",
-      "paperId": "metro-taipei-07f161c3d598b2dd-ae33f23c",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-2",
-      "paperId": "metro-taipei-3258d4c28bc73483-6771c679",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-3",
-      "paperId": "metro-new_taipei-34594b60c475cb12-d5ea790b",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-3",
-      "paperId": "metro-new_taipei-1a5695466d2f3fba-d9f05142",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-3",
-      "paperId": "metro-new_taipei-76bef00fd8903599",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-3",
-      "paperId": "metro-new_taipei-1181dadba9b2228a",
-      "status": "source-issue-reported",
-      "batch": "w1",
-      "note": "PDF is a 1-page answer sheet (答案卷) with no question text; needs the real exam paper"
-    },
-    {
-      "agent": "claude-helper-w1-4",
-      "paperId": "metro-taoyuan-af77bb0fccffb351",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-4",
-      "paperId": "metro-taoyuan-c0a140648d5f05f1",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-4",
-      "paperId": "metro-taoyuan-3b6132904bdb142e",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-4",
-      "paperId": "metro-taoyuan-69b760a0baee5971",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-5",
-      "paperId": "metro-kaohsiung-65963c09faec9666",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-5",
-      "paperId": "metro-kaohsiung-329cefda2c48cee9",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-5",
-      "paperId": "metro-kaohsiung-cd2fc53258652c5f",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-5",
-      "paperId": "metro-kaohsiung-aa5976ad44f90f4a",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-6",
-      "paperId": "metro-taichung-4b9434bd9bd86b86",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-6",
-      "paperId": "metro-taichung-4df3addf545236f6-270006bc",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-6",
-      "paperId": "metro-taichung-0d7225b1e8877642-3cd6f576",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w1-6",
-      "paperId": "metro-taichung-6869acb13cff7690",
-      "status": "published-text",
-      "batch": "20261116-v18"
-    },
-    {
-      "agent": "claude-helper-w2-1",
-      "paperId": "1wUCFV5eX0oZw3IM_zpkfB2QdFavSGydG",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-1",
-      "paperId": "1tRAMq5E32xJ9UIbzd29YVnXDIqMpj_p0",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-1",
-      "paperId": "1apVXWg6tdPwOUMCRnKeC7ZG5pgs6X2kR",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-1",
-      "paperId": "1B5pbQux_YE1p_hTMPFeIxPgzknbLuixF",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-2",
-      "paperId": "metro-taipei-3c848d5ecb865049-88b1cf37",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-2",
-      "paperId": "metro-taipei-c44a01f87a6a59b2-73b4b2a2",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-2",
-      "paperId": "metro-taipei-dbe33e8696c7dbe8-84c0d241",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w2-2",
-      "paperId": "metro-taipei-dd82573460c4c99d-e34610af",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w2-3",
-      "paperId": "metro-new_taipei-28600c99eb7407fc",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-3",
-      "paperId": "metro-new_taipei-5b29006cc887cd43",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-3",
-      "paperId": "metro-new_taipei-03e14102e784e721",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-4",
-      "paperId": "metro-taoyuan-4172eeb11a974c59",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-4",
-      "paperId": "metro-taoyuan-b636a2107c793d77",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-4",
-      "paperId": "metro-taoyuan-a6f5696e19398668",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-4",
-      "paperId": "metro-taoyuan-db0dd52616df5e49",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-5",
-      "paperId": "metro-kaohsiung-f25cbe5037265a5f",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-5",
-      "paperId": "metro-kaohsiung-5fce91730cf5a788",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-5",
-      "paperId": "metro-kaohsiung-0f99e7a496e42b2e",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-5",
-      "paperId": "metro-kaohsiung-5c16b49a70b4d0bb",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-6",
-      "paperId": "metro-taichung-87826cf43ad39cd9-88d8dea5",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-6",
-      "paperId": "metro-taichung-1128ea520af31e51-360eff3b",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-6",
-      "paperId": "metro-taichung-0ce5869333984b93-b46a3adf",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w2-6",
-      "paperId": "metro-taichung-4c15746877a4da71-454e848d",
-      "status": "published-text",
-      "batch": "20261116-v19"
-    },
-    {
-      "agent": "claude-helper-w3-1",
-      "paperId": "1TW_2Q6LrYs-pzosnM38erf4q7vKbWPyQ",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-1",
-      "paperId": "1BvpNEVp6wKfnbcyRRw7MtLMOIbdCBXCp",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-1",
-      "paperId": "1XP5X_Mbi2VV2KN-lfQvc5t0vsywvSIVb",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-1",
-      "paperId": "1eyvhrR_QxE5NBKlChHA35jNMZBufxQTx",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-2",
-      "paperId": "metro-taipei-0c81e9d7b63f1e05-02a9b922",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-2",
-      "paperId": "metro-taipei-a63098127bafb4c3-ae067a30",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-2",
-      "paperId": "metro-taipei-ae4789ea1e114c14-7bce389a",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-2",
-      "paperId": "metro-taipei-ef817bf447abbcfa-df6f2aac",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-3",
-      "paperId": "metro-new_taipei-062eda96bc1cf4bb",
-      "status": "source-issue-reported",
-      "batch": "w3"
-    },
-    {
-      "agent": "claude-helper-w3-3",
-      "paperId": "metro-new_taipei-2405ce49898ef2eb",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-3",
-      "paperId": "metro-new_taipei-003f39c44b3b2b27",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-4",
-      "paperId": "metro-taoyuan-1248b8dcf5d821ba",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-4",
-      "paperId": "metro-taoyuan-5c84b0871547f629",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-4",
-      "paperId": "metro-taoyuan-b89a4b660e519918",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-4",
-      "paperId": "metro-taoyuan-03d0d33f28b8a101",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-5",
-      "paperId": "metro-kaohsiung-584ea4dc54b2cc46",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-5",
-      "paperId": "metro-kaohsiung-af064db20548ddb6",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-5",
-      "paperId": "metro-kaohsiung-d8d0fd50362f838e",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-5",
-      "paperId": "metro-kaohsiung-bc495526623b3aed",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-6",
-      "paperId": "metro-taichung-5a3e8e8540dc6732-97ae6d9a",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-6",
-      "paperId": "metro-taichung-71fba4917b1a37cc-4b7b22c4",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-6",
-      "paperId": "metro-taichung-9b266cad235e33ba-ef4226ff",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w3-6",
-      "paperId": "metro-taichung-3e9fc7234a17430b-c861cd2f",
-      "status": "published-text",
-      "batch": "20261116-v20"
-    },
-    {
-      "agent": "claude-helper-w4-1",
-      "paperId": "1j2SHwbR9iEF5tfo1g-PvmfyCLHYfrcJv",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-1",
-      "paperId": "metro-new_taipei-3e7601041b540ab1-e188a980",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-1",
-      "paperId": "1CwVDjZKEeBFHvKYpNdnPXf2masDtT9OX",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-1",
-      "paperId": "metro-taichung-5bb70831a1621643-d9fb9aaa",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-2",
-      "paperId": "10_ybHbhO1XC5sDHj0Ct9bCDSPgnkUPk7",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-2",
-      "paperId": "metro-new_taipei-7bb16f34cf844528",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-2",
-      "paperId": "metro-new_taipei-26aa5228fbd830ac",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-2",
-      "paperId": "1QPKRghxGcEDpjJEoKC1eKx0_VJf2wJJk",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-3",
-      "paperId": "metro-new_taipei-3576a6ccbab6be5a-d7fb18a8",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-3",
-      "paperId": "metro-taichung-abde92d65c954ec7-eb83a619",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-3",
-      "paperId": "metro-new_taipei-819c3cd87735b7fa",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-3",
-      "paperId": "metro-new_taipei-c16c7987843548b1",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-4",
-      "paperId": "1j7D2rr1uOywcRO0fDNN3twKp5MDomb5-",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-4",
-      "paperId": "metro-taichung-f088cebf696827b1-66473cf0",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-4",
-      "paperId": "metro-new_taipei-21faad97f2b92757",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-4",
-      "paperId": "metro-new_taipei-cd69f923866e75b5",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-5",
-      "paperId": "1pun2c6b5tkmD6zgIaetDBVKqOyZSj53D",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-5",
-      "paperId": "metro-taichung-9bea5aeb884521bf-57e9389c",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-5",
-      "paperId": "metro-taichung-c32d2cbe716930b1-2da7dfe7",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-5",
-      "paperId": "metro-new_taipei-a3b472c89ce3709f",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-6",
-      "paperId": "metro-new_taipei-00f9c38d8272f18a",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-6",
-      "paperId": "1JjJd7L0_nBPPPFPg4IcbaFW3DhuyHAAa",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-6",
-      "paperId": "metro-taichung-b7d072791ccc60a4-a718b649",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "claude-helper-w4-6",
-      "paperId": "metro-taichung-6cc5edd71e184221-e3d5682c",
-      "status": "in-progress",
-      "batch": "w4"
-    },
-    {
-      "agent": "yilan_a",
-      "paperId": "1x_Ioixv3cP69BEPRAJMCv9Btt2YkoGds",
-      "status": "transcribing",
-      "batch": "20261116-yilan-first"
-    },
-    {
-      "agent": "yilan_a",
-      "paperId": "1AtjLtih2sHQ0yjJ3mVb5zhVSCr0WhtuJ",
-      "status": "transcribing",
-      "batch": "20261116-yilan-first"
-    },
-    {
-      "agent": "yilan_b",
-      "paperId": "ld-112-1-1-8",
-      "status": "transcribing",
-      "batch": "20261116-yilan-first"
-    },
-    {
-      "agent": "yilan_b",
-      "paperId": "ld-110-1-3-8",
-      "status": "transcribing",
-      "batch": "20261116-yilan-first"
-    },
-    {
-      "agent": "yilan_c",
-      "paperId": "nc-110-1-3-8",
-      "status": "transcribing",
-      "batch": "20261116-yilan-first"
-    },
-    {
-      "agent": "yilan_c",
-      "paperId": "nc-110-1-1-8",
-      "status": "transcribing",
-      "batch": "20261116-yilan-first"
-    },
-    {
-      "agent": "codex-metro_eight",
-      "paperId": "metro-taichung-bb1ff929033d5f84",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/25; checker passed; vector figures compared; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_north",
-      "paperId": "metro-new_taipei-a41eb729cd2bd83a",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "23/24 usable; source ambiguity recorded; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan",
-      "paperId": "metro-taoyuan-b06156a26c8c7747",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "23/23; checker passed; vector figure compared; coordinator release pending"
-    },
-    {
-      "agent": "claude-helper-w5-1",
-      "paperId": "metro-new_taipei-34594b60c475cb12-e4125753",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-1",
-      "paperId": "metro-new_taipei-f0e84553f4cb091f",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-1",
-      "paperId": "metro-new_taipei-0301f9278d5d0763-58f0baad",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-1",
-      "paperId": "metro-new_taipei-8f12366e5ff5fa10",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-2",
-      "paperId": "metro-new_taipei-22571fc576e80236",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-2",
-      "paperId": "metro-new_taipei-78bb170524632688",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-2",
-      "paperId": "metro-new_taipei-7fd4d13cf00c225e",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-2",
-      "paperId": "metro-new_taipei-ad394c5ada8a9068",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-3",
-      "paperId": "metro-new_taipei-9e1fa87fa78e4709-df7f796f",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-3",
-      "paperId": "metro-new_taipei-bf6d8e0d78a18c8e-92ec8651",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-3",
-      "paperId": "metro-new_taipei-b0d36517d82ed3f6",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-3",
-      "paperId": "metro-new_taipei-48c34150425f73f4",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-4",
-      "paperId": "metro-new_taipei-b4e7a2090913f924",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-4",
-      "paperId": "metro-new_taipei-7e95660c4c6585bb",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-4",
-      "paperId": "metro-taichung-b394cb6e23364a6b-3cebe228",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "claude-helper-w5-4",
-      "paperId": "metro-new_taipei-4c2134061b387742",
-      "status": "in-progress",
-      "batch": "w5"
-    },
-    {
-      "agent": "codex-metro_taoyuan",
-      "paperId": "metro-taoyuan-e829779527f94606",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "22/22; checker passed; figures compared; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_eight",
-      "paperId": "metro-taichung-8ffb22a69ae0874c",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/25 checker passed; figures compared; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_north",
-      "paperId": "metro-new_taipei-28b032a80273a72f-49d1c79a",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "34/34 checker passed; figures compared; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan",
-      "paperId": "metro-taoyuan-2bb9a69db395f9d9",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/25; checker passed; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_eight",
-      "paperId": "metro-taichung-f8f25ba3a7e8fabb",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/25; checker passed; figures compared; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_north",
-      "paperId": "metro-new_taipei-74e31d9f211a21f6",
-      "status": "source-issue-reported",
-      "batch": "codex-metro-20261116"
-    },
-    {
-      "agent": "codex-metro_north",
-      "paperId": "metro-new_taipei-b39aee3a53bde0be",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "22/22 checker passed; original Q13 ink blot retained; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan",
-      "paperId": "metro-taoyuan-576619c7f5a66954",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "30/30 checker passed; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_eight",
-      "paperId": "metro-taichung-c54e88879c19ba0a-1f3c61ba",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "21/21 checker passed; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_north",
-      "paperId": "metro-new_taipei-87b827bb0ab11204",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "28/28; third page established as separate answer PDF; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan",
-      "paperId": "metro-taoyuan-00d7af668a7832fe",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/25 checker passed; coordinator release pending"
-    },
-    {
-      "agent": "claude-helper-w6-1",
-      "paperId": "metro-new_taipei-a863f8230001b049",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-1",
-      "paperId": "metro-taichung-742a223623efdd42-66cd3788",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-1",
-      "paperId": "metro-new_taipei-dcb78ea4d8043045-07e7e1d0",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-1",
-      "paperId": "metro-new_taipei-b90e088a87207642",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-2",
-      "paperId": "metro-new_taipei-2e347e1828cc225f",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-2",
-      "paperId": "metro-new_taipei-45d928a182230892",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-2",
-      "paperId": "metro-taichung-3e20940cbefbf62b-d44f8fd5",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-2",
-      "paperId": "metro-new_taipei-1cb45bfa67ce372f",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-3",
-      "paperId": "metro-new_taipei-fda439ef0867d9f4",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-3",
-      "paperId": "metro-new_taipei-75ded450fdcbc8ff-a1c6513c",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-3",
-      "paperId": "metro-taichung-1ef38b015282b80f-c77e02b7",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-3",
-      "paperId": "metro-new_taipei-3363ee43b6f36750",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-4",
-      "paperId": "metro-taichung-9d38f7de11d61f91-7c530708",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-4",
-      "paperId": "metro-new_taipei-87309e470ff3fc89",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-4",
-      "paperId": "metro-new_taipei-75ca49baef79a1c7",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "claude-helper-w6-4",
-      "paperId": "metro-new_taipei-5210248be53ad5df",
-      "status": "in-progress",
-      "batch": "w6"
-    },
-    {
-      "agent": "codex-metro_eight",
-      "paperId": "metro-taichung-33d2cfee46a4b4c1",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "24/24 checker passed; source says 5 written but prints only 4; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan",
-      "paperId": "metro-taoyuan-5e65a976e624a167",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "26/26 checker passed; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_north",
-      "paperId": "metro-new_taipei-0601406e6e2d0bda",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/25 checker passed; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan",
-      "paperId": "metro-taoyuan-9a984a0914bdcfee",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "36/36 checker passed; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_eight",
-      "paperId": "metro-taichung-83974e6c8564574e",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "24/24 checker passed; corrected geometry; release pending"
-    },
-    {
-      "agent": "codex-metro_north",
-      "paperId": "metro-new_taipei-b95574463fd45b8a",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/25 checker passed; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan",
-      "paperId": "metro-taoyuan-565e4b5610f5bbe5",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "24/25 usable; source factor contradiction held; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_north",
-      "paperId": "metro-new_taipei-aa262954f2ddb129",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/27 usable; two source ambiguities held; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan",
-      "paperId": "metro-taoyuan-8fd3fc81047a765d",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "32/32 checker passed; original answer page contains calculation items; release pending"
-    },
-    {
-      "agent": "claude-helper-w7-1",
-      "paperId": "metro-taipei-5f852d32da3173a9",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-1",
-      "paperId": "metro-new_taipei-7aad9a7ab9ef5bb1",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-1",
-      "paperId": "metro-taoyuan-32d963063e062773",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-1",
-      "paperId": "metro-new_taipei-81555ec5b8bfad41",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-2",
-      "paperId": "metro-new_taipei-351264e0e37c73ed",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-2",
-      "paperId": "metro-new_taipei-8dc7422fd032ff2b",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-2",
-      "paperId": "metro-new_taipei-103525490f159b5d",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-2",
-      "paperId": "metro-new_taipei-41b452b1a8c1bf18-8b43522e",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-3",
-      "paperId": "metro-new_taipei-d9c187186907efb1",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-3",
-      "paperId": "metro-taoyuan-db93c9cfab3307e4",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-3",
-      "paperId": "metro-new_taipei-4141eefb8db2d129",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-3",
-      "paperId": "metro-new_taipei-41ffc82d2dff3e90",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-4",
-      "paperId": "metro-kaohsiung-0148a71c93aa8e41",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-4",
-      "paperId": "metro-taoyuan-2f36b2e7ed275cd4",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-4",
-      "paperId": "metro-new_taipei-2ba6f66cea847d09",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w7-4",
-      "paperId": "metro-new_taipei-bf7981031d9a8c60",
-      "status": "in-progress",
-      "batch": "w7"
-    },
-    {
-      "agent": "claude-helper-w8-1",
-      "paperId": "metro-new_taipei-1bd09b32c37040a0",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-1",
-      "paperId": "metro-new_taipei-f01a4cba75466a31",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-1",
-      "paperId": "metro-new_taipei-fde703bd28a55725",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-1",
-      "paperId": "metro-new_taipei-007cd1a302295f65",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-2",
-      "paperId": "metro-new_taipei-8aed17dad0d06587",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-2",
-      "paperId": "metro-new_taipei-1b4111a9eea454a3-bc83e2cf",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-2",
-      "paperId": "metro-new_taipei-4dea0d69448ecacd",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-2",
-      "paperId": "metro-new_taipei-ea8d778313df52ae",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-3",
-      "paperId": "metro-taichung-228b1e22c0c59405-7cd24397",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-3",
-      "paperId": "metro-new_taipei-2d2228563d652d2b",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-3",
-      "paperId": "metro-new_taipei-4ecf3ffaaa41de00",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-3",
-      "paperId": "metro-new_taipei-4a7a6b99c928b2fc",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-4",
-      "paperId": "metro-new_taipei-63590035ff310844",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-4",
-      "paperId": "metro-new_taipei-fef38b72f9f2388c",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-4",
-      "paperId": "metro-new_taipei-1c8f2f33d0418a3e-52fc37ca",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "claude-helper-w8-4",
-      "paperId": "metro-new_taipei-9789f08724bf10b0",
-      "status": "in-progress",
-      "batch": "w8"
-    },
-    {
-      "agent": "codex-metro_newtaipei",
-      "paperId": "metro-new_taipei-feb98bbbd26e026b-d4c89494",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "27/27 checker passed; SVGs completed; release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan2",
-      "paperId": "metro-taoyuan-547e0099fa2c595c",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "22/22 checker passed; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_taichung",
-      "paperId": "metro-taichung-5c6655c884942d28",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/25 checker passed; figure options compared; release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan2",
-      "paperId": "metro-taoyuan-7a1769564ca09f81",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "17/17 checker passed; challenge figure redrawn; release pending"
-    },
-    {
-      "agent": "claude-helper-w9-1",
-      "paperId": "metro-new_taipei-1fa87993f745dbb2",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-1",
-      "paperId": "metro-taichung-1b104f38bc3874c4-c0949a12",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-1",
-      "paperId": "metro-taichung-80d7b5af69d9e2c6-1f6a98e0",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-1",
-      "paperId": "metro-new_taipei-f1c4807b3ac74f01",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-2",
-      "paperId": "metro-new_taipei-85fa109af8590119",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-2",
-      "paperId": "metro-taichung-7f43045b62375e98-afb750aa",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-2",
-      "paperId": "metro-new_taipei-441947e9c5ea5bee",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-2",
-      "paperId": "metro-new_taipei-714083fd5ea69048",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-3",
-      "paperId": "metro-taichung-8898c4741bc15abc-c47054f4",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-3",
-      "paperId": "metro-taichung-e4cdeb3a7f3fbd0f",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-3",
-      "paperId": "metro-new_taipei-d31fa78b2f5fe8ca-3d79f978",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-3",
-      "paperId": "metro-new_taipei-59ee4b84c7fea844",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-4",
-      "paperId": "metro-taichung-0ce5869333984b93-ac3646b6",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-4",
-      "paperId": "metro-taichung-4a249b5078b624f6-b6f2aaf0",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-4",
-      "paperId": "metro-new_taipei-c9a27965cd7d5e30",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "claude-helper-w9-4",
-      "paperId": "metro-new_taipei-d42beb70fa41abc1-79b4f50d",
-      "status": "in-progress",
-      "batch": "w9"
-    },
-    {
-      "agent": "codex-metro_taichung",
-      "paperId": "metro-taichung-c28e543a75e25235",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/25 checker passed; figure panels compared; release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan2",
-      "paperId": "metro-taoyuan-8dd209647923ad9b",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "26/26 checker passed; SVG option figures reviewed; release pending"
-    },
-    {
-      "agent": "codex-metro_taichung",
-      "paperId": "metro-taichung-24da45623297d946",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "23/23 checker passed; geometry compared; release pending"
-    },
-    {
-      "agent": "codex-metro_newtaipei",
-      "paperId": "metro-new_taipei-da91860fede62046",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "24/25; corrected Q4 figure; Q17 source contradiction held; release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan2",
-      "paperId": "metro-taoyuan-2e9b4907ef83d859",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/25 checker passed; geometry compared; release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan2",
-      "paperId": "metro-taoyuan-e4fba5c0dd51f170",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "24/25 checker passed; original geometry contradiction held; release pending"
-    },
-    {
-      "agent": "codex-metro_taichung",
-      "paperId": "metro-taichung-42181fc66a634971",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "24/24; answer-sheet header differs; reviewNote records primary evidence; release pending"
-    },
-    {
-      "agent": "codex-metro_newtaipei",
-      "paperId": "metro-new_taipei-95b03ea5c2877be6",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "26/27; source text/figure discrepancy held; coordinator release pending"
-    },
-    {
-      "agent": "claude-helper-w10-1",
-      "paperId": "metro-new_taipei-66311d3afe93493b",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-1",
-      "paperId": "metro-taichung-a230c6f5113f9804-86853ce6",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-1",
-      "paperId": "metro-taichung-0199240ba223fc48-51d85327",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-1",
-      "paperId": "metro-new_taipei-5d03435d29d7832e",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-2",
-      "paperId": "metro-new_taipei-89082c7ea68c1f6e-a06cba84",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-2",
-      "paperId": "metro-new_taipei-19e0bbd1e82bff99",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-2",
-      "paperId": "metro-taichung-259b9948cee1df7b-3f571828",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-2",
-      "paperId": "metro-new_taipei-78c0792063860a96",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-3",
-      "paperId": "metro-taichung-56f24c8c951de161-8b922c0b",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-3",
-      "paperId": "metro-new_taipei-5207fd7d55f80384",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-3",
-      "paperId": "metro-taichung-b71f08bac6c66a86-89a53994",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-3",
-      "paperId": "metro-new_taipei-530dfb5ea7127748",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-4",
-      "paperId": "metro-taichung-18591bc15c85906b-aa99762e",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-4",
-      "paperId": "metro-new_taipei-0748d7bf58d36ff7",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-4",
-      "paperId": "metro-new_taipei-03a52c53fef8c2be",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "claude-helper-w10-4",
-      "paperId": "metro-taichung-3ff0248918f0119e-af142d95",
-      "status": "in-progress",
-      "batch": "w10"
-    },
-    {
-      "agent": "codex-metro_taichung",
-      "paperId": "metro-taichung-9587bc0222095b7c-84ae4b98",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/25; geometry corrected and compared; coordinator release pending"
-    },
-    {
-      "agent": "codex-metro_taoyuan2",
-      "paperId": "metro-taoyuan-13338cfe00e6eec7",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "28/28; vector map is schematic per reviewNote; release pending"
-    },
-    {
-      "agent": "codex-metro_new_work",
-      "paperId": "metro-new_taipei-3b983d9d0ed24b52",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/26; Q8 compass figures completed; Q3 source ambiguity held; release pending"
-    },
-    {
-      "agent": "codex-metro_resume_newtaipei",
-      "paperId": "metro-new_taipei-98ffdbded0f97914",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "29/29 checker passed; independent answer PDF confirms page four; release pending"
-    },
-    {
-      "agent": "codex-metro_resume_taichung",
-      "paperId": "metro-taichung-f3a599cca4e68027-bdcf42f9",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "25/26; Q8 multiple correct options held; vector map schematic; release pending"
-    },
-    {
-      "agent": "codex-metro_resume_newtaipei",
-      "paperId": "metro-new_taipei-0a90198cb72ddee9",
-      "status": "source-issue-reported",
-      "batch": "codex-metro-20261116"
-    },
-    {
-      "agent": "codex-metro_resume_newtaipei",
-      "paperId": "metro-new_taipei-3a2265f033539f17",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "26/26 checker passed; figures compared; release pending"
-    },
-    {
-      "agent": "codex-metro_new_work",
-      "paperId": "metro-new_taipei-6090259bbaed6f58",
-      "status": "text-ready",
-      "batch": "codex-metro-20261116",
-      "note": "28/28 checker passed; SVG compared; pending release"
-    },
-    {
-      "agent": "claude-helper-w11-1",
-      "paperId": "metro-new_taipei-f0bd1399332712f3",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-1",
-      "paperId": "metro-taipei-a766f785467517f1",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-1",
-      "paperId": "metro-taoyuan-176e85e8e0e23ae5",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-1",
-      "paperId": "metro-new_taipei-54cc8cf99b428507",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-2",
-      "paperId": "metro-new_taipei-12925dba056c787d",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-2",
-      "paperId": "metro-taipei-730d9fa5bc4b7b3b",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-2",
-      "paperId": "metro-taichung-95e31b65b363fa06-6bfb733f",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-2",
-      "paperId": "metro-new_taipei-6fc216a62e94d1c6",
-      "status": "in-progress",
-      "batch": "w11"
-    },
-    {
-      "agent": "claude-helper-w11-3",
-      "paperId": "metro-new_taipei-e6a90dec4a35cdbb",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-3",
-      "paperId": "metro-new_taipei-01147601112dc1b3",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-3",
-      "paperId": "metro-new_taipei-c80d8c3e1920aa65",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-3",
-      "paperId": "metro-new_taipei-c9fea27e8d4954ca",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-4",
-      "paperId": "metro-kaohsiung-d06e1112f2d41fd4",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-4",
-      "paperId": "metro-new_taipei-9a9465c5606ca11a",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-4",
-      "paperId": "metro-new_taipei-579ee18fa036edf8",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-4",
-      "paperId": "metro-new_taipei-f75aec47e95dd944-92d35f9c",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-5",
-      "paperId": "metro-kaohsiung-769412a15352932e",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-5",
-      "paperId": "metro-new_taipei-f65ecce9eefb9c8c",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-5",
-      "paperId": "metro-new_taipei-dd00c2d63d4642e0",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-5",
-      "paperId": "metro-new_taipei-bd487fbfbd1d81df",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-6",
-      "paperId": "metro-taipei-6fea29c643a9f8a8",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-6",
-      "paperId": "metro-taoyuan-283e1b33c11680de",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-6",
-      "paperId": "metro-new_taipei-53374e5e1eac5bdc-8224ecd5",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "claude-helper-w11-6",
-      "paperId": "metro-new_taipei-d681c6855f8a9ddc-045e8083",
-      "status": "published-text",
-      "batch": "20261116-w11"
-    },
-    {
-      "agent": "codex-yilan_worker1",
-      "paperId": "1tQDE7sJrJX2xBbkfVok8vwdiOz-pipuF",
-      "status": "transcribing",
-      "batch": "codex-yilan-g9-20261116"
-    },
-    {
-      "agent": "codex-yilan_worker2",
-      "paperId": "ld-107-1-1-9",
-      "status": "transcribing",
-      "batch": "codex-yilan-g9-20261116"
-    },
-    {
-      "agent": "codex-yilan_worker3",
-      "paperId": "ld-106-1-3-9",
-      "status": "transcribing",
-      "batch": "codex-yilan-g9-20261116"
-    }
-  ],
-  "updatedAt": "2026-11-16T14:36:17.850740+00:00"
+ "claims": [
+  {
+   "agent": "school_inventory",
+   "paperId": "1WHmRmhEpiignvLq7SJ6XAymkqX_puPvr",
+   "status": "source-and-pdf-verified",
+   "batch": "20261115-v15"
+  },
+  {
+   "agent": "school_inventory",
+   "paperId": "1N7akUT_Cyuz05u1dNYDUr7ZRdfciAV_3",
+   "status": "source-and-pdf-verified",
+   "batch": "20261115-v15"
+  },
+  {
+   "agent": "source_research",
+   "paperId": "metro-new_taipei-496df91f55fcc6af",
+   "status": "source-and-pdf-verified",
+   "batch": "20261115-v15"
+  },
+  {
+   "agent": "source_research",
+   "paperId": "metro-new_taipei-15ccb3f889b576f9",
+   "status": "source-and-pdf-verified",
+   "batch": "20261115-v15"
+  },
+  {
+   "agent": "Codex",
+   "paperId": "metro-taichung-1bfb6cff9c03ff5f-b4f39ce6",
+   "status": "source-and-pdf-verified",
+   "batch": "20261115-v15"
+  },
+  {
+   "agent": "Codex-source-review-3",
+   "paperId": "1UKzQxD5vS7Pgr7D8eyGj5AxRUF5EjYS8",
+   "status": "published-text",
+   "sharedPack": "handoff/workpacks/yilan-zhonghua-01.zip",
+   "note": "全卷15題完成轉寫，全量SVG向量重繪，通過check_transcript與handoff_exchange intake驗證。",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-1",
+   "paperId": "1bzl5dOvIbwrYn2nZEy9Jlw3yS5qkl5Id",
+   "status": "published-text",
+   "sharedPack": "handoff/workpacks/yilan-zhonghua-01.zip",
+   "note": "全卷21題完成轉寫，14幅純向量SVG重繪，通過check_transcript與intake驗證。",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-2",
+   "paperId": "nc-110-1-1-9",
+   "status": "published-text",
+   "sharedPack": "handoff/workpacks/yilan-neicheng-01.zip",
+   "note": "全卷22題完成轉寫，12組純向量SVG重繪（含optionFigures面板），通過check_transcript與intake驗證。",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "pending",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-3",
+   "paperId": "nc-110-1-3-9",
+   "status": "published-text",
+   "sharedPack": "handoff/workpacks/yilan-neicheng-01.zip",
+   "note": "全卷22題完成轉寫，11組純向量幾何與情境SVG重繪，通過check_transcript與intake驗證。",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "pending",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-3",
+   "paperId": "ld-110-1-2-7",
+   "status": "published-text",
+   "sharedPack": "handoff/workpacks/yilan-luodong-01.zip",
+   "note": "全卷22題完成轉寫，通過check_transcript與intake驗證。",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-3",
+   "paperId": "ld-112-1-1-7",
+   "status": "published-text",
+   "sharedPack": "handoff/workpacks/yilan-luodong-01.zip",
+   "note": "全卷24題完成轉寫，純向量數線SVG重繪，通過check_transcript與intake驗證。",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "pending",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-1",
+   "paperId": "metro-taipei-4dd690b8587a3cf6",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/興福國中_第1包",
+   "note": "全卷27題完成轉寫，3幅直角坐標系向量SVG重繪，通過check_transcript與intake驗證。",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-2",
+   "paperId": "metro-taipei-5b254e58c256b046",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/興福國中_第1包",
+   "note": "全卷27題完成轉寫（可用26題，1題原題無最簡分數停用），質因數分解短除法向量SVG重繪，通過check_transcript與intake驗證。",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-zhonghua",
+   "paperId": "metro-new_taipei-7cd592b6bb5523d9",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/三和國中_第1包",
+   "note": "全卷25題完成轉寫，16幅高精度純向量SVG重繪，通過check_transcript與intake驗證。",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-zhonghua",
+   "paperId": "metro-new_taipei-bd58e37631b2b9dd",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/三和國中_第1包",
+   "note": "全卷25題完成轉寫，17幅高精度純向量SVG重繪，通過check_transcript與intake驗證。",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-luodong",
+   "paperId": "metro-taichung-2a6f4107bf420737-dd698c91",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/向上國中_第1包",
+   "note": "全卷23題完成轉寫，14幅純向量SVG重繪，通過check_transcript與intake驗證。",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-1",
+   "paperId": "metro-taichung-33aa153f5696dfab-d018c852",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/向上國中_第1包",
+   "note": "全卷23題完成轉寫，線型函數坐標軸SVG及等差九宮格table結構化排版，通過check_transcript與intake驗證。",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-xingfu",
+   "paperId": "metro-kaohsiung-4b70fe3ce1dec252",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/大灣國中_第1包",
+   "note": "接續多Agent並行派工（高雄市立大灣國中）。",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-xingfu",
+   "paperId": "metro-kaohsiung-e02156b47ddeeb35",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/大灣國中_第1包",
+   "note": "接續多Agent並行派工（高雄市立大灣國中）。",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-3",
+   "paperId": "metro-taoyuan-124b10db3fe20584",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/自強國中_第1包",
+   "note": "全卷21題完成轉寫，8幅純向量SVG重繪（含三視圖optionFigures面板、坐標方格等），通過check_transcript與intake驗證。",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-1",
+   "paperId": "metro-taoyuan-bb459e3e33300227",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/自強國中_第1包",
+   "note": "全卷20題完成轉寫，數線選項純向量optionFigures面板重繪，通過check_transcript與intake驗證。",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-neicheng",
+   "paperId": "metro-taipei-509300ecf27c3ab8-ab2bebfa",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/誠正國中_第1包",
+   "note": "接續多Agent並行派工（臺北市立誠正國中）。",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-1",
+   "paperId": "metro-taipei-e46b59a1468c8ed0-67065845",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/誠正國中_第1包",
+   "note": "接續多Agent並行派工（臺北市立誠正國中）。",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-luodong",
+   "paperId": "metro-new_taipei-48000408be9d1cbf-e11d08e9",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/五峰國中_第1包",
+   "note": "接續多Agent並行派工（新北市立五峰國中）。",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-luodong",
+   "paperId": "metro-new_taipei-f75aec47e95dd944-87a42e19",
+   "status": "published-text",
+   "sharedPack": "output/external-ai/五峰國中_第1包",
+   "note": "接續多Agent並行派工（新北市立五峰國中）。",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-2",
+   "paperId": "metro-taichung-4180c88b4eef0001-ebfd1c88",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-daye",
+   "paperId": "metro-taichung-95e31b65b363fa06-ddcf5fc4",
+   "status": "published-text",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-yonghe",
+   "paperId": "metro-new_taipei-6634e66e4ed9aabe",
+   "status": "published-text",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-1",
+   "paperId": "metro-new_taipei-ed07d2affdc64c8e",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-2",
+   "paperId": "metro-new_taipei-468697ed08e57880",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-zhongzheng",
+   "paperId": "metro-new_taipei-9f2559a02c8e9c6e",
+   "status": "published-text",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-xinzhuang",
+   "paperId": "metro-new_taipei-61dfa91da9e32b52",
+   "status": "published-text",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-3",
+   "paperId": "metro-new_taipei-e2c17f6cb4474c24",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-lujiang",
+   "paperId": "metro-new_taipei-09b063aea71ea3ce",
+   "status": "source-issue-reported"
+  },
+  {
+   "agent": "Codex-source-review-1",
+   "paperId": "metro-new_taipei-1301dd54e12fcb4c",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-fuhe",
+   "paperId": "metro-new_taipei-5cab22c1a02f7f12-79bd26ce",
+   "status": "published-text",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-fuhe",
+   "paperId": "metro-new_taipei-b21214e21635f694-4838de03",
+   "status": "published-text",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-1",
+   "paperId": "metro-taichung-9dafef2259b6eb43",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-2",
+   "paperId": "metro-taichung-c1b2801d9f350f8e",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-sanhe-02",
+   "paperId": "metro-new_taipei-4063b9afdc8dfcc7",
+   "status": "published-text",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-sanhe-02",
+   "paperId": "metro-new_taipei-c2b108cc42ec8d83",
+   "status": "published-text",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-dawan-02",
+   "paperId": "metro-kaohsiung-8e2d0ff29aa419d6",
+   "status": "published-text",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-dawan-02",
+   "paperId": "metro-kaohsiung-921d04ed484090b6",
+   "status": "published-text",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-3",
+   "paperId": "metro-taichung-c022227cebcf9962-f51e2d09",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-3",
+   "paperId": "metro-taichung-e625830e7b498df5-b44837ec",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Antigravity-subagent-ziqiang-02",
+   "paperId": "metro-taoyuan-73d7c0ecb504ddb0",
+   "status": "published-text",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-3",
+   "paperId": "metro-taoyuan-a83099fd238f1cb9",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-1",
+   "paperId": "metro-taipei-5d62e415c7f44b90-372f7899",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-2",
+   "paperId": "metro-taipei-8e5cc48d338b1a31-deed3a72",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-1",
+   "paperId": "ld-110-1-3-7",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-2",
+   "paperId": "ld-110-2-1-7",
+   "status": "published-text",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "pending",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-2",
+   "paperId": "1Kqjgn-K3nvvgGfntroSOtnScJ0rhsOuf",
+   "status": "published-text",
+   "note": "Claude 接手完成（原外部子代理配額中斷）",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "pending",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-2",
+   "paperId": "1nxHnyR47GQM4EgbVPJ3iBvZPFEqKCPxH",
+   "status": "published-text",
+   "note": "Claude 接手完成（原外部子代理配額中斷）",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "pending",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-3",
+   "paperId": "metro-taipei-94f246461699ab6b",
+   "status": "published-text",
+   "note": "Claude 接手完成（原外部子代理配額中斷）",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-2",
+   "paperId": "metro-taipei-f2d726b55ed00db9",
+   "status": "published-text",
+   "note": "Claude 接手完成（原外部子代理配額中斷）",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "pending",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-2",
+   "paperId": "metro-taichung-0258b91306c86b6b-c23ebfeb",
+   "status": "published-text",
+   "note": "Claude 接手完成（原外部子代理配額中斷）",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-3",
+   "paperId": "metro-taichung-4180c88b4eef0001-54c01c80",
+   "status": "published-text",
+   "note": "Claude 接手完成（原外部子代理配額中斷）",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-1",
+   "paperId": "nc-109-1-1-7",
+   "status": "published-text",
+   "note": "Claude 接手完成（原外部子代理配額中斷）",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "Codex-source-review-1",
+   "paperId": "nc-110-1-2-8",
+   "status": "published-text",
+   "note": "Claude 接手完成（原外部子代理配額中斷）",
+   "scope": "source comparison only; coordinator controls public release",
+   "figureReview": "recorded",
+   "batch": "20261115-v16-fast",
+   "publishedCommit": "6e10507"
+  },
+  {
+   "agent": "school_inventory",
+   "paperId": "metro-taipei-2bcf4289f42bec73-a9450eed",
+   "status": "text-ready",
+   "batch": "20261115-v17-codex",
+   "note": "誠正國中 114-2 八年級第二次段考，7選13填4算共24題（23題可用），純向量SVG重繪，check_transcript OK。"
+  },
+  {
+   "agent": "school_inventory",
+   "paperId": "metro-taipei-8e45d570dbece6d4-833d428d",
+   "status": "text-ready",
+   "batch": "20261115-v17-codex",
+   "note": "誠正國中 114-2 八年級第三次段考，26題選擇題全可用，20幅幾何純向量SVG重繪，check_transcript OK。"
+  },
+  {
+   "agent": "Codex",
+   "paperId": "metro-kaohsiung-ddec2d6fcbb95b4c",
+   "status": "text-ready",
+   "batch": "20261115-v17-codex",
+   "note": "大灣國中 110-1 八年級第一次段考，23選2算共25題，3幅純向量SVG，check_transcript OK。"
+  },
+  {
+   "agent": "typeset_other_schools",
+   "paperId": "metro-new_taipei-16a5afc78611d992",
+   "status": "text-ready",
+   "batch": "20261115-v17-codex",
+   "note": "中正國中 114-2 八年級第一次段考，4選18填2算共24題，純向量SVG重繪，check_transcript OK。"
+  },
+  {
+   "agent": "math_transcriber_kaohsiung",
+   "paperId": "metro-kaohsiung-42845582bb52e377",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大灣國中 114-1 九年級第三次段考，25題選擇題全可用，16幅純向量SVG重繪，check_transcript OK。"
+  },
+  {
+   "agent": "math_transcriber_new_taipei",
+   "paperId": "metro-new_taipei-73971426535f87d5",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "新莊國中 114-1 九年級第三次段考，20題選擇題全可用，9幅純向量SVG重繪，check_transcript OK。"
+  },
+  {
+   "agent": "math_transcriber_kaohsiung",
+   "paperId": "metro-kaohsiung-2ae2b2bfc5e6f989",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大灣國中 114-2 九年級第一次段考，23選2算共25題全可用，10幅純向量SVG重繪，check_transcript OK。"
+  },
+  {
+   "agent": "subagent_taichung_xiangshang",
+   "paperId": "metro-taichung-787d0e9b8e01cbe8-954f386d",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "向上國中 114-2 九年級第一次段考，23題全可用（10選11填2算），4幅純向量SVG，check_transcript OK。"
+  },
+  {
+   "agent": "subagent_new_taipei_zhongzheng",
+   "paperId": "metro-new_taipei-5266f1c6ee13cd09",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "中正國中 114-2 九年級第一次段考，30題全可用（26選4算），7幅純向量SVG，check_transcript OK。"
+  },
+  {
+   "agent": "subagent_taoyuan_ziqiang",
+   "paperId": "metro-taoyuan-122cf45bd82111fb",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "自強國中 114-2 八年級第三次段考，25題全可用（10選13填2算），15幅純向量SVG，check_transcript OK。"
+  },
+  {
+   "agent": "subagent_taichung_daye",
+   "paperId": "metro-taichung-b3e6252bce1b88a1-70727109",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大業國中 114-2 八年級第三次段考，28題選擇題全可用，22幅純向量SVG，check_transcript OK。"
+  },
+  {
+   "agent": "subagent_new_taipei_yonghe",
+   "paperId": "metro-new_taipei-c05ac195112cf94a",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "永和國中 114-2 八年級第三次段考，29題全可用（27選2算），23幅純向量SVG，check_transcript OK。"
+  },
+  {
+   "agent": "subagent_taoyuan_ziqiang",
+   "paperId": "metro-taoyuan-e4103da80420fc10",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "自強國中 114-1 九年級第三次段考，25題全可用（10選13填2算），19幅純向量SVG，check_transcript OK。"
+  },
+  {
+   "agent": "subagent_kaohsiung_dawan",
+   "paperId": "metro-kaohsiung-a77c3d9b6b66cd41",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大灣國中 114-2 九年級第二次段考，25題選擇題全可用，12幅純向量SVG，check_transcript OK。"
+  },
+  {
+   "agent": "subagent_taipei_chengzheng",
+   "paperId": "metro-taipei-174303942233ad8f-810167ef",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "誠正國中 114-1 九年級第三次段考，24題全可用（22選2算），13幅純向量SVG，check_transcript OK。"
+  },
+  {
+   "agent": "subagent_new_taipei_xinzhuang",
+   "paperId": "metro-new_taipei-0bf73000c77e6201",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "新莊國中 114-2 八年級第三次段考，23題選擇題全可用，16幅純向量SVG，check_transcript OK。"
+  },
+  {
+   "agent": "subagent_taichung_xiangshang",
+   "paperId": "metro-taichung-e85eb42c6895e984-351b7149",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "向上國中 114-2 九年級第二次段考，24題全可用（12選10填2算），10幅純向量SVG，check_transcript OK。"
+  },
+  {
+   "agent": "subagent_kaohsiung_dawan",
+   "paperId": "metro-kaohsiung-7b78c1dc2f2a91d5",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大灣國中 110-2 八年級第三次段考，30題單選全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_taipei_chengzheng",
+   "paperId": "metro-taipei-afe33eb4e4e6d282-fd633cfe",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "誠正國中 115-1 九年級第一次段考，24題全可用（1選21填2算），15幅純向量SVG，check_transcript OK。"
+  },
+  {
+   "agent": "subagent_taichung_daye",
+   "paperId": "metro-taichung-e493a398f380737f-bbcb98b6",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大業國中 114-2 九年級第二次段考，30題單選全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_new_taipei_zhongzheng",
+   "paperId": "metro-new_taipei-14fa9584bbf4c963",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "中正國中 114-2 八年級第三次段考，22題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_taoyuan_ziqiang",
+   "paperId": "metro-taoyuan-6bf932eafce85694",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "自強國中 110-2 八年級第二次段考，28題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_taichung_daye",
+   "paperId": "metro-taichung-e493a398f380737f-cc28e2d8",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大業國中 114-2 八年級第二次段考，27題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_taoyuan_ziqiang",
+   "paperId": "metro-taoyuan-e9b04d161bf38e86",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "自強國中 109-2 八年級第二次段考，28題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_new_taipei_zhongzheng",
+   "paperId": "metro-new_taipei-a7602090423aeee8",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "中正國中 114-2 八年級第二次段考，24題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_kaohsiung_dawan",
+   "paperId": "metro-kaohsiung-77966b07b8e4262a",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大灣國中 110-2 八年級第二次段考，25題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_taoyuan_ziqiang",
+   "paperId": "metro-taoyuan-6063ac4e1bb85f7d",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "自強國中 110-2 八年級第三次段考，24題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_taichung_daye",
+   "paperId": "metro-taichung-0258b91306c86b6b-3926fbc1",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大業國中 114-1 八年級第三次段考，33題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_kaohsiung_dawan",
+   "paperId": "metro-kaohsiung-3ad4623f08693b92",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大灣國中 110-1 八年級第三次段考，25題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_new_taipei_zhongzheng",
+   "paperId": "metro-new_taipei-d77a989099e6ca57",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "中正國中 114-1 八年級第三次段考，21題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_taoyuan_ziqiang",
+   "paperId": "metro-taoyuan-1cbdb5fb1e1c5129",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "自強國中 110-1 八年級第三次段考，24題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_taichung_daye",
+   "paperId": "metro-taichung-0258b91306c86b6b-55196bc3",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大業國中 114-1 九年級第三次段考，30題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_kaohsiung_dawan",
+   "paperId": "metro-kaohsiung-cddb4bc1dad6e88d",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大灣國中 110-2 八年級第一次段考，25題全卷完成並通過check_transcript驗收。"
+  },
+  {
+   "agent": "subagent_new_taipei_zhongzheng",
+   "paperId": "metro-new_taipei-f06eb0c417f3bbf3",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "中正國中 114-1 九年級第三次段考，子代理分派轉錄中。"
+  },
+  {
+   "agent": "subagent_taoyuan_ziqiang",
+   "paperId": "metro-taoyuan-07d68120297d7e10",
+   "status": "in-progress",
+   "batch": "20261115-v17-batch",
+   "note": "自強國中 110-1 九年級第三次段考，子代理分派轉錄中。"
+  },
+  {
+   "agent": "subagent_taichung_daye",
+   "paperId": "metro-taichung-4180c88b4eef0001-72b638ee",
+   "status": "text-ready",
+   "batch": "20261115-v17-batch",
+   "note": "大業國中 114-1 九年級第二次段考，子代理分派轉錄中。"
+  },
+  {
+   "agent": "subagent_kaohsiung_dawan",
+   "paperId": "metro-kaohsiung-1e550e4db3803d78",
+   "status": "in-progress",
+   "batch": "20261115-v17-batch",
+   "note": "大灣國中 111-1 九年級第三次段考，子代理分派轉錄中。"
+  },
+  {
+   "paperId": "metro-new_taipei-cc4c65c09802f6c3",
+   "agent": "subagent:New Taipei Math Transcriber",
+   "status": "in-progress",
+   "note": "新莊國中 114-1 八上三"
+  },
+  {
+   "paperId": "metro-taichung-c492c637c48c9959-998d7afd",
+   "agent": "subagent:Taichung Math Transcriber",
+   "status": "in-progress",
+   "note": "向上國中 114-1 九上三"
+  },
+  {
+   "agent": "claude-helper-w1-1",
+   "paperId": "1xC6nsQlSQmlF5_7aQtpegd0nwV8beaRU",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-1",
+   "paperId": "1aDSOOkqBVHxfjza6Y2Di4qnEI_Kcr2gn",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-1",
+   "paperId": "183TRa0vOg4H9S12jauOZXQNBl8SvJoPp",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-1",
+   "paperId": "1wFwXlVeoTh8-P8yIEY27hWIXMXFDOtoF",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-2",
+   "paperId": "metro-taipei-193baf54c5b88af0-57c28e59",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-2",
+   "paperId": "metro-taipei-3384c082984623a2-a3873a6c",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-2",
+   "paperId": "metro-taipei-07f161c3d598b2dd-ae33f23c",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-2",
+   "paperId": "metro-taipei-3258d4c28bc73483-6771c679",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-3",
+   "paperId": "metro-new_taipei-34594b60c475cb12-d5ea790b",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-3",
+   "paperId": "metro-new_taipei-1a5695466d2f3fba-d9f05142",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-3",
+   "paperId": "metro-new_taipei-76bef00fd8903599",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-3",
+   "paperId": "metro-new_taipei-1181dadba9b2228a",
+   "status": "source-issue-reported",
+   "batch": "w1",
+   "note": "PDF is a 1-page answer sheet (答案卷) with no question text; needs the real exam paper"
+  },
+  {
+   "agent": "claude-helper-w1-4",
+   "paperId": "metro-taoyuan-af77bb0fccffb351",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-4",
+   "paperId": "metro-taoyuan-c0a140648d5f05f1",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-4",
+   "paperId": "metro-taoyuan-3b6132904bdb142e",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-4",
+   "paperId": "metro-taoyuan-69b760a0baee5971",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-5",
+   "paperId": "metro-kaohsiung-65963c09faec9666",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-5",
+   "paperId": "metro-kaohsiung-329cefda2c48cee9",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-5",
+   "paperId": "metro-kaohsiung-cd2fc53258652c5f",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-5",
+   "paperId": "metro-kaohsiung-aa5976ad44f90f4a",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-6",
+   "paperId": "metro-taichung-4b9434bd9bd86b86",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-6",
+   "paperId": "metro-taichung-4df3addf545236f6-270006bc",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-6",
+   "paperId": "metro-taichung-0d7225b1e8877642-3cd6f576",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w1-6",
+   "paperId": "metro-taichung-6869acb13cff7690",
+   "status": "published-text",
+   "batch": "20261116-v18"
+  },
+  {
+   "agent": "claude-helper-w2-1",
+   "paperId": "1wUCFV5eX0oZw3IM_zpkfB2QdFavSGydG",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-1",
+   "paperId": "1tRAMq5E32xJ9UIbzd29YVnXDIqMpj_p0",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-1",
+   "paperId": "1apVXWg6tdPwOUMCRnKeC7ZG5pgs6X2kR",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-1",
+   "paperId": "1B5pbQux_YE1p_hTMPFeIxPgzknbLuixF",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-2",
+   "paperId": "metro-taipei-3c848d5ecb865049-88b1cf37",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-2",
+   "paperId": "metro-taipei-c44a01f87a6a59b2-73b4b2a2",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-2",
+   "paperId": "metro-taipei-dbe33e8696c7dbe8-84c0d241",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w2-2",
+   "paperId": "metro-taipei-dd82573460c4c99d-e34610af",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w2-3",
+   "paperId": "metro-new_taipei-28600c99eb7407fc",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-3",
+   "paperId": "metro-new_taipei-5b29006cc887cd43",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-3",
+   "paperId": "metro-new_taipei-03e14102e784e721",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-4",
+   "paperId": "metro-taoyuan-4172eeb11a974c59",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-4",
+   "paperId": "metro-taoyuan-b636a2107c793d77",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-4",
+   "paperId": "metro-taoyuan-a6f5696e19398668",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-4",
+   "paperId": "metro-taoyuan-db0dd52616df5e49",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-5",
+   "paperId": "metro-kaohsiung-f25cbe5037265a5f",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-5",
+   "paperId": "metro-kaohsiung-5fce91730cf5a788",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-5",
+   "paperId": "metro-kaohsiung-0f99e7a496e42b2e",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-5",
+   "paperId": "metro-kaohsiung-5c16b49a70b4d0bb",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-6",
+   "paperId": "metro-taichung-87826cf43ad39cd9-88d8dea5",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-6",
+   "paperId": "metro-taichung-1128ea520af31e51-360eff3b",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-6",
+   "paperId": "metro-taichung-0ce5869333984b93-b46a3adf",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w2-6",
+   "paperId": "metro-taichung-4c15746877a4da71-454e848d",
+   "status": "published-text",
+   "batch": "20261116-v19"
+  },
+  {
+   "agent": "claude-helper-w3-1",
+   "paperId": "1TW_2Q6LrYs-pzosnM38erf4q7vKbWPyQ",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-1",
+   "paperId": "1BvpNEVp6wKfnbcyRRw7MtLMOIbdCBXCp",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-1",
+   "paperId": "1XP5X_Mbi2VV2KN-lfQvc5t0vsywvSIVb",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-1",
+   "paperId": "1eyvhrR_QxE5NBKlChHA35jNMZBufxQTx",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-2",
+   "paperId": "metro-taipei-0c81e9d7b63f1e05-02a9b922",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-2",
+   "paperId": "metro-taipei-a63098127bafb4c3-ae067a30",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-2",
+   "paperId": "metro-taipei-ae4789ea1e114c14-7bce389a",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-2",
+   "paperId": "metro-taipei-ef817bf447abbcfa-df6f2aac",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-3",
+   "paperId": "metro-new_taipei-062eda96bc1cf4bb",
+   "status": "source-issue-reported",
+   "batch": "w3"
+  },
+  {
+   "agent": "claude-helper-w3-3",
+   "paperId": "metro-new_taipei-2405ce49898ef2eb",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-3",
+   "paperId": "metro-new_taipei-003f39c44b3b2b27",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-4",
+   "paperId": "metro-taoyuan-1248b8dcf5d821ba",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-4",
+   "paperId": "metro-taoyuan-5c84b0871547f629",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-4",
+   "paperId": "metro-taoyuan-b89a4b660e519918",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-4",
+   "paperId": "metro-taoyuan-03d0d33f28b8a101",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-5",
+   "paperId": "metro-kaohsiung-584ea4dc54b2cc46",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-5",
+   "paperId": "metro-kaohsiung-af064db20548ddb6",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-5",
+   "paperId": "metro-kaohsiung-d8d0fd50362f838e",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-5",
+   "paperId": "metro-kaohsiung-bc495526623b3aed",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-6",
+   "paperId": "metro-taichung-5a3e8e8540dc6732-97ae6d9a",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-6",
+   "paperId": "metro-taichung-71fba4917b1a37cc-4b7b22c4",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-6",
+   "paperId": "metro-taichung-9b266cad235e33ba-ef4226ff",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w3-6",
+   "paperId": "metro-taichung-3e9fc7234a17430b-c861cd2f",
+   "status": "published-text",
+   "batch": "20261116-v20"
+  },
+  {
+   "agent": "claude-helper-w4-1",
+   "paperId": "1j2SHwbR9iEF5tfo1g-PvmfyCLHYfrcJv",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-1",
+   "paperId": "metro-new_taipei-3e7601041b540ab1-e188a980",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-1",
+   "paperId": "1CwVDjZKEeBFHvKYpNdnPXf2masDtT9OX",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-1",
+   "paperId": "metro-taichung-5bb70831a1621643-d9fb9aaa",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-2",
+   "paperId": "10_ybHbhO1XC5sDHj0Ct9bCDSPgnkUPk7",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-2",
+   "paperId": "metro-new_taipei-7bb16f34cf844528",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-2",
+   "paperId": "metro-new_taipei-26aa5228fbd830ac",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-2",
+   "paperId": "1QPKRghxGcEDpjJEoKC1eKx0_VJf2wJJk",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-3",
+   "paperId": "metro-new_taipei-3576a6ccbab6be5a-d7fb18a8",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-3",
+   "paperId": "metro-taichung-abde92d65c954ec7-eb83a619",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-3",
+   "paperId": "metro-new_taipei-819c3cd87735b7fa",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-3",
+   "paperId": "metro-new_taipei-c16c7987843548b1",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-4",
+   "paperId": "1j7D2rr1uOywcRO0fDNN3twKp5MDomb5-",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-4",
+   "paperId": "metro-taichung-f088cebf696827b1-66473cf0",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-4",
+   "paperId": "metro-new_taipei-21faad97f2b92757",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-4",
+   "paperId": "metro-new_taipei-cd69f923866e75b5",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-5",
+   "paperId": "1pun2c6b5tkmD6zgIaetDBVKqOyZSj53D",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-5",
+   "paperId": "metro-taichung-9bea5aeb884521bf-57e9389c",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-5",
+   "paperId": "metro-taichung-c32d2cbe716930b1-2da7dfe7",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-5",
+   "paperId": "metro-new_taipei-a3b472c89ce3709f",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-6",
+   "paperId": "metro-new_taipei-00f9c38d8272f18a",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-6",
+   "paperId": "1JjJd7L0_nBPPPFPg4IcbaFW3DhuyHAAa",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-6",
+   "paperId": "metro-taichung-b7d072791ccc60a4-a718b649",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "claude-helper-w4-6",
+   "paperId": "metro-taichung-6cc5edd71e184221-e3d5682c",
+   "status": "in-progress",
+   "batch": "w4"
+  },
+  {
+   "agent": "yilan_a",
+   "paperId": "1x_Ioixv3cP69BEPRAJMCv9Btt2YkoGds",
+   "status": "transcribing",
+   "batch": "20261116-yilan-first"
+  },
+  {
+   "agent": "yilan_a",
+   "paperId": "1AtjLtih2sHQ0yjJ3mVb5zhVSCr0WhtuJ",
+   "status": "transcribing",
+   "batch": "20261116-yilan-first"
+  },
+  {
+   "agent": "yilan_b",
+   "paperId": "ld-112-1-1-8",
+   "status": "transcribing",
+   "batch": "20261116-yilan-first"
+  },
+  {
+   "agent": "yilan_b",
+   "paperId": "ld-110-1-3-8",
+   "status": "transcribing",
+   "batch": "20261116-yilan-first"
+  },
+  {
+   "agent": "yilan_c",
+   "paperId": "nc-110-1-3-8",
+   "status": "transcribing",
+   "batch": "20261116-yilan-first"
+  },
+  {
+   "agent": "yilan_c",
+   "paperId": "nc-110-1-1-8",
+   "status": "transcribing",
+   "batch": "20261116-yilan-first"
+  },
+  {
+   "agent": "codex-metro_eight",
+   "paperId": "metro-taichung-bb1ff929033d5f84",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/25; checker passed; vector figures compared; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_north",
+   "paperId": "metro-new_taipei-a41eb729cd2bd83a",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "23/24 usable; source ambiguity recorded; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan",
+   "paperId": "metro-taoyuan-b06156a26c8c7747",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "23/23; checker passed; vector figure compared; coordinator release pending"
+  },
+  {
+   "agent": "claude-helper-w5-1",
+   "paperId": "metro-new_taipei-34594b60c475cb12-e4125753",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-1",
+   "paperId": "metro-new_taipei-f0e84553f4cb091f",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-1",
+   "paperId": "metro-new_taipei-0301f9278d5d0763-58f0baad",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-1",
+   "paperId": "metro-new_taipei-8f12366e5ff5fa10",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-2",
+   "paperId": "metro-new_taipei-22571fc576e80236",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-2",
+   "paperId": "metro-new_taipei-78bb170524632688",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-2",
+   "paperId": "metro-new_taipei-7fd4d13cf00c225e",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-2",
+   "paperId": "metro-new_taipei-ad394c5ada8a9068",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-3",
+   "paperId": "metro-new_taipei-9e1fa87fa78e4709-df7f796f",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-3",
+   "paperId": "metro-new_taipei-bf6d8e0d78a18c8e-92ec8651",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-3",
+   "paperId": "metro-new_taipei-b0d36517d82ed3f6",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-3",
+   "paperId": "metro-new_taipei-48c34150425f73f4",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-4",
+   "paperId": "metro-new_taipei-b4e7a2090913f924",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-4",
+   "paperId": "metro-new_taipei-7e95660c4c6585bb",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-4",
+   "paperId": "metro-taichung-b394cb6e23364a6b-3cebe228",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "claude-helper-w5-4",
+   "paperId": "metro-new_taipei-4c2134061b387742",
+   "status": "in-progress",
+   "batch": "w5"
+  },
+  {
+   "agent": "codex-metro_taoyuan",
+   "paperId": "metro-taoyuan-e829779527f94606",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "22/22; checker passed; figures compared; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_eight",
+   "paperId": "metro-taichung-8ffb22a69ae0874c",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/25 checker passed; figures compared; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_north",
+   "paperId": "metro-new_taipei-28b032a80273a72f-49d1c79a",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "34/34 checker passed; figures compared; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan",
+   "paperId": "metro-taoyuan-2bb9a69db395f9d9",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/25; checker passed; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_eight",
+   "paperId": "metro-taichung-f8f25ba3a7e8fabb",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/25; checker passed; figures compared; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_north",
+   "paperId": "metro-new_taipei-74e31d9f211a21f6",
+   "status": "source-issue-reported",
+   "batch": "codex-metro-20261116"
+  },
+  {
+   "agent": "codex-metro_north",
+   "paperId": "metro-new_taipei-b39aee3a53bde0be",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "22/22 checker passed; original Q13 ink blot retained; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan",
+   "paperId": "metro-taoyuan-576619c7f5a66954",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "30/30 checker passed; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_eight",
+   "paperId": "metro-taichung-c54e88879c19ba0a-1f3c61ba",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "21/21 checker passed; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_north",
+   "paperId": "metro-new_taipei-87b827bb0ab11204",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "28/28; third page established as separate answer PDF; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan",
+   "paperId": "metro-taoyuan-00d7af668a7832fe",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/25 checker passed; coordinator release pending"
+  },
+  {
+   "agent": "claude-helper-w6-1",
+   "paperId": "metro-new_taipei-a863f8230001b049",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-1",
+   "paperId": "metro-taichung-742a223623efdd42-66cd3788",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-1",
+   "paperId": "metro-new_taipei-dcb78ea4d8043045-07e7e1d0",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-1",
+   "paperId": "metro-new_taipei-b90e088a87207642",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-2",
+   "paperId": "metro-new_taipei-2e347e1828cc225f",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-2",
+   "paperId": "metro-new_taipei-45d928a182230892",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-2",
+   "paperId": "metro-taichung-3e20940cbefbf62b-d44f8fd5",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-2",
+   "paperId": "metro-new_taipei-1cb45bfa67ce372f",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-3",
+   "paperId": "metro-new_taipei-fda439ef0867d9f4",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-3",
+   "paperId": "metro-new_taipei-75ded450fdcbc8ff-a1c6513c",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-3",
+   "paperId": "metro-taichung-1ef38b015282b80f-c77e02b7",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-3",
+   "paperId": "metro-new_taipei-3363ee43b6f36750",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-4",
+   "paperId": "metro-taichung-9d38f7de11d61f91-7c530708",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-4",
+   "paperId": "metro-new_taipei-87309e470ff3fc89",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-4",
+   "paperId": "metro-new_taipei-75ca49baef79a1c7",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "claude-helper-w6-4",
+   "paperId": "metro-new_taipei-5210248be53ad5df",
+   "status": "in-progress",
+   "batch": "w6"
+  },
+  {
+   "agent": "codex-metro_eight",
+   "paperId": "metro-taichung-33d2cfee46a4b4c1",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "24/24 checker passed; source says 5 written but prints only 4; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan",
+   "paperId": "metro-taoyuan-5e65a976e624a167",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "26/26 checker passed; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_north",
+   "paperId": "metro-new_taipei-0601406e6e2d0bda",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/25 checker passed; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan",
+   "paperId": "metro-taoyuan-9a984a0914bdcfee",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "36/36 checker passed; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_eight",
+   "paperId": "metro-taichung-83974e6c8564574e",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "24/24 checker passed; corrected geometry; release pending"
+  },
+  {
+   "agent": "codex-metro_north",
+   "paperId": "metro-new_taipei-b95574463fd45b8a",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/25 checker passed; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan",
+   "paperId": "metro-taoyuan-565e4b5610f5bbe5",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "24/25 usable; source factor contradiction held; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_north",
+   "paperId": "metro-new_taipei-aa262954f2ddb129",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/27 usable; two source ambiguities held; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan",
+   "paperId": "metro-taoyuan-8fd3fc81047a765d",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "32/32 checker passed; original answer page contains calculation items; release pending"
+  },
+  {
+   "agent": "claude-helper-w7-1",
+   "paperId": "metro-taipei-5f852d32da3173a9",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-1",
+   "paperId": "metro-new_taipei-7aad9a7ab9ef5bb1",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-1",
+   "paperId": "metro-taoyuan-32d963063e062773",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-1",
+   "paperId": "metro-new_taipei-81555ec5b8bfad41",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-2",
+   "paperId": "metro-new_taipei-351264e0e37c73ed",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-2",
+   "paperId": "metro-new_taipei-8dc7422fd032ff2b",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-2",
+   "paperId": "metro-new_taipei-103525490f159b5d",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-2",
+   "paperId": "metro-new_taipei-41b452b1a8c1bf18-8b43522e",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-3",
+   "paperId": "metro-new_taipei-d9c187186907efb1",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-3",
+   "paperId": "metro-taoyuan-db93c9cfab3307e4",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-3",
+   "paperId": "metro-new_taipei-4141eefb8db2d129",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-3",
+   "paperId": "metro-new_taipei-41ffc82d2dff3e90",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-4",
+   "paperId": "metro-kaohsiung-0148a71c93aa8e41",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-4",
+   "paperId": "metro-taoyuan-2f36b2e7ed275cd4",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-4",
+   "paperId": "metro-new_taipei-2ba6f66cea847d09",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w7-4",
+   "paperId": "metro-new_taipei-bf7981031d9a8c60",
+   "status": "in-progress",
+   "batch": "w7"
+  },
+  {
+   "agent": "claude-helper-w8-1",
+   "paperId": "metro-new_taipei-1bd09b32c37040a0",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-1",
+   "paperId": "metro-new_taipei-f01a4cba75466a31",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-1",
+   "paperId": "metro-new_taipei-fde703bd28a55725",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-1",
+   "paperId": "metro-new_taipei-007cd1a302295f65",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-2",
+   "paperId": "metro-new_taipei-8aed17dad0d06587",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-2",
+   "paperId": "metro-new_taipei-1b4111a9eea454a3-bc83e2cf",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-2",
+   "paperId": "metro-new_taipei-4dea0d69448ecacd",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-2",
+   "paperId": "metro-new_taipei-ea8d778313df52ae",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-3",
+   "paperId": "metro-taichung-228b1e22c0c59405-7cd24397",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-3",
+   "paperId": "metro-new_taipei-2d2228563d652d2b",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-3",
+   "paperId": "metro-new_taipei-4ecf3ffaaa41de00",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-3",
+   "paperId": "metro-new_taipei-4a7a6b99c928b2fc",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-4",
+   "paperId": "metro-new_taipei-63590035ff310844",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-4",
+   "paperId": "metro-new_taipei-fef38b72f9f2388c",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-4",
+   "paperId": "metro-new_taipei-1c8f2f33d0418a3e-52fc37ca",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "claude-helper-w8-4",
+   "paperId": "metro-new_taipei-9789f08724bf10b0",
+   "status": "in-progress",
+   "batch": "w8"
+  },
+  {
+   "agent": "codex-metro_newtaipei",
+   "paperId": "metro-new_taipei-feb98bbbd26e026b-d4c89494",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "27/27 checker passed; SVGs completed; release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan2",
+   "paperId": "metro-taoyuan-547e0099fa2c595c",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "22/22 checker passed; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_taichung",
+   "paperId": "metro-taichung-5c6655c884942d28",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/25 checker passed; figure options compared; release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan2",
+   "paperId": "metro-taoyuan-7a1769564ca09f81",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "17/17 checker passed; challenge figure redrawn; release pending"
+  },
+  {
+   "agent": "claude-helper-w9-1",
+   "paperId": "metro-new_taipei-1fa87993f745dbb2",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-1",
+   "paperId": "metro-taichung-1b104f38bc3874c4-c0949a12",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-1",
+   "paperId": "metro-taichung-80d7b5af69d9e2c6-1f6a98e0",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-1",
+   "paperId": "metro-new_taipei-f1c4807b3ac74f01",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-2",
+   "paperId": "metro-new_taipei-85fa109af8590119",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-2",
+   "paperId": "metro-taichung-7f43045b62375e98-afb750aa",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-2",
+   "paperId": "metro-new_taipei-441947e9c5ea5bee",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-2",
+   "paperId": "metro-new_taipei-714083fd5ea69048",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-3",
+   "paperId": "metro-taichung-8898c4741bc15abc-c47054f4",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-3",
+   "paperId": "metro-taichung-e4cdeb3a7f3fbd0f",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-3",
+   "paperId": "metro-new_taipei-d31fa78b2f5fe8ca-3d79f978",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-3",
+   "paperId": "metro-new_taipei-59ee4b84c7fea844",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-4",
+   "paperId": "metro-taichung-0ce5869333984b93-ac3646b6",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-4",
+   "paperId": "metro-taichung-4a249b5078b624f6-b6f2aaf0",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-4",
+   "paperId": "metro-new_taipei-c9a27965cd7d5e30",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "claude-helper-w9-4",
+   "paperId": "metro-new_taipei-d42beb70fa41abc1-79b4f50d",
+   "status": "in-progress",
+   "batch": "w9"
+  },
+  {
+   "agent": "codex-metro_taichung",
+   "paperId": "metro-taichung-c28e543a75e25235",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/25 checker passed; figure panels compared; release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan2",
+   "paperId": "metro-taoyuan-8dd209647923ad9b",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "26/26 checker passed; SVG option figures reviewed; release pending"
+  },
+  {
+   "agent": "codex-metro_taichung",
+   "paperId": "metro-taichung-24da45623297d946",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "23/23 checker passed; geometry compared; release pending"
+  },
+  {
+   "agent": "codex-metro_newtaipei",
+   "paperId": "metro-new_taipei-da91860fede62046",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "24/25; corrected Q4 figure; Q17 source contradiction held; release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan2",
+   "paperId": "metro-taoyuan-2e9b4907ef83d859",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/25 checker passed; geometry compared; release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan2",
+   "paperId": "metro-taoyuan-e4fba5c0dd51f170",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "24/25 checker passed; original geometry contradiction held; release pending"
+  },
+  {
+   "agent": "codex-metro_taichung",
+   "paperId": "metro-taichung-42181fc66a634971",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "24/24; answer-sheet header differs; reviewNote records primary evidence; release pending"
+  },
+  {
+   "agent": "codex-metro_newtaipei",
+   "paperId": "metro-new_taipei-95b03ea5c2877be6",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "26/27; source text/figure discrepancy held; coordinator release pending"
+  },
+  {
+   "agent": "claude-helper-w10-1",
+   "paperId": "metro-new_taipei-66311d3afe93493b",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-1",
+   "paperId": "metro-taichung-a230c6f5113f9804-86853ce6",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-1",
+   "paperId": "metro-taichung-0199240ba223fc48-51d85327",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-1",
+   "paperId": "metro-new_taipei-5d03435d29d7832e",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-2",
+   "paperId": "metro-new_taipei-89082c7ea68c1f6e-a06cba84",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-2",
+   "paperId": "metro-new_taipei-19e0bbd1e82bff99",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-2",
+   "paperId": "metro-taichung-259b9948cee1df7b-3f571828",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-2",
+   "paperId": "metro-new_taipei-78c0792063860a96",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-3",
+   "paperId": "metro-taichung-56f24c8c951de161-8b922c0b",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-3",
+   "paperId": "metro-new_taipei-5207fd7d55f80384",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-3",
+   "paperId": "metro-taichung-b71f08bac6c66a86-89a53994",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-3",
+   "paperId": "metro-new_taipei-530dfb5ea7127748",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-4",
+   "paperId": "metro-taichung-18591bc15c85906b-aa99762e",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-4",
+   "paperId": "metro-new_taipei-0748d7bf58d36ff7",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-4",
+   "paperId": "metro-new_taipei-03a52c53fef8c2be",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "claude-helper-w10-4",
+   "paperId": "metro-taichung-3ff0248918f0119e-af142d95",
+   "status": "in-progress",
+   "batch": "w10"
+  },
+  {
+   "agent": "codex-metro_taichung",
+   "paperId": "metro-taichung-9587bc0222095b7c-84ae4b98",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/25; geometry corrected and compared; coordinator release pending"
+  },
+  {
+   "agent": "codex-metro_taoyuan2",
+   "paperId": "metro-taoyuan-13338cfe00e6eec7",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "28/28; vector map is schematic per reviewNote; release pending"
+  },
+  {
+   "agent": "codex-metro_new_work",
+   "paperId": "metro-new_taipei-3b983d9d0ed24b52",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/26; Q8 compass figures completed; Q3 source ambiguity held; release pending"
+  },
+  {
+   "agent": "codex-metro_resume_newtaipei",
+   "paperId": "metro-new_taipei-98ffdbded0f97914",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "29/29 checker passed; independent answer PDF confirms page four; release pending"
+  },
+  {
+   "agent": "codex-metro_resume_taichung",
+   "paperId": "metro-taichung-f3a599cca4e68027-bdcf42f9",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "25/26; Q8 multiple correct options held; vector map schematic; release pending"
+  },
+  {
+   "agent": "codex-metro_resume_newtaipei",
+   "paperId": "metro-new_taipei-0a90198cb72ddee9",
+   "status": "source-issue-reported",
+   "batch": "codex-metro-20261116"
+  },
+  {
+   "agent": "codex-metro_resume_newtaipei",
+   "paperId": "metro-new_taipei-3a2265f033539f17",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "26/26 checker passed; figures compared; release pending"
+  },
+  {
+   "agent": "codex-metro_new_work",
+   "paperId": "metro-new_taipei-6090259bbaed6f58",
+   "status": "text-ready",
+   "batch": "codex-metro-20261116",
+   "note": "28/28 checker passed; SVG compared; pending release"
+  },
+  {
+   "agent": "claude-helper-w11-1",
+   "paperId": "metro-new_taipei-f0bd1399332712f3",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-1",
+   "paperId": "metro-taipei-a766f785467517f1",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-1",
+   "paperId": "metro-taoyuan-176e85e8e0e23ae5",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-1",
+   "paperId": "metro-new_taipei-54cc8cf99b428507",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-2",
+   "paperId": "metro-new_taipei-12925dba056c787d",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-2",
+   "paperId": "metro-taipei-730d9fa5bc4b7b3b",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-2",
+   "paperId": "metro-taichung-95e31b65b363fa06-6bfb733f",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-2",
+   "paperId": "metro-new_taipei-6fc216a62e94d1c6",
+   "status": "in-progress",
+   "batch": "w11"
+  },
+  {
+   "agent": "claude-helper-w11-3",
+   "paperId": "metro-new_taipei-e6a90dec4a35cdbb",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-3",
+   "paperId": "metro-new_taipei-01147601112dc1b3",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-3",
+   "paperId": "metro-new_taipei-c80d8c3e1920aa65",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-3",
+   "paperId": "metro-new_taipei-c9fea27e8d4954ca",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-4",
+   "paperId": "metro-kaohsiung-d06e1112f2d41fd4",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-4",
+   "paperId": "metro-new_taipei-9a9465c5606ca11a",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-4",
+   "paperId": "metro-new_taipei-579ee18fa036edf8",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-4",
+   "paperId": "metro-new_taipei-f75aec47e95dd944-92d35f9c",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-5",
+   "paperId": "metro-kaohsiung-769412a15352932e",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-5",
+   "paperId": "metro-new_taipei-f65ecce9eefb9c8c",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-5",
+   "paperId": "metro-new_taipei-dd00c2d63d4642e0",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-5",
+   "paperId": "metro-new_taipei-bd487fbfbd1d81df",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-6",
+   "paperId": "metro-taipei-6fea29c643a9f8a8",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-6",
+   "paperId": "metro-taoyuan-283e1b33c11680de",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-6",
+   "paperId": "metro-new_taipei-53374e5e1eac5bdc-8224ecd5",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "claude-helper-w11-6",
+   "paperId": "metro-new_taipei-d681c6855f8a9ddc-045e8083",
+   "status": "published-text",
+   "batch": "20261116-w11"
+  },
+  {
+   "agent": "codex-yilan_worker1",
+   "paperId": "1tQDE7sJrJX2xBbkfVok8vwdiOz-pipuF",
+   "status": "transcribing",
+   "batch": "codex-yilan-g9-20261116"
+  },
+  {
+   "agent": "codex-yilan_worker2",
+   "paperId": "ld-107-1-1-9",
+   "status": "transcribing",
+   "batch": "codex-yilan-g9-20261116"
+  },
+  {
+   "agent": "codex-yilan_worker3",
+   "paperId": "ld-106-1-3-9",
+   "status": "transcribing",
+   "batch": "codex-yilan-g9-20261116"
+  },
+  {
+   "agent": "claude-helper-w12-1",
+   "paperId": "metro-new_taipei-b99d6b6047eac1df",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-1",
+   "paperId": "metro-new_taipei-12b79a6259f2602c",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-1",
+   "paperId": "metro-taichung-544a6b2618894b56",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-1",
+   "paperId": "metro-new_taipei-05a398dac0467461",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-2",
+   "paperId": "metro-new_taipei-c50e39451c81981f",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-2",
+   "paperId": "metro-new_taipei-595bd61a8128244d",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-2",
+   "paperId": "metro-new_taipei-3a3b9f2174580f8e",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-2",
+   "paperId": "metro-new_taipei-4b0237d23c1458e0",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-3",
+   "paperId": "metro-new_taipei-34a7d6f4b19338d9",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-3",
+   "paperId": "metro-taichung-b394cb6e23364a6b-4d9d5fc6",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-3",
+   "paperId": "metro-new_taipei-56f875848b135c2a",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-3",
+   "paperId": "metro-new_taipei-ddddaf4cb152f0ed-a2473d1a",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-4",
+   "paperId": "metro-new_taipei-bf6d8e0d78a18c8e-0fed9b0b",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-4",
+   "paperId": "metro-taichung-d0fc9c0db6a92561",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-4",
+   "paperId": "metro-new_taipei-04c61f57dfc14da6-0c55850f",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-4",
+   "paperId": "metro-new_taipei-0069e65db73c389b",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-5",
+   "paperId": "metro-new_taipei-d87a9189ff92618d",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-5",
+   "paperId": "metro-taichung-31785c7bb0e77dd5-bfd05c1e",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-5",
+   "paperId": "metro-new_taipei-b1743c7513f5880c",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-5",
+   "paperId": "metro-new_taipei-9808266ff038477f",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-6",
+   "paperId": "metro-new_taipei-b5a141acdf7d8ceb-3f182d67",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-6",
+   "paperId": "metro-taichung-b0815e0647d67f33",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-6",
+   "paperId": "metro-new_taipei-e0e0160e29d0ddf3",
+   "status": "in-progress",
+   "batch": "w12"
+  },
+  {
+   "agent": "claude-helper-w12-6",
+   "paperId": "metro-new_taipei-84f48813c34fa243",
+   "status": "in-progress",
+   "batch": "w12"
+  }
+ ],
+ "updatedAt": "2026-11-16T15:05:53.599142+00:00"
 }
