@@ -176,4 +176,4 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 ## v59（20261117-metro-v59）：都會區第十三波 16 卷（九上，108–110 學年度）
 
 - 接手 Cloud AI 中斷的 w13 清單，新增 16 卷，可組卷題數 13,328 → 13,717。`npm test` 77 項通過；16 卷 PDF 匯出檢查全數通過（`handoff/batches/20261117-w13-pdf-acceptance.json`）；疑義見 `handoff/batches/20261117-w13-SOURCE_ISSUES_REPORT.md`。
-- 正式站驗收：發布後補。
+- 正式站驗收：ALL PASS（`handoff/batches/20261117-w13/live-acceptance.json`）。
