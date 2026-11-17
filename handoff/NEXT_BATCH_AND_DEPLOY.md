@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v53 宜蘭九年級（2026-11-17）
+
+本版納入中華106上九一 `1w29VRxA9QMjO1dZ_ooVx3NO4ssuxJCFB`、羅東105上九一 `ld-105-1-1-9`、中華113下九二 `1p6cGtyJnvEtLoGtkXVHk0OaaO8kohB75`、羅東110下九二 `ld-110-2-2-9`。羅東兩卷各有原卷條件或選項矛盾各1題停用；中華九下計算題來源為獨立答案卷，網址及SHA見轉錄稿 additionalSources。本機建置 12,624 題、77測試通過；正式部署另查 Actions。中斷工作與本機未上傳檔案清單見 AI_UPLOAD_AUDIT_20261117.json，先核對現況再派工。
+
 ## v52 及多 AI 工作檔盤點（2026-11-17）
 
 本批補入羅東 `ld-105-1-2-9`（22/22）及中華 `1yGvGBnloohWQcnrgQvoXM0hzfpuHyIO9`（24/24）。羅東 `ld-106-1-1-9`（21/22，原卷條件矛盾停用1題）及 `ld-106-1-2-9`（22/22）已於 v51 發布。本批建置總數 12,533 題，77 項測試通過；部署狀況以 Actions 與正式站為準。

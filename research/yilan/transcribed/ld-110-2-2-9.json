@@ -1,0 +1,791 @@
+{
+  "paperId": "ld-110-2-2-9",
+  "sourceSha256": "93e9de3654e04c6e12c28006cea249272c57bc45e458b8a777f1b75ffb905f7d",
+  "printedHeader": "宜蘭縣立羅東國中110學年度第二學期九年級數學科第二次段考試卷",
+  "printedSlot": {
+    "year": 110,
+    "semester": 2,
+    "grade": 9,
+    "exam": 2
+  },
+  "printedCounts": "共25題，第1、23題複選，依系統格式轉填充。",
+  "expectedTypes": {
+    "choice": 23,
+    "fill": 2,
+    "written": 0
+  },
+  "visualReviewComplete": true,
+  "deliveryStatus": "complete",
+  "reviewNote": "原卷兩頁共25題，題文、選項與表格轉原生文字；必要圖表及立體題圖以SVG重繪。第10題原卷B/C重複且均正確，保留並停用。第7、20題亦有重複的錯誤選項，但仍保留原文。",
+  "questions": [
+    {
+      "type": "fill",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-2-1-1",
+      "unitIds": [
+        "nanyi-9-2-1-1"
+      ],
+      "unitAssignmentBasis": "二次函數及其圖形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "判別下列哪些是二次函數？（複選）(A) $y=2-x$　(B) $y=3$　(C) $y=-3x-2x^2+1$　(D) $y=x(x+1)$　(E) $y=-6x$。答：＿＿＿＿。"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "2",
+      "page": 1,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-2-1-1",
+      "unitIds": [
+        "nanyi-9-2-1-1"
+      ],
+      "unitAssignmentBasis": "二次函數及其圖形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知洛洛命中三分球的行經路徑是拋物線的一部分。如果將路徑的最高點設為坐標平面的原點 $(0,0)$，籃框的坐標為 $(-3,-\\dfrac98)$；當洛洛的出手點與 $y$ 軸距離 $4$ 個單位長時，出手點的坐標為何？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 115,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 160\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"><path d=\"M15 47 H245 M125 8 V145 M28 105 Q125 -10 212 105 M125 105 H212\" stroke-dasharray=\"none\"/><circle cx=\"125\" cy=\"47\" r=\"2\" fill=\"#111\"/><circle cx=\"28\" cy=\"105\" r=\"2\" fill=\"#111\"/><circle cx=\"212\" cy=\"105\" r=\"2\" fill=\"#111\"/><text x=\"132\" y=\"42\" stroke=\"none\" fill=\"#111\" font-size=\"14\">O</text><text x=\"234\" y=\"41\" stroke=\"none\" fill=\"#111\" font-size=\"14\">x</text><text x=\"130\" y=\"19\" stroke=\"none\" fill=\"#111\" font-size=\"14\">y</text><text x=\"51\" y=\"122\" stroke=\"none\" fill=\"#111\" font-size=\"14\">籃框</text><text x=\"183\" y=\"124\" stroke=\"none\" fill=\"#111\" font-size=\"14\">出手點</text><text x=\"165\" y=\"99\" stroke=\"none\" fill=\"#111\" font-size=\"14\">4</text></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$(-4,-2)$",
+            "$(2,-4)$",
+            "$(4,2)$",
+            "$(4,-2)$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "3",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-1-1",
+      "unitIds": [
+        "nanyi-9-2-1-1"
+      ],
+      "unitAssignmentBasis": "二次函數及其圖形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "圖中四條曲線分別為 $y=ax^2$、$y=bx^2$、$y=cx^2$、$y=dx^2$ 的圖形，依照圖形比較 $a$、$b$、$c$、$d$ 的大小。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 115,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 160\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"><path d=\"M12 80 H246 M125 8 V150 M49 10 Q63 80 125 80 Q187 80 201 10 M20 10 Q49 80 125 80 Q201 80 230 10 M49 150 Q63 80 125 80 Q187 80 201 150 M20 150 Q49 80 125 80 Q201 80 230 150\"/><text x=\"194\" y=\"22\" stroke=\"none\" fill=\"#111\" font-size=\"14\">a</text><text x=\"222\" y=\"22\" stroke=\"none\" fill=\"#111\" font-size=\"14\">b</text><text x=\"194\" y=\"148\" stroke=\"none\" fill=\"#111\" font-size=\"14\">c</text><text x=\"223\" y=\"148\" stroke=\"none\" fill=\"#111\" font-size=\"14\">d</text><text x=\"130\" y=\"74\" stroke=\"none\" fill=\"#111\" font-size=\"14\">O</text><text x=\"241\" y=\"74\" stroke=\"none\" fill=\"#111\" font-size=\"14\">x</text><text x=\"130\" y=\"18\" stroke=\"none\" fill=\"#111\" font-size=\"14\">y</text></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$a>b>d>c$",
+            "$a<b<d<c$",
+            "$a>b>c>d$",
+            "$a<b<c<d$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "4",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-2-1",
+      "unitIds": [
+        "nanyi-9-2-2-1"
+      ],
+      "unitAssignmentBasis": "四分位數與統計分布。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知甲、乙兩班的學生人數相同，圖為兩班某次数學小考成績的盒狀圖。若甲、乙兩班學生成績的中位數分別為 $a$、$b$；甲、乙兩班中小考成績超過 $80$ 分的學生人數分別為 $c$、$d$，則下列大小關係何者正確？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 115,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 165\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"><path d=\"M25 20 V120 H235 M25 120 V126 M65 120 V126 M105 120 V126 M145 120 V126 M185 120 V126 M225 120 V126 M60 40 H132 M199 40 H210 M60 34 V46 M210 34 V46 M132 28 H199 V52 H132 Z M187 28 V52 M78 88 H95 M175 88 H217 M78 82 V94 M217 82 V94 M95 76 H175 V100 H95 Z M147 76 V100\"/><text x=\"21\" y=\"143\" stroke=\"none\" fill=\"#111\" font-size=\"12\">0</text><text x=\"61\" y=\"143\" stroke=\"none\" fill=\"#111\" font-size=\"12\">20</text><text x=\"101\" y=\"143\" stroke=\"none\" fill=\"#111\" font-size=\"12\">40</text><text x=\"141\" y=\"143\" stroke=\"none\" fill=\"#111\" font-size=\"12\">60</text><text x=\"181\" y=\"143\" stroke=\"none\" fill=\"#111\" font-size=\"12\">80</text><text x=\"221\" y=\"143\" stroke=\"none\" fill=\"#111\" font-size=\"12\">100</text><text x=\"215\" y=\"58\" stroke=\"none\" fill=\"#111\" font-size=\"12\">甲班</text><text x=\"220\" y=\"104\" stroke=\"none\" fill=\"#111\" font-size=\"12\">乙班</text><text x=\"203\" y=\"157\" stroke=\"none\" fill=\"#111\" font-size=\"11\">成績（分）</text></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$a>b$，$c>d$",
+            "$a>b$，$c<d$",
+            "$a<b$，$c>d$",
+            "$a<b$，$c<d$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "5",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-2-1-1",
+      "unitIds": [
+        "nanyi-9-2-1-1"
+      ],
+      "unitAssignmentBasis": "二次函數及其圖形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "二次函數 $y=-2(x+2)^2$ 的圖形，其開口方向、頂點坐標及對稱軸方程式為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "開口向上，頂點 $(-2,0)$，對稱軸 $x=-2$",
+            "開口向上，頂點 $(0,2)$，對稱軸 $x=-2$",
+            "開口向下，頂點 $(-2,0)$，對稱軸 $x=-2$",
+            "開口向下，頂點 $(-2,0)$，對稱軸 $x=0$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "6",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-2-1-1",
+      "unitIds": [
+        "nanyi-9-2-1-1"
+      ],
+      "unitAssignmentBasis": "二次函數及其圖形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "二次函數 $y=(x+1)^2+2$ 的圖形，其開口方向、頂點坐標及對稱軸方程式為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "開口向上，頂點 $(-1,2)$，對稱軸 $x=-1$",
+            "開口向上，頂點 $(1,2)$，對稱軸 $x=-1$",
+            "開口向上，頂點 $(1,2)$，對稱軸 $x=1$",
+            "開口向下，頂點 $(-1,2)$，對稱軸 $x=-1$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "7",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-1-1",
+      "unitIds": [
+        "nanyi-9-2-1-1"
+      ],
+      "unitAssignmentBasis": "二次函數及其圖形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "將二次函數 $y=-3(x-2)^2-4$ 的圖形向左平移 $3$ 個單位，再向上平移 $6$ 個單位後，求此二次函數。"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$y=3(x+1)^2+2$",
+            "$y=-3(x-1)^2+2$",
+            "$y=-3(x+1)^2+2$",
+            "$y=3(x+1)^2+2$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "8",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-1-1",
+      "unitIds": [
+        "nanyi-9-2-1-1"
+      ],
+      "unitAssignmentBasis": "二次函數及其圖形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "二次函數 $y=2x^2$ 的圖形平移後，可得 $y=a(x-h)^2+k$ 的圖形，其對稱軸方程式為 $x=1$，且通過坐標平面上的點 $(-3,5)$，則 $a$、$h$ 與 $k$ 的值為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$a=2$、$h=1$、$k=27$",
+            "$a=-2$、$h=1$、$k=27$",
+            "$a=2$、$h=-1$、$k=27$",
+            "$a=2$、$h=1$、$k=-27$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "9",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-1-2",
+      "unitIds": [
+        "nanyi-9-2-1-2"
+      ],
+      "unitAssignmentBasis": "二次函數的最大值或最小值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "設二次函數 $y=-5(x+1)^2+8$，則下列哪一個函數值最大？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$x=-\\dfrac32$",
+            "$x=-\\dfrac34$",
+            "$x=-\\dfrac65$",
+            "$x=0$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "10",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-1-1",
+      "unitIds": [
+        "nanyi-9-2-1-1"
+      ],
+      "unitAssignmentBasis": "二次函數及其圖形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "二次函數 $y=a(x-h)^2+k$ 的圖形，若此函數在 $x=-3$ 時，$y$ 有最小值 $4$，且通過坐標平面上的點 $(-2,6)$，求此二次函數。"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$y=2(x+3)^2-4$",
+            "$y=2(x+3)^2+4$",
+            "$y=2(x+3)^2+4$",
+            "$y=-2(x+3)^2-4$"
+          ]
+        }
+      ],
+      "usable": false,
+      "sourceIssue": "原卷 B、C 選項相同且皆符合題意；保留原文並停用。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "11",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-2-1-1",
+      "unitIds": [
+        "nanyi-9-2-1-1"
+      ],
+      "unitAssignmentBasis": "二次函數及其圖形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "$y=2(x-5)^2-4$ 二次函數的圖形與 $x$ 軸的交點個數為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "無交點",
+            "$1$ 個交點",
+            "$2$ 個交點",
+            "$3$ 個交點"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "12",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-9-2-2-2",
+      "unitIds": [
+        "nanyi-9-2-2-2"
+      ],
+      "unitAssignmentBasis": "機率計算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "同時投擲藍色及紅色兩顆公正的骰子，點數和為 $7$ 的機率是多少？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$\\dfrac16$",
+            "$\\dfrac13$",
+            "$\\dfrac14$",
+            "$\\dfrac15$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "13",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-2-1",
+      "unitIds": [
+        "nanyi-9-2-2-1"
+      ],
+      "unitAssignmentBasis": "四分位數與統計分布。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "羅羅國中九年一班共有男生 $14$ 人，該班男生的身高由小到大排列如下；求該班男生身高的四分位距。"
+        },
+        {
+          "type": "table",
+          "header": true,
+          "rows": [
+            [
+              "編號",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            [
+              "身高",
+              "154",
+              "155",
+              "157",
+              "159",
+              "160",
+              "161",
+              "162"
+            ],
+            [
+              "編號",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12",
+              "13",
+              "14"
+            ],
+            [
+              "身高",
+              "164",
+              "166",
+              "167",
+              "170",
+              "173",
+              "174",
+              "177"
+            ]
+          ]
+        },
+        {
+          "type": "options",
+          "items": [
+            "$10.5$",
+            "$11$",
+            "$13$",
+            "$12$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "14",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-2-1",
+      "unitIds": [
+        "nanyi-9-2-2-1"
+      ],
+      "unitAssignmentBasis": "四分位數與統計分布。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "安安全班 $40$ 人參加學校數學能力測驗，下圖為全班成績的盒狀圖。安安成績 $58$ 分，在班上的排名敘述何者正確？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 115,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 150\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"><path d=\"M25 25 V104 H250 M35 104 V110 M75 104 V110 M115 104 V110 M155 104 V110 M195 104 V110 M235 104 V110 M55 53 H75 M155 53 H235 M55 47 V59 M235 47 V59 M75 39 H155 V67 H75 Z M135 39 V67\"/><text x=\"29\" y=\"128\" stroke=\"none\" fill=\"#111\" font-size=\"12\">30</text><text x=\"69\" y=\"128\" stroke=\"none\" fill=\"#111\" font-size=\"12\">40</text><text x=\"109\" y=\"128\" stroke=\"none\" fill=\"#111\" font-size=\"12\">50</text><text x=\"149\" y=\"128\" stroke=\"none\" fill=\"#111\" font-size=\"12\">60</text><text x=\"189\" y=\"128\" stroke=\"none\" fill=\"#111\" font-size=\"12\">70</text><text x=\"229\" y=\"128\" stroke=\"none\" fill=\"#111\" font-size=\"12\">80</text><text x=\"49\" y=\"31\" stroke=\"none\" fill=\"#111\" font-size=\"11\">35</text><text x=\"71\" y=\"31\" stroke=\"none\" fill=\"#111\" font-size=\"11\">40</text><text x=\"128\" y=\"31\" stroke=\"none\" fill=\"#111\" font-size=\"11\">55</text><text x=\"151\" y=\"31\" stroke=\"none\" fill=\"#111\" font-size=\"11\">60</text><text x=\"228\" y=\"31\" stroke=\"none\" fill=\"#111\" font-size=\"11\">80</text><text x=\"207\" y=\"145\" stroke=\"none\" fill=\"#111\" font-size=\"11\">成績（分）</text></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "在第 $1\\sim10$ 名之間",
+            "在第 $21\\sim30$ 名之間",
+            "在第 $31\\sim40$ 名之間",
+            "在第 $11\\sim20$ 名之間"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "15",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-2-1",
+      "unitIds": [
+        "nanyi-9-2-2-1"
+      ],
+      "unitAssignmentBasis": "四分位數與統計分布。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "大英國中九年級共 $300$ 人，數學成績如下表；求九年級數學成績的 $Q_3$ 分別在哪一組？"
+        },
+        {
+          "type": "table",
+          "header": true,
+          "rows": [
+            [
+              "分數（分）",
+              "30～40",
+              "40～50",
+              "50～60",
+              "60～70"
+            ],
+            [
+              "人數（人）",
+              "20",
+              "40",
+              "60",
+              "60"
+            ],
+            [
+              "分數（分）",
+              "70～80",
+              "80～90",
+              "90～100",
+              ""
+            ],
+            [
+              "人數（人）",
+              "40",
+              "60",
+              "20",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "options",
+          "items": [
+            "$50\\sim60$",
+            "$60\\sim70$",
+            "$90\\sim100$",
+            "$80\\sim90$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "16",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-2-2",
+      "unitIds": [
+        "nanyi-9-2-2-2"
+      ],
+      "unitAssignmentBasis": "機率計算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "一副撲克牌有 $52$ 張（不含鬼牌）、$4$ 種花色，每種花色各有 $13$ 張，從撲克牌中任取 $1$ 張，抽到紅色且為 $5$ 的倍數的機率為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$\\dfrac1{13}$",
+            "$\\dfrac7{52}$",
+            "$\\dfrac{13}{52}$",
+            "$\\dfrac2{13}$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "17",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-2-2",
+      "unitIds": [
+        "nanyi-9-2-2-2"
+      ],
+      "unitAssignmentBasis": "機率計算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "袋子裡有 $30$ 顆相同大小的球，其編號依序為 $1,2,3,\\ldots,30$，從袋中任意取出一球，每顆球被取到的機率都相等，則此球的號碼是質數的機率是多少？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$\\dfrac16$",
+            "$\\dfrac13$",
+            "$\\dfrac14$",
+            "$\\dfrac15$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "18",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-2-2",
+      "unitIds": [
+        "nanyi-9-2-2-2"
+      ],
+      "unitAssignmentBasis": "機率計算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "甲袋有三張相同大小的號碼牌，分別是 $1$、$2$、$3$；乙袋有三張相同大小的號碼牌，其號碼分別是 $4$、$5$、$6$。今自甲、乙兩袋分別取出一張號碼牌，每張牌被取到的機率都相等。若甲袋取出的號碼排在十位數，乙袋取出的號碼排在個位數，排出的二位數大於 $20$ 的機率是多少？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$\\dfrac16$",
+            "$\\dfrac13$",
+            "$\\dfrac14$",
+            "$\\dfrac23$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "19",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-3-1",
+      "unitIds": [
+        "nanyi-9-2-3-1"
+      ],
+      "unitAssignmentBasis": "立體圖形、體積與表面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "長方體中，$\\overline{EH}=4$，$\\overline{HG}=6$，$\\overline{CG}=2$，$P$ 為 $\\overline{FH}$ 與 $\\overline{EG}$ 的交點，則 $\\overline{PC}$ 的長度為何？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 115,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 245 150\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"><path d=\"M35 60 L115 30 L205 58 L125 88 Z M35 60 V93 L125 121 L205 91 V58 M125 88 V121\"/><path d=\"M35 93 L115 63 L205 91 M115 30 V63 M115 63 L125 121 M35 93 L205 91\" stroke-dasharray=\"4 3\"/><text x=\"23\" y=\"55\" stroke=\"none\" fill=\"#111\" font-size=\"13\">A</text><text x=\"118\" y=\"25\" stroke=\"none\" fill=\"#111\" font-size=\"13\">B</text><text x=\"208\" y=\"53\" stroke=\"none\" fill=\"#111\" font-size=\"13\">C</text><text x=\"128\" y=\"83\" stroke=\"none\" fill=\"#111\" font-size=\"13\">D</text><text x=\"23\" y=\"107\" stroke=\"none\" fill=\"#111\" font-size=\"13\">E</text><text x=\"118\" y=\"77\" stroke=\"none\" fill=\"#111\" font-size=\"13\">F</text><text x=\"208\" y=\"105\" stroke=\"none\" fill=\"#111\" font-size=\"13\">G</text><text x=\"128\" y=\"135\" stroke=\"none\" fill=\"#111\" font-size=\"13\">H</text><text x=\"123\" y=\"106\" stroke=\"none\" fill=\"#111\" font-size=\"13\">P</text></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$4$",
+            "$\\sqrt{21}$",
+            "$\\sqrt{17}$",
+            "$5$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "20",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-3-1",
+      "unitIds": [
+        "nanyi-9-2-3-1"
+      ],
+      "unitAssignmentBasis": "立體圖形、體積與表面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "一個積木的底面是一個長方形去除一個半圓的圖形，其中長方形的長為 $4$ 公分、寬為 $2$ 公分，半圓的半徑為 $1$ 公分。如果此積木的高為 $3$ 公分，求此積木的體積。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 115,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 230 165\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"><path d=\"M40 38 L90 20 L190 54 L140 70 L115 61 Q100 39 65 46 Z M40 38 V114 L65 123 Q100 111 115 132 L140 140 L190 122 V54 M65 46 V123 M115 61 V132 M140 70 V140\"/></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$24-\\dfrac32\\pi$",
+            "$26+\\dfrac32\\pi$",
+            "$24-\\dfrac52\\pi$",
+            "$26+\\dfrac32\\pi$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "21",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-3-1",
+      "unitIds": [
+        "nanyi-9-2-3-1"
+      ],
+      "unitAssignmentBasis": "立體圖形、體積與表面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "建築師打算在美術館的空地打造一間六角柱的玻璃屋，如圖，其底面是面積為 $54\\sqrt3$ 平方公尺的正六邊形，高為 $9$ 公尺，求此六角柱表面積？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 115,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 235 160\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"><path d=\"M45 42 L78 23 L157 23 L190 42 L157 61 L78 61 Z M45 42 V123 L78 142 L157 142 L190 123 V42 M78 61 V142 M157 61 V142\"/><path d=\"M78 23 V104 L45 123 M157 23 V104 L190 123 M78 104 H157\" stroke-dasharray=\"4 3\"/></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$108\\sqrt3+320$",
+            "$108\\sqrt3+360$",
+            "$108\\sqrt3+334$",
+            "$108\\sqrt3+324$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "22",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-3-1",
+      "unitIds": [
+        "nanyi-9-2-3-1"
+      ],
+      "unitAssignmentBasis": "立體圖形、體積與表面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "圖為一個正六角錐，其底面正六邊形的邊長為 $10$ 公分，側面等腰三角形的腰長為 $13$ 公分，求此六角錐的表面積。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 115,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 235 155\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"><path d=\"M120 12 L31 121 L58 140 L174 140 L201 121 Z M120 12 L58 140 M120 12 L174 140\"/><path d=\"M31 121 L58 102 L174 102 L201 121 M120 12 L58 102 M120 12 L174 102\" stroke-dasharray=\"4 3\"/></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$150\\sqrt3+360$",
+            "$140\\sqrt3+360$",
+            "$160\\sqrt3+350$",
+            "$145\\sqrt3+350$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "23",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-3-1",
+      "unitIds": [
+        "nanyi-9-2-3-1"
+      ],
+      "unitAssignmentBasis": "立體圖形、體積與表面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "圖為長方體，判別下列哪些直線與 $\\overleftrightarrow{BF}$ 歪斜？（複選）(A) $\\overleftrightarrow{AD}$　(B) $\\overleftrightarrow{BD}$　(C) $\\overleftrightarrow{CD}$　(D) $\\overleftrightarrow{EH}$　(E) $\\overleftrightarrow{HG}$。答：＿＿＿＿。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 115,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 175\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"><path d=\"M45 65 H155 V145 H45 Z M45 65 L85 27 H195 L155 65 M155 65 L195 27 V107 L155 145\"/><path d=\"M45 145 L85 107 H195 M85 27 V107\" stroke-dasharray=\"4 3\"/><text x=\"32\" y=\"160\" stroke=\"none\" fill=\"#111\" font-size=\"14\">A</text><text x=\"158\" y=\"160\" stroke=\"none\" fill=\"#111\" font-size=\"14\">B</text><text x=\"198\" y=\"116\" stroke=\"none\" fill=\"#111\" font-size=\"14\">C</text><text x=\"72\" y=\"115\" stroke=\"none\" fill=\"#111\" font-size=\"14\">D</text><text x=\"32\" y=\"67\" stroke=\"none\" fill=\"#111\" font-size=\"14\">E</text><text x=\"158\" y=\"67\" stroke=\"none\" fill=\"#111\" font-size=\"14\">F</text><text x=\"198\" y=\"25\" stroke=\"none\" fill=\"#111\" font-size=\"14\">G</text><text x=\"75\" y=\"23\" stroke=\"none\" fill=\"#111\" font-size=\"14\">H</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "24",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-9-2-3-1",
+      "unitIds": [
+        "nanyi-9-2-3-1"
+      ],
+      "unitAssignmentBasis": "立體圖形、體積與表面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "圖是一個圓錐，其圓形底面半徑為 $3$、扇形半徑為 $8$；將此圓錐展開後求此圓錐的表面積？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 115,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 245 160\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"><path d=\"M125 12 L45 130 Q125 155 205 130 Z\"/><path d=\"M45 130 Q125 105 205 130 M125 130 H205\" stroke-dasharray=\"4 3\"/><text x=\"180\" y=\"80\" stroke=\"none\" fill=\"#111\" font-size=\"14\">8</text><text x=\"159\" y=\"146\" stroke=\"none\" fill=\"#111\" font-size=\"14\">3</text></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$33$",
+            "$33\\pi$",
+            "$32\\pi$",
+            "$35\\pi$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "25",
+      "page": 2,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-9-2-3-1",
+      "unitIds": [
+        "nanyi-9-2-3-1"
+      ],
+      "unitAssignmentBasis": "立體圖形、體積與表面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "圖為一個角柱的展開圖，求此角柱的體積。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 115,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 245 210\"><g fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"><path d=\"M20 65 H220 V140 H20 Z M53 65 V140 M100 65 V140 M147 65 V140 M194 65 V140 M100 65 V33 L123.5 10 L147 33 V65 M100 140 V172 L123.5 195 L147 172 V140 M100 58 H106 V65 M141 65 V58 H147 M100 147 H106 V140 M141 140 V147 H147 M118 15 L123.5 20.5 L129 15 M118 190 L123.5 184.5 L129 190\"/><text x=\"28\" y=\"58\" stroke=\"none\" fill=\"#111\" font-size=\"12\">1</text><text x=\"63\" y=\"58\" stroke=\"none\" fill=\"#111\" font-size=\"12\">√2</text><text x=\"112\" y=\"82\" stroke=\"none\" fill=\"#111\" font-size=\"12\">√2</text><text x=\"158\" y=\"58\" stroke=\"none\" fill=\"#111\" font-size=\"12\">√2</text><text x=\"201\" y=\"58\" stroke=\"none\" fill=\"#111\" font-size=\"12\">1</text><text x=\"7\" y=\"108\" stroke=\"none\" fill=\"#111\" font-size=\"12\">4</text></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$12$",
+            "$10$",
+            "$14$",
+            "$20$"
+          ]
+        }
+      ]
+    }
+  ]
+}
