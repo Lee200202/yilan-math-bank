@@ -1,5 +1,11 @@
 # Next Batch and Deployment Record
 
+## v56 宜蘭九下（2026-11-17）
+
+新增中華111下九一 `1nnAHfCJ35S3R4-MvLDiTFomybjsd9kv_` 21/21、羅東110下九一 `ld-110-2-1-9` 17/18；後者原卷以盒狀圖求平均數，該題組停用。靜態建置12,720題、77項測試通過；正式部署另查 Actions。
+
+羅東108上九二 DOC 已以官方簽章驗證的 LibreOffice 隔離版試轉；公式預覽與題圖疑有損失，僅屬參考，仍待與原始公式／圖比較，不得視為已完成。相關紀錄及可攜工具位於共享目錄 scratch，注意其為本機暫存、未上傳 GitHub。
+
 ## v55 宜蘭九下（2026-11-17）
 
 新增中華111下九二 `1Nr14twvD65HQwpWUlA-ATwUfMCEgjqGE` 17題組與112下九二 `1ah-78tAk-UdF9_2dFnSCGcxhOdbjH0xY` 20題；原卷重複錯誤選項已保留註記。本機12,682題、77項測試通過，部署另查 Actions。持續宜蘭九下，九上 DOC／答案卷缺口不可視為完成；多AI未提交稿見 AI_UPLOAD_AUDIT_20261117.json 與共享工作目錄。
