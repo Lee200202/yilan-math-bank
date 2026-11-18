@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v75 宜蘭七上（2026-11-18）
+
+中華110上七一 `1xWGzlqmivDl1Wf9pQh_skRvz_4vvCtZM` 25/25、110上七三 `1tXBJ7XjJV6ihRHDV-vizOgx01fCMzwgD` 18/18；羅東107上七三 Word `ld-107-1-3-7` 17/17 大題，行車地圖解題所需路線與里程改以文字、優惠資料以表格呈現。圖形由轉錄者對照原卷，未逐卷輸出 PDF。本機15,868題、77項測試通過；部署另查。繼續宜蘭七年級，Word 依原始 SHA 建檔。
+
 ## v74 宜蘭七下及來源釐清（2026-11-18）
 
 中華111下七一 `1onuGyPMlBR4UamN0f5aX-DyWoagh0sp-` 18/18 可用，圖形依原卷重繪。本機15,808題、77項測試通過；部署另查。中華 `1cGoicwTQQYepgSWk8gBPG54qH3QAOkKW` 只是106下九二填充12更正單，已核對既刊原卷採更正後公式；羅東 `ld-106-2-1-9` 官方下學期頁誤連上學期原卷，兩份 SHA 相同，官網與關鍵字補查暫未找到真正下學期卷。詳見 handoff/source-issues，不可將這兩個附件當完整新卷。
