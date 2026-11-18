@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v83 中華八下另一版本（2026-11-18）
+
+中華108下八三 Word `1AhIbjzAwUEmFrWisDMwTc-OzZhFUpm91` 22/25，三題原卷條件不明停用；圖形由轉錄者重繪並對照。與 v82 的 `161rWGzcQYllb6Vl0DXXV1sjxuPMFzpDP` 雖同考次但題文與卷面不同，保留為兩個版本。本機16,233題、77項測試通過；正式部署另查。羅東105下八一 Word 由代理以 `ld-106-1-1-8`（已依卷首修正 metadata）處理，重複來源 `ld-105-2-1-8` 不重複出題。
+
 ## v82 宜蘭八下與七下（2026-11-18）
 
 中華108下八三 Word `161rWGzcQYllb6Vl0DXXV1sjxuPMFzpDP` 24/25（填12圖文矛盾停用）；中華110下七一 `1z4fqrz3kc0hnD085JVBpoUfAzewYqBnQ` 18/18（積木及選項圖補繪）。原稿作者對照圖形；本機16,211題、77項測試通過，部署另查。同次中華八下另一版本 `1AhIbjzAwUEmFrWisDMwTc-OzZhFUpm91` 題目不同，已交稿待下一批。羅東105下八一的兩筆 Word SHA 一致，僅處理 `ld-106-1-1-8`，以卷首及 metadata override 辨識。
