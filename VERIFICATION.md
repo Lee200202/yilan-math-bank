@@ -206,3 +206,8 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 - 可組卷題數 → 17,580（含遠端宜蘭新增）。`npm test` 78 項通過；21 卷 PDF 匯出檢查全數通過。疑義見 `handoff/batches/20261118-o2w15-SOURCE_ISSUES_REPORT.md`。高雄三份卷依裁決以卷首標示民族國中（`slot-overrides.json`）。
 - 抽取工具修正：升降位置上標、公式欄位內上標、Word 內建圖表、符號字型等；舊 `.doc` 已全部用 Word 轉成 `.docx`（`handoff/WORD_CONVERT.md`）。
 - 正式站驗收：ALL PASS（`handoff/batches/20261118-v105/live-acceptance.json`）；正式站資料確認高雄三份卷顯示民族國中。
+
+## v106（20261118-metro-v106）：補上共用資料夾中其他 AI 已完成但未推送的宜蘭 2 卷
+
+- 盤點共用資料夾：30 份 `.md` 草稿在 Git 已有對應正式 JSON（無遺漏）；真正未推送的只有宜蘭 `ld-110-1-1-7`（22/23 可用）與 `ld-107-2-2-9`（本機較新版，僅第 11 題圖形不同）。兩卷通過檢查與 PDF 匯出檢查（`handoff/batches/20261118-yilan2-pdf-acceptance.json`）。
+- 正式站驗收：發布後補。
