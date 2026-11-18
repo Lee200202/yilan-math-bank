@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v98 中華七下 Word（2026-11-18）
+
+中華106下七三 DOC `1UMI7X448uFG4u-xZh7bBZSj2jsO2Phsh` 24/24；原始 Word 符號資料用於還原不等號，函數圖及數線為 SVG。建置16,752題、78項測試通過；部署另查。羅東 `ld-107-2-1-7` 22/22 和中華 `1ErWjNrMOThKNXB1CdvWD_D-pstJ82AgU` 23/24 已交稿待下一批，後者原卷方程術語矛盾一題停用。
+
 ## v97 宜蘭七下（2026-11-18）
 
 羅東107下七二 `ld-107-2-2-7` 官網原 PDF 缺填充14–20，可辨15題以 partial 收錄並顯示缺題警告；中華107下七二 `105J__1NnYMfjUaEX_KdQ43VpqmMko0s_` 28/28，已套用官方更正單 `1zjiYw3Qm5gPl0YRRZfTOhFdZMxOAiZBX` 並留原檔 SHA。建置16,728題、78項測試通過，資料確認 partial 15 題；部署另查。下一步處理羅東 `ld-107-2-1-7`、中華 `1ErWjNrMOThKNXB1CdvWD_D-pstJ82AgU`，避免多代理重複認領。
