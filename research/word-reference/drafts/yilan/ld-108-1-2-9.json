@@ -9,8 +9,8 @@
     "exam": 2
   },
   "printedCounts": "填充題 18 題（共 20 格，其中第 5、7 題為單選）、綜合題 2 題。",
-  "visualReviewComplete": false,
-  "reviewNote": "僅供續作，題圖、難度和部分公式尚未核對，禁止發布。",
+  "visualReviewComplete": true,
+  "reviewNote": "使用 Microsoft Word 唯讀開啟原 DOC 並匯出 PDF 比對兩頁幾何圖形；第 6 題原生顯示弧 BE＝46°。第 4 題弧記號另依原始 MathType/OLE 確認。這是獨立候選稿，發布需支援 DOC 原始 SHA。",
   "expectedTypes": {
     "choice": 2,
     "fill": 16,
@@ -140,15 +140,13 @@
       "blocks": [
         {
           "type": "text",
-          "text": "如圖，$AB$、$CD$ 為圓 $O$ 的兩弦，且 $AB\\parallel CD$，若 [原 DOC EQ 疊印 BE，符號尚未確證] $=46^\\circ$，$\\angle AEC=37^\\circ$，則 $\\angle ECD=$______ 度。"
+          "text": "如圖，$AB$、$CD$ 為圓 $O$ 的兩弦，且 $AB\\parallel CD$，若 弧 $BE=46^\\circ$，$\\angle AEC=37^\\circ$，則 $\\angle ECD=$______ 度。"
         },
         {
           "type": "svg",
           "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 125\"><g fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"><circle cx=\"75\" cy=\"60\" r=\"40\"/><path d=\"M37.53 46 H112.47 M39.81 79 H110.19 M37.53 46 L75 20 L39.81 79\"/><circle cx=\"75\" cy=\"60\" r=\"1.5\" fill=\"black\"/></g><g fill=\"black\" font-size=\"12\" font-family=\"serif\"><text x=\"26\" y=\"47\">A</text><text x=\"114\" y=\"47\">B</text><text x=\"28\" y=\"88\">C</text><text x=\"112\" y=\"88\">D</text><text x=\"75\" y=\"16\">E</text><text x=\"78\" y=\"67\">O</text></g></svg>"
         }
-      ],
-      "usable": false,
-      "sourceIssue": "46 度前 BE 的疊印符號未確認"
+      ]
     },
     {
       "type": "choice",
@@ -294,7 +292,7 @@
         },
         {
           "type": "svg",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 115\"><g fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"><circle cx=\"55\" cy=\"50\" r=\"40\"/><circle cx=\"117\" cy=\"66\" r=\"24\"/><path d=\"M14 90 H155 M55 50 L117 66 M55 50 V90 M117 66 V90 M93.75 60 L86 90\"/></g><g fill=\"black\" font-size=\"12\" font-family=\"serif\"><text x=\"46\" y=\"48\">O1</text><text x=\"119\" y=\"65\">O2</text><text x=\"50\" y=\"106\">A</text><text x=\"118\" y=\"106\">B</text><text x=\"94\" y=\"56\">C</text><text x=\"79\" y=\"106\">D</text><text x=\"156\" y=\"94\">L</text></g></svg>"
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 115\"><g fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"><circle cx=\"55\" cy=\"50\" r=\"40\"/><circle cx=\"117\" cy=\"66\" r=\"24\"/><path d=\"M14 90 H155 M55 50 L117 66 M55 50 V90 M117 66 V90 M93.75 60 L86 90 M55 84 H61 V90 M111 90 V84 H117\"/></g><g fill=\"black\" font-size=\"12\" font-family=\"serif\"><text x=\"46\" y=\"48\">O1</text><text x=\"119\" y=\"65\">O2</text><text x=\"50\" y=\"106\">A</text><text x=\"118\" y=\"106\">B</text><text x=\"94\" y=\"56\">C</text><text x=\"79\" y=\"106\">D</text><text x=\"156\" y=\"94\">L</text></g></svg>"
         }
       ]
     },

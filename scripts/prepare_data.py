@@ -170,7 +170,9 @@ def main():
         p=all_ids.get(pid)
         if not p:raise ValueError(f'Transcription without a Yilan paper: {pid}')
         if p['transcriptionStatus'] in ('complete','complete-with-source-issues'):raise ValueError(f'Paper already complete: {pid}')
-        if not p['file'].endswith('.pdf'):raise ValueError(f'Yilan whole-paper transcription needs a PDF: {pid}')
+        # The original may be an office document; its SHA is still checked by
+        # rows_from_transcript, independently of any derived PDF preview.
+        if p['format'] not in ('pdf','doc','docx','odt'):raise ValueError(f'Unsupported Yilan source format: {pid}')
         questions=[q for q in questions if q['paperId']!=pid]
         p['region']='yilan'
         questions+=prepare_metro.rows_from_transcript(t,p,unit_ids_all,f'research/yilan/transcribed/{pid}.json')
