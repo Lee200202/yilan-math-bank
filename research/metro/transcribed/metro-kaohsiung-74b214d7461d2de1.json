@@ -1,0 +1,640 @@
+{
+ "paperId": "metro-kaohsiung-74b214d7461d2de1",
+ "sourceSha256": "02b5b958dff2aed15c3374b03d6049907753705111094c75f5241852d0fd6ff8",
+ "printedHeader": "高雄市立民族國中113學年度第一學期二年級數學科第二次段考",
+ "printedSlot": {
+  "year": 113,
+  "semester": 1,
+  "grade": 8,
+  "exam": 2
+ },
+ "printedCounts": "選擇15題、填充10題、計算2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "卷首印的是民族國中（目標清單作美濃國中，來源網站為美濃國中；年度/學期/考次一致，二年級＝八年級），照印刷卷首記錄。原檔把老師的答案直接寫在題目括號與填充底線內且部分是舊答案（如選擇3、4、7、8、11答案與解答表不一致），一律以題目文字為準、重新計算驗證，不收答案。所有公式圖（wmf）逐張讀取並以解答表/計算核對（選15選項以wmf文字讀出）。Q11三角形圖由docx向量座標重建（A在上、B左、C右、D為垂足，比例依15-20-25）；填6圖僅原有的正方形ABCD；寫2雲梯照片以示意圖重繪。計算題1的題目被殘留文字破壞，題幹依解答表（√3x-2=x，(√3-1)x=2，x=√3+1）重建；殘留的『(1)2公尺 (2)0.7公尺』等無法對應，已略。",
+ "expectedTypes": {
+  "choice": 15,
+  "fill": 10,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "最簡根式的判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列根式中，何者是最簡根式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{2.4}$",
+      "$2\\sqrt{13}$",
+      "$\\dfrac{5}{\\sqrt{3}}$",
+      "$\\sqrt{60}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式乘除運算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $\\dfrac{\\sqrt{9}}{\\sqrt{12}}\\div\\sqrt{\\dfrac{54}{12}}\\times\\sqrt{\\dfrac{3}{6}}$ 之值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{\\sqrt{3}}{12}$",
+      "$\\dfrac{\\sqrt{3}}{6}$",
+      "$\\dfrac{\\sqrt{3}}{3}$",
+      "$\\dfrac{3\\sqrt{3}}{4}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式乘法與化簡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "算式 $\\sqrt{2}\\times(\\sqrt{48}-\\sqrt{3})$ 之值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3\\sqrt{6}$",
+      "$4\\sqrt{2}$",
+      "$4\\sqrt{6}$",
+      "$3\\sqrt{2}-\\sqrt{6}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "坐標平面兩點距離。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知坐標平面上 $C(-3,5)$、$D(-6,-7)$ 兩點，則 $\\overline{CD}$ 的長為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{13}$",
+      "$\\sqrt{85}$",
+      "$3\\sqrt{17}$",
+      "$15$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "因式與倍式的關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $4x^{2}+2x-20=2(x-2)(2x+5)$，下列敘述何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2x^{2}+x-10$ 是 $x-2$ 的倍式",
+      "$4x+10$ 是 $2x^{2}+x-10$ 的因式",
+      "$2x^{2}+x-10$ 是 $2x+5$ 的倍式",
+      "$x-2$ 是 $2x+5$ 的因式"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "倍式與因式定理。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $9x^{2}+mx-8$ 是 $3x-2$ 的倍式，則 $m$ 的值為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$6$",
+      "$8$",
+      "$10$",
+      "$18$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "提公因式後判斷因式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$2x+3$ 是下列哪一個多項式的因式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(x+3)(5x-1)-(x+3)(3x-4)$",
+      "$2x^{2}-x-3$",
+      "$(2x-3)(4x-1)-(2x-3)(2x+4)$",
+      "$2x^{2}+7x+3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理求斜邊。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一個直角三角形的兩股長分別為 $3$、$5$，則斜邊長為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4$",
+      "$\\sqrt{34}$",
+      "$\\sqrt{39}$",
+      "$2\\sqrt{17}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2",
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "提公因式與十字交乘法因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列四個選項中，哪一個為多項式 $8x^{2}-10x+2$ 的因式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2x+2$",
+      "$4x+1$",
+      "$4x-1$",
+      "$2x-1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法因式分解求長與寬。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "長方形的面積為 $22x^{2}-x-48$，長和寬分別為 $(bx+c)$、$(2x-a)$，其中 $a$、$b$、$c$ 皆為正整數，則長方形的周長為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$13x+8$",
+      "$13x+13$",
+      "$26x+16$",
+      "$26x+26$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理與面積法求斜邊上的高。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，直角三角形 $ABC$ 中，$\\overline{AD}$ 為斜邊上的高，且 $\\overline{AB}=15$，$\\overline{BC}=25$，則 $\\overline{AD}=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 215 140\"><polygon points=\"20,110 180,110 77.6,33.2\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"77.6\" y1=\"33.2\" x2=\"77.6\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"77.6,100 87.6,100 87.6,110\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"77.6\" y=\"27.200000000000003\" font-size=\"16\" text-anchor=\"middle\" font-style=\"italic\">A</text><text x=\"10\" y=\"114\" font-size=\"16\" text-anchor=\"middle\" font-style=\"italic\">B</text><text x=\"192\" y=\"114\" font-size=\"16\" text-anchor=\"middle\" font-style=\"italic\">C</text><text x=\"77.6\" y=\"130\" font-size=\"16\" text-anchor=\"middle\" font-style=\"italic\">D</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$12$",
+      "$9$",
+      "$\\dfrac{36}{5}$",
+      "$\\dfrac{27}{5}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法因式分解找公因式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有兩個多項式 $2x^{2}-9x-5$ 與 $4x^{2}+8x+3$，則這兩個多項式的公因式為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2x-1$",
+      "$x-5$",
+      "$2x+3$",
+      "$2x+1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2",
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "根式化簡與有理化後以已知根式表示。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $\\sqrt{13}=a$，$\\sqrt{130}=b$，請用 $a$、$b$ 表示 $\\sqrt{5.2}$ 的值$=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{a}{5}$",
+      "$\\dfrac{2a}{5}$",
+      "$\\dfrac{b}{5}$",
+      "$\\dfrac{2b}{5}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "14",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根為整數的條件。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $k$ 為正整數，且 $\\sqrt{10-k}$ 為整數，則所有可能的 $k$ 值之總和$=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$14$",
+      "$16$",
+      "$24$",
+      "$26$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "15",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法的係數關係與連續整數乘積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a$、$b$ 為整數，且 $x^{2}-x-k=(x+a)(x+b)$，則 $k$ 可能為下列何數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2\\times3\\times5\\times11$",
+      "$2\\times3\\times7\\times11$",
+      "$2\\times5\\times7\\times11$",
+      "$3\\times5\\times7\\times11$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式化簡與加減。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算下列式子，並將結果化為最簡根式：$3\\sqrt{\\dfrac{2}{3}}-\\sqrt{24}-\\sqrt{18}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理應用：合併東西、南北位移。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小睿從家裡開車前往車站，必須先向西行駛 $18$ 公里，再向南行駛 $7$ 公里，再向東行駛 $6$ 公里，再向南行駛 $5$ 公里，最後再向西行駛 $4$ 公里才會到達，則小睿家與車站的直線距離是＿＿＿＿公里。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "提公因式（注意符號）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $(4x-3)^{2}-2x(3-4x)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "分組後提公因式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $(3x-1)+(3x^{2}-x)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法（首項係數為負）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $-6x^{2}-11x+10=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "摺疊後對應邊相等，畢氏定理。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，將正方形 $ABCD$ 摺疊，使得 $C$ 點落在 $\\overline{AD}$ 上的 $E$ 點處，且 $\\overline{MN}$ 為摺痕，$M$ 點在 $\\overline{AB}$ 上，$N$ 點在 $\\overline{CD}$ 上。若 $\\overline{DE}=12$，$\\overline{DN}=5$，求 $\\overline{AE}=$＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 580 680\"><rect x=\"52\" y=\"122\" width=\"464\" height=\"464\" fill=\"#ece8f3\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"40\" y=\"100\" font-size=\"44\" text-anchor=\"middle\" font-style=\"italic\">A</text><text x=\"526\" y=\"100\" font-size=\"44\" text-anchor=\"middle\" font-style=\"italic\">D</text><text x=\"40\" y=\"640\" font-size=\"44\" text-anchor=\"middle\" font-style=\"italic\">B</text><text x=\"526\" y=\"640\" font-size=\"44\" text-anchor=\"middle\" font-style=\"italic\">C</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "完全平方公式因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "由四個面積分別為 $12x$、$16x^{2}$、$12x$ 和 $9$ 的圖形組成一個大正方形，則此大正方形的邊長$=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "平方差公式因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將一張邊長為 $5x+3$ 的正方形色紙，中間剪去一個邊長為 $3x$ 的正方形，則剩餘的面積會與一個長方形的面積相等，若此長方形的其中一個邊長為 $8x+3$，則另一邊長$=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根為整數的條件。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $\\sqrt{3a}$ 是一個正整數，且整數 $a$ 介於 $50$ 與 $90$ 之間，則 $a=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "因式分解後由質數性質討論。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x$ 為正整數，$6x^{2}+11x-35$ 為一個質數，求此質數$=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "移項後分母有理化。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解下列方程式並將答案化簡："
+    },
+    {
+     "type": "text",
+     "text": "$\\sqrt{3}x-2=x$"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3",
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "畢氏定理求高度並比較（根式化簡）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，雲梯原長為 $26$ 公尺，已知雲梯底部與建築物水平距離為 $10$ 公尺，若雲梯長縮短為 $16$ 公尺，則雲梯所能到達建築物的高度比原來少幾公尺？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 295\"><line x1=\"20\" y1=\"260\" x2=\"230\" y2=\"260\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"200\" y1=\"20\" x2=\"200\" y2=\"260\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"100\" y1=\"260\" x2=\"200\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"188,260 188,248 200,248\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"135\" y=\"130\" font-size=\"18\" text-anchor=\"middle\">26</text><text x=\"215\" y=\"140\" font-size=\"18\" text-anchor=\"middle\" font-style=\"italic\">h</text><text x=\"150\" y=\"282\" font-size=\"18\" text-anchor=\"middle\">10</text></svg>"
+    }
+   ]
+  }
+ ]
+}

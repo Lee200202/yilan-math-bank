@@ -1,0 +1,636 @@
+{
+ "paperId": "metro-taoyuan-bdd56d2a38e6cdbb",
+ "sourceSha256": "20e10f793c80474b382bd738a182118f8847604eb127151c73983054a46d572e",
+ "printedHeader": "桃園市立自強國中114學年度第一學期第二次定期考查八年級數學科",
+ "printedSlot": {
+  "year": 114,
+  "semester": 1,
+  "grade": 8,
+  "exam": 2
+ },
+ "printedCounts": "選擇10題、填充15題、非選擇2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "依 text.md 與 img 逐題對照；小型公式圖（根號、線段）逐張放大讀取，答案卷重複題不重收；7張圖重繪為SVG（梯子、風車正方形、BC置地、四三角形拼長方形、圓與半圓、長方形路徑）。表格答案卷僅為作答欄。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 15,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "最簡根式的判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者為最簡根式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{\\sqrt{8}}{5}$",
+      "$\\dfrac{8}{\\sqrt{5}}$",
+      "$\\sqrt{\\dfrac{5}{8}}$",
+      "$\\dfrac{\\sqrt{5}}{8}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "分母有理化後比較兩數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a=\\sqrt{3}+2$，$b=\\dfrac{1}{\\sqrt{3}-2}$，則 $a$ 與 $b$ 的關係為下列何者？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "互為相反數",
+      "互為倒數",
+      "相等",
+      "乘積為$-1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式化簡與除法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$6\\sqrt{2}$ 是 $\\sqrt{8}$ 的多少倍？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3\\sqrt{2}$",
+      "$3$",
+      "$6$",
+      "$\\sqrt{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理分兩種情形求第三邊。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $3$、$4$、$x$ 是直角三角形的三邊長，則 $x$ 可能為下列何者？"
+    },
+    {
+     "type": "text",
+     "text": "(甲)：$1$　(乙)：$2$　(丙)：$5$　(丁)：$\\sqrt{7}$　(戊)：$\\sqrt{13}$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "僅(丙)",
+      "僅(丙)、(丁)",
+      "僅(丁)、(戊)",
+      "僅(甲)、(乙)、(丙)、(丁)"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理敘述。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若有一直角三角形三邊長分別為 $a$、$b$、$c$，且 $c$ 為斜邊長，則下列選項何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$c=a+b$",
+      "$b^{2}=a^{2}+c^{2}$",
+      "$c^{2}=a^{2}+b^{2}$",
+      "$a$ 對應的角是直角"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "坐標平面兩點距離。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "直角坐標平面上，$P(-2,8)$、$Q(-6,5)$ 兩點的距離為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4$",
+      "$5$",
+      "$8$",
+      "$10$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "因式、倍式與餘式關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $A$ 為一多項式，且 $A\\div(x+2)$ 的餘式為 $0$；$A\\div(2x+1)$ 的餘式為 $0$；$A\\div(x+3)$ 的餘式為 $5$。則下列敘述哪一個選項是正確的？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$A$ 是 $2x+1$ 的因式",
+      "$x+2$ 是 $A$ 的倍式",
+      "$A-5$ 是 $x+3$ 的倍式",
+      "$x+3$ 是 $A+5$ 的因式"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "平方差公式因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有四位同學同時因式分解 $9x^{2}-16$，其分解的結果如下："
+    },
+    {
+     "type": "text",
+     "text": "讚讚：$(9x+1)(9x-16)$"
+    },
+    {
+     "type": "text",
+     "text": "雍雍：$(9x+4)(9x-4)$"
+    },
+    {
+     "type": "text",
+     "text": "緯緯：$(3x+16)(3x-16)$"
+    },
+    {
+     "type": "text",
+     "text": "皓皓：$(3x+4)(3x-4)$"
+    },
+    {
+     "type": "text",
+     "text": "則哪一位同學因式分解的結果是正確的？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "讚讚",
+      "雍雍",
+      "緯緯",
+      "皓皓"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "辨認因式分解的形式（乘積形式）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列四個式子展開化簡後都是 $x^{2}+5x+6$，何者是它的因式分解？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x(x+5)+6$",
+      "$(x+3)^{2}-x-3$",
+      "$(x+2)(x+3)$",
+      "$x(x+4)+(x+6)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $x^{2}+12x+32=(x+a)(x+b)$，其中 $a>b$，則 $a-b=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4$",
+      "$31$",
+      "$18$",
+      "$14$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式乘除運算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算並化簡 $\\sqrt{21}\\times\\sqrt{\\dfrac{3}{7}}\\div\\sqrt{\\dfrac{3}{4}}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "分母有理化。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知方程式 $(3-\\sqrt{6})x=3$，則 $x=$＿＿＿＿。（化為最簡根式）"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理應用：梯子長度不變。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖所示，奇奇放一木梯斜靠在牆上，梯腳到牆腳的距離為 $5$ 公尺，梯頂距離地面也為 $5$ 公尺，杰杰為了換燈泡將梯腳往牆的方向移動 $4$ 公尺，請問此時梯頂向上移動了＿＿＿＿公尺。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 366\"><line x1=\"10\" y1=\"305\" x2=\"262\" y2=\"305\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"257\" y=\"5\" width=\"10\" height=\"300\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"78\" y1=\"305\" x2=\"258\" y2=\"125\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"228\" y1=\"305\" x2=\"258\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><path d=\"M80 312 Q170 335 262 312\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M80 298 Q150 285 226 298\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M272 125 Q290 215 272 305\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"147\" y=\"285\" font-size=\"22\">4</text><text x=\"160\" y=\"355\" font-size=\"22\">5</text><text x=\"276\" y=\"220\" font-size=\"22\">5</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理：斜邊平方即大正方形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將 $4$ 個完全相同的直角三角形及一個小正方形拼成一個大正方形，如圖。已知直角三角形的兩股分別是 $7$ 公分和 $11$ 公分，求大正方形 $ABCD$ 的面積$=$＿＿＿＿平方公分。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 482 459\"><rect x=\"78\" y=\"62\" width=\"340\" height=\"338\" fill=\"#e0f1fa\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"238,175 307,222 260,290 191,240\" fill=\"#b3dde2\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"78\" y1=\"62\" x2=\"238\" y2=\"175\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"418\" y1=\"62\" x2=\"307\" y2=\"222\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"78\" y1=\"400\" x2=\"191\" y2=\"240\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"418\" y1=\"400\" x2=\"260\" y2=\"290\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"38\" y=\"62\" font-size=\"34\" font-style=\"italic\">A</text><text x=\"428\" y=\"62\" font-size=\"34\" font-style=\"italic\">D</text><text x=\"38\" y=\"425\" font-size=\"34\" font-style=\"italic\">B</text><text x=\"428\" y=\"425\" font-size=\"34\" font-style=\"italic\">C</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理與面積求斜邊上的高。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，$\\triangle ABC$ 中，$\\angle B$ 為直角，$\\overline{BC}=5$。將 $\\triangle ABC$ 之 $\\overline{BC}$ 置於地上時，$A$ 點與地面的距離為 $12$，若將 $\\overline{AC}$ 置於地上時，則 $B$ 點與地面的距離$=$＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 822 318\"><line x1=\"20\" y1=\"265\" x2=\"278\" y2=\"265\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"80,265 80,72 222,265\" fill=\"#fcd77f\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"80\" y=\"245\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"60\" y=\"62\" font-size=\"30\" font-style=\"italic\">A</text><text x=\"60\" y=\"305\" font-size=\"30\" font-style=\"italic\">B</text><text x=\"205\" y=\"305\" font-size=\"30\" font-style=\"italic\">C</text><polygon points=\"296,158 318,168 296,178\" fill=\"#111\"/><line x1=\"330\" y1=\"265\" x2=\"810\" y2=\"265\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"527,265 608,150 762,265\" fill=\"#fcd77f\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"380,265 380,72 527,265\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><polyline points=\"595,166 611,180 627,164\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"592\" y=\"136\" font-size=\"30\" font-style=\"italic\">B</text><text x=\"500\" y=\"305\" font-size=\"30\" font-style=\"italic\">C</text><text x=\"755\" y=\"305\" font-size=\"30\" font-style=\"italic\">A</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3",
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "等腰直角三角形邊長關係與面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，四個等腰直角三角形和一個正方形拼成一個長方形。已知這個長方形的面積為 $60$ 平方公分，求正方形之面積為＿＿＿＿平方公分。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 342 230\"><rect x=\"12\" y=\"10\" width=\"318\" height=\"210\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"12\" y1=\"220\" x2=\"222\" y2=\"10\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"330\" y1=\"220\" x2=\"172\" y2=\"62\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"330\" y1=\"10\" x2=\"225\" y2=\"115\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"222\" y1=\"10\" x2=\"275\" y2=\"62\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"172\" y1=\"62\" x2=\"225\" y2=\"115\" stroke=\"#111\" stroke-width=\"1.4\"/></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法因式分解並判斷因式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判別 $x+7$ 是不是 $2x^{2}+9x-35$ 的因式？答：＿＿＿＿。（填是或否）若是請寫出因式分解，若否則寫無：＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "找公因式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列各多項式中，哪個是 $(3x+2)(x+4)$ 和 $(3x+1)(x+4)$ 的公因式？答：＿＿＿＿。 (A) $3x+1$　(B) $x+4$　(C) $3x+2$　(D) $(x+4)(3x+2)(3x+1)$"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "平方差公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用平方差公式因式分解 $x^{2}-1^{2}=(x+1)($＿＿＿＿$)$"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "完全平方公式因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用和的平方公式因式分解 $(3x)^{2}+2\\cdot 3x\\cdot 7+7^{2}=($＿＿＿＿$+7)^{2}$"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法（首項係數非 1）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $8x^{2}-10x-3=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理與圓面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，等腰三角形 $ABC$ 之腰長為 $12$，$D$ 為底邊 $\\overline{BC}$ 之中點，圖中著色部分為一個圓及兩個半圓，它們的直徑分別為 $\\overline{AD}$、$\\overline{BD}$、$\\overline{CD}$，則著色面積為＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 260\"><circle cx=\"145\" cy=\"130\" r=\"80\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M65 20 A55 55 0 0 0 65 130 Z\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M65 130 A55 55 0 0 0 65 240 Z\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"65,20 225,130 65,240\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"65\" y1=\"130\" x2=\"225\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"60\" y=\"18\" font-size=\"18\" font-style=\"italic\" text-anchor=\"end\">B</text><text x=\"40\" y=\"136\" font-size=\"18\" font-style=\"italic\">D</text><text x=\"232\" y=\"136\" font-size=\"18\" font-style=\"italic\">A</text><text x=\"60\" y=\"256\" font-size=\"18\" font-style=\"italic\" text-anchor=\"end\">C</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "因式分解結合坐標象限。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x^{2}-7x+10$ 因式分解的結果為 $(x-a)(x+b)$，且 $|a|>|b|$，則點 $(a,b)$ 在直角坐標平面上的第＿＿＿＿象限。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "14",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "因式分解後由質數性質討論。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $5x^{2}-28x-12$ 表示一個質數，則此質數為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "15",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式面積、因式分解求長寬。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "老王有一塊三角形的土地，其底邊長為 $(4x+6)$ 公尺，高為 $(3x+2)$ 公尺，政府欲將其土地重新規劃成長方形貿易特區，使得土地面積減少 $4$ 平方公尺，則新規劃的長方形周長為＿＿＿＿公尺。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3",
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式運算求邊長與路徑長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，長方形 $ABCD$ 的面積為 $120$ 平方公尺，且 $\\overline{CD}=5\\sqrt{3}$ 公尺，$\\overline{AP}=4\\sqrt{6}$ 公尺。若小毅從 $P$ 點出發，沿著長方形的邊依序經過 $D$ 點、$C$ 點，最後到達 $B$ 點，試問小毅走了多少公尺？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 538 300\"><rect x=\"72\" y=\"70\" width=\"340\" height=\"168\" fill=\"#e6f0e6\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"265\" cy=\"70\" r=\"5\" fill=\"#111\"/><path d=\"M80 78 Q165 120 262 78\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M424 78 Q440 154 424 232\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"125\" y=\"112\" font-size=\"26\">4√6</text><text x=\"436\" y=\"165\" font-size=\"26\">5√3</text><text x=\"40\" y=\"70\" font-size=\"28\" font-style=\"italic\">A</text><text x=\"248\" y=\"48\" font-size=\"28\" font-style=\"italic\">P</text><text x=\"415\" y=\"55\" font-size=\"28\" font-style=\"italic\">D</text><text x=\"40\" y=\"270\" font-size=\"28\" font-style=\"italic\">B</text><text x=\"412\" y=\"270\" font-size=\"28\" font-style=\"italic\">C</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "提公因式因式分解並代入計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "回答下列問題。"
+    },
+    {
+     "type": "text",
+     "text": "(1) 因式分解 $(x-12)^{2}-5x+60$。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 利用(1)的結果，計算 $(117-12)^{2}-5\\times117+60$。"
+    }
+   ]
+  }
+ ]
+}

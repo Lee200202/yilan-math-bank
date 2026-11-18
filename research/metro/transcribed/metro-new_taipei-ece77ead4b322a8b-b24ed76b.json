@@ -1,0 +1,911 @@
+{
+ "paperId": "metro-new_taipei-ece77ead4b322a8b-b24ed76b",
+ "sourceSha256": "b24ed76b20bc69dabed6bab78664275df8cf3ffe96fc2ed0d701ebadbbdd2127",
+ "printedHeader": "新北市立福和國民中學113學年度第二學期九年級第一次段考數學科試題卷",
+ "printedSlot": {
+  "year": 113,
+  "semester": 2,
+  "grade": 9,
+  "exam": 1
+ },
+ "printedCounts": "單一選擇題30題（1～20題每題3分，21～30題每題4分）。",
+ "visualReviewComplete": true,
+ "reviewNote": "Compared every question with the three page images. Figures (graphs, box plots, histogram) redrawn as SVG; Q23 and Q28 proportions approximate; Q29/30 photo of the tunnel omitted, data given in text. Q27 marked unusable: the printed data are inconsistent with the options.",
+ "expectedTypes": {
+  "choice": 30
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "判斷二次函數的形式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列為二次函數者有幾個？"
+    },
+    {
+     "type": "text",
+     "text": "① $y=2-x$　② $y=3$　③ $y=x^2+2$　④ $y=(x+2)(x+1)$　⑤ $y=-6x$　⑥ $y=3x-x^2$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1$ 個",
+      "$2$ 個",
+      "$3$ 個",
+      "$4$ 個"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "比較 y=x² 與 y=−x² 的圖形性質。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有關二次函數 $y=x^2$ 與 $y=-x^2$ 圖形的敘述，下列何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "開口方向相反",
+      "圖形皆為拋物線",
+      "$y=x^2$ 與 $y=-x^2$ 兩圖形為線對稱圖形",
+      "對稱軸方程式皆為 $y=0$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "頂點式判斷最大值或最小值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "關於二次函數 $y=-(x+3)^2-2$ 的最大值或最小值之敘述，下列何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "當 $x=3$ 時，$y$ 有最小值 $-2$",
+      "當 $x=-3$ 時，$y$ 有最大值 $-2$",
+      "當 $x=-3$ 時，$y$ 有最小值 $-2$",
+      "當 $x=3$ 時，$y$ 有最大值 $2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1",
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "由圖形判斷頂點位置與函數式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "右圖最有可能是下列哪一個二次函數的圖形？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 105\"><line x1=\"10\" y1=\"80\" x2=\"150\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"60\" y1=\"100\" x2=\"60\" y2=\"6\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"150,80 144,77 144,83\" fill=\"#111\" stroke=\"#111\"/><polygon points=\"60,6 57,12 63,12\" fill=\"#111\" stroke=\"#111\"/><polyline points=\"45.0,39.5 46.0,42.2 47.0,44.7 48.0,47.2 49.0,49.6 50.0,51.9 51.0,54.1 52.0,56.2 53.0,58.2 54.0,60.2 55.0,62.0 56.0,63.8 57.0,65.4 58.0,67.0 59.0,68.5 60.0,69.9 61.0,71.2 62.0,72.4 63.0,73.5 64.0,74.6 65.0,75.5 66.0,76.4 67.0,77.1 68.0,77.8 69.0,78.4 70.0,78.9 71.0,79.3 72.0,79.6 73.0,79.8 74.0,80.0 75.0,80.0 76.0,80.0 77.0,79.8 78.0,79.6 79.0,79.3 80.0,78.9 81.0,78.4 82.0,77.8 83.0,77.1 84.0,76.4 85.0,75.5 86.0,74.6 87.0,73.5 88.0,72.4 89.0,71.2 90.0,69.9 91.0,68.5 92.0,67.0 93.0,65.4 94.0,63.8 95.0,62.0 96.0,60.2 97.0,58.2 98.0,56.2 99.0,54.1 100.0,51.9 101.0,49.6 102.0,47.2 103.0,44.7 104.0,42.2 105.0,39.5\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"150\" y=\"94\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">x</text><text x=\"70\" y=\"12\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">y</text><text x=\"52\" y=\"94\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=(x-2)^2$",
+      "$y=x^2-2$",
+      "$y=x^2+2$",
+      "$y=(x+2)^2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "求四分位數與四分位距。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小鈞班上有 $19$ 位男生，依照身高由矮到高依序排列（單位：公分）如下，則下列敘述何者正確？"
+    },
+    {
+     "type": "text",
+     "text": "149、151、151、153、156、157、158、159、159、161、163、167、168、169、173、174、177、181、186"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$Q_1$ 為 $154.5$ 公分",
+      "$Q_2$ 為 $161$ 公分",
+      "$Q_3$ 為 $171.5$ 公分",
+      "四分位距為 $37$ 公分"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由次數分配表判斷 Q1 所在組別。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下表為福和國中公民段考成績的次數分配表，則該校公民段考成績的 $Q_1$ 落在哪一組？"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "分數（分）",
+       "40～50",
+       "50～60",
+       "60～70",
+       "70～80",
+       "80～90",
+       "90～100"
+      ],
+      [
+       "次數（人）",
+       "14",
+       "11",
+       "29",
+       "32",
+       "15",
+       "9"
+      ]
+     ]
+    },
+    {
+     "type": "options",
+     "items": [
+      "$40\\sim50$ 分",
+      "$50\\sim60$ 分",
+      "$60\\sim70$ 分",
+      "$70\\sim80$ 分"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-1",
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "由頂點與開口方向判斷與 x 軸交點個數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判斷下列哪一個二次函數圖形與 $x$ 軸恰有一個交點？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=-(x+1)^2$",
+      "$y=-2(x-3)^2+5$",
+      "$y=3x^2+1$",
+      "$y=-(x+1)^2-3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "由頂點式判斷最小值與頂點象限。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一個二次函數有最小值，且頂點在第四象限？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=2(x+3)^2+7$",
+      "$y=4(x-6)^2-1$",
+      "$y=-(x-1)^2+9$",
+      "$y=-3(x-5)^2-8$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由盒狀圖推估名次範圍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "彥庭全班有 $32$ 人參加學校的英文聽力測驗，下圖為全班測驗成績的盒狀圖，若彥庭的成績是 $70$ 分，則彥庭在班上的排名在下列哪一個範圍？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 105\"><line x1=\"30.0\" y1=\"40\" x2=\"163.3\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"203.3\" y1=\"40\" x2=\"243.3\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"30.0\" y1=\"33\" x2=\"30.0\" y2=\"47\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"243.3\" y1=\"33\" x2=\"243.3\" y2=\"47\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"163.3\" y=\"28.0\" width=\"40.0\" height=\"24\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"176.7\" y1=\"28.0\" x2=\"176.7\" y2=\"52.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30.0\" y=\"23.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">10</text><text x=\"163.3\" y=\"23.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">60</text><text x=\"176.7\" y=\"23.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">65</text><text x=\"203.3\" y=\"23.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">75</text><text x=\"243.3\" y=\"23.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">90</text><line x1=\"24\" y1=\"80\" x2=\"278\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"30.0\" y1=\"80\" x2=\"30.0\" y2=\"84\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30.0\" y=\"97\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">10</text><line x1=\"56.7\" y1=\"80\" x2=\"56.7\" y2=\"84\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"56.7\" y=\"97\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">20</text><line x1=\"83.3\" y1=\"80\" x2=\"83.3\" y2=\"84\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"83.3\" y=\"97\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">30</text><line x1=\"110.0\" y1=\"80\" x2=\"110.0\" y2=\"84\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"110.0\" y=\"97\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">40</text><line x1=\"136.7\" y1=\"80\" x2=\"136.7\" y2=\"84\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"136.7\" y=\"97\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">50</text><line x1=\"163.3\" y1=\"80\" x2=\"163.3\" y2=\"84\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"163.3\" y=\"97\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">60</text><line x1=\"190.0\" y1=\"80\" x2=\"190.0\" y2=\"84\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"190.0\" y=\"97\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">70</text><line x1=\"216.7\" y1=\"80\" x2=\"216.7\" y2=\"84\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"216.7\" y=\"97\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">80</text><line x1=\"243.3\" y1=\"80\" x2=\"243.3\" y2=\"84\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"243.3\" y=\"97\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">90</text><line x1=\"270.0\" y1=\"80\" x2=\"270.0\" y2=\"84\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"270.0\" y=\"97\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">100</text><text x=\"292\" y=\"84\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">成績（分）</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "第 $1\\sim8$ 名",
+      "第 $9\\sim16$ 名",
+      "第 $17\\sim24$ 名",
+      "第 $25\\sim32$ 名"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "利用圖形平移後重合求係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知二次函數 $y=\\dfrac{3}{2}x^2+k$ 的圖形向上平移 $7$ 個單位後，會與 $y=ax^2+1$ 的圖形重合，則 $a+k$ 之值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-\\dfrac{9}{2}$",
+      "$-\\dfrac{7}{2}$",
+      "$-\\dfrac{5}{2}$",
+      "$-\\dfrac{3}{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由直方圖判斷 Q3 所在組別。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖是恭班學生身高的次數分配直方圖，則該班學生身高的 $Q_3$ 在哪一組？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 370 152\"><line x1=\"40\" y1=\"130\" x2=\"290\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40\" y1=\"130\" x2=\"40\" y2=\"18\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"36\" y1=\"130\" x2=\"40\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30\" y=\"134\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">0</text><line x1=\"36\" y1=\"112\" x2=\"40\" y2=\"112\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30\" y=\"116\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">2</text><line x1=\"36\" y1=\"94\" x2=\"40\" y2=\"94\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30\" y=\"98\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">4</text><line x1=\"36\" y1=\"76\" x2=\"40\" y2=\"76\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30\" y=\"80\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">6</text><line x1=\"36\" y1=\"58\" x2=\"40\" y2=\"58\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30\" y=\"62\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">8</text><line x1=\"36\" y1=\"40\" x2=\"40\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30\" y=\"44\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">10</text><line x1=\"36\" y1=\"22\" x2=\"40\" y2=\"22\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30\" y=\"26\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">12</text><rect x=\"50\" y=\"103\" width=\"32\" height=\"27\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"66\" y=\"100\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">3</text><rect x=\"82\" y=\"76\" width=\"32\" height=\"54\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"98\" y=\"73\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">6</text><rect x=\"114\" y=\"31\" width=\"32\" height=\"99\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"130\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">11</text><rect x=\"146\" y=\"58\" width=\"32\" height=\"72\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"162\" y=\"55\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">8</text><rect x=\"178\" y=\"94\" width=\"32\" height=\"36\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"194\" y=\"91\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">4</text><rect x=\"210\" y=\"121\" width=\"32\" height=\"9\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"226\" y=\"118\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">1</text><rect x=\"242\" y=\"121\" width=\"32\" height=\"9\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"258\" y=\"118\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">1</text><text x=\"50\" y=\"144\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">140</text><text x=\"82\" y=\"144\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">145</text><text x=\"114\" y=\"144\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">150</text><text x=\"146\" y=\"144\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">155</text><text x=\"178\" y=\"144\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">160</text><text x=\"210\" y=\"144\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">165</text><text x=\"242\" y=\"144\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">170</text><text x=\"274\" y=\"144\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">175</text><text x=\"42\" y=\"10\" font-size=\"10\" text-anchor=\"start\" fill=\"#111\">次數（人）</text><text x=\"300\" y=\"144\" font-size=\"10\" text-anchor=\"start\" fill=\"#111\">身高（公分）</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$145\\sim150$ 公分這一組",
+      "$150\\sim155$ 公分這一組",
+      "$155\\sim160$ 公分這一組",
+      "$160\\sim165$ 公分這一組"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "代入點求 y=ax² 的係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若二次函數 $y=ax^2$ 的圖形通過坐標 $(-2,8)$，而 $y=bx^2$ 的圖形通過坐標 $(a,-20)$，則 $a-b$ 的值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-6$",
+      "$-7$",
+      "$6$",
+      "$7$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "比較對稱軸兩側函數值大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $(2,a)$、$(4,b)$、$(5,c)$、$(9,d)$ 四個點都在 $y=3(x-5)^2$ 的圖形上，比較 $a$、$b$、$c$、$d$ 的大小。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a<c<b<d$",
+      "$a<b<c<d$",
+      "$c<a<b<d$",
+      "$c<b<a<d$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "14",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-1",
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "由圖形與頂點、通過點求二次函數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖是二次函數 $y=a(x-h)^2+k$ 的圖形，若此函數在 $x=-2$ 時，函數 $y$ 有最小值 $4$，且通過坐標平面上的點 $(0,6)$，求此二次函數。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 140\"><line x1=\"20\" y1=\"110\" x2=\"185\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"100\" y1=\"140\" x2=\"100\" y2=\"8\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"185,110 179,107 179,113\" fill=\"#111\" stroke=\"#111\"/><polygon points=\"100,8 97,14 103,14\" fill=\"#111\" stroke=\"#111\"/><polyline points=\"48.4,30.3 49.4,32.6 50.5,34.9 51.5,37.0 52.6,39.1 53.6,41.1 54.6,43.0 55.7,44.8 56.7,46.5 57.8,48.1 58.8,49.7 59.8,51.1 60.9,52.5 61.9,53.7 63.0,54.9 64.0,56.0 65.0,57.0 66.1,57.9 67.1,58.7 68.2,59.4 69.2,60.1 70.2,60.6 71.3,61.1 72.3,61.4 73.4,61.7 74.4,61.9 75.4,62.0 76.5,62.0 77.5,61.9 78.6,61.7 79.6,61.5 80.6,61.1 81.7,60.7 82.7,60.1 83.8,59.5 84.8,58.8 85.8,58.0 86.9,57.1 87.9,56.1 89.0,55.0 90.0,53.8 91.0,52.6 92.1,51.2 93.1,49.8 94.2,48.3 95.2,46.6 96.2,44.9 97.3,43.1 98.3,41.2 99.4,39.3 100.4,37.2 101.4,35.0 102.5,32.8 103.5,30.4 104.6,28.0 105.6,25.5 106.6,22.9 107.7,20.2 108.7,17.4 109.8,14.5 110.8,11.5\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"76\" y1=\"62\" x2=\"76\" y2=\"110\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"76\" y1=\"62\" x2=\"100\" y2=\"62\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><circle cx=\"100\" cy=\"38\" r=\"2\" fill=\"#111\"/><text x=\"112\" y=\"36\" font-size=\"12\" text-anchor=\"start\" fill=\"#111\">(0, 6)</text><text x=\"106\" y=\"66\" font-size=\"12\" text-anchor=\"start\" fill=\"#111\">4</text><text x=\"72\" y=\"124\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">−2</text><text x=\"108\" y=\"124\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text><text x=\"185\" y=\"124\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">x</text><text x=\"106\" y=\"14\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">y</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=\\dfrac{1}{2}(x+2)^2+4$",
+      "$y=-\\dfrac{1}{2}(x+2)^2+4$",
+      "$y=(x+2)^2+4$",
+      "$y=2(x+2)^2+4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "15",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由兩組盒狀圖比較統計量。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖是福和國中九年級男、女生各 $100$ 人的第一次段考數學成績盒狀圖，下列敘述何者正確？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 145\"><line x1=\"90.0\" y1=\"35\" x2=\"210.0\" y2=\"35\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"288.0\" y1=\"35\" x2=\"330.0\" y2=\"35\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"90.0\" y1=\"28\" x2=\"90.0\" y2=\"42\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"330.0\" y1=\"28\" x2=\"330.0\" y2=\"42\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"210.0\" y=\"25.0\" width=\"78.0\" height=\"20\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"270.0\" y1=\"25.0\" x2=\"270.0\" y2=\"45.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"90.0\" y=\"20.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">60</text><text x=\"210.0\" y=\"20.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">80</text><text x=\"270.0\" y=\"20.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">90</text><text x=\"288.0\" y=\"20.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">93</text><text x=\"330.0\" y=\"20.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">100</text><line x1=\"30.0\" y1=\"85\" x2=\"90.0\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"240.0\" y1=\"85\" x2=\"330.0\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"30.0\" y1=\"78\" x2=\"30.0\" y2=\"92\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"330.0\" y1=\"78\" x2=\"330.0\" y2=\"92\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"90.0\" y=\"75.0\" width=\"150.0\" height=\"20\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"180.0\" y1=\"75.0\" x2=\"180.0\" y2=\"95.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30.0\" y=\"70.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">50</text><text x=\"90.0\" y=\"70.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">60</text><text x=\"180.0\" y=\"70.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">75</text><text x=\"240.0\" y=\"70.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">85</text><text x=\"330.0\" y=\"70.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">100</text><line x1=\"24\" y1=\"120\" x2=\"338\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"30.0\" y1=\"120\" x2=\"30.0\" y2=\"124\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30.0\" y=\"137\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">50</text><line x1=\"90.0\" y1=\"120\" x2=\"90.0\" y2=\"124\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"90.0\" y=\"137\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">60</text><line x1=\"150.0\" y1=\"120\" x2=\"150.0\" y2=\"124\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"150.0\" y=\"137\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">70</text><line x1=\"210.0\" y1=\"120\" x2=\"210.0\" y2=\"124\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"210.0\" y=\"137\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">80</text><line x1=\"270.0\" y1=\"120\" x2=\"270.0\" y2=\"124\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"270.0\" y=\"137\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">90</text><line x1=\"330.0\" y1=\"120\" x2=\"330.0\" y2=\"124\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"330.0\" y=\"137\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">100</text><text x=\"355\" y=\"39\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">女生</text><text x=\"355\" y=\"89\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">男生</text><text x=\"345\" y=\"124\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">成績（分）</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "成績 $90$ 分以上，男生的人數比女生的人數多",
+      "男生成績的全距與女生成績的全距相同",
+      "女生成績的四分位距與男生成績的四分位距相差 $15$ 分",
+      "男生成績不及格（未滿 $60$）的人數有 $25$ 人"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "16",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "利用對稱性與弦長求點的縱坐標。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，$A$、$B$ 分別為 $y=-\\dfrac{3}{2}x^2$ 上的兩點，且 $\\overline{AB}\\perp y$ 軸。若 $\\overline{AB}=4$，則 $\\overleftrightarrow{AB}$ 的方程式為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 165 140\"><line x1=\"10\" y1=\"20\" x2=\"150\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"80\" y1=\"135\" x2=\"80\" y2=\"5\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"150,20 144,17 144,23\" fill=\"#111\" stroke=\"#111\"/><polygon points=\"80,5 77,11 83,11\" fill=\"#111\" stroke=\"#111\"/><polyline points=\"43.6,121.4 44.8,114.8 46.0,108.3 47.2,102.1 48.5,96.2 49.7,90.4 50.9,84.9 52.1,79.6 53.3,74.5 54.5,69.7 55.7,65.1 56.9,60.7 58.2,56.5 59.4,52.6 60.6,48.8 61.8,45.4 63.0,42.1 64.2,39.0 65.4,36.2 66.7,33.6 67.9,31.3 69.1,29.1 70.3,27.2 71.5,25.5 72.7,24.1 73.9,22.8 75.1,21.8 76.4,21.0 77.6,20.5 78.8,20.1 80.0,20.0 81.2,20.1 82.4,20.5 83.6,21.0 84.9,21.8 86.1,22.8 87.3,24.1 88.5,25.5 89.7,27.2 90.9,29.1 92.1,31.3 93.3,33.6 94.6,36.2 95.8,39.0 97.0,42.1 98.2,45.3 99.4,48.8 100.6,52.6 101.8,56.5 103.1,60.7 104.3,65.1 105.5,69.7 106.7,74.5 107.9,79.6 109.1,84.9 110.3,90.4 111.5,96.2 112.8,102.1 114.0,108.3 115.2,114.8 116.4,121.4\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><circle cx=\"52\" cy=\"80\" r=\"2\" fill=\"#111\"/><circle cx=\"108\" cy=\"80\" r=\"2\" fill=\"#111\"/><line x1=\"52\" y1=\"80\" x2=\"108\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"44\" y=\"85\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"116\" y=\"85\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"150\" y=\"34\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">x</text><text x=\"88\" y=\"12\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">y</text><text x=\"66\" y=\"34\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=-3$",
+      "$y=-6$",
+      "$y=-9$",
+      "$y=-36$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "17",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由三組盒狀圖比較全距、四分位距等。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "長濱國中舉辦閱讀競賽，提供許多的獎勵辦法，同學們紛紛利用課餘時間，前往圖書館借閱書籍，甲、乙、丙三班的導師將班上同學閱讀的時間，統計後製成盒狀圖，如下圖（縱軸為閱讀時間，單位：分鐘）。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 310 212\"><line x1=\"40\" y1=\"175\" x2=\"40\" y2=\"10\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M36,182 L44,176\" stroke=\"#111\" fill=\"none\"/><line x1=\"36\" y1=\"175.0\" x2=\"40\" y2=\"175.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"179.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">30</text><line x1=\"36\" y1=\"152.1\" x2=\"40\" y2=\"152.1\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"156.1\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">40</text><line x1=\"36\" y1=\"129.3\" x2=\"40\" y2=\"129.3\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"133.3\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">50</text><line x1=\"36\" y1=\"106.4\" x2=\"40\" y2=\"106.4\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"110.4\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">60</text><line x1=\"36\" y1=\"83.6\" x2=\"40\" y2=\"83.6\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"87.6\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">70</text><line x1=\"36\" y1=\"60.7\" x2=\"40\" y2=\"60.7\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"64.7\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">80</text><line x1=\"36\" y1=\"37.9\" x2=\"40\" y2=\"37.9\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"41.9\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">90</text><line x1=\"36\" y1=\"15.0\" x2=\"40\" y2=\"15.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"19.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">100</text><line x1=\"85\" y1=\"175.0\" x2=\"85\" y2=\"106.4\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"85\" y1=\"49.3\" x2=\"85\" y2=\"37.9\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"79\" y1=\"175.0\" x2=\"91\" y2=\"175.0\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"79\" y1=\"37.9\" x2=\"91\" y2=\"37.9\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"73\" y=\"49.3\" width=\"24\" height=\"57.1\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"73\" y1=\"83.6\" x2=\"97\" y2=\"83.6\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"113\" y=\"179.0\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">30</text><text x=\"113\" y=\"110.4\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">60</text><text x=\"113\" y=\"87.6\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">70</text><text x=\"113\" y=\"53.3\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">85</text><text x=\"113\" y=\"41.9\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">90</text><text x=\"85\" y=\"205\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">甲班</text><line x1=\"165\" y1=\"175.0\" x2=\"165\" y2=\"140.7\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"165\" y1=\"117.9\" x2=\"165\" y2=\"60.7\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"159\" y1=\"175.0\" x2=\"171\" y2=\"175.0\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"159\" y1=\"60.7\" x2=\"171\" y2=\"60.7\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"153\" y=\"117.9\" width=\"24\" height=\"22.8\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"153\" y1=\"129.3\" x2=\"177\" y2=\"129.3\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"193\" y=\"179.0\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">30</text><text x=\"193\" y=\"144.7\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">45</text><text x=\"193\" y=\"133.3\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">50</text><text x=\"193\" y=\"121.9\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">55</text><text x=\"193\" y=\"64.7\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">80</text><text x=\"165\" y=\"205\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">乙班</text><line x1=\"245\" y1=\"129.3\" x2=\"245\" y2=\"106.4\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"245\" y1=\"83.6\" x2=\"245\" y2=\"72.1\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"239\" y1=\"129.3\" x2=\"251\" y2=\"129.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"239\" y1=\"72.1\" x2=\"251\" y2=\"72.1\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"233\" y=\"83.6\" width=\"24\" height=\"22.8\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"233\" y1=\"95.0\" x2=\"257\" y2=\"95.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"273\" y=\"133.3\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">50</text><text x=\"273\" y=\"110.4\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">60</text><text x=\"273\" y=\"99.0\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">65</text><text x=\"273\" y=\"87.6\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">70</text><text x=\"273\" y=\"76.1\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">75</text><text x=\"245\" y=\"205\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">丙班</text><text x=\"12\" y=\"8\" font-size=\"10\" text-anchor=\"start\" fill=\"#111\">閱讀時間（分鐘）</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "關於甲、乙、丙班的盒狀圖，下列敘述何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "全距最大的是甲班",
+      "閱讀時間在 $70$ 分鐘以下的人數最多的是甲班",
+      "四分位距相同的是乙班和丙班",
+      "本週閱讀時間最長的學生在甲班"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "18",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由盒狀圖的 Q1 判斷達成比例。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "長濱國中舉辦閱讀競賽，提供許多的獎勵辦法，同學們紛紛利用課餘時間，前往圖書館借閱書籍，甲、乙、丙三班的導師將班上同學閱讀的時間，統計後製成盒狀圖，如下圖（縱軸為閱讀時間，單位：分鐘）。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 310 212\"><line x1=\"40\" y1=\"175\" x2=\"40\" y2=\"10\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M36,182 L44,176\" stroke=\"#111\" fill=\"none\"/><line x1=\"36\" y1=\"175.0\" x2=\"40\" y2=\"175.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"179.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">30</text><line x1=\"36\" y1=\"152.1\" x2=\"40\" y2=\"152.1\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"156.1\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">40</text><line x1=\"36\" y1=\"129.3\" x2=\"40\" y2=\"129.3\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"133.3\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">50</text><line x1=\"36\" y1=\"106.4\" x2=\"40\" y2=\"106.4\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"110.4\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">60</text><line x1=\"36\" y1=\"83.6\" x2=\"40\" y2=\"83.6\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"87.6\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">70</text><line x1=\"36\" y1=\"60.7\" x2=\"40\" y2=\"60.7\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"64.7\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">80</text><line x1=\"36\" y1=\"37.9\" x2=\"40\" y2=\"37.9\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"41.9\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">90</text><line x1=\"36\" y1=\"15.0\" x2=\"40\" y2=\"15.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"33\" y=\"19.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">100</text><line x1=\"85\" y1=\"175.0\" x2=\"85\" y2=\"106.4\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"85\" y1=\"49.3\" x2=\"85\" y2=\"37.9\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"79\" y1=\"175.0\" x2=\"91\" y2=\"175.0\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"79\" y1=\"37.9\" x2=\"91\" y2=\"37.9\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"73\" y=\"49.3\" width=\"24\" height=\"57.1\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"73\" y1=\"83.6\" x2=\"97\" y2=\"83.6\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"113\" y=\"179.0\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">30</text><text x=\"113\" y=\"110.4\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">60</text><text x=\"113\" y=\"87.6\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">70</text><text x=\"113\" y=\"53.3\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">85</text><text x=\"113\" y=\"41.9\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">90</text><text x=\"85\" y=\"205\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">甲班</text><line x1=\"165\" y1=\"175.0\" x2=\"165\" y2=\"140.7\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"165\" y1=\"117.9\" x2=\"165\" y2=\"60.7\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"159\" y1=\"175.0\" x2=\"171\" y2=\"175.0\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"159\" y1=\"60.7\" x2=\"171\" y2=\"60.7\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"153\" y=\"117.9\" width=\"24\" height=\"22.8\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"153\" y1=\"129.3\" x2=\"177\" y2=\"129.3\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"193\" y=\"179.0\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">30</text><text x=\"193\" y=\"144.7\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">45</text><text x=\"193\" y=\"133.3\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">50</text><text x=\"193\" y=\"121.9\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">55</text><text x=\"193\" y=\"64.7\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">80</text><text x=\"165\" y=\"205\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">乙班</text><line x1=\"245\" y1=\"129.3\" x2=\"245\" y2=\"106.4\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"245\" y1=\"83.6\" x2=\"245\" y2=\"72.1\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"239\" y1=\"129.3\" x2=\"251\" y2=\"129.3\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"239\" y1=\"72.1\" x2=\"251\" y2=\"72.1\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"233\" y=\"83.6\" width=\"24\" height=\"22.8\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"233\" y1=\"95.0\" x2=\"257\" y2=\"95.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"273\" y=\"133.3\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">50</text><text x=\"273\" y=\"110.4\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">60</text><text x=\"273\" y=\"99.0\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">65</text><text x=\"273\" y=\"87.6\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">70</text><text x=\"273\" y=\"76.1\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">75</text><text x=\"245\" y=\"205\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">丙班</text><text x=\"12\" y=\"8\" font-size=\"10\" text-anchor=\"start\" fill=\"#111\">閱讀時間（分鐘）</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "如果班上有 $\\dfrac{3}{4}$ 以上的同學閱讀時間達 $60$ 分鐘以上，全班都可以獲得嘉獎，則哪些班的學生可獲得嘉獎？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲、乙",
+      "乙、丙",
+      "甲、丙",
+      "甲、乙、丙"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "19",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-1",
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "利用拋物線對稱性求對稱點。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，二次函數 $y=a(x-h)^2+k$ 的圖形通過坐標平面上的 $A(1,4)$、$B(6,3)$、$C(7,4)$ 三點，求 $B(6,3)$ 在此圖形上的對稱點。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 235 140\"><line x1=\"10\" y1=\"120\" x2=\"190\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"30\" y1=\"135\" x2=\"30\" y2=\"8\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"190,120 184,117 184,123\" fill=\"#111\" stroke=\"#111\"/><polygon points=\"30,8 27,14 33,14\" fill=\"#111\" stroke=\"#111\"/><polyline points=\"36.0,21.2 38.5,24.8 40.9,28.3 43.4,31.6 45.9,34.9 48.3,38.0 50.8,41.0 53.3,43.8 55.7,46.6 58.2,49.2 60.7,51.7 63.1,54.0 65.6,56.3 68.1,58.4 70.5,60.4 73.0,62.3 75.5,64.1 77.9,65.7 80.4,67.2 82.9,68.6 85.3,69.9 87.8,71.1 90.3,72.1 92.7,73.0 95.2,73.8 97.7,74.5 100.1,75.0 102.6,75.5 105.1,75.8 107.5,75.9 110.0,76.0 112.5,75.9 114.9,75.8 117.4,75.5 119.9,75.0 122.3,74.5 124.8,73.8 127.3,73.0 129.7,72.1 132.2,71.1 134.7,69.9 137.1,68.6 139.6,67.2 142.1,65.7 144.5,64.1 147.0,62.3 149.5,60.4 151.9,58.4 154.4,56.3 156.9,54.0 159.3,51.7 161.8,49.2 164.3,46.6 166.7,43.8 169.2,41.0 171.7,38.0 174.1,34.9 176.6,31.6 179.1,28.3 181.5,24.8 184.0,21.2\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><circle cx=\"50\" cy=\"40\" r=\"2\" fill=\"#111\"/><text x=\"54\" y=\"34\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">A(1, 4)</text><circle cx=\"150\" cy=\"60\" r=\"2\" fill=\"#111\"/><text x=\"154\" y=\"74\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">B(6, 3)</text><circle cx=\"170\" cy=\"40\" r=\"2\" fill=\"#111\"/><text x=\"174\" y=\"36\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">C(7, 4)</text><text x=\"190\" y=\"134\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">x</text><text x=\"36\" y=\"14\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">y</text><text x=\"22\" y=\"134\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(4,3)$",
+      "$(3,3)$",
+      "$(2,3)$",
+      "$(1,3)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "20",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "比較不同上下平移拋物線與水平線交點間距。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，為二次函數 $y=x^2-6$、$y=x^2+3$、$y=x^2$ 在坐標平面上的圖形。若方程式 $y=5$ 的圖形分別與 $y=x^2+3$ 的圖形交於 $A$、$B$ 兩點，與 $y=x^2$ 的圖形交於 $C$、$D$ 兩點，與 $y=x^2-6$ 的圖形交於 $E$、$F$ 兩點，則 $\\overline{AB}$、$\\overline{CD}$、$\\overline{EF}$ 三線段長度的大小關係為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 140\"><line x1=\"5\" y1=\"70\" x2=\"115\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"60\" y1=\"135\" x2=\"60\" y2=\"5\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"115,70 109,67 109,73\" fill=\"#111\" stroke=\"#111\"/><polygon points=\"60,5 57,11 63,11\" fill=\"#111\" stroke=\"#111\"/><polyline points=\"15.0,14.5 16.5,17.0 18.0,19.3 19.5,21.6 21.0,23.8 22.5,26.0 24.0,28.0 25.5,30.0 27.0,31.8 28.5,33.6 30.0,35.3 31.5,37.0 33.0,38.5 34.5,40.0 36.0,41.3 37.5,42.6 39.0,43.8 40.5,45.0 42.0,46.0 43.5,47.0 45.0,47.8 46.5,48.6 48.0,49.3 49.5,50.0 51.0,50.5 52.5,51.0 54.0,51.3 55.5,51.6 57.0,51.8 58.5,52.0 60.0,52.0 61.5,52.0 63.0,51.8 64.5,51.6 66.0,51.3 67.5,51.0 69.0,50.5 70.5,50.0 72.0,49.3 73.5,48.6 75.0,47.8 76.5,47.0 78.0,46.0 79.5,45.0 81.0,43.8 82.5,42.6 84.0,41.3 85.5,40.0 87.0,38.5 88.5,37.0 90.0,35.3 91.5,33.6 93.0,31.8 94.5,30.0 96.0,28.0 97.5,26.0 99.0,23.8 100.5,21.6 102.0,19.3 103.5,17.0 105.0,14.5\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polyline points=\"15.0,32.5 16.5,35.0 18.0,37.3 19.5,39.6 21.0,41.8 22.5,44.0 24.0,46.0 25.5,48.0 27.0,49.8 28.5,51.6 30.0,53.3 31.5,55.0 33.0,56.5 34.5,58.0 36.0,59.3 37.5,60.6 39.0,61.8 40.5,63.0 42.0,64.0 43.5,65.0 45.0,65.8 46.5,66.6 48.0,67.3 49.5,68.0 51.0,68.5 52.5,69.0 54.0,69.3 55.5,69.6 57.0,69.8 58.5,70.0 60.0,70.0 61.5,70.0 63.0,69.8 64.5,69.6 66.0,69.3 67.5,69.0 69.0,68.5 70.5,68.0 72.0,67.3 73.5,66.6 75.0,65.8 76.5,65.0 78.0,64.0 79.5,63.0 81.0,61.8 82.5,60.6 84.0,59.3 85.5,58.0 87.0,56.5 88.5,55.0 90.0,53.3 91.5,51.6 93.0,49.8 94.5,48.0 96.0,46.0 97.5,44.0 99.0,41.8 100.5,39.6 102.0,37.3 103.5,35.0 105.0,32.5\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polyline points=\"15.0,68.5 16.5,71.0 18.0,73.3 19.5,75.6 21.0,77.8 22.5,80.0 24.0,82.0 25.5,84.0 27.0,85.8 28.5,87.6 30.0,89.3 31.5,91.0 33.0,92.5 34.5,94.0 36.0,95.3 37.5,96.6 39.0,97.8 40.5,99.0 42.0,100.0 43.5,101.0 45.0,101.8 46.5,102.6 48.0,103.3 49.5,104.0 51.0,104.5 52.5,105.0 54.0,105.3 55.5,105.6 57.0,105.8 58.5,106.0 60.0,106.0 61.5,106.0 63.0,105.8 64.5,105.6 66.0,105.3 67.5,105.0 69.0,104.5 70.5,104.0 72.0,103.3 73.5,102.6 75.0,101.8 76.5,101.0 78.0,100.0 79.5,99.0 81.0,97.8 82.5,96.6 84.0,95.3 85.5,94.0 87.0,92.5 88.5,91.0 90.0,89.3 91.5,87.6 93.0,85.8 94.5,84.0 96.0,82.0 97.5,80.0 99.0,77.8 100.5,75.6 102.0,73.3 103.5,71.0 105.0,68.5\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"115\" y=\"84\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">x</text><text x=\"68\" y=\"12\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">y</text><text x=\"52\" y=\"84\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\overline{EF}>\\overline{CD}>\\overline{AB}$",
+      "$\\overline{EF}>\\overline{AB}>\\overline{CD}$",
+      "$\\overline{CD}>\\overline{AB}>\\overline{EF}$",
+      "$\\overline{AB}>\\overline{EF}>\\overline{CD}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "21",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-1",
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "圖形上移後與 x 軸交點的和與距離變化。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知坐標平面上有二次函數 $y=-(x+5)^2+6$ 的圖形，函數圖形與 $x$ 軸相交於 $(a,0)$、$(b,0)$ 兩點，其中 $a>b$。今將此函數圖形往上平移，平移後函數圖形與 $x$ 軸相交於 $(c,0)$、$(d,0)$ 兩點，其中 $c>d$，判斷下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(a+b)=(c+d)$，$(a-b)<(c-d)$",
+      "$(a+b)=(c+d)$，$(a-b)>(c-d)$",
+      "$(a+b)<(c+d)$，$(a-b)<(c-d)$",
+      "$(a+b)<(c+d)$，$(a-b)>(c-d)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "22",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由四分位數與平均數反推未知數並求中位數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一群資料由小到大依序為 $1$、$1$、$2$、$3$、$4$、$8$、$z$、$13$、$x$、$y$、$19$、$21$。若第 $3$ 四分位數是 $15$，平均數是 $9.5$，則 $Q_2$ 為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$8$",
+      "$9$",
+      "$10$",
+      "$12$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "23",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "利用對稱性由弦長求頂點距離。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "坐標平面上有兩個二次函數的圖形，其頂點 $P$、$Q$ 皆在 $x$ 軸上，且有一水平線與兩圖形相交於 $A$、$B$、$C$、$D$ 四點，各點位置如下圖所示。若 $\\overline{AB}=12$，$\\overline{BC}=7$，$\\overline{CD}=8$，則 $\\overline{PQ}$ 的長度為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 245 112\"><line x1=\"10\" y1=\"35\" x2=\"235\" y2=\"35\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"14\" y1=\"8\" x2=\"14\" y2=\"112\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"20.0,85.0 21.9,81.7 23.8,78.6 25.7,75.5 27.6,72.6 29.5,69.7 31.4,67.0 33.3,64.4 35.2,61.9 37.1,59.5 39.0,57.2 40.9,55.1 42.8,53.0 44.7,51.1 46.6,49.2 48.5,47.5 50.4,45.9 52.3,44.4 54.2,43.0 56.1,41.7 58.0,40.6 59.9,39.5 61.8,38.6 63.7,37.7 65.6,37.0 67.5,36.4 69.4,35.9 71.3,35.5 73.2,35.2 75.1,35.1 77.0,35.0 78.9,35.1 80.8,35.2 82.7,35.5 84.6,35.9 86.5,36.4 88.4,37.0 90.3,37.7 92.2,38.6 94.1,39.5 96.0,40.6 97.9,41.7 99.8,43.0 101.7,44.4 103.6,45.9 105.5,47.5 107.4,49.2 109.3,51.1 111.2,53.0 113.1,55.1 115.0,57.2 116.9,59.5 118.8,61.9 120.7,64.4 122.6,67.0 124.5,69.7 126.4,72.6 128.3,75.5 130.2,78.6 132.1,81.7 134.0,85.0\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polyline points=\"92.0,85.0 93.5,81.7 95.0,78.6 96.5,75.5 98.0,72.6 99.5,69.7 101.0,67.0 102.5,64.4 104.0,61.9 105.5,59.5 107.0,57.2 108.5,55.1 110.0,53.0 111.5,51.1 113.0,49.2 114.5,47.5 116.0,45.9 117.5,44.4 119.0,43.0 120.5,41.7 122.0,40.6 123.5,39.5 125.0,38.6 126.5,37.7 128.0,37.0 129.5,36.4 131.0,35.9 132.5,35.5 134.0,35.2 135.5,35.1 137.0,35.0 138.5,35.1 140.0,35.2 141.5,35.5 143.0,35.9 144.5,36.4 146.0,37.0 147.5,37.7 149.0,38.6 150.5,39.5 152.0,40.6 153.5,41.7 155.0,43.0 156.5,44.4 158.0,45.9 159.5,47.5 161.0,49.2 162.5,51.1 164.0,53.0 165.5,55.1 167.0,57.2 168.5,59.5 170.0,61.9 171.5,64.4 173.0,67.0 174.5,69.7 176.0,72.6 177.5,75.5 179.0,78.6 180.5,81.7 182.0,85.0\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"5\" y1=\"85\" x2=\"235\" y2=\"85\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"10\" y=\"33\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text><text x=\"77\" y=\"28\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">P</text><text x=\"137\" y=\"28\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">Q</text><text x=\"236\" y=\"30\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">x</text><text x=\"10\" y=\"12\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">y</text><text x=\"16\" y=\"100\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"92\" y=\"100\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"134\" y=\"100\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"182\" y=\"100\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">D</text><circle cx=\"20\" cy=\"85\" r=\"2\" fill=\"#111\"/><circle cx=\"92\" cy=\"85\" r=\"2\" fill=\"#111\"/><circle cx=\"134\" cy=\"85\" r=\"2\" fill=\"#111\"/><circle cx=\"182\" cy=\"85\" r=\"2\" fill=\"#111\"/></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$7$",
+      "$8$",
+      "$9$",
+      "$10$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "24",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "利用頂點平移求對應點坐標。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知二次函數 $y=2x^2+1$ 的圖形上有一點 $P(-2,9)$，若將此二次函數圖形向右、向下平移後，可得另一個二次函數圖形，且平移後的頂點坐標為 $(4,-5)$，則此時 $P$ 點坐標為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(1,4)$",
+      "$(1,5)$",
+      "$(2,3)$",
+      "$(2,4)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "25",
+   "page": 3,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "比較不同開口大小拋物線在 x=1 的函數值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若坐標平面上方程式 $x=1$ 的圖形與 $x$ 軸相交於 $H$ 點，又分別與二次函數 $y=\\dfrac{3}{2}x^2$、$y=2x^2$、$y=x^2$ 的圖形相交於 $A$、$B$、$C$ 三點，比較 $\\overline{AH}$、$\\overline{BH}$、$\\overline{CH}$ 三線段長度的大小。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\overline{AH}>\\overline{CH}>\\overline{BH}$",
+      "$\\overline{AH}>\\overline{BH}>\\overline{CH}$",
+      "$\\overline{BH}>\\overline{CH}>\\overline{AH}$",
+      "$\\overline{BH}>\\overline{AH}>\\overline{CH}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "26",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-1",
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "由對稱軸與兩點求頂點式係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知二次函數 $y=a(x-h)^2+k$ 的對稱軸方程式為 $x=3$，其圖形通過 $(2,-3)$ 與 $(1,-9)$ 兩點，則關於 $a$、$h$ 與 $k$ 的值，下列何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a=2$，$h=3$，$k=-1$",
+      "$a=-2$，$h=3$，$k=-1$",
+      "$a=2$，$h=-3$，$k=1$",
+      "$a=-2$，$h=-3$，$k=1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "27",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由四分位數關係判斷盒狀圖。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "公園裡 $13$ 位遊客的年齡（單位：歲）由小到大排列分別為 $x-6$、$x-4$、$x-3$、$x$、$x+8$、$2x+5$、$2x+9$、$3x+4$、$36$、$4x-1$、$50$、$5x+5$、$5x+8$，其第 1、第 2、第 3 四分位數分別為 $Q_1$、$Q_2$、$Q_3$，且 $Q_1+Q_2=Q_3$，則下列何者為其盒狀圖？"
+    },
+    {
+     "type": "optionFigures",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 200\"><line x1=\"50.0\" y1=\"30\" x2=\"85.0\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"230.0\" y1=\"30\" x2=\"320.0\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"23\" x2=\"50.0\" y2=\"37\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"320.0\" y1=\"23\" x2=\"320.0\" y2=\"37\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"85.0\" y=\"19.0\" width=\"145.0\" height=\"22\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"175.0\" y1=\"19.0\" x2=\"175.0\" y2=\"41.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"50.0\" y=\"14.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">4</text><text x=\"85.0\" y=\"14.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">11</text><text x=\"175.0\" y=\"14.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">29</text><text x=\"230.0\" y=\"14.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">40</text><text x=\"320.0\" y=\"14.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">58</text><line x1=\"24\" y1=\"62\" x2=\"338\" y2=\"62\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"30.0\" y1=\"62\" x2=\"30.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">0</text><line x1=\"80.0\" y1=\"62\" x2=\"80.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"80.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">10</text><line x1=\"130.0\" y1=\"62\" x2=\"130.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"130.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">20</text><line x1=\"180.0\" y1=\"62\" x2=\"180.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"180.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">30</text><line x1=\"230.0\" y1=\"62\" x2=\"230.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"230.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">40</text><line x1=\"280.0\" y1=\"62\" x2=\"280.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"280.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">50</text><line x1=\"330.0\" y1=\"62\" x2=\"330.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"330.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">60</text><text x=\"8\" y=\"34\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\">(A)</text><text x=\"345\" y=\"96\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">年齡（歲）</text><line x1=\"430.0\" y1=\"30\" x2=\"455.0\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"600.0\" y1=\"30\" x2=\"700.0\" y2=\"30\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"430.0\" y1=\"23\" x2=\"430.0\" y2=\"37\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"700.0\" y1=\"23\" x2=\"700.0\" y2=\"37\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"455.0\" y=\"19.0\" width=\"145.0\" height=\"22\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"555.0\" y1=\"19.0\" x2=\"555.0\" y2=\"41.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"430.0\" y=\"14.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">4</text><text x=\"455.0\" y=\"14.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">9</text><text x=\"555.0\" y=\"14.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">29</text><text x=\"600.0\" y=\"14.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">38</text><text x=\"700.0\" y=\"14.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">58</text><line x1=\"404\" y1=\"62\" x2=\"718\" y2=\"62\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"410.0\" y1=\"62\" x2=\"410.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"410.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">0</text><line x1=\"460.0\" y1=\"62\" x2=\"460.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"460.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">10</text><line x1=\"510.0\" y1=\"62\" x2=\"510.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"510.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">20</text><line x1=\"560.0\" y1=\"62\" x2=\"560.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"560.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">30</text><line x1=\"610.0\" y1=\"62\" x2=\"610.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"610.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">40</text><line x1=\"660.0\" y1=\"62\" x2=\"660.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"660.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">50</text><line x1=\"710.0\" y1=\"62\" x2=\"710.0\" y2=\"66\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"710.0\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">60</text><text x=\"388\" y=\"34\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\">(B)</text><text x=\"725\" y=\"96\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">年齡（歲）</text><line x1=\"50.0\" y1=\"130\" x2=\"80.0\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"225.0\" y1=\"130\" x2=\"320.0\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"123\" x2=\"50.0\" y2=\"137\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"320.0\" y1=\"123\" x2=\"320.0\" y2=\"137\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"80.0\" y=\"119.0\" width=\"145.0\" height=\"22\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"175.0\" y1=\"119.0\" x2=\"175.0\" y2=\"141.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"50.0\" y=\"114.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">4</text><text x=\"80.0\" y=\"114.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">10</text><text x=\"175.0\" y=\"114.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">29</text><text x=\"225.0\" y=\"114.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">39</text><text x=\"320.0\" y=\"114.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">58</text><line x1=\"24\" y1=\"162\" x2=\"338\" y2=\"162\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"30.0\" y1=\"162\" x2=\"30.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">0</text><line x1=\"80.0\" y1=\"162\" x2=\"80.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"80.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">10</text><line x1=\"130.0\" y1=\"162\" x2=\"130.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"130.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">20</text><line x1=\"180.0\" y1=\"162\" x2=\"180.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"180.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">30</text><line x1=\"230.0\" y1=\"162\" x2=\"230.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"230.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">40</text><line x1=\"280.0\" y1=\"162\" x2=\"280.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"280.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">50</text><line x1=\"330.0\" y1=\"162\" x2=\"330.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"330.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">60</text><text x=\"8\" y=\"134\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\">(C)</text><text x=\"345\" y=\"196\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">年齡（歲）</text><line x1=\"435.0\" y1=\"130\" x2=\"460.0\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"610.0\" y1=\"130\" x2=\"705.0\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"435.0\" y1=\"123\" x2=\"435.0\" y2=\"137\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"705.0\" y1=\"123\" x2=\"705.0\" y2=\"137\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"460.0\" y=\"119.0\" width=\"150.0\" height=\"22\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"560.0\" y1=\"119.0\" x2=\"560.0\" y2=\"141.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"435.0\" y=\"114.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">5</text><text x=\"460.0\" y=\"114.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">10</text><text x=\"560.0\" y=\"114.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">30</text><text x=\"610.0\" y=\"114.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">40</text><text x=\"705.0\" y=\"114.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">59</text><line x1=\"404\" y1=\"162\" x2=\"718\" y2=\"162\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"410.0\" y1=\"162\" x2=\"410.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"410.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">0</text><line x1=\"460.0\" y1=\"162\" x2=\"460.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"460.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">10</text><line x1=\"510.0\" y1=\"162\" x2=\"510.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"510.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">20</text><line x1=\"560.0\" y1=\"162\" x2=\"560.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"560.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">30</text><line x1=\"610.0\" y1=\"162\" x2=\"610.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"610.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">40</text><line x1=\"660.0\" y1=\"162\" x2=\"660.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"660.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">50</text><line x1=\"710.0\" y1=\"162\" x2=\"710.0\" y2=\"166\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"710.0\" y=\"179\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">60</text><text x=\"388\" y=\"134\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\">(D)</text><text x=\"725\" y=\"196\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">年齡（歲）</text></svg>",
+     "maxHeight": 150
+    }
+   ],
+   "usable": false,
+   "sourceIssue": "原題數據自相矛盾：依所列 13 個數，由 Q1+Q2=Q3 解得 x=17 會使資料不再由小到大；若取 x=10，Q1、Q3 與四個選項圖示的數值皆不符，無法確定正解，故不採用。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "28",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "利用對稱性與比例求弦長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "坐標平面上有一水平線 $L$ 與二次函數 $y=a(x+10)^2+13$ 的圖形，其中 $a$ 為一負數，且 $L$ 與二次函數圖形相交於 $A$、$C$ 兩點，與 $y$ 軸相交於 $B$ 點，其位置如下圖所示。若 $\\overline{AB}:\\overline{BC}=13:3$，則 $\\overline{AC}$ 的長度為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 205 95\"><line x1=\"10\" y1=\"45\" x2=\"190\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"130\" y1=\"8\" x2=\"130\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"22.0,77.1 24.3,72.5 26.5,68.0 28.8,63.6 31.1,59.4 33.3,55.4 35.6,51.5 37.9,47.8 40.1,44.2 42.4,40.8 44.7,37.6 46.9,34.5 49.2,31.6 51.5,28.8 53.7,26.2 56.0,23.8 58.3,21.5 60.5,19.4 62.8,17.4 65.1,15.6 67.3,13.9 69.6,12.4 71.9,11.1 74.1,9.9 76.4,8.8 78.7,8.0 80.9,7.3 83.2,6.7 85.5,6.3 87.7,6.1 90.0,6.0 92.3,6.1 94.5,6.3 96.8,6.7 99.1,7.3 101.3,8.0 103.6,8.8 105.9,9.9 108.1,11.1 110.4,12.4 112.7,13.9 114.9,15.6 117.2,17.4 119.5,19.4 121.7,21.5 124.0,23.8 126.3,26.2 128.5,28.8 130.8,31.6 133.1,34.5 135.3,37.6 137.6,40.8 139.9,44.2 142.1,47.8 144.4,51.5 146.7,55.4 148.9,59.4 151.2,63.6 153.5,68.0 155.7,72.5 158.0,77.1\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"5\" y1=\"69\" x2=\"190\" y2=\"69\" stroke=\"#111\" stroke-width=\"1.2\"/><circle cx=\"26\" cy=\"69\" r=\"2\" fill=\"#111\"/><circle cx=\"130\" cy=\"69\" r=\"2\" fill=\"#111\"/><circle cx=\"154\" cy=\"69\" r=\"2\" fill=\"#111\"/><text x=\"24\" y=\"83\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"130\" y=\"83\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"160\" y=\"83\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"194\" y=\"49\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">x</text><text x=\"138\" y=\"12\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">y</text><text x=\"194\" y=\"73\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">L</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$16$",
+      "$32$",
+      "$18$",
+      "$36$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "29",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "建立拱形隧道的二次函數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某拱形隧道口為二次函數圖形的一部分，隧道口兩端相距 $10$ 公尺，隧道最高處距離地面 $5$ 公尺。今正好有兩輛車要通過，第一輛為大貨車，第二輛車為工程車，假設此兩輛車的左側皆貼著中央分隔線，且分隔線寬度忽略不計。"
+    },
+    {
+     "type": "text",
+     "text": "此拱形隧道口為二次函數圖形，假設此二次函數圖形的頂點（最高點）在直角坐標平面上的原點，且為 $y=ax^2$，則此拱形隧道口的二次函數為下列何者？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=-\\dfrac{1}{5}x^2$",
+      "$y=-\\dfrac{2}{5}x^2$",
+      "$y=-\\dfrac{1}{4}x^2$",
+      "$y=-\\dfrac{1}{3}x^2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "30",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "以二次函數判斷車輛能否通過隧道。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某拱形隧道口為二次函數圖形的一部分，隧道口兩端相距 $10$ 公尺，隧道最高處距離地面 $5$ 公尺。今正好有兩輛車要通過，第一輛為大貨車，第二輛車為工程車，假設此兩輛車的左側皆貼著中央分隔線，且分隔線寬度忽略不計。"
+    },
+    {
+     "type": "text",
+     "text": "此拱形隧道口的二次函數圖形，頂點（最高點）在直角坐標平面上的原點，且為 $y=ax^2$。若大貨車的正面寬度為 $2$ 公尺，高度 $3.2$ 公尺；工程車的正面寬度為 $2.5$ 公尺，高度 $3.7$ 公尺，則關於這兩輛車的通過情形為下列何者？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "大貨車可以通過，工程車無法通過",
+      "工程車可以通過，大貨車無法通過",
+      "兩輛車都無法通過",
+      "兩輛車都可以通過"
+     ]
+    }
+   ]
+  }
+ ]
+}

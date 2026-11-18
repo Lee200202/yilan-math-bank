@@ -1,0 +1,649 @@
+{
+ "paperId": "metro-kaohsiung-0236c403f4ab36c3",
+ "sourceSha256": "30761e8bbf546539699d42801441345465f5282006e45e6bd9d8cd8823c02950",
+ "printedHeader": "高雄市民族國中114學年度第一學期二年級數學科第三次段考試題（答案卷標題：高雄市立民族國中）",
+ "printedSlot": {
+  "year": 114,
+  "semester": 1,
+  "grade": 8,
+  "exam": 3
+ },
+ "printedCounts": "選擇15題、填充題6題10格、非選題1大題2小題。",
+ "visualReviewComplete": true,
+ "reviewNote": "卷首印的是「民族國中」，目標清單與來源網站（hakka.mtjh.kh.edu.tw）為「美濃國中」，學校不符，請協調者決定標示。學年度、學期、年級、段考次與目標相符。八張公式小圖、折線圖(Q6,Q9)、圓形圖(Q10)、累積次數表(Q15)皆已逐一對照圖檔重畫。解答卷的選擇題答案列與我解題結果自第6題起多處不符（如Q7、Q8、Q11-13），疑為不同選項順序的版本，故未採用；填充題答案核對一致。Q14 原文先寫「k」後問「A的因數」，視為筆誤改為 k。Q15 表格原印「成績(人)」，改為「成績(分)」。Q6 折線圖依各組中點讀出160～170組為20%+10%=30%（解答卷標B=20%，不採）。",
+ "expectedTypes": {
+  "choice": 15,
+  "fill": 6,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "辨認一元二次方程式的定義。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者是一元二次方程式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2x-5=0$",
+      "$(2x-1)(x+7)$",
+      "$-3x^{2}+15x=-\\dfrac{2}{3}$",
+      "$6x^{2}+5x=6x^{2}+25$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "將 $-1$ 代入各方程式檢驗是否為解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判別 $-1$ 為下列哪一個一元二次方程式的解？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x(x+1)=-1$",
+      "$x^{2}+1=0$",
+      "$\\dfrac{1}{2}x^{2}+\\dfrac{3}{2}x+1=0$",
+      "$x^{2}-3x+2=0$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "以十字交乘展開比較係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $39x^{2}+ax+8$ 可因式分解成 $(13x+b)(3x-2)$，則下列何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a=38$，$b=-4$",
+      "$a=14$，$b=-4$",
+      "$a=-38$，$b=-4$",
+      "$a=-14$，$b=4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "提出公因數後比較係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $2x^{2}-20x+a$ 可因式分解成 $2(x-1)(x-b)$，則下列何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a=9$",
+      "$b=18$",
+      "$a=6$",
+      "$b=9$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "將二次式十字交乘因式分解後判斷因式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者不是 $3x^{2}+2x-5$ 的因式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1-x$",
+      "$x-1$",
+      "$3x-5$",
+      "$3x+5$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-5-1",
+   "unitIds": [
+    "nanyi-8-1-5-1",
+    "nanyi-7-2-6-1"
+   ],
+   "unitAssignmentBasis": "由相對次數分配折線圖讀出各組並相加。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖為湯姆班上同學身高的相對次數分配折線圖，身高160～170公分的人數占全班的百分比為多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 235\"><line x1=\"35.0\" y1=\"190.0\" x2=\"310.0\" y2=\"190.0\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"195.0\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">0</text><line x1=\"35.0\" y1=\"161.7\" x2=\"310.0\" y2=\"161.7\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"166.7\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">5</text><line x1=\"35.0\" y1=\"133.3\" x2=\"310.0\" y2=\"133.3\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"138.3\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">10</text><line x1=\"35.0\" y1=\"105.0\" x2=\"310.0\" y2=\"105.0\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"110.0\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">15</text><line x1=\"35.0\" y1=\"76.7\" x2=\"310.0\" y2=\"76.7\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"81.7\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">20</text><line x1=\"35.0\" y1=\"48.3\" x2=\"310.0\" y2=\"48.3\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"53.3\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">25</text><line x1=\"35.0\" y1=\"20.0\" x2=\"310.0\" y2=\"20.0\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"25.0\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">30</text><line x1=\"40.0\" y1=\"18.0\" x2=\"40.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"40.0\" y1=\"190.0\" x2=\"40.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"40.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">140</text><line x1=\"77.5\" y1=\"18.0\" x2=\"77.5\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"77.5\" y1=\"190.0\" x2=\"77.5\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"77.5\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">145</text><line x1=\"115.0\" y1=\"18.0\" x2=\"115.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"115.0\" y1=\"190.0\" x2=\"115.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"115.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">150</text><line x1=\"152.5\" y1=\"18.0\" x2=\"152.5\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"152.5\" y1=\"190.0\" x2=\"152.5\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"152.5\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">155</text><line x1=\"190.0\" y1=\"18.0\" x2=\"190.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"190.0\" y1=\"190.0\" x2=\"190.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"190.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">160</text><line x1=\"227.5\" y1=\"18.0\" x2=\"227.5\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"227.5\" y1=\"190.0\" x2=\"227.5\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"227.5\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">165</text><line x1=\"265.0\" y1=\"18.0\" x2=\"265.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"265.0\" y1=\"190.0\" x2=\"265.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"265.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">170</text><line x1=\"302.5\" y1=\"18.0\" x2=\"302.5\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"302.5\" y1=\"190.0\" x2=\"302.5\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"302.5\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">175</text><line x1=\"40.0\" y1=\"14.0\" x2=\"40.0\" y2=\"190.0\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40.0\" y1=\"190.0\" x2=\"310.0\" y2=\"190.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"20.0\" y=\"10.0\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">相對次數(%)</text><text x=\"310.0\" y=\"228.0\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">身高(公分)</text><polyline points=\"58.8,161.7 96.2,133.3 133.8,76.7 171.2,48.3 208.8,76.7 246.2,133.3 283.8,133.3\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><circle cx=\"58.8\" cy=\"161.7\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><text x=\"58.8\" y=\"153.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">5</text><circle cx=\"96.2\" cy=\"133.3\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><text x=\"96.2\" y=\"125.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">10</text><circle cx=\"133.8\" cy=\"76.7\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><text x=\"133.8\" y=\"68.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">20</text><circle cx=\"171.2\" cy=\"48.3\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><text x=\"171.2\" y=\"40.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">25</text><circle cx=\"208.8\" cy=\"76.7\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><text x=\"208.8\" y=\"68.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">20</text><circle cx=\"246.2\" cy=\"133.3\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><text x=\"246.2\" y=\"125.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">10</text><circle cx=\"283.8\" cy=\"133.3\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><text x=\"283.8\" y=\"125.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">10</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$10\\%$",
+      "$20\\%$",
+      "$30\\%$",
+      "$40\\%$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "判斷方程式是否有重根（判別式為零）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列方程式中，何者的解是重根？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-3x^{2}+6x-3=0$",
+      "$x^{2}-2x-1=0$",
+      "$(x-3)^{2}=25$",
+      "$4x^{2}+4x=1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "利用十字交乘找出 k 的可能值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x^{2}+x-k$ 可因式分解成兩個一次式的乘積，且 $k$ 為整數，則 $k$ 的值不可能為下列何者？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$",
+      "$6$",
+      "$10$",
+      "$12$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-5-1",
+   "unitIds": [
+    "nanyi-8-1-5-1",
+    "nanyi-7-2-6-1"
+   ],
+   "unitAssignmentBasis": "由相對次數求全班人數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖為某班的身高相對次數分配折線圖，若只知道人數最多的一組為12人，則全班共有多少人？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 235\"><line x1=\"35.0\" y1=\"190.0\" x2=\"330.0\" y2=\"190.0\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"195.0\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">0</text><line x1=\"35.0\" y1=\"161.7\" x2=\"330.0\" y2=\"161.7\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"166.7\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">5</text><line x1=\"35.0\" y1=\"133.3\" x2=\"330.0\" y2=\"133.3\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"138.3\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">10</text><line x1=\"35.0\" y1=\"105.0\" x2=\"330.0\" y2=\"105.0\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"110.0\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">15</text><line x1=\"35.0\" y1=\"76.7\" x2=\"330.0\" y2=\"76.7\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"81.7\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">20</text><line x1=\"35.0\" y1=\"48.3\" x2=\"330.0\" y2=\"48.3\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"53.3\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">25</text><line x1=\"35.0\" y1=\"20.0\" x2=\"330.0\" y2=\"20.0\" stroke=\"#bbb\" stroke-width=\"0.8\"/><text x=\"31.0\" y=\"25.0\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">30</text><line x1=\"40.0\" y1=\"18.0\" x2=\"40.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"40.0\" y1=\"190.0\" x2=\"40.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"40.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">145</text><line x1=\"75.0\" y1=\"18.0\" x2=\"75.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"75.0\" y1=\"190.0\" x2=\"75.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"75.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">150</text><line x1=\"110.0\" y1=\"18.0\" x2=\"110.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"110.0\" y1=\"190.0\" x2=\"110.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"110.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">155</text><line x1=\"145.0\" y1=\"18.0\" x2=\"145.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"145.0\" y1=\"190.0\" x2=\"145.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"145.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">160</text><line x1=\"180.0\" y1=\"18.0\" x2=\"180.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"180.0\" y1=\"190.0\" x2=\"180.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"180.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">165</text><line x1=\"215.0\" y1=\"18.0\" x2=\"215.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"215.0\" y1=\"190.0\" x2=\"215.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"215.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">170</text><line x1=\"250.0\" y1=\"18.0\" x2=\"250.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"250.0\" y1=\"190.0\" x2=\"250.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"250.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">175</text><line x1=\"285.0\" y1=\"18.0\" x2=\"285.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"285.0\" y1=\"190.0\" x2=\"285.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"285.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">180</text><line x1=\"320.0\" y1=\"18.0\" x2=\"320.0\" y2=\"190.0\" stroke=\"#ddd\" stroke-width=\"0.6\"/><line x1=\"320.0\" y1=\"190.0\" x2=\"320.0\" y2=\"194.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"320.0\" y=\"208.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">185</text><line x1=\"40.0\" y1=\"14.0\" x2=\"40.0\" y2=\"190.0\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40.0\" y1=\"190.0\" x2=\"330.0\" y2=\"190.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"20.0\" y=\"10.0\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">相對次數(%)</text><text x=\"330.0\" y=\"228.0\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">身高(公分)</text><polyline points=\"57.5,133.3 92.5,105.0 127.5,48.3 162.5,20.0 197.5,161.7 232.5,161.7 267.5,161.7 302.5,161.7\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><circle cx=\"57.5\" cy=\"133.3\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><circle cx=\"92.5\" cy=\"105.0\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><circle cx=\"127.5\" cy=\"48.3\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><circle cx=\"162.5\" cy=\"20.0\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><circle cx=\"197.5\" cy=\"161.7\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><circle cx=\"232.5\" cy=\"161.7\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><circle cx=\"267.5\" cy=\"161.7\" r=\"3\" fill=\"#111\" stroke=\"#111\"/><circle cx=\"302.5\" cy=\"161.7\" r=\"3\" fill=\"#111\" stroke=\"#111\"/></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$45$",
+      "$40$",
+      "$35$",
+      "$30$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-6-1",
+   "unitIds": [
+    "nanyi-7-2-6-1"
+   ],
+   "unitAssignmentBasis": "由圓形圖的百分比求總時間。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖為佳琦在週末所分配五科念書時間的圓形圖，已知佳琦花在數學的時間為40分鐘，則她週末所有科目的念書時間為多少分鐘？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 190\"><circle cx=\"110\" cy=\"95\" r=\"62\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"110.0\" y1=\"95.0\" x2=\"110.0\" y2=\"33.0\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"172.7\" y=\"41.1\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">國 26%</text><line x1=\"110.0\" y1=\"95.0\" x2=\"171.9\" y2=\"98.9\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"170.8\" y=\"160.8\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">英 23%</text><line x1=\"110.0\" y1=\"95.0\" x2=\"113.9\" y2=\"156.9\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"88.6\" y=\"183.3\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">數 10%</text><line x1=\"110.0\" y1=\"95.0\" x2=\"76.8\" y2=\"147.3\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"24.7\" y=\"110.8\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">社 28%</text><line x1=\"110.0\" y1=\"95.0\" x2=\"64.8\" y2=\"52.6\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"75.8\" y=\"21.1\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">自 13%</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$320$",
+      "$360$",
+      "$380$",
+      "$400$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "化為一般式後因式分解求兩根。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若方程式 $2(x-5)(x+2)=16$ 的兩根為 $a$、$b$，且 $a>b$，則 $a+2b=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1$",
+      "$0$",
+      "$-1$",
+      "$-2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "將根代入方程式求係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x$ 的一元二次方程式 $x^{2}+x+(3m-2)=0$ 的一根為 $3$，則 $m=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{10}{3}$",
+      "$-\\dfrac{10}{3}$",
+      "$-\\dfrac{14}{3}$",
+      "$-4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2",
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "利用判別式大於零求最小整數 a（且 a 不為零）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a$ 為整數，一元二次方程式 $ax^{2}+6x-10=0$ 有兩個相異的根，則 $a$ 的最小值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$0$",
+      "$1$",
+      "$2$",
+      "$3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "14",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "利用因式分解判斷因數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設一數 $k=23\\times12\\times12+6\\times12-17$，下列哪一選項是 $k$ 的因數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$11$",
+      "$12$",
+      "$138$",
+      "$259$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "15",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-5-1",
+   "unitIds": [
+    "nanyi-8-1-5-1"
+   ],
+   "unitAssignmentBasis": "由累積次數求某分數以上的人數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下表是八年六班30位學生第二次段考數學成績的累積次數分配表，成績在70分以上(含)有多少人？"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "成績(分)",
+       "40～50",
+       "50～60",
+       "60～70",
+       "70～80",
+       "80～90",
+       "90～100"
+      ],
+      [
+       "累積次數(人)",
+       "1",
+       "5",
+       "16",
+       "23",
+       "28",
+       "30"
+      ]
+     ]
+    },
+    {
+     "type": "options",
+     "items": [
+      "2人",
+      "7人",
+      "14人",
+      "23人"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-3-2",
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "因式分解法與公式解解一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解下列各一元二次方程式。"
+    },
+    {
+     "type": "text",
+     "text": "(1) $2x^{2}+3x=0$，$x=$＿＿＿＿。"
+    },
+    {
+     "type": "text",
+     "text": "(2) $x(x-8)=1584$，$x=$＿＿＿＿。"
+    },
+    {
+     "type": "text",
+     "text": "(3) $(x-4)(2x-7)=1$，$x=$＿＿＿＿。"
+    },
+    {
+     "type": "text",
+     "text": "(4) $2x^{2}+7x+2=0$，$x=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-5-1",
+   "unitIds": [
+    "nanyi-8-1-5-1"
+   ],
+   "unitAssignmentBasis": "由累積次數與累積相對次數求各組次數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下表是八年甲班學生部分的體重累積相對次數分配表，則表中的 $b$ 代表的數字是＿＿＿＿。"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "體重(公斤)",
+       "次數(人)",
+       "累積次數(人)",
+       "累積相對次數(%)"
+      ],
+      [
+       "45～50",
+       "a",
+       "12",
+       "30"
+      ],
+      [
+       "50～55",
+       "b",
+       "c",
+       "50"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘分解並代入求質數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "(1) 因式分解 $5x^{2}-22x+8=$＿＿＿＿。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 承(1)，若 $5x^{2}-22x+8$ 為一質數，且 $x$ 為正整數，則此質數為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "由看錯的解還原一次項與常數項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "庭毓與嘉瑋同解一元二次方程式 $x^{2}+bx+c=0$，庭毓將常數項看錯，求得的兩個解為 $1$、$4$；嘉瑋將一次項的係數看錯，求得的兩個解為 $4\\pm\\sqrt{30}$。已知兩人都沒有其他的計算錯誤，則此方程式正確的解為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "以畢氏定理列一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一正三角形的一邊增加3公分、另一邊增加2公分、第三邊減少5公分後，可形成一個直角三角形，則原正三角形的邊長為＿＿＿＿公分。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "直接開平方法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $4(x+3)^{2}=20$ 的兩根為 $a$ 與 $b$，且 $a>b$，則 $a-b=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "列出售價與銷量的一元二次方程式並求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "每年十月，柑橘類水果進入採收季節，大部分的橘子都是作為鮮果直接食用，較少被加工成其他產品。而部分外觀瑕疵的橘子因銷售困難，則會被加工製作成新鮮的手工果醬進行販賣，藉此減少食物浪費並推動永續農業的發展。阿杰參加某果園的「橘子採集一日體驗營」。當天，他們總共採了1000顆橘子，經過篩選後，其中有20%因外觀瑕疵而被淘汰，根據上述資訊回答下列問題。"
+    },
+    {
+     "type": "text",
+     "text": "果園將所有外觀瑕疵的橘子製作成手工果醬進行義賣，已知每4顆外觀瑕疵的橘子可以製作成1罐手工果醬，每罐售價為100元，可全部賣出；若手工果醬售價每提高10元，則會少賣1罐。此次義賣希望獲得9000元的收入，則每罐手工果醬的售價應為多少元？最後還剩下幾罐？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3",
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "以判別式判斷收入目標是否可達成。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "每年十月，柑橘類水果進入採收季節，大部分的橘子都是作為鮮果直接食用，較少被加工成其他產品。而部分外觀瑕疵的橘子因銷售困難，則會被加工製作成新鮮的手工果醬進行販賣，藉此減少食物浪費並推動永續農業的發展。阿杰參加某果園的「橘子採集一日體驗營」。當天，他們總共採了1000顆橘子，經過篩選後，其中有20%因外觀瑕疵而被淘汰，根據上述資訊回答下列問題。"
+    },
+    {
+     "type": "text",
+     "text": "果園將所有外觀瑕疵的橘子製作成手工果醬進行義賣，已知每4顆外觀瑕疵的橘子可以製作成1罐手工果醬，每罐售價為100元，可全部賣出；若手工果醬售價每提高10元，則會少賣1罐。為了支持更多公益活動，果園希望將義賣收入增加至12000元，則需賣出多少罐手工果醬？"
+    }
+   ]
+  }
+ ]
+}

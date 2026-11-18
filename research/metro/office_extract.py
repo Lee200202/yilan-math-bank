@@ -44,7 +44,22 @@ def omml(e):
     if t in ('oMath', 'oMathPara', 'e', 'num', 'den', 'sub', 'sup', 'deg', 'lim', 'fName'):
         return ''.join(omml(c) for c in e if ln(c) not in ('rPr', 'ctrlPr', 'sSupPr', 'sSubPr', 'fPr', 'radPr', 'dPr', 'naryPr', 'accPr', 'barPr', 'eqArrPr', 'mPr', 'funcPr', 'limLowPr', 'limUppPr', 'groupChrPr'))
     if t == 'r':
-        return ''.join(c.text or '' for c in e if ln(c) == 't')
+        txt = ''.join(c.text or '' for c in e if ln(c) == 't')
+        for pr in (c for c in e if ln(c) == 'rPr' and ns(c) == W):  # Word run formatting inside an equation: raised/lowered digits
+            va = kid(pr, 'vertAlign')
+            po = kid(pr, 'position')
+            mark = None
+            if va is not None:
+                mark = {'superscript': '^', 'subscript': '_'}.get(va.get('{%s}val' % W))
+            elif po is not None:
+                try:
+                    pv = int(po.get('{%s}val' % W, '0'))
+                except ValueError:
+                    pv = 0
+                mark = '^' if pv >= 4 else ('_' if pv <= -4 else None)
+            if mark and txt.strip():
+                return '%s{%s}' % (mark, txt)
+        return txt
     if t == 'f':
         typ = kid(e, 'fPr')
         k = kid(typ, 'type') if typ is not None else None
@@ -296,6 +311,23 @@ def eq2tex(s):
     return ''.join(out)
 
 
+# ---------------- native Word charts ----------------
+def chart_text(data):
+    root = etree.fromstring(data)
+    kinds = [ln(e) for e in root.iter() if isinstance(e.tag, str) and ln(e).endswith('Chart') and ln(e) != 'chart']
+    out = []
+    for ser in (e for e in root.iter() if isinstance(e.tag, str) and ln(e) == 'ser'):
+        def pts(tag):
+            node = next((c for c in ser if ln(c) == tag), None)
+            if node is None:
+                return []
+            return [v.text or '' for p in node.iter() if isinstance(p.tag, str) and ln(p) == 'pt' for v in p if ln(v) == 'v']
+        name = ''.join(pts('tx'))
+        out.append('%s: %s' % (name or 'series', ', '.join('%s=%s' % (c, v) for c, v in zip(pts('cat'), pts('val')))))
+    title = ' '.join(t.text or '' for e in root.iter() if isinstance(e.tag, str) and ln(e) == 'title' for t in e.iter() if isinstance(t.tag, str) and ln(t) == 't')
+    return '[CHART %s%s | %s]' % ('/'.join(dict.fromkeys(kinds)) or 'chart', (' "%s"' % title.strip()) if title.strip() else '', ' ; '.join(out))
+
+
 # ---------------- DOCX ----------------
 def docx(path, out):
     z = zipfile.ZipFile(path)
@@ -336,6 +368,18 @@ def docx(path, out):
             va = kid(pr, 'vertAlign')
             if va is not None:
                 sup = {'superscript': '^', 'subscript': '_'}.get(va.get('{%s}val' % W))
+            po = kid(pr, 'position')  # raised/lowered text (half-points) is how many old documents write x^2
+            if sup is None and po is not None:
+                try:
+                    pv = int(po.get('{%s}val' % W, '0'))
+                except ValueError:
+                    pv = 0
+                sz = kid(pr, 'sz')
+                size = int(sz.get('{%s}val' % W, '24')) if sz is not None else 24
+                if pv >= 4 and size <= 22:
+                    sup = '^'
+                elif pv <= -4 and size <= 22:
+                    sup = '_'
         for c in r:
             t = ln(c)
             if t == 'fldChar':
@@ -353,7 +397,10 @@ def docx(path, out):
                     fs['eq'] = False
             elif t == 'instrText':
                 if fs['mode'] == 'code':
-                    fs['instr'] += c.text or ''
+                    piece = c.text or ''
+                    if sup and piece.strip() and piece.strip()[0].isalnum():  # raised/lowered text inside an EQ field code
+                        piece = ('\\s\\up6(' if sup == '^' else '\\s\\do3(') + piece + ')'
+                    fs['instr'] += piece
             elif fs['mode'] == 'code':
                 continue  # hidden field-code content (e.g. QUOTE fields): only the displayed result counts
             elif t == 't':
@@ -389,6 +436,14 @@ def docx(path, out):
         tb = [x for x in c.iter('{%s}txbxContent' % W)]
         for x in tb[:1]:
             res.append('[TEXTBOX] ' + ' / '.join(block(p) for p in x if ln(p) in ('p', 'tbl')) + ' [/TEXTBOX]')
+        for x in c.iter():  # native Word chart (word/charts/chartN.xml): pie / bar / line data
+            if isinstance(x.tag, str) and ln(x) == 'chart' and ns(x).endswith('/chart'):
+                rid = x.get('{%s}id' % R)
+                tgt = rels.get(rid)
+                if tgt:
+                    cp = re.sub(r'[^/]+/\.\./', '', ('word/' + tgt) if not tgt.startswith('/') else tgt[1:])
+                    if cp in z.namelist():
+                        res.append(chart_text(z.read(cp)))
         shapes = 0
         for x in c.iter():
             if not isinstance(x.tag, str):

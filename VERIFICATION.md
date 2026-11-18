@@ -200,3 +200,9 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 ## Word → DOCX 自動轉檔工具（2026-11-17，未改動網站）
 
 - 新增 `scripts/word_convert.py`、`word_convert_one.ps1`、`word_convert_batch.py`：用本機 Word 把舊版 `.doc` 無人值守轉成 `.docx`（約 8–11 秒／份，不卡住；舊 Equation Editor 公式被轉成真公式）。說明見 `handoff/WORD_CONVERT.md`。`research/make_office_waves.py` 支援轉換後的 doc 並自動去除 docx／odt 重複。
+
+## v105（20261118-metro-v105）：Word/ODT 第二批（八上，含轉換後 doc）＋第十五波 PDF（九下），21 卷
+
+- 可組卷題數 → 17,580（含遠端宜蘭新增）。`npm test` 78 項通過；21 卷 PDF 匯出檢查全數通過。疑義見 `handoff/batches/20261118-o2w15-SOURCE_ISSUES_REPORT.md`。高雄三份卷依裁決以卷首標示民族國中（`slot-overrides.json`）。
+- 抽取工具修正：升降位置上標、公式欄位內上標、Word 內建圖表、符號字型等；舊 `.doc` 已全部用 Word 轉成 `.docx`（`handoff/WORD_CONVERT.md`）。
+- 正式站驗收：發布後補。

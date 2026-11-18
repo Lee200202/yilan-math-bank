@@ -1,0 +1,948 @@
+{
+ "paperId": "metro-taichung-e2ce0c948fa3cc63-da7ba453",
+ "sourceSha256": "da7ba4534969096a54f2cb71603ae86ce3e0cc8a29237342aa409fab51db94bf",
+ "printedHeader": "113學年度第二學期臺中市立向上國民中學第二次定期評量 三年級數學科試題",
+ "printedSlot": {
+  "year": 113,
+  "semester": 2,
+  "grade": 9,
+  "exam": 2
+ },
+ "printedCounts": "選擇題25題、非選題2題（第5頁為答案頁，未轉錄）。",
+ "visualReviewComplete": true,
+ "reviewNote": "Compared every question with the four question pages (page 5 answer key used only to sanity-check). Q5 (dice stack) unusable: 3D figure; Q14 unusable: printed PQ:QA = 25:7 matches no option. Q19 printed 'AGCD' is a typo for ABCD (figure shows ABCD). Q6, Q12, Q16 figures redrawn schematically; Q15 sign panel and Q24/25 infographics transcribed as text; Q25 speech bubbles as text.",
+ "expectedTypes": {
+  "choice": 25,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-1-1-4",
+   "unitIds": [
+    "nanyi-7-1-1-4"
+   ],
+   "unitAssignmentBasis": "比較小數與負指數的大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "以下何者的值最大？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$0.0001$",
+      "$0.00001$",
+      "$10^{-3}$",
+      "$10^{-6}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-1-1-1",
+   "unitIds": [
+    "nanyi-7-1-1-1"
+   ],
+   "unitAssignmentBasis": "數線上距離與摺疊。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "圖(一)為一條可摺疊的數線，由左而右有 $A$、$B$、$C$ 三點，所表示的數分別為 $a$、$b$、$c$，且 $|a-c|=10$，$|b-c|=4$，今固定 $B$ 點，將 $\\overline{BA}$ 向右摺疊，如圖(二)所示。已知摺疊後的 $A$ 點落在此數線上且在 $C$ 點右邊，則摺疊後的 $\\overline{AC}$ 長為何？"
+    },
+    {
+     "type": "text",
+     "text": "圖(一)"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 60,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 68\"><line x1=\"10\" y1=\"40\" x2=\"190\" y2=\"40\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"190,40 184,37 184,43\" fill=\"#111\" stroke=\"#111\"/><line x1=\"20\" y1=\"35\" x2=\"20\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"20\" y=\"28\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"20\" y=\"59\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">a</text><line x1=\"104\" y1=\"35\" x2=\"104\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"104\" y=\"28\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"104\" y=\"59\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">b</text><line x1=\"160\" y1=\"35\" x2=\"160\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"160\" y=\"28\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"160\" y=\"59\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">c</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "圖(二)"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 85,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 92\"><line x1=\"10\" y1=\"55\" x2=\"230\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"230,55 224,52 224,58\" fill=\"#111\" stroke=\"#111\"/><line x1=\"80\" y1=\"50\" x2=\"80\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"80\" y=\"72\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"80\" y=\"86\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">b</text><line x1=\"136\" y1=\"50\" x2=\"136\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"136\" y=\"72\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"136\" y=\"86\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">c</text><line x1=\"80\" y1=\"55\" x2=\"28\" y2=\"24\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"3,3\"/><text x=\"24\" y=\"20\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"14\" y=\"36\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">a</text><path d=\"M40,30 Q110,-10 164,52\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\"/><polygon points=\"164,52 158,45 168,45\" fill=\"#111\" stroke=\"#111\"/><line x1=\"164\" y1=\"50\" x2=\"164\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"164\" y=\"72\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$",
+      "$4$",
+      "$6$",
+      "$8$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "利用完全平方公式化簡根號內算式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "算式 $\\sqrt{197^2+3^2-160^2+6\\times197}$ 之值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$40$",
+      "$90$",
+      "$120$",
+      "$150$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-1-3-1",
+   "unitIds": [
+    "nanyi-7-1-3-1",
+    "nanyi-7-1-2-3"
+   ],
+   "unitAssignmentBasis": "一次式的分式加減化簡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "化簡 $\\dfrac{2x+1}{4}-\\dfrac{x-1}{3}$，可得下列哪一個結果？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2x+7$",
+      "$2x-1$",
+      "$\\dfrac{2x+7}{12}$",
+      "$\\dfrac{2x-1}{12}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "由立體疊放圖判斷左視圖。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將 $6$ 個骰子疊放在桌上，如圖(三)所示，已知有 $10$ 個面緊密相連且單顆骰子相對兩個面的點數和是 $7$，請問下列哪一個選項可能是此圖的左視圖？"
+    },
+    {
+     "type": "text",
+     "text": "（原題附有六個骰子疊放的立體圖及四個左視圖選項，皆為骰子點數圖，無法忠實重繪。）"
+    }
+   ],
+   "usable": false,
+   "sourceIssue": "題目依賴六個骰子疊放的立體圖與四個骰子點數圖選項，無法以向量圖忠實重繪。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-3-2",
+   "unitIds": [
+    "nanyi-7-2-3-2",
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由正方形移動後的位置求直線方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(四)，已知直角坐標平面上的正方形 $ABCD$，正方形邊長為 $10$，且 $x$ 軸與 $y$ 軸皆為正方形 $ABCD$ 的對稱軸。將原正方形 $ABCD$ 移動成正方形 $A'B'C'D'$ 的位置，使得 $\\overline{B'C'}$ 直線通過原點；$B'$ 點距離 $x$ 軸為 $2$ 個單位長且在 $\\overline{AB}$ 上，則移動後 $\\overline{B'C'}$ 的直線方程式為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 150\"><line x1=\"24\" y1=\"95\" x2=\"150\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"80\" y1=\"151\" x2=\"80\" y2=\"4\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"45.0,60.0 115.0,60.0 115.0,130.0 45.0,130.0\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\" stroke-dasharray=\"3,3\"/><polygon points=\"71.0,16.0 136.0,42.0 110.0,107.0 45.0,81.0\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"38.7\" y=\"136.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"120.6\" y=\"136.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"38\" y=\"57.2\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"119.2\" y=\"54.4\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"65.0\" y=\"18.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A′</text><text x=\"144.0\" y=\"40.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">D′</text><text x=\"115.0\" y=\"119.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C′</text><text x=\"36\" y=\"79\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B′</text><text x=\"73.7\" y=\"101.3\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text><text x=\"150\" y=\"106.2\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">x</text><text x=\"88.4\" y=\"4\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">y</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=-\\dfrac{2}{5}x$",
+      "$y=-\\dfrac{5}{2}x$",
+      "$y=-5x+2$",
+      "$y=x+7$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-1",
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "拋物線上移後與 x 軸兩交點距離的變化。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知坐標平面上有二次函數 $y=2(x-3)^2-10$ 的圖形，函數圖形與 $x$ 軸相交於 $A(a,0)$、$B(b,0)$ 兩點，其中 $a<b$。今將此函數圖形往上平移 $1$ 個單位，平移後函數圖形與 $x$ 軸相交於 $C(c,0)$、$D(d,0)$ 兩點，其中 $c<d$。再將此函數圖形往上平移 $2$ 個單位，平移後函數圖形與 $x$ 軸相交於 $E(e,0)$、$F(f,0)$，其中 $e<f$。則 $\\overline{AB}$、$\\overline{CD}$、$\\overline{EF}$ 的大小關係為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\overline{AB}>\\overline{CD}>\\overline{EF}$",
+      "$\\overline{EF}>\\overline{CD}>\\overline{AB}$",
+      "$\\overline{EF}>\\overline{AB}>\\overline{CD}$",
+      "$\\overline{CD}>\\overline{EF}>\\overline{AB}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "分別抽選男女各一位，求特定同學被選中的機率。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "曉萱是一位女生，在她的班上共有 $32$ 位同學，其中男生 $14$ 位，女生 $18$ 位。新的學期開始，老師想用抽籤的方式找男女生各一位來擔任衛生股長，請問曉萱擔任衛生股長的機率為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{1}{9}$",
+      "$\\dfrac{1}{16}$",
+      "$\\dfrac{1}{18}$",
+      "$\\dfrac{1}{32}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-6-2",
+   "unitIds": [
+    "nanyi-7-2-6-2"
+   ],
+   "unitAssignmentBasis": "由數據表判斷平均步伐與心率敘述。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小渝參加一個全程五公里的公益路跑活動，智慧型手表紀錄了每公里的身體狀態，如下表所示。判斷下列敘述何者正確？"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "",
+       "花費時間",
+       "步數",
+       "每分鐘平均心率"
+      ],
+      [
+       "第一公里",
+       "4:55",
+       "995",
+       "162"
+      ],
+      [
+       "第二公里",
+       "4:40",
+       "1015",
+       "171"
+      ],
+      [
+       "第三公里",
+       "4:35",
+       "1050",
+       "181"
+      ],
+      [
+       "第四公里",
+       "4:40",
+       "1050",
+       "175"
+      ],
+      [
+       "第五公里",
+       "4:34",
+       "1100",
+       "188"
+      ]
+     ]
+    },
+    {
+     "type": "options",
+     "items": [
+      "小渝全程的最高心率為 $188$",
+      "全程平均步伐距離超過 $1$ 公尺",
+      "第一公里的平均步伐距離超過 $1$ 公尺",
+      "跑步速率一樣時，代表平均心率也會一樣。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-4-1",
+   "unitIds": [
+    "nanyi-7-2-4-1",
+    "nanyi-9-1-1-1"
+   ],
+   "unitAssignmentBasis": "由比例關係求體積比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "斌斌心血來潮，想要製作蜂蜜檸檬汁給家人們享用。他準備了蜂蜜檸檬汁及若干個大小完全相同的杯子，並將所有的蜂蜜及部分的檸檬汁以 $2:5$ 的體積比混合成蜂蜜檸檬汁。若混合後的蜂蜜檸檬汁剛好倒滿 $5$ 個杯子，而剩下的檸檬汁剛好倒滿 $2$ 個杯子，則斌斌一開始準備的蜂蜜和檸檬汁的體積比為何？（註：混合過程中，蜂蜜、檸檬汁的體積不改變）"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2:5$",
+      "$2:7$",
+      "$10:23$",
+      "$10:39$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "由根求一元二次方程式的係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一元二次方程式 $4x^2-ax+b=0$ 的兩根為 $\\dfrac{3\\pm\\sqrt{6}}{2}$，其中 $a$、$b$ 為兩數，則 $a+b$ 之值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-9$",
+      "$3$",
+      "$9$",
+      "$15$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1",
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "由一次函數圖形的條件列式求原有水量。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(八)，甲、乙兩水槽的注水時間與水量成線型函數關係。已知甲、乙兩水槽原有水量分別為 $n$、$m$ 公升，注水 $30$ 分鐘時，乙水槽的水量為 $120$ 公升；注水 $60$ 分鐘時，甲、乙兩水槽的水量相等，且此時甲水槽的水量為原有水量的 $2.5$ 倍，乙水槽的水量為原有水量的 $2$ 倍，則 $m+n=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 162\"><line x1=\"40\" y1=\"130\" x2=\"175\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40\" y1=\"130\" x2=\"40\" y2=\"10\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40\" y1=\"82.0\" x2=\"172\" y2=\"29.2\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40\" y1=\"91.6\" x2=\"172\" y2=\"28.2\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40\" y1=\"58.0\" x2=\"100\" y2=\"58.0\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"100\" y1=\"58.0\" x2=\"100\" y2=\"130\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"160\" y1=\"34.0\" x2=\"160\" y2=\"130\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"40\" y1=\"34.0\" x2=\"160\" y2=\"34.0\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"34\" y=\"62.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">120</text><text x=\"34\" y=\"81.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\" font-style=\"italic\">m</text><text x=\"34\" y=\"99.6\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\" font-style=\"italic\">n</text><text x=\"100\" y=\"143\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">30</text><text x=\"160\" y=\"143\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">60</text><text x=\"36\" y=\"143\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">0</text><text x=\"160\" y=\"156\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">注水時間（分）</text><text x=\"6\" y=\"14\" font-size=\"10\" text-anchor=\"start\" fill=\"#111\">水量（公升）</text><text x=\"176\" y=\"28\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">甲乙</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$136$",
+      "$144$",
+      "$150$",
+      "$160$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "13",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-4-2",
+   "unitIds": [
+    "nanyi-8-2-4-2",
+    "nanyi-8-2-3-3"
+   ],
+   "unitAssignmentBasis": "判斷平行四邊形作圖方法（對角線互相平分）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(九)，在 $\\triangle ABC$ 中，$D$、$E$ 分別是 $\\overline{BC}$、$\\overline{AB}$ 的中點，且 $\\overline{AD}$、$\\overline{CE}$ 交於 $P$ 點。今欲在 $\\triangle ABC$ 內作一平行四邊形 $DEFG$，以下是甲、乙兩人的作法："
+    },
+    {
+     "type": "text",
+     "text": "甲：(1)取 $\\overline{AP}$ 的中點 $F$，$\\overline{CP}$ 的中點 $G$；(2)連接四邊形 $DEFG$，即為所求。"
+    },
+    {
+     "type": "text",
+     "text": "乙：(1)在 $\\overline{PC}$ 上取一點 $G$，$\\overline{AP}$ 上取一點 $F$，使得 $\\overline{PG}=\\overline{PE}$，$\\overline{PF}=\\overline{PD}$；(2)連接四邊形 $DEFG$，即為所求。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 0 272 150\"><polygon points=\"140.0,10.0 5.0,125.0 245.0,125.0\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"140\" y1=\"10\" x2=\"125\" y2=\"125\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"245\" y1=\"125\" x2=\"72.5\" y2=\"67.5\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"145\" y=\"8\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"-1\" y=\"137\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"251\" y=\"137\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"125\" y=\"139\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"64.5\" y=\"64.5\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">E</text><text x=\"139.0\" y=\"82.7\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">P</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "對於兩人的作法，下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲正確，乙錯誤",
+      "乙正確，甲錯誤",
+      "兩人皆錯誤",
+      "兩人皆正確"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "14",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-9-1-1-2"
+   ],
+   "unitAssignmentBasis": "圓的切線與平行線比例求線段比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(十)，直線 $PA$、直線 $PB$ 分別與圓 $O$ 相切於 $A$、$B$ 兩點，$Q$ 點在 $\\overline{PA}$ 上，且 $\\overline{OQ}//\\overline{PB}$。若圓 $O$ 的半徑為 $6$，$\\overline{PB}=8$，則 $\\overline{PQ}$ 與 $\\overline{QA}$ 的長度比為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 165\"><circle cx=\"80\" cy=\"78\" r=\"72\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"-4\" y1=\"150\" x2=\"176\" y2=\"150\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"176\" y1=\"150\" x2=\"137.6\" y2=\"18\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"80\" y1=\"78\" x2=\"155.0\" y2=\"78\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"80.0\" cy=\"78.0\" r=\"1.8\" fill=\"#111\"/><circle cx=\"155.0\" cy=\"78.0\" r=\"1.8\" fill=\"#111\"/><text x=\"69.2\" y=\"74\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text><text x=\"141.2\" y=\"50.4\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"162.8\" y=\"86.4\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">Q</text><text x=\"80\" y=\"162\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"183.2\" y=\"152.4\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">P</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$7:25$",
+      "$7:24$",
+      "$9:25$",
+      "$9:24$"
+     ]
+    }
+   ],
+   "usable": false,
+   "sourceIssue": "依題意與圖形，PQ:QA 應為 25:7，四個選項皆不含此值（選項 7:25 對應的是 QA:PQ），原題敘述與選項不符，不採用。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "15",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "分段計費方案以不等式判斷折數範圍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某計程車行推出兩種優惠專案，收費方式如圖(七)所示。今部分內容不慎塗汙無法辨識，但是凱哥知道若是車資 $250$ 元，要選「一路省」方案會比較便宜；若是車資 $350$ 元，要選「非常省」方案會比較便宜，據此資料，則被塗汙的數字可能為何？"
+    },
+    {
+     "type": "text",
+     "text": "「一路省」：車資一律九折計算。"
+    },
+    {
+     "type": "text",
+     "text": "「非常省」：1. 車資 $150$ 元（含）以下原價計算。2. 車資 $150$ 元以上，超過 $150$ 元的部分乘以 ■$\\%$ 計算（■ 處被塗汙）。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$70$",
+      "$74$",
+      "$80$",
+      "$84$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "16",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3",
+    "nanyi-9-1-1-3"
+   ],
+   "unitAssignmentBasis": "由坡道垂直高度與角度換算限高。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小鈞、小融和小佑三人所住大樓的地下停車場架設了限高桿，該限高桿位於坡道 $A$ 點正上方 $1.8$ 公尺處（即 $\\overline{AA'}=1.8$ 公尺）。下圖為側面示意圖，車高的測量如圖所示為 $m$ 公尺（自斜坡面垂直量測），且坡道長度 $\\overline{BD}$ 為 $6$ 公尺，$\\cos\\theta=\\dfrac{9}{10}$，已知小鈞家的車高 $m=1.6$ 公尺，小融家的車高 $m=1.7$ 公尺，小佑家的車高 $m=1.8$ 公尺，請問：進入地下停車場時，請判斷誰家的車可以通過地下停車場的限高桿（不會撞到限高桿的 $A'$ 點）？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 125\"><polygon points=\"15.0,40.0 150.0,105.0 15.0,105.0\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polygon points=\"24.0,44.4 87.0,74.9 104.4,38.9 41.4,8.4\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"15.0\" y1=\"40.0\" x2=\"33.3\" y2=\"2.2\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"109.5\" y1=\"85.8\" x2=\"109.5\" y2=\"40.8\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"3,3\"/><circle cx=\"109.5\" cy=\"40.8\" r=\"1.8\" fill=\"#111\"/><circle cx=\"109.5\" cy=\"85.8\" r=\"1.8\" fill=\"#111\"/><line x1=\"41.4\" y1=\"8.4\" x2=\"32.4\" y2=\"4.0\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"9\" y=\"38\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"9\" y=\"117\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"158\" y=\"110\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"99.5\" y=\"99.8\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"117.5\" y=\"38.8\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A′</text><text x=\"121.5\" y=\"63.3\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">1.8 公尺</text><text x=\"16.7\" y=\"22.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">m</text><text x=\"124\" y=\"101\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">θ</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "三人家的車都不可通過限高桿",
+      "只有一人家的車可通過限高桿",
+      "只有兩人家的車可通過限高桿",
+      "三人家的車都可通過限高桿"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "17",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-1-3",
+   "unitIds": [
+    "nanyi-9-1-1-3",
+    "nanyi-9-1-1-2",
+    "nanyi-8-2-4-1"
+   ],
+   "unitAssignmentBasis": "利用平行線與相似三角形求線段長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(十一)為兩個三角形 $\\triangle ABC$、$\\triangle DBF$ 重疊的情形，其中 $D$ 點在 $\\overline{AB}$ 上，$C$、$G$ 兩點在 $\\overline{BF}$ 上，$\\overline{AC}$ 與 $\\overline{DF}$ 相交於 $E$ 點，$\\angle1=\\angle2$，$\\overline{DG}//\\overline{AC}$。若 $\\overline{BG}=\\overline{CG}=4$，$\\overline{EC}=\\overline{CF}=2$，則 $\\overline{EF}$ 的長度為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 215\"><polygon points=\"97.0,-2.5 12.0,195.0 148.0,195.0\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"12\" y1=\"195\" x2=\"182\" y2=\"195\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"54.5\" y1=\"96.2\" x2=\"182\" y2=\"195\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"54.5\" y1=\"96.2\" x2=\"80\" y2=\"195\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"97\" y=\"-7.5\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"6\" y=\"208\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"80\" y=\"209\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">G</text><text x=\"148\" y=\"209\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"188\" y=\"208\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">F</text><text x=\"46.5\" y=\"94.2\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"148.5\" y=\"159.1\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">E</text><text x=\"58.5\" y=\"115.2\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">1</text><text x=\"69.5\" y=\"113.2\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">2</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3$",
+      "$\\sqrt{10}$",
+      "$\\sqrt{11}$",
+      "$2\\sqrt{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "18",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "外心、中垂線與圓心角的角度關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(十二)，$\\triangle ABC$ 中，$\\angle B<60^\\circ$，作 $\\overline{AB}$ 的中垂線交 $\\overline{AB}$ 於 $M$ 點，交 $\\overline{BC}$ 於 $Q$ 點，再作 $\\overline{BC}$ 的中垂線交 $\\overline{BC}$ 於 $N$ 點，交 $\\overline{AB}$ 於 $P$ 點，且兩中垂線交於 $O$ 點，則下列何者錯誤？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 135\"><polygon points=\"95.0,10.0 10.0,110.0 150.0,110.0\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"22.5\" y1=\"34.5\" x2=\"111.3\" y2=\"110\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"80\" y1=\"18\" x2=\"80\" y2=\"125\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"56.4,55.4 61.0,59.3 57.1,63.9\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polyline points=\"80,104 86,104 86,110\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"103\" y=\"14\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"4\" y=\"122\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"157\" y=\"122\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"44.5\" y=\"58\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">M</text><text x=\"77\" y=\"125\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">N</text><text x=\"73\" y=\"25.6\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">P</text><text x=\"119.3\" y=\"123\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">Q</text><text x=\"72\" y=\"86.4\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\angle APC=2\\angle B$",
+      "$\\angle AOC=2\\angle B$",
+      "$\\angle AQC=2\\angle B$",
+      "$\\angle MON=2\\angle B$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "19",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-3-5",
+   "unitIds": [
+    "nanyi-8-2-3-5",
+    "nanyi-8-2-3-1"
+   ],
+   "unitAssignmentBasis": "角平分線與三角形面積比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖(十三)，四邊形 $ABCD$ 中，$\\overline{AE}$、$\\overline{DE}$ 分別是 $\\angle BAD$、$\\angle ADC$ 的角平分線，甲、乙、丙分別代表 $\\triangle ABE$、$\\triangle ADE$、$\\triangle CDE$ 的面積。若 $\\angle BAD=110^\\circ$，$\\angle ADC=120^\\circ$，$\\angle DCE=62^\\circ$，$\\angle ABE=60^\\circ$，關於甲、乙、丙的大小關係，下列何者正確？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -10 262 158\"><polygon points=\"45.0,8.0 165.0,18.0 220.0,125.0 5.0,120.0\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"45\" y1=\"8\" x2=\"105\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"165\" y1=\"18\" x2=\"105\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"5\" y1=\"120\" x2=\"105\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"220\" y1=\"125\" x2=\"105\" y2=\"105\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"43\" y=\"5\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"170\" y=\"15\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"-1\" y=\"132\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"227\" y=\"137\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"105\" y=\"119\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">E</text><text x=\"52\" y=\"78\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">甲</text><text x=\"105\" y=\"55\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">乙</text><text x=\"160\" y=\"85\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">丙</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲$<$乙",
+      "甲$>$乙",
+      "乙$<$丙",
+      "乙$>$丙"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "20",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2",
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "正多邊形外接圓內三角形面積與半徑比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "圖(十四)為正九邊形 $ABCDEFGHI$ 的外接圓，且此圓的半徑為 $R$；圖(十五)為正六邊形 $JKLMNO$ 的外接圓，且此圓的半徑為 $r$。若 $\\triangle ADG$ 的面積＝$\\triangle JLO$ 的面積，$R:r$ 的比值為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -6 148 158\"><circle cx=\"60\" cy=\"60\" r=\"48\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polygon points=\"68.3,12.7 36.0,18.4 14.9,43.6 14.9,76.4 36.0,101.6 68.3,107.3 96.8,90.9 108.0,60.0 96.8,29.1\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polygon points=\"68.3,12.7 14.9,76.4 96.8,90.9\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"70.2\" y=\"6.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"30.7\" y=\"13.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"5.0\" y=\"44.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"5.0\" y=\"84.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"30.7\" y=\"114.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">E</text><text x=\"70.2\" y=\"121.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">F</text><text x=\"104.9\" y=\"101.6\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">G</text><text x=\"118.6\" y=\"64.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">H</text><text x=\"104.9\" y=\"26.4\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">I</text><text x=\"60\" y=\"148.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">圖(十四)</text></svg>"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-14 -6 148 158\"><circle cx=\"60\" cy=\"60\" r=\"48\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polygon points=\"84.0,18.4 36.0,18.4 12.0,60.0 36.0,101.6 84.0,101.6 108.0,60.0\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><polygon points=\"84.0,18.4 12.0,60.0 108.0,60.0\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"89.3\" y=\"13.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">J</text><text x=\"30.7\" y=\"13.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">K</text><text x=\"1.4\" y=\"64.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">L</text><text x=\"30.7\" y=\"114.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">M</text><text x=\"89.3\" y=\"114.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">N</text><text x=\"118.6\" y=\"64.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text><text x=\"60\" y=\"148.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">圖(十五)</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{2}{3}$",
+      "$1$",
+      "$\\dfrac{\\sqrt{6}}{3}$",
+      "$\\dfrac{\\sqrt{20}}{5}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "21",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差數列分組後各組總和的關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差數列前三十項總和為 $a_1+a_2+\\cdots+a_{30}=40$，今將此數列分成三個新數列，如下："
+    },
+    {
+     "type": "text",
+     "text": "(1)原數列中，項數除以 $3$ 皆餘 $1$ 者形成一新數列，其總和為 $a_1+a_4+\\cdots+a_{28}=10$；"
+    },
+    {
+     "type": "text",
+     "text": "(2)原數列中，項數除以 $3$ 皆餘 $2$ 者形成一新數列，其總和為 $a_2+a_5+\\cdots+a_{29}=S_1$；"
+    },
+    {
+     "type": "text",
+     "text": "(3)原數列中，項數除以 $3$ 皆整除者形成一新數列，其總和為 $a_3+a_6+\\cdots+a_{30}=S_2$；"
+    },
+    {
+     "type": "text",
+     "text": "則 $S_2-S_1=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{10}{3}$",
+      "$\\dfrac{20}{3}$",
+      "$10$",
+      "$15$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "22",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-2-2",
+   "unitIds": [
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "等距平行線截圓所得弧的度數比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "圖(二十一)為 $L_1\\sim L_5$ 為五條等距的平行線，且 $O$、$M$ 分別在 $L_3$、$L_5$ 上，小宇以 $O$ 點為圓心，$\\overline{OM}$ 長為半徑畫圓，分別與此五條平行線交於 $P$、$Q$、$R$、$S$、$N$ 五點。根據圖中各點的位置，判斷 $\\overset{\\frown}{QR}$、$\\overset{\\frown}{RS}$、$\\overset{\\frown}{SN}$ 的度數大小關係為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 160\"><circle cx=\"75\" cy=\"75\" r=\"60\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"5\" y1=\"31\" x2=\"150\" y2=\"31\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"160\" y=\"35\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">L1</text><line x1=\"5\" y1=\"53\" x2=\"150\" y2=\"53\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"160\" y=\"57\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">L2</text><line x1=\"5\" y1=\"75\" x2=\"150\" y2=\"75\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"160\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">L3</text><line x1=\"5\" y1=\"97\" x2=\"150\" y2=\"97\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"160\" y=\"101\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">L4</text><line x1=\"5\" y1=\"119\" x2=\"150\" y2=\"119\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"160\" y=\"123\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">L5</text><line x1=\"34.2\" y1=\"119\" x2=\"115.8\" y2=\"31\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"115.8\" cy=\"31.0\" r=\"1.8\" fill=\"#111\"/><circle cx=\"130.8\" cy=\"53.0\" r=\"1.8\" fill=\"#111\"/><circle cx=\"135.0\" cy=\"75.0\" r=\"1.8\" fill=\"#111\"/><circle cx=\"130.8\" cy=\"97.0\" r=\"1.8\" fill=\"#111\"/><circle cx=\"115.8\" cy=\"119.0\" r=\"1.8\" fill=\"#111\"/><circle cx=\"34.2\" cy=\"119.0\" r=\"1.8\" fill=\"#111\"/><circle cx=\"75.0\" cy=\"75.0\" r=\"1.8\" fill=\"#111\"/><text x=\"119.8\" y=\"26\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">N</text><text x=\"139.8\" y=\"49\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">S</text><text x=\"144\" y=\"72\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">R</text><text x=\"139.8\" y=\"107\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">Q</text><text x=\"119.8\" y=\"132\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">P</text><text x=\"28.2\" y=\"133\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">M</text><text x=\"68\" y=\"70\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\overset{\\frown}{QR}=\\overset{\\frown}{RS}<\\overset{\\frown}{SN}$",
+      "$\\overset{\\frown}{QR}=\\overset{\\frown}{RS}=\\overset{\\frown}{SN}$",
+      "$\\overset{\\frown}{QR}<\\overset{\\frown}{RS}=\\overset{\\frown}{SN}$",
+      "$\\overset{\\frown}{SN}<\\overset{\\frown}{QR}=\\overset{\\frown}{RS}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "23",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由各組中位數推論合併資料的中位數範圍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "老師有 $100$ 顆球，每顆球上分別標記號碼 $1\\sim100$ 且號碼不重複，並將此 $100$ 顆球分別放入 $A$、$B$、$C$、$D$ 四個箱子中，其中 $A$ 箱有 $13$ 顆球，$B$ 箱有 $21$ 顆球，$C$ 箱有 $31$ 顆球，$D$ 箱有 $35$ 顆球。分配完後，發現 $A$、$B$、$C$ 三個箱子中球上號碼的中位數依序為 $49$、$47$、$48$，試問 $D$ 箱中，球上號碼的中位數可能為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$46$",
+      "$50$",
+      "$51$",
+      "$52$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "24",
+   "page": 4,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-1-1-4",
+   "unitIds": [
+    "nanyi-7-1-1-4",
+    "nanyi-7-1-3-3"
+   ],
+   "unitAssignmentBasis": "依碳費公式計算差額並以科學記號表示。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "淨零碳排（Net Zero Emissions）指的是在特定一段時間內，全球人為排放的溫室氣體量和人為移除的量相抵銷後，使其結果為零。因應全球「2050 淨零碳排」的目標，環境部預計於 2026 年開始，針對部分企業逐年徵收碳費。碳費的「排放量」是根據該企業前一年的碳排放量計算（例如：2026 年繳交的碳費，是根據 2025 年碳排放量計算），費率分為「一般費率」與「優惠費率」兩種，一般費率為每公噸 300 元；優惠費率為每公噸 50 元，若企業想適用優惠費率，需提出減碳計畫經環境部核定，並達成「以 2021 年的碳排放量為基準，2030 年的碳排放量需減少 42%」的目標，才能適用。"
+    },
+    {
+     "type": "text",
+     "text": "未提出減碳計畫：碳費＝(排放量－$2.5$ 萬公噸)×一般費率"
+    },
+    {
+     "type": "text",
+     "text": "提出並達成減碳計畫：碳費＝(排放量－$2.5$ 萬公噸)×優惠費率"
+    },
+    {
+     "type": "text",
+     "text": "假設某食品工廠 $2025$ 年的碳排放量為 $7.5$ 萬公噸，若該工廠可提出減碳計畫，卻忘記提出，導致工廠在 $2026$ 年費率的計算由優惠費率提升為一般費率，則繳交的碳費「額外」增加多少？（以科學記號表示）"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1.5\\times10^7$",
+      "$1.5\\times10^6$",
+      "$1.25\\times10^7$",
+      "$1.25\\times10^6$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "25",
+   "page": 4,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-1-3-3",
+   "unitIds": [
+    "nanyi-7-1-3-3",
+    "nanyi-7-1-1-4",
+    "nanyi-7-1-3-2"
+   ],
+   "unitAssignmentBasis": "由碳費增加額反推排放量並求每年最少減量。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "淨零碳排（Net Zero Emissions）指的是在特定一段時間內，全球人為排放的溫室氣體量和人為移除的量相抵銷後，使其結果為零。因應全球「2050 淨零碳排」的目標，環境部預計於 2026 年開始，針對部分企業逐年徵收碳費。碳費的「排放量」是根據該企業前一年的碳排放量計算（例如：2026 年繳交的碳費，是根據 2025 年碳排放量計算），費率分為「一般費率」與「優惠費率」兩種，一般費率為每公噸 300 元；優惠費率為每公噸 50 元，若企業想適用優惠費率，需提出減碳計畫經環境部核定，並達成「以 2021 年的碳排放量為基準，2030 年的碳排放量需減少 42%」的目標，才能適用。"
+    },
+    {
+     "type": "text",
+     "text": "未提出減碳計畫：碳費＝(排放量－$2.5$ 萬公噸)×一般費率"
+    },
+    {
+     "type": "text",
+     "text": "提出並達成減碳計畫：碳費＝(排放量－$2.5$ 萬公噸)×優惠費率"
+    },
+    {
+     "type": "text",
+     "text": "下圖為一家汽車工廠曾在 $2024$ 年 $12$ 月的對話內容："
+    },
+    {
+     "type": "text",
+     "text": "甲：「環境部預計在 $2030$ 年將碳費的一般費率調升至每公噸 $1500$ 元，如果我們一直不提出減碳計畫，按照 $2024$ 年的碳排放量計算，費率調升後，我們一年需繳的碳費比現在還要多繳 $2$ 億 $7$ 千萬元。」"
+    },
+    {
+     "type": "text",
+     "text": "乙：「那麼我們來研擬計畫吧！就從 $2025$ 年開始減少碳排放量，預計每年皆減少相同的量，且 $2030$ 年的碳排放量需滿足適用優惠費率的條件。」"
+    },
+    {
+     "type": "text",
+     "text": "已知這家工廠 $2021$ 年至 $2024$ 年每年的碳排放量皆相同，之後六年（$2025$ 年至 $2030$ 年），每年最少需固定減少幾萬公噸的碳排放量，才能在 $2030$ 年順利達成減碳計畫的目標？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1.75$",
+      "$2.1$",
+      "$2.42$",
+      "$2.9$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 4,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3",
+    "nanyi-7-1-3-3"
+   ],
+   "unitAssignmentBasis": "依 EV 行駛比率定義列式與解聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "阿國老師買了一輛油電混合動力汽車來當代步工具，並安裝專屬的 APP，這 APP 可讓車主即時查詢油耗的資訊。例如：阿國老師有一趟 $10$ 公里的行程，純電模式行駛 $1$ 公里，純油模式行駛 $5$ 公里，油電混合模式行駛 $4$ 公里，則 APP 顯示畫面如下：總行程：$10$ 公里；EV 行駛比率：$34\\%$。"
+    },
+    {
+     "type": "text",
+     "text": "「EV 行駛比率」表示在這趟行程中，使用電池行駛的距離佔全部行駛距離的百分比。EV 行駛比率$=\\dfrac{\\text{使用電池行駛的距離}}{\\text{全部行駛的距離}}\\times100\\%$。"
+    },
+    {
+     "type": "text",
+     "text": "而油電混合行駛的路程中會有 $60\\%$ 計算到電池行駛距離中。因此電腦會記錄使用電池行駛距離為：$1+4\\times0.6=3.4$ km，EV 行駛比率：$\\dfrac{3.4}{10}\\times100\\%=34\\%$。"
+    },
+    {
+     "type": "text",
+     "text": "請根據上述資訊回答下列問題："
+    },
+    {
+     "type": "text",
+     "text": "(1) 若阿國老師今天的行程為純電模式行駛 $3$ 公里，油電混合模式行駛 $12$ 公里，純油模式行駛 $5$ 公里，則 APP 上面記錄的 EV 行駛比率為何？"
+    },
+    {
+     "type": "text",
+     "text": "(2) 下圖是阿國老師上星期日出遊行程 APP 所顯示的畫面（總行程：$40$ 公里；EV 行駛比率：$42\\%$），已知此趟行程中，純油模式行駛 $16$ 公里，則純電模式和油電混合模式各行駛多少公里？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 4,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-1-3",
+   "unitIds": [
+    "nanyi-9-1-1-3",
+    "nanyi-8-1-2-3",
+    "nanyi-8-2-3-4"
+   ],
+   "unitAssignmentBasis": "摺紙問題：證明相似並求四邊形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，老師給小葳一張長方形紙片，請她摺成對角線互相垂直的四邊形。小葳依照老師的指示，分別以 $\\overline{BE}$、$\\overline{FG}$、$\\overline{EG}$ 為摺線，將 $\\triangle ABE$、$\\triangle ADG$、$\\triangle CFG$ 往長方形內部摺疊，將長方形紙片 $ABCD$ 摺成四邊形 $BFGE$，且 $A$、$C$、$D$ 三點恰好都落在 $\\overline{BG}$ 與 $\\overline{EF}$ 的交點 $O$ 上。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6 -12 230 168\"><polygon points=\"10.0,10.0 179.7,10.0 179.7,130.0 10.0,130.0\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\" stroke-dasharray=\"3,3\"/><polygon points=\"10.0,130.0 137.3,130.0 179.7,70.0 94.9,10.0\" stroke=\"#111\" stroke-width=\"1.3\" fill=\"none\"/><line x1=\"10\" y1=\"130\" x2=\"179.7\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"94.9\" y1=\"10\" x2=\"137.3\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"4\" y=\"7\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"94.9\" y=\"6\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">E</text><text x=\"185.7\" y=\"7\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"187.7\" y=\"74\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">G</text><text x=\"4\" y=\"143\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"137.3\" y=\"144\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">F</text><text x=\"186.7\" y=\"143\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"115.1\" y=\"102.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text><text x=\"32\" y=\"40\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">1</text><text x=\"42\" y=\"30\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">2</text><text x=\"97.9\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">3</text><text x=\"116.9\" y=\"22\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">4</text><text x=\"18\" y=\"110\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">5</text><text x=\"32\" y=\"122\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">6</text><text x=\"167.7\" y=\"62\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">7</text><text x=\"165.7\" y=\"75\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">8</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋："
+    },
+    {
+     "type": "text",
+     "text": "(1) 試說明 $\\triangle ABE$ 與 $\\triangle DEG$ 相似的理由。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 若老師給小葳的長方形紙片，短邊為 $10$ 公分（$\\overline{AB}=10$ cm），則小葳所摺出的四邊形 $BFGE$ 的面積為何？"
+    }
+   ]
+  }
+ ]
+}
