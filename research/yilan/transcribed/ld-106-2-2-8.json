@@ -10,7 +10,7 @@
   },
   "printedCounts": "填充16題、計算與作圖6題",
   "visualReviewComplete": true,
-  "reviewNote": "原卷22題文字已轉錄，計算題5、6必要圖尚待重繪，暫不組卷。",
+  "reviewNote": "原卷22題文字已轉錄；計算5、6依原卷重繪純向量幾何圖，點名及虛線已核對。",
   "expectedTypes": {
     "choice": 0,
     "fill": 16,
@@ -456,10 +456,12 @@
         {
           "type": "text",
           "text": "如圖，$\\triangle ABC$ 中，$\\overline{AB}=\\overline{AC}$，$\\overline{AD}\\perp\\overline{BC}$，$L$、$M$ 分別為 $\\overline{AB}$、$\\overline{AC}$ 的中垂線。若 $\\overline{BC}=40$，$\\overline{AD}=16$，求 $\\triangle AEF$ 的面積為多少？"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 155\"><g fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"><path d=\"M20 120 L120 40 L220 120 Z M120 40 V120 M120 40 L102 120 M120 40 L138 120 M40 42.5 L114 135 M200 42.5 L126 135 M120 113 H126 V120\"/></g><g font-size=\"14\"><text x=\"8\" y=\"139\">B</text><text x=\"222\" y=\"139\">C</text><text x=\"115\" y=\"36\">A</text><text x=\"96\" y=\"140\">E</text><text x=\"117\" y=\"140\">D</text><text x=\"139\" y=\"140\">F</text><text x=\"30\" y=\"40\">L</text><text x=\"201\" y=\"40\">M</text></g></svg>"
         }
-      ],
-      "usable": false,
-      "sourceIssue": "必要圖形仍待完整重繪。"
+      ]
     },
     {
       "type": "written",
@@ -475,10 +477,12 @@
         {
           "type": "text",
           "text": "如圖，已知 $\\overline{BD}$ 平分 $\\angle ABC$，$\\overline{BA}=\\overline{BE}$，$\\overline{AD}=\\overline{CD}$。若 $\\angle BCD=45^\\circ$，$\\overline{CD}=8$，且四邊形 $ABCD$ 的面積為 $120$，求 $\\overline{BA}$ 長為多少？"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 155\"><g fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"><path d=\"M20 120 L63.7 65.2 L155 55 L220 120 Z M20 120 L155 55\"/><path d=\"M90 120 L155 55\" stroke-dasharray=\"4 3\"/></g><g font-size=\"14\"><text x=\"7\" y=\"139\">B</text><text x=\"55\" y=\"62\">A</text><text x=\"154\" y=\"50\">D</text><text x=\"222\" y=\"139\">C</text><text x=\"86\" y=\"139\">E</text></g></svg>"
         }
-      ],
-      "usable": false,
-      "sourceIssue": "必要圖形仍待完整重繪。"
+      ]
     }
   ]
 }
