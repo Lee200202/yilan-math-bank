@@ -120,7 +120,12 @@ def rows_from_transcript(t, paper, unit_ids, evidence):
     paper['questionCount'] = len(rows)
     paper['sourceUnitCount'] = len(t['questions'])
     paper['excludedUnitCount'] = len(t['questions']) - len(rows)
-    paper['transcriptionStatus'] = ('complete' if not paper['excludedUnitCount'] else 'complete-with-source-issues') if t.get('visualReviewComplete') else 'partial'
+    # Missing pages or source units must never appear as a complete paper.
+    if t.get('sourceIncomplete') and not t.get('missingSourceUnits'):
+        raise ValueError(f'Incomplete source needs an explicit missing-unit record: {pid}')
+    if t.get('sourceIncomplete'):
+        paper['warning'] = t.get('sourceIncompleteNote', '原卷部分題目缺失，僅收錄可辨識題目。')
+    paper['transcriptionStatus'] = ('complete' if not paper['excludedUnitCount'] else 'complete-with-source-issues') if t.get('visualReviewComplete') and not t.get('sourceIncomplete') else 'partial'
     paper['completionEvidence'] = evidence
     return rows
 

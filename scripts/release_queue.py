@@ -18,7 +18,8 @@ def approve(ids):
     for pid in ids:
         try:
             path=paths[pid];t=json.loads(path.read_text(encoding='utf-8'));paper=papers[pid]
-            if not t.get('visualReviewComplete') or not t.get('questions') or t.get('deliveryStatus') in ('draft','partial'):
+            partial_ok = t.get('deliveryStatus') == 'partial' and t.get('sourceIncomplete') is True and bool(t.get('missingSourceUnits'))
+            if not t.get('visualReviewComplete') or not t.get('questions') or t.get('deliveryStatus') == 'draft' or (t.get('deliveryStatus') == 'partial' and not partial_ok):
                 raise ValueError('Author delivery is not a completed whole paper')
             issue=ROOT/f'handoff/source-issues/{pid}.json'
             if issue.exists():
