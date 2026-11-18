@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v99 宜蘭七下（2026-11-18）
+
+羅東107下七一 `ld-107-2-1-7` 22/22；中華107下七一 `1ErWjNrMOThKNXB1CdvWD_D-pstJ82AgU` 23/24，原卷術語與式子不符一題停用。作者已對照原卷及處理向量圖；建置16,797題、78項測試通過，部署另查。續處理羅東 `ld-106-1-3-7`、中華 `1OdbxSZa2aDPPnSZ1DBvh58VAcfXmFvNh`、中華 Word `1bDpJc1zVwhgXglNjPkq6Tbs5SAwJj-Hq`，先確認共享認領。
+
 ## v98 中華七下 Word（2026-11-18）
 
 中華106下七三 DOC `1UMI7X448uFG4u-xZh7bBZSj2jsO2Phsh` 24/24；原始 Word 符號資料用於還原不等號，函數圖及數線為 SVG。建置16,752題、78項測試通過；部署另查。羅東 `ld-107-2-1-7` 22/22 和中華 `1ErWjNrMOThKNXB1CdvWD_D-pstJ82AgU` 23/24 已交稿待下一批，後者原卷方程術語矛盾一題停用。
