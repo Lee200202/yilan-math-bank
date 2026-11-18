@@ -1,0 +1,641 @@
+{
+ "paperId": "metro-taichung-db97cb7458111e6e-1e986d09",
+ "sourceSha256": "1e986d09d84eb1d7199fa13af490fa27b9d79b02d71b70ba6f18b14d63a83d96",
+ "printedHeader": "112學年度第二學期臺中市立向上國民中學第二次定期評量三年級數學科試題",
+ "printedSlot": {
+  "year": 112,
+  "semester": 2,
+  "grade": 9,
+  "exam": 2
+ },
+ "printedCounts": "選擇19題、非選擇2題（第3、4頁為作答卷與解答，未收錄）。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1至2頁圖文，重繪第1、4、6、13、14、15、17題圖、第4題選項圖及非選擇2的圖共8幅；第3、4頁作答卷與答案不收錄。第17題原文「及格下列四個選項」疑缺字，照原文保留，圖中兩班盒狀圖相同。",
+ "expectedTypes": {
+  "choice": 19,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-1-1-1",
+   "unitIds": [
+    "nanyi-7-1-1-1"
+   ],
+   "unitAssignmentBasis": "以絕對值表示數線上兩點距離。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "右圖是數線上 A、B、C、D 四點的位置關係，它們所代表的數分別為 $a$、$b$、$c$、$d$，O 為原點，根據各點的位置，下列哪些選項不可以用來表示 A、D 之間的距離？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 45,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 55\"><line x1=\"20\" y1=\"30\" x2=\"300\" y2=\"33\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"300,33 293,30 293,36\" fill=\"#111\"/><circle cx=\"43.5\" cy=\"30.3\" r=\"2.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"43.5\" y=\"48.3\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><circle cx=\"104.5\" cy=\"30.9\" r=\"2.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"104.5\" y=\"48.9\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><circle cx=\"135.5\" cy=\"31.2\" r=\"2.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"135.5\" y=\"49.2\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text><circle cx=\"220.5\" cy=\"32.1\" r=\"2.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"220.5\" y=\"50.1\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><circle cx=\"253\" cy=\"32.5\" r=\"2.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"253\" y=\"50.5\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">D</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$|a|+|d|$",
+      "$|a|+|b|+|c|+|d|$",
+      "$|a-c|+|c-d|$",
+      "$|a-b|+|b-d|$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-1-2-3",
+   "unitIds": [
+    "nanyi-7-1-2-3",
+    "nanyi-7-1-2-2"
+   ],
+   "unitAssignmentBasis": "由分子與分母最小公倍數比較分數大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將甲、乙、丙三個正分數化為最簡分數後，其分子分別為 18、28、21，其分母的最小公倍數為 504，判斷甲、乙、丙三數的大小關係為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲＞丙＞乙",
+      "丙＞甲＞乙",
+      "乙＞丙＞甲",
+      "乙＞甲＞丙"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-1-3-3",
+   "unitIds": [
+    "nanyi-7-1-3-3"
+   ],
+   "unitAssignmentBasis": "連續加成、打折的百分率應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "康康超市推出「小農專區」販賣香蕉，以進貨價加 20% 作為定價，經過一段時間後，再打八折作為特價銷售。請問當香蕉以特價銷售時，超市會賺錢還是會賠錢？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "會賺錢",
+      "會賠錢",
+      "不賺不賠",
+      "要知道進貨價格才能判斷"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "判斷棋子放置後是否形成線對稱圖形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小凱在十字形棋盤上已放入 4 顆棋子如右圖，若在甲處放入棋子後無法形成線對稱圖形，則放入的棋子與方向應為下列何者？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 80,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 92 92\"><rect x=\"30\" y=\"0\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"0\" y=\"30\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"30\" y=\"30\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"60\" y=\"30\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><rect x=\"30\" y=\"60\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"15\" y=\"50\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">甲</text><polygon points=\"45,6 35,24 55,24\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.2\"/><rect x=\"38\" y=\"38\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.2\"/><polygon points=\"66,36 66,54 82,45\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.2\"/><polygon points=\"35,66 55,66 45,84\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.2\"/></svg>"
+    },
+    {
+     "type": "optionFigures",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 64\"><text x=\"4\" y=\"36\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">(A)</text><polygon points=\"62,12 82,32 62,52 42,32\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.4\"/><text x=\"104\" y=\"36\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">(B)</text><rect x=\"148\" y=\"20\" width=\"28\" height=\"28\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.4\"/><text x=\"204\" y=\"36\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">(C)</text><polygon points=\"262,16 246,48 278,48\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.4\"/><text x=\"304\" y=\"36\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\">(D)</text><polygon points=\"346,32 374,16 374,48\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.4\"/></svg>",
+     "maxHeight": 60
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3",
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "依自費方案列三元（重疊）關係並求總人數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "向上旅行社辦理苗栗五月雪 1 日遊，下表為旅行社推出的自費行程。已知參加此旅行團的每個人皆從這三種方案中選擇一種，已知有 20 人參加油桐花手作藍染，也有 15 人參加東方美人茶的製茶品茶活動，此次自費金額為 7850 元，則此旅行團共有多少人參加？"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "",
+       "自費行程",
+       "費用"
+      ],
+      [
+       "方案一",
+       "油桐花手作藍染",
+       "250元"
+      ],
+      [
+       "方案二",
+       "製茶品茶香",
+       "250元"
+      ],
+      [
+       "方案三",
+       "油桐花手作藍染＋製茶品茶香",
+       "400元"
+      ]
+     ]
+    },
+    {
+     "type": "options",
+     "items": [
+      "26",
+      "28",
+      "30",
+      "31"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-3-2",
+   "unitIds": [
+    "nanyi-7-2-3-2",
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "求兩直線的 $y$ 截距與交點，計算三角形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若二元一次方程式 $y=ax+b$ 的圖形直線 L 通過 $(0,3)$、$(-6,0)$，二元一次方程式 $y=cx+d$ 的圖形直線 M 通過 $(3,0)$、$(0,12)$，求直線 L、M 與 $y$ 軸所圍成的三角形面積為多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 135 110\"><line x1=\"5\" y1=\"78\" x2=\"118\" y2=\"78\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"118,78 111,75 111,81\" fill=\"#111\"/><line x1=\"62\" y1=\"100\" x2=\"62\" y2=\"6\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"62,6 59,13 65,13\" fill=\"#111\"/><text x=\"120\" y=\"92\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">x</text><text x=\"56\" y=\"10\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\" font-style=\"italic\">y</text><text x=\"57\" y=\"92\" font-size=\"12\" text-anchor=\"end\" fill=\"#111\">O</text><line x1=\"-2\" y1=\"82\" x2=\"118\" y2=\"52\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"122\" y=\"52\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">L</text><line x1=\"58\" y1=\"22\" x2=\"90.8\" y2=\"87.6\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"94.8\" y=\"95.6\" font-size=\"13\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">M</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "9",
+      "15",
+      "18",
+      "36"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-4-1",
+   "unitIds": [
+    "nanyi-7-2-4-1",
+    "nanyi-7-1-3-2"
+   ],
+   "unitAssignmentBasis": "依倒水過程設比例並列式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知甲、乙兩個杯子各裝不同量的水，若先把甲杯中的四分之一的水倒入乙杯後，再將乙杯的四分之一倒入甲杯，此時這兩杯的水量相等。請問甲杯和乙杯原來水量的比為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "5：3",
+      "5：4",
+      "3：5",
+      "4：5"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-1-3-3",
+   "unitIds": [
+    "nanyi-7-1-3-3",
+    "nanyi-7-2-4-2"
+   ],
+   "unitAssignmentBasis": "由速限範圍求通過時間範圍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "八卦山隧道全長約為 5 公里，為全臺灣第三長的公路隧道，貫穿八卦台地，東西連接彰化縣與南投縣。隧道內速限為每小時 60 到 80 公里，今有一車在隧道內未依規定速限行駛，收到違規罰單，下列何者可能是該車通過的時間？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "3.75 分鐘",
+      "4.25 分鐘",
+      "4.75 分鐘",
+      "5.25 分鐘"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-1-2-1",
+   "unitIds": [
+    "nanyi-7-1-2-1",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "由質數差 6 推得 $ab+9$ 為完全平方數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a$、$b$ 為兩個質數且相差 6，則 $ab+9$ 的值可能為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$18^{2}$",
+      "$19^{2}$",
+      "$20^{2}$",
+      "$22^{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "由平方根的意義反推 $a$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$a$ 為正數，已知 $\\sqrt{a}$ 的平方根為 $\\pm 2$，則 $a^{2}$ 為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "4",
+      "16",
+      "64",
+      "256"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "兩根為整數，由因式分解判斷 $a$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一元二次方程式 $x^{2}+10x-a=0$ 的兩根皆為整數，則下列選項何者可能是 $a$ 的值？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "25",
+      "24",
+      "21",
+      "16"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "由等差級數的前 $n$ 項和求公差與首項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設一個等差級數前 10 項的和為 100，前 20 項的和為 150，則前 30 項的和為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "150",
+      "200",
+      "250",
+      "300"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-3-5",
+   "unitIds": [
+    "nanyi-8-2-3-5",
+    "nanyi-9-1-3-2"
+   ],
+   "unitAssignmentBasis": "利用中垂線與角平分線的性質求角度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在 $\\triangle ABC$ 中，已知 $\\overline{BC}$ 中垂線與 $\\angle C$ 的平分線交於 P 點，若 $\\angle A=70^{\\circ}$、$\\angle ABP=50^{\\circ}$，則 $\\angle BPC=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 255 150\"><polygon points=\"71.5,21.5 25.5,117 224.5,117\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"25.5\" y1=\"117\" x2=\"126.5\" y2=\"90.5\" stroke=\"#111\" stroke-width=\"1.1\"/><line x1=\"224.5\" y1=\"117\" x2=\"126.5\" y2=\"90.5\" stroke=\"#111\" stroke-width=\"1.1\"/><line x1=\"126.5\" y1=\"40.5\" x2=\"126.5\" y2=\"135.5\" stroke=\"#111\" stroke-width=\"1.1\"/><text x=\"68.5\" y=\"17.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"22.5\" y=\"129\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"227.5\" y=\"129\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"130.5\" y=\"86.5\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">P</text><text x=\"77.5\" y=\"38.5\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">70°</text><text x=\"31.5\" y=\"112\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">50°</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "130",
+      "140",
+      "145",
+      "150"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "14",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-4-3",
+   "unitIds": [
+    "nanyi-8-2-4-3",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "等腰梯形對角線垂直，求三角形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，等腰梯形 $ABCD$ 中，$\\overline{AD}\\parallel\\overline{BC}$，對角線 $\\overline{AC}\\perp\\overline{BD}$。若 $\\overline{BC}=10$，$\\overline{AC}=7\\sqrt{2}$，則 $\\triangle ABD$ 面積為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 262 152\"><polygon points=\"85,20.1 174.1,20.1 241.2,134.5 19,134.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"85\" y1=\"20.1\" x2=\"241.2\" y2=\"134.5\" stroke=\"#111\" stroke-width=\"1.1\"/><line x1=\"19\" y1=\"134.5\" x2=\"174.1\" y2=\"20.1\" stroke=\"#111\" stroke-width=\"1.1\"/><polyline points=\"124.1,48.7 129.7,44.6 135.3,48.7\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"82\" y=\"16.1\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"177.1\" y=\"16.1\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"16\" y=\"146.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"244.2\" y=\"146.5\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"131.7\" y=\"66.8\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "28",
+      "$14\\sqrt{2}$",
+      "14",
+      "$7\\sqrt{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "15",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-2-1",
+   "unitIds": [
+    "nanyi-9-1-2-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "以切線性質與面積法求半圓半徑。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在一塊直角三角形土地上設置一個半圓形廣場，其圓心 O 在 $\\overline{BC}$ 上且 $\\overline{AC}$、$\\overline{AB}$ 與半圓相切於 C、D 兩點，則半圓形廣場面積為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 215\"><polygon points=\"18,159.5 234,159.5 234,15.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/><path d=\"M 71,159.5 A 81 81 0 0 1 233,159.5 Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"152\" y1=\"159.5\" x2=\"104\" y2=\"103\" stroke=\"#111\" stroke-width=\"1.1\" stroke-dasharray=\"4 3\"/><text x=\"237\" y=\"12.5\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"14\" y=\"163.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"238\" y=\"163.5\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"96\" y=\"99\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"152\" y=\"174.5\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text><text x=\"240\" y=\"90\" font-size=\"12\" text-anchor=\"start\" fill=\"#111\">30 公尺</text><text x=\"106\" y=\"191.5\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">40 公尺</text><text x=\"83\" y=\"48\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">50 公尺</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{225}{2}\\pi$",
+      "$\\dfrac{625}{2}\\pi$",
+      "$200\\pi$",
+      "$225\\pi$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "16",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "求直角三角形重心與內心的距離。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在直角 $\\triangle ABC$ 中，$\\angle C=90^{\\circ}$，$\\overline{AC}=12$，$\\overline{BC}=9$，求 $\\triangle ABC$ 重心 G 和內心 I 距離為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "4",
+      "3",
+      "2",
+      "1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "17",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由盒狀圖判斷兩班統計量。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知三年甲班、三年乙班都是 30 人，上次段考兩班的數學成績盒狀圖如右，及格下列四個選項，何者正確？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 124\"><line x1=\"70\" y1=\"20\" x2=\"163.6\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"241.6\" y1=\"20\" x2=\"278\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.2\"/><rect x=\"163.6\" y=\"9\" width=\"78\" height=\"22\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"215.6\" y1=\"9\" x2=\"215.6\" y2=\"31\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"70\" y1=\"14\" x2=\"70\" y2=\"26\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"278\" y1=\"14\" x2=\"278\" y2=\"26\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"70\" y1=\"72\" x2=\"163.6\" y2=\"72\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"241.6\" y1=\"72\" x2=\"278\" y2=\"72\" stroke=\"#111\" stroke-width=\"1.2\"/><rect x=\"163.6\" y=\"61\" width=\"78\" height=\"22\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"215.6\" y1=\"61\" x2=\"215.6\" y2=\"83\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"70\" y1=\"66\" x2=\"70\" y2=\"78\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"278\" y1=\"66\" x2=\"278\" y2=\"78\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"70\" y=\"52\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">14</text><text x=\"163.6\" y=\"52\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">50</text><text x=\"215.6\" y=\"52\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">70</text><text x=\"241.6\" y=\"52\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">80</text><text x=\"278\" y=\"52\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">94</text><text x=\"70\" y=\"104\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">14</text><text x=\"163.6\" y=\"104\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">50</text><text x=\"215.6\" y=\"104\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">70</text><text x=\"241.6\" y=\"104\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">80</text><text x=\"278\" y=\"104\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">94</text><text x=\"2\" y=\"24\" font-size=\"12\" text-anchor=\"start\" fill=\"#111\">三年甲班</text><text x=\"2\" y=\"76\" font-size=\"12\" text-anchor=\"start\" fill=\"#111\">三年乙班</text><text x=\"284\" y=\"118\" font-size=\"12\" text-anchor=\"end\" fill=\"#111\">成績（分）</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲、乙兩班平均數一樣",
+      "甲、乙兩班及格人數一樣",
+      "甲、乙兩班眾數一樣",
+      "甲、乙兩班四分位距一樣"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "18",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "求圓錐側面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小華邀請班上 10 位同學到家裡慶生，小華用丹迪紙，做成底圓直徑 20 公分、高度 24 公分的中空圓錐型生日帽。請問：每頂帽子所需紙張的面積為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$240\\pi$",
+      "$260\\pi$",
+      "$360\\pi$",
+      "$480\\pi$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "19",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-1-1",
+   "unitIds": [
+    "nanyi-9-1-1-1",
+    "nanyi-7-2-4-1"
+   ],
+   "unitAssignmentBasis": "依速率比逐段推算追及位置。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "兄弟兩人各自以固定速率賽跑，哥哥跑步速率：弟弟跑步速率＝3：2。比賽開始哥哥讓弟弟先跑一段距離，當哥哥跑了 60 公尺時，弟弟跑了 $a$ 公尺；當哥哥跑了 $a$ 公尺時，弟弟跑了 $b$ 公尺；當哥哥跑了 $b$ 公尺時，弟弟跑了 250 公尺，當哥哥追到弟弟，比賽就結束。請問這時，弟弟跑了幾公尺？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "330",
+      "360",
+      "400",
+      "420"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-2",
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "由兩根與平移後只有一個交點求頂點式的係數與截距。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知二次函數 $y=a(x-h)^{2}+k$ 有最小值，且圖形通過 $(1,0)$、$(5,0)$ 兩點，將此函數圖形向右平移 3 單位、向上平移 2 單位後，平移後的圖形與 $x$ 軸只有一個交點。請問："
+    },
+    {
+     "type": "text",
+     "text": "(1) $a-h+k=$？"
+    },
+    {
+     "type": "text",
+     "text": "(2) 平移後的二次函數與 $y$ 軸的交點座標為何？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-3-1",
+   "unitIds": [
+    "nanyi-9-1-3-1",
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "利用對稱與中垂線性質說明角度並求線段長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 O 為 $\\triangle ABC$ 內部一點，已知 $\\angle ABC=90^{\\circ}$，$\\overline{OB}=5$，以 $\\overline{AB}$、$\\overline{BC}$ 為對稱軸作 O 的對稱點 P、R。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 275 190\"><polygon points=\"21,61.5 249.6,24.6 128.1,152.4\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"142.5\" y1=\"88.5\" x2=\"128.1\" y2=\"152.4\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"142.5\" y1=\"88.5\" x2=\"62.4\" y2=\"174\" stroke=\"#888\" stroke-width=\"0.8\"/><line x1=\"142.5\" y1=\"88.5\" x2=\"201\" y2=\"138\" stroke=\"#888\" stroke-width=\"0.8\"/><circle cx=\"62.4\" cy=\"174\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><circle cx=\"201\" cy=\"138\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"17\" y=\"58.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"252.6\" y=\"22.6\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"128.1\" y=\"167.4\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"144.5\" y=\"82.5\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">O</text><text x=\"57.4\" y=\"179\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\" font-style=\"italic\">P</text><text x=\"206\" y=\"152\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">R</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1) 連接 $\\overline{OP}$、$\\overline{OR}$，請說明 $\\angle POR=90^{\\circ}$。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 請推理計算出 $\\overline{PR}$ 的長度？"
+    }
+   ]
+  }
+ ]
+}

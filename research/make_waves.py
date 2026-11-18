@@ -17,11 +17,17 @@ claims = json.loads((ROOT / 'handoff/CLAIMS.json').read_text(encoding='utf-8'))
 taken = {c['paperId'] for c in claims['claims'] if c['status'] not in ('source-issue-reported',)}
 taken |= {f.stem for d in ('research/metro/transcribed', 'research/yilan/transcribed') for f in (ROOT / d).glob('*.json')}
 issues = {f.stem for f in (ROOT / 'handoff/source-issues').glob('*.json')}
+
+def _tstem(x):  # same exam published as PDF and as Word: identical file name apart from the extension
+    return (x['school'], x['year'], x['semester'], x['grade'], x.get('title', '').rsplit('.', 1)[0])
+
+
+done_titles = {_tstem(x) for x in papers if x.get('transcriptionStatus', '').startswith('complete') or x['id'] in taken}
 queue = collections.defaultdict(list)
 for x in papers:
     if x['region'] not in regions or x.get('transcriptionStatus', '').startswith('complete') or x['id'] in taken:
         continue
-    if x['format'] != 'pdf' or x['id'] in issues:
+    if x['format'] != 'pdf' or x['id'] in issues or _tstem(x) in done_titles:
         continue
     path = ('public/' + x['file'].removeprefix('./')) if x['region'] == 'yilan' else local.get(x['id'])
     if path and (ROOT / path).exists():

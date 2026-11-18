@@ -211,3 +211,8 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 
 - 盤點共用資料夾：30 份 `.md` 草稿在 Git 已有對應正式 JSON（無遺漏）；真正未推送的只有宜蘭 `ld-110-1-1-7`（22/23 可用）與 `ld-107-2-2-9`（本機較新版，僅第 11 題圖形不同）。兩卷通過檢查與 PDF 匯出檢查（`handoff/batches/20261118-yilan2-pdf-acceptance.json`）。
 - 正式站驗收：發布後補。
+
+## v107（20261118-metro-v107）：Word/ODT 第三批（八上）＋第十六波 PDF（九下 111–112），14 卷
+
+- 可組卷題數 → 17,920。`npm test` 78 項通過；14 卷 PDF 匯出檢查全數通過。疑義與重複版本見 `handoff/batches/20261118-o3w16-SOURCE_ISSUES_REPORT.md`。新增 `scripts/dup_check.py`；高雄兩卷依裁決標民族國中。
+- 正式站驗收：發布後補。

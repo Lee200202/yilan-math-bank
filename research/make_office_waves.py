@@ -21,11 +21,19 @@ claims = json.loads((ROOT / 'handoff/CLAIMS.json').read_text(encoding='utf-8'))
 taken = {c['paperId'] for c in claims['claims'] if c['status'] not in ('source-issue-reported',)}
 taken |= {f.stem for d in ('research/metro/transcribed', 'research/yilan/transcribed') for f in (ROOT / d).glob('*.json')}
 issues = {f.stem for f in (ROOT / 'handoff/source-issues').glob('*.json')}
+
+def _tstem(x):  # same exam published as PDF and as Word: identical file name apart from the extension
+    return (x['school'], x['year'], x['semester'], x['grade'], x.get('title', '').rsplit('.', 1)[0])
+
+
+done_titles = {_tstem(x) for x in papers if x.get('transcriptionStatus', '').startswith('complete') or x['id'] in taken}
 cand = []
 for x in papers:
     if x['region'] not in regions or x.get('transcriptionStatus', '').startswith('complete') or x['id'] in taken or x['id'] in issues:
         continue
     if x['format'] not in ('docx', 'odt', 'doc'):
+        continue
+    if _tstem(x) in done_titles:
         continue
     path = local.get(x['id'])
     extract_from = path
@@ -40,6 +48,11 @@ for x in papers:
 slots = collections.defaultdict(set)
 for c in cand:
     slots[(c['school'], c['year'], c['semester'], c['grade'], c['exam'])].add(c['format'])
+done_slots = collections.defaultdict(set)  # slots already transcribed from a Word version (docx/doc)
+for x in papers:
+    if x['format'] in ('docx', 'doc') and (x.get('transcriptionStatus', '').startswith('complete') or x['id'] in taken):
+        done_slots[(x['school'], x['year'], x['semester'], x['grade'], x['exam'])].add(x['format'])
+cand = [c for c in cand if not (c['format'] == 'odt' and done_slots[(c['school'], c['year'], c['semester'], c['grade'], c['exam'])])]
 cand = [c for c in cand if not (c['format'] == 'odt' and slots[(c['school'], c['year'], c['semester'], c['grade'], c['exam'])] & {'docx', 'doc'})]
 PRIORITY = {(8, 1): 0, (8, 2): 1, (9, 1): 2, (9, 2): 3, (7, 1): 4, (7, 2): 4}
 rank = lambda t: PRIORITY.get((t['grade'], t['semester']), 9)
