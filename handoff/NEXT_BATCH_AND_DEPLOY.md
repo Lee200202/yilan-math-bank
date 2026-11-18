@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v81 宜蘭八下（2026-11-18）
+
+羅東107下八三 Word `ld-107-2-3-8` 19/19，原卷13幅圖由轉錄者重繪向量。建置16,169題、77項測試通過；部署另查。工作中曾有兩代理人選到同一卷 `161rWGzcQYllb6Vl0DXXV1sjxuPMFzpDP`，已即時分派另一卷 `1AhIbjzAwUEmFrWisDMwTc-OzZhFUpm91`；後續需同步獨立認領並檢查活躍任務。都會區未接管其他 AI 草稿。
+
 ## v80 宜蘭七下（2026-11-18）
 
 中華112下七一 `15iXxhlWELX109aBRWXDDBLoz-QJyt4sS` 25/25，原卷無題圖；本機16,150題、77項測試通過，部署另查。羅東107下八三與中華108下八三 Word 正由不同代理處理，接續前核對共享檔案與認領。
