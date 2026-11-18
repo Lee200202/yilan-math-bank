@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v74 宜蘭七下及來源釐清（2026-11-18）
+
+中華111下七一 `1onuGyPMlBR4UamN0f5aX-DyWoagh0sp-` 18/18 可用，圖形依原卷重繪。本機15,808題、77項測試通過；部署另查。中華 `1cGoicwTQQYepgSWk8gBPG54qH3QAOkKW` 只是106下九二填充12更正單，已核對既刊原卷採更正後公式；羅東 `ld-106-2-1-9` 官方下學期頁誤連上學期原卷，兩份 SHA 相同，官網與關鍵字補查暫未找到真正下學期卷。詳見 handoff/source-issues，不可將這兩個附件當完整新卷。
+
 ## v73 宜蘭九上 Word 與七下（2026-11-18）
 
 中華107上九二 `1Ax-L_cBTrRHTIjozUwWqXiz5B8eayLEr` 22/25 可用；停用內切圓疑義、座標圖文字覆蓋及源文缺字三題。其餘圖對照原 DOC 內嵌圖形並重繪。中華111下七二 `1LpleBN_7T181bvEbVOPHTNBOtsefzuW-` 21/21 可用；圖形由轉錄者對照原卷。建置15,790題、77項測試通過；部署另查。仍有待轉錄卷與停用題，不得視為全量完成。
