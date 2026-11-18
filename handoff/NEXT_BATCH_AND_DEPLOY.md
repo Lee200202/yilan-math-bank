@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v84 羅東舊 Word 考卷（2026-11-18）
+
+羅東105下八一 `ld-106-1-1-8` 23/23，原 DOC 卷首及 metadata override 確認105下；`ld-105-2-1-8` 是相同 SHA 重複來源，不能因此稱106上卷已取得。時鐘與六瓣圖重繪，實際輸出PDF確認23題、無點陣圖、題號完整並目視灰色六瓣圖。本機16,256題、77項測試通過，部署另查。中華109上七二 `1RhNIjc2cRhLIGdklSVN-eDdIkhjypLwr` 30/30 已交稿，待下一批整合。
+
 ## v83 中華八下另一版本（2026-11-18）
 
 中華108下八三 Word `1AhIbjzAwUEmFrWisDMwTc-OzZhFUpm91` 22/25，三題原卷條件不明停用；圖形由轉錄者重繪並對照。與 v82 的 `161rWGzcQYllb6Vl0DXXV1sjxuPMFzpDP` 雖同考次但題文與卷面不同，保留為兩個版本。本機16,233題、77項測試通過；正式部署另查。羅東105下八一 Word 由代理以 `ld-106-1-1-8`（已依卷首修正 metadata）處理，重複來源 `ld-105-2-1-8` 不重複出題。
