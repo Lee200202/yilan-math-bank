@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v76 宜蘭九下與七年級（2026-11-18）
+
+新增中華107下九一 Word `1VPhtP83ZLbvXqbPRVYfsSICRY5tbYlcA` 21/23（14題條件不足、16題斜高與半徑矛盾停用；第4、7、12題圖形以原始 DOC 資料還原）、中華110上七二 Word `1opLg2nAYf7KL0KWhxkHaU-w44T03l1zu` 23/23、中華110下七三 `1elkxfJ8r3YVoFfkqL4R3tlGa5wMcUn5i` 15/16（人數條件無整數解停用）及羅東107上七二 Word `ld-107-1-2-7` 21/21。本機15,948題、77項測試通過；發布與正式站另查，圖形採轉錄者對照紀錄，未逐卷重印驗收。
+
 ## v75 宜蘭七上（2026-11-18）
 
 中華110上七一 `1xWGzlqmivDl1Wf9pQh_skRvz_4vvCtZM` 25/25、110上七三 `1tXBJ7XjJV6ihRHDV-vizOgx01fCMzwgD` 18/18；羅東107上七三 Word `ld-107-1-3-7` 17/17 大題，行車地圖解題所需路線與里程改以文字、優惠資料以表格呈現。圖形由轉錄者對照原卷，未逐卷輸出 PDF。本機15,868題、77項測試通過；部署另查。繼續宜蘭七年級，Word 依原始 SHA 建檔。
