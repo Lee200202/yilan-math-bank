@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v95 宜蘭七下（2026-11-18）
+
+中華108下七一 DOCX `1I4AoMw7Lh4CUl9pk47JY-BUq7LC-pzMs` 24/24、羅東107下七三 `ld-107-2-3-7` 22/22；轉錄者已對照原卷及處理圖形。本機16,644題、78項測試通過；部署另查。下一批處理羅東 `ld-107-2-2-7`、中華 `1oVDqj6DtO3YMRbtjgMGZFGkFyW46pL-o` 和中華 Word `1WSY16qjhQvFsIfCt4Bo48yXfgEE0DYJG`，先查共用認領與成果。
+
 ## v94 中華七上（2026-11-18）
 
 中華108上七二 DOC `1bziH6Jmp78PLq9CHLZV2Dwz0fFjYN281` 26/26，Word 取回轉檔遺失的公式並保留原 DOC SHA；中華107上七三 `1yOZfAkGM6xGcW15SLK2it41ydRneYKCX` 26/27，綜合4(1)原文範圍不明停用。建置16,598題、78項測試通過；部署另查。中華108下七一 DOCX `1I4AoMw7Lh4CUl9pk47JY-BUq7LC-pzMs` 24/24 已交稿待下一批。
