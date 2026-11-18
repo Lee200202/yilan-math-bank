@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v82 宜蘭八下與七下（2026-11-18）
+
+中華108下八三 Word `161rWGzcQYllb6Vl0DXXV1sjxuPMFzpDP` 24/25（填12圖文矛盾停用）；中華110下七一 `1z4fqrz3kc0hnD085JVBpoUfAzewYqBnQ` 18/18（積木及選項圖補繪）。原稿作者對照圖形；本機16,211題、77項測試通過，部署另查。同次中華八下另一版本 `1AhIbjzAwUEmFrWisDMwTc-OzZhFUpm91` 題目不同，已交稿待下一批。羅東105下八一的兩筆 Word SHA 一致，僅處理 `ld-106-1-1-8`，以卷首及 metadata override 辨識。
+
 ## v81 宜蘭八下（2026-11-18）
 
 羅東107下八三 Word `ld-107-2-3-8` 19/19，原卷13幅圖由轉錄者重繪向量。建置16,169題、77項測試通過；部署另查。工作中曾有兩代理人選到同一卷 `161rWGzcQYllb6Vl0DXXV1sjxuPMFzpDP`，已即時分派另一卷 `1AhIbjzAwUEmFrWisDMwTc-OzZhFUpm91`；後續需同步獨立認領並檢查活躍任務。都會區未接管其他 AI 草稿。
