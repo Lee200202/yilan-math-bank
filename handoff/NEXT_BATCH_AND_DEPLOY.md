@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v104 中華七上（2026-11-18）
+
+中華106上七一 `123lGBiDXT7Brx1TJah7SZy7MHrfWNKw9` 30/31，填3原卷基準與符號規則不明而停用，整卷取代先前部分題。建置17,051題、78項測試通過；部署另查。續處理羅東 `ld-110-1-1-7`、中華 `1_XVHRfuywjFwihAb-SWMlDgmg3si_c8Q` 與 `1fZgUOvgrGdIYaDepzfHHDlItMPfhbJSc`，查共享認領及已交稿。
+
 ## v103 羅東七上（2026-11-18）
 
 羅東105上七一 `ld-105-1-1-7` 與上七二 `ld-105-1-2-7` 均22/22；整卷取代原有部分題。建置17,029題、78項測試通過；部署另查。中華106上七一 `123lGBiDXT7Brx1TJah7SZy7MHrfWNKw9` 已交付30/31待下一批，填3基準與符號規則不明停用。
