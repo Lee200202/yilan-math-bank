@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v100 宜蘭七年級（2026-11-18）
+
+中華109下七二 Word `1bDpJc1zVwhgXglNjPkq6Tbs5SAwJj-Hq` 24/26（兩選題條件或答案不唯一而停用）、中華106上七三 `1OdbxSZa2aDPPnSZ1DBvh58VAcfXmFvNh` 25/25、羅東106上七三 `ld-106-1-3-7` 21/22（天文單位數值錯誤停用）。建置16,867題、78項測試通過；部署另查。續處理羅東 `ld-106-1-2-7`、中華 `1bq40QdVLv4_K4W2QWo9oB3mFpac3SIwz`，先查其他代理認領。
+
 ## v99 宜蘭七下（2026-11-18）
 
 羅東107下七一 `ld-107-2-1-7` 22/22；中華107下七一 `1ErWjNrMOThKNXB1CdvWD_D-pstJ82AgU` 23/24，原卷術語與式子不符一題停用。作者已對照原卷及處理向量圖；建置16,797題、78項測試通過，部署另查。續處理羅東 `ld-106-1-3-7`、中華 `1OdbxSZa2aDPPnSZ1DBvh58VAcfXmFvNh`、中華 Word `1bDpJc1zVwhgXglNjPkq6Tbs5SAwJj-Hq`，先確認共享認領。
