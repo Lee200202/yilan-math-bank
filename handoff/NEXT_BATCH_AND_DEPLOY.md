@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v96 中華七年級（2026-11-18）
+
+中華107下七三 `1oVDqj6DtO3YMRbtjgMGZFGkFyW46pL-o` 25/25；中斷後續完的107上七一 Word `1WSY16qjhQvFsIfCt4Bo48yXfgEE0DYJG` 26/26，舊部分轉錄由整卷取代。作者對照來源及公式，本機16,685題、78項測試通過；部署另查。中華107下七二 `105J__1NnYMfjUaEX_KdQ43VpqmMko0s_` 轉錄中，`1zjiYw3Qm5gPl0YRRZfTOhFdZMxOAiZBX` 是官方更正單，需套用選4C與填8更正並記來源。羅東 `ld-107-2-2-7` 原 PDF 缺14–20題，正以 partial 機制處理可見題。
+
 ## v95 宜蘭七下（2026-11-18）
 
 中華108下七一 DOCX `1I4AoMw7Lh4CUl9pk47JY-BUq7LC-pzMs` 24/24、羅東107下七三 `ld-107-2-3-7` 22/22；轉錄者已對照原卷及處理圖形。本機16,644題、78項測試通過；部署另查。下一批處理羅東 `ld-107-2-2-7`、中華 `1oVDqj6DtO3YMRbtjgMGZFGkFyW46pL-o` 和中華 Word `1WSY16qjhQvFsIfCt4Bo48yXfgEE0DYJG`，先查共用認領與成果。
