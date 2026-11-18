@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v79 宜蘭八年級與七下（2026-11-18）
+
+羅東107上八三 DOCX `ld-107-1-3-8` 23/23、108下八一 DOC `ld-108-2-1-8` 22/23（原卷公式矛盾一題停用）；中華112下七二 `1nyCZhTWlGjLcvbrs2sH8Y4gqDR7VKF_G` 25/25。中華108上八一原卷 `1x_Ioixv3cP69BEPRAJMCv9Btt2YkoGds` 第19題根據官方更正單 `1DPFTOWYDFmS4UcZRIG9sFGYXNiyc3Ruf` 修正不等號並啟用，來源 SHA 留在 additionalSources，該附件非新卷。本機16,125題、77項測試通過；部署另查。其他 AI 的都會區認領保持不動。
+
 ## v78 宜蘭考卷（2026-11-18）
 
 中華112上七二 `10L0Y4JRWpT0clXcxUionDzi_JGHaI-9Q` 23/23；中華112下七三 `171-3PVHswnqJ6rv-BiVjIFax34xoJSMJ` 18/20（手寫更動不明、統計資料不足各停用一題）；羅東108上八三 DOCX `ld-108-1-3-8` 22/23（條件不完整停用一題）；中華109上八三 DOC `1WjNGgogmnulA20G8-5QBuG8wP7kaHwh9` 22/22。原稿作者已記錄來源與圖形核對；本機16,054題、77項測試通過，正式部署另查。下一批羅東107上八三已交稿，其他代理僅寫各自卷；都會區 Claude 進行中稿勿覆寫。

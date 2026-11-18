@@ -10,7 +10,7 @@
   },
   "printedCounts": "填充23題25格，第17題算一格。",
   "visualReviewComplete": true,
-  "reviewNote": "原卷兩頁題目、第三頁空白；第14題除法步驟以SVG重排，第11題原表保留。",
+  "reviewNote": "原卷兩頁題目、第三頁空白；第14題除法步驟以SVG重排，第11題原表保留。 第19題依官方修正單改為含等號並啟用。",
   "expectedTypes": {
     "choice": 0,
     "fill": 23,
@@ -371,11 +371,9 @@
       "blocks": [
         {
           "type": "text",
-          "text": "若 $11\\times101\\times10001\\times100000001$ 乘積的各個位數字總和為 $A$，且 $a<\\sqrt A<a+1$，$a$ 為正整數，則 $a=$＿＿＿＿。"
+          "text": "若 $11\\times101\\times10001\\times100000001$ 乘積的各個位數字總和為 $A$，且 $a\\le\\sqrt A<a+1$，$a$ 為正整數，則 $a=$＿＿＿＿。"
         }
-      ],
-      "usable": false,
-      "sourceIssue": "校方另有第19題修正通知；公式嵌入OLE尚無法可靠讀取，暫停使用待比對。"
+      ]
     },
     {
       "type": "fill",
@@ -444,6 +442,14 @@
           "text": "若 $2008$ 個連續正整數的和為一個完全平方數，則此 $2008$ 個正整數中最大數的最小值為＿＿＿＿。"
         }
       ]
+    }
+  ],
+  "additionalSources": [
+    {
+      "id": "1DPFTOWYDFmS4UcZRIG9sFGYXNiyc3Ruf",
+      "url": "https://drive.google.com/file/d/1DPFTOWYDFmS4UcZRIG9sFGYXNiyc3Ruf/view",
+      "sha256": "70962f73e29224bd759f2895778b2c655e8f61a521be4a0c7b58ccc85d358759",
+      "note": "官方第19題修正單，將 a<√A<a+1 修正為 a≤√A<a+1；嵌入公式圖片已確認為 √A。"
     }
   ]
 }
