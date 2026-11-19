@@ -10,7 +10,15 @@
   },
   "printedCounts": "第一部分5題、第二部分10題、第三部分6題、第四部分4題。",
   "visualReviewComplete": true,
-  "reviewNote": "已核對 22 題可用題及全部題圖：18 張圖的 PNG/JPEG 與原始 DOC 的 WordDocument 位元組一致，或 EMF/WMF 與原始 DOC 壓縮向量資料一致，再對照原圖重繪 SVG；二-2 原題有兩種內切半徑、二-4 座標文字方塊覆蓋圖像而無法確認、三-1 原稿敘述疑缺字，三題停用。",
+  "reviewNote": "已核對題圖：18 張圖的 PNG/JPEG 與原始 DOC 的 WordDocument 位元組一致，或 EMF/WMF 與原始 DOC 壓縮向量資料一致，再對照原圖重繪 SVG；二-2 官方解答明列兩個可能值，加入列出所有可能值的提示後啟用；二-4 座標文字方塊與底圖矛盾、三-1 原稿敘述疑缺字，兩題停用。",
+  "additionalSources": [
+    {
+      "id": "1ksYefdYhvbCnyAatz7xILd7GvIhdIv0W",
+      "url": "https://drive.google.com/file/d/1ksYefdYhvbCnyAatz7xILd7GvIhdIv0W/view",
+      "sha256": "298781c73e7e1bff95acf806b24b416f40c910ac65225c13f7c82a8d4c0f407b",
+      "note": "官方解答 PDF 第3頁答案表第二部分第2題明列兩個可能值，故於題目加註請列出所有可能值。"
+    }
+  ],
   "expectedTypes": {
     "choice": 1,
     "fill": 20,
@@ -166,11 +174,11 @@
       "blocks": [
         {
           "type": "text",
-          "text": "在坐標平面上，兩圓之圓心坐標分別為 $O_1(2,4)$ 和 $O_2(-1,0)$，且圓 $O_1$ 的半徑為 8，若圓 $O_1$ 和圓 $O_2$ 的位置關係為內切，則圓 $O_2$ 的半徑為＿＿＿＿。"
+          "text": "在坐標平面上，兩圓之圓心坐標分別為 $O_1(2,4)$ 和 $O_2(-1,0)$，且圓 $O_1$ 的半徑為 8，若圓 $O_1$ 和圓 $O_2$ 的位置關係為內切，則圓 $O_2$ 的半徑為＿＿＿＿。（請列出所有可能值）"
         }
       ],
-      "usable": false,
-      "sourceIssue": "兩圓半徑大小未限定，內切有兩種半徑可能，需確認原卷是否另有條件。"
+      "usable": true,
+      "reviewNote": "官方解答列出3或13，提示列出所有可能值以避免誤以為只有一解。"
     },
     {
       "type": "fill",
