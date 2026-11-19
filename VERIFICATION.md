@@ -235,4 +235,4 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 ## v128（20261119-metro-v128）：第二十波 PDF（七年級 114）＋ Word/ODT 第七批（八上 105–106／八下 114），21 卷
 
 - 可組卷題數 → 20,415。`npm test` 80 項通過；21 卷 PDF 匯出檢查全數通過。疑義見 `handoff/batches/20261119-o7w20-SOURCE_ISSUES_REPORT.md`。高雄 3 卷依裁決標民族國中。
-- 正式站驗收：發布後補。
+- 正式站驗收：ALL PASS（`handoff/batches/20261119-v128/live-acceptance.json`；站上版本 v128，遠端先到故自 v125 順延）。
