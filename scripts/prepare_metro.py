@@ -68,7 +68,12 @@ def rows_from_transcript(t, paper, unit_ids, evidence):
     pid = paper['id']
     printed = t['printedSlot']
     if any(printed[k] != paper[k] for k in ['year', 'semester', 'grade', 'exam']):
-        raise ValueError(f'Printed header disagrees with slot: {pid} {printed}')
+        answer_slot = t.get('answerSheetSlot', {})
+        if (any(printed[k] != paper[k] for k in ['year', 'semester', 'grade']) or
+            any(answer_slot.get(k) != paper[k] for k in ['year', 'semester', 'grade', 'exam']) or
+            not t.get('classificationEvidence')):
+            raise ValueError(f'Printed header disagrees with slot: {pid} {printed}')
+        paper['warning'] = t['classificationEvidence']
     if t['sourceSha256'] != paper['sha256']:
         raise ValueError(f'Transcription invalidated: {pid}')
     paper['metadataBasis'] = f'卷首：{t["printedHeader"]}'
