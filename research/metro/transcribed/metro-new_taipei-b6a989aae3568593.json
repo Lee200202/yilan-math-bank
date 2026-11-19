@@ -1,0 +1,518 @@
+{
+ "paperId": "metro-new_taipei-b6a989aae3568593",
+ "sourceSha256": "c94c8ae8dcb606befe5a122eb12a6ea365c3561d515edfba182387d3198a1cbf",
+ "printedHeader": "新北市立中正國民中學107學年度第二學期九年級數學科第一次段考",
+ "printedSlot": {
+  "year": 107,
+  "semester": 2,
+  "grade": 9,
+  "exam": 1
+ },
+ "printedCounts": "選擇8題、填充14題（18格）、計算2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "Compared every question with page images 1-2 (page 3 is the answer sheet, excluded). Redrew cube net, four cube options, four graph options, cylinder figures and cube figure as SVG.",
+ "expectedTypes": {
+  "choice": 8,
+  "fill": 14,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "判斷二次函數的定義。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者為二次函數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=(x-3)+7$",
+      "$y=\\sqrt{2x^2}+5$",
+      "$y=3(x-5)^2-3x^2$",
+      "$y=3-\\dfrac{7}{2}x^2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "以二次項係數絕對值比較開口大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一個二次函數的圖形開口最大？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=\\dfrac{2}{3}x^2$",
+      "$y=-\\dfrac{1}{2}x^2$",
+      "$y=-x^2$",
+      "$y=\\dfrac{3}{4}x^2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "配方求頂點並比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一個二次函數，和 $y=4x^2-8x$ 的圖形有相同的頂點？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=-2(x-1)^2-4$",
+      "$y=-2(x+1)^2$",
+      "$y=2(x+1)^2+4$",
+      "$y=2x^2-4x$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "由通過兩點與頂點式性質判斷 h 的範圍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a$、$h$、$k$ 為三數，且二次函數 $y=a(x-h)^2+k$ 在坐標平面的圖形通過 $(0,5)$，$(10,8)$ 兩點，若 $a<0$，$0<h<10$，則 $h$ 可能為下列何者？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1$",
+      "$3$",
+      "$5$",
+      "$7$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-2",
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "判斷拋物線與 x 軸有無交點。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判斷下列二次函數何者與 $x$ 軸沒有交點？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y=2(x-1)^2$",
+      "$y=2(x-4)^2-3$",
+      "$y=-x^2+2x-4$",
+      "$y=12x+9+4x^2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "利用對稱性求最高點的時間。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "向上發射一枚砲彈，經 $x$ 秒的高度為 $y$ 公尺，且時間與高度的關係為 $y=ax^2+bx$。若此砲彈在第 7 秒與第 14 秒時的高度相等，則在下列哪一個時間的高度是最高的？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "第 8 秒",
+      "第 10 秒",
+      "第 12 秒",
+      "第 15 秒"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "由展開圖判斷立體圖形的對面與相鄰面。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列四個立體圖中，哪一個與右邊展開圖相符？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 130\"><rect x=\"5\" y=\"5\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><g transform=\"translate(25,25) scale(1.3)\"><ellipse cx=\"0\" cy=\"0\" rx=\"4\" ry=\"6\" fill=\"#111\"/></g><rect x=\"5\" y=\"45\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><g transform=\"translate(25,65) scale(1.3)\"><path d=\"M0,8 C-13,-1 -7,-9 0,-3.5 C7,-9 13,-1 0,8 Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/></g><rect x=\"45\" y=\"45\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><g transform=\"translate(65,65) scale(1.3)\"><circle cx=\"0\" cy=\"0\" r=\"4.5\" fill=\"#111\"/><line x1=\"6.0\" y1=\"0.0\" x2=\"10.0\" y2=\"0.0\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"4.2\" y1=\"4.2\" x2=\"7.1\" y2=\"7.1\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"0.0\" y1=\"6.0\" x2=\"0.0\" y2=\"10.0\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"-4.2\" y1=\"4.2\" x2=\"-7.1\" y2=\"7.1\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"-6.0\" y1=\"0.0\" x2=\"-10.0\" y2=\"0.0\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"-4.2\" y1=\"-4.2\" x2=\"-7.1\" y2=\"-7.1\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"-0.0\" y1=\"-6.0\" x2=\"-0.0\" y2=\"-10.0\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"4.2\" y1=\"-4.2\" x2=\"7.1\" y2=\"-7.1\" stroke=\"#111\" stroke-width=\"2.2\"/></g><rect x=\"85\" y=\"45\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"125\" y=\"45\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><g transform=\"translate(145,65) scale(1.3)\"><ellipse cx=\"0\" cy=\"0\" rx=\"10\" ry=\"6.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\" stroke-dasharray=\"3 1.5\"/></g><rect x=\"5\" y=\"85\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><g transform=\"translate(25,105) scale(1.3)\"><circle cx=\"0\" cy=\"0\" r=\"9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/><circle cx=\"-3\" cy=\"-2.5\" r=\"1.2\" fill=\"#111\"/><circle cx=\"3\" cy=\"-2.5\" r=\"1.2\" fill=\"#111\"/><path d=\"M-4.5,2.5 Q0,7 4.5,2.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/></g></svg>"
+    },
+    {
+     "type": "optionFigures",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 100\"><polygon points=\"86,30 102,14 102,70 86,86\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"30,30 46,14 102,14 86,30\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"30\" y=\"30\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><g transform=\"translate(58.0,58.0) scale(1.5)\"><circle cx=\"0\" cy=\"0\" r=\"9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/><circle cx=\"-3\" cy=\"-2.5\" r=\"1.2\" fill=\"#111\"/><circle cx=\"3\" cy=\"-2.5\" r=\"1.2\" fill=\"#111\"/><path d=\"M-4.5,2.5 Q0,7 4.5,2.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/></g><g transform=\"translate(66.0,22) scale(0.8)\"><ellipse cx=\"0\" cy=\"0\" rx=\"10\" ry=\"6.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\" stroke-dasharray=\"3 1.5\"/></g><g transform=\"translate(94,50.0) scale(1.0)\"><path d=\"M0,8 C-13,-1 -7,-9 0,-3.5 C7,-9 13,-1 0,8 Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/></g><text x=\"12\" y=\"69\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">(A)</text><polygon points=\"216,30 232,14 232,70 216,86\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"160,30 176,14 232,14 216,30\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"160\" y=\"30\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><g transform=\"translate(188.0,58.0) scale(1.5)\"><path d=\"M0,8 C-13,-1 -7,-9 0,-3.5 C7,-9 13,-1 0,8 Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/></g><g transform=\"translate(196.0,22) scale(0.8)\"><ellipse cx=\"0\" cy=\"0\" rx=\"10\" ry=\"6.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\" stroke-dasharray=\"3 1.5\"/></g><g transform=\"translate(224,50.0) scale(1.0)\"><ellipse cx=\"0\" cy=\"0\" rx=\"4\" ry=\"6\" fill=\"#111\"/></g><text x=\"142\" y=\"69\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">(B)</text><polygon points=\"346,30 362,14 362,70 346,86\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"290,30 306,14 362,14 346,30\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"290\" y=\"30\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><g transform=\"translate(318.0,58.0) scale(1.5)\"><circle cx=\"0\" cy=\"0\" r=\"4.5\" fill=\"#111\"/><line x1=\"6.0\" y1=\"0.0\" x2=\"10.0\" y2=\"0.0\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"4.2\" y1=\"4.2\" x2=\"7.1\" y2=\"7.1\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"0.0\" y1=\"6.0\" x2=\"0.0\" y2=\"10.0\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"-4.2\" y1=\"4.2\" x2=\"-7.1\" y2=\"7.1\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"-6.0\" y1=\"0.0\" x2=\"-10.0\" y2=\"0.0\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"-4.2\" y1=\"-4.2\" x2=\"-7.1\" y2=\"-7.1\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"-0.0\" y1=\"-6.0\" x2=\"-0.0\" y2=\"-10.0\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"4.2\" y1=\"-4.2\" x2=\"7.1\" y2=\"-7.1\" stroke=\"#111\" stroke-width=\"2.2\"/></g><g transform=\"translate(326.0,22) scale(0.8)\"><path d=\"M0,8 C-13,-1 -7,-9 0,-3.5 C7,-9 13,-1 0,8 Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/></g><g transform=\"translate(354,50.0) scale(1.0)\"><ellipse cx=\"0\" cy=\"0\" rx=\"4\" ry=\"6\" fill=\"#111\"/></g><text x=\"272\" y=\"69\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">(C)</text><polygon points=\"476,30 492,14 492,70 476,86\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"420,30 436,14 492,14 476,30\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"420\" y=\"30\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><g transform=\"translate(456.0,22) scale(0.8)\"><circle cx=\"0\" cy=\"0\" r=\"9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.6\"/><circle cx=\"-3\" cy=\"-2.5\" r=\"1.2\" fill=\"#111\"/><circle cx=\"3\" cy=\"-2.5\" r=\"1.2\" fill=\"#111\"/><path d=\"M-4.5,2.5 Q0,7 4.5,2.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/></g><g transform=\"translate(484,50.0) scale(1.0)\"><circle cx=\"0\" cy=\"0\" r=\"4.5\" fill=\"#111\"/><line x1=\"6.0\" y1=\"0.0\" x2=\"10.0\" y2=\"0.0\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"4.2\" y1=\"4.2\" x2=\"7.1\" y2=\"7.1\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"0.0\" y1=\"6.0\" x2=\"0.0\" y2=\"10.0\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"-4.2\" y1=\"4.2\" x2=\"-7.1\" y2=\"7.1\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"-6.0\" y1=\"0.0\" x2=\"-10.0\" y2=\"0.0\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"-4.2\" y1=\"-4.2\" x2=\"-7.1\" y2=\"-7.1\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"-0.0\" y1=\"-6.0\" x2=\"-0.0\" y2=\"-10.0\" stroke=\"#111\" stroke-width=\"2.2\"/><line x1=\"4.2\" y1=\"-4.2\" x2=\"7.1\" y2=\"-7.1\" stroke=\"#111\" stroke-width=\"2.2\"/></g><text x=\"402\" y=\"69\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">(D)</text></svg>",
+     "maxHeight": 100
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1",
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "由象限條件判斷 a、b 的正負並對應圖形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若點 $(\\dfrac{b}{a},\\ a)$ 在坐標平面上的第四象限，則下列何者可能為 $y=a(x-2)^2+b$ 的圖形？"
+    },
+    {
+     "type": "optionFigures",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 114\"><line x1=\"55\" y1=\"96\" x2=\"55\" y2=\"6\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"55,6 57.3,11.5 52.7,11.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"12\" y1=\"38\" x2=\"100\" y2=\"38\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"100,38 94.5,40.3 94.5,35.7\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><text x=\"62\" y=\"12\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">y</text><text x=\"104\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">x</text><path d=\"M41,90 Q67,2 93,90\" stroke=\"#111\" stroke-width=\"1.6\" fill=\"none\"/><text x=\"8\" y=\"108\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">(A)</text><line x1=\"175\" y1=\"96\" x2=\"175\" y2=\"6\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"175,6 177.3,11.5 172.7,11.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"38\" x2=\"220\" y2=\"38\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"220,38 214.5,40.3 214.5,35.7\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><text x=\"182\" y=\"12\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">y</text><text x=\"224\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">x</text><path d=\"M146,90 Q166,-30 186,90\" stroke=\"#111\" stroke-width=\"1.6\" fill=\"none\"/><text x=\"128\" y=\"108\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">(B)</text><line x1=\"295\" y1=\"96\" x2=\"295\" y2=\"6\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"295,6 297.3,11.5 292.7,11.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"252\" y1=\"55\" x2=\"340\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"340,55 334.5,57.3 334.5,52.7\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><text x=\"302\" y=\"12\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">y</text><text x=\"344\" y=\"69\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">x</text><path d=\"M255,29 Q282,121 309,29\" stroke=\"#111\" stroke-width=\"1.6\" fill=\"none\"/><text x=\"248\" y=\"108\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">(C)</text><line x1=\"415\" y1=\"96\" x2=\"415\" y2=\"6\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"415,6 417.3,11.5 412.7,11.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><line x1=\"372\" y1=\"55\" x2=\"460\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"460,55 454.5,57.3 454.5,52.7\" fill=\"#111\" stroke=\"#111\" stroke-width=\"0.5\"/><text x=\"422\" y=\"12\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">y</text><text x=\"464\" y=\"69\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">x</text><path d=\"M400,29 Q426,121 452,29\" stroke=\"#111\" stroke-width=\"1.6\" fill=\"none\"/><text x=\"368\" y=\"108\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">(D)</text></svg>",
+     "maxHeight": 100
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "頂點式的開口、頂點、對稱軸與 y 截距。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "二次函數 $y=8-2(x+5)^2$ 圖形的開口向＿＿＿＿，頂點坐標為＿＿＿＿，對稱軸方程式為＿＿＿＿，與 $y$ 軸的交點為＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "圖形平移後的頂點式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若將二次函數 $y=2(x-1)^2+4$ 的圖形向下平移 5 個單位，再向左平移 7 個單位，可得到新的二次函數為＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "以 n 角柱的頂點、面、邊數列方程。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一 $n$ 角柱的頂點數＋面數＋邊數＝74，則 $n=$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "由對稱軸與通過點求頂點式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知二次函數 $y=a(x-h)^2+9$ 圖形的對稱軸為 $x+3=0$，且圖形通過點 $(2,1)$，求此二次函數＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "配方求最小值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "二次函數 $y=3x^2-6x+5$ 的最小值為＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "由頂點求係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知二次函數 $y=-2x^2+bx+c$ 圖形的頂點坐標為 $(4,6)$，則 $b+c=$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "依與對稱軸的距離比較函數值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $(1,a)$，$(-7,b)$，$(\\dfrac{5}{3},c)$，$(38,d)$ 四個點都在 $y=2(x-\\dfrac{5}{3})^2+7$ 的圖形上，比較 $a$、$b$、$c$、$d$ 的大小關係＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "正六角柱表面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個柱高為 8 的正六角柱，已知底面正六邊形的邊長為 3，則此正六角柱的表面積為＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "體積相同時底面積與柱高成反比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有 3 個體積相同的圓柱，其底面積的半徑比為 $3:2:1$，則其柱高比為＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "圓柱切除後的體積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖(一)，圓柱底面的周長為 $20\\pi$，若沿著虛線將圓柱的一部分切除，剩下圖(二)，求該立體圖形（圖二）體積為＿＿＿＿"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 156\"><ellipse cx=\"60\" cy=\"25\" rx=\"30\" ry=\"11\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><line x1=\"30\" y1=\"25\" x2=\"30\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"90\" y1=\"25\" x2=\"90\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M30,120 A30,11 0 0 0 90,120\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M32,116 Q40,92 80,86 Q90,100 88,106 Q76,128 36,126\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"4 3\"/><text x=\"14\" y=\"76\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">10</text><text x=\"60\" y=\"148\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">圖(一)</text><path d=\"M150,120 A30,11 0 0 0 210,120\" stroke=\"#111\" stroke-width=\"1.4\" fill=\"none\"/><ellipse cx=\"180\" cy=\"108\" rx=\"32\" ry=\"12\" transform=\"rotate(-22 180 108)\" stroke=\"#111\" stroke-width=\"1.2\" fill=\"none\" stroke-dasharray=\"4 3\"/><line x1=\"208\" y1=\"97\" x2=\"208\" y2=\"121\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"224\" y=\"112\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">5</text><text x=\"180\" y=\"148\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">圖(二)</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "正方體對角線與面對角線構成的正三角形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖(三)，正方體的邊長為 10，則 $\\overline{AG}=$＿＿＿＿，$\\angle ACF=$＿＿＿＿度"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 256\"><line x1=\"113\" y1=\"38\" x2=\"213\" y2=\"38\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"88\" y1=\"133\" x2=\"113\" y2=\"38\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"88\" y1=\"133\" x2=\"187\" y2=\"133\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"187\" y1=\"133\" x2=\"213\" y2=\"38\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"213\" y1=\"38\" x2=\"213\" y2=\"133\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"88\" y1=\"133\" x2=\"88\" y2=\"228\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"88\" y1=\"228\" x2=\"187\" y2=\"228\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"187\" y1=\"133\" x2=\"187\" y2=\"228\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"187\" y1=\"228\" x2=\"213\" y2=\"133\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"113\" y1=\"38\" x2=\"187\" y2=\"133\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"88\" y1=\"228\" x2=\"187\" y2=\"133\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"113\" y1=\"38\" x2=\"113\" y2=\"133\" stroke=\"#111\" stroke-width=\"1.4\" stroke-dasharray=\"4 3\"/><line x1=\"113\" y1=\"133\" x2=\"213\" y2=\"133\" stroke=\"#111\" stroke-width=\"1.4\" stroke-dasharray=\"4 3\"/><line x1=\"113\" y1=\"133\" x2=\"88\" y2=\"228\" stroke=\"#111\" stroke-width=\"1.4\" stroke-dasharray=\"4 3\"/><text x=\"108\" y=\"28\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"218\" y=\"28\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"72\" y=\"142\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"196\" y=\"128\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"224\" y=\"146\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">H</text><text x=\"122\" y=\"152\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">E</text><text x=\"72\" y=\"246\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">F</text><text x=\"196\" y=\"246\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">G</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "由三點求二次函數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "拋物線圖形通過 $(1,13)$、$(4,7)$、$(5,13)$ 三點，則此二次函數為＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "13",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "二次函數最大值的應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "大雄向上擲一球，經 $t$ 秒，球離地面 $S$ 公尺，若 $S=30t-5t^2$，問此球擲出後，離地面最高的高度是＿＿＿＿公尺"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "14",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "以對稱軸為 y 軸求一次項係數為 0 並保持二次式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "二次函數 $y=(m-1)x^2+(m^2-5m+4)x-2$ 的圖形以 $y$ 軸為對稱軸，則 $m=$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-1",
+   "unitIds": [
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "求拋物線與直線交點及四邊形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若二次函數 $y=x^2-4$ 的圖形與 $x$ 軸交於 A、B 兩點，與 $y=-x+8$ 交於 C、D 兩點，則此 A、B、C、D 四點所形成的四邊形面積為何？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-2"
+   ],
+   "unitAssignmentBasis": "二次函數最大值的應用題。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "中正果園有 80 棵檸檬樹，每棵檸檬樹每年平均生產 500 個檸檬，若想提高產量多種檸檬樹，根據果農經驗估算，每加種一棵檸檬樹，平均每棵產量會減少 5 個檸檬，請問："
+    },
+    {
+     "type": "text",
+     "text": "(1) 果農要加種多少棵檸檬樹，才能讓檸檬的總產量達到最大？"
+    },
+    {
+     "type": "text",
+     "text": "(2) 最大總產量為多少？"
+    }
+   ]
+  }
+ ]
+}

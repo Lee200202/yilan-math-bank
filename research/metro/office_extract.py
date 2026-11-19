@@ -305,8 +305,11 @@ def eq2tex(s):
             out.append('\\ne ')
         elif cmd == 'o' and not opts and len(args) == 2 and args[1].strip() and not args[0].strip(' 　_{}'):
             out.append('**%s**' % args[1])
-        elif cmd == 'o' and len(args) == 2 and args[0].strip() in ('○', '◯', '〇') and args[1].strip().isdigit() and 1 <= int(args[1]) <= 20:
-            out.append(chr(0x2460 + int(args[1]) - 1))
+        elif cmd == 'o' and len(args) == 2 and args[0].strip() in ('○', '◯', '〇') and re.sub(r'\D', '', args[1]).isdigit() and 1 <= int(re.sub(r'\D', '', args[1])) <= 50:
+            n_ = int(re.sub(r'\D', '', args[1]))
+            out.append(chr(0x2460 + n_ - 1) if n_ <= 20 else (chr(0x3251 + n_ - 21) if n_ <= 35 else chr(0x32B1 + n_ - 36)))
+        elif cmd == 'o' and len(args) >= 2 and not args[0].strip():
+            out.append(''.join(args[1:]))  # overstrike with nothing: just the second part
         else:
             out.append('[EQ-RAW \\%s%s(%s)]' % (cmd, opts, ','.join(args)))
         i = j + 1
@@ -349,7 +352,8 @@ def docx(path, out):
             return '[IMG %s]' % out.image(p, z.read(p))
         return '[IMG missing %s]' % t
 
-    fs = {'mode': None, 'instr': '', 'eq': False}
+    fs = {'mode': None, 'instr': '', 'eq': False, 'nested': False}
+    fstack = []
 
     def field_out():
         ins = fs['instr'].strip()
@@ -387,16 +391,33 @@ def docx(path, out):
             if t == 'fldChar':
                 ty = c.get('{%s}fldCharType' % W)
                 if ty == 'begin':
+                    if fs['mode'] is not None:  # a field inside another field (e.g. EQ \f(7±{EQ \r(,15)},2)): keep the outer one
+                        fstack.append(dict(fs))
+                        fs['nested'] = True
+                    else:
+                        fs['nested'] = False
                     fs['mode'], fs['instr'], fs['eq'] = 'code', '', False
                 elif ty == 'separate':
                     if fs['mode'] == 'code':
-                        s.append(field_out())
+                        if not fs.get('nested'):
+                            s.append(field_out())
+                        else:
+                            fs['eq'] = fs['instr'].strip()[:2].upper() == 'EQ'
                     fs['mode'] = 'result'
                 elif ty == 'end':
-                    if fs['mode'] == 'code':
-                        s.append(field_out())
-                    fs['mode'] = None
-                    fs['eq'] = False
+                    if fs.get('nested') and fstack:
+                        inner = fs['instr'].strip()
+                        parent = fstack.pop()
+                        fs.clear()
+                        fs.update(parent)
+                        if fs['mode'] == 'code' and inner[:2].upper() == 'EQ':
+                            fs['instr'] += inner[2:].strip()  # splice the inner equation code into the outer one
+                    else:
+                        if fs['mode'] == 'code':
+                            s.append(field_out())
+                        fs['mode'] = None
+                        fs['eq'] = False
+                        fs['nested'] = False
             elif t == 'instrText':
                 if fs['mode'] == 'code':
                     piece = c.text or ''

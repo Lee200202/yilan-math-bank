@@ -1,0 +1,594 @@
+{
+ "paperId": "metro-new_taipei-116e41dad78655d5",
+ "sourceSha256": "b23c075c14a1c6297c3295a25765cdf57fbe536c3b1aac7a10817df71108b2a9",
+ "printedHeader": "新北市立溪崑國民中學109學年度第一學期第一次定期評量 數學科試題卷（八年級）",
+ "printedSlot": {
+  "year": 109,
+  "semester": 1,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題（每題4分）、填充10題（每題4分）、計算4題（每題5分）。",
+ "visualReviewComplete": true,
+ "reviewNote": "卷首與目標清單相符（溪崑國中109-1八年級第一次）。全文與5張圖逐題對照；選擇10數線、填充5直式減法、填充7梯形、計算2直式除法、計算4重疊圖形重繪為SVG；填充7梯形原圖旁有熊的插圖，只重繪梯形。選擇9原文印成「√5X」（大寫X），依題意（x是正整數）作 $\\sqrt{5x}$。選擇2的四位同學方法照原文，小瑛式中的「2×4×0.5」照原文保留（為刻意錯誤的選項）。選擇10數線點位置依圖約為 -2.5、-1.5、-0.5、0.5。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 10,
+  "written": 4
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "判斷多項式係數、次數與除法餘式敘述。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述哪一項正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "多項式 $x^2-2x$ 中，$x$ 項的係數是 $2$。",
+      "兩個 $x$ 的二次多項式相加，其結果也是 $x$ 的二次多項式。",
+      "在多項式除法中，當餘式不為0時，餘式的次數必小於商式的次數。",
+      "在多項式除法中，當餘式不為0時，餘式的次數必小於除式的次數。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "判斷完全平方公式與分數平方的計算是否正確。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有四位同學想要算出 $8.5^2$ 的值，他們的方法如下："
+    },
+    {
+     "type": "text",
+     "text": "小瑛：$8.5^2=(8+0.5)^2$ $=8^2+2\\times4\\times0.5+0.5^2$"
+    },
+    {
+     "type": "text",
+     "text": "小岳：$8.5^2=\\left(\\dfrac{17}{2}\\right)^2$ $=\\dfrac{17^2}{2^2}$"
+    },
+    {
+     "type": "text",
+     "text": "阿日：$8.5^2=8^2+0.5^2$"
+    },
+    {
+     "type": "text",
+     "text": "阿融：$8.5^2=(9-0.5)^2$ $=9^2-2\\times9\\times0.5-0.5^2$"
+    },
+    {
+     "type": "text",
+     "text": "如果這四人接下來都沒有計算或其他方面的錯誤，那麼誰的答案是正確的？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "小瑛",
+      "小岳",
+      "阿日",
+      "阿融"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "判斷多項式相減後的次數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $A$ 為 $x$ 的三次多項式，$B$ 為 $x$ 的一次多項式，則 $A-2B$ 為 $x$ 的幾次多項式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "四次",
+      "三次",
+      "二次",
+      "一次"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根的定義與敘述判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述哪一項正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$0.2$ 是 $0.4$ 的平方根。",
+      "若 $a=(-29)^2$，則 $-29$ 為 $a$ 的平方根。",
+      "$-7^2=-49$，所以 $-7$ 是 $-49$ 的平方根。",
+      "$\\sqrt{9}$ 的平方根為 $3$ 與 $-3$。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以平方差公式化簡比較大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列四個式子，哪一個值最大？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$877^2-73^2$",
+      "$852^2-48^2$",
+      "$1001^2-599^2$",
+      "$1006^2-604^2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式除以單項式的商式與餘式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $x^2(2x+8)$ 除以 $x^3$ 後，得商式和餘式分別為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "商式為 $2$，餘式為 $8x^2$",
+      "商式為 $2$，餘式為 $8$",
+      "商式為 $2x+8$，餘式為 $8x^2$",
+      "商式為 $2x+8$，餘式為 $0$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "判斷多項式乘法與乘法公式運算是否正確。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列多項式乘法運算，哪一個正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(2x+1)(x-1)-(x^2+x-2)=x^2-2x+1$",
+      "$(3x+5)^2=9x^2+25x$",
+      "$(3x+7)(3x-7)=3x^2-49$",
+      "$(3x-1)(x+2)=3x^2-5x-2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "由多項式為一次多項式判斷係數條件。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若多項式 $(a-4)x^2+(b+1)x+c-2$ 是 $x$ 的一次多項式，則關於 $a$、$b$、$c$ 三個數的條件，下列何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a\\ne4$",
+      "$b=-1$",
+      "$c$ 為任意數",
+      "$a$、$b$ 為任意數"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "根號內為完全平方數的整數個數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$x$ 是正整數，且 $x<100$，則使得 $\\sqrt{5x}$ 為整數的 $x$ 共有幾個？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "以根號估算 $5-\\sqrt{33}$ 的位置並對照數線。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖數線上有 $A$、$B$、$C$、$D$ 四點，根據圖中各點的位置，判斷哪一點所表示的數和 $5-\\sqrt{33}$ 最接近？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 60,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 70\"><line x1=\"8\" y1=\"34\" x2=\"420\" y2=\"34\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"412,30 420,34 412,38\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"14\" y1=\"30\" x2=\"14\" y2=\"38\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"14\" y=\"54\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">−3</text><line x1=\"76\" y1=\"30\" x2=\"76\" y2=\"38\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"76\" y=\"54\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">−2</text><line x1=\"138\" y1=\"30\" x2=\"138\" y2=\"38\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"138\" y=\"54\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">−1</text><line x1=\"200\" y1=\"30\" x2=\"200\" y2=\"38\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"200\" y=\"54\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">0</text><line x1=\"262\" y1=\"30\" x2=\"262\" y2=\"38\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"262\" y=\"54\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">1</text><circle cx=\"45\" cy=\"34\" r=\"3\" fill=\"#111\"/><text x=\"45\" y=\"25\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">A</text><circle cx=\"107\" cy=\"34\" r=\"3\" fill=\"#111\"/><text x=\"107\" y=\"25\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">B</text><circle cx=\"169\" cy=\"34\" r=\"3\" fill=\"#111\"/><text x=\"169\" y=\"25\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">C</text><circle cx=\"231\" cy=\"34\" r=\"3\" fill=\"#111\"/><text x=\"231\" y=\"25\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\" font-style=\"italic\">D</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$A$",
+      "$B$",
+      "$C$",
+      "$D$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "化簡根號內的分數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "化簡 $\\sqrt{\\dfrac{144}{49}}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以完全平方公式展開帶分數的平方。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $\\left(59\\dfrac{1}{2}\\right)^2=60^2+s$，則 $s=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "逆用完全平方公式計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求 $2007^2-2\\times2007\\times7+7^2=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式加減化簡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "化簡 $(3x+4x^2+2)-[(2x-1+4x^2)+(2x^2+3x)]=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "由多項式直式減法比較各項係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若多項式的直式計算過程如下所示，則 $a+b+c=$＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 270 100\"><text x=\"262\" y=\"24\" font-size=\"17\" text-anchor=\"end\" fill=\"#111\">−2x² − 3x − a</text><text x=\"25\" y=\"52\" font-size=\"17\" text-anchor=\"start\" fill=\"#111\">−)</text><text x=\"262\" y=\"52\" font-size=\"17\" text-anchor=\"end\" fill=\"#111\">bx² − 4x − 5</text><line x1=\"10\" y1=\"62\" x2=\"265\" y2=\"62\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"262\" y=\"88\" font-size=\"17\" text-anchor=\"end\" fill=\"#111\">−5x² + cx + 9</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "被除式＝除式×商式＋餘式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知多項式 $B$ 除以 $2x+3$，得商式為 $x-1$，餘式為 $7$，求此多項式 $B=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "由梯形面積公式及多項式除法求高。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖中，梯形的上底為 $x-3$、下底為 $3x+5$、面積為 $4x^2+10x+4$，試以 $x$ 的多項式表示此梯形的高 $=$＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 130\"><polygon points=\"30,25 120,25 220,95 30,95\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"30,35 40,35 40,25\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"30,85 40,85 40,95\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"75\" y=\"16\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">x − 3</text><text x=\"125\" y=\"115\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">3x + 5</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "由 $x^2$ 項與常數項係數求 $m$、$n$，再求 $x$ 項係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $(3x+m)(nx+3)$ 計算後，$x^2$ 項係數與常數項都是 $9$，則此多項式 $x$ 項係數為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "十分逼近法估計平方根近似值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用下表的數值，以十分逼近法求 $\\sqrt{55}$ 的近似值。（以四捨五入法求到小數點後第1位）"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "$N$",
+       "$N^2$"
+      ],
+      [
+       "$7.4$",
+       "$54.76$"
+      ],
+      [
+       "$7.5$",
+       "$56.25$"
+      ],
+      [
+       "$7.45$",
+       "$55.5025$"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "$\\sqrt{55}\\approx$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "比較負平方根的大小並找出相鄰整數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $b$ 為整數，且 $b<-\\sqrt{\\dfrac{49}{3}}<b+1$，則 $b=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "由平方根的定義求 $a$、$b$，再求平方根。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $2a+6$ 的正平方根為 $4$，$3a+b-4$ 的負平方根為 $-4$，則 $2a+3b$ 的平方根為多少？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "由多項式除法直式逐步求出各未知係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖的多項式除法中有七個數，分別以 $a$、$b$、$c$、$d$、$e$、$f$、$g$ 表示，則 $a+b+c+d+e+f=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 190\"><text x=\"185\" y=\"20\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">2x + 3</text><line x1=\"88\" y1=\"28\" x2=\"250\" y2=\"28\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M 88 28 Q 82 44 88 60\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"82\" y=\"50\" font-size=\"16\" text-anchor=\"end\" fill=\"#111\">ax + b</text><text x=\"95\" y=\"50\" font-size=\"16\" text-anchor=\"start\" fill=\"#111\">cx² + dx + e</text><text x=\"95\" y=\"78\" font-size=\"16\" text-anchor=\"start\" fill=\"#111\">10x² + fx</text><line x1=\"90\" y1=\"86\" x2=\"250\" y2=\"86\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"248\" y=\"108\" font-size=\"16\" text-anchor=\"end\" fill=\"#111\">15x + e</text><text x=\"248\" y=\"134\" font-size=\"16\" text-anchor=\"end\" fill=\"#111\">gx − 6</text><line x1=\"90\" y1=\"142\" x2=\"250\" y2=\"142\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"248\" y=\"164\" font-size=\"16\" text-anchor=\"end\" fill=\"#111\">−4</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "利用乘法公式化簡分數式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用乘法公式求 $\\dfrac{2011^2+2\\times2011+1}{2012}-\\dfrac{2013^2-1}{2014}$ 的值。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "兩圖形面積相加減去重疊部分，並用乘法公式展開。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，一個矩形與一個正方形重疊在一起。如果重疊處（深色部分）是邊長為 $2$ 的正方形，那麼疊合後的總面積為多少？（以 $x$ 的多項式表示）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 160,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-30 0 320 200\"><rect x=\"30\" y=\"25\" width=\"100\" height=\"36\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"112\" y=\"43\" width=\"120\" height=\"120\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"112\" y=\"43\" width=\"18\" height=\"18\" fill=\"#777\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"80\" y=\"16\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">x + 2</text><text x=\"22\" y=\"48\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\">x − 2</text><text x=\"240\" y=\"108\" font-size=\"14\" text-anchor=\"start\" fill=\"#111\">x + 5</text><text x=\"172\" y=\"182\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">x + 5</text><text x=\"121\" y=\"38\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">2</text><text x=\"104\" y=\"56\" font-size=\"12\" text-anchor=\"end\" fill=\"#111\">2</text></svg>"
+    }
+   ]
+  }
+ ]
+}
