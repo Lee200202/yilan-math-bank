@@ -37,6 +37,7 @@ def main():
         elif p.get('kind','question')=='question':question_sources[slot(p)].add(p['sha256'])
     answers={k:next(iter(v)) for k,v in answer_candidates.items() if len(v)==1 and len(question_sources[k])==1}
     answer_by_id={p['id']:p for p in raw if p.get('kind')=='answer'}
+    raw_by_id={p['id']:p for p in raw}
     answer_overrides=read('research/answer-link-overrides.json') if (ROOT/'research/answer-link-overrides.json').exists() else {}
     papers=[];all_ids={}
     for p in raw:
@@ -66,6 +67,11 @@ def main():
             if override['sourceSha256']!=sha or not answer or answer['sha256']!=override['answerSha256'] or not override.get('evidence'):
                 raise ValueError(f'Answer link evidence invalidated: {p["id"]}')
             paper['answerUrl']=answer['url']
+            if override.get('correctionId'):
+                correction=raw_by_id.get(override['correctionId'])
+                if not correction or correction['sha256']!=override.get('correctionSha256') or not override.get('answerNote'):
+                    raise ValueError(f'Answer correction evidence invalidated: {p["id"]}')
+                paper['answerNote']=override['answerNote'];paper['correctionUrl']=correction['url']
         if render_dest:
             paper['originalFile']=paper['file'];paper['file']=f'./papers/{render_dest.name}';paper['renderSha256']=p['renderSha256'];paper['renderedFrom']=ext[1:]
         if p.get('sourceFolderYear'):

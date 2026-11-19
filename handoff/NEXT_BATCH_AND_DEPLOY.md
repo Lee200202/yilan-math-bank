@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v123 更正單提示與答案連結（2026-11-19）
+
+中華108上八一 `1x_Ioixv3cP69BEPRAJMCv9Btt2YkoGds` 第19題原卷與答案印刷仍為更正前嚴格不等號，官方更正單改為≤；已逐題核對答案配對，原卷及答案 SHA 鎖定，原卷卡片顯示以更正單為準並提供更正單連結。中華106下九二 `174QCQASOMa3gnCdI0oS0BADxGv_cZO3P` 第12題現存題卷及答案均已反映+5更正，恢復已核對的答案連結。更正單 SHA 亦由建置檢查。本機19,885題、80項測試通過，瀏覽器已確認前者提示與連結可見；部署另查。
+
 ## v122 宜蘭答案逐卷核對（2026-11-19）
 
 在另一 AI 最新都會區提交上，依題卷與答案逐頁比對並核對各 SHA，恢復中華 `1MwiZk_NTiaWzJkV375OKM2aJlSEEC9Z0`、`14cxdw_ivb8t4XK5xtAx_9LUyGMG-rcuO`、`105J__1NnYMfjUaEX_KdQ43VpqmMko0s_`、`1Ax-L_cBTrRHTIjozUwWqXiz5B8eayLEr`、`1ODYj-V7KzqhYr8EM7s2gkTI2Rb8qKDg3`、`16EeKUo1TFlipf950nPiry7mpCxdq6Cp-` 的答案連結。`16Ee` 與同考次 `1ZZUkKjnXYPQn5CwCnQPqN9ayYj__D6wS` 題目不同，原本誤共用答案，後者仍隱藏答案；`1x...`、`174...` 答案與官方更正單是否一致尚待釐清，不猜配。中華 `1bDp...` 兩題答案與原題條件疑義已記 source-issue，仍停用。本機19,885題、80項測試通過；部署另查。
