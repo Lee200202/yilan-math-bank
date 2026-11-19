@@ -173,9 +173,16 @@ def main():
         # The original may be an office document; its SHA is still checked by
         # rows_from_transcript, independently of any derived PDF preview.
         if p['format'] not in ('pdf','doc','docx','odt'):raise ValueError(f'Unsupported Yilan source format: {pid}')
-        questions=[q for q in questions if q['paperId']!=pid]
         p['region']='yilan'
-        questions+=prepare_metro.rows_from_transcript(t,p,unit_ids_all,f'research/yilan/transcribed/{pid}.json')
+        new_rows=prepare_metro.rows_from_transcript(t,p,unit_ids_all,f'research/yilan/transcribed/{pid}.json')
+        new_ids={q['id'] for q in new_rows}
+        # Keep old IDs restorable unless the replacement already uses that ID;
+        # superseded rows are never offered for new random generation.
+        questions=[q for q in questions if q['paperId'] != pid or q['id'] not in new_ids]
+        for old in questions:
+            if old['paperId'] == pid:
+                old['selectionHidden'] = True
+        questions+=new_rows
     metro_papers,metro_questions,metro_summary=prepare_metro.build(ROOT,unit_ids_all)
     ids=set(all_ids)
     for mp in metro_papers:

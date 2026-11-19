@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v112 中華七年級及舊卷還原（2026-11-19）
+
+中華105上七一 `1k-T9wedtWmZ4qTyP7Vomjl25Xpox6ymv` 24/24；108下七二 `12qTzBXv1TN3qhRIt0gGZSugu3m7UQzh1` 24/25（工程師加入時點不明停用一題），均以整卷取代部分稿。修正資料建置：被取代舊題號若不與新題衝突仍隱藏保留供匯入舊卷，避免使用者過去保存的紀錄無法還原；測試涵蓋隱藏舊題和新組卷排除。建置18,037題、78項測試通過；部署另查。羅東 `ld-107-1-1-7` 22/22 已交稿待下一批。內城 `nc-109-1-2-7` 同檔答案卷及官方資料夾均標第二次，題卷卷首誤標第一次，候選稿處理中，需保留警示與 SHA 證據。
+
 ## v111 中華七年級（2026-11-19）
 
 中華108上七一 `1fZgUOvgrGdIYaDepzfHHDlItMPfhbJSc` 補為26/26，取代原部分題；105下七一 `1o60p6gVoQrwplTtqU5impxS6HvtOsoK5` 21/21。作者對照原卷及向量圖，建置18,012題、78項測試通過，部署另查。續處理中華部分卷 `1k-T9wedtWmZ4qTyP7Vomjl25Xpox6ymv`、`12qTzBXv1TN3qhRIt0gGZSugu3m7UQzh1`，先核對認領與來源。
