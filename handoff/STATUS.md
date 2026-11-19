@@ -1,12 +1,12 @@
 # 資料快照
 
-2026-11-19T13:52:51.288101+00:00
+2026-11-19T14:29:39.723736+00:00
 
 ```text
-版本 20261119-metro-v121 / 46d1bd54
-原卷 1528；可用題 19885；狀態 {'complete': 709, 'complete-with-source-issues': 99, 'pending': 718, 'partial': 2}
+版本 20261119-metro-v128 / a69c3c4c
+原卷 1528；可用題 20418；狀態 {'complete': 729, 'complete-with-source-issues': 100, 'pending': 697, 'partial': 2}
 kaohsiung: 未認領PDF候選 4 卷，接續 metro-kaohsiung-1e550e4db3803d78, metro-kaohsiung-afca0cfa38edd928, metro-kaohsiung-1282ef567a1e083c
-new_taipei: 未認領PDF候選 113 卷，接續 metro-new_taipei-e30f51dc497bbd00, metro-new_taipei-d2ee158944361fce, metro-new_taipei-bf8686e897c477d4
+new_taipei: 未認領PDF候選 104 卷，接續 metro-new_taipei-e30f51dc497bbd00, metro-new_taipei-05d2580fc5609c29, metro-new_taipei-34a7d6f4b19338d9
 taichung: 未認領PDF候選 40 卷，接續 metro-taichung-c492c637c48c9959-998d7afd, metro-taichung-228b1e22c0c59405-748c900d, metro-taichung-e493a398f380737f-b9feda72
 taipei_taoyuan: 未認領PDF候選 24 卷，接續 metro-taoyuan-66504ac5acdba2a9, metro-taoyuan-3c749a4b24d829fd, metro-taoyuan-b54402f25b721b91
 w1-1: 未認領PDF候選 0 卷，接續
