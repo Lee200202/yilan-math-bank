@@ -1,0 +1,152 @@
+{
+ "base": "https://lee200202.github.io/yilan-math-bank",
+ "checks": [
+  {
+   "name": "version string present",
+   "ok": true,
+   "detail": "20261119-metro-v118"
+  },
+  {
+   "name": "coverage question count",
+   "ok": true,
+   "detail": "19352"
+  },
+  {
+   "name": "browser bank equals coverage",
+   "ok": true,
+   "detail": "19352 vs 19352"
+  },
+  {
+   "name": "page loaded the new version",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "six region choices (all + yilan + 5 metro)",
+   "ok": true,
+   "detail": "[['', '全部地區2053 題'], ['yilan', '宜蘭縣455 題'], ['taipei', '臺北市78 題'], ['new_taipei', '新北市730 題'], ['taoyuan', '桃園市200 題'], ['taichung', '臺中市340 題'], ['kaohsiung', '高雄市254 題']]"
+  },
+  {
+   "name": "region  shows availability",
+   "ok": true,
+   "detail": "可用題目 2053 題"
+  },
+  {
+   "name": "region yilan shows availability",
+   "ok": true,
+   "detail": "可用題目 455 題"
+  },
+  {
+   "name": "region taipei shows availability",
+   "ok": true,
+   "detail": "可用題目 78 題"
+  },
+  {
+   "name": "region new_taipei shows availability",
+   "ok": true,
+   "detail": "可用題目 730 題"
+  },
+  {
+   "name": "region taoyuan shows availability",
+   "ok": true,
+   "detail": "可用題目 200 題"
+  },
+  {
+   "name": "region taichung shows availability",
+   "ok": true,
+   "detail": "可用題目 340 題"
+  },
+  {
+   "name": "region kaohsiung shows availability",
+   "ok": true,
+   "detail": "可用題目 254 題"
+  },
+  {
+   "name": "library ready-only toggle narrows list",
+   "ok": true,
+   "detail": "共 1528 份原卷檔案（不同格式、修訂版可能來自同一次考試） -> 共 789 份原卷檔案（不同格式、修訂版可能來自同一次考試）"
+  },
+  {
+   "name": "library grade 7 lists papers",
+   "ok": true,
+   "detail": "24"
+  },
+  {
+   "name": "library grade 8 lists papers",
+   "ok": true,
+   "detail": "24"
+  },
+  {
+   "name": "library grade 9 lists papers",
+   "ok": true,
+   "detail": "24"
+  },
+  {
+   "name": "whole paper metro-kaohsiung-cdcd7aa605a007dc loads all questions",
+   "ok": true,
+   "detail": "27/27 errors=0"
+  },
+  {
+   "name": "swap one question in metro-kaohsiung-cdcd7aa605a007dc keeps the rest",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "PDF of metro-kaohsiung-cdcd7aa605a007dc restores the same ids and scores",
+   "ok": true,
+   "detail": "27 items, 247 KB"
+  },
+  {
+   "name": "whole paper metro-taoyuan-da847c1fd71126b7 loads all questions",
+   "ok": true,
+   "detail": "25/25 errors=0"
+  },
+  {
+   "name": "swap one question in metro-taoyuan-da847c1fd71126b7 keeps the rest",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "PDF of metro-taoyuan-da847c1fd71126b7 restores the same ids and scores",
+   "ok": true,
+   "detail": "25 items, 255 KB"
+  },
+  {
+   "name": "whole paper metro-new_taipei-116e41dad78655d5 loads all questions",
+   "ok": true,
+   "detail": "24/24 errors=0"
+  },
+  {
+   "name": "swap one question in metro-new_taipei-116e41dad78655d5 keeps the rest",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "PDF of metro-new_taipei-116e41dad78655d5 restores the same ids and scores",
+   "ok": true,
+   "detail": "24 items, 195 KB"
+  },
+  {
+   "name": "compose grade 7 generates questions",
+   "ok": true,
+   "detail": "24"
+  },
+  {
+   "name": "compose grade 8 generates questions",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "name": "compose grade 9 generates questions",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "name": "phone viewport has no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "errors": [],
+ "pass": true
+}
