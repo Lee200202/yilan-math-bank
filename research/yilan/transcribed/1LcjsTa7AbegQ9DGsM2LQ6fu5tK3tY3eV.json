@@ -10,10 +10,10 @@
   },
   "printedCounts": "單選4題、填充5題、計算4題。",
   "visualReviewComplete": true,
-  "reviewNote": "對照原卷重繪長方形幾何圖；填充第1題原表格 a=0 時 a+4=5，數值衝突，停用。",
+  "reviewNote": "對照原卷重繪長方形幾何圖；填充第1題原表格 a=0 時 a+4=5，數值衝突，停用。 原表整題仍停用；另擷取第2列作獨立題，保留欄頭和原有已填數值。",
   "expectedTypes": {
     "choice": 4,
-    "fill": 5,
+    "fill": 6,
     "written": 4
   },
   "questions": [
@@ -163,6 +163,41 @@
       ],
       "usable": false,
       "sourceIssue": "原卷表格在 a＝0 時列出 a＋4＝5，與算式不符；暫停使用。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "1(第2列)",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-7-1-3-1",
+      "unitIds": [
+        "nanyi-7-1-3-1"
+      ],
+      "unitAssignmentBasis": "依題目數學內容判定。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在下表的空格中填入代數式的值。"
+        },
+        {
+          "type": "table",
+          "header": true,
+          "rows": [
+            [
+              "代數式／$a$ 值",
+              "0",
+              "$\\frac32$",
+              "$-2.5$"
+            ],
+            [
+              "$7-6a$",
+              "＿＿",
+              "＿＿",
+              "22"
+            ]
+          ]
+        }
+      ]
     },
     {
       "type": "fill",
