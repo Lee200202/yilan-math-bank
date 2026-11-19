@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v122 宜蘭答案逐卷核對（2026-11-19）
+
+在另一 AI 最新都會區提交上，依題卷與答案逐頁比對並核對各 SHA，恢復中華 `1MwiZk_NTiaWzJkV375OKM2aJlSEEC9Z0`、`14cxdw_ivb8t4XK5xtAx_9LUyGMG-rcuO`、`105J__1NnYMfjUaEX_KdQ43VpqmMko0s_`、`1Ax-L_cBTrRHTIjozUwWqXiz5B8eayLEr`、`1ODYj-V7KzqhYr8EM7s2gkTI2Rb8qKDg3`、`16EeKUo1TFlipf950nPiry7mpCxdq6Cp-` 的答案連結。`16Ee` 與同考次 `1ZZUkKjnXYPQn5CwCnQPqN9ayYj__D6wS` 題目不同，原本誤共用答案，後者仍隱藏答案；`1x...`、`174...` 答案與官方更正單是否一致尚待釐清，不猜配。中華 `1bDp...` 兩題答案與原題條件疑義已記 source-issue，仍停用。本機19,885題、80項測試通過；部署另查。
+
 ## v120 宜蘭答案逐卷配對（2026-11-19）
 
 修復同校同年同考次不同版本誤連答案：只有來源題卷與答案候選均唯一才自動配對，模糊時先隱藏；七個模糊時段涉及17張原卷卡。兩份中華108下八三題卷已逐頁核對並以原卷、答案 SHA 鎖定覆寫：`161rWGzcQYllb6Vl0DXXV1sjxuPMFzpDP` 配 `17_4Eufq7lx0g7POM4C1GkzuxqFiY-THj`，`1AhIbjzAwUEmFrWisDMwTc-OzZhFUpm91` 配 `11wJvmTNS4dRpw6sGsJo-09w0r-UsG20A`；後者答案檔存於107資料夾但卷首印108。後者第7題官方答案列48、132，保留原文並加註列出所有可能值，恢復為23/25；第1、4題仍停用。建置19,353題、80項測試通過；正式部署另查。不可將資料夾不同年份的答案按檔名猜配。
