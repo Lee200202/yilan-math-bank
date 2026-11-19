@@ -1,0 +1,575 @@
+{
+ "paperId": "metro-taoyuan-76509865ee4df8f3",
+ "sourceSha256": "272c74b2945b7725c0601af31f7d4a211e5b1c76d2132824d0c2dfd776bcab94",
+ "printedHeader": "桃園市立自強國中112學年度八年級第一學期數學科第二次定期考試卷（範圍:2-2~3-2）",
+ "printedSlot": {
+  "year": 112,
+  "semester": 1,
+  "grade": 8,
+  "exam": 2
+ },
+ "printedCounts": "選擇8題、填充22格（9大題）、計算1題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照 text.md、Word 轉出的頁面與 img/*.png/.wmf 逐題重讀。重繪第5、6、7、8填充圖與計算題梯子圖共5幅。text.md 頂端 [HEADER]「國中自然與生科一下」是範本殘留的頁首，與本卷無關，標題行為桃園市立自強國中112學年度八年級第一學期第二次定期考。選擇1、4與填充9(2)的根號為圖片，用圖片與 .wmf 確認（填充9(2)的PNG疊字，改讀 .wmf：67、69、71、73、+16）。填充1、2、3、9的小題拆成獨立題，9(2)的「利用(1)的結果」改寫為直接寫出(1)的式子。答案卷與題目重複，未收錄。計算題未附原題答案。",
+ "expectedTypes": {
+  "choice": 8,
+  "fill": 16,
+  "written": 1
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "平方根乘除加法運算的判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列關於平方根的四則運算何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{5}\\times\\sqrt{3}=\\sqrt{5\\times3}$",
+      "$\\sqrt{12}\\div\\sqrt{3}=\\sqrt{12\\div3}$",
+      "$\\sqrt{2}\\div\\sqrt{3}=\\sqrt{\\dfrac{2}{3}}$",
+      "$\\sqrt{4}+\\sqrt{3}=\\sqrt{4+3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "辨認因式分解的形式（積的形式）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列四個式子展開化簡後都是 $x^{2}+4x+3$，何者是它的因式分解？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x(x+4)+3$",
+      "$(x+2)^{2}-1$",
+      "$(x+3)(x+1)$",
+      "$(x+2)(x+2)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "由因式分解形式找公因式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $A$、$B$ 兩個多項式，其中 $A=(2x+3)(3x-1)$、$B=(3x-1)(4x-3)$，在下列各多項式中，哪個是 $A$ 與 $B$ 的公因式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3x-1$",
+      "$2x+3$",
+      "$x-3$",
+      "$4x-3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理，分斜邊與股兩種情況討論。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $3$、$5$、$x$ 是直角三角形的三邊長，則 $x$ 可能為下列何者？"
+    },
+    {
+     "type": "text",
+     "text": "甲：$2$　乙：$4$　丙：$7$　丁：$\\sqrt{34}$　戊：$\\sqrt{35}$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "僅乙",
+      "僅乙、戊",
+      "僅乙、丁",
+      "僅甲、乙、丙、丁"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2",
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "由因式求 $k$ 再十字交乘分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $x-2$ 是 $5x^{2}-6x+k$ 的因式，下列哪個也是 $5x^{2}-6x+k$ 的因式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$5x+4$",
+      "$5x-7$",
+      "$5x+5$",
+      "$2x-11$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "化簡根式判斷同類方根。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者不是 $\\sqrt{3}$ 的同類方根？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{12}$",
+      "$\\dfrac{1}{3}\\sqrt{24}$",
+      "$\\dfrac{6}{\\sqrt{3}}$",
+      "$\\sqrt{16\\dfrac{1}{3}}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "以完全平方式與平方差公式檢查因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列關於利用乘法公式做因式分解的式子，何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$16x^{2}-1=(16x-1)^{2}$",
+      "$4x^{2}-6x+\\dfrac{9}{4}=\\dfrac{1}{4}(4x-3)^{2}$",
+      "$x^{2}+12x-36=(x+6)^{2}$",
+      "$4x^{2}-88x+121=(4x-11)^{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "對大係數二次式作十字交乘分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $481x^{2}+2x-3$ 可因式分解成 $(13x+a)(bx+c)$，其中 $a$、$b$、$c$ 均為整數，則下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a=1$",
+      "$b=481$",
+      "$c=-3$",
+      "$a+b+c=39$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1(1)",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "利用完全平方公式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用乘法公式，在下列各空格中填入適當的正數。"
+    },
+    {
+     "type": "text",
+     "text": "$121x^{2}-66x+9$"
+    },
+    {
+     "type": "text",
+     "text": "$=(11x)^{2}-2\\cdot$＿＿＿＿$\\cdot3+($＿＿＿＿$)^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "$=($＿＿＿＿$-$＿＿＿＿$)^{2}$"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1(2)",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "利用平方差公式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用乘法公式，在下列各空格中填入適當的正數。"
+    },
+    {
+     "type": "text",
+     "text": "$36x^{2}-49$"
+    },
+    {
+     "type": "text",
+     "text": "$=($＿＿＿＿$)^{2}-($＿＿＿＿$)^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "$=($＿＿＿＿$+7)($＿＿＿＿$-7)$"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2(1)",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式化簡後加總。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算下列各式的值，並化為最簡根式。$\\sqrt{2}+\\sqrt{4}+\\sqrt{8}+\\sqrt{16}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2(2)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式乘除與帶分數化假分數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算下列各式的值，並化為最簡根式。$\\sqrt{\\dfrac{5}{6}}\\div\\sqrt{1\\dfrac{1}{8}}\\times\\left(-\\sqrt{2\\dfrac{2}{5}}\\right)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2(3)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "分母有理化。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算下列各式的值，並化為最簡根式。$\\dfrac{1}{3-\\sqrt{2}}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3(1)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "提公因式 $(2x-3)$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解下列各式。$(5x+7)(2x-3)+(2x-3)(x-2)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3(2)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "調整符號後提公因式 $(3x-2)$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解下列各式。$(x-3)(3x-2)-(x-4)(2-3x)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3(3)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "視 $3x+2$ 為一整體套平方差公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解下列各式。$(3x+2)^{2}-9^{2}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3(4)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解下列各式。$6x^{2}-5x-6=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "坐標平面兩點距離（畢氏定理）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $C(2,-3)$、$D(1,5)$ 為直角坐標平面上的兩點，則 $\\overline{CD}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理的面積關係與正三角形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，直角三角形 $ABC$ 中，斜邊 $\\overline{AC}=10$，$\\triangle ADB$、$\\triangle BEC$、$\\triangle CFA$ 皆為正三角形，四邊形 $ACHG$ 為正方形，則圖中鋪色區域面積總和為＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 160,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-10 30 580 640\"><polygon points=\"175,260 175,415 40,340\" fill=\"#bfe0f0\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"175,415 370,415 272,580\" fill=\"#bfe0f0\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"175,260 335,70 525,220 370,415 410,170\" fill=\"#bfe0f0\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"175,260 175,415 370,415\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"370,415 410,170 175,260\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"175\" y1=\"260\" x2=\"175\" y2=\"415\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"175\" y1=\"415\" x2=\"370\" y2=\"415\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"370\" y1=\"415\" x2=\"175\" y2=\"260\" stroke=\"#111\" stroke-width=\"1.4\" /><polyline points=\"175,390 200,390 200,415\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"262\" y=\"330\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\">10</text><text x=\"141\" y=\"264\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"145\" y=\"453\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"378\" y=\"451\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"6\" y=\"354\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"266\" y=\"614\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">E</text><text x=\"420\" y=\"178\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">F</text><text x=\"325\" y=\"58\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">G</text><text x=\"535\" y=\"234\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">H</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "兩次使用畢氏定理。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，$\\overline{AB}=12$，$\\overline{BC}=5$，$\\overline{AD}=10$，$\\overline{DE}=8$，則 $\\overline{CD}=$＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 170\"><line x1=\"22\" y1=\"145\" x2=\"170\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"170\" y1=\"145\" x2=\"168\" y2=\"78\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"168\" y1=\"78\" x2=\"22\" y2=\"145\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"22\" y1=\"145\" x2=\"55\" y2=\"25\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"55\" y1=\"25\" x2=\"168\" y2=\"78\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"55\" y1=\"25\" x2=\"94.7\" y2=\"111.6\" stroke=\"#111\" stroke-width=\"1.4\" /><polyline points=\"160,145 160,135 170,135\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"102.87981409638533,107.8462496954944 99.12927111673827,99.66496450563454 90.94945702035294,103.41871481014014\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"8\" y=\"159\" font-size=\"15\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"174\" y=\"159\" font-size=\"15\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"174\" y=\"78\" font-size=\"15\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">C</text><text x=\"49\" y=\"19\" font-size=\"15\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"98.7\" y=\"129.6\" font-size=\"15\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">E</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3",
+    "nanyi-7-2-3-2"
+   ],
+   "unitAssignmentBasis": "由直線截距求 $A$、$B$ 再以面積求斜邊上的高。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，直角坐標平面上，直線 $L:4x-3y=12$ 交兩軸於 $A$、$B$ 兩點，若直線 $L$ 上有一點 $D$，且 $\\overline{OD}$ 垂直 $\\overline{AB}$，則 $\\overline{OD}=$＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 30 460 430\"><line x1=\"20\" y1=\"130\" x2=\"420\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.4\" /><polygon points=\"420,130 410.0,134.0 410.0,126.0\" fill=\"#111\" stroke=\"#111\"/><line x1=\"78\" y1=\"440\" x2=\"78\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.4\" /><polygon points=\"78,55 82.0,65.0 74.0,65.0\" fill=\"#111\" stroke=\"#111\"/><line x1=\"314.03510352596913\" y1=\"49.28533868200829\" x2=\"42.578937884418515\" y2=\"420.42879679079505\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"78\" y1=\"130\" x2=\"193.3\" y2=\"214.3\" stroke=\"#111\" stroke-width=\"1.4\" /><polyline points=\"186.04864144608322,209.02731213205263 191.36180076342043,201.76299261343337 198.6261202820397,207.07615193077058\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"320.03510352596913\" y=\"55.28533868200829\" font-size=\"20\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">L</text><text x=\"425\" y=\"150\" font-size=\"20\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">x</text><text x=\"66\" y=\"50\" font-size=\"20\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">y</text><text x=\"45\" y=\"118\" font-size=\"20\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">O</text><text x=\"258\" y=\"154\" font-size=\"20\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"86\" y=\"380\" font-size=\"20\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"201.31296096470248\" y=\"230.34047144938984\" font-size=\"20\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">D</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "正方形對角線長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，已知正方形 $ABCD$ 的邊長為 $7$ 公分，則對角線 $\\overline{BD}=$＿＿＿＿公分。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 346\"><polygon points=\"58,75 283,75 283,300 58,300\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"58\" y1=\"300\" x2=\"283\" y2=\"75\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"150\" y=\"55\" font-size=\"34\" text-anchor=\"start\" fill=\"#111\">7</text><text x=\"14\" y=\"200\" font-size=\"34\" text-anchor=\"start\" fill=\"#111\">7</text><text x=\"28\" y=\"69\" font-size=\"34\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"285\" y=\"69\" font-size=\"34\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"28\" y=\"328\" font-size=\"34\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"287\" y=\"328\" font-size=\"34\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">C</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9(1)",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "兩兩相乘後以整體換元再用完全平方公式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $(x+3)(x+1)(x-1)(x-3)+16=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9(2)",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1",
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "以 $x=70$ 代入上題的因式分解結果再開平方。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用 $(x+3)(x+1)(x-1)(x-3)+16$ 的因式分解結果，求 $\\sqrt{67\\times69\\times71\\times73+16}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏定理兩次，求梯子凸出牆頂的長度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，已知梯子長 $2$ 公尺，牆高 $1.2$ 公尺，如果將梯腳往牆壁的方向移動 $1.1$ 公尺後，梯子凸出牆頂的部分為多少公尺？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 370\"><line x1=\"10\" y1=\"315\" x2=\"375\" y2=\"315\" stroke=\"#111\" stroke-width=\"1.4\" /><rect x=\"305\" y=\"110\" width=\"65\" height=\"205\" fill=\"#e6b8a8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"45\" y1=\"305\" x2=\"302\" y2=\"112\" stroke=\"#111\" stroke-width=\"1.4\" /><line x1=\"222\" y1=\"312\" x2=\"342\" y2=\"12\" stroke=\"#111\" stroke-width=\"1.4\" /><text x=\"125\" y=\"175\" font-size=\"30\" text-anchor=\"start\" fill=\"#111\">2</text><text x=\"105\" y=\"355\" font-size=\"30\" text-anchor=\"start\" fill=\"#111\">1.1</text><text x=\"378\" y=\"225\" font-size=\"30\" text-anchor=\"start\" fill=\"#111\">1.2</text><text x=\"328\" y=\"70\" font-size=\"30\" text-anchor=\"start\" fill=\"#111\">?</text><text x=\"20\" y=\"345\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">A</text><text x=\"214\" y=\"345\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">D</text><text x=\"296\" y=\"345\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">B</text><text x=\"268\" y=\"120\" font-size=\"28\" text-anchor=\"start\" fill=\"#111\" font-style=\"italic\">C</text></svg>"
+    }
+   ]
+  }
+ ]
+}

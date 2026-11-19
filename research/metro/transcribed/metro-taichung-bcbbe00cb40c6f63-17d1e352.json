@@ -1,0 +1,724 @@
+{
+ "paperId": "metro-taichung-bcbbe00cb40c6f63-17d1e352",
+ "sourceSha256": "17d1e352642723e5e595105f174ce540691b619354f97889eeb8eb21fae2988e",
+ "printedHeader": "110學年度第二學期臺中市立向上國民中學第二次定期評量三年級數學科試題（段考範圍：一〜六冊）",
+ "printedSlot": {
+  "year": 110,
+  "semester": 2,
+  "grade": 9,
+  "exam": 2
+ },
+ "printedCounts": "填充12格、選擇10題、計算2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1至2頁試題（第3、4頁為解答與答案卷，未收錄解答）；重繪填充3、5、8、選擇2、3、5、7、8、9、10與計算2共12幅圖，動物圖、組合體與餐桌墊布圖為近似重繪。填充3的三角比近似值照原卷；選擇10的圖形以 $x\\approx1.79$ 的實際幾何比例繪出。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 12,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-1-1-3",
+   "unitIds": [
+    "nanyi-7-1-1-3",
+    "nanyi-7-1-1-4"
+   ],
+   "unitAssignmentBasis": "含指數的整數四則運算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $(-3)^2-6^2\\div4\\times3=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "利用完全平方公式的逆向配對求 $A$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $384^2=A^2+2\\times A\\times84+84^2$，$A>0$，則 $A=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-1-1-4",
+   "unitIds": [
+    "nanyi-9-1-1-4"
+   ],
+   "unitAssignmentBasis": "以仰角與三角比測量大樓高度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "妙麗欲測量某棟大樓（$\\overline{BC}$）的高度，先在離大樓 $100$ 公尺的地面上 $A$ 點測得樓頂最高處的仰角為 $32^\\circ$，求此大樓的高度是多少公尺？（四捨五入取到整數位）（$\\sin32^\\circ\\approx0.5299$，$\\cos32^\\circ\\approx0.8480$，$\\tan32^\\circ\\approx0.6249$）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 150\"><polygon points=\"10,125 180,125 180,13\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"180\" y=\"13\" width=\"28\" height=\"112\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"172,125 172,117 180,117\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"0\" y=\"142\" font-size=\"15\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"176\" y=\"142\" font-size=\"15\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"176\" y=\"10\" font-size=\"15\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"40\" y=\"118\" font-size=\"12\" fill=\"#111\">32°</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "答：＿＿＿＿公尺。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2",
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "以公式解或因式分解解一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解方程式 $3x^2+4x-7=0$，$x=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由一次函數圖形的兩點求 $y$ 截距。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖為高速公路警察巡邏車的行駛時間 $x$（小時）與油箱中剩餘油量 $y$（公升）之函數圖形。試問巡邏車加滿油是多少公升？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"30 55 680 550\"><line x1=\"165\" y1=\"492\" x2=\"650\" y2=\"492\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"655,492 640.6,497.4 640.6,486.6\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"165\" y1=\"492\" x2=\"165\" y2=\"90\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"165,85 170.4,99.4 159.6,99.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"225\" y1=\"484\" x2=\"225\" y2=\"500\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"225\" y=\"528\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">1</text><line x1=\"282\" y1=\"484\" x2=\"282\" y2=\"500\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"282\" y=\"528\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">2</text><line x1=\"340\" y1=\"484\" x2=\"340\" y2=\"500\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"340\" y=\"528\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">3</text><line x1=\"397\" y1=\"484\" x2=\"397\" y2=\"500\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"397\" y=\"528\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">4</text><line x1=\"453\" y1=\"484\" x2=\"453\" y2=\"500\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"453\" y=\"528\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">5</text><text x=\"150\" y=\"528\" font-size=\"20\" text-anchor=\"end\" fill=\"#111\">0</text><line x1=\"157\" y1=\"198\" x2=\"173\" y2=\"198\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"157\" y1=\"290\" x2=\"173\" y2=\"290\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"150\" y=\"206\" font-size=\"20\" text-anchor=\"end\" fill=\"#111\">38</text><text x=\"150\" y=\"298\" font-size=\"20\" text-anchor=\"end\" fill=\"#111\">26</text><line x1=\"165\" y1=\"198\" x2=\"282\" y2=\"198\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"282\" y1=\"198\" x2=\"282\" y2=\"492\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"165\" y1=\"290\" x2=\"453\" y2=\"290\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"453\" y1=\"290\" x2=\"453\" y2=\"492\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"235\" y1=\"168\" x2=\"568\" y2=\"350\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"165\" y=\"70\" font-size=\"20\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">Y</text><text x=\"680\" y=\"500\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">X</text><text x=\"60\" y=\"130\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">剩</text><text x=\"60\" y=\"158\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">餘</text><text x=\"60\" y=\"186\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">油</text><text x=\"60\" y=\"214\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">量</text><text x=\"60\" y=\"242\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">(</text><text x=\"60\" y=\"270\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">公</text><text x=\"60\" y=\"298\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">升</text><text x=\"60\" y=\"326\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">)</text><text x=\"440\" y=\"585\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">行駛時間(小時)</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "答：＿＿＿＿公升。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由等差數列的四分位距求公差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一組資料恰成等差數列，共 $12$ 項，四分位距是 $15$，則公差為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3",
+    "nanyi-7-1-2-4"
+   ],
+   "unitAssignmentBasis": "以倍增模型（等比）求一天後占全罐的比例。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "目前全球生物科學家正著手進行藻類研究，利用藻類旺盛的繁殖能力，進行快速且大量的繁殖，將其榨出藻油以替代石化燃料。其中有一種 A 藻，它在適當環境下僅需 4 個小時即能增殖 1 倍，也就是每 4 個小時即可快速繁殖為 2 倍。如果將 A 藻放置在一個適當水溶液培養罐裡，它只需 2 天就會長滿整罐，試問 A 藻一天可長到全罐的幾分之幾？"
+    },
+    {
+     "type": "text",
+     "text": "答：＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "列二元一次聯立方程式求櫃子高度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，阿貓與阿龜與一個櫃子：當阿貓在櫃子上且阿龜在櫃子下時，阿貓的頭頂與阿龜的背上相距 $85$ 公分。當阿貓在櫃子下而阿龜在櫃子上時，阿貓的頭頂與阿龜的背上相距 $55$ 公分。請問櫃子有多高？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 90 580 330\"><line x1=\"10\" y1=\"395\" x2=\"280\" y2=\"395\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"290\" y1=\"395\" x2=\"560\" y2=\"395\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"60\" y=\"185\" width=\"85\" height=\"210\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.3\"/><ellipse cx=\"110\" cy=\"167\" rx=\"10\" ry=\"17\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"110\" cy=\"145\" r=\"8\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M178 395 A22 16 0 0 1 222 395 Z\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"80\" y1=\"107\" x2=\"240\" y2=\"107\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"145\" y1=\"340\" x2=\"255\" y2=\"340\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"210\" y1=\"110\" x2=\"210\" y2=\"337\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"210,107 214.8,119.8 205.2,119.8\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"210,340 205.2,327.2 214.8,327.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"150\" y=\"245\" font-size=\"18\" fill=\"#111\">85cm</text><rect x=\"310\" y=\"185\" width=\"80\" height=\"210\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M323 185 A22 16 0 0 1 367 185 Z\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.3\"/><ellipse cx=\"440\" cy=\"377\" rx=\"10\" ry=\"17\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"440\" cy=\"355\" r=\"8\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"330\" y1=\"130\" x2=\"490\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"400\" y1=\"300\" x2=\"505\" y2=\"300\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"460\" y1=\"133\" x2=\"460\" y2=\"297\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"460,130 464.8,142.8 455.2,142.8\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><polygon points=\"460,300 455.2,287.2 464.8,287.2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"472\" y=\"225\" font-size=\"18\" fill=\"#111\">55cm</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "答：＿＿＿＿公分。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1",
+    "nanyi-7-2-3-2"
+   ],
+   "unitAssignmentBasis": "直線與坐標軸圍出的三角形面積求斜率。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "直角坐標平面上，直線 $L$：$y=-4$ 與直線 $M$：$y=ax+9$ 之交點坐標在第四象限內。若直線 $L$、$M$ 與 $y$ 軸所圍出之三角形面積為 $\\dfrac{65}{2}$ 平方單位，則 $a=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-6-1",
+   "unitIds": [
+    "nanyi-7-2-6-1"
+   ],
+   "unitAssignmentBasis": "由部分數據補全統計表後讀出所求人數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "中央流行疫情指揮中心某日公布 COVID-19 病例新增共 $2900$ 例，個案分布如下表，請問新北市男性的病例有幾例？"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "性別＼縣市",
+       "新北市",
+       "台北市",
+       "其他縣市",
+       "合計"
+      ],
+      [
+       "男",
+       "",
+       "",
+       "600",
+       "1400"
+      ],
+      [
+       "女",
+       "",
+       "340",
+       "",
+       ""
+      ],
+      [
+       "合計",
+       "1000",
+       "",
+       "1240",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "答：＿＿＿＿例。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "以合格率不低於 90% 列不等式求人數上限。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某校對一年級新生做健康檢查，在前 $50$ 名學生中只有 $49$ 名合格，以後每 $8$ 名學生有 $7$ 名合格；且一年級新生健康檢查的合格率不低於 $90\\%$，求一年級新生最多有＿＿＿＿人。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "以百分率列聯立方程式求實際感染人數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "用某快篩試劑來檢驗是否感染 Omicron 病毒，檢驗結果可分陽性及陰性。對已感染病毒的人檢驗，只有 $70\\%$ 的人驗出陽性；對未感染病毒的人檢驗，卻有 $2\\%$ 的人驗出陽性。若對 $1000$ 名大眾用此快篩試劑檢驗，結果有 $810$ 人陰性，試問實際上已感染病毒的有多少人？"
+    },
+    {
+     "type": "text",
+     "text": "答：＿＿＿＿人。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-1-2-2",
+   "unitIds": [
+    "nanyi-7-1-2-2",
+    "nanyi-7-1-2-4"
+   ],
+   "unitAssignmentBasis": "以質因數分解判斷因數與倍數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列何者是 $2^4\\times3^3\\times7^2\\times11^3$ 的因數，且是 $3^2\\times11$ 的倍數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2\\times3^2\\times7^3\\times11$",
+      "$2\\times3^2\\times11^2$",
+      "$2^2\\times3^3\\times7$",
+      "$2\\times3\\times7^2\\times11$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-1-3-1",
+   "unitIds": [
+    "nanyi-7-1-3-1"
+   ],
+   "unitAssignmentBasis": "由方陣算式以符號列式，用 $A$ 表示 $D$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "根據右圖的算式，若 $D$ 以 $A$ 表示，則下列哪一個正確？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 190 158\"><rect x=\"10\" y=\"10\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.2\"/><text x=\"32\" y=\"39\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">A</text><rect x=\"80\" y=\"10\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.2\"/><text x=\"102\" y=\"39\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">B</text><rect x=\"10\" y=\"80\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.2\"/><text x=\"32\" y=\"109\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">C</text><rect x=\"80\" y=\"80\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.2\"/><text x=\"102\" y=\"109\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">D</text><text x=\"64\" y=\"38\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">+</text><text x=\"64\" y=\"108\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">+</text><text x=\"34\" y=\"70\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">+</text><text x=\"102\" y=\"70\" font-size=\"20\" text-anchor=\"middle\" fill=\"#111\">+</text><text x=\"132\" y=\"38\" font-size=\"20\" fill=\"#111\">= 9</text><text x=\"132\" y=\"108\" font-size=\"20\" fill=\"#111\">= 5</text><text x=\"34\" y=\"148\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">= 8</text><text x=\"102\" y=\"148\" font-size=\"18\" text-anchor=\"middle\" fill=\"#111\">= 6</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$D=6-A$",
+      "$D=-3-A$",
+      "$D=A-2$",
+      "$D=A-3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "判斷正方體中線與線的垂直與歪斜關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖為一正方體，則下列敘述何者正確？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"30 110 330 300\"><polygon points=\"80,222 228,222 228,370 80,370\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"80\" y1=\"222\" x2=\"165\" y2=\"150\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"165\" y1=\"150\" x2=\"315\" y2=\"150\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"150\" x2=\"228\" y2=\"222\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"150\" x2=\"315\" y2=\"297\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"228\" y1=\"370\" x2=\"315\" y2=\"297\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"80\" y1=\"370\" x2=\"165\" y2=\"297\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"165\" y1=\"297\" x2=\"315\" y2=\"297\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"165\" y1=\"297\" x2=\"165\" y2=\"150\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"55\" y=\"225\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"204\" y=\"214\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">F</text><text x=\"60\" y=\"395\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"220\" y=\"400\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"150\" y=\"140\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">H</text><text x=\"320\" y=\"142\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">G</text><text x=\"322\" y=\"320\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"150\" y=\"335\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">D</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\overline{HG}$ 與 $\\overline{BG}$ 互相垂直",
+      "$\\overleftrightarrow{EH}$ 與 $\\overleftrightarrow{BC}$ 互相歪斜",
+      "$\\overline{EG}$ 與 $\\overline{BG}$ 互相垂直",
+      "$\\overleftrightarrow{AH}$ 與 $\\overleftrightarrow{BG}$ 互相歪斜"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-2",
+   "unitIds": [
+    "nanyi-9-2-2-2"
+   ],
+   "unitAssignmentBasis": "比較兩骰子點數最大值的機率。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "阿嘉與志力兩人為了爭祖產田地而僵持不下，兩人決定同時各丟一個公正的骰子來決定誰可以獲得祖產："
+    },
+    {
+     "type": "text",
+     "text": "若是兩個骰子中，出現點數最大是四點以下（含），則阿嘉獲得田地；"
+    },
+    {
+     "type": "text",
+     "text": "若是兩個骰子中，出現點數最大是五點或六點，則志力獲得田地。"
+    },
+    {
+     "type": "text",
+     "text": "如果是想爭得祖產田地，哪一個人比較有利？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "兩人機會一樣",
+      "阿嘉",
+      "志力",
+      "兩人都沒機會"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "求圓柱與圓錐組合體的表面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖是由一個圓柱及一個圓錐鑄成的空心模型，整個模型高 $26$ 吋，圓柱的半徑為 $6$ 吋，圓錐的底面圓形半徑為 $12$ 吋，扇形半徑為 $20$ 吋，則此模型的表面積為多少平方吋？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"200 80 400 360\"><ellipse cx=\"350\" cy=\"210\" rx=\"125\" ry=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"226,215 365,418 474,215\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M300 118 L300 205 A55 15 0 0 0 410 205 L410 118\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><ellipse cx=\"355\" cy=\"118\" rx=\"55\" ry=\"17\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><path d=\"M302 195 A55 15 0 0 0 408 195\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"525\" y1=\"95\" x2=\"525\" y2=\"418\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"510\" y1=\"95\" x2=\"540\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"510\" y1=\"418\" x2=\"540\" y2=\"418\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"548\" y=\"265\" font-size=\"20\" fill=\"#111\">26</text><text x=\"235\" y=\"300\" font-size=\"20\" fill=\"#111\">20</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$480\\pi$",
+      "$540\\pi$",
+      "$444\\pi$",
+      "$504\\pi$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-1-2",
+   "unitIds": [
+    "nanyi-9-2-1-2",
+    "nanyi-9-2-1-1"
+   ],
+   "unitAssignmentBasis": "由對稱點求對稱軸與頂點，平移後與 $x$ 軸相切。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知二次函數 $y=-(x-h)^2+k$ 的圖形過 $A(1999,1000)$ 及 $B(2001,1000)$ 兩點，若將此圖形向下移動 $a$ 單位，新位置圖形和 $x$ 軸只相交於一點，則 $a=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1001$",
+      "$1000$",
+      "$999$",
+      "$2000$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-3-2",
+   "unitIds": [
+    "nanyi-9-1-3-2",
+    "nanyi-9-1-2-2"
+   ],
+   "unitAssignmentBasis": "利用外心、內心與圓周角求角度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，$O$ 點為 $\\triangle ABC$ 及 $\\triangle ABD$ 的外心，$\\overline{AC}$ 與 $\\overline{BD}$ 交於 $P$ 點，又 $I$ 點為 $\\triangle ABC$ 的內心且在 $\\overline{BD}$ 上。若 $\\angle ADB=58^\\circ$，則 $\\angle AIP=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"60 90 400 400\"><polygon points=\"130,455 145,140 408,170\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"130,455 408,388 145,140\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"130\" y1=\"455\" x2=\"408\" y2=\"170\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"130\" y1=\"455\" x2=\"215\" y2=\"205\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"240\" cy=\"298\" r=\"3\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"105\" y=\"480\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"120\" y=\"135\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"415\" y=\"175\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"415\" y=\"400\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"225\" y=\"205\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">I</text><text x=\"305\" y=\"290\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">P</text><text x=\"205\" y=\"325\" font-size=\"20\" font-style=\"italic\" fill=\"#111\">O</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$64^\\circ$",
+      "$61^\\circ$",
+      "$60^\\circ$",
+      "$58^\\circ$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由兩班身高盒狀圖比較統計量。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "右圖是 903 班與 904 班的學生身高盒狀圖，且兩班人數均為 $30$ 人。請問下列何者正確？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 112\"><rect x=\"0\" y=\"0\" width=\"440\" height=\"105\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><rect x=\"140\" y=\"14\" width=\"120\" height=\"18\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"180\" y1=\"14\" x2=\"180\" y2=\"32\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"100\" y1=\"23\" x2=\"140\" y2=\"23\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"260\" y1=\"23\" x2=\"300\" y2=\"23\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"100\" y1=\"19\" x2=\"100\" y2=\"27\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"300\" y1=\"19\" x2=\"300\" y2=\"27\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"100\" y=\"44\" width=\"120\" height=\"18\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"180\" y1=\"44\" x2=\"180\" y2=\"62\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"60\" y1=\"53\" x2=\"100\" y2=\"53\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"220\" y1=\"53\" x2=\"300\" y2=\"53\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"60\" y1=\"49\" x2=\"60\" y2=\"57\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"300\" y1=\"49\" x2=\"300\" y2=\"57\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"308\" y=\"28\" font-size=\"13\" fill=\"#111\">903</text><text x=\"308\" y=\"58\" font-size=\"13\" fill=\"#111\">904</text><line x1=\"20\" y1=\"84\" x2=\"420\" y2=\"84\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"20\" y1=\"84\" x2=\"20\" y2=\"75\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"60\" y1=\"84\" x2=\"60\" y2=\"79\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"100\" y1=\"84\" x2=\"100\" y2=\"75\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"140\" y1=\"84\" x2=\"140\" y2=\"79\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"180\" y1=\"84\" x2=\"180\" y2=\"75\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"220\" y1=\"84\" x2=\"220\" y2=\"79\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"260\" y1=\"84\" x2=\"260\" y2=\"75\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"300\" y1=\"84\" x2=\"300\" y2=\"79\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"340\" y1=\"84\" x2=\"340\" y2=\"75\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"380\" y1=\"84\" x2=\"380\" y2=\"79\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"420\" y1=\"84\" x2=\"420\" y2=\"75\" stroke=\"#111\" stroke-width=\"1.6\"/><text x=\"20\" y=\"100\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">130</text><text x=\"100\" y=\"100\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">140</text><text x=\"180\" y=\"100\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">150</text><text x=\"260\" y=\"100\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">160</text><text x=\"340\" y=\"100\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">170</text><text x=\"420\" y=\"100\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">180</text><text x=\"432\" y=\"100\" font-size=\"11\" fill=\"#111\">CM</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "904 班的平均身高比 903 班的平均身高還高",
+      "903 班的四分位距比 904 班的四分位距還大",
+      "904 班身高高於 150cm 的同學最多 15 人",
+      "身高比 160 公分高的同學，903 班人數比 904 班多"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-1-3",
+   "unitIds": [
+    "nanyi-9-1-1-3",
+    "nanyi-8-2-4-2"
+   ],
+   "unitAssignmentBasis": "由面積比與相似、等腰三角形性質求線段比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，在平行四邊形 $ABCD$ 中，$\\overline{AE}\\perp\\overline{BC}$ 於 $E$ 點，$\\angle ADC$ 的角平分線交 $\\overline{BC}$ 於 $F$ 點。已知 $\\triangle ABE$ 的面積：梯形 $AEFD$ 的面積：$\\triangle CDF$ 的面積 $=3:14:5$，則 $\\overline{AE}:\\overline{EF}=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 90\"><polygon points=\"62,10 255,10 215,70 10,70\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"255\" y1=\"10\" x2=\"122\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"50\" y=\"8\" font-size=\"15\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"258\" y=\"10\" font-size=\"15\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"0\" y=\"84\" font-size=\"15\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"58\" y=\"86\" font-size=\"15\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"120\" y=\"86\" font-size=\"15\" font-style=\"italic\" fill=\"#111\">F</text><text x=\"218\" y=\"84\" font-size=\"15\" font-style=\"italic\" fill=\"#111\">C</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1:1$",
+      "$8:7$",
+      "$6:5$",
+      "$4:3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3",
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "以畢氏定理列式並估計 $x$ 的範圍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖所示，有張半徑為 $4$ 的圓形餐桌，六條相同的矩形餐桌墊布放在餐桌上，每條墊布的寬為 $1$、長為 $\\sqrt{3}\\,x$。這些墊布的放置方式是有兩個頂點在圓形餐桌的邊緣上，另兩個頂點與其相鄰墊布的頂點重合，則 $x$ 的值在下列哪一個範圍內？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-10 -10 260 260\"><circle cx=\"120\" cy=\"120\" r=\"104\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"189.9,79.7 120,39.3 133,16.8 202.9,57.1\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"120,39.3 50.1,79.7 37.1,57.1 107,16.8\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"50.1,79.7 50.1,160.3 24.1,160.3 24.1,79.7\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"50.1,160.3 120,200.7 107,223.2 37.1,182.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"120,200.7 189.9,160.3 202.9,182.9 133,223.2\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"189.9,160.3 189.9,79.7 215.9,79.7 215.9,160.3\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"105\" y=\"62\" font-size=\"13\" fill=\"#111\">√3x</text><text x=\"166\" y=\"48\" font-size=\"13\" fill=\"#111\">1</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1.6\\le x<1.65$",
+      "$1.65\\le x<1.7$",
+      "$1.7\\le x<1.75$",
+      "$1.75\\le x<1.8$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1",
+    "nanyi-7-1-2-2"
+   ],
+   "unitAssignmentBasis": "以正方體邊長與重量比較決定包裝箱型號與運費。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "亮晶晶工廠出貨一批重 $50$ 公克、邊長 $7$ 公分的正方體飾品禮盒，共有 $180$ 個，委託白貓宅急便貨運，其包裝箱依型號收取費用如下："
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "型號",
+       "長、寬、高合計不超過（公分）",
+       "重量合計不超過（公斤）",
+       "運費（元）"
+      ],
+      [
+       "A",
+       "60",
+       "3",
+       "150"
+      ],
+      [
+       "B",
+       "80",
+       "5",
+       "200"
+      ],
+      [
+       "C",
+       "100",
+       "10",
+       "250"
+      ],
+      [
+       "D",
+       "120",
+       "15",
+       "300"
+      ],
+      [
+       "E",
+       "140",
+       "20",
+       "350"
+      ],
+      [
+       "F",
+       "160",
+       "25",
+       "400"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "(1) 收費區段以最後出貨時的裝箱尺寸及重量來決定"
+    },
+    {
+     "type": "text",
+     "text": "(2) 裝箱尺寸是合計包裝箱的長、寬、高的總長度"
+    },
+    {
+     "type": "text",
+     "text": "(3) 以裝箱尺寸和重量比較，收取較高的費用"
+    },
+    {
+     "type": "text",
+     "text": "例如：長、寬、高合計為 50 公分，重量為 4 公斤，則以型號 B 包裝箱收費 200 元。"
+    },
+    {
+     "type": "text",
+     "text": "試求亮晶晶工廠出貨時應將 180 個禮盒全部裝入何種型號的包裝箱較划算？且運費為何？試寫出計算過程與答案。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-1-1-3",
+   "unitIds": [
+    "nanyi-9-1-1-3",
+    "nanyi-8-2-4-3"
+   ],
+   "unitAssignmentBasis": "由角平分線、垂直與比例推出兩塊田地面積比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "阿嘉與志力兩人為了爭一塊梯形（如圖梯形 $EBCF$，$\\overline{EF}\\parallel\\overline{BC}$）的祖產田地，人算不如天算，一條筆直道路 $\\overline{CD}$ 平分 $\\angle BCF$，分成兩塊田地 $\\triangle BCD$ 及四邊形 $CDEF$，且發現 $\\overline{CD}\\perp\\overline{BE}$，$\\overline{BD}=2\\overline{DE}$。不計道路寬度，若 $\\triangle BCD$、四邊形 $CDEF$ 的面積分別為 $s$、$t$，則 $s:t=$？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 380\"><polygon points=\"45,235 258,30 365,70 430,345\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"190\" y1=\"95\" x2=\"430\" y2=\"345\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"250\" y=\"22\" font-size=\"18\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"166\" y=\"93\" font-size=\"18\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"371\" y=\"66\" font-size=\"18\" font-style=\"italic\" fill=\"#111\">F</text><text x=\"19\" y=\"241\" font-size=\"18\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"432\" y=\"365\" font-size=\"18\" font-style=\"italic\" fill=\"#111\">C</text></svg>"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,518 @@
+{
+ "paperId": "metro-taoyuan-01173379dda1f3e9",
+ "sourceSha256": "a286fde356e6b0c50e404d4de72b16350c71562eb1058d4b8ee55d71fabdb101",
+ "printedHeader": "自強國中 112 學年度 第一學期 第一次定期考查 八年級 數學科 試題題目卷",
+ "printedSlot": {
+  "year": 112,
+  "semester": 1,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、填充11格（第1題4小題、第2題2小題、第3題3小題、第4、5題）、計算2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "以 text.md 對照；計算題2的圖 img/01.png 重繪為SVG（以邊長推得周長20-2x，與解答頁相符）。卷首的 DRAWING-SHAPE 為注意事項方框裝飾，非題目。答案卷與解答頁未收錄。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 11,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "判斷何者為多項式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一個是 $x$ 的多項式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2(x+1)+3=0$",
+      "$x^{2}+\\dfrac{x}{2}$",
+      "$|x+1|+3$",
+      "$2x+\\dfrac{2}{x}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式相減後的次數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知多項式 $A$ 為 $x$ 的三次式，多項式 $B$ 為 $x$ 的二次式，則 $(A-B)$ 為 $x$ 的幾次式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "1",
+      "2",
+      "3",
+      "0"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "利用乘法公式展開平方。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如果 $1234.5^{2}=1234^{2}+A$，則 $A=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "0.25",
+      "617.25",
+      "1234.25",
+      "1234.5"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式加減乘除次數與餘式的概念。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "在多項式除法中，當餘式不為 $0$ 時，餘式的次數必小於商式的次數。",
+      "兩個 $x$ 的二次多項式相加，其結果也是 $x$ 的二次多項式。",
+      "一次多項式與二次多項式的乘積必為二次多項式。",
+      "在多項式除法中，若除式可以整除被除式，則餘式為 $0$。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "以夾擠法求平方根近似值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $4.12^{2}=16.9744$，$4.13^{2}=17.0569$，$4.125^{2}=17.015625$，利用四捨五入法求 $\\sqrt{17}$ 的近似值到小數第二位的結果是多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "4.12",
+      "4.13",
+      "4.15",
+      "4.17"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "利用和的平方、差的平方公式判斷等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用乘法公式判斷，下列等式何者成立？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$248^{2}+248\\times52+52^{2}=300^{2}$",
+      "$248^{2}-248\\times48-48^{2}=200^{2}$",
+      "$248^{2}+2\\times248\\times52+52^{2}=300^{2}$",
+      "$248^{2}-2\\times248\\times48-48^{2}=200^{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "由三人部分正確的結果反推係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "甲、乙、丙三人在計算 $(ax^{2}+bx+c)-(-2x^{2}+x-5)$ 的結果，甲得 $5x^{2}+7x$，乙得 $2x^{2}+5x+10$，丙得 $x^{2}+3x+6$，老師說甲只做對平方項，乙只做對常數項，丙只做對一次項，請問下列何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a=3$",
+      "$b=5$",
+      "$c=4$",
+      "$a\\times b\\times c=30$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根大小比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a=\\sqrt{39}$，$b=\\sqrt{38}$，$c=6$，則 $a$、$b$、$c$ 的大小關係為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$b>c>a$",
+      "$c>b>a$",
+      "$c>a>b$",
+      "$a>b>c$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "由平方根範圍計數整數解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "滿足 $4\\le\\sqrt{n}<5$ 的正整數 $n$ 共有多少個？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "1",
+      "9",
+      "10",
+      "11"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根的定義與性質。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$16$ 的平方根是 $\\pm4$。",
+      "若 $a$ 是 $26$ 的平方根，則 $-a$ 也是 $26$ 的平方根。",
+      "$(-7)^{2}=49$，所以 $-7$ 是 $49$ 的一個平方根。",
+      "任意數都有 2 個平方根，且互為相反數。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1(1)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以平方差公式計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算下列各式的值：$248\\times252=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1(2)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以差的平方公式計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算下列各式的值：$954^{2}-2\\times954\\times54+54^{2}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1(3)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以乘法公式化簡分式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算下列各式的值：$\\dfrac{75^{2}-25^{2}}{75^{2}+75\\times50+25^{2}}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1(4)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "以分配律分組計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算下列各式的值：$321\\times45+321\\times55+29\\times45+29\\times55=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2(1)",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式相減並降冪排列。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算下列各式，並將答案以降冪排列：$(3x^{2}-2x-1)-(7-6x-5x^{2})=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2(2)",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式相乘並降冪排列。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算下列各式，並將答案以降冪排列：$(2x-1)(-3x+5)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3(1)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式除法求商式與餘式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求下列多項式除法的商式與餘式：$(-4x^{2}+3)\\div(2x-1)$　商式＝＿＿＿＿，餘式＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3(2)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "二次式除以二次式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求下列多項式除法的商式與餘式：$(5x^{2}-2x+1)\\div(3x^{2}+x+4)$　商式＝＿＿＿＿，餘式＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3(3)",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "先展開再做多項式除法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求下列多項式除法的商式與餘式：$(2x-1)^{2}\\div(3x-1)$　商式＝＿＿＿＿，餘式＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "由除法關係式反求除式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知多項式 $2x^{2}-7x+9$ 除以 $A$，得到商式為 $2x-3$，餘式為 $3$，則 $A=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "計算平方根為整數的個數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "大於 $100$ 且小於 $400$ 的正整數中，其平方根為整數的有＿＿＿＿個。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "由平方根定義列式求 x、y，再求平方根。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $x$、$y$ 為兩數，$-2$ 是 $3x+5y$ 的一個平方根，$2x-5y+5$ 的平方根為 $\\pm4$，試求："
+    },
+    {
+     "type": "text",
+     "text": "(1) $x$、$y$ 之值。"
+    },
+    {
+     "type": "text",
+     "text": "(2) $(2x-3y)$ 的平方根。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "以多項式表示複合圖形的周長與面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "試分別用 $x$ 的多項式表示出圖中多邊形的周長與面積。（圖中轉角皆為直角）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 170,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 400\"><polygon points=\"12,62 95,62 95,152 305,152 305,352 190,352 190,288 12,288\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"12,72 22,72 22,62\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"305,162 295,162 295,152\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"12,278 22,278 22,288\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><polyline points=\"305,342 295,342 295,352\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"38\" y=\"52\" font-size=\"22\" font-style=\"italic\" fill=\"#111\">2x</text><text x=\"100\" y=\"115\" font-size=\"22\" fill=\"#111\">3</text><text x=\"150\" y=\"140\" font-size=\"22\" fill=\"#111\">1−3x</text><text x=\"318\" y=\"262\" font-size=\"22\" fill=\"#111\">6</text><text x=\"165\" y=\"322\" font-size=\"22\" fill=\"#111\">2</text><text x=\"225\" y=\"385\" font-size=\"22\" font-style=\"italic\" fill=\"#111\">3x</text></svg>"
+    }
+   ]
+  }
+ ]
+}

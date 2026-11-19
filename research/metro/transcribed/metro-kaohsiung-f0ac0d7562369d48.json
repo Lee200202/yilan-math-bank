@@ -1,0 +1,691 @@
+{
+ "paperId": "metro-kaohsiung-f0ac0d7562369d48",
+ "sourceSha256": "01d251f66265d2a1fd7307b3ccfd4b511e94907aeea75ff82ad856cc9d6e1fb1",
+ "printedHeader": "高雄市立民族國中112學年度第一學期二年級數學科第一次段考試題",
+ "printedSlot": {
+  "year": 112,
+  "semester": 1,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇12題（每題3分）、填充16題、計算4題。",
+ "visualReviewComplete": true,
+ "reviewNote": "注意：卷首印的是高雄市立民族國中，目標清單寫美濃國中，兩者不符，照印不猜。對照 text.md 與21張圖逐題重讀；MathType 小圖（根號、分數、帶分數）逐一檢視，填充5的圖以 wmf_text 讀出為 (889又1/2)^2−(110又1/2)^2 並與解答779000吻合。重繪計算2、計算4共2幅圖。計算1題幹寫負平方根為−2，與解答（x=5,y=1 對應−4）矛盾，標為不可用。解答頁未收錄。",
+ "expectedTypes": {
+  "choice": 12,
+  "fill": 16,
+  "written": 4
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "判斷完全平方與平方差公式的正確展開。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一個等式是正確的？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(199.5)^{2}=200^{2}-0.5^{2}$",
+      "$(305+5)^{2}=305^{2}+5^{2}$",
+      "$(666+444)^{2}=666^{2}+666\\times888+444^{2}$",
+      "$(79.9+20.1)(79.9-20.1)=100^{2}-59.8^{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "比較根式與整數的大小（平方後比較）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a=\\sqrt{520}$、$b=23$、$c=\\sqrt{484}$，則 $a$、$b$、$c$ 的大小關係為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a>b>c$",
+      "$b>a>c$",
+      "$c>b>a$",
+      "$a>c>b$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以平方差公式拆解帶分數乘積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a$、$b$ 均為正數，試利用乘法公式計算 $10\\dfrac{1}{4}\\times9\\dfrac{3}{4}=a^{2}-b^{2}$，則下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a=10\\dfrac{1}{4}$",
+      "$a=10$",
+      "$b=9$",
+      "$b=\\dfrac{3}{4}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "以十分逼近法求平方根近似值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $6.3^{2}=39.69$，$6.4^{2}=40.96$，$6.5^{2}=42.25$，$6.41^{2}=41.0881$，$6.405^{2}=41.024025$，試以十分逼近法，求 $\\sqrt{41}$ 之近似值到小數第二位。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$6.50$",
+      "$6.41$",
+      "$6.40$",
+      "$6.39$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式乘法展開後判斷各項係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在 $(1-2x)(x^{2}+4-2x)$ 的展開式中，下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x^{3}$ 項係數為 $2$",
+      "$x^{2}$ 項係數為 $1$",
+      "$x$ 項係數為 $-10$",
+      "常數項為 $-4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以平方差公式比較乘積大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用乘法公式計算下列四個式子，哪一個值最大？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$155\\times145$",
+      "$153\\times147$",
+      "$151\\times149$",
+      "$150\\times150$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式次數的判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $A$ 為一次多項式，$B$ 為三次多項式，則下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$A+B$ 為四次多項式",
+      "$A\\times B$ 為四次多項式",
+      "$B-A$ 為二次多項式",
+      "$B\\div A$ 的餘式為一次多項式"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以完全平方公式計算 $49.9^{2}$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用乘法公式計算 $49.9^{2}=50^{2}-2\\times50\\times a+b$，則 $a+b=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$0.11$",
+      "$0.2$",
+      "$0.9$",
+      "$0.09$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根的定義與性質。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列關於平方根的敘述，何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "面積為 $5$ 的正方形邊長為 $\\sqrt{5}$",
+      "$\\sqrt{0.0016}$ 的平方根為 $\\pm0.2$",
+      "$0$ 的平方根是 $0$",
+      "$7$ 為 $-49$ 的平方根"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "將乘積化為平方差後比較大小。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x=9\\times21^{2}-13^{2}$、$y=16\\times17^{2}-18^{2}$、$z=25\\times13^{2}-15^{2}$，則 $x$、$y$、$z$ 的大小關係為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$y>z>x$",
+      "$z>y>x$",
+      "$y>x>z$",
+      "$x>z>y$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "利用完全平方公式化簡平方和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $A=99^{2}$，則 $103^{2}+95^{2}$ 與下列哪個選項的結果相同？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2A+8$",
+      "$2A+16$",
+      "$2A+18$",
+      "$2A+32$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根為整數的條件（完全平方數）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $x$ 是整數，且 $0\\le x\\le65$，試寫出能使 $\\sqrt{x-47}$ 為整數的所有 $x$ 值有幾個？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$5$",
+      "$4$",
+      "$3$",
+      "$2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "單項式乘法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $2x\\cdot\\left(-\\dfrac{4}{5}x^{2}\\right)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式同類項合併與係數比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $ax^{2}-1+bx^{2}-2+x^{2}-x-7+c=9x^{2}-x-12$，則 $a+b+c=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式減法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "化簡 $(7x^{2}-x-8)-(5x^{2}-x+4)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "被除式＝除式×商式＋餘式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一個多項式 $A$ 除以 $(x+3)$，得商式為 $(2x-1)$，餘式為 $-9$，則此多項式 $A$ 為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以平方差公式計算大數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用乘法公式計算 $\\left(889\\dfrac{1}{2}\\right)^{2}-\\left(110\\dfrac{1}{2}\\right)^{2}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "完全平方公式展開。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "展開 $(3a^{2}-5)^{2}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "估計根式介於哪兩個連續整數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $m$ 為正整數，若 $m<\\sqrt{350}<m+1$，求 $m=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "由差反推被減式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知某一個多項式減去 $3x^{2}-6x+1$ 的差為 $-x^{2}+3x-2$，則此多項式為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式除法與餘式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $8x^{2}+c$ 除以 $3+2x$ 的餘式為 $17$，則 $c=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式乘法展開比較係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $(3x-2)(2x+a)=6x^{2}+20x-2a$，則 $a=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根的化簡與計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "試求 $\\sqrt{(-9)^{2}}-\\sqrt{1\\dfrac{24}{25}}=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "由二次項係數反推單項式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "多項式 $A$ 為單項式，且多項式 $B=x^{3}-3x-8x^{2}-4$，若 $A-B$ 的二次項係數為 $11$，求多項式 $A=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "由多項式次數條件求係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $(m+2)x^{3}+(2n-6)x^{2}-2mx+n-4$ 為一次多項式，則此多項式為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "14",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以完全平方公式化簡後代入。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a=749$，$b=351$，則 $\\dfrac{a^{2}+b^{2}}{2}+ab=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "15",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式乘法逆推並修正錯誤。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "阿南求一次多項式 $A$ 與 $3x-2$ 的乘積時，誤將 $A$ 中常數項的正負符號寫錯，算出結果為 $12x^{2}-11x+2$。如果她沒有其他計算上的錯誤，則正確答案應為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "16",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以平方差公式解整數應用題。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "民族國中在校慶開幕典禮時，欲將全校學生排成邊長為 $b$ 人的正方形隊形，發現不夠 $47$ 人。經調整後恰好只能排成邊長為 $a$ 人的正方形隊形。則民族國中全校學生有＿＿＿＿人。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "由平方根的定義列二元一次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $2x-y$ 的正平方根是 $3$，$\\sqrt{y+3x}$ 的負平方根是 $-2$，則 $x$、$y$ 之值為何？"
+    }
+   ],
+   "usable": false,
+   "sourceIssue": "原卷題幹寫「負平方根是−2」，但解答（3x+y=16、x=5、y=1）對應的是負平方根為−4，題目與解答互相矛盾。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以平方差公式列式並解一元一次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，將一張邊長為 $(a+10)$ 公分的正方形紙張剪下邊長為 $(a-2)$ 公分的正方形後，剩餘灰色的面積為 $504$ 平方公分，則正方形紙張原來的面積為多少平方公分？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 340\"><rect x=\"15\" y=\"35\" width=\"303\" height=\"303\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.4\"/><polygon points=\"33,130 220,55 299,239 113,317\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M15,35 Q20,22 55,20 M276,20 Q312,22 318,35\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"166\" y=\"24\" font-size=\"18\" text-anchor=\"middle\">a+10</text><text x=\"70\" y=\"106\" font-size=\"18\">a−2</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以因式（多項式除法）求每隊人數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若民族國中有若干人參加童軍露營活動，共分成 $x$ 小隊，其中 $2$ 小隊負責搭帳篷，其餘的小隊負責野炊，已知負責野炊共有 $(x^{2}-4)$ 人，則每小隊有幾人？全校共有多少人參加此次童軍露營活動？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "以多項式表示周長與面積並運算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，相鄰的兩邊線段均互相垂直，其中 $\\overline{AB}=\\overline{BC}=\\overline{DE}=\\overline{EF}=x$，$\\overline{GH}=2x^{2}+3$，若已知此圖形的周長為 $4x^{2}+8x+4$，試求 $\\overline{FG}$ 與此圖形面積。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\"><polygon points=\"40,70 90,70 90,30 210,30 210,70 260,70 260,160 40,160\" fill=\"#eaf3ea\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"20\" y=\"66\" font-size=\"16\" font-style=\"italic\">A</text><text x=\"93\" y=\"88\" font-size=\"16\" font-style=\"italic\">B</text><text x=\"82\" y=\"24\" font-size=\"16\" font-style=\"italic\">C</text><text x=\"206\" y=\"24\" font-size=\"16\" font-style=\"italic\">D</text><text x=\"192\" y=\"88\" font-size=\"16\" font-style=\"italic\">E</text><text x=\"266\" y=\"68\" font-size=\"16\" font-style=\"italic\">F</text><text x=\"266\" y=\"176\" font-size=\"16\" font-style=\"italic\">G</text><text x=\"20\" y=\"176\" font-size=\"16\" font-style=\"italic\">H</text></svg>"
+    }
+   ]
+  }
+ ]
+}

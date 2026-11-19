@@ -215,4 +215,9 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 ## v107（20261118-metro-v107）：Word/ODT 第三批（八上）＋第十六波 PDF（九下 111–112），14 卷
 
 - 可組卷題數 → 17,920。`npm test` 78 項通過；14 卷 PDF 匯出檢查全數通過。疑義與重複版本見 `handoff/batches/20261118-o3w16-SOURCE_ISSUES_REPORT.md`。新增 `scripts/dup_check.py`；高雄兩卷依裁決標民族國中。
+- 正式站驗收：ALL PASS（`handoff/batches/20261118-v107/live-acceptance.json`）。
+
+## v117（20261119-metro-v117）：Word/ODT 第四批（八上 111–112）＋第十六、十七波 PDF（九下 108–112），25 卷
+
+- 可組卷題數 → 18,707（含遠端宜蘭新增）。`npm test` 79 項通過；25 卷 PDF 匯出檢查全數通過。疑義與重複見 `handoff/batches/20261119-o4w17-SOURCE_ISSUES_REPORT.md`。高雄三卷依裁決標民族國中。（遠端先到，於其上重建，版本 v116→v117。）
 - 正式站驗收：發布後補。

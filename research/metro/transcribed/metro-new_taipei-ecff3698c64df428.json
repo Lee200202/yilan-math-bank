@@ -1,0 +1,456 @@
+{
+ "paperId": "metro-new_taipei-ecff3698c64df428",
+ "sourceSha256": "69beb6bc00edc96843e729b3e90635b131881ca0c85d6c81b662e202fd9549ec",
+ "printedHeader": "新北市立中正國民中學108學年度第二學期九年級數學科第二次段考試題（範圍：2-1和3-2）",
+ "printedSlot": {
+  "year": 108,
+  "semester": 2,
+  "grade": 9,
+  "exam": 2
+ },
+ "printedCounts": "選擇5題、填充12題（第5、7、9題含兩小格）。",
+ "visualReviewComplete": true,
+ "reviewNote": "對照第1、2頁（第3頁為答案卷，未收錄）；重繪選擇2展開圖、選擇5盒狀圖、填充5長方體、6直方圖、9累積折線圖、10四角錐、11正方體、12展開圖共8幅。填充10原卷印有部分解題提示，未收錄；填充5圖中的Q點題文未提及，未畫出。填充9(1)原卷隱藏文字層有40，視覺為空白，依空白處理。",
+ "expectedTypes": {
+  "choice": 5,
+  "fill": 12
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "辨認錐體與柱體的外型。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "埃及金字塔的外型最接近下列何者？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "三角柱",
+      "三角錐",
+      "四角柱",
+      "四角錐"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "由展開圖想像正方體各面的垂直與平行關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "依據右圖展開圖所組成的正方體，回答下列選項中，哪一個面與丁面不垂直？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 235\"><rect x=\"10\" y=\"10\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30\" y=\"36\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">己</text><rect x=\"10\" y=\"50\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30\" y=\"76\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">戊</text><rect x=\"10\" y=\"90\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"30\" y=\"116\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">丁</text><rect x=\"50\" y=\"90\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"70\" y=\"116\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">丙</text><rect x=\"50\" y=\"130\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"70\" y=\"156\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">乙</text><rect x=\"50\" y=\"170\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"70\" y=\"196\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">甲</text><text x=\"46\" y=\"226\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#111\">A</text><text x=\"94\" y=\"226\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲",
+      "乙",
+      "戊",
+      "己"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "資料同加常數後各統計量的變化。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某班某次小考因為分數太低，故全班每人都加10分，加分後全班最高的為95分。則平均數、中位數、眾數和四分位距在加分後和原先分數不同的有幾樣？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "1樣",
+      "2樣",
+      "3樣",
+      "4樣"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "轉出兩位同學後比較平均數與中位數的變化。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某班25人，平均身高163公分，中位數為164公分且沒人身高相同。後來轉出兩位同學，身高各為170和159公分，新的平均身高為 $X$ 公分，中位數為 $Y$ 公分，則下列何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$X>163$，$Y>164$",
+      "$X>163$，$Y=164$",
+      "$X>163$，$Y<164$",
+      "$X<163$，$Y>164$",
+      "$X<163$，$Y=164$",
+      "$X<163$，$Y<164$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由盒狀圖讀出各數值並判斷敘述。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知三年一班第一次數學段考成績的盒狀圖如下圖所示，請依據下圖判斷下列敘述何者錯誤？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 328 96\"><line x1=\"20\" y1=\"60\" x2=\"314\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"20\" y1=\"8\" x2=\"20\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"20\" y1=\"60\" x2=\"20\" y2=\"64\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"20\" y=\"76\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">0</text><line x1=\"52\" y1=\"60\" x2=\"52\" y2=\"64\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"52\" y=\"76\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">10</text><line x1=\"84\" y1=\"60\" x2=\"84\" y2=\"64\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"84\" y=\"76\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">20</text><line x1=\"116\" y1=\"60\" x2=\"116\" y2=\"64\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"116\" y=\"76\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">30</text><line x1=\"148\" y1=\"60\" x2=\"148\" y2=\"64\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"148\" y=\"76\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">40</text><line x1=\"180\" y1=\"60\" x2=\"180\" y2=\"64\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"180\" y=\"76\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">50</text><line x1=\"212\" y1=\"60\" x2=\"212\" y2=\"64\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"212\" y=\"76\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">60</text><line x1=\"244\" y1=\"60\" x2=\"244\" y2=\"64\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"244\" y=\"76\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">70</text><line x1=\"276\" y1=\"60\" x2=\"276\" y2=\"64\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"276\" y=\"76\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">80</text><line x1=\"308\" y1=\"60\" x2=\"308\" y2=\"64\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"308\" y=\"76\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">90</text><text x=\"14\" y=\"40\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\"></text><line x1=\"77.6\" y1=\"36\" x2=\"135.2\" y2=\"36\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"256.8\" y1=\"36\" x2=\"292\" y2=\"36\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"77.6\" y1=\"30\" x2=\"77.6\" y2=\"42\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"292\" y1=\"30\" x2=\"292\" y2=\"42\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"135.2\" y=\"26\" width=\"121.6\" height=\"20\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"183.2\" y1=\"26\" x2=\"183.2\" y2=\"46\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"77.6\" y=\"15\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">18</text><text x=\"135.2\" y=\"15\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">36</text><text x=\"183.2\" y=\"15\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">51</text><text x=\"256.8\" y=\"15\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">74</text><text x=\"292\" y=\"15\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">85</text><text x=\"316\" y=\"90\" font-size=\"12\" text-anchor=\"end\" fill=\"#111\">(分)</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "中位數為51分",
+      "四分位距為38分",
+      "成績及格(60分以上)的同學人數超過全班人數一半",
+      "全班沒有人成績超過85分"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "數六角柱的頂點、邊與面。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "六角柱有 $a$ 個頂點，$b$ 條邊，$c$ 個面，則 $a+b+c=$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "數六角錐的頂點、邊與面。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "六角錐有 $a$ 個頂點，$b$ 條邊，$c$ 個面，則 $a+b+c=$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "圓柱體積公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "圓柱底面半徑為10，高為5，求體積為＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "由高與底半徑以畢氏定理求母線再算表面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "圓錐平放桌面時，頂點離桌面4公分，底圓半徑3公分，求此圓錐表面積(含底圓)為＿＿＿＿平方公分"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "長方體展開求最短路徑與對角線長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "右圖的長方體中，$\\overline{AB}=4$，$\\overline{AE}=2$，$\\overline{AD}=5$。若點 $P$ 在 $\\overline{AD}$ 上，求"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 180\"><polygon points=\"55.1,65 178.3,65 178.3,162.9 55.1,162.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"29.8,22.1 153,22.1 178.3,65 55.1,65\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"153\" y1=\"22.1\" x2=\"178.3\" y2=\"65\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"178.3\" y1=\"65\" x2=\"178.3\" y2=\"162.9\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"29.8\" y1=\"22.1\" x2=\"55.1\" y2=\"65\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"29.8\" y1=\"22.1\" x2=\"29.8\" y2=\"120\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"29.8\" y1=\"120\" x2=\"55.1\" y2=\"162.9\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"29.8\" y1=\"120\" x2=\"153\" y2=\"120\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"153\" y1=\"22.1\" x2=\"153\" y2=\"120\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"153\" y1=\"120\" x2=\"178.3\" y2=\"162.9\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><circle cx=\"118.7\" cy=\"65\" r=\"2.5\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"25.8\" y=\"19.1\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#111\">H</text><text x=\"155\" y=\"19.1\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">E</text><text x=\"59.1\" y=\"79\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"182.3\" y=\"68\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"25.8\" y=\"124\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#111\">G</text><text x=\"139\" y=\"124\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">F</text><text x=\"51.1\" y=\"176.9\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#111\">C</text><text x=\"182.3\" y=\"174.9\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"115.7\" y=\"60\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#111\">P</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "①$E$ 點經過 $P$ 到達 $C$ 的最短距離為＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "②$\\overline{CE}$ 長度為＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由直方圖用組中點求平均數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "右圖是三年乙班學生第二次段考數學成績的次數分配直方圖，試求平均為＿＿＿＿分"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 298 168\"><line x1=\"40\" y1=\"130\" x2=\"286\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"40\" y1=\"130\" x2=\"40\" y2=\"11.5\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"37\" y1=\"130\" x2=\"40\" y2=\"130\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"34\" y=\"134\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">0</text><line x1=\"37\" y1=\"92.5\" x2=\"40\" y2=\"92.5\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"34\" y=\"96.5\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">5</text><line x1=\"37\" y1=\"55\" x2=\"40\" y2=\"55\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"34\" y=\"59\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">10</text><line x1=\"37\" y1=\"17.5\" x2=\"40\" y2=\"17.5\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"34\" y=\"21.5\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">15</text><rect x=\"40\" y=\"100\" width=\"34\" height=\"30\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"74\" y=\"92.5\" width=\"34\" height=\"37.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"108\" y=\"77.5\" width=\"34\" height=\"52.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"142\" y=\"47.5\" width=\"34\" height=\"82.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"176\" y=\"55\" width=\"34\" height=\"75\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"210\" y=\"70\" width=\"34\" height=\"60\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"244\" y=\"92.5\" width=\"34\" height=\"37.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40\" y1=\"130\" x2=\"40\" y2=\"133\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"40\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">30</text><line x1=\"74\" y1=\"130\" x2=\"74\" y2=\"133\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"74\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">40</text><line x1=\"108\" y1=\"130\" x2=\"108\" y2=\"133\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"108\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">50</text><line x1=\"142\" y1=\"130\" x2=\"142\" y2=\"133\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"142\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">60</text><line x1=\"176\" y1=\"130\" x2=\"176\" y2=\"133\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"176\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">70</text><line x1=\"210\" y1=\"130\" x2=\"210\" y2=\"133\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"210\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">80</text><line x1=\"244\" y1=\"130\" x2=\"244\" y2=\"133\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"244\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">90</text><line x1=\"278\" y1=\"130\" x2=\"278\" y2=\"133\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"278\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">100</text><text x=\"286\" y=\"160\" font-size=\"12\" text-anchor=\"end\" fill=\"#111\">數學成績(分)</text><text x=\"34\" y=\"5.5\" font-size=\"12\" fill=\"#111\">次數(人)</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "資料排序後求中位數與百分位數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "媽媽今天買了14個蘋果，它們的重量(單位：公克)分別如下："
+    },
+    {
+     "type": "text",
+     "text": "127、99、172、211、98、134、145、171、119、142、137、139、144、136，試求"
+    },
+    {
+     "type": "text",
+     "text": "①中位數為＿＿＿＿公克"
+    },
+    {
+     "type": "text",
+     "text": "②第25百分位數為＿＿＿＿公克"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-9-2-2-1",
+   "unitIds": [
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由次數分配表找眾數。",
+   "blocks": [
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "家庭人口數(人)",
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8"
+      ],
+      [
+       "次數(人)",
+       "0",
+       "2",
+       "7",
+       "12",
+       "3",
+       "1",
+       "0",
+       "1"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "上表為某班學生家庭同住人數統計次數分配表，則該班家庭同住人口數的眾數為＿＿＿＿人"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-5-1",
+   "unitIds": [
+    "nanyi-8-1-5-1",
+    "nanyi-9-2-2-1"
+   ],
+   "unitAssignmentBasis": "由累積相對次數分配折線圖讀百分位數與人數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "右圖是某校體重的累積相對次數分配折線圖，試問："
+    },
+    {
+     "type": "svg",
+     "maxHeight": 170,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 305 188\"><line x1=\"50\" y1=\"150\" x2=\"287\" y2=\"150\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"50\" y1=\"150\" x2=\"50\" y2=\"12\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"50\" y1=\"137\" x2=\"275\" y2=\"137\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"47\" y1=\"137\" x2=\"50\" y2=\"137\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"44\" y=\"141\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">10</text><line x1=\"50\" y1=\"124\" x2=\"275\" y2=\"124\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"47\" y1=\"124\" x2=\"50\" y2=\"124\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"44\" y=\"128\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">20</text><line x1=\"50\" y1=\"111\" x2=\"275\" y2=\"111\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"47\" y1=\"111\" x2=\"50\" y2=\"111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"44\" y=\"115\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">30</text><line x1=\"50\" y1=\"98\" x2=\"275\" y2=\"98\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"47\" y1=\"98\" x2=\"50\" y2=\"98\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"44\" y=\"102\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">40</text><line x1=\"50\" y1=\"85\" x2=\"275\" y2=\"85\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"47\" y1=\"85\" x2=\"50\" y2=\"85\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"44\" y=\"89\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">50</text><line x1=\"50\" y1=\"72\" x2=\"275\" y2=\"72\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"47\" y1=\"72\" x2=\"50\" y2=\"72\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"44\" y=\"76\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">60</text><line x1=\"50\" y1=\"59\" x2=\"275\" y2=\"59\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"47\" y1=\"59\" x2=\"50\" y2=\"59\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"44\" y=\"63\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">70</text><line x1=\"50\" y1=\"46\" x2=\"275\" y2=\"46\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"47\" y1=\"46\" x2=\"50\" y2=\"46\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"44\" y=\"50\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">80</text><line x1=\"50\" y1=\"33\" x2=\"275\" y2=\"33\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"47\" y1=\"33\" x2=\"50\" y2=\"33\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"44\" y=\"37\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">90</text><line x1=\"50\" y1=\"20\" x2=\"275\" y2=\"20\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"47\" y1=\"20\" x2=\"50\" y2=\"20\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"44\" y=\"24\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">100</text><text x=\"44\" y=\"154\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">0</text><line x1=\"50\" y1=\"150\" x2=\"50\" y2=\"20\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"50\" y1=\"150\" x2=\"50\" y2=\"153\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"50\" y=\"165\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">35</text><line x1=\"87.5\" y1=\"150\" x2=\"87.5\" y2=\"20\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"87.5\" y1=\"150\" x2=\"87.5\" y2=\"153\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"87.5\" y=\"165\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">40</text><line x1=\"125\" y1=\"150\" x2=\"125\" y2=\"20\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"125\" y1=\"150\" x2=\"125\" y2=\"153\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"125\" y=\"165\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">45</text><line x1=\"162.5\" y1=\"150\" x2=\"162.5\" y2=\"20\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"162.5\" y1=\"150\" x2=\"162.5\" y2=\"153\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"162.5\" y=\"165\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">50</text><line x1=\"200\" y1=\"150\" x2=\"200\" y2=\"20\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"200\" y1=\"150\" x2=\"200\" y2=\"153\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"200\" y=\"165\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">55</text><line x1=\"237.5\" y1=\"150\" x2=\"237.5\" y2=\"20\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"237.5\" y1=\"150\" x2=\"237.5\" y2=\"153\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"237.5\" y=\"165\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">60</text><line x1=\"275\" y1=\"150\" x2=\"275\" y2=\"20\" stroke=\"#bbb\" stroke-width=\"0.5\"/><line x1=\"275\" y1=\"150\" x2=\"275\" y2=\"153\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"275\" y=\"165\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">65</text><path d=\"M 50,150 L 87.5,137 L 125,98 L 162.5,72 L 200,46 L 237.5,33 L 275,20\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><circle cx=\"50\" cy=\"150\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"47\" y=\"145\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">0</text><circle cx=\"87.5\" cy=\"137\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"84.5\" y=\"132\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">10</text><circle cx=\"125\" cy=\"98\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"122\" y=\"93\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">40</text><circle cx=\"162.5\" cy=\"72\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"159.5\" y=\"67\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">60</text><circle cx=\"200\" cy=\"46\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"197\" y=\"41\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">80</text><circle cx=\"237.5\" cy=\"33\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"234.5\" y=\"28\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">90</text><circle cx=\"275\" cy=\"20\" r=\"2\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"272\" y=\"15\" font-size=\"10\" text-anchor=\"end\" fill=\"#111\">100</text><text x=\"285\" y=\"180\" font-size=\"12\" text-anchor=\"end\" fill=\"#111\">體重(公斤)</text><text x=\"44\" y=\"6\" font-size=\"12\" fill=\"#111\">累積相對次數(%)</text></svg>"
+    },
+    {
+     "type": "text",
+     "text": "(1)體重的第40百分位數為＿＿＿＿公斤。"
+    },
+    {
+     "type": "text",
+     "text": "(2)若該校有400人，則體重55~60公斤的大約有＿＿＿＿人"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1",
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "正方形底面求斜高再算四角錐表面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，$O$ 為正方形 $ABCD$ 對角線的交點，且 $\\overline{OP}\\perp$ 正方形 $ABCD$。已知 $\\overline{AB}=\\overline{OP}=8$，連 $\\overline{AP}$、$\\overline{BP}$、$\\overline{CP}$、$\\overline{DP}$，求四角錐 $ABCDP$ 的表面積為＿＿＿＿"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 235 165\"><polygon points=\"87,87 225,87 159.5,152.5 20.5,152.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"87\" y1=\"87\" x2=\"159.5\" y2=\"152.5\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"20.5\" y1=\"152.5\" x2=\"225\" y2=\"87\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"122\" y1=\"119.5\" x2=\"122\" y2=\"23\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"115,118.5 115,111.5 122,111.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><polyline points=\"129,118.5 129,111.5 122,111.5\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.8\"/><text x=\"122\" y=\"19\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">P</text><text x=\"83\" y=\"85\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#111\">C</text><text x=\"229\" y=\"91\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"16.5\" y=\"156.5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#111\">D</text><text x=\"161.5\" y=\"166.5\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"123\" y=\"133.5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#111\">O</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "正方體面對角線構成正三角形。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，正方體的邊長為8，連 $\\overline{AC}$、$\\overline{AF}$，求 $\\angle CAF=$＿＿＿＿度"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 165 150\"><polygon points=\"31,52 113.5,52 113.5,134 31,134\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"31\" y1=\"52\" x2=\"71\" y2=\"14\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"71\" y1=\"14\" x2=\"153\" y2=\"14\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"153\" y1=\"14\" x2=\"113.5\" y2=\"52\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"153\" y1=\"14\" x2=\"153\" y2=\"95.5\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"153\" y1=\"95.5\" x2=\"113.5\" y2=\"134\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"71\" y1=\"14\" x2=\"71\" y2=\"95.5\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"71\" y1=\"95.5\" x2=\"153\" y2=\"95.5\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"71\" y1=\"95.5\" x2=\"31\" y2=\"134\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><text x=\"27\" y=\"55\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#111\">A</text><text x=\"111.5\" y=\"49\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"155\" y=\"12\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"67\" y=\"11\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"27\" y=\"146\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#111\">E</text><text x=\"113.5\" y=\"148\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">F</text><text x=\"157\" y=\"99.5\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">G</text><text x=\"68\" y=\"99.5\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#111\">H</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-9-2-3-1",
+   "unitIds": [
+    "nanyi-9-2-3-1"
+   ],
+   "unitAssignmentBasis": "由展開圖求正六角柱的表面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "右圖是一個高為5的正六角柱展開圖，已知正六邊形的邊長為2，求正六角柱的表面積為＿＿＿＿"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 160\"><rect x=\"22.9\" y=\"58\" width=\"22.5\" height=\"54.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"45.4\" y=\"58\" width=\"23\" height=\"54.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"68.3\" y=\"58\" width=\"22.9\" height=\"54.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"91.2\" y=\"58\" width=\"22.5\" height=\"54.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"113.8\" y=\"58\" width=\"22.5\" height=\"54.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"136.2\" y=\"58\" width=\"22.5\" height=\"54.9\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"136.2,58 158.8,58 169.6,39 158.8,19.7 136.2,19.7 125.5,39\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"136.2,112.9 158.8,112.9 169.6,131.8 158.8,151.1 136.2,151.1 125.5,131.8\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"147.5\" y=\"16.1\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">2</text><text x=\"19.2\" y=\"89\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">5</text></svg>"
+    }
+   ]
+  }
+ ]
+}

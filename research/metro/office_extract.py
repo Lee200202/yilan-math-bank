@@ -295,6 +295,8 @@ def eq2tex(s):
             out.append('\\underline{%s}' % ''.join(args))
         elif cmd == 'x':
             out.append(''.join(args))
+        elif cmd == 'o' and len(args) == 2 and args[0].strip() in ('¯', '‾', '―', '—', '－', '_', '￣') and args[1].strip():
+            out.append('\\overline{%s}' % args[1].strip())  # segment AB written as an overstruck bar over the letters
         elif cmd == 'o' and len(args) == 2 and args[0].strip() in ('＜', '<') and args[1].strip() in ('－', '-', '—', '_', '＿'):
             out.append('\\le ')
         elif cmd == 'o' and len(args) == 2 and args[0].strip() in ('＞', '>') and args[1].strip() in ('－', '-', '—', '_', '＿'):
