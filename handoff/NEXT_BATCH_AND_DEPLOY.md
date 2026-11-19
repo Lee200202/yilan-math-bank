@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v108 中華七下（2026-11-19）
+
+中華105下七二 `1_XVHRfuywjFwihAb-SWMlDgmg3si_c8Q` 23/25；三角形邊長矛盾及直線條件不足兩題停用。原稿作者對照來源；建置17,943題、78項測試通過，部署另查。羅東 `ld-108-1-2-7` 22/22 已交稿待下一批。整理已發卷的舊切頁及未引用驗收截圖共38張；保留原卷、驗收引用圖、其他 AI 工作中資料與用途不明檔案。
+
 ## v104 中華七上（2026-11-18）
 
 中華106上七一 `123lGBiDXT7Brx1TJah7SZy7MHrfWNKw9` 30/31，填3原卷基準與符號規則不明而停用，整卷取代先前部分題。建置17,051題、78項測試通過；部署另查。續處理羅東 `ld-110-1-1-7`、中華 `1_XVHRfuywjFwihAb-SWMlDgmg3si_c8Q` 與 `1fZgUOvgrGdIYaDepzfHHDlItMPfhbJSc`，查共享認領及已交稿。
