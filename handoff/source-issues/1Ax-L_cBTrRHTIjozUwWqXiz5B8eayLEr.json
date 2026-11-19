@@ -1,0 +1,10 @@
+{
+  "paperId": "1Ax-L_cBTrRHTIjozUwWqXiz5B8eayLEr",
+  "status": "source-coordinate-conflict",
+  "sourceSha256": "e488e8ba090044ef389294dfd81bb9b984c4bba0d27cb6fb7075e37094f59c29",
+  "sourceUrl": "https://drive.google.com/file/d/1Ax-L_cBTrRHTIjozUwWqXiz5B8eayLEr/view",
+  "question": "第二部分第4題",
+  "reason": "原 DOC 用 Microsoft Word 唯讀開啟並原生輸出，圖上覆蓋文字標示 C(0,12)、B(0,16)，然而 B 繪於 x 軸，與該座標矛盾；圖形底層內嵌原圖另印 C(0,8)、B(12,0)，與覆蓋文字又不同。不能推定哪組座標為最終有效條件。",
+  "evidence": "2026-11-19 以 Microsoft Word 停用巨集、唯讀開啟原 DOC 後輸出 PDF；原生輸出與 LibreOffice 參考頁均顯示相同覆蓋文字。從 Word 原始內嵌圖取出的 JPEG 顯示底層不同座標。參考檔暫存於本機 scratch/1ax-audit/word-native.pdf 與 scratch/1ax-audit/img/21.jpg，僅作調查用途。",
+  "disposition": "保留現有轉錄及停用狀態，不以猜測選擇座標；如取得官方更正或答案原檔，先核對題號及條件後再處理。"
+}
