@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v111 中華七年級（2026-11-19）
+
+中華108上七一 `1fZgUOvgrGdIYaDepzfHHDlItMPfhbJSc` 補為26/26，取代原部分題；105下七一 `1o60p6gVoQrwplTtqU5impxS6HvtOsoK5` 21/21。作者對照原卷及向量圖，建置18,012題、78項測試通過，部署另查。續處理中華部分卷 `1k-T9wedtWmZ4qTyP7Vomjl25Xpox6ymv`、`12qTzBXv1TN3qhRIt0gGZSugu3m7UQzh1`，先核對認領與來源。
+
 ## v110 羅東七年級（2026-11-19）
 
 羅東106上七一 `ld-106-1-1-7` 補成22/22；105下七二 `ld-105-2-2-7` 21/22，原題條件允許比例0:0停用。作者對照來源及重繪圖形，建置17,990題、78項測試通過；部署另查。後續處理中華 `1o60p6gVoQrwplTtqU5impxS6HvtOsoK5` 及部分卷 `1fZgUOvgrGdIYaDepzfHHDlItMPfhbJSc`。
