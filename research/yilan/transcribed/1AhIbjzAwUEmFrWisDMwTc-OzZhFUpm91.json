@@ -156,11 +156,11 @@
       "blocks": [
         {
           "type": "text",
-          "text": "已知 $\\angle A$ 與 $\\angle B$ 的兩邊互相垂直。若 $\\angle A=48^\\circ$，則 $\\angle B=＿＿＿＿$。"
+          "text": "已知 $\\angle A$ 與 $\\angle B$ 的兩邊互相垂直。若 $\\angle A=48^\\circ$，則 $\\angle B=＿＿＿＿$。（請列出所有可能值。）"
         }
       ],
-      "usable": false,
-      "sourceIssue": "兩角邊分別垂直時可同為48度或互補為132度，未指定取哪一種。"
+      "usable": true,
+      "reviewNote": "官方對應答案卷第1頁第7題列48、132，故提示列出所有可能值。"
     },
     {
       "type": "fill",
@@ -537,6 +537,14 @@
           "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 180\"><g stroke=\"black\" stroke-width=\"1.8\" fill=\"none\"><path d=\"M70 25 H170 L205 145 H35 Z M58 65 H182 M47 105 H194 M170 25 V145 M160 145 V135 H170\"/></g><g fill=\"black\" font-size=\"13\"><text x=\"60\" y=\"20\">A</text><text x=\"18\" y=\"160\">B</text><text x=\"208\" y=\"160\">C</text><text x=\"172\" y=\"20\">D</text><text x=\"42\" y=\"64\">E</text><text x=\"184\" y=\"64\">F</text><text x=\"31\" y=\"104\">G</text><text x=\"196\" y=\"104\">H</text><text x=\"165\" y=\"160\">P</text></g></svg>"
         }
       ]
+    }
+  ],
+  "additionalSources": [
+    {
+      "id": "11wJvmTNS4dRpw6sGsJo-09w0r-UsG20A",
+      "url": "https://drive.google.com/file/d/11wJvmTNS4dRpw6sGsJo-09w0r-UsG20A/view",
+      "sha256": "84256dfb21ad085d8ae59d1bb45f55882cfe907934ec0829d7272c473a3f57b9",
+      "note": "官方107資料夾內答案卷，實際卷首印108下八三；題目與本卷對照一致，第7題明列48、132。"
     }
   ]
 }

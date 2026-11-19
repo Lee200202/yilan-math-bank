@@ -27,9 +27,17 @@ def main():
             override=overrides[p['id']]
             if override['sourceSha256']!=p['sha256']:raise ValueError(f'Metadata evidence invalidated: {p["id"]}')
             p.update(override);p['metadataConflict']=False
-    answers={}
+    # A shared slot can contain different paper versions or answer keys.
+    # Infer a link only when both the source paper and answer are unambiguous.
+    slot=lambda p:(p['school'],p['year'],p['semester'],p['grade'],p['exam'])
+    answer_candidates=collections.defaultdict(set)
+    question_sources=collections.defaultdict(set)
     for p in raw:
-        if p.get('kind')=='answer':answers[(p['school'],p['year'],p['semester'],p['grade'],p['exam'])]=p['url']
+        if p.get('kind')=='answer':answer_candidates[slot(p)].add(p['url'])
+        elif p.get('kind','question')=='question':question_sources[slot(p)].add(p['sha256'])
+    answers={k:next(iter(v)) for k,v in answer_candidates.items() if len(v)==1 and len(question_sources[k])==1}
+    answer_by_id={p['id']:p for p in raw if p.get('kind')=='answer'}
+    answer_overrides=read('research/answer-link-overrides.json') if (ROOT/'research/answer-link-overrides.json').exists() else {}
     papers=[];all_ids={}
     for p in raw:
         if p.get('kind','question')!='question':continue
@@ -52,6 +60,12 @@ def main():
         warning=p.get('metadataWarning','')
         if p.get('metadataConflict'):warning='官方檔名／資料夾與卷首次別不一致，保留官方分類，待核對。'
         paper={'id':p['id'],'region':'yilan','school':p['school'],'year':p['year'],'semester':p['semester'],'grade':p['grade'],'exam':p['exam'],'title':p.get('name',p.get('title',src.name)),'file':f'./papers/{dest.name}','format':ext[1:],'sha256':sha,'bytes':src.stat().st_size,'sourceUrl':p.get('sourceUrl',p.get('url')),'sourcePage':p['sourcePage'],'curriculum108':p['year']>=108+p['grade']-7,'track':p.get('track','regular'),'questionCount':0,'warning':warning,'answerUrl':answers.get((p['school'],p['year'],p['semester'],p['grade'],p['exam'])),'metadataBasis':p.get('metadataBasis','official-linked-source')}
+        if p['id'] in answer_overrides:
+            override=answer_overrides[p['id']]
+            answer=answer_by_id.get(override['answerId'])
+            if override['sourceSha256']!=sha or not answer or answer['sha256']!=override['answerSha256'] or not override.get('evidence'):
+                raise ValueError(f'Answer link evidence invalidated: {p["id"]}')
+            paper['answerUrl']=answer['url']
         if render_dest:
             paper['originalFile']=paper['file'];paper['file']=f'./papers/{render_dest.name}';paper['renderSha256']=p['renderSha256'];paper['renderedFrom']=ext[1:]
         if p.get('sourceFolderYear'):

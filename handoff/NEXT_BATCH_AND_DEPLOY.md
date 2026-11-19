@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v120 宜蘭答案逐卷配對（2026-11-19）
+
+修復同校同年同考次不同版本誤連答案：只有來源題卷與答案候選均唯一才自動配對，模糊時先隱藏；七個模糊時段涉及17張原卷卡。兩份中華108下八三題卷已逐頁核對並以原卷、答案 SHA 鎖定覆寫：`161rWGzcQYllb6Vl0DXXV1sjxuPMFzpDP` 配 `17_4Eufq7lx0g7POM4C1GkzuxqFiY-THj`，`1AhIbjzAwUEmFrWisDMwTc-OzZhFUpm91` 配 `11wJvmTNS4dRpw6sGsJo-09w0r-UsG20A`；後者答案檔存於107資料夾但卷首印108。後者第7題官方答案列48、132，保留原文並加註列出所有可能值，恢復為23/25；第1、4題仍停用。建置19,353題、80項測試通過；正式部署另查。不可將資料夾不同年份的答案按檔名猜配。
+
 ## v116 中華九年級答案核對（2026-11-19）
 
 中華 `1NDDc1dMwyG5mfZtJxnfHI9PFLXPZRs2R` 第11題官方解答明列7或1；保留原題並加註列出所有可能值，題目恢復，全卷25/25，答案來源 SHA 已留存。本機18,074題、79項測試通過；部署另查。另一卷 `1lfI6ABhLk5KLFkt2x2-ats3M93gZD-8s` 計算2原題未排除 x=y，官方答案未釐清，維持停用。
