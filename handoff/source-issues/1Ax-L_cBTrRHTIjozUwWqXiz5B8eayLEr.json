@@ -7,5 +7,12 @@
   "reason": "原 DOC 用 Microsoft Word 唯讀開啟並原生輸出，圖上覆蓋文字標示 C(0,12)、B(0,16)，然而 B 繪於 x 軸，與該座標矛盾；圖形底層內嵌原圖另印 C(0,8)、B(12,0)，與覆蓋文字又不同。不能推定哪組座標為最終有效條件。",
   "evidence": "2026-11-19 以 Microsoft Word 停用巨集、唯讀開啟原 DOC 後輸出 PDF；原生輸出與 LibreOffice 參考頁均顯示相同覆蓋文字。從 Word 原始內嵌圖取出的 JPEG 顯示底層不同座標。參考檔暫存於本機 scratch/1ax-audit/word-native.pdf 與 scratch/1ax-audit/img/21.jpg，僅作調查用途。",
   "answerEvidence": "官方解答 PDF 第3頁第二部分第4題列100π（對應半徑10），來源 https://drive.google.com/file/d/1ksYefdYhvbCnyAatz7xILd7GvIhdIv0W/view，SHA-256 298781c73e7e1bff95acf806b24b416f40c910ac65225c13f7c82a8d4c0f407b。該答案雖與圖上兩軸截距為12及16的意圖一致，但沒有提供明確更正 B 座標的文字。",
-  "disposition": "保留現有轉錄及停用狀態，不以答案推測修改印刷座標；如取得官方更正，先核對題號及條件後再處理。"
+  "disposition": "保留現有轉錄及停用狀態，不以答案推測修改印刷座標；如取得官方更正，先核對題號及條件後再處理。",
+  "thirdPart1": {
+    "question": "第三部分第1題",
+    "reason": "原始 Word 原生輸出的題文在「在圓O上取一點E」之後缺少如何作線的描述，接著稱與AD、AF交於B、C。原圖看似BC在E與圓相切，但圖形外觀不能嚴格代替明文條件。",
+    "answerEvidence": "同資料夾兩個答案PDF（1ksYefdYhvbCnyAatz7xILd7GvIhdIv0W、1-pEXtHXMX4tJEomkjFj4MICMQc9JcgiP）SHA均為298781c73e7e1bff95acf806b24b416f40c910ac65225c13f7c82a8d4c0f407b；第3頁答案表第3部分第1題列25/2，未提供缺失條件的正式更正文。",
+    "inference": "若假設BC在E處為切線，切線長性質可推出三角形周長為2AD，與官方答案25/2一致；這是由圖與答案推測，非原文明確條件。",
+    "disposition": "保留停用，不以推測補寫切線條件；若找到官方更正或可明示切線的原始來源再核對。"
+  }
 }
