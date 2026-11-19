@@ -15,12 +15,12 @@ test('different papers in the same exam slot use their verified answer links', (
     ['16EeKUo1TFlipf950nPiry7mpCxdq6Cp-', '1i5ZEhOk5jvqIfMaOYhNln98ct4iSqXsS'],
     ['1x_Ioixv3cP69BEPRAJMCv9Btt2YkoGds', '11I_qdXuSSAoqTpKaPFzIl8r8-PnLk_iC'],
     ['174QCQASOMa3gnCdI0oS0BADxGv_cZO3P', '1yiJee3C3GPtVFBLJiMiOHVaPqsUHVf-6'],
+    ['1ZZUkKjnXYPQn5CwCnQPqN9ayYj__D6wS', '1tta6VIhUs8-oW_skjAW2btYnox9Tm1Td'],
   ]) {
     const paper = papers.find(p => p.id === id);
     assert.ok(paper);
     assert.ok(paper.answerUrl?.includes(answer), `${id} must use its verified answer`);
   }
-  assert.ok(!papers.find(p => p.id === '1ZZUkKjnXYPQn5CwCnQPqN9ayYj__D6wS').answerUrl);
   const corrected = papers.find(p => p.id === '1x_Ioixv3cP69BEPRAJMCv9Btt2YkoGds');
   assert.match(corrected.answerNote, /第19題.*更正單/);
   assert.ok(corrected.correctionUrl.includes('1DPFTOWYDFmS4UcZRIG9sFGYXNiyc3Ruf'));
