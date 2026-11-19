@@ -10,10 +10,10 @@
   },
   "printedCounts": "選擇2題、公式解1題、因式分解6題、方程8題、統計圖題3組共8小題。",
   "visualReviewComplete": true,
-  "reviewNote": "依原卷文字轉寫及重繪3張統計折線圖，統計題依同一圖表保留多個空格。抽班身分保留。",
+  "reviewNote": "依原卷文字轉寫及重繪3張統計折線圖，統計題依同一圖表保留多個空格。抽班身分保留。 統計2依小題拆分；第(1)小題因首組刻度疑義維持停用，第(2)小題只使用280秒以後的三組。",
   "expectedTypes": {
     "choice": 2,
-    "fill": 18,
+    "fill": 19,
     "written": 0
   },
   "questions": [
@@ -324,7 +324,7 @@
     },
     {
       "type": "fill",
-      "sourceNumber": "統計2",
+      "sourceNumber": "統計2(1)",
       "page": 2,
       "difficulty": "medium",
       "primaryUnitId": "nanyi-8-1-5-1",
@@ -335,7 +335,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "甲班學生800公尺測驗成績相對次數分配折線圖如圖。 (1) 成績未滿260秒的人數占全班百分比為＿＿＿＿%；(2) 全班50人，成績280秒以上（含）的人數為＿＿＿＿人。"
+          "text": "甲班學生800公尺測驗成績相對次數分配折線圖如圖。成績未滿260秒的人數占全班百分比為＿＿＿＿%。"
         },
         {
           "type": "svg",
@@ -345,6 +345,28 @@
       ],
       "usable": false,
       "sourceIssue": "原卷橫軸等距標為200、240、260、280、300、320、340，第一組刻度間距與其餘不一致，無法確定第一組範圍。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "統計2(2)",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-5-1",
+      "unitIds": [
+        "nanyi-8-1-5-1"
+      ],
+      "unitAssignmentBasis": "一元二次方程式、因式分解或統計圖表。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "甲班學生800公尺測驗成績相對次數分配折線圖如圖。全班50人，成績280秒以上（含）的人數為＿＿＿＿人。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 190\"><g stroke=\"#999\" fill=\"none\" stroke-width=\"0.6\"><path d=\"M45 155.0 H345\"/><path d=\"M45 140.0 H345\"/><path d=\"M45 125.0 H345\"/><path d=\"M45 110.0 H345\"/><path d=\"M45 95.0 H345\"/><path d=\"M45 80.0 H345\"/><path d=\"M45 65.0 H345\"/><path d=\"M45 50.0 H345\"/><path d=\"M45 35.0 H345\"/></g><g font-size=\"10\" fill=\"#111\"><text x=\"20\" y=\"158.0\">0</text><text x=\"20\" y=\"143.0\">4</text><text x=\"20\" y=\"128.0\">8</text><text x=\"20\" y=\"113.0\">12</text><text x=\"20\" y=\"98.0\">16</text><text x=\"20\" y=\"83.0\">20</text><text x=\"20\" y=\"68.0\">24</text><text x=\"20\" y=\"53.0\">28</text><text x=\"20\" y=\"38.0\">32</text><text x=\"37.0\" y=\"170\">200</text><text x=\"87.0\" y=\"170\">240</text><text x=\"137.0\" y=\"170\">260</text><text x=\"187.0\" y=\"170\">280</text><text x=\"237.0\" y=\"170\">300</text><text x=\"287.0\" y=\"170\">320</text><text x=\"337.0\" y=\"170\">340</text><text x=\"45\" y=\"20\">相對次數（%）</text><text x=\"300\" y=\"184\">成績（秒）</text></g><polyline fill=\"none\" stroke=\"#111\" points=\"70.0,125.0 120.0,95.0 170.0,65.0 220.0,42.5 270.0,102.5 320.0,125.0\"/><circle cx=\"70.0\" cy=\"125.0\" r=\"2\"/><text x=\"67.0\" y=\"120.0\" font-size=\"10\">8</text><circle cx=\"120.0\" cy=\"95.0\" r=\"2\"/><text x=\"117.0\" y=\"90.0\" font-size=\"10\">16</text><circle cx=\"170.0\" cy=\"65.0\" r=\"2\"/><text x=\"167.0\" y=\"60.0\" font-size=\"10\">24</text><circle cx=\"220.0\" cy=\"42.5\" r=\"2\"/><text x=\"217.0\" y=\"37.5\" font-size=\"10\">30</text><circle cx=\"270.0\" cy=\"102.5\" r=\"2\"/><text x=\"267.0\" y=\"97.5\" font-size=\"10\">14</text><circle cx=\"320.0\" cy=\"125.0\" r=\"2\"/><text x=\"317.0\" y=\"120.0\" font-size=\"10\">8</text></svg>"
+        }
+      ]
     },
     {
       "type": "fill",
