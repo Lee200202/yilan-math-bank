@@ -1,0 +1,617 @@
+{
+ "paperId": "metro-new_taipei-4c5003ecca07d4d3",
+ "sourceSha256": "ac08a9a9aa994ad0b4437b8c0686f8b2391c2e9c0b23c817f22d28f458e4085a",
+ "printedHeader": "新北市立溪崑國民中學107學年度第一學期第一次定期評量數學科試題卷",
+ "printedSlot": {
+  "year": 107,
+  "semester": 1,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、填充10題、計算4題。",
+ "visualReviewComplete": true,
+ "reviewNote": "text.md 中多數公式為亂碼圖片（第1、3、4、6、10、11、18~25 等），改以 wmf 文字與 Word 轉出的頁面圖逐題讀出，並以答案頁驗算。重繪填充7矩形圖、計算1雙圓圖；填充10附表以表格呈現；第4頁答案卷與解答不收錄。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 10,
+  "written": 4
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "零多項式各項係數為0。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a$、$b$、$c$ 為常數，且 $(-a-2)x^2+(b-3)x+c+5$ 為零多項式，則 $a+b+c=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$10$",
+      "$6$",
+      "$-4$",
+      "$-6$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式加減後的次數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $A$ 為三次多項式，$B$ 為四次多項式，則 $4A-3B$ 為幾次多項式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "零次",
+      "三次",
+      "四次",
+      "十二次"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "辨認多項式的定義（分母含文字、絕對值）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列各式中，"
+    },
+    {
+     "type": "text",
+     "text": "(甲) $\\dfrac{x}{5}-4$"
+    },
+    {
+     "type": "text",
+     "text": "(乙) $2x^2-5|x-3|$"
+    },
+    {
+     "type": "text",
+     "text": "(丙) $x+\\dfrac{1}{x}$"
+    },
+    {
+     "type": "text",
+     "text": "(丁) $-3x^2+7x-5$"
+    },
+    {
+     "type": "text",
+     "text": "(戊) $1-\\dfrac{2}{3}x+0.4x^3$"
+    },
+    {
+     "type": "text",
+     "text": "共有幾個不是多項式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1$ 個",
+      "$2$ 個",
+      "$3$ 個",
+      "$4$ 個"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "餘式次數須小於除式次數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $A$、$B$ 均為 $x$ 的多項式。若 $A\\div B$ 得餘式為 $-x+10$，則下列何者不可能是多項式 $B$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x+3$",
+      "$x^2-2x+3$",
+      "$-x^3+3x-4$",
+      "$3x^{10}-4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "除式變為3倍時商式與餘式的變化。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $A$、$B$ 均為 $x$ 的多項式，且 $B\\ne0$。若 $A\\div B$ 的商式為 $x-5$，餘式為 $7$，則下列何者為 $A\\div3B$ 的商式及餘式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "商式為 $x-5$，餘式為 $7$",
+      "商式為 $\\dfrac{x-5}{3}$，餘式為 $\\dfrac{7}{3}$",
+      "商式為 $x-5$，餘式為 $\\dfrac{7}{3}$",
+      "商式為 $\\dfrac{x-5}{3}$，餘式為 $7$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根與算術平方根的敘述判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列各項敘述中"
+    },
+    {
+     "type": "text",
+     "text": "(甲) $9\\dfrac{1}{4}$ 的平方根為 $3\\dfrac{1}{2}$ 及 $-3\\dfrac{1}{2}$"
+    },
+    {
+     "type": "text",
+     "text": "(乙) $\\sqrt{0.16}=0.4$"
+    },
+    {
+     "type": "text",
+     "text": "(丙) $\\sqrt{-4}=-2$"
+    },
+    {
+     "type": "text",
+     "text": "(丁) $6$ 的平方根為 $36$"
+    },
+    {
+     "type": "text",
+     "text": "(戊) $49$ 的平方根為 $7$ 與 $-7$"
+    },
+    {
+     "type": "text",
+     "text": "(己) $\\sqrt{64}$ 的平方根為 $8$ 與 $-8$"
+    },
+    {
+     "type": "text",
+     "text": "正確的有幾個？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4$ 個",
+      "$3$ 個",
+      "$2$ 個",
+      "$1$ 個"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "連乘積利用平方差公式化簡後判斷位數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $9\\times11\\times101\\times10001\\times100000001$ 的乘積為幾位數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "十六位數",
+      "十七位數",
+      "七位數",
+      "八位數"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "利用乘法公式估算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "估算 $2018\\times\\dfrac{2018}{2020}$，其值最接近下列哪一個數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2015$",
+      "$2016$",
+      "$2017$",
+      "$2018$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "利用和的平方公式計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $999.5^2=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$9990000.25$",
+      "$999000.25$",
+      "$99900.25$",
+      "$9990.25$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "質數與乘法公式的綜合判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a$、$b$ 為兩個質數且相差 $6$，則 $ab+9$ 的值可能為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$31^2$",
+      "$32^2$",
+      "$33^2$",
+      "$34^2$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "帶分數化假分數求平方根。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求 $1\\dfrac{69}{100}$ 平方根＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "質因數分解式的平方根。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求 $2^4\\times3^2\\times5^2$ 平方根＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式減法並按降冪排列。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將下列多項式化簡並將結果按降冪排列：$(3x^2-2x+7)-(-2x+4x^2+1)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "差的平方公式展開。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "展開多項式 $(3x-5)^2=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "被除式＝除式×商式＋餘式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一多項式除以 $4x^2-1$ 得商式為 $2x+1$，餘式為 $7$，則該多項式為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "移項整理後以多項式除法求 $A$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$A$ 為多項式，若 $\\dfrac{2x^2+x-20}{A}=(x+3)-\\dfrac{5}{A}$，則 $A=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "由面積關係整理多項式乘法的係數組合。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，若甲、乙、丙、丁四個長方形的面積分別為 $a$、$b$、$c$、$d$，求 $a+2b+2c+4d=$＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 165\"><g fill=\"#f6e8ef\" stroke=\"#111\" stroke-width=\"1.4\"><rect x=\"30\" y=\"22\" width=\"108\" height=\"102\"/><rect x=\"138\" y=\"22\" width=\"36\" height=\"102\"/><rect x=\"30\" y=\"124\" width=\"108\" height=\"24\"/><rect x=\"138\" y=\"124\" width=\"36\" height=\"24\"/></g><g fill=\"none\" stroke=\"#111\" stroke-width=\"1\"><polyline points=\"30,30 38,30 38,22\"/><polyline points=\"166,22 166,30 174,30\"/><polyline points=\"30,140 38,140 38,148\"/><polyline points=\"166,148 166,140 174,140\"/></g><g font-size=\"16\" fill=\"#111\"><text x=\"76\" y=\"14\">18</text><text x=\"150\" y=\"14\">6</text><text x=\"6\" y=\"78\">17</text><text x=\"10\" y=\"141\">4</text><text x=\"76\" y=\"78\">甲</text><text x=\"148\" y=\"78\">乙</text><text x=\"76\" y=\"141\">丙</text><text x=\"148\" y=\"141\">丁</text></g></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "開平方解方程式，兩解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $(-2x+5)^2=9$，則 $x=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "根號內化為完全平方數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $m$ 為正整數，若 $\\sqrt{80\\times m}$ 為正整數，則 $m$ 的最小值為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "利用平方根表求近似值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用下附表求出下列各數的值或近似值。（請以附表內容作答，無須四捨五入）(每小題各2%)"
+    },
+    {
+     "type": "text",
+     "text": "(1) $\\sqrt{230}$＝＿＿＿＿　(2) $\\sqrt{2.4}$＝＿＿＿＿"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "$N$",
+       "$N^2$",
+       "$\\sqrt{N}$",
+       "$\\sqrt{10N}$"
+      ],
+      [
+       "23",
+       "529",
+       "4.795 832",
+       "15.165 75"
+      ],
+      [
+       "24",
+       "576",
+       "4.898 979",
+       "15.491 93"
+      ],
+      [
+       "37",
+       "1369",
+       "6.082 763",
+       "19.235 38"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "兩圓面積差，利用平方差公式計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，小圓在大圓裡面，若這兩個圓的半徑分別為 $259\\dfrac{5}{8}$、$140\\dfrac{3}{8}$，求灰色區域的面積。（圓周率以 $\\pi$ 表示）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 212\"><circle cx=\"110\" cy=\"106\" r=\"86\" fill=\"#d0d0d0\" stroke=\"#111\" stroke-width=\"1.5\"/><circle cx=\"99\" cy=\"94\" r=\"57\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.5\"/></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "由錯誤結果還原多項式再正確運算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一道數學題為「兩個多項式 $A$、$B$，其中 $B=x^2-2x+1$，求 $A+B$」，小丸子在解題時誤將 $A+B$ 看成 $A-B$，算出的答案為 $5x^2-x+3$，則 $A+B$ 的正確答案為何？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式除法求商式與餘式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求 $(x^3+2x-1)\\div(2x+1)$ 的商式與餘式為何？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "估計平方根近似值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求 $\\sqrt{3}$ 的近似值，並以四捨五入法求至小數點後第一位。"
+    }
+   ]
+  }
+ ]
+}

@@ -226,3 +226,8 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 
 - 可組卷題數見建置結果。`npm test` 通過；24 卷 PDF 匯出檢查全數通過（`handoff/batches/20261119-o5w18-pdf-acceptance.json`）。疑義見 `handoff/batches/20261119-o5w18-SOURCE_ISSUES_REPORT.md`。高雄 9 卷依裁決標民族國中。（遠端先到，於其上重建。）
 - 正式站驗收：ALL PASS（`handoff/batches/20261119-v118/live-acceptance.json`）；正式站資料確認高雄卷顯示民族國中；已完成 787 卷。
+
+## v121（20261119-metro-v121）：第十九波 PDF（七年級）＋ Word/ODT 第六批（八上 106–108），21 卷
+
+- 可組卷題數 → 19,884。`npm test` 79 項通過；21 卷 PDF 匯出檢查全數通過。疑義見 `handoff/batches/20261119-o6w19-SOURCE_ISSUES_REPORT.md`。高雄 3 卷依裁決標民族國中。
+- 正式站驗收：發布後補。

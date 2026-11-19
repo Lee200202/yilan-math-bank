@@ -1,0 +1,620 @@
+{
+ "paperId": "metro-new_taipei-33d39823b8e7fd8c",
+ "sourceSha256": "e3f0063749066f9634862336d80dd56259b36bd3fc5066ab31756321070eb186",
+ "printedHeader": "新北市立新莊國民中學114學年度第2學期第1次段考7年級數學領域試題卷",
+ "printedSlot": {
+  "year": 114,
+  "semester": 2,
+  "grade": 7,
+  "exam": 1
+ },
+ "printedCounts": "選擇20題、非選擇2題（共10分）。",
+ "visualReviewComplete": true,
+ "reviewNote": "Compared every question with all three page images and the text layer. Redrew the Q13 two-circle figure (A outer/甲, B inner/乙, both on positive x-axis, counterclockwise).",
+ "expectedTypes": {
+  "choice": 20,
+  "written": 2
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "代入檢驗二元一次方程式的解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一組 $x$、$y$ 所代表的數是方程式 $-5x-4y=1$ 的解？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x=1$，$y=1$",
+      "$x=-1$，$y=1$",
+      "$x=1$，$y=-1$",
+      "$x=-1$，$y=-1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "依題意列二元一次聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知兄妹的年齡和為 30 歲，且哥哥年齡是妹妹年齡的 $\\dfrac{3}{2}$ 倍。若妹妹的年齡是 $x$ 歲，哥哥的年齡是 $y$ 歲，則下列哪一個二元一次聯立方程式符合題意？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\begin{cases}x+y=30\\\\ \\dfrac{3}{2}x=y\\end{cases}$",
+      "$\\begin{cases}x=y+30\\\\ x=\\dfrac{3}{2}y\\end{cases}$",
+      "$\\begin{cases}x-y=30\\\\ 2x=3y\\end{cases}$",
+      "$\\begin{cases}x+y=30\\\\ 2x=3y\\end{cases}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "由買賣差額列式求單價差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "媽媽叫君君到超市買 2 瓶沐浴乳和 4 瓶洗髮精，但君君買成 4 瓶沐浴乳和 2 瓶洗髮精，且多花了 60 元。下列選項何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "1 瓶洗髮精比 1 瓶沐浴乳貴 60 元",
+      "1 瓶洗髮精比 1 瓶沐浴乳便宜 30 元",
+      "1 瓶洗髮精比 1 瓶沐浴乳貴 30 元",
+      "1 瓶洗髮精比 1 瓶沐浴乳便宜 60 元"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "比較兩種優惠方案的花費。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某電影院推出兩種優惠方案：方案一：買一張全票送一張半票。方案二：全票八折優惠，半票不打折。小美和朋友共 3 人，其中 2 人買全票，1 人買半票。若全票原價 200 元，半票原價 100 元，他們選擇哪種方案會比較划算？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "方案一",
+      "方案二",
+      "兩種方案一樣划算",
+      "無法判斷"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "由兩組資料求單價並檢查總價。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "甲、乙、丙三個班一起訂購飲料，三個班購買的數量及總價如下表所示，已知其中一個班的總價算錯，請問是哪一個班級？"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "班級＼品項",
+       "甲",
+       "乙",
+       "丙"
+      ],
+      [
+       "紅茶（杯）",
+       "8",
+       "10",
+       "12"
+      ],
+      [
+       "奶茶（杯）",
+       "12",
+       "15",
+       "18"
+      ],
+      [
+       "總價（元）",
+       "520",
+       "650",
+       "760"
+      ]
+     ]
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲",
+      "乙",
+      "丙",
+      "無法判斷"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-3-1",
+   "unitIds": [
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "點到坐標軸的距離與坐標。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $A$ 點與 $x$ 軸的距離為 2 個單位長，與 $y$ 軸的距離為 3 個單位長，則下列哪一點可能是 $A$ 點的坐標？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(-2,-3)$",
+      "$(-3,2)$",
+      "$(-2,2)$",
+      "$(3,-3)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-3-1",
+   "unitIds": [
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "坐標平面上的平移。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在一坐標平面上，若從平面上的點 $(-1,2)$ 出發，向下移動再向右移動，則可能移動到下列哪一點？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(3,3)$",
+      "$(4,-1)$",
+      "$(-3,-1)$",
+      "$(-4,3)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "代入解求方程式中的未知係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若二元一次聯立方程式 $\\begin{cases}3x-y=-5\\\\ 2y-x=\\square\\end{cases}$ 的解為 $x=-2$、$y=b$，則 $\\square=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3$",
+      "$4$",
+      "$0$",
+      "$-4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-3-1",
+   "unitIds": [
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "由象限判斷坐標的正負號。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $(a,b)$ 在第四象限，則 $(-a,b^3)$ 在第幾象限？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "第一象限",
+      "第二象限",
+      "第三象限",
+      "第四象限"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "代入消去法解聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若聯立方程式 $\\begin{cases}x=-2y\\ \\cdots\\cdots①\\\\ 3x+4y=2\\cdots\\cdots②\\end{cases}$ 的解為 $x=a$、$y=b$，則 $a+b=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$",
+      "$-2$",
+      "$1$",
+      "$-1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "加減消去法的步驟檢查。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知聯立方程式 $\\begin{cases}3x-5y=4\\ \\cdots\\cdots①\\\\ 4x-2y=10\\ \\cdots\\cdots②\\end{cases}$，若用加減消去法求解，下列何者開始出現錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "由①式$\\times4$，②式$\\times3$ 得 $\\begin{cases}12x-20y=16\\ \\cdots\\cdots③\\\\ 12x-6y=30\\ \\cdots\\cdots④\\end{cases}$",
+      "由④式$-$③式可得 $-14y=14$，$y=-1$",
+      "將 $y=-1$ 代入②式，得 $4x+2=10$，$4x=8$，$x=2$",
+      "故 $x=2$，$y=-1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2",
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "解聯立方程式並判斷象限。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $x+2y=7x-y=5$，則 $(x,y)$ 會落在第幾象限？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "第一象限",
+      "第二象限",
+      "第三象限",
+      "第四象限"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "13",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-3-1",
+   "unitIds": [
+    "nanyi-7-2-3-1"
+   ],
+   "unitAssignmentBasis": "以圓周運動的週期判斷所在象限。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，$A$、$B$ 兩點在 $x$ 軸上。今甲、乙兩車分別從 $A$、$B$ 兩點同時出發，以逆時針方向分別繞著大、小圓周行駛。若甲車每 35 分鐘繞一圈，乙車每 25 分鐘繞一圈，則當乙車剛好繞完第三圈時，甲車位於第幾象限？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 170\"><line x1=\"10\" y1=\"85\" x2=\"190\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"160\" stroke=\"#111\" stroke-width=\"1.2\"/><polygon points=\"190,85 183,82 183,88\" fill=\"#111\"/><polygon points=\"90,10 87,17 93,17\" fill=\"#111\"/><circle cx=\"90\" cy=\"85\" r=\"68\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"90\" cy=\"85\" r=\"44\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><circle cx=\"134\" cy=\"85\" r=\"2.5\" fill=\"#111\"/><circle cx=\"158\" cy=\"85\" r=\"2.5\" fill=\"#111\"/><path d=\"M 134 85 A 44 44 0 0 0 132 72\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M 158 85 A 68 68 0 0 0 155 65\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"124\" y=\"101\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"156\" y=\"101\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"120\" y=\"115\" font-size=\"12\" fill=\"#111\">乙</text><text x=\"140\" y=\"115\" font-size=\"12\" fill=\"#111\">(甲)</text><text x=\"190\" y=\"79\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">x</text><text x=\"96\" y=\"12\" font-size=\"13\" font-style=\"italic\" fill=\"#111\">y</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "第一象限",
+      "第二象限",
+      "第三象限",
+      "第四象限"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "14",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-1",
+   "unitIds": [
+    "nanyi-7-2-2-1"
+   ],
+   "unitAssignmentBasis": "質數條件下的二元一次方程式整數解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x$、$y$ 皆為質數，則滿足 $3x+2y=43$ 的所有解共有幾組。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4$",
+      "$3$",
+      "$2$",
+      "$1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "15",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "分配問題列聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將 200 根香蕉分給 200 隻猴子，大猴子每隻分 2 根，小猴子 3 隻分 2 根，恰好可分完，請問大猴子和小猴子相差幾隻？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "50 隻",
+      "60 隻",
+      "80 隻",
+      "100 隻"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "16",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "年齡問題列聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知今年小庭的父親和小庭的年齡和為 84 歲，且 4 年前，小庭父親的年齡是小庭的 3 倍，則小庭今年幾歲？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "17 歲",
+      "23 歲",
+      "38 歲",
+      "61 歲"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "17",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "含促銷條件的數量關係列式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某鞋店有甲鞋和乙襪各 50 雙，甲鞋一雙 2000 元，乙襪一雙 290 元。該店促銷的方式：買一雙甲鞋，送一雙乙襪；只買乙襪沒有任何優惠。若打烊後得知，此兩商品共賣得 42900 元，還剩甲鞋 $x$ 雙、乙襪 $y$ 雙，則依題意可列出下列哪一個方程式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2000(50-x)+290(50-y)=42900$",
+      "$2000(50-x)+290(50-x-y)=42900$",
+      "$2000(50-x)+290(100-x-y)=42900$",
+      "$2000(50-x)+290[50-(50-x)-y]=42900$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "18",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "由看錯係數的解求原方程式的係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小宥和大方解二元一次聯立方程式 $\\begin{cases}3x+by=24\\\\ ax+3y=13\\end{cases}$，小宥看錯 $b$，得 $x=2$、$y=3$；大方看錯 $a$，得 $x=6$、$y=2$，則 $a+b=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$",
+      "$3$",
+      "$4$",
+      "$5$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "19",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-1-3-1",
+   "unitIds": [
+    "nanyi-7-1-3-1",
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "分式式子的加減與係數比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$\\dfrac{3x-2y+3}{6}-\\dfrac{2x-y-3}{9}$，其結果為 $ax+by-c$，其中 $a$、$b$、$c$ 均為常數，求 $5a+b+c=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$36$",
+      "$2$",
+      "$\\dfrac{19}{18}$",
+      "$\\dfrac{1}{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "20",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-2-3",
+   "unitIds": [
+    "nanyi-7-2-2-3"
+   ],
+   "unitAssignmentBasis": "由兩組價格求單價並檢驗各種買法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知買 2 瓶牛奶與 3 瓶紅茶需 116 元，買 3 瓶牛奶與 4 瓶紅茶需 164 元。若小侑有 3 張百元鈔，則下列哪一種買法剛好不用找錢？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "5 瓶牛奶，7 瓶紅茶",
+      "5 瓶牛奶，8 瓶紅茶",
+      "6 瓶牛奶，7 瓶紅茶",
+      "4 瓶牛奶，8 瓶紅茶"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 3,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-2-2",
+   "unitIds": [
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "含分數、小數係數的聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解二元一次聯立方程式 $\\begin{cases}x-\\dfrac{1}{3}y=0\\ \\cdots\\cdots①\\\\ x+0.5y=5\\ \\cdots\\cdots②\\end{cases}$　（4 分）"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-3-1",
+   "unitIds": [
+    "nanyi-7-2-3-1",
+    "nanyi-7-2-2-2"
+   ],
+   "unitAssignmentBasis": "坐標平面上的平移與聯立方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "坐標平面上，若以東為 $x$ 軸的正向，以北為 $y$ 軸的正向。阿齊家位於 $(2m,\\ 3n+1)$，小淏家位於 $(n-7,\\ 1-m)$。阿齊從家裡出發，向西走 3 公里，再向南走 5 公里；小淏從家裡出發，向北走 2 公里，再向東走 4 公里，都可到達小鈞家。求："
+    },
+    {
+     "type": "text",
+     "text": "(1) $m$、$n$ 的值。（4 分）"
+    },
+    {
+     "type": "text",
+     "text": "(2) 小鈞家的坐標。（2 分）"
+    }
+   ]
+  }
+ ]
+}

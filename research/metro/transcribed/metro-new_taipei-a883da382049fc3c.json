@@ -1,0 +1,567 @@
+{
+ "paperId": "metro-new_taipei-a883da382049fc3c",
+ "sourceSha256": "4cb781c1672b53445a53bd1cc3d51d7df1b71863ce937acbefdc3b4f8a8205dd",
+ "printedHeader": "新北市立溪崑國民中學106學年度第一學期第一次定期評量 數學科 試題卷 八年級",
+ "printedSlot": {
+  "year": 106,
+  "semester": 1,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、填充10格、計算4題（第2題2小題）。",
+ "visualReviewComplete": true,
+ "reviewNote": "text.md 的公式皆為圖片（img 01-78），改以 Word 轉 PDF 頁面圖逐題對照並用答案頁驗算；公式圖 PNG 部分重疊亂碼（答案頁 72-78）。重繪計算3重疊圖1幅。選擇4選項(A)原文漏印 $b$（印作『=0』），依題意補 $b$；填充7『B÷3C』依答案解讀為 $B\\div(3C)$。表頭年級旁有一繪圖形狀（圈字）無法擷取。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 10,
+  "written": 4
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "乘法公式的正誤判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列選項何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(m+n)^{2}=m^{2}+n^{2}$",
+      "$2(m-n)^{2}=m^{2}-2mn-n^{2}$",
+      "$113\\times 87=100^{2}-13^{2}$",
+      "$\\left(5\\dfrac{3}{7}\\right)^{2}=5^{2}+\\left(\\dfrac{3}{7}\\right)^{2}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式次數與除法名詞的判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "兩個 $x$ 的二次多項式相加，其結果也是 $x$ 的二次多項式。",
+      "兩個 $x$ 的二次多項式相減，其結果是 $x$ 的零次多項式。",
+      "在多項式除法中，餘式的次數必小於商式的次數。",
+      "在多項式除法中，當餘式為 0 時，則稱除式可以整除被除式。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式的定義、次數與排列。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "關於 $x$ 的多項式，下列何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2x^{2}+x-3=0$ 是 $x$ 的二次多項式",
+      "$\\dfrac{3}{5}x-2$ 是 $x$ 的一次多項式",
+      "$x^{2}+|x|-3$ 是 $x$ 的二次多項式",
+      "$5x^{3}-x^{2}+3x-7$ 是 $x$ 的升冪排列"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "零次多項式的係數條件。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若多項式 $(a+5)x^{2}+(b-2)x+(c-8)$ 是 $x$ 的零次多項式，則 $a$、$b$、$c$ 三個數的條件為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a=0$、$b=0$、$c=8$",
+      "$a=-5$、$b=2$、$c\\ne 8$",
+      "$a=-5$、$b=2$、$c=8$",
+      "$a$、$b$、$c$ 為任意數"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式乘法與同類項係數比對。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知多項式 $(3x^{2}+x+b)(ax-4)-13$ 化簡後是 $6x^{3}-10x^{2}-14x+c$，則 $a+b+c=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$14$",
+      "$-26$",
+      "$4$",
+      "$27$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "平方差公式與倍數判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $319^{2}-286^{2}$ 的值是下列何者的倍數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$319$",
+      "$286$",
+      "$505$",
+      "$11$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根的定義與性質判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判斷下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "若 $a$ 為任意數，則 $\\sqrt{a^{2}}=a$",
+      "若 $a=(-29)^{2}$，則 $a$ 是 $-29$ 的平方根",
+      "若 $a$ 是 29 的平方根，則 $-a$ 也是 29 的平方根",
+      "若 $a>0$，則 $a>\\sqrt{a}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "根號數值與大小的判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列根號的數值與大小何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{\\dfrac{13}{3}}>\\sqrt{\\dfrac{21}{5}}$",
+      "$-6>-\\sqrt{33}$",
+      "$\\sqrt{(-2)^{4}}>\\sqrt{(-7)^{2}}$",
+      "$\\sqrt{0.0025}=0.5$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "除法算式的商式與餘式關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $A$、$B$ 皆為多項式，且多項式 $A\\div B$ 得到商式為 $Q$，餘式為 $R$，則 $2A\\div 3B$ 得到的商式和餘式分別為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "商式為 $\\dfrac{2}{3}Q$、餘式為 $2R$",
+      "商式為 $2Q$、餘式為 $2R$",
+      "商式為 $\\dfrac{2}{3}Q$、餘式為 $\\dfrac{2}{3}R$",
+      "商式為 $Q$、餘式為 $R$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "由平方根的範圍估計整數個數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $A$ 為正整數，且 $9<\\sqrt{3A}\\le 18$，則 $A$ 的可能值有多少個？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$80$",
+      "$81$",
+      "$240$",
+      "$241$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "利用乘法公式（平方差）計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "根據乘法公式計算 $2007\\times 2005-2000^{2}$ 的值＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "完全平方公式，比對各項求 $k$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $(10.25)^{2}=10^{2}-k+0.25^{2}$，則 $k$ 的值＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式加減與去括號。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $(-5+3x^{2}-2x)-[3(4x^{2}+7-3x)-2(7x^{2}-5)]=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "由差反求被減式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若多項式 $A$ 減去 $(4x^{3}-7x^{2}+4x+9)$ 的差為 $(2x^{2}-x-8)$，則多項式 $A=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式除法求商式（整除條件）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $5x^{3}-3x^{2}-17x+m$ 能被 $5x+2$ 整除，則整除後的商＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "由被除式、商式、餘式反求除式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若多項式 $3x^{3}+5x^{2}-17x+11$ 除以 $B$，得到商式為 $3x-1$，餘式為 6，則多項式 $B=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式的加減與除法綜合運算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知多項式 $A$、$B$、$C$，且 $A=x^{2}-3x+4$，$B=-6x^{2}+3x+45$，$C=2x+5$，則 $2A-B\\div 3C=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根為整數的條件（質因數分解）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a$ 為正整數，若 $\\sqrt{5040\\times a}$ 為整數，則 $a$ 的最小值＝＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "查平方根表求近似值並四捨五入。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用下列乘方開方表，計算 $\\sqrt{260}+\\sqrt{28}=$＿＿＿＿。（以四捨五入法求到小數點後第 2 位）"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "$N$",
+       "$N^{2}$",
+       "$\\sqrt{N}$",
+       "$\\sqrt{10N}$"
+      ],
+      [
+       "26",
+       "676",
+       "5.099020",
+       "16.12452"
+      ],
+      [
+       "27",
+       "729",
+       "5.196152",
+       "16.43168"
+      ],
+      [
+       "28",
+       "784",
+       "5.291503",
+       "16.73320"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以方程式整體代換求多項式值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $2x^{2}-3x-5=0$，則 $(2x-7)(2x-1)(x+2)(x-1)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "平方差公式化簡分式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $\\dfrac{2018^{2}-1}{2019}-\\dfrac{2016\\times 2012+4}{2014}$。（5分）"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "由和與平方和求乘積，再求立方和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a+b=2$，$a^{2}+b^{2}=3$，則："
+    },
+    {
+     "type": "text",
+     "text": "(1) $ab=$？（3分）"
+    },
+    {
+     "type": "text",
+     "text": "(2) $a^{3}+b^{3}=$？（2分）"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "以面積相加減列式（重疊部分只算一次）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖所示，一個矩形與一個正方形重疊在一起。若重疊處是邊長為 2 的正方形，則疊合後的總面積為多少？（5分）"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 225 142\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"79\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"67\" y=\"62\" width=\"130\" height=\"58\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"50\" y=\"6\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">2x+3</text><text x=\"8\" y=\"52\" font-size=\"11\" text-anchor=\"end\" fill=\"#111\">2x+3</text><text x=\"202\" y=\"95\" font-size=\"11\" text-anchor=\"start\" fill=\"#111\">x−1</text><text x=\"132\" y=\"135\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">x+5</text><text x=\"77\" y=\"56\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">2</text><text x=\"56\" y=\"80\" font-size=\"11\" text-anchor=\"middle\" fill=\"#111\">2</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "由平方根的定義列二元一次方程組求值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $2a-b+1$ 的正平方根為 3，$3a+b-6$ 的負平方根為 $-4$，則 $2a+3b$ 的值為何？（5分）"
+    }
+   ]
+  }
+ ]
+}

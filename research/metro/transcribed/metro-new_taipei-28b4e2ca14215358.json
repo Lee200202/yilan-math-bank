@@ -1,0 +1,665 @@
+{
+ "paperId": "metro-new_taipei-28b4e2ca14215358",
+ "sourceSha256": "c31bc8045435b0e307d76825c53cf997ca95c01227134383a4e3b674286c236e",
+ "printedHeader": "新北市立溪崑國民中學108學年度第一學期第三次定期評量數學科試題卷",
+ "printedSlot": {
+  "year": 108,
+  "semester": 1,
+  "grade": 8,
+  "exam": 3
+ },
+ "printedCounts": "選擇24題（1~20題每題4分，21~24題每題5分）。",
+ "visualReviewComplete": true,
+ "reviewNote": "依 text.md 與 Word 轉出的頁面圖逐題對照；第15題係數分數圖為亂碼，由 wmf 讀出 1/2、1/6，並以答案卷驗算。重繪第18題正方形與第21題十字道路圖（挖土機插圖省略）。卷末答案頁未收錄。",
+ "expectedTypes": {
+  "choice": 24
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2",
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "十字交乘因式分解解一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求一元二次方程式 $3x^2+7x-20=0$ 的解。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$ 與 $-\\dfrac{10}{3}$",
+      "$-2$ 與 $\\dfrac{10}{3}$",
+      "$4$ 與 $-\\dfrac{5}{3}$",
+      "$-4$ 與 $\\dfrac{5}{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "展開整理後因式分解求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求一元二次方程式 $(x-2)(x+4)=-5$ 的解。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2$ 與 $-4$",
+      "$-1$ 與 $-9$",
+      "$1$ 與 $-7$",
+      "$1$ 與 $-3$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "以 $x-1$ 為整體做十字交乘因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $3(x-1)^2+7(x-1)+4$。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x(3x+1)$",
+      "$x(3x-1)$",
+      "$(x-2)(3x+7)$",
+      "$(x-2)(3x-7)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "判別式與根的個數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一元二次方程式 $x^2+4x+3m=0$ 有解，則 $m$ 的範圍為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$m\\ge\\dfrac{4}{3}$",
+      "$m<\\dfrac{4}{3}$",
+      "$m\\le\\dfrac{4}{3}$",
+      "$m>\\dfrac{4}{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2",
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "直接開平方法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求一元二次方程式 $(2x+4)^2=8$ 的解。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-2\\pm2\\sqrt{2}$",
+      "$-2\\pm\\sqrt{2}$",
+      "$0$ 與 $4$",
+      "$-2$ 與 $-6$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "負係數二次式因式分解及等價式辨認。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將 $-3x^2+4x-1$ 作因式分解，下列選項何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-(3x-1)(x-1)$",
+      "$(-3x+1)(x-1)$",
+      "$(3x-1)(-x+1)$",
+      "$(3x+1)(-x+1)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3",
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "列一元二次方程式解應用題。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "雜貨店老闆買進雞蛋若干個，每 $x$ 個裝一盒，恰可裝滿 $x$ 盒，若賣掉 $7$ 盒後，還剩雞蛋 $120$ 個，則雜貨店老闆買進多少個雞蛋？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$225$ 個",
+      "$196$ 個",
+      "$169$ 個",
+      "$144$ 個"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "觀察常數項分解求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求一元二次方程式 $x^2+4x-1596=0$ 的解。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$38$ 與 $-42$",
+      "$-38$ 與 $42$",
+      "$38$ 與 $42$",
+      "$-38$ 與 $-42$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "由解代入求未知係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x=-4$ 為方程式 $(x-4)(ax+1)=0$ 的解，求 $a$。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-\\dfrac{1}{4}$",
+      "$0$",
+      "$\\dfrac{1}{4}$",
+      "$4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "配方法的形式比對。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若方程式 $x^2-12x+p=0$ 可化成 $(x-q)^2=4$ 的形式，則 $p+q$ 的值是多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$44$",
+      "$42$",
+      "$40$",
+      "$38$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "由解反推二次方程式的係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x$ 的方程式 $3x^2+ax+b=0$ 的解為 $-1$ 與 $3$，求 $a+b$ 之值。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-15$",
+      "$-5$",
+      "$-3$",
+      "$-1$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "以判別式判斷何者無解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列一元二次方程式何者無解？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(x-3)^2-4=0$",
+      "$x^2+4x-3=0$",
+      "$\\dfrac{4}{3}x^2+3=4x$",
+      "$-x^2+6x-12=0$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "係數較大的十字交乘分解並求係數和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "多項式 $33x^2-17x-26$ 可因式分解成 $(ax+b)(cx+d)$，其中 $a$、$b$、$c$、$d$ 均為整數，且 $a>c$，則 $a+b+c+d$ 之值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1$",
+      "$3$",
+      "$10$",
+      "$25$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "14",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "由判別式與根與係數判斷根的正負。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "關於一元二次方程式 $2x^2-5x-1=0$ 解的敘述，下列何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "兩根均為正數",
+      "兩根均為負數",
+      "一根為正數，一根為負數",
+      "無解"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "15",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "整理係數後以公式解求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解一元二次方程式 $\\dfrac{1}{2}x^2+\\dfrac{1}{6}x-1=0$。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{1\\pm\\sqrt{73}}{6}$",
+      "$\\dfrac{-1\\pm\\sqrt{73}}{6}$",
+      "$\\dfrac{1\\pm\\sqrt{73}}{3}$",
+      "$\\dfrac{-1\\pm\\sqrt{73}}{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "16",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3",
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "列方程式比較兩種算式的差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "文文在計算「某數平方的 $4$ 倍」時，不小心將題目看成「某數 $4$ 倍的平方」，除此之外，沒有其他計算上的錯誤，若她算出來的答案比正確答案多了 $192$，試求原題目（即「某數平方的 $4$ 倍」）的正確解答為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$144$",
+      "$64$",
+      "$100$",
+      "$196$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "17",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "由公式解的形式反推方程式係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一元二次方程式 $x^2+mx=n$ 的解為 $-\\dfrac{3}{2}\\pm\\dfrac{\\sqrt{33}}{6}$，求 $mn$ 之值。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4$",
+      "$36$",
+      "$-4$",
+      "$-36$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "18",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3",
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "由面積比列一元二次方程式求邊長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，正方形 $ABCD$ 的邊長為 $x$，$\\overline{BE}=4$，且三角形 $ABE$ 與梯形 $AECD$ 的面積比為 $1:3$，則正方形 $ABCD$ 的邊長是多少？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 160\"><rect x=\"25\" y=\"15\" width=\"120\" height=\"120\" fill=\"#d6ecf8\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"15\" x2=\"105\" y2=\"135\" stroke=\"#111\" stroke-width=\"1.4\"/><g font-size=\"16\" font-style=\"italic\" fill=\"#111\"><text x=\"6\" y=\"14\">A</text><text x=\"148\" y=\"14\">D</text><text x=\"8\" y=\"154\">B</text><text x=\"98\" y=\"154\">E</text><text x=\"148\" y=\"154\">C</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$6$",
+      "$8$",
+      "$10$",
+      "$12$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "19",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "由根與係數及整數條件列舉。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若一元二次方程式 $x^2-10x+a=0$ 的兩根為正整數，試求 $a$ 的可能性有幾種？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$6$ 種",
+      "$5$ 種",
+      "$4$ 種",
+      "$3$ 種"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "20",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2",
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "因式分解齊次式並判斷符號後求值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x^2-5y^2=-4xy$，且 $xy<0$，求 $\\dfrac{x-y}{x+y}$。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{3}{2}$",
+      "$-\\dfrac{3}{2}$",
+      "$\\dfrac{2}{3}$",
+      "$-\\dfrac{2}{3}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "21",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "利用面積列一元二次方程式求路寬。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，在長 $28$ 公尺、寬 $16$ 公尺的長方形草地內部開闢一條等寬的十字形道路，已知道路與草地的長寬平行，若剩下的草地面積為 $288$ 平方公尺，則十字形道路的路寬應是多少公尺？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 170\"><g fill=\"#cfe8c3\" stroke=\"#111\" stroke-width=\"1.4\"><rect x=\"10\" y=\"10\" width=\"90\" height=\"54\"/><rect x=\"129\" y=\"10\" width=\"121\" height=\"54\"/><rect x=\"10\" y=\"92\" width=\"90\" height=\"33\"/><rect x=\"129\" y=\"92\" width=\"121\" height=\"33\"/></g><path d=\"M256,10 Q266,10 266,20 L266,115 Q266,125 256,125\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><path d=\"M10,131 Q10,141 20,141 L240,141 Q250,141 250,131\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.2\"/><g font-size=\"15\" fill=\"#111\"><text x=\"272\" y=\"73\">16 公尺</text><text x=\"100\" y=\"162\">28 公尺</text></g></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$6$ 公尺",
+      "$5$ 公尺",
+      "$4$ 公尺",
+      "$3$ 公尺"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "22",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1",
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "含平方差的多項式因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $5(a-b)^2-42(a+b)^2-(a^2-b^2)$。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-2(2a+b)(9a-19b)$",
+      "$-2(2a+b)(9a+19b)$",
+      "$-2(a-2b)(19a+9b)$",
+      "$-2(a+2b)(19a+9b)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "23",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3",
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "利潤問題列一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "秀泰影城平日門票一張 $270$ 元，每日可賣出 $3000$ 張，如果每降低票價 $10$ 元，則可多賣出 $100$ 張門票。為迎接 $2020$ 年的到來，特別在元旦舉辦降價促銷活動，結果當日門票總收入為 $756000$ 元，則元旦當天的門票一張是多少元？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$210$ 元",
+      "$220$ 元",
+      "$230$ 元",
+      "$240$ 元"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "24",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3",
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "行程問題列分式方程並化為一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "黑糖和麻吉相約參加馬拉松路跑活動，已知馬拉松路跑的距離為 $42$ 公里，黑糖時速比麻吉慢 $4$ 公里，所以麻吉比黑糖提早了 $40$ 分鐘抵達終點，試問麻吉路跑時速為多少公里？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$12$ 公里",
+      "$14$ 公里",
+      "$18$ 公里",
+      "$21$ 公里"
+     ]
+    }
+   ]
+  }
+ ]
+}
