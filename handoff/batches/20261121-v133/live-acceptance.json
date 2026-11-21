@@ -1,0 +1,37 @@
+{
+  "base": "https://lee200202.github.io/yilan-math-bank",
+  "checks": [
+    {
+      "name": "version string present",
+      "ok": true,
+      "detail": "20261121-metro-v133"
+    },
+    {
+      "name": "coverage question count",
+      "ok": true,
+      "detail": "21060"
+    },
+    {
+      "name": "browser bank equals coverage",
+      "ok": true,
+      "detail": "21060 vs 21060"
+    },
+    {
+      "name": "console errors total",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "batch papers published and verified",
+      "ok": true,
+      "detail": "metro-new_taipei-75ded450fdcbc8ff-1a88f97c (24), metro-new_taipei-3e7601041b540ab1-87185e07 (29), metro-new_taipei-372c0ec8002e43ef-a9f7e5c8 (29), metro-taoyuan-9e75745f8c7f3b49 (25), metro-taoyuan-d67cdcf3b7427a7e (18)"
+    },
+    {
+      "name": "paper search and load",
+      "ok": true,
+      "detail": "Searched 福和國中 in library, loaded whole exam into compose workbench, 0 errors"
+    }
+  ],
+  "verifiedAt": "2026-11-21T13:18:47Z",
+  "verifier": "Antigravity (Playwright Headless)"
+}
