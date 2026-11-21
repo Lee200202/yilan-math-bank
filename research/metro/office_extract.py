@@ -354,6 +354,39 @@ def docx(path, out):
             return '[IMG %s]' % out.image(p, z.read(p))
         return '[IMG missing %s]' % t
 
+    # Character styles can carry the superscript/subscript (run says only <w:rStyle w:val="af3"/>): resolve them via styles.xml
+    style_sup, style_based = {}, {}
+    if 'word/styles.xml' in z.namelist():
+        for st in kids(etree.fromstring(z.read('word/styles.xml')), 'style'):
+            sid = st.get('{%s}styleId' % W)
+            bo = kid(st, 'basedOn')
+            if bo is not None:
+                style_based[sid] = bo.get('{%s}val' % W)
+            rp = kid(st, 'rPr')
+            if rp is None:
+                continue
+            va, po = kid(rp, 'vertAlign'), kid(rp, 'position')
+            if va is not None and va.get('{%s}val' % W) in ('superscript', 'subscript'):
+                style_sup[sid] = '^' if va.get('{%s}val' % W) == 'superscript' else '_'
+            elif po is not None:
+                try:
+                    pv = int(po.get('{%s}val' % W, '0'))
+                except ValueError:
+                    pv = 0
+                if pv >= 4:
+                    style_sup[sid] = '^'
+                elif pv <= -4:
+                    style_sup[sid] = '_'
+
+    def sup_of_style(sid):
+        seen = 0
+        while sid and seen < 6:
+            if sid in style_sup:
+                return style_sup[sid]
+            sid = style_based.get(sid)
+            seen += 1
+        return None
+
     fs = {'mode': None, 'instr': '', 'eq': False, 'nested': False}
     fstack = []
 
@@ -376,6 +409,10 @@ def docx(path, out):
             va = kid(pr, 'vertAlign')
             if va is not None:
                 sup = {'superscript': '^', 'subscript': '_'}.get(va.get('{%s}val' % W))
+            if sup is None:
+                rs = kid(pr, 'rStyle')
+                if rs is not None:
+                    sup = sup_of_style(rs.get('{%s}val' % W))
             po = kid(pr, 'position')  # raised/lowered text (half-points) is how many old documents write x^2
             if sup is None and po is not None:
                 try:

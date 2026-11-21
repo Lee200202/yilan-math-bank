@@ -1,0 +1,513 @@
+{
+ "paperId": "metro-new_taipei-32deb687f3ad6530",
+ "sourceSha256": "ef0d08fa0df7a2a53606e99a133147e279edd3b62a0b5d69ccc0f329d33442dc",
+ "printedHeader": "新北市立溪崑國民中學113學年度第二學期第一次定期評量 數學科 試題卷（八年級）",
+ "printedSlot": {
+  "year": 113,
+  "semester": 2,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇8題、填充8題、計算4題。",
+ "visualReviewComplete": true,
+ "reviewNote": "Word原卷：文字取自text.md並逐題重讀；圖1火柴棒、通話費圖、撲克牌三角塔（以示意線條重繪，層數與張數標示依原卷文字框）、游泳池注水圖已重繪。選擇題1選項(B)原卷印為66074，照印（疑為排版錯誤，答案D為6076）。計算題4原文「20分鐘後9注水口故障」，補為「9個注水口」。DRAWING-SHAPE僅用於撲克牌塔，卷首的旋轉文字略過。",
+ "expectedTypes": {
+  "choice": 8,
+  "fill": 8,
+  "written": 4
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由圖形規律寫出等差數列的一般項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用等長的火柴棒排列如下圖，求圖(2025)需要多少根火柴棒？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 90,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 80\"><line x1=\"10\" y1=\"10\" x2=\"46\" y2=\"10\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"10\" y1=\"46\" x2=\"46\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"46\" y1=\"10\" x2=\"46\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><text x=\"28\" y=\"70\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">圖(1)</text><line x1=\"62\" y1=\"28\" x2=\"84\" y2=\"28\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"78,23 84,28 78,33\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"95\" y1=\"10\" x2=\"131\" y2=\"10\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"95\" y1=\"46\" x2=\"131\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"131\" y1=\"10\" x2=\"167\" y2=\"10\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"131\" y1=\"46\" x2=\"167\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"95\" y1=\"10\" x2=\"95\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"131\" y1=\"10\" x2=\"131\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"167\" y1=\"10\" x2=\"167\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><text x=\"131\" y=\"70\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">圖(2)</text><line x1=\"180\" y1=\"28\" x2=\"202\" y2=\"28\" stroke=\"#111\" stroke-width=\"1.4\"/><polyline points=\"196,23 202,28 196,33\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"213\" y1=\"10\" x2=\"249\" y2=\"10\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"213\" y1=\"46\" x2=\"249\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"249\" y1=\"10\" x2=\"285\" y2=\"10\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"249\" y1=\"46\" x2=\"285\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"285\" y1=\"10\" x2=\"321\" y2=\"10\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"285\" y1=\"46\" x2=\"321\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"213\" y1=\"10\" x2=\"213\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"249\" y1=\"10\" x2=\"249\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"285\" y1=\"10\" x2=\"285\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"321\" y1=\"10\" x2=\"321\" y2=\"46\" stroke=\"#111\" stroke-width=\"3\"/><text x=\"267\" y=\"70\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">圖(3)</text><text x=\"335\" y=\"34\" font-size=\"18\" fill=\"#111\">……</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "6073",
+      "66074",
+      "6075",
+      "6076根"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由首項與前三項和求公差，再找最接近的項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個等差數列，首項$a_1=5$，前三項和$a_1+a_2+a_3=30$，則此數列中最接近2026的是下列哪一項？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a_{405}$",
+      "$a_{450}$",
+      "$a_{418}$",
+      "$a_{410}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比數列一般項與不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一等比數列的前4項依序為$\\dfrac{1}{400}$、$\\dfrac{3}{400}$、$\\dfrac{9}{400}$、$\\dfrac{27}{400}$，從第幾項開始的數會大於6？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "7",
+      "8",
+      "9",
+      "10"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列的項與公差限制。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "老師請小君從1～50的整數卡片中挑選4個數字卡，使其由小到大排序後形成一等差數列，而我們已經知道這4個數字卡中最小的是8，則「20」、「25」、「30」、「35」這4個數字中，哪一個數字不可能出現在小君挑選的數字卡之中。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "25",
+      "35",
+      "20",
+      "30"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比數列項與公比的關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "等比數列$a_1,a_2,a_3,\\cdots\\cdots,a_n$中，若$\\dfrac{a_4}{a_2}=4$，則$\\dfrac{a_{29}}{a_{20}}=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "512",
+      "$-512$",
+      "$\\pm 512$",
+      "1024"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比數列的應用（細菌分裂）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一個培養皿中有一隻細菌，已知這隻細菌每過一小時就會1分為3，再過一小時每一隻又會分裂成3隻，即一小時後會變成3隻細菌，兩小時後會變成9隻細菌，如果我們需要培養出2000隻細菌，至少要幾小時？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "6",
+      "7",
+      "8",
+      "9小時"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由兩點求一次函數並反求原值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某科技公司年度調薪，原薪水28000元調薪後變成36000元，原薪水36000元調薪後變成46000元。已知調薪方式是依據一次函數關係，試問調薪後為51000元的員工，其原來的薪水是多少元？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "42000",
+      "40000",
+      "41000",
+      "43000元"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由兩點求直線方程式並判斷通過點。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "坐標平面上某一次函數圖形通過$(2,4)$、$(7,-11)$兩點，判斷此函數圖形會通過下列哪一個點？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(3,1)$",
+      "$(0,9)$",
+      "$(5,-4)$",
+      "$(1,6)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列一般項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小傑執行「60天鐵人計畫」，第一天做5個仰臥起坐，每一天比前一天多做3個仰臥起坐，則第60天做＿＿＿＿個仰臥起坐。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由函數圖形求通話基本費。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖是某電信公司的通話費計算方式：在300秒以內只須繳通話基本費，超過300秒的費用與通話時間成一次函數關係，則通話基本費為＿＿＿＿元。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 120,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 205\"><line x1=\"40\" y1=\"160\" x2=\"40\" y2=\"8\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"40,128.0 130.0,128.0 280.0,18.0 325.0,-15.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"84.0\" x2=\"190.0\" y2=\"84.0\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><line x1=\"40\" y1=\"18.0\" x2=\"280.0\" y2=\"18.0\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><line x1=\"130.0\" y1=\"128.0\" x2=\"130.0\" y2=\"160\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><line x1=\"190.0\" y1=\"84.0\" x2=\"190.0\" y2=\"160\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><line x1=\"280.0\" y1=\"18.0\" x2=\"280.0\" y2=\"160\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><text x=\"32\" y=\"89\" font-size=\"15\" text-anchor=\"end\" fill=\"#111\">220</text><text x=\"32\" y=\"23\" font-size=\"15\" text-anchor=\"end\" fill=\"#111\">250</text><text x=\"130.0\" y=\"178\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">300</text><text x=\"190.0\" y=\"178\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">500</text><text x=\"280.0\" y=\"178\" font-size=\"15\" text-anchor=\"middle\" fill=\"#111\">800</text><text x=\"30\" y=\"176\" font-size=\"15\" text-anchor=\"end\" fill=\"#111\">0</text><text x=\"46\" y=\"14\" font-size=\"14\" fill=\"#111\">費用(元)</text><text x=\"285\" y=\"200\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\">通話時間(秒)</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "函數、常數函數、正反比的概念判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述一定正確有＿＿＿＿。（填代號）"
+    },
+    {
+     "type": "text",
+     "text": "(a)若$y$是$x$的函數，則對於每一個$x$值所對應到的函數值$y$都不能相同"
+    },
+    {
+     "type": "text",
+     "text": "(b)平面上所有的直線都是一次函數的圖形"
+    },
+    {
+     "type": "text",
+     "text": "(c)一次函數在坐標平面上的圖形一定會通過第一象限"
+    },
+    {
+     "type": "text",
+     "text": "(d)常數函數在坐標平面上的圖形一定與$y$軸相交"
+    },
+    {
+     "type": "text",
+     "text": "(e)若無論變數$x$為何，其所對應的$y$值皆為3，則$y$是$x$的函數"
+    },
+    {
+     "type": "text",
+     "text": "(f)若兩變數$x$、$y$成反比，則$y$是$x$的函數"
+    },
+    {
+     "type": "text",
+     "text": "(g)若兩變數$x$、$y$成正比，則$y$是$x$的函數"
+    },
+    {
+     "type": "text",
+     "text": "(h)$x$與$y$兩數量的對應關係如下表：依據此表，我們可以判斷$y$是$x$的函數。"
+    },
+    {
+     "type": "table",
+     "header": false,
+     "rows": [
+      [
+       "$x$",
+       "$-5$",
+       "$-8$",
+       "7",
+       "$-8$",
+       "0",
+       "$-5$"
+      ],
+      [
+       "$y$",
+       "0",
+       "4",
+       "6",
+       "8",
+       "9",
+       "11"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "公差為負的等差數列，求使和最大的項數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一疊卡片，每張卡片上標示一個數字，卡片上數字的規則是每一張卡片的數字都比下一張卡片的數字還要大5，已知由上面數來第一張卡片的數字為64，第二張卡片的數字為59，請問由上面開始取卡片，要取$a$張卡片才能讓這些卡片上的數字總和$b$為最大，則$a+b=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "插入等比項後新公比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有10個數成等比數列，在任相鄰兩數之間各插入3個數，且新數列依然成等比數列，若原數列的公比為16，則新數列的公比為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數求項數與末項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若等差級數$(-2)+(-1)+0+1+2+\\cdots\\cdots+m=168$，項數為$n$及末項為$m$，則$n+m=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "兩等差級數和的差，反求首項差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知甲、乙兩等差級數的項數均為6，甲、乙的公差相等，且甲級數的和與乙級數的和相差$\\dfrac{4}{3}$。若比較甲、乙的首項，較小的首項為1，則較大的首項$=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由圖形規律建立數列與級數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖是用撲克牌所排成的三角塔，排法如下圖規律，如果用這樣的規則排出20層的三角塔，需要用到＿＿＿＿張撲克牌。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 190\"><line x1=\"10.0\" y1=\"150\" x2=\"23.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"36.0\" y1=\"150\" x2=\"23.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"36.0\" y1=\"150\" x2=\"49.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"62.0\" y1=\"150\" x2=\"49.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"62.0\" y1=\"150\" x2=\"75.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"88.0\" y1=\"150\" x2=\"75.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"88.0\" y1=\"150\" x2=\"101.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"114.0\" y1=\"150\" x2=\"101.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"20.0\" y1=\"115\" x2=\"52.0\" y2=\"115\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"46.0\" y1=\"115\" x2=\"78.0\" y2=\"115\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"72.0\" y1=\"115\" x2=\"104.0\" y2=\"115\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"23.0\" y1=\"113\" x2=\"36.0\" y2=\"79\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"49.0\" y1=\"113\" x2=\"36.0\" y2=\"79\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"49.0\" y1=\"113\" x2=\"62.0\" y2=\"79\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"75.0\" y1=\"113\" x2=\"62.0\" y2=\"79\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"75.0\" y1=\"113\" x2=\"88.0\" y2=\"79\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"101.0\" y1=\"113\" x2=\"88.0\" y2=\"79\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"33.0\" y1=\"78\" x2=\"65.0\" y2=\"78\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"59.0\" y1=\"78\" x2=\"91.0\" y2=\"78\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"36.0\" y1=\"76\" x2=\"49.0\" y2=\"42\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"62.0\" y1=\"76\" x2=\"49.0\" y2=\"42\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"62.0\" y1=\"76\" x2=\"75.0\" y2=\"42\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"88.0\" y1=\"76\" x2=\"75.0\" y2=\"42\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"46.0\" y1=\"41\" x2=\"78.0\" y2=\"41\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"49.0\" y1=\"39\" x2=\"62.0\" y2=\"5\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"75.0\" y1=\"39\" x2=\"62.0\" y2=\"5\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"150.0\" y1=\"150\" x2=\"163.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"176.0\" y1=\"150\" x2=\"163.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"176.0\" y1=\"150\" x2=\"189.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"202.0\" y1=\"150\" x2=\"189.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"202.0\" y1=\"150\" x2=\"215.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"228.0\" y1=\"150\" x2=\"215.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"160.0\" y1=\"115\" x2=\"192.0\" y2=\"115\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"186.0\" y1=\"115\" x2=\"218.0\" y2=\"115\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"163.0\" y1=\"113\" x2=\"176.0\" y2=\"79\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"189.0\" y1=\"113\" x2=\"176.0\" y2=\"79\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"189.0\" y1=\"113\" x2=\"202.0\" y2=\"79\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"215.0\" y1=\"113\" x2=\"202.0\" y2=\"79\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"173.0\" y1=\"78\" x2=\"205.0\" y2=\"78\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"176.0\" y1=\"76\" x2=\"189.0\" y2=\"42\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"202.0\" y1=\"76\" x2=\"189.0\" y2=\"42\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"270.0\" y1=\"150\" x2=\"283.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"296.0\" y1=\"150\" x2=\"283.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"296.0\" y1=\"150\" x2=\"309.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"322.0\" y1=\"150\" x2=\"309.0\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"280.0\" y1=\"115\" x2=\"312.0\" y2=\"115\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"283.0\" y1=\"113\" x2=\"296.0\" y2=\"79\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"309.0\" y1=\"113\" x2=\"296.0\" y2=\"79\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"62\" y=\"172\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">四層用26張</text><text x=\"190\" y=\"172\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">三層用15張</text><text x=\"296\" y=\"172\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">兩層用7張</text><text x=\"62\" y=\"188\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">(3+6+9)+8</text><text x=\"190\" y=\"188\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">(3+6)+6</text><text x=\"296\" y=\"188\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111\">(3)+4</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "由規律判斷數字2000第一次出現的頁數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小明在一本有2000頁的書中，從第1頁開始，逐頁依順序在第1頁寫1，第2頁寫2、3，第3頁寫3、4、5，……，依此規則，即第$n$頁從$n$開始，寫$n$個連續正整數。求他第一次寫出數字2000是在第幾頁？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "週期規律與等差級數，討論星期。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小胖為了運動會正在進行跑操場練習，每星期一跑1圈，每星期二跑2圈，每星期三跑3圈，每星期四跑4圈，每星期五跑5圈，每星期六跑6圈，每星期日跑7圈。若大軍從某年的5月1日開始練習，到5月31日練習完後累積跑完的操場已超過125圈，則5月31日可能為星期幾？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比數列的應用（藤蔓高度）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "傑克種了一顆魔豆在土裡，過了一天後，魔豆發芽並長出4公尺高的藤蔓，接下來每過一天，這個藤蔓的高度都變成前一天的兩倍，則種下魔豆過了7天後，藤蔓的高度為多少公尺？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "分段一次函數圖形的應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，某游泳池在每日上午8：00開始注水，同時從13個注水口以相同的速度與水量注水，需注滿2600立方公尺的水量，此時預計泳池的總水量$y$與經過時間$x$（分鐘）的函數圖形為直線$L_1$。經過20分鐘後9個注水口故障無法出水，只剩下4個注水口維持同樣的速度注水，泳池水量在20分鐘後其函數圖形改為直線$L_2$。則在開始注水後的100分鐘時泳池水量為何？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 205\"><line x1=\"40\" y1=\"170\" x2=\"40\" y2=\"8\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"10\" y1=\"160\" x2=\"290\" y2=\"160\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"40\" y1=\"160\" x2=\"293.0\" y2=\"25.5\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"84.0\" y1=\"136.6\" x2=\"326.0\" y2=\"97.0\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"43.0\" x2=\"260.0\" y2=\"43.0\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><line x1=\"260.0\" y1=\"43.0\" x2=\"260.0\" y2=\"160\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><line x1=\"84.0\" y1=\"136.6\" x2=\"84.0\" y2=\"160\" stroke=\"#111\" stroke-dasharray=\"4 3\"/><text x=\"34\" y=\"48.0\" font-size=\"14\" text-anchor=\"end\" fill=\"#111\">2600</text><text x=\"84.0\" y=\"176\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">20</text><text x=\"260.0\" y=\"176\" font-size=\"14\" text-anchor=\"middle\" fill=\"#111\">100</text><text x=\"32\" y=\"176\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#111\">O</text><text x=\"76.0\" y=\"130.6\" font-size=\"14\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"299.6\" y=\"29.5\" font-size=\"14\" fill=\"#111\">L</text><text x=\"307.6\" y=\"34.5\" font-size=\"10\" fill=\"#111\">1</text><text x=\"332.6\" y=\"101.0\" font-size=\"14\" fill=\"#111\">L</text><text x=\"340.6\" y=\"106.0\" font-size=\"10\" fill=\"#111\">2</text><text x=\"46\" y=\"14\" font-size=\"13\" fill=\"#111\">泳池水量(立方公尺) y</text><text x=\"286\" y=\"200\" font-size=\"13\" text-anchor=\"end\" fill=\"#111\">經過時間(分) x</text></svg>"
+    }
+   ]
+  }
+ ]
+}

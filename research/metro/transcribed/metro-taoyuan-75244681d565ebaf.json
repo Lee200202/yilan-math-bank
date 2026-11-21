@@ -1,0 +1,545 @@
+{
+ "paperId": "metro-taoyuan-75244681d565ebaf",
+ "sourceSha256": "bd759323ca9467932675f70d915f1063ef965a625c98c760c2111c44f97c39f8",
+ "printedHeader": "桃園市立自強國中113學年度 第二學期 第一次段考 八年級 數學科 考試卷（範圍：1-1~2-1）",
+ "printedSlot": {
+  "year": 113,
+  "semester": 2,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題、填充14格（13題）、計算1題（2小題）。",
+ "visualReviewComplete": true,
+ "reviewNote": "Word 原檔：逐題對照 text.md 與圖。第2題公比 -2/3 與第7題丁 -2/5x+3 的分數在 text.md 是圖片（MathType wmf），以 wmf_text.py 讀出分子2、分母3 / 5（PNG 渲染亂碼）。選擇第1題 B 選項 y 列最後一格原卷為空白，照實保留為（空白）。第10題 C 選項 text.md 有誤植「若$a_6<0$」順序顛倒，已更正為「若 $a_{6}<0$，則 $a_{60}<0$」；第7題、9題選項的括號與尾端「次」依原意整理；填充第9題 $S_n$ 原文漏 $...$ 已補。填充(7)(8)同一題兩格，故填充 13 題 14 格。圖：第6題棋子圖畫出三個階段（1圈、2圈、3圈，每邊3、5、7顆）並以「……」表示；第13題聖誕樹畫出5列三角形（上三角深色、倒三角白色），省略星星、旗子與花盆裝飾。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 13,
+  "written": 1
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "函數的定義：每個 $x$ 只對應唯一的 $y$。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列是 $x$ 與 $y$ 的對應關係，則哪一選項 $y$ 是 $x$ 的函數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x$：$1$，$1$，$1$，$1$；$y$：$2$，$4$，$6$，$8$",
+      "$x$：$1$，$3$，$5$，$7$；$y$：$1$，$3$，$5$，（空白）",
+      "$x$：$2$，$4$，$2$，$4$；$y$：$1$，$3$，$5$，$7$",
+      "$x$：$1$，$2$，$3$，$4$；$y$：$6$，$6$，$6$，$6$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比數列的通項與項數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一個等比數列的首項為 $81$，公比為 $-\\dfrac{2}{3}$，則 $16$ 是此數列的第幾項？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "4",
+      "5",
+      "6",
+      "7"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列項數公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $98$，$95$，$92$，$\\cdots\\cdots$，$-28$ 是一個等差數列，求此數列共有多少項？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "42",
+      "43",
+      "44",
+      "45"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差級數和與插入項數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在 $-7$ 與 $17$ 之間插入 $m$ 個數，使其成為等差數列，若此等差數列的和為 $120$，則 $m=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "10",
+      "12",
+      "22",
+      "24"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "常數函數的定義。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $y=(m-2)x^{2}+nx-4$ 為常數函數，則下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$m=2$，$n=0$",
+      "$m=0$，$n=0$",
+      "$m\\ne 2$，$n\\ne 0$",
+      "$m=2$，$n\\ne 0$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由通項求等差級數前 $n$ 項和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一等差數列的第 $n$ 項為 $a_{n}=3n+2$，前 $n$ 項的和為 $S_{n}$，求 $S_{12}=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "36",
+      "38",
+      "228",
+      "258"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "線型函數（一次函數）的辨認。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列為線型函數的有哪些？甲：$y=0.07$　乙：$y=\\dfrac{1}{x}$　丙：$y=x^{2}$　丁：$y=-\\dfrac{2}{5}x+3$　戊：$2x+y=0$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "乙、丙、丁、戊",
+      "甲、乙、丁、戊",
+      "甲、丁、戊",
+      "甲、丁"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差級數的對稱性與和公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若等差級數共有 $23$ 項，其中 $a_{1}+a_{2}+a_{3}=30$，$a_{21}+a_{22}+a_{23}=210$，此等差級數的和為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "920",
+      "960",
+      "520",
+      "480"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "以等比數列處理對摺紙張厚度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "小美拿了一張市面上販售的 A4 影印紙，每對摺一次紙的厚度變為原來的 $2$ 倍。若一張紙原來的厚度為 $0.1$ 毫米，對摺一次後，紙的厚度變為 $0.2$ 毫米；再繼續對摺一次，紙的厚度變為 $0.4$ 毫米；$\\cdots\\cdots$，則小美需對摺到第幾次，紙的厚度才會是 $12.8$ 毫米？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "9",
+      "8",
+      "7",
+      "6"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "由公比正負判斷等比數列各項的符號。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $a_{1}=1$，且 $a_{1}$，$a_{2}$，$a_{3}$，$\\cdots\\cdots$ 為等比數列，則下列敘述何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "若 $a_{8}<0$ 則 $a_{96}>0$",
+      "若 $a_{60}>0$，則 $a_{102}>0$",
+      "若 $a_{6}<0$，則 $a_{60}<0$",
+      "若 $a_{6}>0$，則 $a_{60}>0$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列的公差與前一項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在空格中填入適當的數，使數列成為等差數列：＿＿＿＿，$-3\\sqrt{3}$，$\\sqrt{3}$，$5\\sqrt{3}$"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比數列的公比與下一項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "填入適當的數，使此數列成為等比數列：$\\dfrac{1}{4}$，$-\\dfrac{1}{6}$，$\\dfrac{1}{9}$，$-\\dfrac{2}{27}$，＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由直線上的點求一次函數並求未知點。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若函數 $y=ax+b$ 的圖形為通過 $(-3,-5)$、$(m,7)$、$(2,5)$ 的直線，求 $m=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "由首項與前 $n$ 項和求公差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若等差級數的首項為 $25$，前 $16$ 項的和為 $-80$，求此等差級數的公差$=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "兩一次函數的函數值互為相反數，解方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若函數 $y=3x-13$ 與 $y=-6x+4$ 在 $x=a$ 時的函數值互為相反數，求 $a=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由圖形規律列出等差級數求總棋子數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，用一些棋子排出正六邊形，由內而外共排了 $7$ 圈。已知最內圈每邊 $3$ 顆棋子，往外每圈每邊增加 $2$ 顆（即由內向外算起第 $2$ 圈每邊 $5$ 顆，第 $3$ 圈每邊 $7$ 顆，$\\cdots\\cdots$），則完成此圖形共需要＿＿＿＿顆棋子。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 407.6 125.1\"><circle cx=\"50.6\" cy=\"62.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"45.6\" cy=\"71.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"40.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"30.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"20.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"15.6\" cy=\"71.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"10.6\" cy=\"62.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"15.6\" cy=\"53.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"20.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"30.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"40.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"45.6\" cy=\"53.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><line x1=\"70.6\" y1=\"62.6\" x2=\"92.6\" y2=\"62.6\" stroke=\"#111\" stroke-width=\"1.6\"/><polygon points=\"92.6,58.6 98.6,62.6 92.6,66.6\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.0\" stroke-linejoin=\"round\"/><circle cx=\"170.6\" cy=\"62.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"165.6\" cy=\"71.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"160.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"150.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"140.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"135.6\" cy=\"71.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"130.6\" cy=\"62.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"135.6\" cy=\"53.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"140.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"150.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"160.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"165.6\" cy=\"53.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"190.6\" cy=\"62.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"185.6\" cy=\"71.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"180.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"175.6\" cy=\"88.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"170.6\" cy=\"97.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"160.6\" cy=\"97.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"150.6\" cy=\"97.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"140.6\" cy=\"97.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"130.6\" cy=\"97.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"125.6\" cy=\"88.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"120.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"115.6\" cy=\"71.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"110.6\" cy=\"62.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"115.6\" cy=\"53.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"120.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"125.6\" cy=\"36.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"130.6\" cy=\"27.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"140.6\" cy=\"27.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"150.6\" cy=\"27.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"160.6\" cy=\"27.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"170.6\" cy=\"27.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"175.6\" cy=\"36.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"180.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"185.6\" cy=\"53.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><line x1=\"205.6\" y1=\"62.6\" x2=\"227.6\" y2=\"62.6\" stroke=\"#111\" stroke-width=\"1.6\"/><polygon points=\"227.6,58.6 233.6,62.6 227.6,66.6\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1.0\" stroke-linejoin=\"round\"/><circle cx=\"325.6\" cy=\"62.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"320.6\" cy=\"71.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"315.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"305.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"295.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"290.6\" cy=\"71.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"285.6\" cy=\"62.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"290.6\" cy=\"53.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"295.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"305.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"315.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"320.6\" cy=\"53.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"345.6\" cy=\"62.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"340.6\" cy=\"71.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"335.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"330.6\" cy=\"88.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"325.6\" cy=\"97.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"315.6\" cy=\"97.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"305.6\" cy=\"97.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"295.6\" cy=\"97.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"285.6\" cy=\"97.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"280.6\" cy=\"88.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"275.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"270.6\" cy=\"71.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"265.6\" cy=\"62.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"270.6\" cy=\"53.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"275.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"280.6\" cy=\"36.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"285.6\" cy=\"27.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"295.6\" cy=\"27.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"305.6\" cy=\"27.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"315.6\" cy=\"27.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"325.6\" cy=\"27.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"330.6\" cy=\"36.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"335.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"340.6\" cy=\"53.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"365.6\" cy=\"62.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"360.6\" cy=\"71.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"355.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"350.6\" cy=\"88.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"345.6\" cy=\"97.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"340.6\" cy=\"105.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"335.6\" cy=\"114.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"325.6\" cy=\"114.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"315.6\" cy=\"114.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"305.6\" cy=\"114.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"295.6\" cy=\"114.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"285.6\" cy=\"114.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"275.6\" cy=\"114.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"270.6\" cy=\"105.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"265.6\" cy=\"97.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"260.6\" cy=\"88.5\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"255.6\" cy=\"79.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"250.6\" cy=\"71.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"245.6\" cy=\"62.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"250.6\" cy=\"53.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"255.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"260.6\" cy=\"36.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"265.6\" cy=\"27.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"270.6\" cy=\"19.3\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"275.6\" cy=\"10.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"285.6\" cy=\"10.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"295.6\" cy=\"10.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"305.6\" cy=\"10.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"315.6\" cy=\"10.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"325.6\" cy=\"10.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"335.6\" cy=\"10.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"340.6\" cy=\"19.3\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"345.6\" cy=\"27.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"350.6\" cy=\"36.6\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"355.6\" cy=\"45.2\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><circle cx=\"360.6\" cy=\"53.9\" r=\"4.6\" fill=\"#cfcfcf\" stroke=\"#111\" stroke-width=\"1.0\"/><text x=\"395.6\" y=\"72.7\" font-size=\"16\" text-anchor=\"middle\" fill=\"#111\">……</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差數列的項數與總和（7 的倍數）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "自 $20$ 到 $400$ 的整數中，$7$ 的倍數有＿＿＿＿個，其總和為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比數列公比與各項關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a_{1}$，$a_{2}$，$a_{3}$，$a_{4}$ 四個正數成等比數列，且 $a_{1}+a_{2}=8$，$a_{3}+a_{4}=72$，求 $a_{3}$ 為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "由 $S_{10}$、$S_{20}$ 求 $S_{30}$（等差級數的和）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $S_{n}$ 表示一等差級數前 $n$ 項的和，若 $S_{10}=185$、$S_{20}=670$，則 $S_{30}$ 為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差中項列方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $x$，$8$，$3y$ 三數成等差數列，$(x+y)$，$y$，$20$ 三數也成等差數列，求 $2x+y=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "一次函數圖形與水平線平行（斜率為 $0$）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "坐標平面上，已知函數 $y=ax+b$ 的圖形通過點 $(2,-5)$，且和直線 $y=1$ 平行，則 $a-b=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差變成等比，設三數列方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設三正數成等差數列，其和為 $12$，若三數依序加上 $2$，$5$，$20$，則成為等比數列，此三數最大的數為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由圖形規律求總塊數與白色塊數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，由黑、白兩種全等的三角形紙張按規律排列而成，若繼續往下排列後共用了 $361$ 塊紙張，則其中白色紙張共用了＿＿＿＿塊紙張。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 162.0 141.9\"><polygon points=\"66.0,32.0 96.0,32.0 81.0,6.0\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"51.0,58.0 81.0,58.0 66.0,32.0\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"66.0,32.0 96.0,32.0 81.0,58.0\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"81.0,58.0 111.0,58.0 96.0,32.0\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"36.0,83.9 66.0,83.9 51.0,58.0\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"51.0,58.0 81.0,58.0 66.0,83.9\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"66.0,83.9 96.0,83.9 81.0,58.0\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"81.0,58.0 111.0,58.0 96.0,83.9\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"96.0,83.9 126.0,83.9 111.0,58.0\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"21.0,109.9 51.0,109.9 36.0,83.9\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"36.0,83.9 66.0,83.9 51.0,109.9\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"51.0,109.9 81.0,109.9 66.0,83.9\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"66.0,83.9 96.0,83.9 81.0,109.9\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"81.0,109.9 111.0,109.9 96.0,83.9\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"96.0,83.9 126.0,83.9 111.0,109.9\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"111.0,109.9 141.0,109.9 126.0,83.9\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"6.0,135.9 36.0,135.9 21.0,109.9\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"21.0,109.9 51.0,109.9 36.0,135.9\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"36.0,135.9 66.0,135.9 51.0,109.9\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"51.0,109.9 81.0,109.9 66.0,135.9\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"66.0,135.9 96.0,135.9 81.0,109.9\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"81.0,109.9 111.0,109.9 96.0,135.9\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"96.0,135.9 126.0,135.9 111.0,109.9\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"111.0,109.9 141.0,109.9 126.0,135.9\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><polygon points=\"126.0,135.9 156.0,135.9 141.0,109.9\" fill=\"#8c8c8c\" stroke=\"#111\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "等差級數的項數與總和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知等差級數 $7+15+23+\\cdots\\cdots+167$，求"
+    },
+    {
+     "type": "text",
+     "text": "(1) 項數"
+    },
+    {
+     "type": "text",
+     "text": "(2) 總和"
+    }
+   ]
+  }
+ ]
+}

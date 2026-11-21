@@ -1,0 +1,649 @@
+{
+ "paperId": "metro-new_taipei-e4a27a097df42a7a",
+ "sourceSha256": "35678a8049f68ad451e7fcb24c7147d8f234e97acd0571bb14ce6b54574db741",
+ "printedHeader": "新北市立鷺江國民中學114學年度第2學期7年級數學科第3次段考",
+ "printedSlot": {
+  "year": 114,
+  "semester": 2,
+  "grade": 7,
+  "exam": 3
+ },
+ "printedCounts": "選擇10題、填充12題（15格，A～O）。",
+ "visualReviewComplete": true,
+ "reviewNote": "Compared with all three page images and text layer. Fill blanks (A)-(O) grouped by numbered item (12 fills; item 1 has 2 parts, item 3 has 3 parts). Redrew Q5 histogram, Q10 triangle, fill 6 cube and T top view. Fill 7 (isometric stack, figure 三/四) not redrawn: usable:false.",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 12
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-5-1",
+   "unitIds": [
+    "nanyi-7-2-5-1"
+   ],
+   "unitAssignmentBasis": "文字敘述轉不等式（含括號）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知甲數為 $x$，下列哪個不等式表示「甲數減 3 之後的 4 倍，不小於 30」？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x-3\\times 4\\le 30$",
+      "$(x-3)\\times 4\\le 30$",
+      "$x-3\\times 4\\ge 30$",
+      "$(x-3)\\times 4\\ge 30$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "代入檢驗不等式的解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$x=2$ 是下列哪個不等式的解？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2x+1\\le -3$",
+      "$2-2x>3-3x$",
+      "$-x+3\\ge 5$",
+      "$6\\le 4-2x$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "解兩個不等式並求數線重疊長度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "不等式 $x-\\dfrac{5}{3}\\le 0$ 與 $x+\\dfrac{22}{3}\\ge 5$ 在數線上的圖解，重疊部份有多少單位長？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4$ 單位長",
+      "$6$ 單位長",
+      "$8$ 單位長",
+      "$10$ 單位長"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "找出解不等式步驟的錯誤（兩邊同除負數）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "江小鷺解不等式 $\\dfrac{5}{3}x+2\\ge 3(x-2)$ 的步驟如下，請問下列哪一個步驟開始發生錯誤？"
+    },
+    {
+     "type": "text",
+     "text": "步驟一：$\\dfrac{5}{3}x+2\\ge 3x-6$"
+    },
+    {
+     "type": "text",
+     "text": "步驟二：$\\dfrac{5}{3}x-3x\\ge -6-2$"
+    },
+    {
+     "type": "text",
+     "text": "步驟三：$-\\dfrac{4}{3}x\\ge -8$"
+    },
+    {
+     "type": "text",
+     "text": "步驟四：$x\\ge 6$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "步驟一",
+      "步驟二",
+      "步驟三",
+      "步驟四"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-6-1",
+   "unitIds": [
+    "nanyi-7-2-6-1"
+   ],
+   "unitAssignmentBasis": "次數分配直方圖的判讀（人數、組數、百分比、平均數）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖是七年級參加暑期輔導學生的數學能力檢測成績次數分配直方圖，下列敘述何者正確？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 140,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\"><line x1=\"40\" y1=\"170.0\" x2=\"285\" y2=\"170.0\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"34\" y=\"174.0\" font-size=\"11\" text-anchor=\"end\" >0</text><line x1=\"40\" y1=\"149.0\" x2=\"285\" y2=\"149.0\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"34\" y=\"153.0\" font-size=\"11\" text-anchor=\"end\" >3</text><line x1=\"40\" y1=\"128.0\" x2=\"285\" y2=\"128.0\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"34\" y=\"132.0\" font-size=\"11\" text-anchor=\"end\" >6</text><line x1=\"40\" y1=\"107.0\" x2=\"285\" y2=\"107.0\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"34\" y=\"111.0\" font-size=\"11\" text-anchor=\"end\" >9</text><line x1=\"40\" y1=\"86.0\" x2=\"285\" y2=\"86.0\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"34\" y=\"90.0\" font-size=\"11\" text-anchor=\"end\" >12</text><line x1=\"40\" y1=\"65.0\" x2=\"285\" y2=\"65.0\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"34\" y=\"69.0\" font-size=\"11\" text-anchor=\"end\" >15</text><line x1=\"40\" y1=\"44.0\" x2=\"285\" y2=\"44.0\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"34\" y=\"48.0\" font-size=\"11\" text-anchor=\"end\" >18</text><line x1=\"40\" y1=\"23.0\" x2=\"285\" y2=\"23.0\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"34\" y=\"27.0\" font-size=\"11\" text-anchor=\"end\" >21</text><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"170\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"40\" y=\"186\" font-size=\"11\" text-anchor=\"middle\" >30</text><line x1=\"75\" y1=\"20\" x2=\"75\" y2=\"170\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"75\" y=\"186\" font-size=\"11\" text-anchor=\"middle\" >40</text><line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"170\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"110\" y=\"186\" font-size=\"11\" text-anchor=\"middle\" >50</text><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"170\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"145\" y=\"186\" font-size=\"11\" text-anchor=\"middle\" >60</text><line x1=\"180\" y1=\"20\" x2=\"180\" y2=\"170\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"180\" y=\"186\" font-size=\"11\" text-anchor=\"middle\" >70</text><line x1=\"215\" y1=\"20\" x2=\"215\" y2=\"170\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"215\" y=\"186\" font-size=\"11\" text-anchor=\"middle\" >80</text><line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"170\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"250\" y=\"186\" font-size=\"11\" text-anchor=\"middle\" >90</text><line x1=\"285\" y1=\"20\" x2=\"285\" y2=\"170\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"285\" y=\"186\" font-size=\"11\" text-anchor=\"middle\" >100</text><rect x=\"40\" y=\"149.0\" width=\"35\" height=\"21.0\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"75\" y=\"128.0\" width=\"35\" height=\"42.0\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"110\" y=\"65.0\" width=\"35\" height=\"105.0\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"145\" y=\"44.0\" width=\"35\" height=\"126.0\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"180\" y=\"107.0\" width=\"35\" height=\"63.0\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"215\" y=\"128.0\" width=\"35\" height=\"42.0\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"250\" y=\"149.0\" width=\"35\" height=\"21.0\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"5\" y=\"12\" font-size=\"11\" text-anchor=\"start\" >次數(人)</text><text x=\"295\" y=\"198\" font-size=\"11\" text-anchor=\"end\" >成績(分)</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "參加測驗的學生共有 55 人",
+      "此資料共分 8 組，每組組距 10 分",
+      "70 分以上的人數占全體人數的 30%",
+      "測驗平均低於 60 分"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "四邊形的對稱軸數量。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列有五種四邊形，對稱軸數量如下表所示，下列敘述何者正確？"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "圖形",
+       "正方形",
+       "長方形",
+       "平行四邊形",
+       "菱形",
+       "箏形"
+      ],
+      [
+       "對稱軸數量",
+       "a",
+       "b",
+       "c",
+       "d",
+       "e"
+      ]
+     ]
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a+b+c=8$",
+      "$a+c+e=7$",
+      "$a+b+c+d+e=10$",
+      "$a+b+c+d+e=9$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-1",
+   "unitIds": [
+    "nanyi-7-2-5-1"
+   ],
+   "unitAssignmentBasis": "行程時間（分段速率）列不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "江小鷺參加路跑活動，全程有 $x$ 公里，已知前 3 公里平均速率為 8 公里/小時，之後因體力不濟，平均速率降為 6 公里/小時。已知江小鷺完成路跑的時間不超過 45 分鐘，則依題意可列出的不等式為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{3}{8}+\\dfrac{x}{6}\\le 45$",
+      "$\\dfrac{3}{8}+\\dfrac{x}{6}\\le\\dfrac{3}{4}$",
+      "$\\dfrac{3}{8}+\\dfrac{x-3}{6}\\le 45$",
+      "$\\dfrac{3}{8}+\\dfrac{x-3}{6}\\le\\dfrac{3}{4}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "勝率目標的不等式應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "職業籃球聯盟的「鷺江戰隊」在這個賽季中一共要進行 80 場例行賽。在已經打完的 50 場比賽中，球隊目前的勝率為 54%。為了確保能取得季後賽的優勢，教練團設定的目標是「整個賽季的總勝率至少要達到 6 成」。請問在剩下的 30 場比賽中，「鷺江戰隊」至少要贏幾場比賽，才能達成這個目標？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$20$ 場",
+      "$21$ 場",
+      "$22$ 場",
+      "$23$ 場"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-6-2",
+   "unitIds": [
+    "nanyi-7-2-6-2"
+   ],
+   "unitAssignmentBasis": "由部分資料推論中位數的可能範圍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某一組資料有八個正整數，已知其中七個數為 10、15、12、12、18、20、11。下列哪一個數不可能是這一組資料的中位數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$14$",
+      "$13.5$",
+      "$13$",
+      "$12$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "線對稱圖形、中垂線與等腰三角形性質。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，將 $\\triangle ABC$ 沿著 $\\overline{AD}$ 對摺後發現：$\\overline{AB}$ 會與 $\\overline{AC}$ 完全重合，已知 $\\overline{AB}=7$、$\\overline{BD}=3$，下列敘述何者錯誤？"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 110,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 130 125\"><polygon points=\"65,10 10,95 120,95\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"65\" y1=\"10\" x2=\"65\" y2=\"95\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><polyline points=\"65,87 73,87 73,95\" fill=\"none\" stroke=\"#111\" stroke-width=\"0.7\"/><text x=\"65\" y=\"8\" font-size=\"14\" text-anchor=\"middle\" font-style=\"italic\">A</text><text x=\"4\" y=\"108\" font-size=\"14\" text-anchor=\"middle\" font-style=\"italic\">B</text><text x=\"125\" y=\"108\" font-size=\"14\" text-anchor=\"middle\" font-style=\"italic\">C</text><text x=\"65\" y=\"115\" font-size=\"14\" text-anchor=\"middle\" font-style=\"italic\">D</text></svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\triangle ABC$ 為線對稱圖形，也為等腰三角形",
+      "$\\overline{AD}$ 為 $\\overline{BC}$ 之中垂線",
+      "$\\overline{AB}=\\overline{BC}$",
+      "$\\triangle ABC$ 的周長 $=20$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-1",
+   "unitIds": [
+    "nanyi-7-2-5-1",
+    "nanyi-7-2-5-1"
+   ],
+   "unitAssignmentBasis": "依情境列出不等式（折扣、找零、獲利）。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請依題意列出不等式（僅列式不需化簡）："
+    },
+    {
+     "type": "text",
+     "text": "(1) 江小鷺到書店買書，遇到週年慶促銷活動，相同價格的書一次買兩本，第二本可打 6 折。已知江小鷺共買了兩本價格相同的書，每本原價為 $x$ 元，最後付給老闆 500 元，找回的錢不到 50 元。則可列出不等式：＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(2) 鷺江水果行進貨一箱蘋果數量有 $x$ 個，每個成本 30 元，售價 45 元，其中有 2 顆在運送過程中不甚碰壞無法出售。已知整箱蘋果售出後可獲利 1000 元以上。則可列出不等式：＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2",
+    "nanyi-7-2-5-1"
+   ],
+   "unitAssignmentBasis": "解不等式並取 12 的倍數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "鷺江水果行進貨一箱蘋果數量有 $x$ 個，每個成本 30 元，售價 45 元，其中有 2 顆在運送過程中不甚碰壞無法出售。已知整箱蘋果售出後可獲利 1000 元以上。若知蘋果的數量為 12 的倍數，請問此箱蘋果最少有＿＿＿＿顆？"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "解一元一次不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "解下列各一元一次不等式："
+    },
+    {
+     "type": "text",
+     "text": "(1) $2(x+1)-3(x-2)<x+3$，答：＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(2) $\\dfrac{3}{2}x+\\dfrac{1}{5}x\\ge 7$，答：＿＿＿＿"
+    },
+    {
+     "type": "text",
+     "text": "(3) $\\dfrac{2x+1}{3}-\\dfrac{3x-2}{4}\\ge\\dfrac{1}{2}$，答：＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "由已知解集反求不等式的係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $x<14$ 為 $7x+26>ax-2$ 的解，$a=$＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-2-6-2",
+   "unitIds": [
+    "nanyi-7-2-6-2"
+   ],
+   "unitAssignmentBasis": "求眾數與中位數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某次籃球賽中，上場的 12 位球員得分如下：10、3、16、2、4、5、22、10、5、17、3、10。其中眾數 $=a$、中位數 $=b$，則 $a-b=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "立體積木的上視圖。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖（一）是由 27 塊正立方體積木堆積而成的立體圖形，若想要讓其上視圖變成如圖（二）的「T」字，至少要拿走＿＿＿＿塊積木。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 150,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 170\"><polygon points=\"15,70 81,70 105,52 39,52\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"81,70 105,52 105,118 81,136\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"15\" y=\"70\" width=\"66\" height=\"66\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.3\"/><line x1=\"37\" y1=\"70\" x2=\"37\" y2=\"136\" stroke=\"#111\" stroke-width=\"0.7\"/><line x1=\"15\" y1=\"92\" x2=\"81\" y2=\"92\" stroke=\"#111\" stroke-width=\"0.7\"/><line x1=\"37\" y1=\"70\" x2=\"61\" y2=\"52\" stroke=\"#111\" stroke-width=\"0.7\"/><line x1=\"23\" y1=\"64\" x2=\"89\" y2=\"64\" stroke=\"#111\" stroke-width=\"0.7\"/><line x1=\"89\" y1=\"64\" x2=\"89\" y2=\"130\" stroke=\"#111\" stroke-width=\"0.7\"/><line x1=\"81\" y1=\"92\" x2=\"105\" y2=\"74\" stroke=\"#111\" stroke-width=\"0.7\"/><line x1=\"59\" y1=\"70\" x2=\"59\" y2=\"136\" stroke=\"#111\" stroke-width=\"0.7\"/><line x1=\"15\" y1=\"114\" x2=\"81\" y2=\"114\" stroke=\"#111\" stroke-width=\"0.7\"/><line x1=\"59\" y1=\"70\" x2=\"83\" y2=\"52\" stroke=\"#111\" stroke-width=\"0.7\"/><line x1=\"31\" y1=\"58\" x2=\"97\" y2=\"58\" stroke=\"#111\" stroke-width=\"0.7\"/><line x1=\"97\" y1=\"58\" x2=\"97\" y2=\"124\" stroke=\"#111\" stroke-width=\"0.7\"/><line x1=\"81\" y1=\"114\" x2=\"105\" y2=\"96\" stroke=\"#111\" stroke-width=\"0.7\"/><line x1=\"30\" y1=\"140\" x2=\"48\" y2=\"128\" stroke=\"#111\" stroke-width=\"1.3\"/><polyline points=\"43,126 48,128 46,133\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.3\"/><text x=\"22\" y=\"152\" font-size=\"12\" text-anchor=\"middle\" >前方</text><text x=\"55\" y=\"168\" font-size=\"13\" text-anchor=\"middle\" >圖(一)</text><text x=\"205\" y=\"168\" font-size=\"13\" text-anchor=\"middle\" >圖(二)</text><rect x=\"175\" y=\"40\" width=\"22\" height=\"22\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"197\" y=\"40\" width=\"22\" height=\"22\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"219\" y=\"40\" width=\"22\" height=\"22\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"197\" y=\"62\" width=\"22\" height=\"22\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.3\"/><rect x=\"197\" y=\"84\" width=\"22\" height=\"22\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"1.3\"/></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-1-1",
+   "unitIds": [
+    "nanyi-7-2-1-1"
+   ],
+   "unitAssignmentBasis": "由上視圖判斷觀察位置。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下圖（三）是由 10 個正方體積木堆疊而成的立體圖形，江小鷺畫出的上視圖如圖（四），請問他是站在 A、B、C、D 哪一點呢？＿＿＿＿（填 A、B、C、D 代號）"
+    }
+   ],
+   "usable": false,
+   "sourceIssue": "圖（三）為等角透視的積木堆疊圖，各列層數與被遮擋的積木無法明確判定，無法忠實重繪。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-6-1",
+   "unitIds": [
+    "nanyi-7-2-6-1"
+   ],
+   "unitAssignmentBasis": "由次數分配表與百分比求缺項人數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "鷺江國中七年級共有 45 名學生參加校方舉辦的電競比賽，下表為參賽選手於比賽結束後的積分次數分配表。已知積分不滿 200 分的有 25 人，而 250～300 分的同學占了全班人數的 20%，則根據表中的資訊，本次競賽積分在 200～250 分的有＿＿＿＿人？"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "積分（分）",
+       "0～50",
+       "50～100",
+       "100～150",
+       "150～200",
+       "200～250",
+       "250～300"
+      ],
+      [
+       "次數（人）",
+       "3",
+       "5",
+       "7",
+       "？",
+       "？",
+       "？"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "月票與單次費用的不等式應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "江小鷺放學後都會搭公車去自習。他的自習地點有時在「圖書館」，有時在「補習班」。已知他去圖書館一天的公車來回費用為 30 元，去補習班一天的公車來回費用為 90 元。最近市府推出了一張 1150 元的「學生交通月票」，購買後的一個月內可不限次數免費搭乘公車。若只考慮放學去自習的公車費用，且以一個月總共去自習 22 天計算，則江小鷺一個月內至少要在「補習班」自習幾天，當月購買月票的花費才會比不購買月票省錢？＿＿＿＿天"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-2",
+   "unitIds": [
+    "nanyi-7-2-5-2"
+   ],
+   "unitAssignmentBasis": "碳排放量的不等式應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "江小鷺為了宣傳學校的社團發表會，原本打算印製大量傳統紙傳單，已知這些傳單會產生 650 公斤的碳排放量。為了落實校園環保，他決定改變宣傳方式，將原本要發給同學的傳統紙傳單，全面改為發送電子郵件。依據下表「每發送 1 份傳單產生的碳排放量」資訊："
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "傳單種類",
+       "碳排放量（公斤）"
+      ],
+      [
+       "電子郵件",
+       "0"
+      ],
+      [
+       "再生紙傳單",
+       "0.03"
+      ],
+      [
+       "傳統紙傳單",
+       "0.16"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "假設江小鷺每天預計要發送的宣傳資訊總數皆為 50 份，則與原本使用傳統紙傳單相比，他至少要改發電子郵件幾天，累積減少產生的碳排放量才會超過原本印製傳統紙傳單所產生的碳排放量？＿＿＿＿天"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-7-2-5-1",
+   "unitIds": [
+    "nanyi-7-2-5-1"
+   ],
+   "unitAssignmentBasis": "分段計費與範圍不等式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "假日晚間，江小鷺決定租借共享單車騎去夜市吃美食。已知該共享單車的計費方式為：每 30 分鐘收費 20 元，未滿 30 分鐘以 30 分鐘計算。當江小鷺在夜市旁的站點還車時，扣款螢幕顯示共支付了 120 元。若江小鷺租借單車的時間為 $t$ 分鐘，則 $t$ 的範圍為何？＿＿＿＿"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-7-2-6-2",
+   "unitIds": [
+    "nanyi-7-2-6-2"
+   ],
+   "unitAssignmentBasis": "由條件推算次數分配表並求平均數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下表是本校七年二十班共 40 位同學，上週每人購買手搖飲料杯數的次數分配表。因為登記表不小心沾到飲料，導致購買 1 杯、2 杯、3 杯的人數全部看不清，分別以 $x$、$y$、$z$ 表示。"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "購買手搖飲杯數（杯）",
+       "0",
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      [
+       "次數（人）",
+       "5",
+       "x",
+       "y",
+       "z",
+       "5"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "已知導師提供了以下兩個關鍵線索："
+    },
+    {
+     "type": "text",
+     "text": "線索一：購買手搖飲杯數不多於 2 杯的學生人數，占全班學生數的 65%。"
+    },
+    {
+     "type": "text",
+     "text": "線索二：購買手搖飲料杯數的中位數為 1.5 杯。"
+    },
+    {
+     "type": "text",
+     "text": "請根據以上條件，算出七年二十班上週每人購買手搖飲料杯數的平均數為＿＿＿＿杯？"
+    }
+   ]
+  }
+ ]
+}
