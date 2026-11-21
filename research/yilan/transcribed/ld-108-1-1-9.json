@@ -14,7 +14,7 @@
     "fill": 20,
     "written": 2
   },
-  "deliveryStatus": "complete",
+  "deliveryStatus": "partial",
   "visualReviewComplete": true,
   "reviewNote": "全卷完成人工核對與純向量幾何SVG重繪。原卷第2頁因學校原始上傳PDF漏掃描，第7~13題及其附圖圖五~圖九標記為usable:false並附sourceIssue說明。其餘第1~6題、14~20題及計算題1~2題共15題完整重繪與校驗。",
   "questions": [
@@ -482,5 +482,16 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceIncomplete": true,
+  "missingSourceUnits": [
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13"
+  ],
+  "sourceIncompleteNote": "原卷第1頁底部截斷、第2頁漏掃，7至13題不完整或缺失，僅收錄可辨識題目。"
 }
