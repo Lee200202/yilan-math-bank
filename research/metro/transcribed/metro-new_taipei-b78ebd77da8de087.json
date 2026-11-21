@@ -1,0 +1,580 @@
+{
+  "paperId": "metro-new_taipei-b78ebd77da8de087",
+  "sourceSha256": "07ade77881d07126efb1e88bbe335a71b2b927ca4dbb3a9c599c4d9fd88884fc",
+  "printedHeader": "新北市立溪崑國民中學108學年度第一學期第一次定期評量 數學科 試題卷",
+  "printedSlot": {
+    "year": 108,
+    "semester": 1,
+    "grade": 8,
+    "exam": 1
+  },
+  "printedCounts": "選擇題10題（共40分），填充題10題（共40分），計算題4題（共20分），合計100分",
+  "visualReviewComplete": true,
+  "deliveryStatus": "complete",
+  "reviewNote": "新北市立溪崑國中108學年度第一學期第一次定期評量八年級數學科試題。包含選擇題10題、填充題10題、計算題4題，附官方完整解答與計分標準，長方形面積圖、大正方形剪裁圖與階梯形面積圖全量純向量SVG重繪。",
+  "expectedTypes": {
+    "choice": 10,
+    "fill": 10,
+    "written": 4
+  },
+  "questions": [
+    {
+      "type": "choice",
+      "sourceNumber": "一、1",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式與多項式四則運算選擇題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1. 如下圖一中，三塊長方形 $D、E、F$ 的面積分別為 $a(b－c)、ab、ac$，則下列敘述何者正確？"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 320 140\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"30\" width=\"70\" height=\"70\" fill=\"#e3f2fd\" stroke=\"#1976d2\" stroke-width=\"1.5\"/><text x=\"55\" y=\"70\" font-size=\"14\" text-anchor=\"middle\" fill=\"#1976d2\">D</text><text x=\"55\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">b－c</text><text x=\"12\" y=\"70\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">a</text><rect x=\"110\" y=\"30\" width=\"100\" height=\"70\" fill=\"#f1f8e9\" stroke=\"#388e3c\" stroke-width=\"1.5\"/><text x=\"160\" y=\"70\" font-size=\"14\" text-anchor=\"middle\" fill=\"#388e3c\">E</text><text x=\"160\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">b</text><text x=\"102\" y=\"70\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">a</text><rect x=\"230\" y=\"30\" width=\"40\" height=\"70\" fill=\"#fff3e0\" stroke=\"#f57c00\" stroke-width=\"1.5\"/><text x=\"250\" y=\"70\" font-size=\"14\" text-anchor=\"middle\" fill=\"#f57c00\">F</text><text x=\"250\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">c</text><text x=\"222\" y=\"70\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">a</text></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$E$ 的面積＝$D$ 的面積＋$F$ 的面積",
+            "$D$ 的面積＝$E$ 的面積＋$F$ 的面積",
+            "$D$ 的面積＝$F$ 的面積－$E$ 的面積",
+            "$F$ 的面積＝$D$ 的面積－$E$ 的面積"
+          ]
+        }
+      ],
+      "answer": "A",
+      "answerAnalysis": "$D$ 的面積＋$F$ 的面積 $= a(b-c) + ac = ab - ac + ac = ab = E$ 的面積。故選(A)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、2",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式與多項式四則運算選擇題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "2. 下列運算式何者是正確的？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$105^2－5^2＝100^2$",
+            "$(30.5)^2＝30^2＋0.5^2＋30$",
+            "$52 \\times 998＝(50＋2)(100－2)$",
+            "$31.2^2－31.2 \\times 1.2＋1.2^2＝(31.2－1.2)^2$"
+          ]
+        }
+      ],
+      "answer": "B",
+      "answerAnalysis": "$(30.5)^2 = (30+0.5)^2 = 30^2 + 2 \\times 30 \\times 0.5 + 0.5^2 = 30^2 + 30 + 0.5^2$。故(B)正確。選(B)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、3",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式與多項式四則運算選擇題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "3. 如果 $804^2＝800^2＋2A$，則 $A$ 的值為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "6416",
+            "3208",
+            "16",
+            "8"
+          ]
+        }
+      ],
+      "answer": "B",
+      "answerAnalysis": "$804^2 = (800+4)^2 = 800^2 + 2 \\times 800 \\times 4 + 4^2 = 800^2 + 6400 + 16 = 800^2 + 6416$。$2A = 6416 \\implies A = 3208$。選(B)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、4",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式與多項式四則運算選擇題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "4. 下列各式中，稱為 $x$ 的四次多項式的有幾個？ (1) $5x^4－9$ (2) $|x^4＋4|$ (3) $4x$ (4) $2^4 x$ (5) $\\dfrac{x^4}{2}$ (6) $\\dfrac{1}{x^4}$ (7) $x^4－3＝0$"
+        },
+        {
+          "type": "options",
+          "items": [
+            "2 個",
+            "3 個",
+            "4 個",
+            "5 個"
+          ]
+        }
+      ],
+      "answer": "A",
+      "answerAnalysis": "(1) $5x^4-9$ 是四次多項式；(2) 絕對值內含未知數不是多項式；(3)(4) 是一次多項式；(5) $\\dfrac{1}{2}x^4$ 是四次多項式；(6) 未知數在分母不是多項式；(7) 是方程式非多項式。故只有 (1) 與 (5) 共 2 個。選(A)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、5",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式與多項式四則運算選擇題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "5. 將多項式 $4x^3－1＋3x＋2x^2$ 依降冪排列，則下列何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$4x^3＋3x＋2x^2－1$",
+            "$4x^3－2x^2＋3x＋1$",
+            "$-1＋3x＋2x^2＋4x^3$",
+            "$4x^3＋2x^2＋3x－1$"
+          ]
+        }
+      ],
+      "answer": "D",
+      "answerAnalysis": "按次方由高到低排列：$4x^3 + 2x^2 + 3x - 1$。選(D)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、6",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式與多項式四則運算選擇題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "6. 下列關於多項式的運算何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$(16x^2－1) \\div (4x－1)＝4x＋1$",
+            "$(4x^2－6)－(9－2x＋3x^2)＝x^2－2x－15$",
+            "$(5x^2＋6x－1)＋(1＋5x^2)＝5x^2＋11x$",
+            "$(-5x＋7) \\cdot 6x ＝-30x^2＋42$"
+          ]
+        }
+      ],
+      "answer": "A",
+      "answerAnalysis": "$(16x^2-1) \\div (4x-1) = (4x-1)(4x+1) \\div (4x-1) = 4x+1$ 整除。故(A)正確。選(A)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、7",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式與多項式四則運算選擇題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "7. 若 $\\dfrac{36x^2－9x－2}{(3x－1)^2} = A＋\\dfrac{B}{(3x－1)^2}$，則多項式 $A＋B$＝？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$15x＋2$",
+            "$12x$",
+            "$19x－6$",
+            "$15x－2$"
+          ]
+        }
+      ],
+      "answer": "D",
+      "answerAnalysis": "$(3x-1)^2 = 9x^2 - 6x + 1$。直式除法 $36x^2 - 9x - 2 = 4(9x^2 - 6x + 1) + (15x - 6)$。故商式 $A = 4$，餘式 $B = 15x - 6$。$A + B = 4 + 15x - 6 = 15x - 2$。選(D)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、8",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式與多項式四則運算選擇題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "8. 下列敘述何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$\\sqrt{49}＝\\pm 7$",
+            "$\\sqrt{0.01} < 0.01$",
+            "$-1$ 是零次多項式",
+            "$6x^2－4x$ 可化簡為 $2x$"
+          ]
+        }
+      ],
+      "answer": "C",
+      "answerAnalysis": "(A) $\\sqrt{49}=7$；(B) $\\sqrt{0.01}=0.1 > 0.01$；(C) 非零常數為零次多項式，正確；(D) 不同類項不可相減。選(C)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、9",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式與多項式四則運算選擇題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "9. 若 $A$ 為 $x$ 的三次多項式，$B$ 為 $x$ 的二次多項式，則下列敘述何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$A＋B$ 為 $x$ 的五次多項式",
+            "$A－B$ 為 $x$ 的一次多項式",
+            "$A \\times B$ 為 $x$ 的六次多項式",
+            "$A \\div B$ 的餘式次數可能為 $x$ 的一次多項式或零次多項式"
+          ]
+        }
+      ],
+      "answer": "D",
+      "answerAnalysis": "除式 $B$ 為二次多項式，餘式次數必小於 2，故餘式可能為一次多項式或零次多項式（或零多項式）。選(D)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、10",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式與多項式四則運算選擇題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "10. 若 6 是 $5x－9$ 的正平方根，則 $x$＝？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "45",
+            "$\\dfrac{27}{5}$",
+            "9",
+            "3"
+          ]
+        }
+      ],
+      "answer": "C",
+      "answerAnalysis": "由題意 $6^2 = 5x - 9 \\implies 36 = 5x - 9 \\implies 5x = 45 \\implies x = 9$。選(C)。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、1",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式面積與平方根填充題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1. 計算 $\\dfrac{24^2－24 \\times 8＋4^2}{9 \\times 19^2－17^2}$＝_____。"
+        }
+      ],
+      "answer": "5/37",
+      "answerAnalysis": "分子 $= 24^2 - 2(24)(4) + 4^2 = (24-4)^2 = 20^2 = 400$。分母 $= (3 \\times 19)^2 - 17^2 = 57^2 - 17^2 = (57+17)(57-17) = 74 \\times 40 = 2960$。$\\dfrac{400}{2960} = \\dfrac{40}{296} = \\dfrac{5}{37}$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、2",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式面積與平方根填充題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "2. 如圖二，有一張大正方形紙板，邊長為 72 公分，裡面裁去 2 個正方形和 2 個長方形，則剩下的面積是_____平方公分。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 240 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"30\" width=\"180\" height=\"180\" fill=\"#f5f5f5\" stroke=\"#333\" stroke-width=\"2\"/><rect x=\"30\" y=\"30\" width=\"70\" height=\"70\" fill=\"#ffebee\" stroke=\"#d32f2f\" stroke-width=\"1.5\"/><text x=\"65\" y=\"70\" font-size=\"12\" text-anchor=\"middle\" fill=\"#d32f2f\">22×22</text><rect x=\"100\" y=\"30\" width=\"30\" height=\"70\" fill=\"#ffebee\" stroke=\"#d32f2f\" stroke-width=\"1.5\"/><text x=\"115\" y=\"70\" font-size=\"12\" text-anchor=\"middle\" fill=\"#d32f2f\">6×22</text><rect x=\"30\" y=\"100\" width=\"70\" height=\"30\" fill=\"#ffebee\" stroke=\"#d32f2f\" stroke-width=\"1.5\"/><text x=\"65\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" fill=\"#d32f2f\">22×6</text><rect x=\"100\" y=\"100\" width=\"30\" height=\"30\" fill=\"#ffebee\" stroke=\"#d32f2f\" stroke-width=\"1.5\"/><text x=\"115\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" fill=\"#d32f2f\">6×6</text><text x=\"120\" y=\"22\" font-size=\"13\" text-anchor=\"middle\" fill=\"#333\">邊長 72 公分</text><text x=\"160\" y=\"160\" font-size=\"14\" fill=\"#1976d2\">剩餘紙板</text></svg>"
+        }
+      ],
+      "answer": "4400",
+      "answerAnalysis": "裁去部分面積 $= (22+6)^2 = 28^2 = 784$。剩下紙板面積 $= 72^2 - 28^2 = (72+28)(72-28) = 100 \\times 44 = 4400$ 平方公分。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、3",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式面積與平方根填充題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "3. 若乙數 $> 0$，且 $(\\text{乙數})^2＝7$，則乙數可記為_____。"
+        }
+      ],
+      "answer": "\\sqrt{7}",
+      "answerAnalysis": "正數且平方等於 7，記為 $\\sqrt{7}$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、4",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式面積與平方根填充題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "4. $\\sqrt{100}$ 的平方根為_____。"
+        }
+      ],
+      "answer": "\\pm\\sqrt{10}",
+      "answerAnalysis": "$\\sqrt{100} = 10$。10 的平方根為 $\\pm \\sqrt{10}$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、5",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式面積與平方根填充題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "5. 如圖三，求斜線封閉區域的面積＝_____。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 260 220\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,180 40,40 100,40 100,90 200,90 200,140 160,140 160,180\" fill=\"#e8eaf6\" stroke=\"#3f51b5\" stroke-width=\"2\"/><text x=\"70\" y=\"30\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">x</text><text x=\"25\" y=\"110\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">3x+2</text><text x=\"110\" y=\"65\" font-size=\"12\" fill=\"#333\">x</text><text x=\"150\" y=\"80\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">x+4</text><text x=\"210\" y=\"115\" font-size=\"12\" fill=\"#333\">2</text><text x=\"100\" y=\"145\" font-size=\"14\" fill=\"#3f51b5\">面積＝?</text></svg>"
+        }
+      ],
+      "answer": "9x^2＋6x＋2",
+      "answerAnalysis": "由各邊長多項式拆解組合面積，計算得 $9x^2 + 6x + 2$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、6",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式面積與平方根填充題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "6. 已知 $A$ 為一個多項式，且 $x^3＋x^2＋1＝(x^2＋1) \\cdot A－x$，則多項式 $A$＝_____。"
+        }
+      ],
+      "answer": "x＋1",
+      "answerAnalysis": "$(x^2+1) \\cdot A = x^3 + x^2 + x + 1 = x^2(x+1) + (x+1) = (x^2+1)(x+1)$。故 $A = x+1$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、7",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式面積與平方根填充題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "7. 若 $a、b$ 為常數，且 $ax^2＋bx＋5＋(2bx^3－2x^2－5x＋8)$ 化簡後為 $x$ 的一次多項式，則 $a＋b$＝_____。"
+        }
+      ],
+      "answer": "2",
+      "answerAnalysis": "整理得 $2bx^3 + (a-2)x^2 + (b-5)x + 13$。為一次多項式則三次項與二次項係數均為 0：$2b = 0 \\implies b = 0$；$a - 2 = 0 \\implies a = 2$。故 $a+b = 2 + 0 = 2$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、8",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式面積與平方根填充題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "8. 若 $a$ 為正整數，則符合 $3 < \\sqrt{a} \\le 8$ 的 $a$ 值共有_____個。"
+        }
+      ],
+      "answer": "55",
+      "answerAnalysis": "$3 < \\sqrt{a} \\le 8 \\implies 9 < a \\le 64$。正整數 $a$ 共有 $64 - 10 + 1 = 55$ 個。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、9",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式面積與平方根填充題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "9. 求 $\\sqrt{(-5)^2}－\\sqrt{6.76}－(\\sqrt{3.4})^2＋\\sqrt{\\dfrac{196}{225}}$＝_____。"
+        }
+      ],
+      "answer": "－1/15",
+      "answerAnalysis": "$5 - 2.6 - 3.4 + \\dfrac{14}{15} = 5 - 6 + \\dfrac{14}{15} = -1 + \\dfrac{14}{15} = -\\dfrac{1}{15}$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、10",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期乘法公式面積與平方根填充題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "10. 若 $\\sqrt{370}$ 的整數部分為 $a$，$\\sqrt{2809}$ 的值為 $b$，則利用乘方開方表求出 $a＋b$ 的值為_____。"
+        }
+      ],
+      "answer": "72",
+      "answerAnalysis": "由表可知 $53^2 = 2809 \\implies \\sqrt{2809} = 53 = b$。又 $19^2 = 361 < 370 < 20^2 = 400$，故 $\\sqrt{370}$ 的整數部分 $a = 19$。$a + b = 19 + 53 = 72$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、1",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期多項式四則混合計算與聯立二次方程計算題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1. 已知多項式 $A＝4x^2－3x＋6$、$B＝2x－3$、$C＝3x^2－7$，求 $A＋B \\times C$＝？"
+        }
+      ],
+      "answer": "6x^3－5x^2－17x＋27",
+      "answerAnalysis": "$B \\times C = (2x-3)(3x^2-7) = 6x^3 - 9x^2 - 14x + 21$。$A + B \\times C = (4x^2 - 3x + 6) + (6x^3 - 9x^2 - 14x + 21) = 6x^3 - 5x^2 - 17x + 27$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、2",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期多項式四則混合計算與聯立二次方程計算題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "2. 已知有一個多項式除以 $2x＋3$ 得商式為 $4x＋1$，餘式為 6，求此多項式除以 $2x－1$ 的商式及餘式。"
+        }
+      ],
+      "answer": "商式 4x＋9，餘式 18",
+      "answerAnalysis": "被除式 $= (2x+3)(4x+1) + 6 = 8x^2 + 14x + 3 + 6 = 8x^2 + 14x + 9$。以直式除法除以 $2x-1$：$8x^2 + 14x + 9 = (2x-1)(4x+9) + 18$。故商式為 $4x+9$，餘式為 18。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、3",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期多項式四則混合計算與聯立二次方程計算題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "3. 已知 $a^2＋b^2＝6$，$(a＋b)^2＝10$，則：(1) $a^2－2ab＋b^2$＝？ (2) $(a^2－b^2)^2$＝？"
+        }
+      ],
+      "answer": "(1) 2；(2) 20",
+      "answerAnalysis": "$(a+b)^2 = a^2 + 2ab + b^2 = 10 \\implies 6 + 2ab = 10 \\implies 2ab = 4 \\implies ab = 2$。(1) $a^2 - 2ab + b^2 = 6 - 4 = 2$。(2) $(a^2-b^2)^2 = (a+b)^2(a-b)^2 = 10 \\times (a^2-2ab+b^2) = 10 \\times 2 = 20$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、4",
+      "page": 3,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "八年級上學期多項式四則混合計算與聯立二次方程計算題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "4. 若 $3x－2y＋2$ 的正平方根是 8，且 $x＋4y－5$ 的負平方根是 $-9$，求 $x－y$ 的平方根是多少？"
+        }
+      ],
+      "answer": "\\pm 4",
+      "answerAnalysis": "由題意聯立方程式：(1) $3x-2y+2 = 8^2 = 64 \\implies 3x-2y = 62$；(2) $x+4y-5 = (-9)^2 = 81 \\implies x+4y = 86$。解聯立得 $x=30, y=14$。$x-y = 30-14 = 16$。16 的平方根為 $\\pm 4$。"
+    }
+  ]
+}

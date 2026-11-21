@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-21T14:22:59.211728+00:00",
-  "head": "d0657dec542dda86fe5dffb00fe90b4f2dc215f1",
-  "dataVersion": "20261121-metro-v135",
+  "generatedAt": "2026-11-21T14:49:49.969621+00:00",
+  "head": "322ea0aa5e7d101b4d06689f89e15a0bdd3347f6",
+  "dataVersion": "20261121-metro-v136",
   "paperCount": 1528,
-  "questionRecords": 21834,
-  "usableQuestions": 21319,
+  "questionRecords": 21955,
+  "usableQuestions": 21440,
   "statuses": {
-    "complete": 760,
+    "complete": 765,
     "complete-with-source-issues": 104,
-    "pending": 661,
+    "pending": 656,
     "partial": 3
   },
   "regions": {
@@ -24,11 +24,11 @@
     "new_taipei": {
       "papers": 685,
       "statuses": {
-        "pending": 400,
-        "complete": 252,
+        "pending": 395,
+        "complete": 257,
         "complete-with-source-issues": 33
       },
-      "usableQuestions": 7207
+      "usableQuestions": 7328
     },
     "taichung": {
       "papers": 212,
@@ -484,7 +484,7 @@
     "docx": 245,
     "doc": 103,
     "pdf": 184,
-    "odt": 132
+    "odt": 127
   },
   "notInPreparedQueues": [
     "metro-new_taipei-48000408be9d1cbf-c12e4036",
@@ -575,7 +575,6 @@
     "metro-taichung-ca9d0c68c2ad2258",
     "metro-new_taipei-706d93dc78528d31",
     "metro-new_taipei-71eefef24e599e9f",
-    "metro-new_taipei-7497f269125937b6",
     "metro-new_taipei-3c62508a5b3cbdbd",
     "metro-new_taipei-d707825ae3f1a19d",
     "metro-kaohsiung-74ee9e423b87c979",
@@ -816,7 +815,6 @@
     "metro-kaohsiung-13940683008ed669",
     "metro-new_taipei-1fabff3d18714483",
     "metro-new_taipei-94710341d7017c4a",
-    "metro-new_taipei-9d0f5e101129819e",
     "metro-new_taipei-7acc71495d72918b",
     "metro-new_taipei-cb06917ece3fb6ea",
     "metro-kaohsiung-01a3af468e117bc4",
@@ -830,7 +828,6 @@
     "metro-kaohsiung-f9db323aa0fa8d04",
     "metro-new_taipei-26ae64034ea7ef4f",
     "metro-new_taipei-462392c675e69147",
-    "metro-new_taipei-b78ebd77da8de087",
     "metro-new_taipei-90bb635b45dccd74",
     "metro-new_taipei-de32a6f2b7b84ba2",
     "metro-kaohsiung-6f565dd80420d602",
@@ -861,7 +858,6 @@
     "metro-kaohsiung-81cf02aeaea6e164",
     "metro-new_taipei-315387a61e0aa7df",
     "metro-new_taipei-9f494c3f4611c886",
-    "metro-new_taipei-3e6fd9a4466289ed",
     "metro-new_taipei-63c6a61026f9b5ec",
     "metro-new_taipei-75838697eb878753",
     "metro-new_taipei-40bd4538dc9ed723",
@@ -900,7 +896,6 @@
     "metro-new_taipei-cf2bf5a1b7ed8f72",
     "metro-new_taipei-37a912f87bf751f1",
     "metro-new_taipei-d6d1f7cde660b080",
-    "metro-new_taipei-2dabda511a6e8306",
     "metro-new_taipei-e506d1fbbc69e2e0",
     "metro-new_taipei-e7871f29cd5bd965",
     "metro-new_taipei-110afc11ae0f1d38",
@@ -963,6 +958,6 @@
     "metro-taipei-927010dbc0ab4d71-745196a7"
   ],
   "parked": [],
-  "workingChanges": "M public/app.mjs\n M public/data/coverage.json\n M public/data/paper-workflow.json\n M public/data/papers.json\n M public/data/questions.json\n M public/fonts/subset-coverage.json\n M public/index.html\n M public/units-ui.mjs\n M public/workbench.css\n M research/release-transcripts.json\n M scripts/qa-requested-papers.mjs\n?? research/metro/transcribed/metro-new_taipei-05839a3c4d83dc5e.json\n?? research/metro/transcribed/metro-new_taipei-38f88ee4fbcf85a1.json\n?? research/metro/transcribed/metro-new_taipei-6ea28e9706874022.json\n?? research/metro/transcribed/metro-new_taipei-78fc1177bdc95df7.json\n?? research/metro/transcribed/metro-new_taipei-9256edccb911d98c.json\n?? scratch/",
+  "workingChanges": "M handoff/CLAIMS.json\n M handoff/NEXT_BATCH_AND_DEPLOY.md\n M handoff/STATUS.md\n M handoff/pending-papers.json\n M handoff/state.json\n M public/app.mjs\n M public/data/coverage.json\n M public/data/paper-workflow.json\n M public/data/papers.json\n M public/data/questions.json\n M public/fonts/subset-coverage.json\n M public/index.html\n M public/units-ui.mjs\n M public/workbench.css\n M research/release-transcripts.json\n M scripts/qa-requested-papers.mjs\n?? research/metro/transcribed/metro-new_taipei-2dabda511a6e8306.json\n?? research/metro/transcribed/metro-new_taipei-3e6fd9a4466289ed.json\n?? research/metro/transcribed/metro-new_taipei-7497f269125937b6.json\n?? research/metro/transcribed/metro-new_taipei-9d0f5e101129819e.json\n?? research/metro/transcribed/metro-new_taipei-b78ebd77da8de087.json\n?? scratch/",
   "warning": "此快照只代表本機資料；不代表 PDF 目視通過或正式站已更新，另讀 VERIFICATION.md。"
 }
