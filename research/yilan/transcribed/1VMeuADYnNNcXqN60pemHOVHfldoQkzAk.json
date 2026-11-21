@@ -16,7 +16,7 @@
   },
   "visualReviewComplete": true,
   "deliveryStatus": "complete",
-  "reviewNote": "原卷2頁，7選擇與15填充題依原題組轉成文字、表格與SVG；多空完整保留。選7圖形選項以optionFigures保留A–D各一次；統計圖及拋物線示意對照原圖重繪。填4未限制a的正負，但校方答案只列正值，兩種符號均滿足，該題保留停用。",
+  "reviewNote": "原卷2頁，7選擇與15填充題依原題組轉成文字、表格與SVG；多空完整保留。選7圖形選項以optionFigures保留A–D各一次；統計圖及拋物線示意對照原圖重繪。填4原題未限制a正負，AB=72|a|=36，完整解為a=±1/2，網站增加列出所有可能值之指示；官方解答（https://drive.google.com/file/d/1eg6rAdyIhZgjZLIWMTVd5O-PXdKSiV2u/view，SHA-256 9307e89fd8d6eae197306a5f9d63e1eed93a1185d14b226ea151e89c66ea0f88）只列出正值，漏列負值。",
   "questions": [
     {
       "type": "choice",
@@ -280,11 +280,9 @@
       "blocks": [
         {
           "type": "text",
-          "text": "已知二次函數 $y=ax^2$、$y=-ax^2$ 的圖形與直線 $x=6$ 分別交於 $A$、$B$ 兩點。若 $\\overline{AB}=36$，求 $a=$＿＿＿＿。"
+          "text": "已知二次函數 $y=ax^2$、$y=-ax^2$ 的圖形與直線 $x=6$ 分別交於 $A$、$B$ 兩點。若 $\\overline{AB}=36$，求 $a=$＿＿＿＿。請列出所有可能值。"
         }
-      ],
-      "usable": false,
-      "sourceIssue": "原題未限定 a 的正負，a=1/2 與 a=-1/2 均滿足距離條件；校方解答僅列正值，暫停使用。"
+      ]
     },
     {
       "type": "fill",
