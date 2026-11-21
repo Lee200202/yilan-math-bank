@@ -1,11 +1,10 @@
 # 高雄市 美濃國中 待完成清單
 
-未轉寫 118 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
+未轉寫 90 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
 
 | 範圍 | 狀態 | 格式 | paperId | 原檔／官方包 | SHA256 |
 | --- | --- | --- | --- | --- | --- |
 | 115上・7年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-a60956a16669da0a` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/115-1/115-1-1-7數學.doc>)  | `60c64e4d8c0973b654f0e0f5af6b9906779a938cfc2fb58909d1bfe1b4b3ef1f` |
-| 115上・8年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-7de84c65553c86cf` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/115-1/115-1-1-8數學.docx>)  | `90b05d508dab76c23e4ee7b0e4ad6b3da36cac7b1d313a671c87ee65e286db8a` |
 | 115上・9年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-3b9c1222e16623ac` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/115-1/115-1-1-9數學.docx>)  | `c98f8660f87e6e879e631227b63dd90920c49340ae026125f09157e67ef5ff54` |
 | 114上・7年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-dc56a2f83c739e84` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-1/114-1-1-7數學.doc>)  | `6b21bb86b46d88ab514dadf97b4831d92316143ae9a68e1d030973986d6c48dd` |
 | 114上・7年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-3c07666426aff298` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-1/114-1-2-7數學.docx>)  | `42536c23719c1d4607a95b6555810a90c83008ae1531a69de8b31b1b6e7cfb2a` |
@@ -13,12 +12,6 @@
 | 114下・7年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-5dc275c8ce288ac1` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-2/114-2-1-7數學.docx>)  | `ed6ce2b394696d86d49262e3d742c9f5fcc73d3fd7b1953f418a2ebe5d864017` |
 | 114下・7年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-36db7844a8fbf047` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-2/114-2-2-7數學.docx>)  | `1cca6703cd12dff180c9214a6ec8ccacf1f3cdb5820fcdc9423ce4df7602974d` |
 | 114下・7年級・第3次 | 未轉寫 | docx | `metro-kaohsiung-d427320c47307fa0` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-2/114-2-3-7數學.docx>)  | `38e5cceb4ac39948901f9dc87214c272bfff8a53f893797cdd4153fefe04da9a` |
-| 114上・8年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-8c4a8bee4add78fe` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-1/114-1-1-8數學.doc>)  | `904142d5b222f92b5a443387522c0ec8d3969af1ef5c02f9e5934431d1270771` |
-| 114上・8年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-a189ea48827f3aaf` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-1/114-1-2-8數學.docx>)  | `067a09b46e077c95c8d119249e04ea83e1322a24f038e717f0291cb8a94a05c1` |
-| 114上・8年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-0236c403f4ab36c3` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-1/114-1-3-8數學.doc>)  | `30761e8bbf546539699d42801441345465f5282006e45e6bd9d8cd8823c02950` |
-| 114下・8年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-51e8e8c98e8c5892` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-2/114-2-1-8數學.docx>)  | `3416224c015885d668c210320406f87fd8af999b07d495ad0f477565e971685c` |
-| 114下・8年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-67625eaf25050d28` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-2/114-2-2-8數學.docx>)  | `62a1ce761154a4c4153df37a6bffe55367a1fd4ec3887a78ba8eb7ff3c5f936c` |
-| 114下・8年級・第3次 | 未轉寫 | docx | `metro-kaohsiung-126dede56d4449aa` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-2/114-2-3-8數學.docx>)  | `68ec5ce481651ae684178b91f8c2262c79e3c2ad4e8334b6e93ed20f79516ab0` |
 | 114上・9年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-837d6584e09bb1a1` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-1/114-1-1-9數學.docx>)  | `da99ad5b00797bc1a64d0d3c1bb928d83daf1cd13662f6be693694c4e9e8bb4e` |
 | 114上・9年級・第2次 | 未轉寫 | doc | `metro-kaohsiung-17bcf7d0715b943f` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-1/114-1-2-9數學.doc>)  | `41fe14ecb873997ad53be76de086a259350471d96c78c0f40360f67423dba670` |
 | 114上・9年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-0e4c437617340865` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/114-1/114-1-3-9數學.doc>)  | `bdb80cb54b7d3d1552033cb80bf12283cf864c841b8b482562dc47894dd1b18b` |
@@ -30,12 +23,6 @@
 | 113下・7年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-f4138193d38efd95` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/113-2/113-2-1-7數學.docx>)  | `6d84fbe5a62d08090d5fe60b7f2677b7d76cb60c9fedb43cbc9d4d97b850c9a6` |
 | 113下・7年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-d177d738d0d1cd05` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/113-2/113-2-2-7數學.docx>)  | `16c8a6b88b2fd42daf2ea8921b876398d0891a423fec41c6f67b12b211fd9435` |
 | 113下・7年級・第3次 | 未轉寫 | docx | `metro-kaohsiung-5f15f81ada790db2` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/113-2/113-2-3-7數學.docx>)  | `dcc95564c42d38f49043e2f0fc46f1fb86c6e84952e4819dc5e34ed3527f5403` |
-| 113上・8年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-886242d45c3a8c3c` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/113-1/113-1-1-8數學.docx>)  | `951579e875632c1996149169a36a216e28f9e1d1531a43d7ed84909c13bc16a1` |
-| 113上・8年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-74b214d7461d2de1` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/113-1/113-1-2-8數學.docx>)  | `02b5b958dff2aed15c3374b03d6049907753705111094c75f5241852d0fd6ff8` |
-| 113上・8年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-5eb0576bc67eced0` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/113-1/113-1-3-8數學.doc>)  | `bc80857e520e3103988e4218a43a4004a20ff6aa75f0929b74dc3e62e86e07d9` |
-| 113下・8年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-8dca4e7c946d4b31` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/113-2/113-2-1-8數學.doc>)  | `1aeaa1c6463d65de28471967dc157660ae581a46bc8b042ffde77c2975d4a066` |
-| 113下・8年級・第2次 | 未轉寫 | doc | `metro-kaohsiung-7ab2e607ba63b744` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/113-2/113-2-2-8數學.doc>)  | `0864dc900c06f98a944731359c9e388f57c6c5dbd0a712840c0e65ff395f5bdc` |
-| 113下・8年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-da0929148fac3b96` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/113-2/113-2-3-8數學.doc>)  | `1b5a28072ba0975b7cf5ae5f5513a000e51cde63469252f99b1bab04f44d619e` |
 | 113上・9年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-8a042df5c517b7d1` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/113-1/113-1-1-9數學.docx>)  | `307ac704e36dcf207f27d1a726820fe8e5f67cd83cbd17b406ea10fc4030bee2` |
 | 113上・9年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-1e877a405924c004` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/113-1/113-1-2-9數學.docx>)  | `f75f439fa7956e71c2c35478dde7a78d97648bf54429e3c7274153cde7d71679` |
 | 113上・9年級・第3次 | 未轉寫 | docx | `metro-kaohsiung-10ca2bb228e49447` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/113-1/113-1-3-9數學.docx>)  | `fb4a5375aa491647b1f56101ad0c24651c93b867b15b6e70d67f6bd843d80798` |
@@ -47,9 +34,6 @@
 | 112下・7年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-5c0ae9dbd743e269` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1122/1/一數學.doc>)  | `9dd28b4eb6fb53adccb75da4c8ecc9d194653e0baaf323551b3430779cddfbca` |
 | 112下・7年級・第2次 | 未轉寫 | doc | `metro-kaohsiung-63a3c1f8d83d16e6` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1122/2/一數學.doc>)  | `ec6e6ea7f88f990c70f40bc1b6b9613336065379e6c839b3e093a03ffd557a54` |
 | 112下・7年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-bd9d5d1878b4a679` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1122/3/一數學.doc>)  | `c8a1d4c41c6cec282675680cb98d3ac739b40ab46693881a6026231bba734719` |
-| 112上・8年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-f0ac0d7562369d48` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1121/1/二數學.doc>)  | `01d251f66265d2a1fd7307b3ccfd4b511e94907aeea75ff82ad856cc9d6e1fb1` |
-| 112上・8年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-b27c4c7d7ed7d1e5` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1121/2/二數學.docx>)  | `f285425b758408a60572d03fd8240e3db169773dce035001d26d5e17483da2a8` |
-| 112上・8年級・第3次 | 未轉寫 | docx | `metro-kaohsiung-f1a86b7eb03106a3` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1121/3/二數學.docx>)  | `df25ba3cff9c8b0224208fea5093e072f09a6945c1b3c52cf9bb32eff4253e91` |
 | 112下・8年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-014b2dc2f32a1f6e` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1122/1/二數學.docx>)  | `89de32bfa29defe4ca3f3343d784aea9c59fc66c04945fb4eb33f989477555a9` |
 | 112下・8年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-4285a746e1374dad` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1122/2/二數學.docx>)  | `05a8538f3c8dd90b7f98e6237f2566747507d389968317f93ed666d6da5dd438` |
 | 112下・8年級・第3次 | 未轉寫 | docx | `metro-kaohsiung-d30465ae1152c92b` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1122/3/二數學.docx>)  | `38a883ccf1603e918b54452514902eb408e2077e8832d1977539387ab35c88a4` |
@@ -64,9 +48,6 @@
 | 111下・7年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-7cd79c2cec48e047` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1112/01/一數學.doc>)  | `caadfd76793ed638d45af69be932a6e18bf52535460cb6c5116aa02acaf1254a` |
 | 111下・7年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-5ae7a8a3aeef8b0d` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1112/02/一數學.docx>)  | `60dba576de9dcbe52e383319ef1cf361232f9a324486a03619276a1096acbeb6` |
 | 111下・7年級・第3次 | 未轉寫 | docx | `metro-kaohsiung-5bbabc6abefde154` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1112/03/一數學.docx>)  | `3d360e4f1266900268c9372f020259000a9b8efa2d18718382236e74c831a1af` |
-| 111上・8年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-74b77d5dd82df371` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1111/01/二數學.doc>)  | `e72089124ae1fdc3e76b3f8262fcf66296c6ca2b4bef011e5209d2f53763f09a` |
-| 111上・8年級・第2次 | 未轉寫 | doc | `metro-kaohsiung-ef521709d7df3eea` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1111/02/二數學.doc>)  | `4498e9e836929c8261b1a00f821533dd894d57c8bcedad1870eb021763ee2edc` |
-| 111上・8年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-c4b052434592c02f` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1111/03/二數學.doc>)  | `c6b8c7c724073c4d5b5ac261612636849b451ecedac7868c26a3cbca7287f015` |
 | 111下・8年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-ad86197d3e82157e` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1112/01/二數學.doc>)  | `3758e9128b1b1d9cd31eab76cf1b754d5c3c48be7906f5c05b12ae883ac8b97c` |
 | 111下・8年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-f5110cad3088a7f4` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1112/02/二數學.docx>)  | `d1e7402af746d27d3f3f79bb48e28b519dde239c1cb3c0e09972e99812c7f6ee` |
 | 111下・8年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-b88095f6d994f274` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1112/03/二數學.doc>)  | `3d3fbf895b4fcfccdc3cd82e19d68724dbb1d072c61c2ed0c59afeff31123bc5` |
@@ -80,9 +61,6 @@
 | 110下・7年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-237cb7128d229955` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1102/01/一數學.doc>)  | `f53b08bf4b10f36d7cfe14d086e59251a8426065aaefd22c759916d4522207a2` |
 | 110下・7年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-9f9e653e1a0d5a9a` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1102/02/一數學.docx>)  | `1f770ad156e3ea8950d813a5ce63c7ece9746df735ea6c83f8c4db243afe3b77` |
 | 110下・7年級・第3次 | 未轉寫 | docx | `metro-kaohsiung-350d921994b2f7c0` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1102/03/一數學.docx>)  | `21ebfeda9d06a0851b45829f18919f7afdbd41eca9b31c4b70f0e5664536163d` |
-| 110上・8年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-9af37262cf281886` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1101/01/二數學.docx>)  | `3bd6a190bd1e295d78a0941b970d7de9e1ed0bbd281adb782291e4350020ccc1` |
-| 110上・8年級・第2次 | 未轉寫 | doc | `metro-kaohsiung-d6ab806615d56c26` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1101/02/二數學.doc>)  | `5ac966f0831bc14650f996dd34f0e7480ae023a643876bd1112512af26e48eab` |
-| 110上・8年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-dda68a7fb0f809ad` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1101/03/二數學.doc>)  | `36b79fd9d1d04cb0a5640dc52502a1ed50ce4defdfd675f1219fc3b257ea9f67` |
 | 110下・8年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-c1ed4a25404686e6` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1102/01/二數學.doc>)  | `5ac27297879dff91a377cfd5ebca0fc5c2954f093d6e2bf313ea9027dcd0d56f` |
 | 110下・8年級・第2次 | 未轉寫 | doc | `metro-kaohsiung-a33fa504854788d1` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1102/02/二數學.doc>)  | `823524e1c81f62b2d1f1fed735d2f75b77351be1112af5d3af08e08928c708c2` |
 | 110下・8年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-ba36fa71e140c5b4` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1102/03/二數學.doc>)  | `135928f81d950870fd3776ef6e325075c499161eaf3e5a8bbd9f7adf2cb12b94` |
@@ -95,9 +73,6 @@
 | 109上・7年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-bec758715419c3fa` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1091/03/一數學.doc>)  | `d60ebfcb361bb3c366cc2907cfd62699baab1c0442ac9c14fd88c70086220256` |
 | 109下・7年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-301b20f3011cd113` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1092/01/一數學.doc>)  | `361251521a74b1d29dc82c5d41f6698ff720270ea2509837b135d42d5d7ae7a1` |
 | 109下・7年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-b4eaaa0dc2367b52` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1092/02/一數學.docx>)  | `8c1200565d25c09a7f3592fb56fb0490161bab3714f1a80e2c5e201e99019bf4` |
-| 109上・8年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-c09eed0740c7991c` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1091/01/二數學.docx>)  | `c59dbc0ba6e8ba7b81e5515af4bac1ea3f6e31978c0e76af999099109a286d28` |
-| 109上・8年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-ab072c4621722909` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1091/02/二數學.docx>)  | `bb5d434e9fd92f0136262373e6b952eb891daf4dec3667d6622153431f362590` |
-| 109上・8年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-cdcd7aa605a007dc` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1091/03/二數學.doc>)  | `7ce20a516f411320de135d7a67c9f63860a898e04b43fb0e8d6dbd59975df380` |
 | 109下・8年級・第1次 | 未轉寫 | docx | `metro-kaohsiung-8f829c94e4441b5f` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1092/01/二數學.docx>)  | `3ea7c2f6bd5760ceeaa95350aa88112d19d154451743a8fa8489f7a6b83deee1` |
 | 109下・8年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-bc126c98f4ca8b20` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1092/02/二數學.docx>)  | `576c130626b3e64cc2983c2d497b20ef98ed8ade995257ad3c0557ad122875f8` |
 | 109上・9年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-ff61562af90238d5` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1091/01/三數學.doc>)  | `8ab70ce309aa2046e416873c1382e4b837b484b79b4d6469761a12aca8375eec` |
@@ -111,9 +86,6 @@
 | 108下・7年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-2fb41f03d1c15ad4` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1082/01/一數學.doc>)  | `9d0bcacec5590a7f28cef0930119a3a3439c10fb7c842b96f7b8599bf210f94d` |
 | 108下・7年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-8ebff68d5d2fc7c4` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1082/02/一數學.docx>)  | `46779492795627c222fd0035d7e2e67fe0d8cc5c6b6edc20b6b3b8c5697673a4` |
 | 108下・7年級・第3次 | 未轉寫 | doc | `metro-kaohsiung-8c5952d00869e0af` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1082/03/一數學.doc>)  | `acfe5406bb9c00c550fcd8d850d7a05af39ce8cde148c264bb3e4b3f83434442` |
-| 108上・8年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-73f3d0cbaf5a6581` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1081/01/二數學.doc>)  | `db98f9e76f7ecb4857b42bd5e17629f5add5de26797e85fda4794b5876c4677e` |
-| 108上・8年級・第2次 | 未轉寫 | doc | `metro-kaohsiung-6cf1b9edad3bcd09` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1081/02/二數學.doc>)  | `0b419e3de35ca9213a8d5e90eabb158c8a098f139637245e16235145c946f440` |
-| 108上・8年級・第3次 | 未轉寫 | docx | `metro-kaohsiung-abbbe5eeb13a70c2` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1081/03/二數學.docx>)  | `a520d218e9120edb65866e534966a8a6642830467e040f77af9a8cb37e79fcd9` |
 | 108下・8年級・第1次 | 未轉寫 | doc | `metro-kaohsiung-728b264fcfdb4d20` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1082/01/二數學.doc>)  | `d5f3666f8168bb59c6d5937321ed1159ccb13767a8aee53acc7e3241810b9b7e` |
 | 108下・8年級・第2次 | 未轉寫 | docx | `metro-kaohsiung-f49cd317eed6e88a` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1082/02/二數學.docx>)  | `4c6c07cc17e00a992e303f9ae30ebbbbaed49b5efa100aaeb9779d3352b6d531` |
 | 108下・8年級・第3次 | 未轉寫 | docx | `metro-kaohsiung-293c9bb61201f0b2` | [原檔/來源](<https://hakka.mtjh.kh.edu.tw/exam/1082/03/二數學.docx>)  | `f5e328e246b97abe7adf16cba4eb9740a70a557bac1a88d1ab103657149c57a2` |

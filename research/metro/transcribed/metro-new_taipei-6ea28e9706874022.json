@@ -1,0 +1,588 @@
+{
+  "paperId": "metro-new_taipei-6ea28e9706874022",
+  "sourceSha256": "1fc0c3282c5068ae436aa0d0978c4952e140c3de2d34e5e68b4aba89d1e43eaa",
+  "printedHeader": "新北市立溪崑國民中學109學年度第一學期第一次定期評量 數學科 試題卷",
+  "printedSlot": {
+    "year": 109,
+    "semester": 1,
+    "grade": 8,
+    "exam": 1
+  },
+  "printedCounts": "選擇題10題(40分)、填充題10格(40分)、計算題4題(20分)，共100分。",
+  "visualReviewComplete": true,
+  "deliveryStatus": "complete",
+  "reviewNote": "ODT與DOCX雙軌提取；對照學校官方解答與計算題官方給分過程。全卷24題可用24題；數線點、多項式直式加法、梯形面積圖、長除法填空、重疊面積圖均純向量SVG重繪。",
+  "expectedTypes": {
+    "choice": 10,
+    "fill": 10,
+    "written": 4
+  },
+  "questions": [
+    {
+      "type": "choice",
+      "sourceNumber": "一、1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式除法基本性質（餘式次數小於除式次數）。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列敘述哪一項正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "多項式 $x^2－2x$ 中，$x$ 項的係數是2。",
+            "兩個 $x$ 的二次多項式相加，其結果也是 $x$ 的二次多項式。",
+            "在多項式除法中，當餘式不為0時，餘式的次數必小於商式的次數。",
+            "在多項式除法中，當餘式不為0時，餘式的次數必小於除式的次數。"
+          ]
+        }
+      ],
+      "answer": "D",
+      "answerAnalysis": "(A) $x$ 項係數為 $-2$；(B) 若二次項互為相反數，相加後可能降次或為常數多項式；(C) 餘式次數不一定小於商式；(D) 依除法原理，餘式不為0時，餘式次數必小於除式次數。故選(D)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "乘法公式算小數平方方法辨識。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "有四位同學想要算出 $8.5^2$ 的值，他們的方法如下： 小瑛：$8.5^2＝(8＋0.5)^2＝8^2＋2\\times 4\\times 0.5＋0.5^2$； 小岳：$8.5^2＝(\\dfrac{17}{2})^2＝\\dfrac{17^2}{2^2}$； 阿日：$8.5^2＝8^2＋0.5^2$； 阿融：$8.5^2＝(9－0.5)^2＝9^2－2\\times 9\\times 0.5－0.5^2$。 如果這四人接下來都沒有計算或其他方面的錯誤，那麼誰的答案是正確的？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "小瑛",
+            "小岳",
+            "阿日",
+            "阿融"
+          ]
+        }
+      ],
+      "answer": "B",
+      "answerAnalysis": "小瑛中間項應為 $2 \\times 8 \\times 0.5$ 而非 $2 \\times 4 \\times 0.5$；阿日漏了乘積項 $2 \\times 8 \\times 0.5$；阿融展開尾項應為 $+0.5^2$ 而非 $-0.5^2$；小岳將 $8.5$ 化為分數 $\\dfrac{17}{2}$ 再平方，方法完全正確。故選(B)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、3",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式加減後的次數判別。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $A$ 為 $x$ 的三次多項式，$B$ 為 $x$ 的一次多項式，則 $A－2B$ 為 $x$ 的幾次多項式？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "四次",
+            "三次",
+            "二次",
+            "一次"
+          ]
+        }
+      ],
+      "answer": "B",
+      "answerAnalysis": "$A$ 的最高次項為三次，$2B$ 最高次項為一次，相減後三次項係數未受影響且不為0，故 $A-2B$ 仍為三次多項式。選(B)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、4",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "平方根定義正負辨識。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列敘述哪一項正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$0.2$ 是 $0.4$ 的平方根。",
+            "若 $a＝(－29)^2$，則 $-29$ 為 $a$ 的平方根。",
+            "$-7^2＝－49$，所以 $-7$ 是 $-49$ 的平方根。",
+            "$\\sqrt{9}$ 的平方根為3與－3。"
+          ]
+        }
+      ],
+      "answer": "B",
+      "answerAnalysis": "(A) $0.2^2 = 0.04 \\neq 0.4$；(B) $(-29)^2 = a$，故 $-29$ 為 $a$ 的平方根，正確；(C) 負數在實數範圍內沒有平方根；(D) $\\sqrt{9} = 3$，其平方根為 $\\pm \\sqrt{3}$。故選(B)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、5",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "平方差公式數值比大小。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列四個式子，哪一個值最大？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$877^2－73^2$",
+            "$852^2－48^2$",
+            "$1001^2－599^2$",
+            "$1006^2－604^2$"
+          ]
+        }
+      ],
+      "answer": "A",
+      "answerAnalysis": "利用平方差公式 $a^2-b^2 = (a+b)(a-b)$：(A) $(877+73)(877-73) = 950 \\times 804 = 763800$；(B) $(852+48)(852-48) = 900 \\times 804 = 723600$；(C) $(1001+599)(1001-599) = 1600 \\times 402 = 800 \\times 804 = 643200$；(D) $(1006+604)(1006-604) = 1610 \\times 402 = 805 \\times 804 = 647220$。比較可知 (A) 最大。選(A)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、6",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "單項式除多項式求商式與餘式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "計算 $x^2(2x＋8)$ 除以 $x^3$ 後，得商式和餘式分別為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "商式為2，餘式為 $8x^2$",
+            "商式為2，餘式為8",
+            "商式為 $2x＋8$，餘式為 $8x^2$",
+            "商式為 $2x＋8$，餘式為0"
+          ]
+        }
+      ],
+      "answer": "A",
+      "answerAnalysis": "被除式為 $2x^3 + 8x^2$。除以 $x^3$ 得：$2x^3 + 8x^2 = 2(x^3) + 8x^2$。因為餘式 $8x^2$ 次數為二次，小於除式 $x^3$ 的三次，故商式為 2，餘式為 $8x^2$。選(A)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、7",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式乘法與展開運算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列多項式乘法運算，哪一個正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$(2x＋1)(x－1)－(x^2＋x－2)＝x^2－2x＋1$",
+            "$(3x＋5)^2＝9x^2＋25x$",
+            "$(3x＋7)(3x－7)＝3x^2－49$",
+            "$(3x－1)(x＋2)＝3x^2－5x－2$"
+          ]
+        }
+      ],
+      "answer": "A",
+      "answerAnalysis": "(A) $(2x+1)(x-1) = 2x^2 - x - 1$。相減 $(2x^2 - x - 1) - (x^2 + x - 2) = x^2 - 2x + 1$，正確；(B) 展開為 $9x^2 + 30x + 25$；(C) 展開為 $9x^2 - 49$；(D) 展開為 $3x^2 + 5x - 2$。故選(A)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、8",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "一次多項式係數條件分析。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若多項式 $(a－4)x^2＋(b＋1)x＋c－2$ 是 $x$ 的一次多項式，則關於 $a$、$b$、$c$ 三個數的條件，下列何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$a\\neq 4$",
+            "$b＝－1$",
+            "$c$ 為任意數",
+            "$a$、$b$ 為任意數"
+          ]
+        }
+      ],
+      "answer": "C",
+      "answerAnalysis": "要為一次多項式，二次項係數必為0（$a - 4 = 0 \\implies a = 4$），一次項係數必不為0（$b + 1 \\neq 0 \\implies b \\neq -1$），常數項可為任意數（$c$ 為任意數）。故選(C)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、9",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "根號完全平方整數條件個數求解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "$x$ 是正整數，且 $x＜100$，則使得 $\\sqrt{5x}$ 為整數的 $x$ 共有幾個？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$1$",
+            "$2$",
+            "$3$",
+            "$4$"
+          ]
+        }
+      ],
+      "answer": "D",
+      "answerAnalysis": "要使 $\\sqrt{5x}$ 為整數，$x$ 必須為 $5k^2$ 的形式（$k$ 為正整數）：若 $k=1 \\implies x = 5$；$k=2 \\implies x = 20$；$k=3 \\implies x = 45$；$k=4 \\implies x = 80$；若 $k=5 \\implies x = 125 > 100$（不合）。共有 5, 20, 45, 80 共 4 個。選(D)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、10",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "根式近似值在數線上對應點位置判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如下圖數線上有A、B、C、D四點，根據圖中各點的位置，判斷哪一點所表示的數和 $5－\\sqrt{33}$ 最接近？"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 340 90\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"50\" x2=\"320\" y2=\"50\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"325,50 315,45 315,55\" fill=\"#333\"/><!-- Ticks --><line x1=\"40\" y1=\"45\" x2=\"40\" y2=\"55\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"40\" y=\"70\" font-size=\"12\" fill=\"#333\" text-anchor=\"middle\">-3</text><line x1=\"100\" y1=\"45\" x2=\"100\" y2=\"55\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"100\" y=\"70\" font-size=\"12\" fill=\"#333\" text-anchor=\"middle\">-2</text><line x1=\"160\" y1=\"45\" x2=\"160\" y2=\"55\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"160\" y=\"70\" font-size=\"12\" fill=\"#333\" text-anchor=\"middle\">-1</text><line x1=\"220\" y1=\"45\" x2=\"220\" y2=\"55\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"220\" y=\"70\" font-size=\"12\" fill=\"#333\" text-anchor=\"middle\">0</text><line x1=\"280\" y1=\"45\" x2=\"280\" y2=\"55\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"280\" y=\"70\" font-size=\"12\" fill=\"#333\" text-anchor=\"middle\">1</text><!-- Points --><circle cx=\"76\" cy=\"50\" r=\"3.5\" fill=\"#d32f2f\"/><text x=\"76\" y=\"35\" font-size=\"13\" font-weight=\"bold\" fill=\"#d32f2f\" text-anchor=\"middle\">A</text><circle cx=\"142\" cy=\"50\" r=\"3.5\" fill=\"#1976d2\"/><text x=\"142\" y=\"35\" font-size=\"13\" font-weight=\"bold\" fill=\"#1976d2\" text-anchor=\"middle\">B</text><circle cx=\"176\" cy=\"50\" r=\"3.5\" fill=\"#2e7d32\"/><text x=\"176\" y=\"35\" font-size=\"13\" font-weight=\"bold\" fill=\"#2e7d32\" text-anchor=\"middle\">C</text><circle cx=\"244\" cy=\"50\" r=\"3.5\" fill=\"#f57c00\"/><text x=\"244\" y=\"35\" font-size=\"13\" font-weight=\"bold\" fill=\"#f57c00\" text-anchor=\"middle\">D</text></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "點A",
+            "點B",
+            "點C",
+            "點D"
+          ]
+        }
+      ],
+      "answer": "C",
+      "answerAnalysis": "因為 $5^2 = 25 < 33 < 36 = 6^2$，且 $5.7^2 = 32.49$，$5.8^2 = 33.64$，故 $\\sqrt{33} \\fallingdotseq 5.74$。因此 $5 - \\sqrt{33} \\fallingdotseq 5 - 5.74 = -0.74$。在數線上，$-0.74$ 位於 $-1$ 與 0 之間且靠近 $-1$ 的位置，對照數線恰為點 C。故選(C)。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "根式分數開平方化簡。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "化簡 $\\sqrt{\\dfrac{144}{49}}$＝____。"
+        }
+      ],
+      "answer": "\\dfrac{12}{7}",
+      "answerAnalysis": "$\\sqrt{\\dfrac{144}{49}} = \\dfrac{\\sqrt{144}}{\\sqrt{49}} = \\dfrac{12}{7}$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、2",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "差的平方公式求待定數值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $(59\\dfrac{1}{2})^2＝60^2＋s$，則 $s$＝____。"
+        }
+      ],
+      "answer": "-59\\dfrac{3}{4}",
+      "answerAnalysis": "$(59\\dfrac{1}{2})^2 = (60 - \\dfrac{1}{2})^2 = 60^2 - 2 \\times 60 \\times \\dfrac{1}{2} + (\\dfrac{1}{2})^2 = 60^2 - 60 + \\dfrac{1}{4} = 60^2 - 59\\dfrac{3}{4}$。故 $s = -59\\dfrac{3}{4}$（或 $-\\dfrac{239}{4}$）。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、3",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "差的平方公式速算大數平方。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "求 $2007^2－2\\times 2007\\times 7＋7^2$＝____。"
+        }
+      ],
+      "answer": "4000000",
+      "answerAnalysis": "$2007^2 - 2 \\times 2007 \\times 7 + 7^2 = (2007 - 7)^2 = 2000^2 = 4000000$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、4",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式括號化簡與同類項合併。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "化簡 $(3x＋4x^2＋2)－[(2x－1＋4x^2)＋(2x^2＋3x)]$＝____。"
+        }
+      ],
+      "answer": "-2x^2-2x+3",
+      "answerAnalysis": "中括號內合併：$(4x^2 + 2x - 1) + (2x^2 + 3x) = 6x^2 + 5x - 1$。原式＝$(4x^2 + 3x + 2) - (6x^2 + 5x - 1) = (4x^2 - 6x^2) + (3x - 5x) + (2 - (-1)) = -2x^2 - 2x + 3$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、5",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式直式加法未知係數求值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若多項式的直式加法計算過程如下圖所示，則 $a＋b＋c$＝____。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 260 140\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"50\" y=\"35\" font-size=\"16\" fill=\"#333\" text-anchor=\"start\">2x² － 3x ＋ a</text><text x=\"20\" y=\"70\" font-size=\"16\" font-weight=\"bold\" fill=\"#333\">＋</text><text x=\"50\" y=\"70\" font-size=\"16\" fill=\"#333\" text-anchor=\"start\">bx² － 4x ＋ 5</text><line x1=\"20\" y1=\"85\" x2=\"240\" y2=\"85\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"50\" y=\"115\" font-size=\"16\" fill=\"#333\" text-anchor=\"start\">5x² ＋ cx ＋ 9</text></svg>"
+        }
+      ],
+      "answer": "0",
+      "answerAnalysis": "對照同類項係數加法：二次項 $2 + b = 5 \\implies b = 3$；一次項 $-3 + (-4) = c \\implies c = -7$；常數項 $a + 5 = 9 \\implies a = 4$。因此 $a + b + c = 4 + 3 + (-7) = 0$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、6",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式除法原理逆推被除式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知多項式 $B$ 除以 $2x＋3$，得商式為 $x－1$，餘式為7，求此多項式 $B$＝____。"
+        }
+      ],
+      "answer": "2x^2+x+4",
+      "answerAnalysis": "依除法原理：被除式 $=$ 除式 $\\times$ 商式 $+$ 餘式 $\\implies B = (2x + 3)(x - 1) + 7 = (2x^2 - 2x + 3x - 3) + 7 = 2x^2 + x + 4$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、7",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "梯形面積公式與多項式除法求高。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如下圖，梯形的上底為 $x－3$、下底為 $3x＋5$、面積為 $4x^2＋10x＋4$，試以 $x$ 的多項式表示此梯形的高＝____。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 280 180\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"70,40 190,40 240,140 40,140\" fill=\"#f5f5f5\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"130\" y=\"30\" font-size=\"13\" fill=\"#333\" text-anchor=\"middle\">上底：x － 3</text><text x=\"140\" y=\"165\" font-size=\"13\" fill=\"#333\" text-anchor=\"middle\">下底：3x ＋ 5</text><line x1=\"70\" y1=\"40\" x2=\"70\" y2=\"140\" stroke=\"#d32f2f\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><rect x=\"70\" y=\"125\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#d32f2f\" stroke-width=\"1.2\"/><text x=\"80\" y=\"95\" font-size=\"12\" fill=\"#d32f2f\">高 h</text><text x=\"140\" y=\"95\" font-size=\"12\" fill=\"#666\" text-anchor=\"middle\">面積＝4x²＋10x＋4</text></svg>"
+        }
+      ],
+      "answer": "2x+4",
+      "answerAnalysis": "梯形面積公式：$\\dfrac{(\\text{上底} + \\text{下底}) \\times h}{2} = \\text{面積}$。上底加下底為 $(x - 3) + (3x + 5) = 4x + 2$。故 $\\dfrac{(4x + 2)h}{2} = (2x + 1)h = 4x^2 + 10x + 4$。多項式除法：$h = \\dfrac{4x^2 + 10x + 4}{2x + 1} = 2x + 4$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、8",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式乘法係數對照求一次項係數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $(3x＋m)(nx＋3)$ 計算後，$x^2$ 項係數與常數項都是9，則此多項式 $x$ 項係數為____。"
+        }
+      ],
+      "answer": "18",
+      "answerAnalysis": "展開 $(3x+m)(nx+3) = 3nx^2 + (9 + mn)x + 3m$。依題意：二次項係數 $3n = 9 \\implies n = 3$；常數項 $3m = 9 \\implies m = 3$。一次項係數為 $9 + mn = 9 + (3 \\times 3) = 9 + 9 = 18$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、9",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "十分逼近法求平方根近似值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "利用數值表：$7.4^2＝54.76$，$7.5^2＝56.25$，$7.45^2＝55.5025$。以十分逼近法求 $\\sqrt{55}$ 的近似值（以四捨五入法求到小數點後第1位）：$\\sqrt{55}\\fallingdotseq$____。"
+        }
+      ],
+      "answer": "7.4",
+      "answerAnalysis": "因為 $54.76 < 55 < 55.5025$，即 $7.4^2 < 55 < 7.45^2$，所以 $7.4 < \\sqrt{55} < 7.45$。四捨五入取到小數點後第1位，故 $\\sqrt{55} \\fallingdotseq 7.4$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、10",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "負根式整數範圍夾擠不等式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $b$ 為整數，且 $b＜－\\sqrt{\\dfrac{49}{3}}＜b＋1$，則 $b$＝____。"
+        }
+      ],
+      "answer": "-5",
+      "answerAnalysis": "$\\dfrac{49}{3} = 16\\dfrac{1}{3}$。因為 $16 < 16\\dfrac{1}{3} < 25$，即 $4^2 < \\dfrac{49}{3} < 5^2$，所以 $4 < \\sqrt{\\dfrac{49}{3}} < 5$。同乘以 $-1$ 得 $-5 < -\\sqrt{\\dfrac{49}{3}} < -4$。對照 $b < -\\sqrt{\\dfrac{49}{3}} < b + 1$，得 $b = -5$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、1",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "平方根定義解聯立求平方根。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $2a＋6$ 的正平方根為4，$3a＋b－4$ 的負平方根為 $-4$，則 $2a＋3b$ 的平方根為多少？"
+        }
+      ],
+      "answer": "\\pm 5",
+      "answerAnalysis": "由題意：$2a + 6 = 4^2 = 16 \\implies 2a = 10 \\implies a = 5$；$3a + b - 4 = (-4)^2 = 16$。將 $a = 5$ 代入：$3(5) + b - 4 = 16 \\implies 15 + b - 4 = 16 \\implies 11 + b = 16 \\implies b = 5$。計算 $2a + 3b = 2(5) + 3(5) = 10 + 15 = 25$。25的平方根為 $\\pm \\sqrt{25} = \\pm 5$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、2",
+      "page": 1,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式長除法未知係數推導與求和。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如下圖的多項式除法中有七個數，分別以 $a$、$b$、$c$、$d$、$e$、$f$、$g$ 表示，則 $a＋b＋c＋d＋e＋f$＝？"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><!-- Quotient --><text x=\"140\" y=\"30\" font-size=\"14\" fill=\"#333\">ax ＋ b</text><line x1=\"90\" y1=\"40\" x2=\"260\" y2=\"40\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M 90,40 Q 80,60 90,80\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><!-- Divisor --><text x=\"25\" y=\"65\" font-size=\"14\" fill=\"#333\">2x ＋ 3</text><!-- Dividend --><text x=\"105\" y=\"65\" font-size=\"14\" fill=\"#333\">cx² ＋ dx ＋ e</text><!-- Step 1 --><text x=\"105\" y=\"95\" font-size=\"14\" fill=\"#333\">10x² ＋ fx</text><line x1=\"100\" y1=\"105\" x2=\"260\" y2=\"105\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"145\" y=\"125\" font-size=\"14\" fill=\"#333\">15x ＋ e</text><!-- Step 2 --><text x=\"145\" y=\"155\" font-size=\"14\" fill=\"#333\">gx － 6</text><line x1=\"140\" y1=\"165\" x2=\"260\" y2=\"165\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"185\" y=\"190\" font-size=\"14\" font-weight=\"bold\" fill=\"#d32f2f\">－4</text></svg>"
+        }
+      ],
+      "answer": "10",
+      "answerAnalysis": "依多項式長除法過程逐步推導：(1) 由商式最高次項與除式相乘：$2 \\times a = 10 \\implies a = 5$；(2) 被除式首項 $c = 10$；(3) $3 \\times a = f \\implies f = 3 \\times 5 = 15$；(4) 第二次消去：商式第二項 $b$ 滿足 $3 \\times b = -6 \\implies b = -2$；(5) 餘數為 $-4$：$e - (-6) = -4 \\implies e + 6 = -4 \\implies e = -10$；(6) 交叉消去：$2 \\times b = g \\implies g = 2(-2) = -4$；(7) 一次項相減：$d - f = 15 \\implies d - 15 = 15$（或依直式減法差值）得 $d = 11$。計算總和：$a + b + c + d + e + f = 5 + (-2) + 10 + 11 + (-10) + (-4) = 10$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、3",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "乘法公式化簡分數運算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "利用乘法公式求 $\\dfrac{2011^2＋2\\times 2011＋1}{2012}－\\dfrac{2013^2－1}{2014}$ 的值。"
+        }
+      ],
+      "answer": "0",
+      "answerAnalysis": "第一項分子利用完全平方公式：$2011^2 + 2 \\times 2011 \\times 1 + 1^2 = (2011 + 1)^2 = 2012^2$。故 $\\dfrac{2012^2}{2012} = 2012$。第二項分子利用平方差公式：$2013^2 - 1^2 = (2013 + 1)(2013 - 1) = 2014 \\times 2012$。故 $\\dfrac{2014 \\times 2012}{2014} = 2012$。原式相減＝$2012 - 2012 = 0$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、4",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "幾何圖形重疊面積乘法公式應用題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如下圖，一個矩形與一個正方形重疊在一起。如果重疊處（深黑色部分）是邊長為2的正方形，那麼疊合後的總面積為多少？（以 $x$ 的多項式表示）"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 320 220\" xmlns=\"http://www.w3.org/2000/svg\"><!-- Rectangle (width 120, height 70) --><rect x=\"30\" y=\"40\" width=\"130\" height=\"80\" fill=\"#e3f2fd\" stroke=\"#1976d2\" stroke-width=\"2\"/><text x=\"85\" y=\"30\" font-size=\"12\" fill=\"#1976d2\" text-anchor=\"middle\">長方形 (x＋2)</text><text x=\"15\" y=\"85\" font-size=\"12\" fill=\"#1976d2\" text-anchor=\"middle\">x－2</text><!-- Square (120 x 120) --><rect x=\"120\" y=\"80\" width=\"120\" height=\"120\" fill=\"#fbe9e7\" stroke=\"#d32f2f\" stroke-width=\"2\"/><text x=\"180\" y=\"215\" font-size=\"12\" fill=\"#d32f2f\" text-anchor=\"middle\">正方形 (x＋5)</text><text x=\"255\" y=\"145\" font-size=\"12\" fill=\"#d32f2f\" text-anchor=\"middle\">x＋5</text><!-- Overlap 2x2 (width 40, height 40) --><rect x=\"120\" y=\"80\" width=\"40\" height=\"40\" fill=\"#424242\" stroke=\"#212121\" stroke-width=\"1\"/><text x=\"140\" y=\"105\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\">2×2</text></svg>"
+        }
+      ],
+      "answer": "2x^2+10x+17",
+      "answerAnalysis": "長方形長為 $(x+2)$，寬為 $(x-2)$，面積為 $(x+2)(x-2) = x^2 - 4$。正方形邊長為 $(x+5)$，面積為 $(x+5)^2 = x^2 + 10x + 25$。重疊部分為邊長2的正方形，面積為 $2^2 = 4$。疊合後總面積＝長方形面積 $+$ 正方形面積 $-$ 重疊面積＝$(x^2 - 4) + (x^2 + 10x + 25) - 4 = 2x^2 + 10x + 17$。"
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "paperId": "metro-new_taipei-9256edccb911d98c",
+  "sourceSha256": "64a29fedb074c25d9dc80935521d116ba45a15f8e097448e283b0fcf01209181",
+  "printedHeader": "新北市立溪崑國民中學109學年度第一學期第二次定期評量 數學科 試題卷",
+  "printedSlot": {
+    "year": 109,
+    "semester": 1,
+    "grade": 8,
+    "exam": 2
+  },
+  "printedCounts": "選擇題10題(40分)、填充題10格(40分)、計算題4題(20分)，共100分。",
+  "visualReviewComplete": true,
+  "deliveryStatus": "complete",
+  "reviewNote": "ODT與DOCX雙軌提取；對照學校官方解答（BC CCC AAD ABD；填充10格；計算4題完整配分）。全卷24題可用24題；正三角形六芒星圖純向量SVG重繪。",
+  "expectedTypes": {
+    "choice": 10,
+    "fill": 10,
+    "written": 4
+  },
+  "questions": [
+    {
+      "type": "choice",
+      "sourceNumber": "一、1",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-2",
+      "unitIds": [
+        "nanyi-8-1-3-2"
+      ],
+      "unitAssignmentBasis": "十字交乘因式分解求未知係數條件判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $221x^2＋25x－6$ 可因式分解成 $(17x＋a)(bx＋c)$，其中 $a$、$b$、$c$ 均為整數，則下列敘述何者錯誤？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$b$ 是 $221$ 的因數",
+            "$4$ 是 $c$ 的倍數",
+            "$a$、$c$ 是異號數",
+            "$c＞ab$"
+          ]
+        }
+      ],
+      "answer": "B",
+      "answerAnalysis": "$221 = 17 \\times 13$，故 $b = 13$（為221的因數）。分解常數項 $-6 = a \\times c$：若 $a = 3, c = -2$，則交叉項為 $17(-2) + 3(13) = -34 + 39 = 5 \\neq 25$。若 $a = -2, c = 3$，交叉項為 $17(3) + (-2)(13) = 51 - 26 = 25$，完全吻合！故 $a = -2, b = 13, c = 3$。檢查各選項：(A) $13$ 是 $221$ 的因數，正確；(B) $c = 3$ 不是4的因數，4也不是3的倍數，錯誤；(C) $a=-2, c=3$ 異號，正確；(D) $ab = (-2)(13) = -26$，$c = 3 > -26$，正確。故選(B)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、2",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-1",
+      "unitIds": [
+        "nanyi-8-1-3-1"
+      ],
+      "unitAssignmentBasis": "多項式提公因式求一次公因式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $P$、$Q$、$R$ 三個多項式，其中 $P＝6x^2－2x$、$Q＝(2x＋1)(2x－1)$、$R＝(2x＋1)(6x－2)－x(6x－2)$，則下列選項中何者有一次公因式？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$P$、$Q$",
+            "$Q$、$R$",
+            "$P$、$R$",
+            "以上皆無"
+          ]
+        }
+      ],
+      "answer": "C",
+      "answerAnalysis": "分別因式分解：$P = 2x(3x-1)$；$Q = (2x+1)(2x-1)$；$R = (6x-2)[(2x+1) - x] = 2(3x-1)(x+1)$。比較可知 $P$ 與 $R$ 有一次公因式 $3x-1$（或 $6x-2$），而 $Q$ 與 $P$、$R$ 均無公因式。故選(C)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、3",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-2",
+      "unitIds": [
+        "nanyi-8-1-2-2"
+      ],
+      "unitAssignmentBasis": "二次根式加法同類項合併運算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "計算 $\\sqrt{5}＋\\sqrt{5}＋\\sqrt{5}$ 其結果與哪一個選項相等？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$\\sqrt{5+5+5}$",
+            "$\\sqrt{5\\times 5\\times 5}$",
+            "$\\sqrt{3^2\\times 5}$",
+            "$\\sqrt{5^2\\times 3}$"
+          ]
+        }
+      ],
+      "answer": "C",
+      "answerAnalysis": "$\\sqrt{5} + \\sqrt{5} + \\sqrt{5} = 3\\sqrt{5} = \\sqrt{3^2 \\times 5} = \\sqrt{45}$。故選(C)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、4",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-3",
+      "unitIds": [
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "畢氏定理逆定理判斷直角三角形。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列哪一組數可以做為直角三角形的三邊長？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$3^2$、$4^2$、$5^2$",
+            "$\\sqrt{5}$、$\\sqrt{12}$、$\\sqrt{13}$",
+            "$\\dfrac{12}{5}$、$\\dfrac{16}{5}$、$4$",
+            "$\\sqrt{2}$、$\\sqrt{2}$、$\\sqrt{2}$"
+          ]
+        }
+      ],
+      "answer": "C",
+      "answerAnalysis": "檢查三邊平方和：(C) 同乘以 5 得到邊長比為 12：16：20，同除以 4 為 3：4：5，滿足 $3^2 + 4^2 = 5^2$（即 $(\\dfrac{12}{5})^2 + (\\dfrac{16}{5})^2 = \\dfrac{144+256}{25} = \\dfrac{400}{25} = 16 = 4^2$），為直角三角形。故選(C)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、5",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-2",
+      "unitIds": [
+        "nanyi-8-1-2-2"
+      ],
+      "unitAssignmentBasis": "根式有理化求長方形寬度。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "長方形面積為1，長為 $\\sqrt{3}－\\sqrt{2}$，則寬為多少？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$\\sqrt{3}＋\\sqrt{2}$",
+            "$\\sqrt{3}－\\sqrt{2}$",
+            "$\\sqrt{2}－\\sqrt{3}$",
+            "$3＋\\sqrt{2}$"
+          ]
+        }
+      ],
+      "answer": "A",
+      "answerAnalysis": "寬為面積除以長：$\\dfrac{1}{\\sqrt{3}-\\sqrt{2}} = \\dfrac{\\sqrt{3}+\\sqrt{2}}{(\\sqrt{3}-\\sqrt{2})(\\sqrt{3}+\\sqrt{2})} = \\dfrac{\\sqrt{3}+\\sqrt{2}}{3-2} = \\sqrt{3}+\\sqrt{2}$。選(A)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、6",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-2",
+      "unitIds": [
+        "nanyi-8-1-2-2"
+      ],
+      "unitAssignmentBasis": "平方比較二次根式的大小關係。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $a＝\\sqrt{12}＋\\sqrt{6}$、$b＝\\sqrt{13}＋\\sqrt{5}$、$c＝\\sqrt{14}＋2$，則 $a$、$b$、$c$ 的大小順序為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$a＞b＞c$",
+            "$b＞c＞a$",
+            "$c＞a＞b$",
+            "無法比較"
+          ]
+        }
+      ],
+      "answer": "A",
+      "answerAnalysis": "三數皆為正，將三數平方：$a^2 = 12 + 6 + 2\\sqrt{72} = 18 + 2\\sqrt{72}$；$b^2 = 13 + 5 + 2\\sqrt{65} = 18 + 2\\sqrt{65}$；$c^2 = (\\sqrt{14}+\\sqrt{4})^2 = 14 + 4 + 2\\sqrt{56} = 18 + 2\\sqrt{56}$。因為 $72 > 65 > 56$，所以 $a^2 > b^2 > c^2 \\implies a > b > c$。選(A)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、7",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-3",
+      "unitIds": [
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "畢氏定理求斜邊平方差。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知有一直角三角形兩股長為4和2，斜邊為 $x$；另有一直角三角形兩股長為5和6，斜邊為 $y$。則 $y^2－x^2＝$？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$38$",
+            "$39$",
+            "$40$",
+            "$41$"
+          ]
+        }
+      ],
+      "answer": "D",
+      "answerAnalysis": "依畢氏定理：$x^2 = 4^2 + 2^2 = 16 + 4 = 20$；$y^2 = 5^2 + 6^2 = 25 + 36 = 61$。計算 $y^2 - x^2 = 61 - 20 = 41$。選(D)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、8",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-1",
+      "unitIds": [
+        "nanyi-8-1-3-1"
+      ],
+      "unitAssignmentBasis": "因式定理求未知係數與另一因式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $5x^2＋mx－7$ 為 $5x－1$ 的倍式，則 $5x^2＋mx－7$ 亦可為下列何者的倍式？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$x＋7$",
+            "$5x＋1$",
+            "$x－7$",
+            "$5x－7$"
+          ]
+        }
+      ],
+      "answer": "A",
+      "answerAnalysis": "設 $5x^2+mx-7 = (5x-1)(x+k)$。比較常數項：$(-1)k = -7 \\implies k = 7$。因此 $5x^2+mx-7 = (5x-1)(x+7)$（此時 $m = 35 - 1 = 34$）。故該多項式亦為 $x+7$ 的倍式。選(A)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、9",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-2",
+      "unitIds": [
+        "nanyi-8-1-3-2"
+      ],
+      "unitAssignmentBasis": "十字交乘法因式分解求係數最大值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $5x^2－4x－12$ 可以因式分解成 $(ax＋b)(cx－d)$，且 $a$、$b$、$c$、$d$ 均為正整數，則下列何者值最大？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$a$",
+            "$b$",
+            "$c$",
+            "$d$"
+          ]
+        }
+      ],
+      "answer": "B",
+      "answerAnalysis": "因式分解 $5x^2-4x-12$：$5x \\times (-2) + 6 \\times x = -10x + 6x = -4x$，故可分解為 $(5x + 6)(x - 2)$。對照 $(ax + b)(cx - d)$，得 $a = 5, b = 6, c = 1, d = 2$（均為正整數）。其中 $b = 6$ 最大。選(B)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、10",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-2",
+      "unitIds": [
+        "nanyi-8-1-3-2"
+      ],
+      "unitAssignmentBasis": "整數係數二次式可因式分解條件分析。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $m$ 為整數，$x^2＋mx－12$ 可分解為兩個一次式的乘積，則 $m$ 不可能為下列哪一個數？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$-1$",
+            "$-4$",
+            "$-11$",
+            "$-12$"
+          ]
+        }
+      ],
+      "answer": "D",
+      "answerAnalysis": "將 $-12$ 分解為兩整數乘積 $p \\times q = -12$，則 $m = p + q$：(1) $1+(-12) = -11$；(2) $2+(-6) = -4$；(3) $3+(-4) = -1$；(4) $4+(-3) = 1$；(5) $6+(-2) = 4$；(6) $12+(-1) = 11$。可能值為 $\\pm 1, \\pm 4, \\pm 11$。不可能為 $-12$。選(D)。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、1",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-2",
+      "unitIds": [
+        "nanyi-8-1-2-2"
+      ],
+      "unitAssignmentBasis": "平方差公式與根式有理化混合運算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "計算 $(\\sqrt{3}＋\\sqrt{2})(\\sqrt{3}－\\sqrt{2})＋\\dfrac{1}{\\sqrt{2}－1}$＝____。"
+        }
+      ],
+      "answer": "2+\\sqrt{2}",
+      "answerAnalysis": "第一項平方差：$(\\sqrt{3}+\\sqrt{2})(\\sqrt{3}-\\sqrt{2}) = 3 - 2 = 1$。第二項有理化：$\\dfrac{\\sqrt{2}+1}{(\\sqrt{2}-1)(\\sqrt{2}+1)} = \\dfrac{\\sqrt{2}+1}{2-1} = \\sqrt{2}+1$。原式＝$1 + (\\sqrt{2}+1) = 2 + \\sqrt{2}$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、2",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-2",
+      "unitIds": [
+        "nanyi-8-1-2-2"
+      ],
+      "unitAssignmentBasis": "一元一次根式方程式求解與有理化。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知方程式 $(3＋\\sqrt{6})x＝3$，則 $x$＝____。"
+        }
+      ],
+      "answer": "3-\\sqrt{6}",
+      "answerAnalysis": "$x = \\dfrac{3}{3+\\sqrt{6}} = \\dfrac{3(3-\\sqrt{6})}{(3+\\sqrt{6})(3-\\sqrt{6})} = \\dfrac{3(3-\\sqrt{6})}{9-6} = \\dfrac{3(3-\\sqrt{6})}{3} = 3-\\sqrt{6}$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、3",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-3",
+      "unitIds": [
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "畢氏定理直角三角形第三邊（股或斜邊分類討論）。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知一直角三角形的兩邊長分別為5、12，則第三邊長可能為____。"
+        }
+      ],
+      "answer": "13或\\sqrt{119}",
+      "answerAnalysis": "(1) 若第三邊為斜邊：$\\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$；(2) 若12為斜邊，第三邊為股：$\\sqrt{12^2 - 5^2} = \\sqrt{144 - 25} = \\sqrt{119}$。故第三邊可能為 13 或 $\\sqrt{119}$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、4",
+      "page": 1,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-1-2-3",
+      "unitIds": [
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "六芒星正三角形分割面積應用題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "兩個邊長均為15公分的正三角形紙片，上下交疊排成一個六芒星，其中外圍為六個面積相同的正三角形，如下圖。求此六芒星的面積為____平方公分。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 240 220\" xmlns=\"http://www.w3.org/2000/svg\"><!-- Upright triangle --><polygon points=\"120,30 50.7,150 189.3,150\" fill=\"#e3f2fd\" stroke=\"#1976d2\" stroke-width=\"2\"/><!-- Inverted triangle --><polygon points=\"120,190 50.7,70 189.3,70\" fill=\"#e3f2fd\" stroke=\"#1976d2\" stroke-width=\"2\" opacity=\"0.8\"/><!-- Labels --><text x=\"120\" y=\"22\" font-size=\"12\" fill=\"#333\" text-anchor=\"middle\">頂點</text><text x=\"120\" y=\"115\" font-size=\"12\" fill=\"#1565c0\" text-anchor=\"middle\">正六芒星</text><text x=\"120\" y=\"210\" font-size=\"11\" fill=\"#555\" text-anchor=\"middle\">大正三角形邊長 15 cm</text></svg>"
+        }
+      ],
+      "answer": "75\\sqrt{3}",
+      "answerAnalysis": "六芒星由12個邊長為5公分的小正三角形組成（每個大正三角形包含9個小正三角形，疊合形成中央正六邊形為6個，外圍凸起6個，合計12個）。每個小正三角形面積為 $\\dfrac{\\sqrt{3}}{4} \\times 5^2 = \\dfrac{25\\sqrt{3}}{4}$。六芒星總面積＝$12 \\times \\dfrac{25\\sqrt{3}}{4} = 75\\sqrt{3}$ 平方公分。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、5",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-3",
+      "unitIds": [
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "平面直角坐標系兩點距離公式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "坐標平面上有 $A(3,6)$、$B(－4,3)$ 二點，則 $\\overline{AB}$＝____。"
+        }
+      ],
+      "answer": "\\sqrt{58}",
+      "answerAnalysis": "$\\overline{AB} = \\sqrt{[3 - (-4)]^2 + (6 - 3)^2} = \\sqrt{7^2 + 3^2} = \\sqrt{49 + 9} = \\sqrt{58}$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、6",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-1",
+      "unitIds": [
+        "nanyi-8-1-3-1"
+      ],
+      "unitAssignmentBasis": "提公因式因式分解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "因式分解 $(x－8)^2－5x＋40$＝____。"
+        }
+      ],
+      "answer": "(x-8)(x-13)",
+      "answerAnalysis": "$(x-8)^2 - 5x + 40 = (x-8)^2 - 5(x-8) = (x-8)[(x-8) - 5] = (x-8)(x-13)$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、7",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-1",
+      "unitIds": [
+        "nanyi-8-1-3-1"
+      ],
+      "unitAssignmentBasis": "提公因式與完全平方公式因式分解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "因式分解 $27y^2－18y＋3$＝____。"
+        }
+      ],
+      "answer": "3(3y-1)^2",
+      "answerAnalysis": "提出公因數3：$3(9y^2 - 6y + 1) = 3(3y - 1)^2$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、8",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-1",
+      "unitIds": [
+        "nanyi-8-1-3-1"
+      ],
+      "unitAssignmentBasis": "因式定理求未知數之和。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $2x^2＋ax－4$ 與 $6x^2＋x＋b$ 有公因式 $x－2$，則 $a＋b$＝____。"
+        }
+      ],
+      "answer": "-28",
+      "answerAnalysis": "令 $x=2$：代入第一式得 $2(2^2) + a(2) - 4 = 0 \\implies 8 + 2a - 4 = 0 \\implies 2a = -4 \\implies a = -2$。代入第二式得 $6(2^2) + 2 + b = 0 \\implies 24 + 2 + b = 0 \\implies b = -26$。計算 $a + b = (-2) + (-26) = -28$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、9",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-2",
+      "unitIds": [
+        "nanyi-8-1-3-2"
+      ],
+      "unitAssignmentBasis": "提出公因數後十字交乘因式分解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "因式分解 $60x^2－66x＋18$＝____。"
+        }
+      ],
+      "answer": "6(2x-1)(5x-3)",
+      "answerAnalysis": "先提出公因數6：$6(10x^2 - 11x + 3)$。十字交乘分解 $10x^2 - 11x + 3 = (2x - 1)(5x - 3)$。故原式＝$6(2x - 1)(5x - 3)$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、10",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-2",
+      "unitIds": [
+        "nanyi-8-1-3-2"
+      ],
+      "unitAssignmentBasis": "提負公因數十字交乘因式分解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "因式分解 $-18x^2＋69x＋12$＝____。"
+        }
+      ],
+      "answer": "-3(x-4)(6x+1)",
+      "answerAnalysis": "先提出 $-3$：$-3(6x^2 - 23x - 4)$。十字交乘分解 $6x^2 - 23x - 4 = (x - 4)(6x + 1)$。故原式＝$-3(x - 4)(6x + 1)$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、1",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-2",
+      "unitIds": [
+        "nanyi-8-1-2-2"
+      ],
+      "unitAssignmentBasis": "連續根式分母有理化相消運算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "計算 $\\dfrac{1}{\\sqrt{5}＋\\sqrt{4}}＋\\dfrac{1}{\\sqrt{4}＋\\sqrt{3}}＋\\dfrac{1}{\\sqrt{3}＋\\sqrt{2}}＋\\dfrac{1}{\\sqrt{2}＋1}$＝？"
+        }
+      ],
+      "answer": "\\sqrt{5}-1",
+      "answerAnalysis": "將每一項分母有理化：$\\dfrac{1}{\\sqrt{5}+\\sqrt{4}} = \\sqrt{5}-\\sqrt{4}$；$\\dfrac{1}{\\sqrt{4}+\\sqrt{3}} = \\sqrt{4}-\\sqrt{3}$；$\\dfrac{1}{\\sqrt{3}+\\sqrt{2}} = \\sqrt{3}-\\sqrt{2}$；$\\dfrac{1}{\\sqrt{2}+1} = \\sqrt{2}-1$。原式＝$(\\sqrt{5}-\\sqrt{4}) + (\\sqrt{4}-\\sqrt{3}) + (\\sqrt{3}-\\sqrt{2}) + (\\sqrt{2}-1) = \\sqrt{5} - 1$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、2",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-3",
+      "unitIds": [
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "畢氏定理梯子滑動應用題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "有一鋁梯長10公尺，斜靠在一垂直牆上，已知梯腳離牆的距離是7公尺，今移動此一鋁梯使梯腳離牆4公尺，則梯頂向上移動多少公尺？"
+        }
+      ],
+      "answer": "2\\sqrt{21}-\\sqrt{51}",
+      "answerAnalysis": "移動前梯頂離地高為 $\\sqrt{10^2 - 7^2} = \\sqrt{100 - 49} = \\sqrt{51}$ 公尺。移動後梯腳離牆4公尺，梯頂離地高為 $\\sqrt{10^2 - 4^2} = \\sqrt{100 - 16} = \\sqrt{84} = 2\\sqrt{21}$ 公尺。故梯頂向上移動 $(2\\sqrt{21} - \\sqrt{51})$ 公尺。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、3",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-1",
+      "unitIds": [
+        "nanyi-8-1-3-1"
+      ],
+      "unitAssignmentBasis": "完全平方式係數對照求值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $8x^2＋8x＋a$ 可以因式分解成 $2(2x＋b)^2$，則 $a＋b$ 的值為多少？"
+        }
+      ],
+      "answer": "3",
+      "answerAnalysis": "展開 $2(2x+b)^2 = 2(4x^2 + 4bx + b^2) = 8x^2 + 8bx + 2b^2$。與 $8x^2 + 8x + a$ 比較係數：$8b = 8 \\implies b = 1$。常數項 $a = 2b^2 = 2(1)^2 = 2$。因此 $a + b = 2 + 1 = 3$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、4",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-2",
+      "unitIds": [
+        "nanyi-8-1-3-2"
+      ],
+      "unitAssignmentBasis": "十字交乘因式分解求質數應用題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $x$ 為正整數，並且 $10x^2－59x－6$ 為質數，則此質數為多少？"
+        }
+      ],
+      "answer": "71",
+      "answerAnalysis": "因式分解 $10x^2 - 59x - 6 = (x - 6)(10x + 1)$。因為此數為質數且 $x$ 為正整數，故正因數中較小者必為1：$x - 6 = 1 \\implies x = 7$。代入計算質數：$10(7) + 1 = 70 + 1 = 71$。71確為質數，故此質數為 71。"
+    }
+  ]
+}

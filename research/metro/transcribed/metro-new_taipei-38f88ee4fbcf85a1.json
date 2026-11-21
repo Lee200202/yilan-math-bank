@@ -1,0 +1,576 @@
+{
+  "paperId": "metro-new_taipei-38f88ee4fbcf85a1",
+  "sourceSha256": "d60393367973ff9b37eb2671bc0be6ef12d9aaa6015dd788db5821279b92abc1",
+  "printedHeader": "新北市立溪崑國民中學111學年度第一學期第二次定期評量 數學科 試題卷",
+  "printedSlot": {
+    "year": 111,
+    "semester": 1,
+    "grade": 8,
+    "exam": 2
+  },
+  "printedCounts": "選擇題10題(40分)、填充題10格(40分)、計算題4題(20分)，共100分。",
+  "visualReviewComplete": true,
+  "deliveryStatus": "complete",
+  "reviewNote": "ODT與DOCX雙軌提取；對照學校官方解答與計算題配分評分標準。全卷24題完整轉錄（可用24題）；雲梯畢氏定理圖與摺紙直角三角形圖全量向量SVG重繪。",
+  "expectedTypes": {
+    "choice": 10,
+    "fill": 10,
+    "written": 4
+  },
+  "questions": [
+    {
+      "type": "choice",
+      "sourceNumber": "一、1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-2",
+      "unitIds": [
+        "nanyi-8-1-2-2"
+      ],
+      "unitAssignmentBasis": "長方形面積公式與二次根式乘法運算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知長方形的長是 $\\sqrt{13}$ 公分，寬是 $\\sqrt{7}$ 公分，則此長方形的面積為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$91$ 平方公分",
+            "$\\sqrt{91}$ 平方公分",
+            "$103$ 平方公分",
+            "$\\sqrt{105}$ 平方公分"
+          ]
+        }
+      ],
+      "answer": "B",
+      "answerAnalysis": "長方形面積為長乘寬：$\\sqrt{13} \\times \\sqrt{7} = \\sqrt{13 \\times 7} = \\sqrt{91}$ 平方公分。故選(B)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "最簡根式定義與判別。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列根式中，何者是最簡根式？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$\\sqrt{2.7}$",
+            "$2\\sqrt{52}$",
+            "$\\dfrac{7}{\\sqrt{3}}$",
+            "$\\sqrt{110}$"
+          ]
+        }
+      ],
+      "answer": "D",
+      "answerAnalysis": "(A) 根號內含小數非最簡；(B) $52 = 4 \\times 13$，可化簡為 $4\\sqrt{13}$ 非最簡；(C) 分母含根號非最簡；(D) $110 = 2 \\times 5 \\times 11$，無平方因數，為最簡根式。故選(D)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、3",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "利用根式運算規則求小數近似值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $\\sqrt{3}\\fallingdotseq 1.732$，利用根式的運算規則，計算 $\\sqrt{0.000027}$ 的近似值為多少？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$0.005196$",
+            "$0.05196$",
+            "$5.196$",
+            "$0.105196$"
+          ]
+        }
+      ],
+      "answer": "A",
+      "answerAnalysis": "$\\sqrt{0.000027} = \\sqrt{\\dfrac{27}{1000000}} = \\dfrac{\\sqrt{9 \\times 3}}{1000} = \\dfrac{3\\sqrt{3}}{1000} \\fallingdotseq \\dfrac{3 \\times 1.732}{1000} = \\dfrac{5.196}{1000} = 0.005196$。選(A)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、4",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-2",
+      "unitIds": [
+        "nanyi-8-1-2-2"
+      ],
+      "unitAssignmentBasis": "乘法公式展開根式運算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "利用乘法公式展開 $(\\sqrt{3}＋\\sqrt{5})^2$，其化簡結果為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$8＋\\sqrt{5}$",
+            "$8＋2\\sqrt{7}$",
+            "$8＋2\\sqrt{15}$",
+            "$9＋2\\sqrt{15}$"
+          ]
+        }
+      ],
+      "answer": "C",
+      "answerAnalysis": "$(\\sqrt{3}+\\sqrt{5})^2 = (\\sqrt{3})^2 + 2(\\sqrt{3})(\\sqrt{5}) + (\\sqrt{5})^2 = 3 + 2\\sqrt{15} + 5 = 8 + 2\\sqrt{15}$。選(C)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、5",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-2",
+      "unitIds": [
+        "nanyi-8-1-3-2"
+      ],
+      "unitAssignmentBasis": "十字交乘因式分解求公因式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $6x^2－17x＋12$ 與 $3x^2＋2x－8$ 的公因式為一次式 $ax－4$，則 $a$ 的值為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$2$",
+            "$4$",
+            "$-2$",
+            "$3$"
+          ]
+        }
+      ],
+      "answer": "D",
+      "answerAnalysis": "因式分解 $6x^2-17x+12 = (2x-3)(3x-4)$；$3x^2+2x-8 = (x+2)(3x-4)$。兩多項式的一次公因式為 $3x-4$。對照 $ax-4$，得 $a=3$。選(D)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、6",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-3-1",
+      "unitIds": [
+        "nanyi-8-1-3-1"
+      ],
+      "unitAssignmentBasis": "因式與倍式基本定義辨別。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $2x^2＋x－10＝(x－2)(2x＋5)$，下列敘述何者錯誤？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$2x^2＋x－10$ 是 $x－2$ 的倍式",
+            "$-2x－5$ 是 $2x^2＋x－10$ 的因式",
+            "$2x^2＋x－10$ 是 $2x－5$ 的倍式",
+            "$x－2$ 是 $2x^2＋x－10$ 的因式"
+          ]
+        }
+      ],
+      "answer": "C",
+      "answerAnalysis": "由分解式可知 $2x^2+x-10$ 的因式為 $x-2$ 與 $2x+5$（及其非零常數倍，如 $-2x-5$）。但 $2x-5$ 不是其因式，故 $2x^2+x-10$ 不是 $2x-5$ 的倍式。(C)錯誤，選(C)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、7",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-3-1",
+      "unitIds": [
+        "nanyi-8-1-3-1"
+      ],
+      "unitAssignmentBasis": "完全平方式拼圖求正方形邊長。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "由四個面積分別為 $20x$、$16x^2$、$20x$ 和 $25$ 的圖形組成一個大正方形，則此大正方形的邊長為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$4x＋3$",
+            "$4x＋5$",
+            "$3x＋7$",
+            "$2x＋5$"
+          ]
+        }
+      ],
+      "answer": "B",
+      "answerAnalysis": "大正方形總面積為 $16x^2 + 20x + 20x + 25 = 16x^2 + 40x + 25 = (4x + 5)^2$。故邊長為 $4x + 5$。選(B)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、8",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-3",
+      "unitIds": [
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "直角三角形面積法求斜邊上的高。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知一個直角三角形的兩股長分別為9、40，則斜邊上的高是多少？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$\\dfrac{361}{40}$",
+            "$\\dfrac{360}{41}$",
+            "$\\dfrac{359}{41}$",
+            "$\\dfrac{367}{40}$"
+          ]
+        }
+      ],
+      "answer": "B",
+      "answerAnalysis": "斜邊長為 $\\sqrt{9^2 + 40^2} = \\sqrt{81 + 1600} = \\sqrt{1681} = 41$。依面積等式：股長 $\\times$ 股長 $=$ 斜邊 $\\times$ 斜邊上的高 $\\implies 9 \\times 40 = 41 \\times h \\implies h = \\dfrac{360}{41}$。選(B)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、9",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-2",
+      "unitIds": [
+        "nanyi-8-1-2-2"
+      ],
+      "unitAssignmentBasis": "根式化為最簡根式運算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "將 $\\sqrt{3^6\\times 5^3}$ 化為最簡根式，其值為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$118$",
+            "$126\\sqrt{5}$",
+            "$135\\sqrt{5}$",
+            "$117\\sqrt{3}$"
+          ]
+        }
+      ],
+      "answer": "C",
+      "answerAnalysis": "$\\sqrt{3^6 \\times 5^3} = \\sqrt{(3^3)^2 \\times (5^1)^2 \\times 5} = 3^3 \\times 5 \\times \\sqrt{5} = 27 \\times 5 \\times \\sqrt{5} = 135\\sqrt{5}$。選(C)。"
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "一、10",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-3",
+      "unitIds": [
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "平面直角坐標系兩點距離公式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知坐標平面上 $C(－2 , 3)$、$D(6 ,－5)$ 兩點，則 $\\overline{CD}$ 的長為多少？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$6\\sqrt{2}$",
+            "$9\\sqrt{5}$",
+            "$5\\sqrt{5}$",
+            "$8\\sqrt{2}$"
+          ]
+        }
+      ],
+      "answer": "D",
+      "answerAnalysis": "依兩點距離公式：$\\overline{CD} = \\sqrt{[6 - (-2)]^2 + [(-5) - 3]^2} = \\sqrt{8^2 + (-8)^2} = \\sqrt{64 + 64} = \\sqrt{128} = 8\\sqrt{2}$。選(D)。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、(1)",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-2",
+      "unitIds": [
+        "nanyi-8-1-2-2"
+      ],
+      "unitAssignmentBasis": "同類根式化簡與加減運算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "計算 $\\sqrt{18}－5\\sqrt{3}＋\\sqrt{72}$＝____。（並將結果化為最簡根式）"
+        }
+      ],
+      "answer": "9\\sqrt{2}-5\\sqrt{3}",
+      "answerAnalysis": "化簡各項：$\\sqrt{18} = 3\\sqrt{2}$，$\\sqrt{72} = 6\\sqrt{2}$。原式＝$3\\sqrt{2} - 5\\sqrt{3} + 6\\sqrt{2} = 9\\sqrt{2} - 5\\sqrt{3}$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、(2)",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-2",
+      "unitIds": [
+        "nanyi-8-1-2-2"
+      ],
+      "unitAssignmentBasis": "乘法公式化簡根號內算式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "利用平方差公式：$a^2－b^2＝(a＋b)(a－b)$，計算 $\\sqrt{54^2－31^2－23^2}$＝____。（並將結果化為最簡根式）"
+        }
+      ],
+      "answer": "\\sqrt{1426}",
+      "answerAnalysis": "$54^2 - 31^2 = (54+31)(54-31) = 85 \\times 23$。原式＝$\\sqrt{85 \\times 23 - 23^2} = \\sqrt{23 \\times (85 - 23)} = \\sqrt{23 \\times 62} = \\sqrt{1426}$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、(3)",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-3",
+      "unitIds": [
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "長寬比與對角線長求長方形面積。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "某款平板電腦的螢幕是長方形，其長寬比為 $4：3$，若對角線長為20吋，則此平板的螢幕面積是____平方吋。"
+        }
+      ],
+      "answer": "192",
+      "answerAnalysis": "設長為 $4k$，寬為 $3k$。依畢氏定理：$(4k)^2 + (3k)^2 = 20^2 \\implies 25k^2 = 400 \\implies k^2 = 16 \\implies k = 4$。長為 $4 \\times 4 = 16$ 吋，寬為 $3 \\times 4 = 12$ 吋。面積＝$16 \\times 12 = 192$ 平方吋。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、(4)",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-3",
+      "unitIds": [
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "畢氏定理兩邊長求第三邊（分類討論）。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知一個直角三角形的兩邊長分別為5、7，則第三邊的長可以是哪些數值____。"
+        }
+      ],
+      "answer": "\\sqrt{74}或2\\sqrt{6}",
+      "answerAnalysis": "(1) 若7為斜邊，則第三邊為股：$\\sqrt{7^2 - 5^2} = \\sqrt{49 - 25} = \\sqrt{24} = 2\\sqrt{6}$；(2) 若5與7皆為股，則第三邊為斜邊：$\\sqrt{5^2 + 7^2} = \\sqrt{25 + 49} = \\sqrt{74}$。故第三邊可能為 $\\sqrt{74}$ 或 $2\\sqrt{6}$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、(5)",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-3",
+      "unitIds": [
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "畢氏定理雲梯靠牆高度應用題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖，雲梯原長為26公尺，已知雲梯底部與建築物水平距離為10公尺，若雲梯長縮短為18公尺，則雲梯所能到達建築物的高度比原來少____公尺。"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 280 260\" xmlns=\"http://www.w3.org/2000/svg\"><!-- Wall --><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"220\" stroke=\"#333\" stroke-width=\"3\"/><text x=\"45\" y=\"120\" font-size=\"12\" fill=\"#555\" text-anchor=\"middle\">建築物</text><!-- Ground --><line x1=\"40\" y1=\"220\" x2=\"240\" y2=\"220\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"140\" y=\"240\" font-size=\"12\" fill=\"#555\" text-anchor=\"middle\">地面 (10公尺)</text><!-- Original ladder (length 26m) --><line x1=\"60\" y1=\"40\" x2=\"180\" y2=\"220\" stroke=\"#1976d2\" stroke-width=\"2.5\"/><text x=\"135\" y=\"120\" font-size=\"12\" fill=\"#1976d2\" transform=\"rotate(-56 135 120)\">原長26公尺</text><!-- Shortened ladder (length 18m) --><line x1=\"60\" y1=\"110\" x2=\"180\" y2=\"220\" stroke=\"#d32f2f\" stroke-width=\"2\" stroke-dasharray=\"4,2\"/><text x=\"105\" y=\"180\" font-size=\"11\" fill=\"#d32f2f\" transform=\"rotate(-42 105 180)\">縮短為18公尺</text><!-- Right angle symbol --><rect x=\"60\" y=\"205\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><!-- Points --><circle cx=\"60\" cy=\"40\" r=\"3\" fill=\"#1976d2\"/><circle cx=\"60\" cy=\"110\" r=\"3\" fill=\"#d32f2f\"/><circle cx=\"180\" cy=\"220\" r=\"3\" fill=\"#333\"/><text x=\"190\" y=\"215\" font-size=\"11\" fill=\"#333\">梯腳</text></svg>"
+        }
+      ],
+      "answer": "24-4\\sqrt{14}",
+      "answerAnalysis": "原本高度 $H_1 = \\sqrt{26^2 - 10^2} = \\sqrt{676 - 100} = \\sqrt{576} = 24$ 公尺。縮短後高度 $H_2 = \\sqrt{18^2 - 10^2} = \\sqrt{324 - 100} = \\sqrt{224} = 4\\sqrt{14}$ 公尺。減少高度為 $24 - 4\\sqrt{14}$ 公尺。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、(6)",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-1",
+      "unitIds": [
+        "nanyi-8-1-3-1"
+      ],
+      "unitAssignmentBasis": "提公因式因式分解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "因式分解 $(3x－2)^2－7x(2－3x)$＝____。"
+        }
+      ],
+      "answer": "2(3x-2)(5x-1)",
+      "answerAnalysis": "因為 $2-3x = -(3x-2)$，原式＝$(3x-2)^2 + 7x(3x-2) = (3x-2)[(3x-2) + 7x] = (3x-2)(10x-2) = 2(3x-2)(5x-1)$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、(7)",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-3-1",
+      "unitIds": [
+        "nanyi-8-1-3-1"
+      ],
+      "unitAssignmentBasis": "分組提公因式求未知數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $(3x－2)＋(3x^2－2x)$ 可因式分解為 $(3x－2)(x＋a)$，求 $a$ 的值是____。"
+        }
+      ],
+      "answer": "1",
+      "answerAnalysis": "$(3x-2) + (3x^2-2x) = (3x-2) + x(3x-2) = (3x-2)(1+x) = (3x-2)(x+1)$。對照 $(3x-2)(x+a)$ 得 $a=1$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、(8)",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-2",
+      "unitIds": [
+        "nanyi-8-1-3-2"
+      ],
+      "unitAssignmentBasis": "十字交乘法因式分解二次三項式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "因式分解 $-21x^2－29x＋10$＝____。"
+        }
+      ],
+      "answer": "-(7x-2)(3x+5)",
+      "answerAnalysis": "提負號得 $-(21x^2 + 29x - 10)$。十字交乘分解 $21x^2 + 29x - 10$：$7x \\times 5 + (-2) \\times 3x = 35x - 6x = 29x$。故分解為 $-(7x - 2)(3x + 5)$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、(9)",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-2",
+      "unitIds": [
+        "nanyi-8-1-3-2"
+      ],
+      "unitAssignmentBasis": "十字交乘法因式分解求係數運算值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "多項式 $33x^2－46x－15$ 可因式分解成 $(3x－a)(bx＋c)$，其中 $a$、$b$、$c$ 均為整數，求 $a＋b－c$ 的值為____。"
+        }
+      ],
+      "answer": "13",
+      "answerAnalysis": "$33x^2 - 46x - 15 = (3x - 5)(11x + 3)$。對照 $(3x - a)(bx + c)$，得 $a = 5$，$b = 11$，$c = 3$。因此 $a + b - c = 5 + 11 - 3 = 13$。"
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "二、(10)",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-1",
+      "unitIds": [
+        "nanyi-8-1-3-1"
+      ],
+      "unitAssignmentBasis": "利用平方差公式變形因式分解。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "婉瑩一直無法將 $x^2－60x＋896$ 因式分解，於是他去問老師，老師提示「$896＝900－4$」，婉瑩就會了。請以老師的提示因式分解 $x^2－60x＋896$＝____。"
+        }
+      ],
+      "answer": "(x-28)(x-32)",
+      "answerAnalysis": "$x^2 - 60x + 896 = x^2 - 60x + 900 - 4 = (x - 30)^2 - 2^2 = (x - 30 + 2)(x - 30 - 2) = (x - 28)(x - 32)$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、1",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-2",
+      "unitIds": [
+        "nanyi-8-1-3-2"
+      ],
+      "unitAssignmentBasis": "十字交乘因式分解質數條件應用題。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "一個質數只能分解成1與本身的乘積，例如：$5＝1 \\times 5$，$7＝1 \\times 7$。若 $x$ 為正整數，$8x^2＋18x－45$ 為一個質數，求 $x$ 與此質數各是多少？"
+        }
+      ],
+      "answer": "x=2，此質數是23",
+      "answerAnalysis": "將多項式因式分解：$8x^2 + 18x - 45 = (2x - 3)(4x + 15)$。因為此數為質數，且 $x$ 為正整數，故較小的正因數必為1：$2x - 3 = 1 \\implies 2x = 4 \\implies x = 2$。代入計算質數值：$(4 \\times 2 + 15) \\times 1 = (8 + 15) \\times 1 = 23$。23確為質數。故 $x = 2$，質數為 23。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、2",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-3-1",
+      "unitIds": [
+        "nanyi-8-1-3-1"
+      ],
+      "unitAssignmentBasis": "完全平方式係數判別與求值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知因式分解 $25x^2－ax＋9$，可得 $(5x＋b)^2$ 的形式。$b$ 為正整數，則 $a＋b$ 的值為何？"
+        }
+      ],
+      "answer": "-27",
+      "answerAnalysis": "展開 $(5x+b)^2 = 25x^2 + 10bx + b^2$。與 $25x^2 - ax + 9$ 比較係數：$b^2 = 9$。因為 $b$ 為正整數，所以 $b = 3$。$-a = 10b = 10 \\times 3 = 30 \\implies a = -30$。因此 $a + b = -30 + 3 = -27$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、3",
+      "page": 1,
+      "difficulty": "hard",
+      "primaryUnitId": "nanyi-8-1-2-3",
+      "unitIds": [
+        "nanyi-8-1-2-3"
+      ],
+      "unitAssignmentBasis": "摺紙問題與畢氏定理求邊長。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如下圖，$\\triangle ABC$ 中，$\\overline{AB}＝15$，$\\overline{AC}＞\\overline{AB}$，沿著 $\\overline{AD}$ 將 $\\triangle ABD$ 向右摺，使 B 點落在 E 點上，其中 $\\overline{AD}＝9$，且 $\\overline{DE}：\\overline{EC}＝4：3$，求 $\\overline{AC}$ 的長是多少？(以最簡根式表示)"
+        },
+        {
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 320 220\" xmlns=\"http://www.w3.org/2000/svg\"><!-- Points: A(100, 30), D(100, 180), B(20, 180), E(180, 180), C(250, 180) --><line x1=\"20\" y1=\"180\" x2=\"250\" y2=\"180\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"100\" y1=\"30\" x2=\"20\" y2=\"180\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"100\" y1=\"30\" x2=\"100\" y2=\"180\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"100\" y1=\"30\" x2=\"180\" y2=\"180\" stroke=\"#1976d2\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><line x1=\"100\" y1=\"30\" x2=\"250\" y2=\"180\" stroke=\"#333\" stroke-width=\"2\"/><!-- Right angle at D --><rect x=\"85\" y=\"165\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><rect x=\"100\" y=\"165\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><!-- Labels --><text x=\"100\" y=\"20\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\" text-anchor=\"middle\">A</text><text x=\"12\" y=\"195\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">B</text><text x=\"96\" y=\"200\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">D</text><text x=\"180\" y=\"200\" font-size=\"14\" font-weight=\"bold\" fill=\"#1976d2\">E</text><text x=\"255\" y=\"195\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">C</text><text x=\"50\" y=\"105\" font-size=\"12\" fill=\"#333\">15</text><text x=\"110\" y=\"110\" font-size=\"12\" fill=\"#333\">9</text><text x=\"135\" y=\"110\" font-size=\"12\" fill=\"#1976d2\">15</text><text x=\"135\" y=\"195\" font-size=\"11\" fill=\"#1976d2\" text-anchor=\"middle\">4等分</text><text x=\"215\" y=\"195\" font-size=\"11\" fill=\"#333\" text-anchor=\"middle\">3等分</text></svg>"
+        }
+      ],
+      "answer": "3\\sqrt{58}",
+      "answerAnalysis": "因為 $\\triangle ABD$ 沿 $\\overline{AD}$ 摺疊落在 $\\triangle AED$，所以 $\\triangle ABD \\cong \\triangle AED$，故 $\\overline{AE} = \\overline{AB} = 15$，$\\overline{DE} = \\overline{BD}$，且 $\\angle ADB = \\angle ADE = 90^\\circ$。在直角 $\\triangle ADE$ 中，$\\overline{DE} = \\sqrt{AE^2 - AD^2} = \\sqrt{15^2 - 9^2} = \\sqrt{225 - 81} = \\sqrt{144} = 12$。已知 $\\overline{DE}：\\overline{EC} = 4：3 \\implies 12：\\overline{EC} = 4：3 \\implies \\overline{EC} = 9$。因此 $\\overline{DC} = \\overline{DE} + \\overline{EC} = 12 + 9 = 21$。在直角 $\\triangle ADC$ 中，$\\overline{AC} = \\sqrt{AD^2 + DC^2} = \\sqrt{9^2 + 21^2} = \\sqrt{81 + 441} = \\sqrt{522} = 3\\sqrt{58}$。"
+    },
+    {
+      "type": "written",
+      "sourceNumber": "三、4",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-2",
+      "unitIds": [
+        "nanyi-8-1-2-2"
+      ],
+      "unitAssignmentBasis": "分母有理化與二次根式四則運算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "計算並化簡 $\\dfrac{12}{\\sqrt{11}－\\sqrt{3}}－\\dfrac{6}{3－\\sqrt{5}}$ 的值是多少？"
+        }
+      ],
+      "answer": "\\dfrac{3}{2}(\\sqrt{3}+\\sqrt{11}-\\sqrt{5}-3)",
+      "answerAnalysis": "第一項有理化：$\\dfrac{12(\\sqrt{11}+\\sqrt{3})}{(\\sqrt{11}-\\sqrt{3})(\\sqrt{11}+\\sqrt{3})} = \\dfrac{12(\\sqrt{11}+\\sqrt{3})}{11-3} = \\dfrac{12(\\sqrt{11}+\\sqrt{3})}{8} = \\dfrac{3}{2}(\\sqrt{11}+\\sqrt{3})$。第二項有理化：$\\dfrac{6(3+\\sqrt{5})}{(3-\\sqrt{5})(3+\\sqrt{5})} = \\dfrac{6(3+\\sqrt{5})}{9-5} = \\dfrac{6(3+\\sqrt{5})}{4} = \\dfrac{3}{2}(3+\\sqrt{5})$。原式相減：$\\dfrac{3}{2}(\\sqrt{11}+\\sqrt{3}) - \\dfrac{3}{2}(3+\\sqrt{5}) = \\dfrac{3}{2}(\\sqrt{3}+\\sqrt{11}-\\sqrt{5}-3)$。"
+    }
+  ]
+}

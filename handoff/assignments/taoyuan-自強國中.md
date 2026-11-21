@@ -1,6 +1,6 @@
 # 桃園市 自強國中 待完成清單
 
-未轉寫 100 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
+未轉寫 63 份，部分轉寫 0 份。每卷一個paperId，整卷處理；卷首與清單衝突時回報，不猜分類。
 
 | 範圍 | 狀態 | 格式 | paperId | 原檔／官方包 | SHA256 |
 | --- | --- | --- | --- | --- | --- |
@@ -10,11 +10,7 @@
 | 114下・7年級・第1次 | 未轉寫 | doc | `metro-taoyuan-5861a82d8fdd409d` | [原檔/來源](<https://drive.google.com/file/d/1QkUmXdgITVfqwP0VlAuF_3YpacnnmxFL/view>)  | `eb569cf50e7069f8e3f1da71979a6557839a50d17cf82ae653c0040dc1771880` |
 | 114下・7年級・第2次 | 未轉寫 | doc | `metro-taoyuan-fa9b65741cc0f535` | [原檔/來源](<https://drive.google.com/file/d/1JOYl91-bMACnRKVsQ3P5XG_Lo1WdMWBY/view>)  | `8f22a3fce60379eb6b8c5976a4edb71eda6930ef9e9b27580f9c3c027e8df20e` |
 | 114下・7年級・第3次 | 未轉寫 | docx | `metro-taoyuan-af6528ef5174fb4a` | [原檔/來源](<https://drive.google.com/file/d/1YUD8HR3SpvJBUH_wTu5098xGUtDoEf37/view>)  | `347a612fa938bed810ae9b70633c79d261b80874360cdefc3ee785e24ee7c17e` |
-| 114上・8年級・第1次 | 未轉寫 | doc | `metro-taoyuan-9e75745f8c7f3b49` | [原檔/來源](<https://drive.google.com/file/d/1si11oNud-03IMvnojh1mVGkSbdduZZEr/view>)  | `d3d18986565a336d987b66aff8dbf97074b8825f0ed6a416464bdcb9407e7f29` |
-| 114上・8年級・第2次 | 未轉寫 | doc | `metro-taoyuan-bdd56d2a38e6cdbb` | [原檔/來源](<https://drive.google.com/file/d/16Y1dCHI2p9RrxjrAzvuk16tu4VXkX5dF/view>)  | `20e10f793c80474b382bd738a182118f8847604eb127151c73983054a46d572e` |
-| 114上・8年級・第3次 | 未轉寫 | docx | `metro-taoyuan-9bd866a036844697` | [原檔/來源](<https://drive.google.com/file/d/1ykaVdo2Hz02Q5Ml-B5vRySp2m06ivDDo/view>)  | `50d7ea7636f6174e66afca2cc957b529ba138076f07c8a9854b8afa68857c454` |
 | 114下・8年級・第1次 | 未轉寫 | doc | `metro-taoyuan-c51de093c4d5bbd2` | [原檔/來源](<https://drive.google.com/file/d/10arD4vX_1EMLAuDevg0NfEPhpKKPZsLw/view>)  | `a8288fe5462f959da7aca9e870a75817e7e6303153ff9c5e1487da01d2b9f152` |
-| 114下・8年級・第2次 | 未轉寫 | docx | `metro-taoyuan-06674a69998ca999` | [原檔/來源](<https://drive.google.com/file/d/1JEIXNHBfJDVZ8xWyh6Ez6szxxPYzpOV_/view>)  | `ededb0bd13d4f3a6ca23dc641aae2a03413dbba23c5edb9a45b724ed0ea2bfe5` |
 | 114下・8年級・第3次 | 未轉寫 | docx | `metro-taoyuan-fa01247d7c0466a3` | [原檔/來源](<https://drive.google.com/file/d/1wF9M0SG0GmWPEnpAZh7RdVGXbHKpFQEu/view>)  | `086ff3e52f034cb4a0065ea0849c38a2d3e4ca960b657ee894c80f6fd4b28322` |
 | 114上・9年級・第1次 | 未轉寫 | doc | `metro-taoyuan-43eb994e59a73c2f` | [原檔/來源](<https://drive.google.com/file/d/1BsaIHmtHMFAU8uG_Y-Fo5IxF3fQElheP/view>)  | `758d18bf4c4de8a48668dc42e11e6965ce8870467f9e0fc35bb4d03b2521d03a` |
 | 114上・9年級・第2次 | 未轉寫 | doc | `metro-taoyuan-385f5beb7d2fdcbc` | [原檔/來源](<https://drive.google.com/file/d/18nvy6S42JaCEq4Rf1OcXa1VREIh7nE5_/view>)  | `e212d1b159ef63770cd712a898d6a071ffb3a843595766b517a92d9fee74d33c` |
@@ -25,11 +21,6 @@
 | 113下・7年級・第1次 | 未轉寫 | doc | `metro-taoyuan-01744a74508d92b3` | [原檔/來源](<https://drive.google.com/file/d/1nMkCqxOu4JXh2kilR__W2Tmepw0UADSo/view>)  | `9fe133c2c43d6116b663fa9c5e96f42cb37f200a58200031905fa758a4fd0d62` |
 | 113下・7年級・第2次 | 未轉寫 | doc | `metro-taoyuan-27856cda87e9c063` | [原檔/來源](<https://drive.google.com/file/d/1B-ma99mmU4xAOwZj0U1JRETzgZMRqCrL/view>)  | `bed316a1ae58cfd436182154862078605600f1c14656854f711acab68cce55c3` |
 | 113下・7年級・第3次 | 未轉寫 | docx | `metro-taoyuan-491ed97f3cccb3ec` | [原檔/來源](<https://drive.google.com/file/d/10CxOa3i9sZQ9A-3ThzUIA1X7OddNeVj5/view>)  | `1b788989dc74ab1638675f1bdac9fb6e0837a63eb5c3c977ea1a7599541196a1` |
-| 113上・8年級・第1次 | 未轉寫 | doc | `metro-taoyuan-3738f2e3377578bf` | [原檔/來源](<https://drive.google.com/file/d/1S16NgMRW7OzswYHO1-INZBRSMtZ0Ymsv/view>)  | `1b3c45349a58f5f83e78884ec847cc3477451dec0e24fdcc448a0b5f2101b3fd` |
-| 113上・8年級・第2次 | 未轉寫 | docx | `metro-taoyuan-3895992c1e025992` | [原檔/來源](<https://drive.google.com/file/d/1Cwgb1B1XbYWauNpzNsw8WFVhsQm4VIyp/view>)  | `cfd0738d3841ae4153ecf448be79a91912bf61ce22b4de063ae09add84cd43a9` |
-| 113上・8年級・第3次 | 未轉寫 | docx | `metro-taoyuan-e94630d872f648f2` | [原檔/來源](<https://drive.google.com/file/d/1Vy4qKkaCc3u-QZ5xJDXN79mSvC3HS0oe/view>)  | `06f5ffa7eb921bf697f7bc171ccf1a0fa9c02d69538799a829779119a3846237` |
-| 113下・8年級・第1次 | 未轉寫 | docx | `metro-taoyuan-75244681d565ebaf` | [原檔/來源](<https://drive.google.com/file/d/1ZZGzLJvIZKUj0cWk8gYwPA98dBg5bD7J/view>)  | `bd759323ca9467932675f70d915f1063ef965a625c98c760c2111c44f97c39f8` |
-| 113下・8年級・第2次 | 未轉寫 | docx | `metro-taoyuan-d6dca9c0bc484d48` | [原檔/來源](<https://drive.google.com/file/d/1bY_anWfj2GNnmlt4YxLY4fYhLlzf3v_1/view>)  | `7400ca72ae48678afab7b0d01dd66c7095a02614dabaa7600a05829e1aea0f01` |
 | 113下・8年級・第3次 | 未轉寫 | docx | `metro-taoyuan-aa8012ae7fe65485` | [原檔/來源](<https://drive.google.com/file/d/18YLbzuMsU-2RYjyCCGdRhqfzZMKTn3SW/view>)  | `6097640333b9016743b5e4806d4aa1efcdea05a6edfc2bac49929a0492b0a89b` |
 | 113上・9年級・第1次 | 未轉寫 | doc | `metro-taoyuan-09dff897fd9567e6` | [原檔/來源](<https://drive.google.com/file/d/1-R7zZzysTkLriu_zx0E25sxzccKnbMk1/view>)  | `358bd2b0a5201b26977aea58eddb795233c4ab56131cda1769191e11e5486cf6` |
 | 113上・9年級・第2次 | 未轉寫 | doc | `metro-taoyuan-a7be0d24e5277c76` | [原檔/來源](<https://drive.google.com/file/d/1LK02nl1eFALSoYf126UBC7juh-ZnegSd/view>)  | `455b8b1200791840fefc69935c923e19b2e5d51dc2e6a4f7ba9306695007d201` |
@@ -42,10 +33,6 @@
 | 112下・7年級・第1次 | 未轉寫 | doc | `metro-taoyuan-daf6237093a7282f` | [原檔/來源](<https://drive.google.com/file/d/1Dx24OvcsunBGZtk487nLrz3xYmkDL3nb/view>)  | `4a776bdd3a80bfbd27e7e47a7fd8ceeb89a96c787ccf371c1ff8bc977a83259e` |
 | 112下・7年級・第2次 | 未轉寫 | docx | `metro-taoyuan-fd3ddc535cd3f628` | [原檔/來源](<https://drive.google.com/file/d/1b0KET7ynnuAJkL0mHYtfRmuAbKn2glYC/view>)  | `679af9ae30d805cc26dc859f19e47400da6f6565771903d082645c7508ea72de` |
 | 112下・7年級・第3次 | 未轉寫 | docx | `metro-taoyuan-4344f78a25be7eef` | [原檔/來源](<https://drive.google.com/file/d/18BcApKDaotyNsEg3W5cuUvPo531wfwwM/view>)  | `047b6b09b49336fc940ed799e2a1926264eab2a88595a6fc9a6aa8f961bbdaa2` |
-| 112上・8年級・第1次 | 未轉寫 | doc | `metro-taoyuan-01173379dda1f3e9` | [原檔/來源](<https://drive.google.com/file/d/1FR5zlZl9XR1tNYFvT5UFqxX2vzwN7DU3/view>)  | `a286fde356e6b0c50e404d4de72b16350c71562eb1058d4b8ee55d71fabdb101` |
-| 112上・8年級・第2次 | 未轉寫 | doc | `metro-taoyuan-76509865ee4df8f3` | [原檔/來源](<https://drive.google.com/file/d/1IdfZfKJkKZcNcQd3iK_qV9Q4cktIBXT7/view>)  | `272c74b2945b7725c0601af31f7d4a211e5b1c76d2132824d0c2dfd776bcab94` |
-| 112上・8年級・第2次 | 未轉寫 | doc | `metro-taoyuan-d67cdcf3b7427a7e` | [原檔/來源](<https://drive.google.com/file/d/17EA0zgkWx0ErSOFnRoAv0Ut0u-JCh5xm/view>)  | `4d2882b2c886cc91640a221e02e80d7274b7a97bf0e351cf851e6d6cb7265d9c` |
-| 112上・8年級・第3次 | 未轉寫 | docx | `metro-taoyuan-05e366b412ddb7b1` | [原檔/來源](<https://drive.google.com/file/d/13OmviCNmwo7s6gNhJVGAANB08_BrQOgx/view>)  | `ce5cd1a96dbeb620dd9bba9a4dbdfe5e12092baf0c48808d5a5bbcf0d6e7a545` |
 | 112下・8年級・第1次 | 未轉寫 | doc | `metro-taoyuan-7f2d76d7b86582ef` | [原檔/來源](<https://drive.google.com/file/d/1mUo-4zvb34VZPzHzgLmK94-kvnY-uIfn/view>)  | `8740f9c2d9b8f58d5dcd429fb5cc7edde6b51944645afed93b6b60a07552155b` |
 | 112下・8年級・第2次 | 未轉寫 | doc | `metro-taoyuan-2c547c3aa53ef22d` | [原檔/來源](<https://drive.google.com/file/d/15pLsPBx0dYYZMb55Zxw6-ZDXBIsh9j1S/view>)  | `5e8c35a79d02b88815c256bc22ff11b3f4a46a9cc667b53e02079002f6cc1139` |
 | 112下・8年級・第3次 | 未轉寫 | docx | `metro-taoyuan-ba3b133913c81320` | [原檔/來源](<https://drive.google.com/file/d/1LfRhdFxHEufB7XAAKJJWCRxBMkkbZIN2/view>)  | `aa3718976c3efbeb8d4d6c9697252591964a884a1bd8bc2193ebb1cc1a978886` |
@@ -58,49 +45,25 @@
 | 111下・8年級・第1次 | 未轉寫 | docx | `metro-taoyuan-8685491d4569af24` | [原檔/來源](<https://drive.google.com/file/d/1sHRvk-AFGLo9_KO7G1xuzVJgBARrv3Iy/view>)  | `8ac0ad0c324feaec194ce1885a97ba7e436e691944ce39ee68c952422a16efa4` |
 | 111下・9年級・第1次 | 未轉寫 | docx | `metro-taoyuan-7dd767455e15f72c` | [原檔/來源](<https://drive.google.com/file/d/1gIl0Kl9uTIUgecdsjGacwEX_B9I5fOoC/view>)  | `abea0f570478fde09678e6717d203a6623a0e3e025eb617b50dec1538dc72105` |
 | 110上・9年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-07d68120297d7e10` | [原檔/來源](<https://drive.google.com/file/d/17Uca5qbcM_LEhB9L0MXDoDBcEbr-zSlP/view>)  | `2b67c06bbab9ba39c15c304047f05770a692bd21acc2f0d5f622e915b4a46d29` |
-| 110下・9年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-84fec2475bcc6fec` | [原檔/來源](<https://drive.google.com/file/d/1l42mEYbj9YOOwPgsh2w7iqQn0XOeLuy3/view>)  | `521704fbad528e2d0b2ad5572c88aa5a1fc96a9318ba1d011dc572f09091608f` |
-| 110下・9年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-c46ff2461c2d19d3` | [原檔/來源](<https://drive.google.com/file/d/1BTffk5cPScdFS7Iz5v7jq0H5aWs5JeIA/view>)  | `53dd5e4d1193cc628ecd3c589abd76d28024f0612d5ee64696b57fc2a8838b61` |
 | 109上・7年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-66504ac5acdba2a9` | [原檔/來源](<https://drive.google.com/file/d/1u0CIP4TErzQQhNmjInTtGm7zDA5AbS1J/view>)  | `b3b8ce4606b05ffb76ac21c34f8f3f36f8a29441c8b46e49b274c90c44c41c43` |
 | 109上・7年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-541ce657c6931030` | [原檔/來源](<https://drive.google.com/file/d/1p0t190AMmjCyFJKYtQy0omNLsz-a045k/view>)  | `61b66f21f534454862569cc94fa851e4da6161bd9702b54eb2ca721b56c5f130` |
 | 109上・7年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-3c749a4b24d829fd` | [原檔/來源](<https://drive.google.com/file/d/1P9NevISoH5AUr3TgVcsqQmHjh0qa-FUn/view>)  | `8d64e4b6f9105a25b65153bdfa6f1e00b6571ca4717699417e25813c01c68bbc` |
 | 109下・7年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-76c1a22424189105` | [原檔/來源](<https://drive.google.com/file/d/1YkFMdUP6IQuJXRpoVfwUtSqT75A2ZARb/view>)  | `3f3a6ce7aaf3075234a0eb730e24d9c618b70c38902086557a795e1fa9798147` |
 | 109下・7年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-729e2edb90d1e8b3` | [原檔/來源](<https://drive.google.com/file/d/18Odyoo3Gj7xStw2jIyVzBqmTky_4WCcR/view>)  | `2113df4c15239abd9e301f216af371d8be5254c9cde02a0bf88cb8b7b9dacd6b` |
-| 109上・9年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-f994e6d0bfb7ea0c` | [原檔/來源](<https://drive.google.com/file/d/1oShjAURtfzstjoPUbgUY3jYBdZXAYsuT/view>)  | `a42b447fdb12bd8195f577a1b2ed61c6fdf67865cfe506b72d227b6209292e7b` |
-| 109上・9年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-52277f06cffd8c52` | [原檔/來源](<https://drive.google.com/file/d/1n3Z2l-MSiIC1R6vRX_DZfRNVG5fMCHSP/view>)  | `12f1f9e12d0c433a879e0038794f874dd3349db129271c54a6c2ef857890b01d` |
-| 109上・9年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-40391ec2b8b98585` | [原檔/來源](<https://drive.google.com/file/d/1ZomY0kVrNCh1bgGeeyk_AQ8JUWYHy4bm/view>)  | `a409a9532804052adb4ff2de25f71e0df031e47470124af3e1eb283a43ab818e` |
-| 109下・9年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-ead6a44115969c82` | [原檔/來源](<https://drive.google.com/file/d/1hMHhp8D6OPNu6Y4IUe5ibYeBF67HC0Sw/view>)  | `9b160bbe3f7d167250e1e45e25c84a788b3696e756db0af26367d71a0417de9c` |
-| 109下・9年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-1b335510c218182d` | [原檔/來源](<https://drive.google.com/file/d/1cv1oepq84v5kV7AOy9F7PUax0Q-pFSac/view>)  | `132c79b1408c2467ebecab0953ffec604c176c67d9bc452cc4047d14c0919522` |
 | 108上・7年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-d833feaa6bedfcfd` | [原檔/來源](<https://drive.google.com/file/d/1IuMr_KCjOn2E3iR4qtqc4_QgBAktHe19/view>)  | `7f370e523fdc6ca13a269ecec264c61bec843c7570a4d63b92689de4313ff125` |
 | 108上・7年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-0279e66a14c99774` | [原檔/來源](<https://drive.google.com/file/d/1H5bpuouGGIX0mso4PggEMegyGlEHOLUp/view>)  | `a18bcce8160cd7d964c4ceb982439cd1f903d5206d657589d193383a3cd8372b` |
 | 108上・7年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-02221fb13666ec2b` | [原檔/來源](<https://drive.google.com/file/d/1POLp-jqv6Wz5BhglNmlyiwFuq78YZc6K/view>)  | `5e1935377966074401d9a7e3afb74435d0a0cea95e78291e935f90a867f636fd` |
 | 108下・7年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-bbf323c543d3ab34` | [原檔/來源](<https://drive.google.com/file/d/1ozwq5WFvJt8zS1fLnnot1bxGQGKUvnrK/view>)  | `99e42093ac0cab424ea3f05ecd977e2d7da4eb6a1d0c6f59a55831598d197349` |
 | 108下・7年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-b54402f25b721b91` | [原檔/來源](<https://drive.google.com/file/d/1V4bWVtJ2IEObPPiSVjqIbEaBZnYwtGzx/view>)  | `92db1e104c1ef749fa6f4905b0d90c83207204e6fa2797cc0dfa1decbb17e74d` |
-| 108上・9年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-5dde993c55871df4` | [原檔/來源](<https://drive.google.com/file/d/1zuAOYJWSTGOxiyd3zsfg5stHXXGwpdIJ/view>)  | `3d752f5610fe4f46f1b1abc54ed98490457571df751f7b324d6af550bc17eea4` |
-| 108上・9年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-39d700ec28d6a030` | [原檔/來源](<https://drive.google.com/file/d/1wtKYBXT5N9wxJ8GJDVfFjRIu4bu_Y-yc/view>)  | `58a0de805e85c1a19a0539a5e5d4c4f3d8476da1ec7e253278d4490c89b8d081` |
-| 108上・9年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-a5943065b3ac8820` | [原檔/來源](<https://drive.google.com/file/d/1kMu5kHMH42qXznA120V16fo68ygkkl9s/view>)  | `8fb968026e12f4124c5d84acbecb82a8a14a3cab492e651b62a67a61f5130bf2` |
-| 108下・9年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-5e06c91482586ed2` | [原檔/來源](<https://drive.google.com/file/d/1ILskELYSMHxFol6yz8Xu8t47-UV-IFxJ/view>)  | `1a1c730f6c9b3a93eae801a477503616d28e345cd68993e43a351b1615323c3b` |
-| 108下・9年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-da847c1fd71126b7` | [原檔/來源](<https://drive.google.com/file/d/1P86YPB1IdW2aBnMoVIVBsZxE9hw3zBiH/view>)  | `87211e698ce8e5569226ad9147e65c2009af94504cd0d0e66cfcf0dbee3ded71` |
 | 107上・7年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-0a1a7b247fe7739b` | [原檔/來源](<https://drive.google.com/file/d/1QOzKgwzd4gWVwxzk_orMLGVGuO9KFPtk/view>)  | `123613b1a7419f2ccb642126b0cca1872f05b1b6f8a64ba0eb834dae6dbba738` |
 | 107上・7年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-8b9b7d5f947f8cc2` | [原檔/來源](<https://drive.google.com/file/d/1zBC9iGmW6dFpfrdcahM_4lvU20eV9Pmr/view>)  | `5f4f66bb15e9263a344fcc7d5e4e8e21203eb4e4d24b447600b1ff36e6233707` |
 | 107上・7年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-ae1f44c4a47960dc` | [原檔/來源](<https://drive.google.com/file/d/1DY8_YtM_zrRWnjUThrdybBeKMMsMAGDY/view>)  | `b6d9e6793e5a6b35f1108556a5f16e32e6ea39aca11582d1a2afb7302a63094f` |
 | 107下・7年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-bb237f72ade24e52` | [原檔/來源](<https://drive.google.com/file/d/1L7M3_4_xyAS1Ts2MKfNrelN6J9jDkuYv/view>)  | `12e92c73295dce4d0c8e7fda6d03338314b4ec2885b240104f27175826ab055e` |
 | 107下・7年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-b11156b66df0148a` | [原檔/來源](<https://drive.google.com/file/d/1BnaLMP7rjCUiYFJA99xWi_A5zr9-H_M_/view>)  | `0781210acfa5cc6bacfef2b25a133aa73337c0704e2637f9f3ef51505826196d` |
 | 107下・7年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-b155cf9122191019` | [原檔/來源](<https://drive.google.com/file/d/1fbbauL918kbMVuuhUMlDTHUGMubDCFha/view>)  | `ddeb3a838fcdbaaa2cce764a02c03577bea5981ca66c10badcb9fe5db92a9b91` |
-| 107上・9年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-1b2480e48c61122a` | [原檔/來源](<https://drive.google.com/file/d/1D73GlzqXI0DVZCbhmKBy7ujTGoP7SzVh/view>)  | `c2edafe5adc27098f81620a9743dbadacfe976c5d49ac444b1b4f64519d4be0b` |
-| 107上・9年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-ca3c5ef92e3d2859` | [原檔/來源](<https://drive.google.com/file/d/13AkjWP6KQVcxownlroa8s5hrcA-hedGr/view>)  | `bcb142fca4f81d697daa522fab13bc53f0820af145a123213c678199cf33efdd` |
-| 107上・9年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-b61ac0fb6e55d778` | [原檔/來源](<https://drive.google.com/file/d/1GcO1zlXRXmFCpCuzyfYt_HjQmC5EpjLC/view>)  | `5ab20ecb8e20e4aa1e231b87457522db173eb51a6897ea14ceaa9d6d00b6701a` |
-| 107下・9年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-ee90e165f8d34e1a` | [原檔/來源](<https://drive.google.com/file/d/1cQIHJpFUN7i7wLJwItNQ-1MV6hqAVxJs/view>)  | `f3ce6c23dc97f63e7a7a59b51db23c71fdc305dc40dedad7ae61b42ac17916d1` |
-| 107下・9年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-d3039305311b08ed` | [原檔/來源](<https://drive.google.com/file/d/1BjrLnR7XYvWXVO331ErZqL_ar_9Olv-6/view>)  | `c105231d942a1367c5a155b7df8a3565af1e235bbf15ecf178c8344dc51ff9c7` |
 | 106上・7年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-a8c82ce7bedec6f8` | [原檔/來源](<https://drive.google.com/file/d/1_NVNRWxob8coOGmLLjPFmLO36BdSEmED/view>)  | `72e5a997203f2f16bc04862a812786ae94e4f117ff3329b02f478c4b853c367c` |
 | 106上・7年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-a3e2932b60a9f5f5` | [原檔/來源](<https://drive.google.com/file/d/1r17phBCm0XjBh63eZIHx8YgIMJ83C2sb/view>)  | `d9ee41237dc3d4fbea4f20943834a3dff3a682107101a9e4424cb7fc796c33da` |
 | 106上・7年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-ba2d2e5693ec0dc5` | [原檔/來源](<https://drive.google.com/file/d/1IcCY0Cfr3DUQHAzypE8HvtvFdCPE1DOE/view>)  | `ffeac2fc8750ef1c306b602696d1c13782517be355ae3c8e5cf871fb1727937c` |
 | 106下・7年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-4959956eefeff591` | [原檔/來源](<https://drive.google.com/file/d/1RN62AbEWesXVVPAhTHMHQ4wtEMFN0B9V/view>)  | `1d826fff648235da377b591fce4268d740c6d073046a1794fbdac53f913daef0` |
 | 106下・7年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-453319c8104ebb86` | [原檔/來源](<https://drive.google.com/file/d/11jMF0-hyDp_0O2GoFGlKBlVkgYVZ0iPU/view>)  | `4a30a61dc635398f27678de688abd13c335488a4d4610ba347c378d90c4a1b02` |
 | 106下・7年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-9f851853248b115b` | [原檔/來源](<https://drive.google.com/file/d/1ZXys8D8tMIFP9wLpX_GgJcm5Ebfv6ymO/view>)  | `9eb0fb923613dab7f4a38e17cb2c7f731f95c168aa1f706e94f9187cb3ccdf73` |
-| 106下・8年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-283e1b33c11680de` | [原檔/來源](<https://drive.google.com/file/d/14QPrj2J0LmbGu5i6-66x1jndly7iEVFT/view>)  | `4c90f59c7b48b1ad184300f23f31ab2a1ac306c2e40dc00c718d73dbb8352a76` |
-| 106下・8年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-176e85e8e0e23ae5` | [原檔/來源](<https://drive.google.com/file/d/1GbxuUWeVAujpLvlBN87Fd-C5Tr3Ynw5T/view>)  | `44acc4ceff235552f71849ad56dc41ff6774c2ad1e78c3fbfa7cc9797ecc738f` |
-| 106上・9年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-eeb7f48c7381764c` | [原檔/來源](<https://drive.google.com/file/d/1VMxYsPIPfNZEZN2sbjcmJg7iT-dMCID0/view>)  | `9458f2c9682b064917012d93fb8db0b5b43be9fe62f96bfe8246bd04dd1247e0` |
-| 106上・9年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-ea85cb80caeea261` | [原檔/來源](<https://drive.google.com/file/d/1auxcagE1D9ab7_bwEokfSELHXyh08fMh/view>)  | `aca957c37e7e739c01bf01679345b5f6461a50af0b31f759ac1d37e4f51030dc` |
-| 106上・9年級・第3次 | 未轉寫 | pdf | `metro-taoyuan-4115b5ffa5d2cda9` | [原檔/來源](<https://drive.google.com/file/d/1m4LLLdFTHBZilgemiyyJIwFXtn8YIKm7/view>)  | `79348281c2bdc64de156d5d847a451362549d3d2fd65e1c886a0517db53abf1d` |
-| 106下・9年級・第1次 | 未轉寫 | pdf | `metro-taoyuan-6f17fe2e858fec62` | [原檔/來源](<https://drive.google.com/file/d/1Q8H2WVJ4Ql6_LhnYSEIxi4Ld0uK9QCAv/view>)  | `2787074b87f5c2d1b477ccec56526f59e02ceda9a3d8506322463c3b90f782b7` |
-| 106下・9年級・第2次 | 未轉寫 | pdf | `metro-taoyuan-ce93328511332b33` | [原檔/來源](<https://drive.google.com/file/d/1sNXp1oxWlBHkFLpKNMx7_s2CvL0r6UQ8/view>)  | `77c8c76a873d3b7ddcddbf9576bdcbcbc2f81621a12725577720cc8d7a06f018` |
