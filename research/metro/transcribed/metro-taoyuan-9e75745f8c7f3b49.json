@@ -1,0 +1,597 @@
+{
+ "paperId": "metro-taoyuan-9e75745f8c7f3b49",
+ "sourceSha256": "d3d18986565a336d987b66aff8dbf97074b8825f0ed6a416464bdcb9407e7f29",
+ "printedHeader": "桃園市立自強國中114學年度八年級第一學期數學科第一次定期考試卷",
+ "printedSlot": {
+  "year": 114,
+  "semester": 1,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇題7題、填充題16題、非選題2題。",
+ "visualReviewComplete": true,
+ "reviewNote": "Word(.doc→docx) 抽取；text.md 與 img/01-06 逐題對照。重畫圖：填充3（正方形ABCD與PQRS）、填充16（稻田小路）；填充9的平方表改為表格；選擇6小平的分數圖為17/2與17^2/4^2（原卷即如此）；填充2(G)的圖為1/4（帶分數8又1/4）。「(尚有試題)」與答案卷說明略去，卷面無答案。填充15的「+2252+1127」依原文。",
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-7-1-3-1",
+   "unitIds": [
+    "nanyi-7-1-3-1"
+   ],
+   "unitAssignmentBasis": "文字符號乘法與乘冪的記法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列四個敘述，哪一個是正確的？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4x$表示$4+x$",
+      "$x^{2}$表示$x+x$",
+      "$4x^{2}$表示$4x\\cdot 4x$",
+      "$4x+6$表示$x+x+x+x+6$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "除法原理：被除式＝除式×商式＋餘式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若多項式$A$除以$2x+1$得商式為$3x-4$，餘式為$1$，則$A=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$6x^{2}-5x-5$",
+      "$6x^{2}-5x-3$",
+      "$6x^{2}+5x+3$",
+      "$6x^{2}-5x+5$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以平方差公式拆成兩數乘積後比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用乘法公式判斷，下列算式之值，何者與其他不相同？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(108^{2}-2^{2})\\times(106^{2}-4^{2})$",
+      "$(107^{2}-1^{2})\\times(107^{2}-3^{2})$",
+      "$(106^{2}-2^{2})\\times(108^{2}-2^{2})$",
+      "$(105^{2}-1^{2})\\times(109^{2}-1^{2})$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "以平方數估計根號值的範圍。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$\\sqrt{44}$的值介於下列哪兩個數之間？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$43$，$45$",
+      "$30$，$50$",
+      "$4$，$5$",
+      "$6$，$7$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "根號與平方、乘冪的化簡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列哪一個選項中的等式成立？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{2^{2}}=4$",
+      "$\\sqrt{3^{3}}=9$",
+      "$\\sqrt{4^{4}}=16$",
+      "$\\sqrt{5^{5}}=25$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以完全平方公式判斷各種計算方法是否正確。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有四位同學想要算出$8.5^{2}$的值，他們的方法如下："
+    },
+    {
+     "type": "text",
+     "text": "小艾：$8.5^{2}=(8+0.5)^{2}=8^{2}+2\\times 8\\times 0.5+0.5^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "小平：$8.5^{2}=(\\dfrac{17}{2})^{2}=\\dfrac{17^{2}}{4^{2}}$"
+    },
+    {
+     "type": "text",
+     "text": "阿榮：$8.5^{2}=8^{2}+0.5^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "阿花：$8.5^{2}=(9-0.5)^{2}=9^{2}-2\\times 9\\times 0.5-0.5^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "如果這四人接下來都沒有計算或其他方面的錯誤，那麼誰的答案是正確的？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "阿花",
+      "小平",
+      "阿榮",
+      "小艾"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根的定義。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\pm 4$的平方根為$16$",
+      "$5$的平方根為$25$",
+      "$-6$是$36$的平方根",
+      "$|-49|$的平方根為$49$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式乘法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算$(2x-3)(3x+4)$的結果$=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "判斷乘法公式的各種寫法是否正確。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判斷下列選項，請選出正確的等式：＿＿＿＿。"
+    },
+    {
+     "type": "text",
+     "text": "(A) $2014^{2}=2000^{2}+2\\times 2000\\times 14+14^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "(B) $(m+n)(m-n)=m^{2}-n^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "(C) $(13-0.6)^{2}=13^{2}-0.6^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "(D) $193\\times 207=200^{2}-7^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "(E) $(m+n)^{2}=m^{2}+2mn+n^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "(F) $(m-n)^{2}=m^{2}-2mn-n^{2}$"
+    },
+    {
+     "type": "text",
+     "text": "(G) $(8\\dfrac{1}{4})^{2}=8^{2}+(\\dfrac{1}{4})^{2}$"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "兩正方形面積相減，以平方差公式計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖，正方形$ABCD$的邊長為$68$公分，正方形$PQRS$的邊長為$32$公分，則鋪色部分的面積為＿＿＿＿平方公分。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 480\"><polygon points=\"240,70 75,240 240,405 408,238\" fill=\"#f9d6bd\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"190\" y=\"185\" width=\"102\" height=\"103\" fill=\"#ffffff\" stroke=\"#111\" stroke-width=\"1.4\"/><text x=\"240\" y=\"52\" font-size=\"30\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">A</text><text x=\"48\" y=\"252\" font-size=\"30\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">B</text><text x=\"240\" y=\"448\" font-size=\"30\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">C</text><text x=\"444\" y=\"252\" font-size=\"30\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">D</text><text x=\"168\" y=\"206\" font-size=\"30\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">P</text><text x=\"316\" y=\"206\" font-size=\"30\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">S</text><text x=\"168\" y=\"308\" font-size=\"30\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">Q</text><text x=\"316\" y=\"308\" font-size=\"30\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">R</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式減法並比較係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "化簡$(8x^{2}+5x-6)-(ax^{2}-6x+b)$的結果，若$x^{2}$項係數為$3$，常數項為$2$，則$a\\times b=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "完全平方公式的展開與比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若$(1357-86)^{2}=1357^{2}-86\\times a$，則$a=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式除以一次式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算$(2x^{2}+4x-6)\\div(x-1)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "以乘法公式簡化分數與大數運算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算$\\dfrac{1}{389}+\\dfrac{390\\times 388}{389}-1389$之值為何？＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "由除法原理反推多項式的未知係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將一多項式$[(17x^{2}-3x+4)-(ax^{2}+bx+c)]$，除以$(5x+6)$後，得商式為$(2x+1)$，餘式為$0$。求$a-b+c=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "利用平方表估計平方根的整數部分。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下表表示$5$個數及其平方後所得到的值。利用此表估算$\\sqrt{160}$的整數部分為何？＿＿＿＿。"
+    },
+    {
+     "type": "table",
+     "header": true,
+     "rows": [
+      [
+       "$N$",
+       "$4$",
+       "$8$",
+       "$9$",
+       "$12$",
+       "$13$"
+      ],
+      [
+       "$N^{2}$",
+       "$16$",
+       "$64$",
+       "$81$",
+       "$144$",
+       "$169$"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "乘法公式與多項式除法的混合運算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請計算$(2x+1)^{2}-4(x+1)^{2}(x-1)\\div(x+1)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "由平方根的定義列式求值。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知$16$為$x+2$的正平方根，則$x$的值為多少？＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "12",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式減法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算$(2x^{2}+x-3)-(-x^{2}-3x+4)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "13",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "乘冪的平方根。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "寫出$5^{4}$的平方根$=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "14",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式的加法與係數分配。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算$5(4x^{2}+4x+2)+3(x^{2}+x+3)=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "15",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "觀察規律並以完全平方公式配成平方。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知$1^{2}+1=2^{2}-2$，$2^{2}+2=3^{2}-3$，$3^{2}+3=4^{2}-4$，$\\cdots\\cdots$，$99^{2}+99=100^{2}-100$。"
+    },
+    {
+     "type": "text",
+     "text": "若$1125^{2}+1125+2252+1127=a^{2}$，且$a>0$，則$a=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "16",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3",
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "以多項式表示扣除小路後的面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，純純有一長方形的稻田，長為$3x$公尺，寬為$x$公尺，在橫向開闢的兩條小路，路寬皆為$1$公尺，在縱向開闢的三條小路，路寬皆為$2$公尺，請以多項式表示剩下稻田的面積$=$＿＿＿＿平方公尺。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 100,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 320\"><rect x=\"40\" y=\"65\" width=\"120\" height=\"52\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"205\" y=\"65\" width=\"120\" height=\"52\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"370\" y=\"65\" width=\"120\" height=\"52\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"535\" y=\"65\" width=\"120\" height=\"52\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"40\" y=\"140\" width=\"120\" height=\"50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"205\" y=\"140\" width=\"120\" height=\"50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"370\" y=\"140\" width=\"120\" height=\"50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"535\" y=\"140\" width=\"120\" height=\"50\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"40\" y=\"213\" width=\"120\" height=\"52\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"205\" y=\"213\" width=\"120\" height=\"52\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"370\" y=\"213\" width=\"120\" height=\"52\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"535\" y=\"213\" width=\"120\" height=\"52\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><path d=\"M40 45 L655 45 M40 38 L40 52 M655 38 L655 52\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M22 65 L22 265 M15 65 L29 65 M15 265 L29 265\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M665 117 L665 140 M659 117 L671 117 M659 140 L671 140\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M665 190 L665 213 M659 190 L671 190 M659 213 L671 213\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M160 280 L205 280 M160 274 L160 286 M205 274 L205 286\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M325 280 L370 280 M325 274 L325 286 M370 274 L370 286\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><path d=\"M490 280 L535 280 M490 274 L490 286 M535 274 L535 286\" fill=\"none\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"347\" y=\"32\" font-size=\"24\" text-anchor=\"middle\" font-style=\"italic\" fill=\"#111\">3x</text><text x=\"8\" y=\"170\" font-size=\"24\" text-anchor=\"start\" font-style=\"italic\" fill=\"#111\">x</text><text x=\"682\" y=\"135\" font-size=\"22\" text-anchor=\"middle\" fill=\"#111\">1</text><text x=\"682\" y=\"208\" font-size=\"22\" text-anchor=\"middle\" fill=\"#111\">1</text><text x=\"182\" y=\"308\" font-size=\"22\" text-anchor=\"middle\" fill=\"#111\">2</text><text x=\"347\" y=\"308\" font-size=\"22\" text-anchor=\"middle\" fill=\"#111\">2</text><text x=\"512\" y=\"308\" font-size=\"22\" text-anchor=\"middle\" fill=\"#111\">2</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "由錯誤的和反推B，再求A－B。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一個數學題「兩多項式$A$、$B$，若$A=3x^{2}-4x+1$，$B=\\cdots\\cdots$，試求$A-B$」，自強誤將「$A-B$」看成「$A+B$」，所得結果為$9x^{2}-2x-7$，若他無任何其他計算上的錯誤，則「$A-B$」的正確答案應為？"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1",
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "乘法公式展開與同類項合併。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算$(x+2)^{2}+(2x+1)(2x-1)$ $+5(2x-1)^{2}-3(x+1)(x+3)$。"
+    }
+   ]
+  }
+ ],
+ "expectedTypes": {
+  "choice": 7,
+  "fill": 16,
+  "written": 2
+ }
+}
