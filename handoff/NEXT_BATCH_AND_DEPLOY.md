@@ -1,5 +1,9 @@
 # Next Batch and Deployment Record
 
+## v134 都會區八上第二批發布（2026-11-21）
+
+桃園自強國中 112 上八三 `metro-taoyuan-05e366b412ddb7b1`（36/36，14選22填）、新北溪崑國中 113 上八三 `metro-new_taipei-d177407b7a667730`（25/25，25選）、新北溪崑國中 112 上八二 `metro-new_taipei-fbdff31fb6adae56`（27/27，10選10填7算）、新北溪崑國中 112 上八三 `metro-new_taipei-2888d0a7c963d7f1`（25/25，25選）、新北溪崑國中 111 上八一 `metro-new_taipei-adb09951b58ed755`（24/24，10選10填4算）。共 5 份都會區八上試卷，新增 137 題可用；幾何圖形、雙統計圖表、拼布裁剪均重繪為純向量 SVG，TW-Kai 楷體 100% 覆蓋。另查溪崑 112 上八一 `metro-new_taipei-330391a99473e97a` 官方 ODT 內嵌數學式缺失且解答格空白，依規立案於 `handoff/source-issues/`，不隨意猜補。全站建置達 21,197 題、80 項測試全部通過；發布隊列與 SHA 已鎖定。
+
 ## v133 都會區八上首批發布（2026-11-21）
 
 新北福和國中 112 上八一 `metro-new_taipei-75ded450fdcbc8ff-1a88f97c`（24/24）、八二 `metro-new_taipei-3e7601041b540ab1-87185e07`（29/30，1題原稿疑義停用）、八三 `metro-new_taipei-372c0ec8002e43ef-a9f7e5c8`（29/30，1題原稿疑義停用），桃園自強國中 114 上八一 `metro-taoyuan-9e75745f8c7f3b49`（25/25）、112 上八二 `metro-taoyuan-d67cdcf3b7427a7e`（18/18）。共 5 份都會區八上試卷，125 題可用；經 office_extract 結構化轉錄，幾何圖解純向量 SVG 重繪，TW-Kai 楷體 100% 覆蓋。全站建置達 21,060 題、80 項測試全部通過；發布隊列與 SHA 已鎖定。

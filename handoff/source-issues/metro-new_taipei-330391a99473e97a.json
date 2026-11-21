@@ -1,0 +1,10 @@
+{
+  "paperId": "metro-new_taipei-330391a99473e97a",
+  "status": "source-formula-missing-and-empty-answer",
+  "sourceSha256": "a4d0f4bddaa07dd24ea8cce30f64b30a80674031e0eb21d8c08a1201f2fab07c",
+  "sourceUrl": "https://www.ckjhs.ntpc.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9Mek14TDNCMFlWODFNVGd5WHpjNE5qZ3lPREpmT1RneU1UY3ViMlIw&fname=WW54RPOKRK44TXHH44VWJGWTVWB4TSMOWS34DCXSLP35DCTSWSJCYS54WWECA4OKVW00HD1544A0LOWTIG30JGICFGMOOKNKUTJDA52114NO1111",
+  "question": "填充第1格、填充第8格、填充第9格、計算第4題",
+  "reason": "原卷ODT檔中填充第8題、第9題與計算第4題之核心數學式缺失（僅顯示『8.計算＝ (8) 。』、『9.若｜x＋y｜＝6，則 之值為 (9) 。』、『4.若 的整數部分為a， 的整數部分為b』）；且答案卷填充第(1)格外漏無答案。",
+  "investigation20261121": "經解開原卷ODT content.xml比對，確認上述題目之公式未正確嵌入ODT中，且官方解答表填充(1)格為空白。為維護題庫文字與條件正確性，不臆測補全未定義題目，立案記錄於 source-issues。",
+  "disposition": "立案保留，暫停轉錄，不隨機猜測題目內容。"
+}
