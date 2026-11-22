@@ -1,0 +1,580 @@
+{
+ "paperId": "metro-new_taipei-fd300ec28e617c14",
+ "sourceSha256": "aa6d1761bd46f64def524535b06058a3af20ef6406a441d28388211b0a0b6cdd",
+ "printedHeader": "新北市立溪崑國民中學107學年度第一學期第一次定期評量 數學科 試題卷",
+ "printedSlot": {
+  "year": 107,
+  "semester": 1,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇題10題（40%），填充題10題（40%），計算題4題（20%），合計100分",
+ "visualReviewComplete": true,
+ "deliveryStatus": "complete",
+ "reviewNote": "新北市立溪崑國中107學年度第一學期第一次定期評量八年級數學科試題。包含選擇題10題、填充題10題、計算題4題，附官方完整解答，矩形分割代數圖、平方根查表與圓形面積差圖全量純向量SVG重繪。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 10,
+  "written": 4
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "零多項式與常數判定",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a$、$b$、$c$ 為常數，且 $(a+2)x^2 + (b-3)x + c + 5$ 為零多項式，則 $a + b + c = ?$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "10",
+      "6",
+      "-4",
+      "-6"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "(C) 零多項式各項係數皆為 0，故 $a+2=0 \\implies a=-2$，$b-3=0 \\implies b=3$，$c+5=0 \\implies c=-5$，則 $a+b+c = (-2)+3+(-5) = -4$。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式次數運算",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $A$ 為三次多項式，$B$ 為四次多項式，則 $4A - 3B$ 為幾次多項式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "零次",
+      "三次",
+      "四次",
+      "十二次"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "(C) 三次多項式與四次多項式相減，最高次項為四次項且不會被消去，故為四次多項式。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式定義判定",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列各式中，(甲) $\\frac{x}{5} - 4$；(乙) $2x^2 - 5|x-3|$；(丙) $x + \\frac{1}{x}$；(丁) $-3x^2 + 7x - 5$；(戊) $1 - \\frac{2}{3x} + 0.4x^3$。共有幾個多項式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "1 個",
+      "2 個",
+      "3 個",
+      "4 個"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "(B) 只有 (甲) 與 (丁) 符合多項式定義（變數不能在分母、絕對值或根號內），共 2 個。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式除法餘式定理與除式次數關係",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $A$、$B$ 均為 $x$ 的多項式。若 $A \\div B$ 得餘式為 $-x+10$，則下列何者是多項式 $B$？（依原卷試題題意選出不可能為除式者）"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x+3$",
+      "$x^2 - 2x + 3$",
+      "$-x^3 + 3x - 4$",
+      "$3x^{10} - 4$"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "(A) 餘式次數為 1 次，除式次數必須嚴格大於餘式次數，因此除式 $B$ 的次數至少為 2 次，$x+3$ 僅為一次式，不可能為除式。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式除法除式變更",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $A$、$B$ 均為 $x$ 的多項式，且 $B \\neq 0$。若 $A \\div B$ 的商式為 $x-5$，餘式為 7，則下列何者為 $A \\div 3B$ 的商式及餘式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "商式為 $x-5$，餘式為 7",
+      "商式為 $\\frac{x-5}{3}$，餘式為 $\\frac{7}{3}$",
+      "商式為 $x-5$，餘式為 $\\frac{7}{3}$",
+      "商式為 $\\frac{x-5}{3}$，餘式為 7"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "(D) $A = B(x-5) + 7 = (3B)\\cdot\\frac{x-5}{3} + 7$，故 $A \\div 3B$ 的商式為 $\\frac{x-5}{3}$，餘式為 7。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根概念與真偽判定",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列各項敘述中：(甲) $9\\frac{1}{4}$ 的平方根為 $3\\frac{1}{2}$ 及 $-3\\frac{1}{2}$；(乙) $\\sqrt{0.16} = 0.4$；(丙) $\\sqrt{-4} = -2$；(丁) 6 的平方根為 36；(戊) 49 的平方根為 7 與 -7；(己) $\\sqrt{64}$ 的平方根為 8 與 -8。正確的有幾個？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "4 個",
+      "3 個",
+      "2 個",
+      "1 個"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "(C) 正確的只有 (乙) 和 (戊)，共 2 個。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "乘法公式平方差反覆應用",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $9 \\times 11 \\times 101 \\times 10001 \\times 100000001$ 的乘積為幾位數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "十六位數",
+      "十七位數",
+      "七位數",
+      "八位數"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "(A) $9 \\times 11 = 99 = 10^2 - 1$。連續應用平方差公式得 $(10^2-1)(10^2+1)(10^4+1)(10^8+1) = 10^{16}-1$，共 16 個 9，為十六位數。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "乘法公式估算數值",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "估算 $\\frac{2018 \\times 2018}{2020}$，其值最接近下列哪一個數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "(B) $\\frac{2018^2}{2020} = \\frac{(2020-2)^2}{2020} = \\frac{2020^2 - 4040 + 4}{2020} = 2020 - 4 + \\frac{4}{2020} \\approx 2016$。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "差的平方公式計算",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $999.5^2 = ?$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "9990000.25",
+      "999000.25",
+      "99900.25",
+      "9990.25"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "(B) $999.5^2 = (1000 - 0.5)^2 = 1000000 - 1000 + 0.25 = 999000.25$。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "質數性質與完全平方數綜合",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $a$、$b$ 為兩個質數且相差 6，則 $ab + 9$ 的值可能為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$31^2$",
+      "$32^2$",
+      "$33^2$",
+      "$34^2$"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "(D) 由 $(a+b)^2 = (a-b)^2 + 4ab = 36 + 4ab = 4(ab+9)$，得 $ab+9 = (\\frac{a+b}{2})^2$。設 $k = \\frac{a+b}{2}$，則兩質數為 $k+3$ 與 $k-3$。當 $k=34$ 時，$k+3=37$ 與 $k-3=31$ 均為質數，滿足條件。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "帶分數平方根",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求 $1\\frac{69}{100}$ 的平方根為 ________。"
+    }
+   ],
+   "answer": "±13/10 或 ±1.3",
+   "answerAnalysis": "$1\\frac{69}{100} = \\frac{169}{100}$，其平方根為 $\\pm \\frac{13}{10} = \\pm 1.3$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "質因數分解式求平方根",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求 $2^4 \\times 3^2 \\times 5^2$ 的平方根為 ________。"
+    }
+   ],
+   "answer": "±60",
+   "answerAnalysis": "$\\pm \\sqrt{2^4 \\times 3^2 \\times 5^2} = \\pm (2^2 \\times 3 \\times 5) = \\pm 60$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式減法化簡",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將下列多項式化簡並將結果按降冪排列：$(3x^2 - 2x + 7) - (-2x + 4x^2 + 1) = $ ________。"
+    }
+   ],
+   "answer": "-x^2 + 6",
+   "answerAnalysis": "$(3x^2 - 2x + 7) - (-2x + 4x^2 + 1) = (3x^2 - 4x^2) + (-2x - (-2x)) + (7 - 1) = -x^2 + 6$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "差的平方公式展開",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "展開多項式 $(3x-5)^2 = $ ________。"
+    }
+   ],
+   "answer": "9x^2 - 30x + 25",
+   "answerAnalysis": "$(3x-5)^2 = (3x)^2 - 2(3x)(5) + 5^2 = 9x^2 - 30x + 25$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "除法原理反求被除式",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一多項式除以 $(4x^2 - 1)$ 得商式為 $(2x+1)$，餘式為 7，則該多項式為 ________。"
+    }
+   ],
+   "answer": "8x^3 + 4x^2 - 2x + 6",
+   "answerAnalysis": "$(4x^2 - 1)(2x + 1) + 7 = 8x^3 + 4x^2 - 2x - 1 + 7 = 8x^3 + 4x^2 - 2x + 6$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式分式方程式與除法原理",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$A$ 為多項式，若 $\\frac{2x^2+x-20}{A} = (x+3) - \\frac{5}{A}$，則 $A = $ ________。"
+    }
+   ],
+   "answer": "2x - 5",
+   "answerAnalysis": "等式兩邊同乘 $A$ 得 $2x^2+x-20 = A(x+3) - 5 \\implies A(x+3) = 2x^2+x-15 = (2x-5)(x+3)$，故 $A = 2x-5$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "幾何分割面積與代數運算",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，若甲、乙、丙、丁四個長方形的面積分別為 $a$、$b$、$c$、$d$，求 $a + 2b + 2c + 4d = $ ________。"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 200\"> <rect width=\"280\" height=\"200\" fill=\"#ffffff\"/> <!-- Dimensions: width 18 (left), 6 (right); height 17 (top), 4 (bottom) --> <!-- 甲 (top-left) --> <rect x=\"60\" y=\"35\" width=\"135\" height=\"110\" fill=\"#fbf0f4\" stroke=\"#222222\" stroke-width=\"1.5\"/> <text x=\"127\" y=\"95\" font-size=\"16\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">甲</text> <!-- 乙 (top-right) --> <rect x=\"195\" y=\"35\" width=\"45\" height=\"110\" fill=\"#fbf0f4\" stroke=\"#222222\" stroke-width=\"1.5\"/> <text x=\"217\" y=\"95\" font-size=\"16\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">乙</text> <!-- 丙 (bottom-left) --> <rect x=\"60\" y=\"145\" width=\"135\" height=\"35\" fill=\"#fbf0f4\" stroke=\"#222222\" stroke-width=\"1.5\"/> <text x=\"127\" y=\"168\" font-size=\"15\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">丙</text> <!-- 丁 (bottom-right) --> <rect x=\"195\" y=\"145\" width=\"45\" height=\"35\" fill=\"#fbf0f4\" stroke=\"#222222\" stroke-width=\"1.5\"/> <text x=\"217\" y=\"168\" font-size=\"15\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">丁</text> <!-- Right-angle markers --> <path d=\"M 60 45 L 70 45 L 70 35\" fill=\"none\" stroke=\"#222222\" stroke-width=\"1\"/> <path d=\"M 60 170 L 70 170 L 70 180\" fill=\"none\" stroke=\"#222222\" stroke-width=\"1\"/> <path d=\"M 185 145 L 185 155 L 195 155\" fill=\"none\" stroke=\"#222222\" stroke-width=\"1\"/> <!-- Dimension labels --> <text x=\"127\" y=\"25\" font-size=\"14\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">18</text> <text x=\"217\" y=\"25\" font-size=\"14\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">6</text> <text x=\"45\" y=\"95\" font-size=\"14\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">17</text> <text x=\"48\" y=\"168\" font-size=\"14\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">4</text> </svg>"
+    }
+   ],
+   "answer": "750",
+   "answerAnalysis": "由圖知 $a = 18 \\times 17 = 306$，$b = 6 \\times 17 = 102$，$c = 18 \\times 4 = 72$，$d = 6 \\times 4 = 24$。所求 $a+2b+2c+4d = 306 + 2(102) + 2(72) + 4(24) = 306 + 204 + 144 + 96 = 750$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根解一元二次方程",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $(-2x+5)^2 = 9$，則 $x = $ ________。"
+    }
+   ],
+   "answer": "1 或 4",
+   "answerAnalysis": "$-2x+5 = \\pm 3$。當 $-2x+5 = 3$ 時，$x = 1$；當 $-2x+5 = -3$ 時，$x = 4$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "根號化為整數最小正整數乘數",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $m$ 為正整數，若 $\\sqrt{80 \\times m}$ 為正整數，則 $m$ 的最小值為 ________。"
+    }
+   ],
+   "answer": "5",
+   "answerAnalysis": "$80 = 2^4 \\times 5$，要使 $80 \\times m$ 為完全平方數，指數皆需為偶數，故 $m$ 最小正整數值為 5。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "查表法求平方根與近似值",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用右下附表求出下列各數的值或近似值。(請以附表內容作答，無須四捨五入) (1) $\\sqrt{230} = $ ________ (2) $\\sqrt{2.4} = $ ________"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 140\"> <rect width=\"340\" height=\"140\" fill=\"#ffffff\"/> <!-- Table headers --> <rect x=\"15\" y=\"15\" width=\"40\" height=\"28\" fill=\"#ffd8a8\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"35\" y=\"34\" font-size=\"13\" font-family=\"sans-serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222222\">N</text> <rect x=\"55\" y=\"15\" width=\"55\" height=\"28\" fill=\"#ffd8a8\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"82\" y=\"34\" font-size=\"13\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">N²</text> <rect x=\"110\" y=\"15\" width=\"105\" height=\"28\" fill=\"#ffd8a8\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"162\" y=\"34\" font-size=\"13\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">√N</text> <rect x=\"215\" y=\"15\" width=\"110\" height=\"28\" fill=\"#ffd8a8\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"270\" y=\"34\" font-size=\"13\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">√10N</text> <!-- Row 1: 23 --> <rect x=\"15\" y=\"43\" width=\"40\" height=\"28\" fill=\"#e9ecef\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"35\" y=\"62\" font-size=\"13\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">23</text> <rect x=\"55\" y=\"43\" width=\"55\" height=\"28\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"82\" y=\"62\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">529</text> <rect x=\"110\" y=\"43\" width=\"105\" height=\"28\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"162\" y=\"62\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">4.795 832</text> <rect x=\"215\" y=\"43\" width=\"110\" height=\"28\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"270\" y=\"62\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">15.165 75</text> <!-- Row 2: 24 --> <rect x=\"15\" y=\"71\" width=\"40\" height=\"28\" fill=\"#e9ecef\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"35\" y=\"90\" font-size=\"13\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">24</text> <rect x=\"55\" y=\"71\" width=\"55\" height=\"28\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"82\" y=\"90\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">576</text> <rect x=\"110\" y=\"71\" width=\"105\" height=\"28\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"162\" y=\"90\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">4.898 979</text> <rect x=\"215\" y=\"71\" width=\"110\" height=\"28\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"270\" y=\"90\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">15.491 93</text> <!-- Row 3: 37 --> <rect x=\"15\" y=\"99\" width=\"40\" height=\"28\" fill=\"#e9ecef\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"35\" y=\"118\" font-size=\"13\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">37</text> <rect x=\"55\" y=\"99\" width=\"55\" height=\"28\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"82\" y=\"118\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">1369</text> <rect x=\"110\" y=\"99\" width=\"105\" height=\"28\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"162\" y=\"118\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">6.082 763</text> <rect x=\"215\" y=\"99\" width=\"110\" height=\"28\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"270\" y=\"118\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">19.235 38</text> </svg>"
+    }
+   ],
+   "answer": "(1) 15.16575, (2) 1.549193",
+   "answerAnalysis": "(1) $\\sqrt{230} = \\sqrt{10 \\times 23} = 15.16575$；(2) $\\sqrt{2.4} = \\sqrt{\\frac{240}{100}} = \\frac{\\sqrt{10 \\times 24}}{10} = \\frac{15.49193}{10} = 1.549193$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "圓形面積差應用平方差公式",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如右圖，小圓在大圓裡面，若這兩個圓的半徑分別為 $259\\frac{5}{8}$、$140\\frac{3}{8}$，求灰色區域的面積。（圓周率以 $\\pi$ 表示）"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\"> <rect width=\"200\" height=\"200\" fill=\"#ffffff\"/> <!-- Outer circle filled with gray --> <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"#cccccc\" stroke=\"#222222\" stroke-width=\"2\"/> <!-- Inner circle filled with white --> <circle cx=\"95\" cy=\"85\" r=\"50\" fill=\"#ffffff\" stroke=\"#222222\" stroke-width=\"2\"/> </svg>"
+    }
+   ],
+   "answer": "47700π",
+   "answerAnalysis": "面積為 $\\pi(R^2 - r^2) = \\pi(R-r)(R+r)$。其中 $R-r = 259\\frac{5}{8} - 140\\frac{3}{8} = 119.25$，$R+r = 259\\frac{5}{8} + 140\\frac{3}{8} = 400$。面積 $= \\pi \\times 119.25 \\times 400 = 47700\\pi$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式加減逆運算",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一道數學題為「兩個多項式 $A$、$B$，其中 $B = x^2 - 2x + 1$，求 $A+B$」，小丸子在解題時誤將 $A+B$ 看成 $A-B$，算出的答案為 $5x^2 - x + 3$，則 $A+B$ 的正確答案為何？"
+    }
+   ],
+   "answer": "7x^2 - 5x + 5",
+   "answerAnalysis": "$A+B = (A-B) + 2B = (5x^2 - x + 3) + 2(x^2 - 2x + 1) = 5x^2 - x + 3 + 2x^2 - 4x + 2 = 7x^2 - 5x + 5$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式長除法求商式與餘式",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求 $(x^3 + 2x - 1) \\div (2x+1)$ 的商式與餘式為何？"
+    }
+   ],
+   "answer": "商式為 1/2 x^2 - 1/4 x + 9/8，餘式為 -17/8",
+   "answerAnalysis": "以長除法計算 $(x^3 + 0x^2 + 2x - 1) \\div (2x+1)$，得商式為 $\\frac{1}{2}x^2 - \\frac{1}{4}x + \\frac{9}{8}$，餘式為 $-\\frac{17}{8}$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "4",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "十分逼近法求平方根近似值",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求 $\\sqrt{3}$ 的近似值，並以四捨五入法求至小數點後第一位。"
+    }
+   ],
+   "answer": "1.7",
+   "answerAnalysis": "因為 $1.7^2 = 2.89 < 3$ 且 $1.8^2 = 3.24 > 3$，再由 $1.73^2 = 2.9929 < 3$ 且 $1.74^2 = 3.0276 > 3$，得知 $\\sqrt{3} \\approx 1.732$，四捨五入至小數點後第一位為 1.7。"
+  }
+ ]
+}

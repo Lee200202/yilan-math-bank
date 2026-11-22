@@ -1,0 +1,506 @@
+{
+ "paperId": "metro-taoyuan-7f2d76d7b86582ef",
+ "sourceSha256": "8740f9c2d9b8f58d5dcd429fb5cc7edde6b51944645afed93b6b60a07552155b",
+ "printedHeader": "自強國中 112 學年度 第二學期 第一次定期考查 八年級 數學科 試題題目卷",
+ "printedSlot": {
+  "year": 112,
+  "semester": 2,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇10題（每題4分）、填充題11題共14格（每格4分）、計算題1題（4分）。",
+ "visualReviewComplete": true,
+ "reviewNote": "原檔為 .doc，經 Word 轉 docx 後以 text.md 與 Word 另存的 PDF 頁面圖逐題核對。第1題(B)選項的分數式為圖片，已重打成 LaTeX；填充第9題圖形（計程車費折線圖）重繪為 SVG，轉折點由 (4,100)、(5,110) 的斜率 10 推得 m=2，與卷末答案相符。卷末答案卷不轉寫。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 11,
+  "written": 1
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3",
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "判斷數列、等差級數公式與等比中項的敘述。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "因為 $7,13,5,6,28$ 沒有規律，所以這不是數列。",
+      "$2+4+8+16+32=$ $\\dfrac{5\\times(2+32)}{2}$。",
+      "$6$ 是 $-4$ 與 $-9$ 的等比中項。",
+      "若 $a,b,c$ 三數成等比數列，則 $a+2,b+2,c+2$ 也會成等比數列。"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "由前 n 項和之差求第 9 項。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知一等差級數的前 $8$ 項和為 $375$，前 $9$ 項和為 $412$，則第 $9$ 項為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$36$",
+      "$37$",
+      "$38$",
+      "$39$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "插入 n 個數成等差，利用總和求 n。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在 $5$ 與 $55$ 之間插入 $n$ 個數使成等差級數，若此 $n$ 個數的總和為 $540$，則 $n=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$16$",
+      "$18$",
+      "$34$",
+      "$36$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比數列各項同乘常數，公比不變。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一等比數列，公比為 $-4$，若將此等比數列各項同乘以 $\\dfrac{1}{4}$，則新數列的公比為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-4$",
+      "$-1$",
+      "$1$",
+      "$\\dfrac{1}{4}$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "由等差數列項的關係求公差。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $a_{1},a_{2},a_{3},a_{4}$ 四數成等差數列，若 $a_{1}+a_{2}=16$，$a_{3}+a_{4}=28$，則公差 $d=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由 a、b 的正負判斷一次函數圖形不通過的象限。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a$、$b$ 為正整數，則一次函數 $y=ax+b$ 的圖形必不通過第幾象限？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "一",
+      "二",
+      "三",
+      "四"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "解兩直線方程式求交點。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "兩函數 $y=2x$ 與 $y=-\\dfrac{3}{2}x-7$ 的圖形交點坐標為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(-4,4)$",
+      "$(2,4)$",
+      "$(-2,-4)$",
+      "$(4,-4)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "判斷一次函數圖形的性質。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "關於函數 $y=-4x+6$ 圖形的敘述，下列何者不正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "此圖形是一條直線",
+      "此圖形不通過第三象限",
+      "此圖形即二元一次方程式 $4x+y-6=0$ 的圖形",
+      "此圖形與 $y$ 軸交於 $(0,-4)$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由兩個函數值求一次函數再代入。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $y$ 為一線型函數，且在 $x=-2$ 和 $2$ 時，函數值 $y$ 都等於 $3$，則 $x=3$ 時，函數值 $y=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3$",
+      "$2$",
+      "$1$",
+      "$0$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "同時用等差中項與等比中項求 x、y。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $5,x,25$ 三數成等差數列，且 $5,10,y$ 三數成等比數列，則 $x+y=$？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$30$",
+      "$35$",
+      "$40$",
+      "$45$"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "由公差判斷第幾項開始為負。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "等差級數 $10+9\\dfrac{3}{5}+9\\dfrac{1}{5}+\\cdots$，從第＿＿＿＿項開始為負數。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "2",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "求倍數的項數與等差級數和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "自 $200$ 到 $500$ 的整數中，$3$ 的倍數有＿＿＿＿個，其總和為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "等差級數每項乘 3 減 4 後的總和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一等差級數共有 $25$ 項，其和為 $160$，今將每項都乘以 $3$ 再減去 $4$，可得一新等差級數，則此新等差級數總和為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2",
+    "nanyi-8-2-1-1"
+   ],
+   "unitAssignmentBasis": "以等差數列與等差級數處理落下距離。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一飛機從高空投擲炸彈，第一秒落下 $4.9$ 公尺，以後每秒落下的距離都比前一秒增加 $9.8$ 公尺，若此炸彈投出 $30$ 秒後著地爆炸，則："
+    },
+    {
+     "type": "text",
+     "text": "(1) 此炸彈第 $20$ 秒落下距離為＿＿＿＿公尺。"
+    },
+    {
+     "type": "text",
+     "text": "(2) 飛機投擲炸彈時，離地面高度是＿＿＿＿公尺。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "5",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比中項與三數乘積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有三數成等比數列，已知等比中項為 $-3$，則此三數的乘積為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "兩直線交點在 x 軸上求係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若兩函數 $y=x+2$ 與 $y=ax-6$ 的圖形交點在 $x$ 軸上，則 $a=$＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "等比數列的應用：彈跳高度。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "將一顆球讓它自由落下，球每次碰地後彈跳的高度為原來高度的 $\\dfrac{1}{2}$ 倍。若忻澄將球自離地 $200$ 公分的高度自由落下，則球第六次彈跳的高度剛好是＿＿＿＿公分。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "8",
+   "page": 1,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-2-1-1",
+   "unitIds": [
+    "nanyi-8-2-1-1",
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "設等差三數，加上常數後成等比，列式求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設三正數成等差數列，其和為 $12$，若三數依序加上 $2,5,20$，則成為等比數列，此三數最大的數為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "由分段線型函數圖形求轉折點。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某計程車收費方式為：行駛 $m$ 公里以內只收基本費 $80$ 元，超過 $m$ 公里的車費與行駛距離成線型函數關係，如下圖所示，則 $m=$＿＿＿＿。"
+    },
+    {
+     "type": "svg",
+     "maxHeight": 130,
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 270 175\"><line x1=\"50\" y1=\"150\" x2=\"50\" y2=\"8\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"50,4 46,13 54,13\" fill=\"#111\" stroke=\"#111\"/><line x1=\"42\" y1=\"140\" x2=\"250\" y2=\"140\" stroke=\"#111\" stroke-width=\"1.3\"/><polygon points=\"256,140 247,136 247,144\" fill=\"#111\" stroke=\"#111\"/><polyline points=\"50,60 110,60 230,20\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"40\" x2=\"170\" y2=\"40\" stroke=\"#111\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\"/><line x1=\"50\" y1=\"30\" x2=\"200\" y2=\"30\" stroke=\"#111\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\"/><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"140\" stroke=\"#111\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\"/><line x1=\"200\" y1=\"30\" x2=\"200\" y2=\"140\" stroke=\"#111\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\"/><text x=\"22\" y=\"64\" font-size=\"13\" fill=\"#111\">80</text><text x=\"14\" y=\"44\" font-size=\"13\" fill=\"#111\">100</text><text x=\"14\" y=\"28\" font-size=\"13\" fill=\"#111\">110</text><text x=\"36\" y=\"155\" font-size=\"13\" fill=\"#111\">0</text><text x=\"164\" y=\"155\" font-size=\"13\" fill=\"#111\">4</text><text x=\"196\" y=\"155\" font-size=\"13\" fill=\"#111\">5</text><text x=\"58\" y=\"14\" font-size=\"13\" fill=\"#111\">車費(元)</text><text x=\"150\" y=\"172\" font-size=\"13\" fill=\"#111\">行駛距離(公里)</text></svg>"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-3",
+   "unitIds": [
+    "nanyi-8-2-1-3"
+   ],
+   "unitAssignmentBasis": "由首項、末項求等比數列項數與公比。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知某等比數列，首項為 $54$，末項為 $\\dfrac{2}{3}$，則此等比數列共有＿＿＿＿項，公比為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "11",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-2-2-1",
+   "unitIds": [
+    "nanyi-8-2-2-1"
+   ],
+   "unitAssignmentBasis": "列出一次函數關係式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "某電信公司有一通話資費方案的收費方式為：月租費 $99$ 元，網內互打一律免費，已知大寶辦了該資費方案，且只與同電信公司的對象通話，若他 $5$ 月分的通話時間為 $x$ 分鐘，共付了 $y$ 元的費用，則 $x$ 與 $y$ 的關係式為＿＿＿＿。"
+    }
+   ]
+  },
+  {
+   "type": "written",
+   "sourceNumber": "1",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-2-1-2",
+   "unitIds": [
+    "nanyi-8-2-1-2"
+   ],
+   "unitAssignmentBasis": "已知前 n 項和求 n，解一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一等差級數 $24+22+20+18+\\cdots$ 到第 $n$ 項的和是 $136$，若 $n$ 為正整數，則 $n$ 可能等於多少？"
+    }
+   ]
+  }
+ ]
+}

@@ -21,7 +21,7 @@ for(let r=0;r<runs;r++){
  const weights=Object.fromEntries(chosen.map((id,i)=>[id,Math.floor(100/n)+(i<100%n?1:0)]));
  const counts={choice:6+Math.floor(rnd()*10),fill:3+Math.floor(rnd()*6),written:Math.floor(rnd()*3)};
  const filters={grade,semester,scopeMode:'units',unitWeights:weights};
- let res;try{res=engine.generate(bank,filters,counts,{easy:34,medium:33,hard:33},100,rnd);}catch(e){fail++;continue;}
+ let res;try{res=engine.generate(bank,filters,counts,{easy:34,medium:33,hard:33},100,rnd);}catch(e){fail++;if(process.env.SHOW_FAIL)console.log('FAIL',JSON.stringify({key,counts,n,weights,msg:e.message}));continue;}
  papers++;
  const byId=new Map(bank.map(q=>[q.id,q]));
  const total=TYPES.reduce((s,t)=>s+counts[t],0);let dev=0;
