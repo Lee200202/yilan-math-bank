@@ -250,4 +250,4 @@ v16部署成功：commit `6e10507`，GitHub Actions `43720166089`。正式站版
 
 - 可組卷題數 → 22,041。`npm test` 85 項通過（含 `tests/unit-balance.test.mjs`：自選單元時每種題型平均分配到各單元）；19 卷 PDF 匯出檢查全數通過。疑義見 `handoff/batches/20261122-o9w22-SOURCE_ISSUES_REPORT.md`。
 - 單元均分模擬：`node scripts/sim_unit_balance.mjs`，最大偏差平均由 2.683 降到 0.633。
-- 正式站驗收：待上線後補記。
+- 正式站驗收：ALL PASS（29 項、0 失敗，`handoff/batches/20261122-v138/live-acceptance.json`）；正式站引擎實測：下載線上 `engine.mjs` 與題庫，四個單元各 25% 生成 20 份（選擇12/填充8/問答4），每題型每單元皆恰為 3/2/1（最大偏差 0）。
