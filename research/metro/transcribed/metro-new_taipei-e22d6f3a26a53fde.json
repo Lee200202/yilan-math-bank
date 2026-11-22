@@ -1,0 +1,577 @@
+{
+  "deliveryStatus": "complete",
+  "paperId": "metro-new_taipei-e22d6f3a26a53fde",
+  "sourceSha256": "cf0724ffec7d87c8aa115f4e27d8ca6e53c590c449d66d26673ee2ddce2e7f48",
+  "printedHeader": "新北市立溪崑國民中學105學年度第一學期第一次定期評量數學科題目卷",
+  "printedSlot": {
+    "year": 105,
+    "semester": 1,
+    "grade": 8,
+    "exam": 1
+  },
+  "printedCounts": "選擇題10題、填充題10題、計算題4題，共24題。",
+  "visualReviewComplete": true,
+  "reviewNote": "全卷逐頁逐題核對，含第5頁官方答案表。選擇10題、填充10題、計算4題全量可用；包含選擇Q2、Q5，填充Q6、Q8，計算Q3等純向量幾何SVG重繪。",
+  "expectedTypes": {
+    "choice": 10,
+    "fill": 10,
+    "written": 4
+  },
+  "questions": [
+    {
+      "type": "choice",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-3",
+      "unitIds": [
+        "nanyi-8-1-1-3"
+      ],
+      "unitAssignmentBasis": "多項式乘法次數判定。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $A$ 為 $x$ 的四次多項式，$B$ 為 $x$ 的二次多項式，則 $A \\times B$ 為 $x$ 的幾次多項式？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "六次",
+            "五次",
+            "三次",
+            "二次"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "2",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "矩形面積與乘法公式幾何圖形關係。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如下圖，四個矩形的面積分別為 $A$、$B$、$C$、$D$，則下列哪一個選項正確？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 120,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 120\" width=\"360\" height=\"120\"><g transform=\"translate(15, 25)\"><rect x=\"0\" y=\"0\" width=\"70\" height=\"70\" fill=\"#e8f4fc\" stroke=\"#222\" stroke-width=\"1.5\"/><rect x=\"0\" y=\"0\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"64\" y=\"0\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"0\" y=\"64\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"64\" y=\"64\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"35\" y=\"42\" font-size=\"16\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">A</text><path d=\"M 0, -3 Q 35, -18 70, -3\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"35\" y=\"-14\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">a+b</text><path d=\"M -3, 0 Q -18, 35 -3, 70\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"-16\" y=\"39\" font-size=\"13\" font-style=\"italic\" text-anchor=\"end\" fill=\"#222\">a+b</text></g><g transform=\"translate(140, 35)\"><rect x=\"0\" y=\"0\" width=\"55\" height=\"55\" fill=\"#edf7ed\" stroke=\"#222\" stroke-width=\"1.5\"/><rect x=\"0\" y=\"0\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"49\" y=\"0\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"0\" y=\"49\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"49\" y=\"49\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"27.5\" y=\"34\" font-size=\"16\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">B</text><path d=\"M 0, -3 Q 27.5, -16 55, -3\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"27.5\" y=\"-12\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">a</text><path d=\"M 58, 0 Q 72, 27.5 58, 55\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"73\" y=\"32\" font-size=\"13\" font-style=\"italic\" text-anchor=\"start\" fill=\"#222\">a</text></g><g transform=\"translate(240, 52)\"><rect x=\"0\" y=\"0\" width=\"28\" height=\"28\" fill=\"#fff4e5\" stroke=\"#222\" stroke-width=\"1.5\"/><rect x=\"0\" y=\"0\" width=\"5\" height=\"5\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"23\" y=\"0\" width=\"5\" height=\"5\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"0\" y=\"23\" width=\"5\" height=\"5\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"23\" y=\"23\" width=\"5\" height=\"5\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"14\" y=\"20\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">C</text><path d=\"M 0, -3 Q 14, -14 28, -3\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"14\" y=\"-10\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">b</text><path d=\"M 31, 0 Q 42, 14 31, 28\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"43\" y=\"19\" font-size=\"13\" font-style=\"italic\" text-anchor=\"start\" fill=\"#222\">b</text></g><g transform=\"translate(305, 35)\"><rect x=\"0\" y=\"0\" width=\"28\" height=\"55\" fill=\"#f3e8fd\" stroke=\"#222\" stroke-width=\"1.5\"/><rect x=\"0\" y=\"0\" width=\"5\" height=\"5\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"23\" y=\"0\" width=\"5\" height=\"5\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"0\" y=\"50\" width=\"5\" height=\"5\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"23\" y=\"50\" width=\"5\" height=\"5\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"14\" y=\"34\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">D</text><path d=\"M 0, -3 Q 14, -14 28, -3\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"14\" y=\"-10\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">b</text><path d=\"M 31, 0 Q 44, 27.5 31, 55\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"45\" y=\"32\" font-size=\"13\" font-style=\"italic\" text-anchor=\"start\" fill=\"#222\">a</text></g></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$A=B+2C+D$",
+            "$D=2B+C-A$",
+            "$B=A-C-2D$",
+            "$C=A-B+2D$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "3",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式與乘法公式基本概念判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列敘述何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$50^2-50 \\times 35+35^2=(50-35)^2$",
+            "$5x^2-3x$ 可化簡為 $2x$",
+            "$-9$ 是零多項式",
+            "$5x^4-9$ 是 $x$ 的四次多項式"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "4",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "根式近似值大小比較。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知甲、乙、丙三數，甲 $=6+\\sqrt{17}$，乙 $=8+\\sqrt{15}$，丙 $=5+\\sqrt{19}$，則甲、乙、丙的大小關係，下列何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "丙 $<$ 乙 $<$ 甲",
+            "丙 $<$ 甲 $<$ 乙",
+            "甲 $<$ 乙 $<$ 丙",
+            "甲 $=$ 乙 $=$ 丙"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "5",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "數線上根號近似值位置判讀。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下圖的數線上有 $A$、$B$、$C$、$D$ 四點，其中哪一點所表示的數最接近 $\\sqrt{27.1}$？"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 80,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 80\" width=\"400\" height=\"80\"><line x1=\"20\" y1=\"40\" x2=\"380\" y2=\"40\" stroke=\"#222\" stroke-width=\"1.5\"/><polygon points=\"380,40 372,36 372,44\" fill=\"#222\"/><line x1=\"40\" y1=\"33\" x2=\"40\" y2=\"47\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"40\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">3</text><line x1=\"80\" y1=\"35\" x2=\"80\" y2=\"45\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"80\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">3.5</text><line x1=\"120\" y1=\"33\" x2=\"120\" y2=\"47\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"120\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">4</text><line x1=\"160\" y1=\"35\" x2=\"160\" y2=\"45\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"160\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">4.5</text><line x1=\"200\" y1=\"33\" x2=\"200\" y2=\"47\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"200\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">5</text><line x1=\"240\" y1=\"35\" x2=\"240\" y2=\"45\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"240\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">5.5</text><line x1=\"280\" y1=\"33\" x2=\"280\" y2=\"47\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"280\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">6</text><line x1=\"320\" y1=\"35\" x2=\"320\" y2=\"45\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"320\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">6.5</text><line x1=\"360\" y1=\"33\" x2=\"360\" y2=\"47\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"360\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">7</text><circle cx=\"80\" cy=\"40\" r=\"3\" fill=\"#222\"/><text x=\"80\" y=\"24\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">A</text><circle cx=\"136\" cy=\"40\" r=\"3\" fill=\"#222\"/><text x=\"136\" y=\"24\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">B</text><circle cx=\"216\" cy=\"40\" r=\"3\" fill=\"#222\"/><text x=\"216\" y=\"24\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">C</text><circle cx=\"320\" cy=\"40\" r=\"3\" fill=\"#222\"/><text x=\"320\" y=\"24\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">D</text></svg>"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$A$",
+            "$B$",
+            "$C$",
+            "$D$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "6",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "平方根概念與符號意涵判斷。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列敘述何者正確？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$-6$ 和 $6$ 都是 $36$ 的平方根",
+            "$4.9$ 的平方根是 $\\pm 0.7$",
+            "$\\sqrt{121}=\\pm 11$",
+            "$7^2 < \\sqrt{55} < 8^2$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "7",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式定義判定。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "下列 (甲)～(戊) 中，共有幾個多項式？"
+        },
+        {
+          "type": "text",
+          "text": "(甲) $5x-3+4x^2$"
+        },
+        {
+          "type": "text",
+          "text": "(乙) $\\dfrac{5}{x}+3$"
+        },
+        {
+          "type": "text",
+          "text": "(丙) $4x^2+3x-\\dfrac{1}{2x}(3x^3+2x^2+x)$"
+        },
+        {
+          "type": "text",
+          "text": "(丁) $7x^2+|x-3|$"
+        },
+        {
+          "type": "text",
+          "text": "(戊) $\\dfrac{3}{2}x-6$"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$1$ 個",
+            "$2$ 個",
+            "$3$ 個",
+            "$4$ 個"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "8",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "不等式中正整數根號範圍計數。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $a$ 為正整數，則符合 $4 \\le \\sqrt{a} \\le 9$ 的 $a$ 值共有幾個？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$65$ 個",
+            "$66$ 個",
+            "$64$ 個",
+            "$67$ 個"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "9",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "平方差公式運算求極值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "判斷下列各式的值，何者最大？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$4 \\times 31^2 - 22^2$",
+            "$16 \\times 17^2 - 28^2$",
+            "$9 \\times 21^2 - 23^2$",
+            "$25 \\times 13^2 - 25^2$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "sourceNumber": "10",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-3",
+      "unitIds": [
+        "nanyi-8-1-1-3"
+      ],
+      "unitAssignmentBasis": "多項式除法之商式與餘式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "計算多項式 $-3x(x-2)^2+3$ 除以 $x-2$ 後，所得商式與餘式兩者之和為何？"
+        },
+        {
+          "type": "options",
+          "items": [
+            "$-3x+3$",
+            "$-3x^2+6x$",
+            "$-3x^2-6x+3$",
+            "$-3x^2+6x+3$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "1",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "平方差公式乘法應用。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "利用 $(a+b)(a-b)=a^2-b^2$，完成右式的計算 $40\\dfrac{1}{3} \\times 39\\dfrac{2}{3} =$ ________。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "2",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式的減法運算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "計算右式，並將結果依降冪排列：$(3x^2-9x+5)-(-6x^2+2x+8) =$ ________。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "3",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "乘法公式分數化簡計算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "計算 $\\dfrac{2012^2+2\\times 2012+1}{2013} - \\dfrac{2011^2-1}{2012} =$ ________。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "4",
+      "page": 1,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "平方差與差的平方公式連用展開。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "計算右式，並將結果依降冪排列：$(x+3)^2(x-3)^2 =$ ________。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "5",
+      "page": 1,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-3",
+      "unitIds": [
+        "nanyi-8-1-1-3"
+      ],
+      "unitAssignmentBasis": "多項式長除法求商式與餘式之和。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "求右式的商式＋餘式：$(x^3+2x^2+5x)\\div(x-1)$；商式＋餘式 $=$ ________。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "6",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-1",
+      "unitIds": [
+        "nanyi-8-1-1-1"
+      ],
+      "unitAssignmentBasis": "正方形剪裁對摺平方差公式幾何應用。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "如圖一，志玲做紙雕時，將邊長 $16.1$ 公分的正方形，剪去一個邊長 $6.1$ 公分的正方形（如圖二），再將剩下的圖形，沿虛線對摺（如圖三），求圖三的面積 $=$ ________。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 140,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 140\" width=\"380\" height=\"140\"><g transform=\"translate(15, 20)\"><rect x=\"0\" y=\"0\" width=\"70\" height=\"70\" fill=\"#f5f0ff\" stroke=\"#79529cf0\" stroke-width=\"1.5\"/><rect x=\"43.5\" y=\"0\" width=\"26.5\" height=\"26.5\" fill=\"none\" stroke=\"#79529cf0\" stroke-dasharray=\"3,3\" stroke-width=\"1.2\"/><path d=\"M -3, 0 Q -14, 35 -3, 70\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"-12\" y=\"38\" font-size=\"12\" text-anchor=\"end\" fill=\"#222\">16.1</text><path d=\"M 0, 73 Q 35, 84 70, 73\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"35\" y=\"93\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">16.1</text><text x=\"56.5\" y=\"-6\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">6.1</text><text x=\"74\" y=\"18\" font-size=\"12\" text-anchor=\"start\" fill=\"#222\">6.1</text><text x=\"35\" y=\"112\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">圖一</text></g><polygon points=\"120,55 138,55 138,51 146,57.5 138,64 138,60 120,60\" fill=\"#e67e22\"/><g transform=\"translate(170, 20)\"><polygon points=\"0,0 43.5,0 43.5,26.5 70,26.5 70,70 0,70\" fill=\"#f5f0ff\" stroke=\"#79529cf0\" stroke-width=\"1.5\"/><line x1=\"0\" y1=\"70\" x2=\"43.5\" y2=\"26.5\" stroke=\"#79529cf0\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\"/><text x=\"35\" y=\"112\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">圖二</text></g><polygon points=\"265,55 283,55 283,51 291,57.5 283,64 283,60 265,60\" fill=\"#e67e22\"/><g transform=\"translate(315, 20)\"><polygon points=\"0,70 43.5,26.5 43.5,0 70,26.5 70,70\" fill=\"#f5f0ff\" stroke=\"#79529cf0\" stroke-width=\"1.5\"/><line x1=\"0\" y1=\"70\" x2=\"0,26.5\" stroke=\"#79529cf0\" stroke-width=\"1.5\"/><polygon points=\"0,70 43.5,26.5 0,26.5\" fill=\"#e5d4ff\" stroke=\"#79529cf0\" stroke-width=\"1.5\"/><text x=\"35\" y=\"112\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">圖三</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "7",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "帶分數的平方根求值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "$2\\dfrac{73}{144}$ 的平方根為 ________。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "8",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "長方形幾何面積割補與多項式表示。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "右圖為一個長方形，以 $x$ 的多項式表示灰色區域的面積 $=$ ________。"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 170,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 170\" width=\"260\" height=\"170\"><g transform=\"translate(25, 25)\"><rect x=\"0\" y=\"0\" width=\"180\" height=\"110\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"1.5\"/><polygon points=\"0,70 180,0 135,110\" fill=\"#c0c0c0\" stroke=\"#222\" stroke-width=\"1.5\"/><path d=\"M 0, -3 Q 90, -18 180, -3\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90\" y=\"-14\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">12</text><path d=\"M -3, 0 Q -14, 35 -3, 70\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"-12\" y=\"39\" font-size=\"13\" text-anchor=\"end\" fill=\"#222\">5</text><path d=\"M -3, 70 Q -14, 90 -3, 110\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"-12\" y=\"94\" font-size=\"13\" font-style=\"italic\" text-anchor=\"end\" fill=\"#222\">x</text><path d=\"M 135, 113 Q 157.5, 126 180, 113\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"157.5\" y=\"132\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">3</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "9",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "根號運算與相反數化簡。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "求 $\\sqrt{(-8)^2}+\\sqrt{7^2}+(\\sqrt{81})^2-(-\\sqrt{100}) =$ ________。"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "sourceNumber": "10",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "十分逼近法求根號近似值。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "利用十分逼近法，根據下列 (1)、(2)、(3) 的步驟，求 $\\sqrt{18}$ 的近似值，$\\sqrt{18}\\fallingdotseq$ ________。（四捨五入法取到小數點後第一位）"
+        },
+        {
+          "type": "text",
+          "text": "(1) $3^2=9$，$4^2=16$，$5^2=25$"
+        },
+        {
+          "type": "text",
+          "text": "(2) $(4.1)^2=16.81$，$(4.2)^2=17.64$，$(4.3)^2=18.49$，$(4.4)^2=19.36$"
+        },
+        {
+          "type": "text",
+          "text": "(3) $(4.15)^2=17.2225$，$(4.25)^2=18.0625$，$(4.35)^2=18.9225$"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "1",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-2-1",
+      "unitIds": [
+        "nanyi-8-1-2-1"
+      ],
+      "unitAssignmentBasis": "正負平方根聯立解二元一次聯立方程式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "若 $x-y$ 的正平方根是 $5$，且 $x+y$ 的負平方根是 $-3$，求 $x$ 與 $y$ 的值。(5%)"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "2",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多項式括號化簡與四則運算。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $A$、$B$、$C$ 三個多項式，其中 $A=x^2+2x-3$，$B=2x-5$，$C=2x^2-1$，計算 $A-2(B-C)$。(5%)"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "3",
+      "page": 2,
+      "difficulty": "medium",
+      "primaryUnitId": "nanyi-8-1-1-2",
+      "unitIds": [
+        "nanyi-8-1-1-2"
+      ],
+      "unitAssignmentBasis": "多邊形周長的多項式表示。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "以多項式表示周長與面積，求右圖中灰色區域的周長。(5%)"
+        },
+        {
+          "type": "svg",
+          "maxHeight": 180,
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" width=\"240\" height=\"180\"><g transform=\"translate(25, 25)\"><polygon points=\"0,0 35,0 35,55 140,55 140,125 0,125\" fill=\"#7f7f7f\" stroke=\"#222\" stroke-width=\"1.5\"/><rect x=\"0\" y=\"0\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"29\" y=\"0\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"35\" y=\"55\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"134\" y=\"55\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"134\" y=\"119\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"0\" y=\"119\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><path d=\"M 0, -3 Q 17.5, -14 35, -3\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"17.5\" y=\"-10\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">x</text><path d=\"M 38, 0 Q 50, 27.5 38, 55\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"52\" y=\"32\" font-size=\"13\" font-style=\"italic\" text-anchor=\"start\" fill=\"#222\">2x</text><path d=\"M 35, 52 Q 87.5, 38 140, 52\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"87.5\" y=\"44\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222\">6x－9</text><path d=\"M 143, 55 Q 158, 90 143, 125\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"160\" y=\"94\" font-size=\"13\" font-style=\"italic\" text-anchor=\"start\" fill=\"#222\">3x－1</text></g></svg>"
+        }
+      ]
+    },
+    {
+      "type": "written",
+      "sourceNumber": "4",
+      "page": 2,
+      "difficulty": "easy",
+      "primaryUnitId": "nanyi-8-1-1-3",
+      "unitIds": [
+        "nanyi-8-1-1-3"
+      ],
+      "unitAssignmentBasis": "多項式除法原理求未知多項式。",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "已知 $A$ 為一個多項式，且 $3x^3+5x^2-5x+11=(x^2+2x-1)\\cdot A+10$，求多項式 $A$。(5%)"
+        }
+      ]
+    }
+  ]
+}

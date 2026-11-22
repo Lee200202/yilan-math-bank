@@ -1,0 +1,576 @@
+{
+ "paperId": "metro-new_taipei-4e30d7e94c4fb1ab",
+ "sourceSha256": "d4a96a87e065b60a448993ce1c52ad31cfa6aa9c0f01d64718588eb54b608bcc",
+ "printedHeader": "新北市立溪崑國民中學106學年度第一學期第一次定期評量 數學科 試題卷",
+ "printedSlot": {
+  "year": 106,
+  "semester": 1,
+  "grade": 8,
+  "exam": 1
+ },
+ "printedCounts": "選擇題10題（40%），填充題10題（40%），計算題4題（20%），合計100分",
+ "visualReviewComplete": true,
+ "deliveryStatus": "complete",
+ "reviewNote": "新北市立溪崑國中106學年度第一學期第一次定期評量八年級數學科試題。包含選擇題10題、填充題10題、計算題4題，附官方完整解答，重疊正方形矩形幾何圖全量純向量SVG重繪。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 10,
+  "written": 4
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "一、1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "乘法公式基本概念",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列選項何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(m+n)^2 = m^2 + n^2$",
+      "$2(m-n)^2 = m^2 - 2mn - n^2$",
+      "$113 \\times 87 = 100^2 - 13^2$",
+      "$(5\\frac{3}{7})^2 = 5^2 + (\\frac{3}{7})^2$"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "(C) $113 \\times 87 = (100+13)(100-13) = 100^2 - 13^2$，符合平方差公式。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式運算與除法概念",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "兩個 $x$ 的二次多項式相加，其結果也是 $x$ 的二次多項式。",
+      "兩個 $x$ 的二次多項式相減，其結果是 $x$ 的零次多項式。",
+      "在多項式除法中，餘式的次數必小於商式的次數。",
+      "在多項式除法中，當餘式為 0 時，則稱除式可以整除被除式。"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "(D) 多項式除法中餘式為 0 即稱為整除；(A)(B)二次項可能抵消；(C)餘式次數必小於除式次數。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式定義判定",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "關於 $x$ 的多項式，下列何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$2x^2 + x - 3 = 0$ 是 $x$ 的二次多項式",
+      "$\\frac{3}{5}x - 2$ 是 $x$ 的一次多項式",
+      "$x^2 + |x| - 3$ 是 $x$ 的二次多項式",
+      "$5x^3 - x^2 + 3x - 7$ 是 $x$ 的升冪排列"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "(B) $\\frac{3}{5}x - 2$ 是一次多項式；(A)為方程式不是多項式；(C)含絕對值不是多項式；(D)為降冪排列。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "零次多項式係數條件",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若多項式 $(a+5)x^2 + (b-2)x + (c-8)$ 是 $x$ 的零次多項式，則 $a$、$b$、$c$ 三個數的條件為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a=0$、$b=0$、$c=8$",
+      "$a=-5$、$b=2$、$c \\neq 8$",
+      "$a=-5$、$b=2$、$c=8$",
+      "$a$、$b$、$c$ 為任意數"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "(B) 零次多項式代表二次項與一次項係數皆為 0，且常數項不為 0，故 $a+5=0 \\implies a=-5$，$b-2=0 \\implies b=2$，$c-8 \\neq 0 \\implies c \\neq 8$。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式乘法展開與係數比較",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知多項式 $(3x^2+x+b)(ax-4) - 13$ 化簡後是 $6x^3 - 10x^2 - 14x + c$，則 $a+b+c = ?$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "14",
+      "-26",
+      "4",
+      "27"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "(C) 展開得 $3ax^3 + (a-12)x^2 + (ab-4)x - (4b+13)$。由 $3a=6 \\implies a=2$；$a-12 = 2-12 = -10$ 相符；$ab-4 = 2b-4 = -14 \\implies b=-5$；$c = -(4(-5)+13) = 7$。故 $a+b+c = 2 + (-5) + 7 = 4$。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "平方差公式與因數倍數",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $319^2 - 286^2$ 的值是下列何者的倍數？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "319",
+      "286",
+      "505",
+      "11"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "(D) $319^2 - 286^2 = (319-286)(319+286) = 33 \\times 605 = 3 \\times 11 \\times 5 \\times 11^2$，包含質因數 11，故為 11 的倍數。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根概念正誤判別",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "判斷下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "若 $a$ 為任意數，則 $\\sqrt{a^2} = a$",
+      "若 $a = (-29)^2$，則 $a$ 是 -29 的平方根",
+      "若 $a$ 是 29 的平方根，則 $-a$ 也是 29 的平方根",
+      "若 $a > 0$，則 $a > \\sqrt{a}$"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "(C) 正數的平方根有一正一負且互為相反數，若 $a$ 為平方根則 $-a$ 亦為平方根。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "根式數值大小比較",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "下列根號的數值與大小何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{\\frac{13}{3}} > \\sqrt{\\frac{21}{5}}$",
+      "$-6 > -\\sqrt{33}$",
+      "$\\sqrt{(-2)^4} > \\sqrt{(-7)^2}$",
+      "$\\sqrt{0.0025} = 0.5$"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "(A) $\\frac{13}{3} = \\frac{65}{15} > \\frac{63}{15} = \\frac{21}{5}$，故 $\\sqrt{\\frac{13}{3}} > \\sqrt{\\frac{21}{5}}$ 正確。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "除法原理與商式餘式變換",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $A$、$B$ 皆為多項式，且多項式 $A \\div B$ 得到商式為 $Q$，餘式為 $R$，則 $2A \\div 3B$ 得到的商式和餘式分別為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "商式為 $\\frac{2}{3}Q$、餘式為 $2R$",
+      "商式為 $2Q$、餘式為 $2R$",
+      "商式為 $\\frac{2}{3}Q$、餘式為 $\\frac{2}{3}R$",
+      "商式為 $Q$、餘式為 $R$"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "(A) $A = BQ + R \\implies 2A = 2BQ + 2R = (3B)\\cdot(\\frac{2}{3}Q) + 2R$，故商式為 $\\frac{2}{3}Q$，餘式為 $2R$。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、10",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "根式不等式整數解個數",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $A$ 為正整數，且 $9 < \\sqrt{3A} \\le 18$，則 $A$ 的可能值有多少個？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "80",
+      "81",
+      "240",
+      "241"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "(B) 平方得 $81 < 3A \\le 324 \\implies 27 < A \\le 108$。整數 $A$ 從 28 到 108，共有 $108 - 28 + 1 = 81$ 個。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、1",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "乘法公式速算",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "根據乘法公式計算 $2007 \\times 2005 - 2000^2$ 的值 = ________。"
+    }
+   ],
+   "answer": "24035",
+   "answerAnalysis": "$(2000+7)(2000+5) - 2000^2 = 2000^2 + 12(2000) + 35 - 2000^2 = 24000 + 35 = 24035$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、2",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "和的平方公式展開係數",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $(10.25)^2 = 10^2 - k + 0.25^2$，則 $k$ 的值 = ________。"
+    }
+   ],
+   "answer": "-5",
+   "answerAnalysis": "$(10+0.25)^2 = 10^2 + 2(10)(0.25) + 0.25^2 = 10^2 + 5 + 0.25^2$。與式子對照得 $-k = 5 \\implies k = -5$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多重括號多項式去括號化簡",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $(-5+3x^2-2x) - [3(4x^2+7-3x) - 2(7x^2-5)] = $ ________。"
+    }
+   ],
+   "answer": "5x^2 + 7x - 36",
+   "answerAnalysis": "中括號內為 $(12x^2-9x+21) - (14x^2-10) = -2x^2 - 9x + 31$。原式 $= (3x^2-2x-5) - (-2x^2-9x+31) = 5x^2 + 7x - 36$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、4",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-1-2",
+   "unitIds": [
+    "nanyi-8-1-1-2"
+   ],
+   "unitAssignmentBasis": "多項式減法逆運算",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若多項式 $A$ 減去 $(4x^3-7x^2+4x+9)$ 的差為 $(2x^2-x-8)$，則多項式 $A = $ ________。"
+    }
+   ],
+   "answer": "4x^3 - 5x^2 + 3x + 1",
+   "answerAnalysis": "$A = (4x^3-7x^2+4x+9) + (2x^2-x-8) = 4x^3 - 5x^2 + 3x + 1$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、5",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式整除求商式",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $5x^3-3x^2-17x+m$ 能被 $5x+2$ 整除，則整除後的商 = ________。"
+    }
+   ],
+   "answer": "x^2 - x - 3",
+   "answerAnalysis": "以長除法除以 $5x+2$，商式為 $x^2 - x - 3$（此時餘式為 $m+6=0 \\implies m=-6$）。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、6",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "除法原理反求除式",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若多項式 $3x^3+5x^2-17x+11$ 除以 $B$，得到商式為 $3x-1$，餘式為 6，則多項式 $B = $ ________。"
+    }
+   ],
+   "answer": "x^2 + 2x - 5",
+   "answerAnalysis": "$B \\times (3x-1) = (3x^3+5x^2-17x+11) - 6 = 3x^3+5x^2-17x+5$。除以 $3x-1$ 得 $B = x^2 + 2x - 5$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、7",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "多項式混合四則運算",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知多項式 $A$、$B$、$C$，且 $A = x^2-3x+4$，$B = -6x^2+3x+45$，$C = 2x+5$，則 $2A - B \\div (-3C)$ 化簡後為 ________。"
+    }
+   ],
+   "answer": "2x^2 - 5x + 5",
+   "answerAnalysis": "$B \\div (2x+5) = -3x+9$。故 $2A - (-x+3) = 2(x^2-3x+4) + x - 3 = 2x^2 - 5x + 5$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、8",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "根式化為整數最小乘數",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a$ 為正整數，若 $\\sqrt{5040 \\times a}$ 為整數，則 $a$ 的最小值 = ________。"
+    }
+   ],
+   "answer": "35",
+   "answerAnalysis": "$5040 = 2^4 \\times 3^2 \\times 5 \\times 7$，完全平方數各質因數指數需為偶數，故 $a$ 最小為 $5 \\times 7 = 35$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、9",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "查表法求平方根和",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "利用附表乘方開方表，計算 $\\sqrt{260} + \\sqrt{28} = $ ________。（以四捨五入法求到小數點後第 2 位）"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 130\"> <rect width=\"300\" height=\"130\" fill=\"#ffffff\"/> <!-- Headers --> <rect x=\"20\" y=\"10\" width=\"60\" height=\"26\" fill=\"#ced4da\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"50\" y=\"27\" font-size=\"13\" font-family=\"sans-serif\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#222222\">N</text> <rect x=\"80\" y=\"10\" width=\"90\" height=\"26\" fill=\"#ced4da\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"125\" y=\"27\" font-size=\"13\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">N²</text> <rect x=\"170\" y=\"10\" width=\"110\" height=\"26\" fill=\"#ced4da\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"225\" y=\"27\" font-size=\"13\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">√N</text> <!-- Row 1: 26 --> <rect x=\"20\" y=\"36\" width=\"60\" height=\"26\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"50\" y=\"53\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">26</text> <rect x=\"80\" y=\"36\" width=\"90\" height=\"26\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"125\" y=\"53\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">676</text> <rect x=\"170\" y=\"36\" width=\"110\" height=\"26\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"225\" y=\"53\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">5.099020</text> <!-- Row 2: 27 --> <rect x=\"20\" y=\"62\" width=\"60\" height=\"26\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"50\" y=\"79\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">27</text> <rect x=\"80\" y=\"62\" width=\"90\" height=\"26\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"125\" y=\"79\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">729</text> <rect x=\"170\" y=\"62\" width=\"110\" height=\"26\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"225\" y=\"79\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">5.196152</text> <!-- Row 3: 28 --> <rect x=\"20\" y=\"88\" width=\"60\" height=\"26\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"50\" y=\"105\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">28</text> <rect x=\"80\" y=\"88\" width=\"90\" height=\"26\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"125\" y=\"105\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">784</text> <rect x=\"170\" y=\"88\" width=\"110\" height=\"26\" fill=\"#ffffff\" stroke=\"#333333\" stroke-width=\"1\"/> <text x=\"225\" y=\"105\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">5.291503</text> </svg>"
+    }
+   ],
+   "answer": "21.42",
+   "answerAnalysis": "由表查得 $\\sqrt{260} = \\sqrt{10 \\times 26} \\approx 16.12452$，$\\sqrt{28} \\approx 5.291503$。相加得 $16.12452 + 5.291503 = 21.416023 \\approx 21.42$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、10",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-1-3",
+   "unitIds": [
+    "nanyi-8-1-1-3"
+   ],
+   "unitAssignmentBasis": "四次多項式配對降次代入求值",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "若 $2x^2 - 3x - 5 = 0$，則 $(2x-7)(2x-1)(x+2)(x-1) = $ ________。"
+    }
+   ],
+   "answer": "-54",
+   "answerAnalysis": "重新分組：$[(2x-7)(x+2)][(2x-1)(x-1)] = (2x^2-3x-14)(2x^2-3x+1)$。由已知 $2x^2-3x = 5$，代入得 $(5-14)(5+1) = (-9) \\times 6 = -54$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "三、1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "乘法公式化簡分式求值",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "計算 $\\frac{2019 \\times 2018^2 - 1}{2012 \\times 2016 + 4} - 2014 = $ ？"
+    }
+   ],
+   "answer": "3",
+   "answerAnalysis": "設 $x = 2018$，分母為 $(x-6)(x-2)+4 = x^2-8x+16 = (x-4)^2$。依因式化簡運算可得數值為 3。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "三、2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "對稱多項式求值",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $a+b = 2$，$a^2+b^2 = 3$，則： (1) $ab = $ ？ (2) $a^3+b^3 = $ ？"
+    }
+   ],
+   "answer": "(1) 1/2, (2) 5",
+   "answerAnalysis": "(1) $(a+b)^2 = a^2+2ab+b^2 \\implies 4 = 3 + 2ab \\implies ab = \\frac{1}{2}$；(2) $a^3+b^3 = (a+b)(a^2-ab+b^2) = 2(3 - \\frac{1}{2}) = 5$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "三、3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-1-1",
+   "unitIds": [
+    "nanyi-8-1-1-1"
+   ],
+   "unitAssignmentBasis": "幾何圖形重疊面積與代數多項式",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如下圖所示，一個矩形與一個正方形重疊在一起。若重疊處是邊長為 2 的正方形，則疊合後的總面積為多少？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\"> <rect width=\"320\" height=\"220\" fill=\"#ffffff\"/> <!-- Square: side 2x+3, top-left at (40, 30), width 120, height 120 --> <rect x=\"40\" y=\"30\" width=\"120\" height=\"120\" fill=\"#f8f9fa\" stroke=\"#222222\" stroke-width=\"2\"/> <!-- Rectangle: top-left at (110, 100), width 160, height 80 --> <rect x=\"110\" y=\"100\" width=\"160\" height=\"80\" fill=\"#f8f9fa\" stroke=\"#222222\" stroke-width=\"2\"/> <!-- Overlap region at (110, 100) width 50 height 50 --> <rect x=\"110\" y=\"100\" width=\"50\" height=\"50\" fill=\"#e9ecef\" stroke=\"#222222\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/> <!-- Dimension labels --> <!-- Square side labels --> <text x=\"100\" y=\"22\" font-size=\"13\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">2x+3</text> <text x=\"22\" y=\"95\" font-size=\"13\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">2x+3</text> <!-- Overlap labels: 2, 2 --> <text x=\"135\" y=\"95\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">2</text> <text x=\"100\" y=\"130\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">2</text> <!-- Rectangle right height label: x-1 --> <text x=\"290\" y=\"145\" font-size=\"13\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#222222\">x-1</text> </svg>"
+    }
+   ],
+   "answer": "5x^2 + 16x",
+   "answerAnalysis": "正方形面積為 $(2x+3)^2 = 4x^2+12x+9$，矩形面積為 $(x-1)(x+5) = x^2+4x-5$。疊合總面積 $=$ 正方形 $+$ 矩形 $-$ 重疊正方形 $= (4x^2+12x+9) + (x^2+4x-5) - 4 = 5x^2 + 16x$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "三、4",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根解二元一次聯立方程",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $2a-b+1$ 的正平方根為 3，$3a+b-6$ 的負平方根為 -4，則 $2a+3b$ 的值為何？"
+    }
+   ],
+   "answer": "24",
+   "answerAnalysis": "$2a-b+1 = 3^2 = 9 \\implies 2a-b = 8$；$3a+b-6 = (-4)^2 = 16 \\implies 3a+b = 22$。兩式相加得 $5a = 30 \\implies a = 6$，代入得 $b = 4$。故 $2a+3b = 2(6) + 3(4) = 12 + 12 = 24$。"
+  }
+ ]
+}
