@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-21T14:49:49.969621+00:00",
-  "head": "322ea0aa5e7d101b4d06689f89e15a0bdd3347f6",
-  "dataVersion": "20261121-metro-v136",
+  "generatedAt": "2026-11-21T15:20:01.916469+00:00",
+  "head": "83cbf86be645524103ea681da8b80c17f2d64b88",
+  "dataVersion": "20261121-metro-v137",
   "paperCount": 1528,
-  "questionRecords": 21955,
-  "usableQuestions": 21440,
+  "questionRecords": 22077,
+  "usableQuestions": 21562,
   "statuses": {
-    "complete": 765,
+    "complete": 770,
     "complete-with-source-issues": 104,
-    "pending": 656,
+    "pending": 651,
     "partial": 3
   },
   "regions": {
@@ -24,11 +24,11 @@
     "new_taipei": {
       "papers": 685,
       "statuses": {
-        "pending": 395,
-        "complete": 257,
+        "pending": 390,
+        "complete": 262,
         "complete-with-source-issues": 33
       },
-      "usableQuestions": 7328
+      "usableQuestions": 7450
     },
     "taichung": {
       "papers": 212,
@@ -111,7 +111,7 @@
       ]
     },
     "new_taipei": {
-      "remaining": 97,
+      "remaining": 95,
       "next": [
         {
           "paperId": "metro-new_taipei-e30f51dc497bbd00",
@@ -138,16 +138,16 @@
           "outFile": "research/metro/transcribed/metro-new_taipei-34a7d6f4b19338d9.json"
         },
         {
-          "paperId": "metro-new_taipei-cc4c65c09802f6c3",
+          "paperId": "metro-new_taipei-effcfe12cc038e23",
           "region": "new_taipei",
-          "school": "新莊國中",
+          "school": "三和國中",
           "year": 114,
           "semester": 1,
-          "grade": 8,
-          "exam": 3,
-          "pdf": "research/metro/raw/metro-new_taipei-cc4c65c09802f6c3.pdf",
+          "grade": 7,
+          "exam": 1,
+          "pdf": "research/metro/raw/metro-new_taipei-effcfe12cc038e23.pdf",
           "existingQuestions": 0,
-          "outFile": "research/metro/transcribed/metro-new_taipei-cc4c65c09802f6c3.json"
+          "outFile": "research/metro/transcribed/metro-new_taipei-effcfe12cc038e23.json"
         }
       ]
     },
@@ -334,21 +334,8 @@
       "next": []
     },
     "w4-4": {
-      "remaining": 1,
-      "next": [
-        {
-          "paperId": "metro-new_taipei-cd69f923866e75b5",
-          "region": "new_taipei",
-          "school": "中正國中",
-          "year": 110,
-          "semester": 1,
-          "grade": 8,
-          "exam": 2,
-          "pdf": "research/metro/raw/metro-new_taipei-cd69f923866e75b5.pdf",
-          "existingQuestions": 0,
-          "outFile": "research/metro/transcribed/metro-new_taipei-cd69f923866e75b5.json"
-        }
-      ]
+      "remaining": 0,
+      "next": []
     },
     "w4-5": {
       "remaining": 0,
@@ -483,8 +470,8 @@
   "remainingByFormat": {
     "docx": 245,
     "doc": 103,
-    "pdf": 184,
-    "odt": 127
+    "pdf": 182,
+    "odt": 124
   },
   "notInPreparedQueues": [
     "metro-new_taipei-48000408be9d1cbf-c12e4036",
@@ -563,7 +550,6 @@
     "metro-taichung-abdb979848435a7c",
     "metro-new_taipei-b953544789a86011",
     "metro-new_taipei-f619f731dd8f947f",
-    "metro-new_taipei-752a3e2969ae28c8",
     "metro-new_taipei-1864506890a0eec8",
     "metro-new_taipei-c4233ca5aacc5822",
     "metro-new_taipei-dc2b6ff3a9089c11-52d1789d",
@@ -821,7 +807,6 @@
     "metro-kaohsiung-ac4c672465b72025",
     "metro-new_taipei-2c21d909d3c6e0f6",
     "metro-new_taipei-3265546b6e53ae73",
-    "metro-new_taipei-69a6cd719313ebf6",
     "metro-new_taipei-c79534eabd5e45fa",
     "metro-new_taipei-efdee914150d8c7c",
     "metro-kaohsiung-109c3026962424fa",
@@ -862,7 +847,6 @@
     "metro-new_taipei-75838697eb878753",
     "metro-new_taipei-40bd4538dc9ed723",
     "metro-new_taipei-f147e22baf92758b",
-    "metro-new_taipei-4aec0f862f55a8b6",
     "metro-new_taipei-5eba97d955d87e90",
     "metro-new_taipei-8ee8d6316454aa8e",
     "metro-new_taipei-a0d01058d94de50c",
@@ -958,6 +942,6 @@
     "metro-taipei-927010dbc0ab4d71-745196a7"
   ],
   "parked": [],
-  "workingChanges": "M handoff/CLAIMS.json\n M handoff/NEXT_BATCH_AND_DEPLOY.md\n M handoff/STATUS.md\n M handoff/pending-papers.json\n M handoff/state.json\n M public/app.mjs\n M public/data/coverage.json\n M public/data/paper-workflow.json\n M public/data/papers.json\n M public/data/questions.json\n M public/fonts/subset-coverage.json\n M public/index.html\n M public/units-ui.mjs\n M public/workbench.css\n M research/release-transcripts.json\n M scripts/qa-requested-papers.mjs\n?? research/metro/transcribed/metro-new_taipei-2dabda511a6e8306.json\n?? research/metro/transcribed/metro-new_taipei-3e6fd9a4466289ed.json\n?? research/metro/transcribed/metro-new_taipei-7497f269125937b6.json\n?? research/metro/transcribed/metro-new_taipei-9d0f5e101129819e.json\n?? research/metro/transcribed/metro-new_taipei-b78ebd77da8de087.json\n?? scratch/",
+  "workingChanges": "M handoff/CLAIMS.json\n M public/app.mjs\n M public/data/coverage.json\n M public/data/paper-workflow.json\n M public/data/papers.json\n M public/data/questions.json\n M public/fonts/subset-coverage.json\n M public/index.html\n M public/units-ui.mjs\n M public/workbench.css\n M research/release-transcripts.json\n M scripts/qa-requested-papers.mjs\n M scripts/word_convert_one.ps1\n?? public/papers/metro-new_taipei-cc4c65c09802f6c3.pdf\n?? public/papers/metro-new_taipei-cd69f923866e75b5.pdf\n?? research/metro/transcribed/metro-new_taipei-4aec0f862f55a8b6.json\n?? research/metro/transcribed/metro-new_taipei-69a6cd719313ebf6.json\n?? research/metro/transcribed/metro-new_taipei-752a3e2969ae28c8.json\n?? research/metro/transcribed/metro-new_taipei-cc4c65c09802f6c3.json\n?? research/metro/transcribed/metro-new_taipei-cd69f923866e75b5.json\n?? scratch/",
   "warning": "此快照只代表本機資料；不代表 PDF 目視通過或正式站已更新，另讀 VERIFICATION.md。"
 }

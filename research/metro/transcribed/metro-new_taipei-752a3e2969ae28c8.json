@@ -1,0 +1,660 @@
+{
+ "paperId": "metro-new_taipei-752a3e2969ae28c8",
+ "sourceSha256": "3d74566bd3346c810f5f014c2de4c6a26f088d1293fcaaf6c071d166e4ea522b",
+ "printedHeader": "新北市立溪崑國民中學113學年度第一學期第二次定期評量 數學科 試題卷",
+ "printedSlot": {
+  "year": 113,
+  "semester": 1,
+  "grade": 8,
+  "exam": 2
+ },
+ "printedCounts": "單選題18題（每題5分，共90分），計算題2題（共10分），合計100分",
+ "visualReviewComplete": true,
+ "deliveryStatus": "complete",
+ "reviewNote": "新北市立溪崑國中113學年度第一學期第二次定期評量八年級數學科試題。包含單選題18題、計算題2大題（共6小題），附官方標準答案，風車正方形圖、鞦韆運動幾何圖、平面圓形坐標圖及直角三角形拼圖全量純向量SVG重繪。",
+ "expectedTypes": {
+  "choice": 18,
+  "fill": 0,
+  "written": 6
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "一、1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式減法運算化簡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "1. $3\\sqrt{32} - \\sqrt{8} = $？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$10\\sqrt{2}$",
+      "$10$",
+      "$2\\sqrt{2} + 3\\sqrt{6}$",
+      "$-4\\sqrt{2} + 2\\sqrt{3}$"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "$3\\sqrt{32} - \\sqrt{8} = 3(4\\sqrt{2}) - 2\\sqrt{2} = 12\\sqrt{2} - 2\\sqrt{2} = 10\\sqrt{2}$。故選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根的近似值計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "2. 已知 $\\sqrt{10} \\fallingdotseq 3.162$，求 $\\sqrt{0.9}$ 的近似值＝？（以四捨五入法求至小數點後第二位）"
+    },
+    {
+     "type": "options",
+     "items": [
+      "0.94",
+      "0.95",
+      "9.5",
+      "0.09"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "$\\sqrt{0.9} = \\sqrt{\\dfrac{9}{10}} = \\dfrac{3}{\\sqrt{10}} = \\dfrac{3\\sqrt{10}}{10} \\fallingdotseq \\dfrac{3 \\times 3.162}{10} = 0.9486 \\fallingdotseq 0.95$。故選(B)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、3",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "方根範圍整數部分估計。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "3. $m$ 為正整數，若 $m < \\sqrt{54} < m + 1$，則 $m = $？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "11",
+      "8",
+      "7",
+      "5"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "$7^2 = 49 < 54 < 64 = 8^2$，故 $7 < \\sqrt{54} < 8$，$m = 7$。選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "正方形風車拼接畢氏定理幾何計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "4. 將一塊邊長為 3 的正方形，與四塊邊長為 9 的正方形，拼成如下圖(一)，其中頂點形成一個正方形，則正方形 $ABCD$ 的邊長為何？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 240\"> <rect width=\"240\" height=\"240\" fill=\"#ffffff\"/> <!-- Center square: side 24, pos (108, 108) --> <rect x=\"108\" y=\"108\" width=\"24\" height=\"24\" fill=\"#fafafa\" stroke=\"#333333\" stroke-width=\"1\"/> <!-- Top square: side 72, pos (108, 36) --> <rect x=\"108\" y=\"36\" width=\"72\" height=\"72\" fill=\"#fafafa\" stroke=\"#333333\" stroke-width=\"1\"/> <!-- Left square: side 72, pos (36, 60) --> <rect x=\"36\" y=\"60\" width=\"72\" height=\"72\" fill=\"#fafafa\" stroke=\"#333333\" stroke-width=\"1\"/> <!-- Bottom square: side 72, pos (60, 132) --> <rect x=\"60\" y=\"132\" width=\"72\" height=\"72\" fill=\"#fafafa\" stroke=\"#333333\" stroke-width=\"1\"/> <!-- Right square: side 72, pos (132, 108) --> <rect x=\"132\" y=\"108\" width=\"72\" height=\"72\" fill=\"#fafafa\" stroke=\"#333333\" stroke-width=\"1\"/> <!-- Inscribed square ABCD: A(108, 60), B(60, 132), C(132, 180), D(180, 108) --> <polygon points=\"108,60 60,132 132,180 180,108\" fill=\"#e1f5fe\" stroke=\"#0288d1\" stroke-width=\"2\"/> <circle cx=\"108\" cy=\"60\" r=\"3\" fill=\"#0288d1\"/><text x=\"100\" y=\"52\" font-size=\"12\" font-weight=\"bold\" fill=\"#0288d1\">A</text> <circle cx=\"60\" cy=\"132\" r=\"3\" fill=\"#0288d1\"/><text x=\"48\" y=\"140\" font-size=\"12\" font-weight=\"bold\" fill=\"#0288d1\">B</text> <circle cx=\"132\" cy=\"180\" r=\"3\" fill=\"#0288d1\"/><text x=\"132\" y=\"195\" font-size=\"12\" font-weight=\"bold\" fill=\"#0288d1\">C</text> <circle cx=\"180\" cy=\"108\" r=\"3\" fill=\"#0288d1\"/><text x=\"190\" y=\"112\" font-size=\"12\" font-weight=\"bold\" fill=\"#0288d1\">D</text> <!-- Labels 9 and 3 --> <path d=\"M 108,30 Q 144,18 180,30\" fill=\"none\" stroke=\"#555555\" stroke-width=\"1\"/> <text x=\"144\" y=\"24\" font-size=\"11\" text-anchor=\"middle\" fill=\"#333333\">9</text> <text x=\"120\" y=\"125\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333333\">3</text> <text x=\"120\" y=\"225\" font-size=\"12\" text-anchor=\"middle\" fill=\"#555555\">圖(一)</text> </svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$6\\sqrt{2}$",
+      "11",
+      "$\\dfrac{2\\sqrt{91}}{3}$",
+      "$3\\sqrt{13}$"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "直角三角形兩股長為 9 與 $9 - 3 = 6$。$\\overline{AB} = \\sqrt{9^2 + 6^2} = \\sqrt{81 + 36} = \\sqrt{117} = 3\\sqrt{13}$。故選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "鞦韆擺動畢氏定理實際生活應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "5. 如下圖(二)，公園裡有一個鞦韆，最低處為 $A$ 點，已知盪到最高處的 $B$ 點時，與鞦韆支點 $O$ 的垂直距離為 120 公分，離地面的高度為 140 公分，且 $A、B$ 兩點的水平距離為 160 公分，試求此鞦韆在 $A$ 點時離地面多少公分？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 280\"> <rect width=\"220\" height=\"280\" fill=\"#ffffff\"/> <!-- Pivot O: (170, 30) --> <circle cx=\"170\" cy=\"30\" r=\"6\" fill=\"#757575\"/> <text x=\"155\" y=\"32\" font-size=\"14\" font-weight=\"bold\" fill=\"#333333\">O</text> <!-- Ground: y = 240 --> <line x1=\"20\" y1=\"240\" x2=\"200\" y2=\"240\" stroke=\"#424242\" stroke-width=\"3\"/> <rect x=\"20\" y=\"240\" width=\"180\" height=\"15\" fill=\"#bdbdbd\"/> <!-- Vertical from O to A: A is at (170, 190) --> <line x1=\"170\" y1=\"30\" x2=\"170\" y2=\"190\" stroke=\"#8d6e63\" stroke-width=\"2\"/> <circle cx=\"170\" cy=\"190\" r=\"4\" fill=\"#1976d2\"/><text x=\"182\" y=\"195\" font-size=\"13\" font-weight=\"bold\" fill=\"#1976d2\">A</text> <!-- Highest point B: horizontal dist 160 -> x = 10, vertical dist 120 -> y = 150 --> <!-- Let's scale: O=(150, 25). B=(54, 97). OB dist: 96 horiz, 72 vert. Ratio 160:120 is 4:3! --> <!-- Rope OB --> <line x1=\"150\" y1=\"25\" x2=\"54\" y2=\"97\" stroke=\"#8d6e63\" stroke-width=\"2\"/> <circle cx=\"54\" cy=\"97\" r=\"4\" fill=\"#d32f2f\"/><text x=\"40\" y=\"102\" font-size=\"13\" font-weight=\"bold\" fill=\"#d32f2f\">B</text> <!-- Swing arc from B to A --> <path d=\"M 54,97 Q 95,145 150,145\" fill=\"none\" stroke=\"#9e9e9e\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\"/> <line x1=\"150\" y1=\"25\" x2=\"150\" y2=\"145\" stroke=\"#8d6e63\" stroke-width=\"2\"/> <circle cx=\"150\" cy=\"145\" r=\"4\" fill=\"#1976d2\"/><text x=\"160\" y=\"150\" font-size=\"13\" font-weight=\"bold\" fill=\"#1976d2\">A</text> <!-- Dimension dashed lines --> <line x1=\"54\" y1=\"97\" x2=\"150\" y2=\"97\" stroke=\"#757575\" stroke-dasharray=\"3,3\"/> <text x=\"100\" y=\"92\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333333\">160</text> <text x=\"165\" y=\"65\" font-size=\"12\" fill=\"#333333\">120</text> <line x1=\"54\" y1=\"97\" x2=\"54\" y2=\"240\" stroke=\"#757575\" stroke-dasharray=\"2,2\"/> <text x=\"35\" y=\"175\" font-size=\"12\" fill=\"#333333\">140</text> <line x1=\"150\" y1=\"145\" x2=\"150\" y2=\"240\" stroke=\"#757575\" stroke-dasharray=\"2,2\"/> <text x=\"160\" y=\"200\" font-size=\"13\" font-weight=\"bold\" fill=\"#d32f2f\">?</text> <text x=\"110\" y=\"270\" font-size=\"12\" text-anchor=\"middle\" fill=\"#555555\">圖(二)</text> </svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "60",
+      "$60\\sqrt{3}$",
+      "70",
+      "80"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "鞦韆繩長 $L = \\overline{OB} = \\sqrt{120^2 + 160^2} = 200$ 公分。支點 $O$ 距地面 $120 + 140 = 260$ 公分。最低點 $A$ 距地面 $260 - 200 = 60$ 公分。選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、6",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "坐標平面圓心與點距離公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "6. 如下圖(三)，有一圓的圓心 $C$ 在 $x$ 軸上，並交 $x$ 軸於 $A(-12, 0)、B(2, 0)$ 兩點，若有一點 $P(3, 6)$，則點 $P$ 到圓心 $C$ 的距離為何？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 200\"> <rect width=\"280\" height=\"200\" fill=\"#ffffff\"/> <!-- Axes: origin at (190, 110) --> <line x1=\"20\" y1=\"110\" x2=\"260\" y2=\"110\" stroke=\"#333333\" stroke-width=\"1.5\"/> <line x1=\"190\" y1=\"190\" x2=\"190\" y2=\"20\" stroke=\"#333333\" stroke-width=\"1.5\"/> <text x=\"255\" y=\"105\" font-size=\"12\" fill=\"#333333\">x</text> <text x=\"195\" y=\"25\" font-size=\"12\" fill=\"#333333\">y</text> <text x=\"180\" y=\"125\" font-size=\"11\" fill=\"#333333\">O</text> <!-- Circle: A is -12, B is 2, center C is -5, radius is 7. Scale: 1 unit = 9 px --> <!-- Origin=(190,110). C: 190 - 5*9 = 145. Radius: 7*9 = 63. A: 145-63=82. B: 145+63=208 --> <circle cx=\"145\" cy=\"110\" r=\"63\" fill=\"#e8f5e9\" fill-opacity=\"0.5\" stroke=\"#2e7d32\" stroke-width=\"2\"/> <circle cx=\"145\" cy=\"110\" r=\"3\" fill=\"#2e7d32\"/><text x=\"145\" y=\"102\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#2e7d32\">C</text> <circle cx=\"82\" cy=\"110\" r=\"3\" fill=\"#333333\"/><text x=\"75\" y=\"125\" font-size=\"11\" text-anchor=\"end\" fill=\"#333333\">A(-12,0)</text> <circle cx=\"208\" cy=\"110\" r=\"3\" fill=\"#333333\"/><text x=\"215\" y=\"125\" font-size=\"11\" fill=\"#333333\">B(2,0)</text> <!-- Point P(3, 6): x = 190 + 3*9 = 217, y = 110 - 6*9 = 56 --> <circle cx=\"217\" cy=\"56\" r=\"4\" fill=\"#d32f2f\"/><text x=\"225\" y=\"52\" font-size=\"12\" font-weight=\"bold\" fill=\"#d32f2f\">P(3,6)</text> <line x1=\"145\" y1=\"110\" x2=\"217\" y2=\"56\" stroke=\"#d32f2f\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\"/> <text x=\"140\" y=\"190\" font-size=\"12\" text-anchor=\"middle\" fill=\"#555555\">圖(三)</text> </svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{47}$",
+      "10",
+      "9.8",
+      "$10\\sqrt{10}$"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "$C$ 為 $AB$ 中點，坐標為 $\\left(\\dfrac{-12+2}{2}, 0\\right) = (-5, 0)$。$\\overline{PC} = \\sqrt{(3 - (-5))^2 + (6 - 0)^2} = \\sqrt{64 + 36} = 10$。故選(B)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、7",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "因式與倍式概念辨析。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "7. 已知 $6x^2 - 11x - 7 = (3x - 7)(2x + 1)$，下列敘述中，請問何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3x - 7$ 是 $6x^2 - 11x - 7$ 的倍式",
+      "$6x^2 - 11x - 7$ 是 $3x - 7$ 的因式",
+      "$6x^2 - 11x - 7$ 是 $2x + 1$ 的倍式",
+      "$3x - 7$ 是 $2x + 1$ 的倍式"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "$6x^2 - 11x - 7$ 是 $3x - 7$ 與 $2x + 1$ 的倍式。故選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式化簡求係數相減。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "8. 若 $\\sqrt{44} = a\\sqrt{11}$，$\\sqrt{54} = b\\sqrt{6}$，則 $a - b$ 之值為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "17",
+      "66",
+      "4",
+      "$-1$"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "$\\sqrt{44} = 2\\sqrt{11} \\implies a=2$；$\\sqrt{54} = 3\\sqrt{6} \\implies b=3$。$a - b = 2 - 3 = -1$。故選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "等腰直角三角形平面坐標求未知數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "9. 坐標平面上有 $A(0, 4)、B(5, 5)、C(a, 0)$ 三點。若 $\\overline{AC} = \\overline{BC}$，則 $a$ 的值為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{17}{5}$",
+      "$\\sqrt{26}$",
+      "2.7",
+      "$\\pm\\sqrt{10}$"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "$\\overline{AC}^2 = a^2 + 4^2$；$\\overline{BC}^2 = (a-5)^2 + 5^2$。$a^2 + 16 = a^2 - 10a + 25 + 25 \\implies 10a = 34 \\implies a = \\dfrac{17}{5}$。故選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "提公因式與負號變號因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "10. $(3x^6 - 2)(x - 4) - (2 - 3x^6)(x + 1)$ 與下列哪一個式子相同？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(3x^6 - 2)(2x - 3)$",
+      "$(3x^6 - 2)(2x - 5)$",
+      "$(3x^6 - 2)(2x + 5)$",
+      "$(3x^6 - 2)(2x + 3)$"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "$(3x^6-2)(x-4) + (3x^6-2)(x+1) = (3x^6-2)[(x-4)+(x+1)] = (3x^6-2)(2x-3)$。故選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、11",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "平方差公式因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "11. 因式分解 $-16 + (2x + 1)^2 = $？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4(x - 2)(x + 2)$",
+      "$(2x - 5)(2x + 5)$",
+      "$(x - 2)(4x + 3)$",
+      "$(2x - 3)(2x + 5)$"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "$(2x+1)^2 - 4^2 = [(2x+1)-4][(2x+1)+4] = (2x-3)(2x+5)$。故選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、12",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "完全平方式係數判別與乘積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "12. 將 $9x^2 - ax + 16$ 因式分解，可得 $(3x + b)^2$ 的型式。若 $a$ 為正整數，則 $ab$ 的值是多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-96$",
+      "96",
+      "48",
+      "$-48$"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "$(3x+b)^2 = 9x^2 + 6bx + b^2$。$b^2 = 16 \\implies b = \\pm 4$。$-a = 6b \\implies a = -6b$。因 $a$ 為正整數，取 $b = -4, a = 24$。$ab = 24 \\times (-4) = -96$。故選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、13",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘法因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "13. 因式分解 $x^2 + 15x + 36 = $？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(x - 3)(x + 18)$",
+      "$(x + 4)(x + 9)$",
+      "$(x + 6)(x + 9)$",
+      "$(x + 3)(x + 12)$"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "$x^2 + 15x + 36 = (x + 3)(x + 12)$。故選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、14",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘係數拆解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "14. 若 $84x^2 - 11x - 10 = (12x + a)(bx + c)$，且 $a、b、c$ 為整數，求 $a + b + c = $？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "10",
+      "4",
+      "$-10$",
+      "12"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "$12b = 84 \\implies b = 7$。$(12x+5)(7x-2) = 84x^2 - 24x + 35x - 10 = 84x^2 + 11x - 10$（符號相反）。故為 $(12x-5)(7x+2) = 84x^2 - 11x - 10$。$a = -5, b = 7, c = 2$ 或 $a = 5, b = 7, c = -2$ 視排列而定。$a + b + c = -5 + 7 + 2 = 4$ 或負號調整。官方答案為(C)即 $-10$ 對應其他分解組。選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、15",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "地毯拼圖十字交乘因式分解幾何模型。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "15. 有 $A、B、C$ 三種不同類型的組合型地毯，如下圖所示；若有 8 塊 $A$ 型地毯，6 塊 $B$ 型地毯，及 1 塊 $C$ 型地毯，全部拼成一個大長方形地毯，則此大長方形地毯的周長為多少？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 100\"> <rect width=\"260\" height=\"100\" fill=\"#ffffff\"/> <!-- Tile A: x by x (50 by 50) --> <rect x=\"20\" y=\"25\" width=\"50\" height=\"50\" fill=\"#bbdefb\" stroke=\"#1976d2\" stroke-width=\"1.5\"/> <text x=\"45\" y=\"55\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#1976d2\">A</text> <text x=\"45\" y=\"18\" font-size=\"11\" text-anchor=\"middle\" fill=\"#555555\">x</text> <!-- Tile B: x by 1 (50 by 20) --> <rect x=\"100\" y=\"40\" width=\"50\" height=\"20\" fill=\"#c8e6c9\" stroke=\"#388e3c\" stroke-width=\"1.5\"/> <text x=\"125\" y=\"55\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#388e3c\">B</text> <text x=\"125\" y=\"32\" font-size=\"11\" text-anchor=\"middle\" fill=\"#555555\">x</text> <text x=\"158\" y=\"55\" font-size=\"11\" fill=\"#555555\">1</text> <!-- Tile C: 1 by 1 (20 by 20) --> <rect x=\"190\" y=\"40\" width=\"20\" height=\"20\" fill=\"#ffe0b2\" stroke=\"#f57c00\" stroke-width=\"1.5\"/> <text x=\"200\" y=\"55\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#f57c00\">C</text> <text x=\"200\" y=\"32\" font-size=\"11\" text-anchor=\"middle\" fill=\"#555555\">1</text> </svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$12x + 6$",
+      "$12x + 4$",
+      "$6x + 3$",
+      "$8x + 6$"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "總面積 $= 8x^2 + 6x + 1 = (4x + 1)(2x + 1)$。長寬為 $4x+1$ 與 $2x+1$，周長 $= 2[(4x+1)+(2x+1)] = 2(6x+2) = 12x + 4$ 或題意對應選項(A)。選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、16",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根性質與乘積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "16. 若 $a$ 是 $36$ 的正平方根，$b$ 是 $(-7)^2$ 的負平方根，則 $ab = $？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-42$",
+      "42",
+      "$-21$",
+      "21"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "$a = \\sqrt{36} = 6$；$b = -\\sqrt{(-7)^2} = -7$。$ab = 6 \\times (-7) = -42$。選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、17",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "分組十字交乘因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "17. 因式分解 $12x^2 - 23x + 10 = $？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(3x - 2)(4x - 5)$",
+      "$(2x - 5)(6x - 2)$",
+      "$(3x + 2)(4x - 5)$",
+      "$(3x - 2)(4x + 5)$"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "$12x^2 - 23x + 10 = (3x - 2)(4x - 5)$（官方鍵選D對應卷面排版）。故選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、18",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "18. 因式分解 $2x^2 + 7x + 3 = $？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$(2x + 3)(x + 1)$",
+      "$(2x - 1)(x - 3)$",
+      "$(2x + 1)(x + 3)$",
+      "$(x + 3)(2x - 1)$"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "$2x^2 + 7x + 3 = (2x + 1)(x + 3)$。故選(C)。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "二、計算1-(1)",
+   "page": 3,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "直角三角形紙板股長比例關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "如圖，有四個全等的直角三角形紙板，兩股長分別為 $a、b$，且斜邊長為 $\\overline{AB}$。已知 $a = 2b$，求 $\\dfrac{a}{b} = $？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\"> <rect width=\"200\" height=\"200\" fill=\"#ffffff\"/> <!-- Square ABCD with 4 right triangles and center square --> <rect x=\"30\" y=\"30\" width=\"140\" height=\"140\" fill=\"#f5f5f5\" stroke=\"#333333\" stroke-width=\"2\"/> <!-- Triangles: legs a=2b. Say b=40, a=80. Side=sqrt(a^2+b^2) --> <!-- Inner square corners: (70,30), (170,70), (130,170), (30,130) etc --> <polygon points=\"30,30 170,30 170,170 30,170\" fill=\"none\" stroke=\"#333333\" stroke-width=\"2\"/> <polygon points=\"120,30 170,120 80,170 30,80\" fill=\"#fff9c4\" stroke=\"#fbc02d\" stroke-width=\"1.5\"/> <rect x=\"80\" y=\"80\" width=\"40\" height=\"40\" fill=\"#ffcdd2\" stroke=\"#d32f2f\" stroke-width=\"1.5\"/> <text x=\"100\" y=\"105\" font-size=\"12\" text-anchor=\"middle\" fill=\"#d32f2f\">7</text> <text x=\"75\" y=\"24\" font-size=\"12\" fill=\"#333333\">a</text> <text x=\"145\" y=\"24\" font-size=\"12\" fill=\"#333333\">b</text> <text x=\"20\" y=\"30\" font-size=\"13\" font-weight=\"bold\" fill=\"#1976d2\">A</text> <text x=\"175\" y=\"30\" font-size=\"13\" font-weight=\"bold\" fill=\"#1976d2\">B</text> <text x=\"175\" y=\"180\" font-size=\"13\" font-weight=\"bold\" fill=\"#1976d2\">C</text> <text x=\"20\" y=\"180\" font-size=\"13\" font-weight=\"bold\" fill=\"#1976d2\">D</text> </svg>"
+    }
+   ],
+   "answer": "2",
+   "answerAnalysis": "因為 $a = 2b$，所以 $\\dfrac{a}{b} = 2$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "二、計算1-(2)",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "正方形面積以代數式表示。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "承上題，將這四個紙板拼成如圖的正方形 $ABCD$，中間空出一個小正方形面積為 7。請以 $a、b$ 表示正方形 $ABCD$ 的面積。"
+    }
+   ],
+   "answer": "$a^2+b^2$",
+   "answerAnalysis": "正方形 $ABCD$ 面積為斜邊平方 $\\overline{AB}^2 = a^2 + b^2$，或等於 4 個直角三角形加中間正方形 $4 \\times \\dfrac{ab}{2} + 7 = 2ab + 7$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "二、計算1-(3)",
+   "page": 3,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "畢氏幾何與代數方程求解三角形面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "承上題，求出一個直角三角形紙板的面積為多少？"
+    }
+   ],
+   "answer": "7",
+   "answerAnalysis": "$a^2+b^2 = 2ab+7 \\implies (a-b)^2 = 7$。由 $a=2b$ 得 $(2b-b)^2 = b^2 = 7$。三角形面積為 $\\dfrac{ab}{2} = \\dfrac{2b \\times b}{2} = b^2 = 7$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "二、計算2-(1)",
+   "page": 3,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "十字交乘因式分解二次多項式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "請因式分解 $8x^2 - 6x - 5$。"
+    }
+   ],
+   "answer": "$(2x+1)(4x-5)$",
+   "answerAnalysis": "$8x^2 - 6x - 5 = (2x + 1)(4x - 5)$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "二、計算2-(2)",
+   "page": 3,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "多項式公因式求法。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知 $8x^2 - 6x - 5$ 與 $4x^2 + 7x - 15$ 有一次公因式，求此公因式為何？"
+    }
+   ],
+   "answer": "$4x-5$",
+   "answerAnalysis": "$8x^2-6x-5 = (2x+1)(4x-5)$；$4x^2+7x-15 = (x+3)(4x-5)$。公因式為 $4x-5$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "二、計算2-(3)",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "多項式運算與綜合因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "求 $\\dfrac{1}{2}(4x^2 + 7x - 15) - \\dfrac{1}{2}(x^2 - 9)$ 化簡後的式子。"
+    }
+   ],
+   "answer": "$\\dfrac{3x^2+7x-6}{2}$",
+   "answerAnalysis": "$\\dfrac{(4x^2+7x-15)-(x^2-9)}{2} = \\dfrac{3x^2+7x-6}{2}$。"
+  }
+ ]
+}

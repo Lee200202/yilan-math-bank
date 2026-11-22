@@ -32,7 +32,9 @@ try {
     Log ('opened, paragraphs=' + $doc.Paragraphs.Count)
     $outDir = Split-Path -Parent $OutputPath
     if (-not (Test-Path -LiteralPath $outDir)) { New-Item -ItemType Directory -Path $outDir -Force | Out-Null }
-    $doc.SaveAs2($OutputPath, 16)
+    $fmt = 16
+    if ($OutputPath -like "*.pdf") { $fmt = 17 }
+    $doc.SaveAs2($OutputPath, $fmt)
     Log 'saved'
     $zero = 0
     $doc.Close([ref]$zero)

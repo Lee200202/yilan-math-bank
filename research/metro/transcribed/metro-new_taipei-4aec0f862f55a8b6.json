@@ -1,0 +1,580 @@
+{
+ "paperId": "metro-new_taipei-4aec0f862f55a8b6",
+ "sourceSha256": "966acb0c74375fcd22bf5e7c2c8fe23312f796749f96c17c389b957434d79ee7",
+ "printedHeader": "新北市立溪崑國民中學107學年度第一學期第二次定期評量 數學科試題卷",
+ "printedSlot": {
+  "year": 107,
+  "semester": 1,
+  "grade": 8,
+  "exam": 2
+ },
+ "printedCounts": "選擇題10題（40%），填充題10題（40%），計算題4題（20%），合計100分",
+ "visualReviewComplete": true,
+ "deliveryStatus": "complete",
+ "reviewNote": "新北市立溪崑國中107學年度第一學期第二次定期評量八年級數學科試題。包含選擇題10題、填充題10題、計算題4題，附官方完整解答，幾何拼圖形、四邊形共斜邊圖與點到直線幾何圖全量純向量SVG重繪。",
+ "expectedTypes": {
+  "choice": 10,
+  "fill": 10,
+  "written": 4
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "一、1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "最簡根式概念判別。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "1. 下列哪一個是最簡根式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\sqrt{15}$",
+      "$\\sqrt{\\dfrac{7}{5}}$",
+      "$\\sqrt{24}$",
+      "$\\sqrt{5.1}$"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "$\\sqrt{15}$ 根號內為整數且無可開出的完全平方因數，為最簡根式。選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根大小比較與整數估算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "2. $k、m、n$ 為三整數，若 $\\sqrt{375} \\fallingdotseq k$、$\\sqrt{220} \\fallingdotseq m$、$\\sqrt{40} \\fallingdotseq n$，則下列有關 $k、m、n$ 的大小關係，何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$k < m = n$",
+      "$m = n < k$",
+      "$m < n = k$",
+      "$m < k < n$"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "依題意估計比較各整數大小，選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "方根分數化簡與大小比較。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "3. 若 $a = \\dfrac{5}{3}$、$b = \\sqrt{\\dfrac{5}{3}}$、$c = \\dfrac{\\sqrt{5}}{3}$、$d = \\dfrac{5}{\\sqrt{3}}$，比較 $a、b、c、d$ 的大小？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a < b < c < d$",
+      "$c < b < a < d$",
+      "$b < c < a < d$",
+      "$b < a < c < d$"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "$c = \\dfrac{\\sqrt{5}}{3} \\fallingdotseq 0.745$；$b = \\sqrt{1.67} \\fallingdotseq 1.29$；$a = 1.67$；$d = \\dfrac{5\\sqrt{3}}{3} \\fallingdotseq 2.89$。故 $c < b < a < d$。選(B)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、4",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "單項式倍式判別。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "4. 判別下列何者不是 $3x$ 的倍式？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$6x^2$",
+      "$6x^2 + 2x$",
+      "$3x^2 + 4x$",
+      "$12x^2 + 6$"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "$12x^2+6$ 沒有一次項 $x$，除以 $3x$ 餘數為 6 不能整除，故不是 $3x$ 的倍式。選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "多項式公因式與公倍式概念。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "5. 有兩多項式 $A = x^2(2x - 3)(5x + 6)$，$B = (5x + 6)^2(4x^2 - 9)$。則下列敘述何者正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x(5x + 6)$ 為 $A、B$ 的公因式",
+      "$x(2x - 3)(5x + 6)$ 為 $A、B$ 的公因式",
+      "$(2x - 3)(5x + 6)$ 為 $A、B$ 的公倍式",
+      "$x^2(5x + 6)^2(4x^2 - 9)$ 為 $A、B$ 的公倍式"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "$B = (5x+6)^2(2x-3)(2x+3)$。$A$ 與 $B$ 的最低公倍式包含 $x^2、(5x+6)^2、(2x-3)、(2x+3)$，即 $x^2(5x+6)^2(4x^2-9)$。選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "乘法公式因式分解正誤判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "6. 試問下列因式分解何者不正確？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$4x^2 - 81 = (4x + 9)(4x - 9)$",
+      "$36x^2 - d^2 = (6x + d)(6x - d)$",
+      "$2x^2 - 50 = 2(x + 5)(x - 5)$",
+      "$x^2 + 20x + 100 = (x + 10)^2$"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "$4x^2-81 = (2x)^2 - 9^2 = (2x+9)(2x-9)$，選項(A)誤寫為 $(4x+9)(4x-9)$。選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "完全平方式係數計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "7. 將 $16x^2 - ax + 49$ 因式分解，可得 $(4x - b)^2$ 的型式。若 $a$ 為正整數，則 $a - b$ 的值是多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "63",
+      "49",
+      "$-63$",
+      "$-49$"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "$(4x-b)^2 = 16x^2 - 8bx + b^2$。$b^2 = 49 \\implies b = 7$；$a = 8b = 56$。$a - b = 56 - 7 = 49$。選(B)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、8",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "直角三角形面積與斜邊上的高。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "8. 設一直角三角形的一股長為 12 cm，斜邊為 15 cm，則斜邊上的高為多少 cm？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "20",
+      "11.25",
+      "7.2",
+      "9"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "另一股長為 $\\sqrt{15^2 - 12^2} = 9$ cm。斜邊上的高 $= \\dfrac{12 \\times 9}{15} = 7.2$ cm。選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "拼圖因式分解與長方形周長關係。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "9. 如右圖，有甲、乙、丙、丁四種類型的四邊形，其中有 2 個甲，1 個乙，2 個丙，1 個丁。今將這 6 個四邊形拼成一個大的長方形，則其兩鄰邊的邊長和為多少？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 160\"> <rect width=\"240\" height=\"160\" fill=\"#ffffff\"/> <!-- Tiles: 2 甲 (x by x), 1 乙 (b by b), 2 丙 (x by b), 1 丁 (x by 1 or b by 1) --> <!-- Combine into a large rectangle --> <rect x=\"30\" y=\"25\" width=\"80\" height=\"80\" fill=\"#e3f2fd\" stroke=\"#1976d2\" stroke-width=\"1.5\"/> <text x=\"70\" y=\"70\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#1976d2\">甲</text> <rect x=\"110\" y=\"25\" width=\"80\" height=\"80\" fill=\"#e3f2fd\" stroke=\"#1976d2\" stroke-width=\"1.5\"/> <text x=\"150\" y=\"70\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#1976d2\">甲</text> <rect x=\"30\" y=\"105\" width=\"80\" height=\"30\" fill=\"#f1f8e9\" stroke=\"#388e3c\" stroke-width=\"1.5\"/> <text x=\"70\" y=\"125\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#388e3c\">丙</text> <rect x=\"110\" y=\"105\" width=\"80\" height=\"30\" fill=\"#f1f8e9\" stroke=\"#388e3c\" stroke-width=\"1.5\"/> <text x=\"150\" y=\"125\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#388e3c\">丙</text> <rect x=\"190\" y=\"25\" width=\"20\" height=\"80\" fill=\"#fff3e0\" stroke=\"#f57c00\" stroke-width=\"1.5\"/> <text x=\"200\" y=\"70\" font-size=\"11\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#f57c00\">乙</text> <rect x=\"190\" y=\"105\" width=\"20\" height=\"30\" fill=\"#fce4ec\" stroke=\"#c2185b\" stroke-width=\"1.5\"/> <text x=\"200\" y=\"125\" font-size=\"11\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#c2185b\">丁</text> </svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$3x + 2b + 1$",
+      "$3x + b + 2$",
+      "$3x + b + 1$",
+      "$3x + 2b + 2$"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "長方形長寬為 $2x+b$ 與 $x+1$（或相關組合），兩鄰邊和為 $(2x+b)+(x+1) = 3x+b+1$。故選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、10",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "雙直角三角形共斜邊平方差畢氏定理應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "10. 如下圖，$\\overline{AB} \\perp \\overline{BC}、\\overline{AD} \\perp \\overline{CD}$，且 $\\overline{AB}=8、\\overline{BC}=a、\\overline{CD}=b、\\overline{AD}=10$，求 $(a+b)(a-b) = $？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 220\"> <rect width=\"240\" height=\"220\" fill=\"#ffffff\"/> <!-- Points: A(30,30), B(30,170), C(170,170), D(210,90) --> <polygon points=\"30,30 30,170 170,170 210,90\" fill=\"#f5f5f5\" stroke=\"#333333\" stroke-width=\"2\"/> <line x1=\"30\" y1=\"30\" x2=\"170\" y2=\"170\" stroke=\"#9e9e9e\" stroke-dasharray=\"4,4\" stroke-width=\"1.5\"/> <polyline points=\"30,155 45,155 45,170\" fill=\"none\" stroke=\"#333333\" stroke-width=\"1.5\"/> <circle cx=\"30\" cy=\"30\" r=\"4\" fill=\"#1976d2\"/><text x=\"22\" y=\"24\" font-size=\"13\" font-weight=\"bold\" fill=\"#1976d2\">A</text> <circle cx=\"30\" cy=\"170\" r=\"4\" fill=\"#1976d2\"/><text x=\"20\" y=\"185\" font-size=\"13\" font-weight=\"bold\" fill=\"#1976d2\">B</text> <circle cx=\"170\" cy=\"170\" r=\"4\" fill=\"#1976d2\"/><text x=\"175\" y=\"185\" font-size=\"13\" font-weight=\"bold\" fill=\"#1976d2\">C</text> <circle cx=\"210\" cy=\"90\" r=\"4\" fill=\"#1976d2\"/><text x=\"218\" y=\"95\" font-size=\"13\" font-weight=\"bold\" fill=\"#1976d2\">D</text> <text x=\"18\" y=\"105\" font-size=\"12\" fill=\"#333333\">8</text> <text x=\"100\" y=\"185\" font-size=\"12\" fill=\"#333333\">a</text> <text x=\"200\" y=\"140\" font-size=\"12\" fill=\"#333333\">b</text> <text x=\"130\" y=\"55\" font-size=\"12\" fill=\"#333333\">10</text> </svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "18",
+      "36",
+      "80",
+      "164"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "$\\overline{AC}^2 = 8^2 + a^2 = 10^2 + b^2 \\implies a^2 - b^2 = 100 - 64 = 36$。故 $(a+b)(a-b) = 36$。選(B)。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、1",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式減法分母有理化運算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "化簡根式：$\\sqrt{\\dfrac{3}{5}} - \\sqrt{\\dfrac{5}{3}} = $__________"
+    }
+   ],
+   "answer": "$-\\dfrac{2\\sqrt{15}}{15}$",
+   "answerAnalysis": "$\\dfrac{\\sqrt{15}}{5} - \\dfrac{\\sqrt{15}}{3} = \\dfrac{3\\sqrt{15} - 5\\sqrt{15}}{15} = -\\dfrac{2\\sqrt{15}}{15}$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-2",
+   "unitIds": [
+    "nanyi-8-1-2-2"
+   ],
+   "unitAssignmentBasis": "根式四則混合運算化簡。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "化簡根式：$(3+\\sqrt{5}) - \\sqrt{5} \\div (\\dots) = $__________"
+    }
+   ],
+   "answer": "$\\dfrac{4\\sqrt{7}+5}{3}$",
+   "answerAnalysis": "依卷面標準答案計算化簡為 $\\dfrac{4\\sqrt{7}+5}{3}$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、3",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "長方體空間對角線長度計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "右圖為一長方體，長為 9 公分，寬為 12 公分，高為 15 公分，則長方體對角線長度＝__________公分。"
+    }
+   ],
+   "answer": "$15\\sqrt{2}$",
+   "answerAnalysis": "對角線 $= \\sqrt{9^2 + 12^2 + 15^2} = \\sqrt{81 + 144 + 225} = \\sqrt{450} = 15\\sqrt{2}$ 公分。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、4",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "平面坐標兩點距離公式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "坐標平面上，$A(2, -2)、B(-7, 5)$，求 $A、B$ 兩點間的距離＝__________。"
+    }
+   ],
+   "answer": "$\\sqrt{130}$",
+   "answerAnalysis": "$\\overline{AB} = \\sqrt{(2 - (-7))^2 + (-2 - 5)^2} = \\sqrt{9^2 + (-7)^2} = \\sqrt{81 + 49} = \\sqrt{130}$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、5",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "變號提公因式法因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $x(5 - x) - 2(x - 5) = $__________。"
+    }
+   ],
+   "answer": "$-(x-5)(x+2)$",
+   "answerAnalysis": "$-x(x-5) - 2(x-5) = -(x-5)(x+2)$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、6",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "提負公因數與完全平方因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $-75x^2 + 30x - 3 = $__________。"
+    }
+   ],
+   "answer": "$-3(5x-1)^2$",
+   "answerAnalysis": "$-3(25x^2 - 10x + 1) = -3(5x - 1)^2$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、7",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "平方差公式綜合因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $(x + 3)^2 - (3x + 1)^2 = $__________。"
+    }
+   ],
+   "answer": "$-8(x+1)(x-1)$",
+   "answerAnalysis": "$[(x+3)+(3x+1)][(x+3)-(3x+1)] = (4x+4)(-2x+2) = -8(x+1)(x-1)$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、8",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "利用查表估計平方根範圍整數部分。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "設 $n$ 為正整數，若 $n < \\sqrt{1900} < n + 1$，利用乘方表求 $n = $__________。"
+    }
+   ],
+   "answer": "43",
+   "answerAnalysis": "$\\sqrt{1900} = 10\\sqrt{19}$。查表 $4.35^2 = 18.9225 < 19 < 19.0096 = 4.36^2$，故 $43.5 < \\sqrt{1900} < 43.6$，$n = 43$。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、9",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "連續直角三角形畢氏定理數線作圖。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "在數線上，$O$ 為原點，$A$ 點坐標為 2，且直角三角形 $OAB、OBC、OCD$ 中，高皆為 2。若旋轉落在數線上得點 $E$，則 $E$ 點坐標＝__________。"
+    }
+   ],
+   "answer": "4",
+   "answerAnalysis": "$\\overline{OD} = \\sqrt{2^2 + 2^2 + 2^2 + 2^2} = \\sqrt{16} = 4$。故 $E$ 點坐標為 4。"
+  },
+  {
+   "type": "fill",
+   "sourceNumber": "二、10",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "因式分解求長方形邊長。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知長方形的面積總和為 $ax + 4a + 8x + 2x^2$，若此長方形的長為 $x + 4$，試利用因式分解法求此長方形的寬＝__________。"
+    }
+   ],
+   "answer": "$2x+a$",
+   "answerAnalysis": "$ax + 4a + 8x + 2x^2 = a(x + 4) + 2x(x + 4) = (x + 4)(2x + a)$。寬為 $2x+a$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "三、1",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-1",
+   "unitIds": [
+    "nanyi-8-1-3-1"
+   ],
+   "unitAssignmentBasis": "十字交乘提公因式綜合因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $2(2x^2 - 13a) + (2a - 13)x$。"
+    }
+   ],
+   "answer": "$(x+a)(2x-13)",
+   "answerAnalysis": "$4x^2 + 2ax - 13x - 26a = 2x(2x+a) - 13(2x+a) = (x+a)(2x-13)$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "三、2",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-3-2",
+   "unitIds": [
+    "nanyi-8-1-3-2"
+   ],
+   "unitAssignmentBasis": "完全平方公式變形因式分解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "因式分解 $(2x - 1)^2 + 4(x + 3)(2x - 1) + 4(x + 3)^2$。"
+    }
+   ],
+   "answer": "$(4x+5)^2",
+   "answerAnalysis": "$[(2x-1) + 2(x+3)]^2 = (2x - 1 + 2x + 6)^2 = (4x + 5)^2$。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "三、3",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-3",
+   "unitIds": [
+    "nanyi-8-1-2-3"
+   ],
+   "unitAssignmentBasis": "點到直線最短距離畢氏定理與面積法應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "已知直線 $L$ 及 $P$ 點坐標為 $(-8, 6)$，求 $P$ 點至直線 $L$ 的最短距離。"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 180\"> <rect width=\"220\" height=\"180\" fill=\"#ffffff\"/> <!-- Point P(-8,6) and line L: y = -3/4 x or 4x+3y=0 --> <!-- Axes: origin at (130, 110) --> <line x1=\"20\" y1=\"110\" x2=\"200\" y2=\"110\" stroke=\"#333333\" stroke-width=\"1.5\"/> <line x1=\"130\" y1=\"170\" x2=\"130\" y2=\"20\" stroke=\"#333333\" stroke-width=\"1.5\"/> <text x=\"195\" y=\"105\" font-size=\"11\">x</text> <text x=\"135\" y=\"25\" font-size=\"11\">y</text> <!-- Line L --> <line x1=\"40\" y1=\"40\" x2=\"190\" y2=\"155\" stroke=\"#1976d2\" stroke-width=\"2\"/> <text x=\"195\" y=\"155\" font-size=\"12\" font-weight=\"bold\" fill=\"#1976d2\">L</text> <!-- P(-8, 6): scaled -> x = 130 - 8*8 = 66, y = 110 - 6*8 = 62 --> <circle cx=\"66\" cy=\"62\" r=\"4\" fill=\"#d32f2f\"/><text x=\"50\" y=\"55\" font-size=\"12\" font-weight=\"bold\" fill=\"#d32f2f\">P(-8,6)</text> <line x1=\"66\" y1=\"62\" x2=\"100\" y2=\"86\" stroke=\"#d32f2f\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\"/> </svg>"
+    }
+   ],
+   "answer": "9.6",
+   "answerAnalysis": "依題意水平線與鉛直線交點構造直角三角形，求得最短距離為 9.6。"
+  },
+  {
+   "type": "written",
+   "sourceNumber": "三、4",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-2-1",
+   "unitIds": [
+    "nanyi-8-1-2-1"
+   ],
+   "unitAssignmentBasis": "平方根小數部分與倒數整數部分求解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "$\\sqrt{11}$ 的小數部分為 $a$，$\\dfrac{1}{a}$ 的整數部分為 $b$，則 $b = $？"
+    }
+   ],
+   "answer": "3",
+   "answerAnalysis": "$3 < \\sqrt{11} < 4$，故整數部分為 3，小數部分 $a = \\sqrt{11}-3$。$\\dfrac{1}{a} = \\dfrac{1}{\\sqrt{11}-3} = \\dfrac{\\sqrt{11}+3}{2} \\fallingdotseq \\dfrac{3.316+3}{2} = 3.158$。整數部分 $b = 3$。"
+  }
+ ]
+}

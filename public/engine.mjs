@@ -128,11 +128,21 @@ function unitSelection(pool,filters,counts,target,total,random){
  const problem=()=>new Error('目前單元配比與題型題數無法同時滿足；請調整單元比例、減少題數或放寬來源。');
  const preferred=typeLevelPlan(stock,counts,target,total);if(!preferred)throw problem();
  const buckets=units.map(unit=>TYPES.map(type=>LEVELS.map(level=>shuffle(activePool.filter(q=>q.primaryUnitId===unit.key&&q.type===type&&q.difficulty===level),random))));
+ // Besides the hard unit/type/difficulty margins, every question type is spread over the chosen units in proportion to
+ // the unit weights (e.g. four equal units: each type is split four ways). Without this, one type could take all of
+ // its questions from a single unit (all multiple-choice from 2-2) while another type made up the other units' share.
+ // Each extra question of a type in a unit costs the marginal increase of its squared distance from that unit's ideal
+ // share, so the cheapest flow is the most even split that the stock allows.
  function select(matrix,overflow=false){
-  const net=network(),source=net.node(),sink=net.node(),types=TYPES.map(()=>net.node()),cells=TYPES.map(()=>LEVELS.map(()=>net.node())),used=[];
-  types.forEach((tn,t)=>{net.edge(tn,sink,Number(counts[TYPES[t]]));cells[t].forEach((cn,l)=>{net.edge(cn,tn,matrix[t][l]);if(overflow)net.edge(cn,tn,total,1);});});
-  units.forEach((unit,u)=>{const un=net.node();net.edge(source,un,unit.count);buckets[u].forEach((row,t)=>row.forEach((items,l)=>{if(items.length)used.push({items,edge:net.edge(un,cells[t][l],items.length)});}));});
-  const flow=overflow?net.minCost(source,sink,total):net.maxFlow(source,sink,total);
+  const net=network(),source=net.node(),sink=net.node(),types=TYPES.map(()=>net.node()),cells=TYPES.map(()=>LEVELS.map(()=>net.node())),used=[],BALANCE=1000,BASE=400000,OVERFLOW=1e9;
+  types.forEach((tn,t)=>{net.edge(tn,sink,Number(counts[TYPES[t]]));cells[t].forEach((cn,l)=>{net.edge(cn,tn,matrix[t][l]);if(overflow)net.edge(cn,tn,total,OVERFLOW);});});
+  units.forEach((unit,u)=>{const un=net.node();net.edge(source,un,unit.count);TYPES.forEach((type,t)=>{
+   const stockOfType=buckets[u][t].reduce((n,items)=>n+items.length,0);if(!stockOfType)return;
+   const slot=net.node(),want=Number(counts[type]),ideal=total?want*unit.count/total:0;
+   for(let k=1;k<=Math.min(stockOfType,want,unit.count);k++)net.edge(un,slot,1,Math.round((2*k-1-2*ideal)*BALANCE)+BASE);
+   buckets[u][t].forEach((items,l)=>{if(items.length)used.push({items,edge:net.edge(slot,cells[t][l],items.length)});});
+  });});
+  const flow=net.minCost(source,sink,total);
   return flow===total?used.flatMap(b=>b.items.slice(0,b.edge.initial-b.edge.cap)):null;
  }
  let selected=select(preferred,true);if(!selected)throw problem();

@@ -1,0 +1,738 @@
+{
+ "paperId": "metro-new_taipei-cc4c65c09802f6c3",
+ "sourceSha256": "2b7faab36c9753f67cbf1a932c1ab591a90286a085da33b798dc464726f6f6a2",
+ "printedHeader": "新北市立新莊國民中學114學年度第1學期第3次段考8年級數學領域試題卷",
+ "printedSlot": {
+  "year": 114,
+  "semester": 1,
+  "grade": 8,
+  "exam": 3
+ },
+ "printedCounts": "選擇題21題，思考題4題，合計25題100分",
+ "visualReviewComplete": true,
+ "deliveryStatus": "complete",
+ "reviewNote": "新北市立新莊國中114學年度第一學期第三次段考八年級數學試題卷。含單選題21題與思考題4題，折線圖與情境圖全量純向量SVG重繪。",
+ "expectedTypes": {
+  "choice": 25,
+  "fill": 0,
+  "written": 0
+ },
+ "questions": [
+  {
+   "type": "choice",
+   "sourceNumber": "一、1",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "一元二次方程式的判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "1. 請問下列各式，何者為 $x$ 的一元二次方程式？ 甲：$x^2 - 4x$ 乙：$\\dfrac{1}{2}x^2 = 6$ 丙：$(2x - 1)^2 = -1$ 丁：$(2x + 3)^2 = 4(x - 3)^2$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲、乙",
+      "乙、丁",
+      "丙、丁",
+      "乙、丙"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "甲為二次多項式非方程式；丁展開後二次項相消為一次方程式；乙、丙皆為一元二次方程式。故選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、2",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "完全平方式的判別。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "2. 請判斷下列一元二次式中，何者是完全平方式？ 甲：$9x^2 - 6x + 1$ 乙：$x^2 - 2x - 1$ 丙：$x^2 - 4x + 4$ 丁：$x^2 - 9$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲、乙",
+      "丙、丁",
+      "甲、丙",
+      "以上皆是"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "甲 $=(3x-1)^2$；丙 $=(x-2)^2$ 皆為完全平方式。故選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、3",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "一元二次方程式應用問題：年齡平方和。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "3. 阿德家有三個兒子，已知三人的年齡為三個連續奇數，且年齡的平方和為 515，求三人的年齡和？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "35",
+      "37",
+      "39",
+      "45"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "設三人為 $2k-1, 2k+1, 2k+3$，平方和 $12k^2+12k+11=515 \\implies k=6$。三人為 11, 13, 15，和為 39。故選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、4",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "利用根求係數與另一解。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "4. 若 $x$ 的一元二次方程式 $(x + 2)(kx - 3) = 9$ 有一根是 1，請問另一解為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$\\dfrac{5}{2}$",
+      "$-\\dfrac{5}{2}$",
+      "$\\dfrac{2}{5}$",
+      "$-\\dfrac{2}{5}$"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "以 $x=1$ 代入得 $3(k-3)=9 \\implies k=6$。原式 $(x+2)(6x-3)=9 \\implies 2x^2+3x-5=0 \\implies (x-1)(2x+5)=0$，另一解為 $-\\dfrac{5}{2}$。故選(B)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、5",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "由兩根反求方程式係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "5. 若 $x$ 的一元二次方程式 $3x^2 - ax + b = 0$ 的兩個解為 1 和 $-2$，則 $a + b$ 的值為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$-12$",
+      "$-9$",
+      "0",
+      "$-3$"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "方程式為 $3(x-1)(x+2) = 3x^2+3x-6=0 \\implies a=-3, b=-6$，$a+b = -9$。故選(B)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、6",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "配成完全平方式的係數條件。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "6. 若 $x$ 的一元二次式 $4x^2 + nx + 25$ 可以配成完全平方式，那麼有關 $x$ 項係數 $n$ 值，可以為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$n = -20$",
+      "$n = 10$",
+      "$n = 40$",
+      "以上皆非"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "$4x^2+nx+25=(2x\\pm 5)^2 \\implies n=\\pm 20$。選項中 $n=-20$ 符合。故選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、7",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "解方程式除以包含未知數式子之迷思概念。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "7. 解一元二次方程式 $(2x - 1)(x - 5) = -4(2x - 1)^2$ 的步驟如下： 第一步：等號兩邊同除以 $(2x - 1)$，得 $(x - 5) = -4(2x - 1)$ 第二步：等號右邊去括號，得 $x - 5 = -8x + 4$ 第三步：利用移項化簡，得 $x = 1$ 試問哪個步驟開始發生錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "第一步",
+      "第二步",
+      "第三步",
+      "以上步驟都正確"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "第一步等號兩邊同除以 $(2x-1)$ 會遺漏 $2x-1=0$ 的解 $x=1/2$。故選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、8",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "利用配方法求解一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "8. 已知方程式 $x^2 - 7225 = 0$ 的兩根為 $\\pm 85$，則下列何者可為方程式 $x^2 - 10x - 7200 = 0$ 的解？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x = -90$",
+      "$x = -85$",
+      "$x = -80$",
+      "$x = 80$"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "$x^2-10x-7200=0 \\implies (x-5)^2 = 7225 = 85^2 \\implies x-5 = \\pm 85 \\implies x=90$ 或 $-80$。故選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、9",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-5-1",
+   "unitIds": [
+    "nanyi-8-1-5-1"
+   ],
+   "unitAssignmentBasis": "累積相對次數分配表讀取與計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "9. 右表為 8 年 35 班學生身高相對累積次數分配表，因為不小心弄髒表中部份數據，已知 8 年 35 班共有 40 位學生，請問 8 年 35 班同學中，身高在 $155\\sim 165$ 公分區間有多少人？ 身高 140～145：5% 身高 145～150：20% 身高 150～155：45% 身高 155～160：(污損) 身高 160～165：90% 身高 165～170：97.5% 身高 170～175：100%"
+    },
+    {
+     "type": "options",
+     "items": [
+      "12 人",
+      "16 人",
+      "18 人",
+      "22 人"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "165公分以下累積 90%，155公分以下累積 45%，區間百分比為 $90\\% - 45\\% = 45\\%$。人數為 $40 \\times 45\\% = 18$ 人。故選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、10",
+   "page": 1,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "平方根概念解一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "10. 請問一元二次方程式 $-9(2x - 1)^2 = -1$ 的解可以為何？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "無解",
+      "$x = \\dfrac{1}{3}$",
+      "$x = -\\dfrac{8}{3}$",
+      "$x = -\\dfrac{1}{3}$"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "$(2x-1)^2 = \\dfrac{1}{9} \\implies 2x-1 = \\pm \\dfrac{1}{3} \\implies x = \\dfrac{2}{3}$ 或 $\\dfrac{1}{3}$。故選(B)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、11",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "一元二次方程式應用問題：年份計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "11. 曉諭出生於西元 1975 年，經過了 $x + 5$ 年，正好是西元 $x^2$ 年，試問 $x$ 為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x = 45$",
+      "$x = 46$",
+      "$x = 48$",
+      "$x = 50$"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "$1975 + x + 5 = x^2 \\implies x^2 - x - 1980 = 0 \\implies (x-45)(x+44) = 0$，取正數 $x=45$。故選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、12",
+   "page": 1,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "一元二次方程式判別式條件。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "12. 若 $x$ 的一元二次方程式 $x^2 + mx + 25 = 0$ 有解，則 $m$ 的值不可能為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$m = 12$",
+      "$m = -11$",
+      "$m = 10$",
+      "$m = 9$"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "有解條件為判別式 $D = m^2 - 4(1)(25) \\ge 0 \\implies m^2 \\ge 100 \\implies |m| \\ge 10$。當 $m=9$ 時 $m^2 = 81 < 100$ 無解。故選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、13",
+   "page": 2,
+   "difficulty": "hard",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "一元二次方程式生活應用：果醬定價與營收。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "13. 阿杰參加某果園的「橘子採集一日體驗營」。當天，他們總共採了 1200 顆橘子，經過篩選後，其中有 25% 因外觀瑕疵，果園將這些外觀瑕疵的橘子製作成手工果醬進行義賣，已知每 5 顆外觀瑕疵的橘子可以製作成 1 罐手工果醬，每罐售價為 150 元，則可全部賣出；若手工果醬售價每提高 10 元，則會少賣 2 罐。此次義賣希望獲得 10120 元的收入，請問此時每罐手工果醬的售價可為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "售價 240 元",
+      "售價 230 元",
+      "售價 210 元",
+      "無解"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "瑕疵橘子 $1200 \\times 25\\% = 300$ 顆，可做 $300/5 = 60$ 罐。設提高 $10x$ 元，售價 $150+10x$，賣出 $60-2x$ 罐。$(150+10x)(60-2x) = 10120 \\implies x^2-15x+56=0 \\implies x=7$ 或 $8$。售價為 220 或 230 元。故選(B)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、14",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "判別式與根的性質判斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "14. 利用判別式判斷下列各 $x$ 的一元二次方程式之根的情形，何者錯誤？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x^2 + 2x + 1 = 0$ 兩根相等",
+      "$-2x^2 - x + 5 = 0$ 兩根相異",
+      "$2x^2 + 10x + 25 = 0$ 無解",
+      "$x^2 + 10x - 25 = 0$ 有重根"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "$x^2+10x-25=0$ 之判別式 $D = 10^2 - 4(1)(-25) = 200 > 0$，應為兩相異根，非重根。故選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、15",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-5-1",
+   "unitIds": [
+    "nanyi-8-1-5-1"
+   ],
+   "unitAssignmentBasis": "次數分配折線圖判讀與百分比計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "15. 阿丁將班上同學數學期末考分數的資料，以 10 分為一組製作成次數分配折線圖，如圖(一)所示。若 60 分（含）以上為及格，請根據右圖，判斷下列哪一個敘述是錯誤的？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\"> <rect width=\"500\" height=\"300\" fill=\"#ffffff\"/> <text x=\"250\" y=\"30\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000000\">8年35班數學期末考分數次數分配折線圖</text> <text x=\"35\" y=\"55\" font-size=\"13\" text-anchor=\"middle\" fill=\"#000000\">次數(人)</text> <text x=\"465\" y=\"255\" font-size=\"13\" text-anchor=\"middle\" fill=\"#000000\">分數(分)</text> <line x1=\"60\" y1=\"240\" x2=\"450\" y2=\"240\" stroke=\"#000000\" stroke-width=\"2\"/> <line x1=\"60\" y1=\"240\" x2=\"60\" y2=\"60\" stroke=\"#000000\" stroke-width=\"2\"/> <line x1=\"60\" y1=\"214\" x2=\"450\" y2=\"214\" stroke=\"#e0e0e0\" stroke-width=\"1\"/><text x=\"50\" y=\"218\" font-size=\"11\" text-anchor=\"end\" fill=\"#666666\">2</text> <line x1=\"60\" y1=\"189\" x2=\"450\" y2=\"189\" stroke=\"#e0e0e0\" stroke-width=\"1\"/><text x=\"50\" y=\"193\" font-size=\"11\" text-anchor=\"end\" fill=\"#666666\">4</text> <line x1=\"60\" y1=\"163\" x2=\"450\" y2=\"163\" stroke=\"#e0e0e0\" stroke-width=\"1\"/><text x=\"50\" y=\"167\" font-size=\"11\" text-anchor=\"end\" fill=\"#666666\">6</text> <line x1=\"60\" y1=\"137\" x2=\"450\" y2=\"137\" stroke=\"#e0e0e0\" stroke-width=\"1\"/><text x=\"50\" y=\"141\" font-size=\"11\" text-anchor=\"end\" fill=\"#666666\">8</text> <line x1=\"60\" y1=\"111\" x2=\"450\" y2=\"111\" stroke=\"#e0e0e0\" stroke-width=\"1\"/><text x=\"50\" y=\"115\" font-size=\"11\" text-anchor=\"end\" fill=\"#666666\">10</text> <line x1=\"60\" y1=\"86\" x2=\"450\" y2=\"86\" stroke=\"#e0e0e0\" stroke-width=\"1\"/><text x=\"50\" y=\"90\" font-size=\"11\" text-anchor=\"end\" fill=\"#666666\">12</text> <line x1=\"60\" y1=\"60\" x2=\"450\" y2=\"60\" stroke=\"#e0e0e0\" stroke-width=\"1\"/><text x=\"50\" y=\"64\" font-size=\"11\" text-anchor=\"end\" fill=\"#666666\">14</text> <line x1=\"100\" y1=\"240\" x2=\"100\" y2=\"245\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"100\" y=\"260\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">40</text> <line x1=\"150\" y1=\"240\" x2=\"150\" y2=\"245\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"150\" y=\"260\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">50</text> <line x1=\"200\" y1=\"240\" x2=\"200\" y2=\"245\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"200\" y=\"260\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">60</text> <line x1=\"250\" y1=\"240\" x2=\"250\" y2=\"245\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"250\" y=\"260\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">70</text> <line x1=\"300\" y1=\"240\" x2=\"300\" y2=\"245\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"300\" y=\"260\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">80</text> <line x1=\"350\" y1=\"240\" x2=\"350\" y2=\"245\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"350\" y=\"260\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">90</text> <line x1=\"400\" y1=\"240\" x2=\"400\" y2=\"245\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"400\" y=\"260\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">100</text> <polyline points=\"125,201 175,176 225,111 275,86 325,163 375,189\" fill=\"none\" stroke=\"#3366cc\" stroke-width=\"3\"/> <circle cx=\"125\" cy=\"201\" r=\"4\" fill=\"#3366cc\"/><text x=\"125\" y=\"194\" font-size=\"11\" text-anchor=\"middle\" fill=\"#3366cc\">3</text> <circle cx=\"175\" cy=\"176\" r=\"4\" fill=\"#3366cc\"/><text x=\"175\" y=\"169\" font-size=\"11\" text-anchor=\"middle\" fill=\"#3366cc\">5</text> <circle cx=\"225\" cy=\"111\" r=\"4\" fill=\"#3366cc\"/><text x=\"225\" y=\"104\" font-size=\"11\" text-anchor=\"middle\" fill=\"#3366cc\">10</text> <circle cx=\"275\" cy=\"86\" r=\"4\" fill=\"#3366cc\"/><text x=\"275\" y=\"79\" font-size=\"11\" text-anchor=\"middle\" fill=\"#3366cc\">12</text> <circle cx=\"325\" cy=\"163\" r=\"4\" fill=\"#3366cc\"/><text x=\"325\" y=\"156\" font-size=\"11\" text-anchor=\"middle\" fill=\"#3366cc\">6</text> <circle cx=\"375\" cy=\"189\" r=\"4\" fill=\"#3366cc\"/><text x=\"375\" y=\"182\" font-size=\"11\" text-anchor=\"middle\" fill=\"#3366cc\">4</text> <text x=\"250\" y=\"290\" font-size=\"13\" text-anchor=\"middle\" fill=\"#000000\">圖(一)</text> </svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "全班共 40 人。",
+      "不及格之人數佔全班的 20%。",
+      "在 80 分以上的人數佔全班的 25%。",
+      "在 50～70 分之間的人數佔全班的 37.25%。"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "在 50～70 分的人數為 5 + 10 = 15 人，佔 $15 / 40 = 37.5\\%$，非 37.25%。故選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、16",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "公式解逆推係數。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "16. 以公式法解 $x$ 的一元二次方程式 $x^2 + ax - 1 = 0$，可得 $x = \\dfrac{1 \\pm \\sqrt{5}}{2}$，則 $a$ 值為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$a = 0$",
+      "$a = 1$",
+      "$a = -1$",
+      "$a = -2$"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "公式解為 $\\dfrac{-a \\pm \\sqrt{a^2+4}}{2}$，比對分子得 $-a = 1 \\implies a = -1$。故選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、17",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "一元二次方程式幾何應用：長方體體積變化。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "17. 有一個邊長 10 公分的正方體，將此正方體的長增加 $x$ 公分，寬減少 $x$ 公分，高不變，形成一個長方體，且體積減少 40 立方公分，則長方體的長與寬分別為多少公分？（長 $\\ge$ 寬）"
+    },
+    {
+     "type": "options",
+     "items": [
+      "12、8",
+      "10.5、9.5",
+      "11、9",
+      "13、7"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "原體積 $10^3 = 1000$。新體積 $(10+x)(10-x)(10) = 10(100-x^2) = 1000 - 10x^2$。減少 $10x^2 = 40 \\implies x=2$。長為 $10+2=12$，寬為 $10-2=8$。故選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、18",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "一元二次方程式幾何應用：道路面積與剩餘草地面積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "18. 右圖(二)為一長方形的草地，長為 20 公尺，寬為 15 公尺。今在其內部開闢三條等寬且道路兩邊平行的雙十字形道路（如右圖所示），為使得剩餘的草地面積是 208 平方公尺，請問雙十字道路的寬需為多少公尺？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 350 240\"> <rect width=\"350\" height=\"240\" fill=\"#ffffff\"/> <rect x=\"40\" y=\"40\" width=\"240\" height=\"150\" fill=\"#c8e6c9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/> <rect x=\"75\" y=\"40\" width=\"25\" height=\"150\" fill=\"#757575\" stroke=\"none\"/> <rect x=\"175\" y=\"40\" width=\"25\" height=\"150\" fill=\"#757575\" stroke=\"none\"/> <rect x=\"40\" y=\"100\" width=\"240\" height=\"25\" fill=\"#757575\" stroke=\"none\"/> <rect x=\"40\" y=\"40\" width=\"240\" height=\"150\" fill=\"none\" stroke=\"#2e7d32\" stroke-width=\"2\"/> <path d=\"M 40,30 Q 160,10 280,30\" fill=\"none\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/> <text x=\"160\" y=\"20\" font-size=\"15\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000000\">20</text> <path d=\"M 290,40 Q 315,115 290,190\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\"/> <text x=\"315\" y=\"120\" font-size=\"15\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000000\">15</text> <text x=\"160\" y=\"225\" font-size=\"13\" text-anchor=\"middle\" fill=\"#000000\">圖(二)</text> </svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "23 公尺",
+      "3 公尺",
+      "2 公尺",
+      "1 公尺"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "將草地平移拼合，長為 $20-2x$，寬為 $15-x$。$(20-2x)(15-x) = 208 \\implies x^2-25x+46=0 \\implies (x-2)(x-23)=0$。路寬需小於 15，故 $x=2$ 公尺。故選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、19",
+   "page": 2,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-5-1",
+   "unitIds": [
+    "nanyi-8-1-5-1"
+   ],
+   "unitAssignmentBasis": "累積相對次數分配折線圖比較與人數計算。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "19. 右圖(三)是甲、乙兩班學生在元旦連假三天中，閱讀時數的累積相對次數分配折線圖，已知甲、乙兩班學生各有 45 人、38 人，試問哪一班閱讀時數在 10 小時以上（含 10 小時）的學生人數比較多？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 300\"> <rect width=\"460\" height=\"300\" fill=\"#fffde7\"/> <text x=\"210\" y=\"25\" font-size=\"15\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000000\">(圖三)</text> <text x=\"45\" y=\"45\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">累積相對次數(%)</text> <text x=\"370\" y=\"270\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">時數(小時)</text> <line x1=\"65\" y1=\"240\" x2=\"390\" y2=\"240\" stroke=\"#000000\" stroke-width=\"1.5\"/> <line x1=\"65\" y1=\"240\" x2=\"65\" y2=\"50\" stroke=\"#000000\" stroke-width=\"1.5\"/> <text x=\"55\" y=\"244\" font-size=\"10\" text-anchor=\"end\">0</text> <text x=\"55\" y=\"206\" font-size=\"10\" text-anchor=\"end\">20</text> <text x=\"55\" y=\"168\" font-size=\"10\" text-anchor=\"end\">40</text> <text x=\"55\" y=\"130\" font-size=\"10\" text-anchor=\"end\">60</text> <text x=\"55\" y=\"92\" font-size=\"10\" text-anchor=\"end\">80</text> <text x=\"55\" y=\"54\" font-size=\"10\" text-anchor=\"end\">100</text> <line x1=\"105\" y1=\"240\" x2=\"105\" y2=\"245\" stroke=\"#000000\"/><text x=\"105\" y=\"256\" font-size=\"11\" text-anchor=\"middle\">2</text> <line x1=\"145\" y1=\"240\" x2=\"145\" y2=\"245\" stroke=\"#000000\"/><text x=\"145\" y=\"256\" font-size=\"11\" text-anchor=\"middle\">4</text> <line x1=\"185\" y1=\"240\" x2=\"185\" y2=\"245\" stroke=\"#000000\"/><text x=\"185\" y=\"256\" font-size=\"11\" text-anchor=\"middle\">6</text> <line x1=\"225\" y1=\"240\" x2=\"225\" y2=\"245\" stroke=\"#000000\"/><text x=\"225\" y=\"256\" font-size=\"11\" text-anchor=\"middle\">8</text> <line x1=\"265\" y1=\"240\" x2=\"265\" y2=\"245\" stroke=\"#000000\"/><text x=\"265\" y=\"256\" font-size=\"11\" text-anchor=\"middle\">10</text> <line x1=\"305\" y1=\"240\" x2=\"305\" y2=\"245\" stroke=\"#000000\"/><text x=\"305\" y=\"256\" font-size=\"11\" text-anchor=\"middle\">12</text> <line x1=\"345\" y1=\"240\" x2=\"345\" y2=\"245\" stroke=\"#000000\"/><text x=\"345\" y=\"256\" font-size=\"11\" text-anchor=\"middle\">14</text> <line x1=\"385\" y1=\"240\" x2=\"385\" y2=\"245\" stroke=\"#000000\"/><text x=\"385\" y=\"256\" font-size=\"11\" text-anchor=\"middle\">16</text> <polyline points=\"105,230.5 145,216.25 185,202 225,164 265,126 305,88 345,59.5 385,50\" fill=\"none\" stroke=\"#0288d1\" stroke-width=\"2\"/> <polyline points=\"105,235.25 145,221 185,211.5 225,183 265,145 305,78.5 345,69 385,50\" fill=\"none\" stroke=\"#d32f2f\" stroke-dasharray=\"4,3\" stroke-width=\"2\"/> <line x1=\"410\" y1=\"100\" x2=\"435\" y2=\"100\" stroke=\"#0288d1\" stroke-width=\"2\"/> <circle cx=\"422\" cy=\"100\" r=\"3\" fill=\"#0288d1\"/> <text x=\"440\" y=\"104\" font-size=\"11\" fill=\"#0288d1\">甲班</text> <line x1=\"410\" y1=\"130\" x2=\"435\" y2=\"130\" stroke=\"#d32f2f\" stroke-dasharray=\"4,3\" stroke-width=\"2\"/> <circle cx=\"422\" cy=\"130\" r=\"3\" fill=\"#d32f2f\"/> <text x=\"440\" y=\"134\" font-size=\"11\" fill=\"#d32f2f\">乙班</text> </svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲班",
+      "乙班",
+      "一樣多",
+      "以上皆非"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "甲班 10 小時以上佔 $100\\% - 60\\% = 40\\%$，人數為 $45 \\times 40\\% = 18$ 人；乙班 10 小時以上佔 $100\\% - 50\\% = 50\\%$，人數為 $38 \\times 50\\% = 19$ 人。$19 > 18$，故乙班較多。選(B)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、20",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "乘法公式解一元二次方程式。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "20. 一元二次方程式 $-\\dfrac{1}{2}x^2 + 4x - 8 = 0$ 的解為下列何者？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "$x = 4$（重根）",
+      "$x = -4$（重根）",
+      "$x = \\pm 4$",
+      "無解"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "同乘以 $-2$ 得 $x^2-8x+16=0 \\implies (x-4)^2=0 \\implies x=4$（重根）。故選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "一、21",
+   "page": 2,
+   "difficulty": "easy",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "根與係數關係或因式分解求兩根和與積。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "21. 解一元二次方程式 $x^2 + 3x - 1 = 0$，得兩根為 $a$ 和 $b$，若 $a + b = m$，$ab = n$，請問 $m + n$ 為多少？"
+    },
+    {
+     "type": "options",
+     "items": [
+      "4",
+      "2",
+      "$-4$",
+      "無解"
+     ]
+    }
+   ],
+   "answer": "C",
+   "answerAnalysis": "兩根和 $m = a+b = -3$，兩根積 $n = ab = -1$，$m+n = -3 + (-1) = -4$。故選(C)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "二、22",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "一元二次方程式觀念是非判別。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "22. 請判斷以下甲、乙、丙、丁、戊五個敘述中，何者為正確？ 甲：有兩個數 $A$、$B$，若 $A \\times B = 0$，則必 $A = 0$ 且 $B = 0$。 乙：方程式 $(x + 5)^2 = (x + 5)(7x - 1)$ 有唯一解為 1。 丙：$x$ 的一元二次方程式 $x^2 + bx + c = 0$ 中，當 $b^2 - 4c = 0$ 時，此方程式有重根。 丁：若方程式 $(2x - 5)(x + 2) = 1$，則 $2x - 5 = 1$ 或 $x + 2 = 1$。 戊：一元二次方程式 $(x + 3)(2x - 1) = 9$ 可以使用十字交乘法求解 $x$。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲、丁、戊",
+      "甲、丙、丁",
+      "乙、丙、戊",
+      "丙、戊"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "甲應為 $A=0$ 或 $B=0$；乙有兩解 $x=-5$ 或 $1$；丁乘積為 1 不能直接拆分；丙判別式為 0 有重根正確；戊展開化簡為 $2x^2+5x-12=(2x-3)(x+4)=0$ 可十字交乘正確。故選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "二、23",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-1",
+   "unitIds": [
+    "nanyi-8-1-4-1"
+   ],
+   "unitAssignmentBasis": "方程式的解代入驗證。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "23. 下列各一元二次方程式，何者有 $x = -3$ 的解？ 甲：$(x + 3)(x - 1) = 6 + 2x$ 乙：$(x + 2)^2 - (x + 2)(3x + 8) = 0$ 丙：$\\dfrac{x(x + 5)}{4} - 3 = \\dfrac{3(x - 3)}{2}$ 丁：$-(2x + 1)^2 + 25 = 0$"
+    },
+    {
+     "type": "options",
+     "items": [
+      "甲、乙、丁",
+      "甲、丙、丁",
+      "乙、丙、丁",
+      "甲、乙、丙"
+     ]
+    }
+   ],
+   "answer": "A",
+   "answerAnalysis": "將 $x=-3$ 代入：甲左邊 0，右邊 $6-6=0$ 符合；乙 $(-1)^2 - (-1)(-1) = 0$ 符合；丙左邊 $-9/2$，右邊 $-9$ 不等；丁 $-(-5)^2+25=0$ 符合。故甲、乙、丁正確，選(A)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "二、24",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-2",
+   "unitIds": [
+    "nanyi-8-1-4-2"
+   ],
+   "unitAssignmentBasis": "一元二次方程式不同解法錯誤診斷。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "24. 小康、阿德、小奕、小妍四位同學這天放學相約研討如何解一元二次方程式的數學問題，在以下的解題過程中，請觀察四人的解題結果後，選出以下正確的選項。 小康解 $(x-1)^2 = 9$：$(x-1)^2 - 3^2 = 0 \\implies (x+2)(x-4)=0 \\implies x=-2$ 或 $x=4$。 阿德解 $(x-1)^2 = 9$：$x^2-2x-8=0 \\implies (x-4)(x+2)=0 \\implies x=4$ 或 $x=-2$。 小奕解 $x^2+3x-1=0$：$x^2+3x+3^2 = 1+3^2 \\implies (x+3)^2=10 \\implies x=-3\\pm\\sqrt{10}$。 小妍解 $x^2+3x-1=0$：$x = \\dfrac{-3\\pm\\sqrt{3^2 - 4\\times 1\\times 1}}{2\\times 1} = \\dfrac{-3\\pm\\sqrt{5}}{2}$。"
+    },
+    {
+     "type": "options",
+     "items": [
+      "小康錯誤",
+      "阿德錯誤",
+      "小奕正確",
+      "小妍錯誤"
+     ]
+    }
+   ],
+   "answer": "D",
+   "answerAnalysis": "小妍在公式解中 $c=-1$，根號內應為 $3^2 - 4(1)(-1) = 9+4=13$，小妍誤算為 $9-4=5$，故小妍錯誤。選(D)。"
+  },
+  {
+   "type": "choice",
+   "sourceNumber": "二、25",
+   "page": 3,
+   "difficulty": "medium",
+   "primaryUnitId": "nanyi-8-1-4-3",
+   "unitIds": [
+    "nanyi-8-1-4-3"
+   ],
+   "unitAssignmentBasis": "一元二次方程式幾何極值與整數解生活應用。",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "25. 學校要在操場舉辦戶外音樂會，準備用圍布擋風。主辦同學以右圖方式設計圍布： （1）中間圍一塊正方形主幕布，主幕布邊長需為整數。 （2）兩側各加一塊長方形側布（側布寬度與中間正方形主幕布的邊長相同，且側布長為寬的兩倍）。 如果本次提供使用的布料面積共有 85 平方公尺，假設主幕布每邊長為 $x$ 公尺，且依設計需求 $x$ 必須是整數，那麼主幕布邊長 $x$ 的最合理尺寸是多少公尺時，才能使所提供的布料浪費最少面積？"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 450 140\"> <rect width=\"450\" height=\"140\" fill=\"#ffffff\"/> <rect x=\"30\" y=\"35\" width=\"140\" height=\"70\" fill=\"#ffffff\" stroke=\"#000000\" stroke-width=\"2\"/> <text x=\"100\" y=\"75\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">側布</text> <rect x=\"170\" y=\"35\" width=\"70\" height=\"70\" fill=\"#ffffff\" stroke=\"#000000\" stroke-width=\"2\"/> <text x=\"205\" y=\"75\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">主幕布</text> <rect x=\"240\" y=\"35\" width=\"140\" height=\"70\" fill=\"#ffffff\" stroke=\"#000000\" stroke-width=\"2\"/> <text x=\"310\" y=\"75\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">側布</text> <path d=\"M 30,30 Q 100,15 170,30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\"/> <text x=\"100\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">2x公尺</text> <path d=\"M 170,30 Q 205,18 240,30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\"/> <text x=\"205\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">x公尺</text> <path d=\"M 240,30 Q 310,15 380,30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\"/> <text x=\"310\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">2x公尺</text> <path d=\"M 165,35 Q 155,70 165,105\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\"/> <text x=\"150\" y=\"74\" font-size=\"12\" text-anchor=\"middle\" fill=\"#000000\">x</text> </svg>"
+    },
+    {
+     "type": "options",
+     "items": [
+      "3 公尺",
+      "4 公尺",
+      "5 公尺",
+      "6 公尺"
+     ]
+    }
+   ],
+   "answer": "B",
+   "answerAnalysis": "總面積為 $2x \\cdot x + x^2 + 2x \\cdot x = 5x^2$。需 $5x^2 \\le 85 \\implies x^2 \\le 17$。整數 $x$ 最大可取 $4$，使用面積 $5(16) = 80$ 平方公尺，浪費 5 平方公尺最少。故選(B)。"
+  }
+ ]
+}
